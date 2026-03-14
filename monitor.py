@@ -182,7 +182,8 @@ def send_notification(new_entries):
     """E-Mail-Benachrichtigung bei neuen Funden."""
     email_to = os.environ.get("NOTIFY_EMAIL")
     smtp_server = os.environ.get("SMTP_SERVER", "smtp.gmail.com")
-    smtp_port = int(os.environ.get("SMTP_PORT", "587"))
+smtp_port_raw = os.environ.get("SMTP_PORT") or "587"
+    smtp_port = int(smtp_port_raw)
     smtp_user = os.environ.get("SMTP_USER")
     smtp_pass = os.environ.get("SMTP_PASS")
 
