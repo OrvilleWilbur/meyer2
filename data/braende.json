@@ -1,0 +1,36 @@
+{
+  "entries": [],
+  "seen_hashes": [],
+  "schema_version": "2.0",
+  "schema_info": {
+    "entry_fields": {
+      "datum": "TT.MM.JJJJ — Datum des Brandes",
+      "einrichtung": "Name des Krankenhauses/der Klinik",
+      "ort": "Stadt/Gemeinde",
+      "titel": "Titel der RSS-Meldung",
+      "zusammenfassung": "RSS-Snippet oder Kurzfassung",
+      "verletzte": "Aus Regex-Extraktion (Rohtext)",
+      "quelle": "RSS-Feed-Name",
+      "link": "URL der Originalmeldung",
+      "erfasst_am": "Timestamp der Ersterfassung (Crawler)",
+      "enrichment_status": "enriched | partial | failed | (leer = pending)",
+      "enriched_am": "Timestamp des Enrichment-Laufs",
+      "artikel_laenge": "Zeichenanzahl des extrahierten Volltexts",
+      "steckbrief": {
+        "einrichtung": "Name (LLM-extrahiert)",
+        "ort": "Stadt (LLM-extrahiert)",
+        "plz": "PLZ",
+        "bundesland": "Bundesland",
+        "datum": "TT.MM.JJJJ",
+        "brandursache": "Ursache oder 'unbekannt'",
+        "brandort": "Wo im Gebäude",
+        "verletzte": "Anzahl und Art",
+        "tote": "Anzahl oder 'keine'",
+        "evakuierung": "ja/nein/teilweise + Anzahl",
+        "sachschaden": "Beschreibung oder Summe",
+        "feuerwehr_einsatz": "Kurzbeschreibung",
+        "zusammenfassung": "2-3 Sätze sachlich"
+      }
+    }
+  }
+}

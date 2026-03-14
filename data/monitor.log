@@ -1,0 +1,14 @@
+[2026-03-13 15:49:19] === Monitor-Lauf gestartet ===
+[2026-03-13 15:49:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-13 15:49:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-13 15:49:19] Feed 'google_news_kh_brand': 0 Einträge
+[2026-03-13 15:49:19] Feed 'google_news_klinik_feuer': 0 Einträge
+[2026-03-13 15:49:19] Feed 'google_news_klinikbrand': 0 Einträge
+[2026-03-13 15:49:19] 0 relevante Treffer in Feeds
+[2026-03-13 15:49:19] Keine neuen Einträge
+[2026-03-13 15:49:19] === Monitor-Lauf beendet ===
+
+[2026-03-14 22:38:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-14 22:38:50] [enrich] ANTHROPIC_API_KEY nicht gesetzt — Enrichment übersprungen
+[2026-03-14 22:38:50] [enrich] === Enrichment-Lauf beendet (kein API-Key) ===
+
