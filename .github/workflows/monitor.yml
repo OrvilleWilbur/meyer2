@@ -37,7 +37,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: claude-haiku-4-5-20251001
-          MAX_ENRICH_PER_RUN: '5'
+          MAX_ENRICH_PER_RUN: '20'
         run: python enrich.py
 
       - name: Änderungen committen
