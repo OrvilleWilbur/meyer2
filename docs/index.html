@@ -5,46 +5,40 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>KH-Brand-Monitor</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --bg: #0a0a0f;
-  --bg-elevated: #111118;
-  --surface: #16161f;
-  --surface-hover: #1c1c28;
-  --glass: rgba(22,22,31,0.65);
-  --glass-border: rgba(255,255,255,0.06);
-  --glass-shine: rgba(255,255,255,0.03);
-  --border: #1f1f2e;
-  --border-light: #2a2a3d;
-  --text: #eaeaf0;
-  --text-secondary: #9999b0;
-  --text-muted: #666680;
-  --accent: #f06030;
-  --accent-light: #ff7a47;
-  --accent-glow: rgba(240,96,48,0.15);
-  --accent-glow-strong: rgba(240,96,48,0.3);
-  --green: #34d399;
-  --green-glow: rgba(52,211,153,0.12);
-  --yellow: #fbbf24;
-  --yellow-glow: rgba(251,191,36,0.12);
-  --red: #f87171;
-  --red-glow: rgba(248,113,113,0.12);
-  --blue: #60a5fa;
+  --bg: #fbfbfd;
+  --bg-secondary: #f5f5f7;
+  --surface: #ffffff;
+  --border: #d2d2d7;
+  --border-light: #e8e8ed;
+  --text: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --text-muted: #86868b;
+  --accent: #0071e3;
+  --accent-hover: #0077ed;
+  --green: #34c759;
+  --green-bg: #ecfdf3;
+  --yellow: #ff9f0a;
+  --yellow-bg: #fff8ec;
+  --red: #ff3b30;
+  --red-bg: #fef2f2;
+  --blue-bg: #eff6ff;
   --radius-sm: 8px;
   --radius-md: 12px;
   --radius-lg: 16px;
   --radius-xl: 20px;
-  --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
-  --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
-  --shadow-lg: 0 8px 32px rgba(0,0,0,0.5);
-  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.03);
+  --shadow-lg: 0 10px 25px rgba(0,0,0,0.06), 0 4px 10px rgba(0,0,0,0.04);
+  --transition: 0.2s ease;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -52,507 +46,435 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ── Scrollbar ── */
-::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
 
-/* ── Passwort-Overlay ── */
+/* ── Auth ── */
 #auth-overlay {
   position: fixed; inset: 0;
   background: var(--bg);
   display: flex; align-items: center; justify-content: center;
   z-index: 9999;
 }
-#auth-overlay::before {
-  content: '';
-  position: absolute; inset: 0;
-  background: radial-gradient(ellipse at 50% 30%, var(--accent-glow) 0%, transparent 60%);
-  pointer-events: none;
-}
 #auth-box {
-  background: var(--glass);
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
-  border: 1px solid var(--glass-border);
+  background: var(--surface);
   border-radius: var(--radius-xl);
   padding: 2.5rem;
   width: 380px;
   text-align: center;
-  position: relative;
-  box-shadow: var(--shadow-lg), inset 0 1px 0 var(--glass-shine);
+  box-shadow: var(--shadow-lg);
 }
 #auth-box h2 {
-  margin-bottom: 0.5rem; font-size: 1.8rem; font-weight: 700;
-  background: linear-gradient(135deg, var(--text) 0%, var(--text-secondary) 100%);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  font-size: 2rem; font-weight: 700; letter-spacing: -0.03em;
+  margin-bottom: 0.3rem; color: var(--text);
+}
+#auth-box .subtitle {
+  color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.5rem; font-weight: 400;
 }
 #auth-box input {
   width: 100%; padding: 0.75rem 1rem;
-  background: var(--bg); color: var(--text);
+  background: var(--bg-secondary); color: var(--text);
   border: 1px solid var(--border-light); border-radius: var(--radius-md);
   font-size: 0.95rem; margin-bottom: 1rem;
   font-family: inherit;
   transition: border-color var(--transition);
 }
-#auth-box input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+#auth-box input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.15); }
 #auth-box button {
   width: 100%; padding: 0.75rem;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-  color: #fff;
+  background: var(--accent); color: #fff;
   border: none; border-radius: var(--radius-md);
   font-size: 0.95rem; font-weight: 600; cursor: pointer;
   font-family: inherit;
-  transition: transform var(--transition), box-shadow var(--transition);
+  transition: background var(--transition);
 }
-#auth-box button:hover { transform: translateY(-1px); box-shadow: 0 4px 20px var(--accent-glow-strong); }
-#auth-box button:active { transform: translateY(0); }
+#auth-box button:hover { background: var(--accent-hover); }
 #auth-error { color: var(--red); font-size: 0.85rem; margin-top: 0.5rem; display: none; }
 
 /* ── Layout ── */
-#app { display: none; min-height: 100vh; }
+#app { display: none; min-height: 100vh; max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
 
 /* ── Header ── */
 header {
-  padding: 1.5rem 2rem 0;
-  display: flex; align-items: center; justify-content: space-between;
+  padding: 2rem 0 0.5rem;
+  display: flex; align-items: baseline; gap: 0.6rem;
 }
 header h1 {
-  font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em;
+  font-size: 2.5rem; font-weight: 800; letter-spacing: -0.04em;
+  color: var(--text);
 }
-header h1 .fire { font-size: 1.3rem; margin-right: 0.3rem; }
-header h1 .brand {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+header .sub {
+  color: var(--text-muted); font-weight: 400; font-size: 1rem;
 }
-header h1 .sub { color: var(--text-muted); font-weight: 400; font-size: 0.85rem; margin-left: 0.5rem; }
 
-/* ── Bento Stats ── */
-.bento-stats {
+/* ── Stats ── */
+.stats-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  padding: 1.25rem 2rem;
+  padding: 1.5rem 0;
 }
-.bento-card {
-  background: var(--glass);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border);
+.stat-card {
+  background: var(--surface);
   border-radius: var(--radius-lg);
-  padding: 1.2rem 1.4rem;
-  position: relative;
-  overflow: hidden;
-  transition: transform var(--transition), border-color var(--transition);
-  box-shadow: var(--shadow-sm), inset 0 1px 0 var(--glass-shine);
+  padding: 1.25rem 1.5rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-light);
+  transition: box-shadow var(--transition), transform var(--transition);
 }
-.bento-card:hover { transform: translateY(-2px); border-color: var(--border-light); }
-.bento-card::before {
-  content: '';
-  position: absolute; top: 0; right: 0;
-  width: 80px; height: 80px;
-  border-radius: 50%;
-  filter: blur(30px);
-  opacity: 0.4;
-  pointer-events: none;
+.stat-card:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+.stat-label {
+  font-size: 0.75rem; font-weight: 500; color: var(--text-muted);
+  text-transform: uppercase; letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
 }
-.bento-card:nth-child(1)::before { background: var(--accent); }
-.bento-card:nth-child(2)::before { background: var(--green); }
-.bento-card:nth-child(3)::before { background: var(--yellow); }
-.bento-card:nth-child(4)::before { background: var(--red); }
-.bento-label {
-  font-size: 0.7rem; font-weight: 600; text-transform: uppercase;
-  letter-spacing: 0.08em; color: var(--text-muted);
-  margin-bottom: 0.4rem;
+.stat-val {
+  font-size: 2.2rem; font-weight: 800; letter-spacing: -0.03em;
 }
-.bento-val {
-  font-size: 2rem; font-weight: 800; letter-spacing: -0.03em;
-  line-height: 1.1;
-}
-.bento-card:nth-child(1) .bento-val { color: var(--accent-light); }
-.bento-card:nth-child(2) .bento-val { color: var(--green); }
-.bento-card:nth-child(3) .bento-val { color: var(--yellow); }
-.bento-card:nth-child(4) .bento-val { color: var(--red); }
+.stat-card:nth-child(1) .stat-val { color: var(--text); }
+.stat-card:nth-child(2) .stat-val { color: var(--green); }
+.stat-card:nth-child(3) .stat-val { color: var(--yellow); }
+.stat-card:nth-child(4) .stat-val { color: var(--red); }
 
 /* ── Tabs ── */
 .tabs {
   display: flex; gap: 0.25rem;
-  padding: 0 2rem;
-  margin-bottom: 0.5rem;
+  border-bottom: 1px solid var(--border-light);
+  margin-bottom: 1rem;
 }
 .tab {
-  padding: 0.7rem 1.3rem; cursor: pointer;
+  padding: 0.75rem 1.25rem; cursor: pointer;
   color: var(--text-muted);
-  font-size: 0.85rem; font-weight: 500;
-  border-radius: var(--radius-sm);
+  font-size: 0.9rem; font-weight: 500;
+  border-bottom: 2px solid transparent;
   transition: all var(--transition);
-  position: relative;
+  margin-bottom: -1px;
 }
-.tab:hover { color: var(--text); background: var(--surface); }
+.tab:hover { color: var(--text); }
 .tab.active {
   color: var(--text);
-  background: var(--surface);
-  box-shadow: inset 0 0 0 1px var(--border);
-}
-.tab.active::after {
-  content: '';
-  position: absolute; bottom: -1px; left: 50%; transform: translateX(-50%);
-  width: 20px; height: 2px;
-  background: var(--accent);
-  border-radius: 1px;
+  border-bottom-color: var(--accent);
+  font-weight: 600;
 }
 
-/* ── Filter ── */
+/* ── Filters ── */
 .filters {
-  display: flex; gap: 0.6rem; padding: 0.75rem 2rem;
+  display: flex; gap: 0.6rem;
+  padding: 0.5rem 0 1rem;
   flex-wrap: wrap; align-items: center;
 }
-.filters select, .filters input {
+.filters select, .filters input[type="text"] {
   background: var(--surface); color: var(--text);
   border: 1px solid var(--border); border-radius: var(--radius-sm);
-  padding: 0.5rem 0.8rem; font-size: 0.8rem;
+  padding: 0.5rem 0.8rem; font-size: 0.85rem;
   font-family: inherit;
   transition: border-color var(--transition);
 }
 .filters select:focus, .filters input:focus {
-  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow);
+  outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.12);
 }
-.filters input { flex: 1; min-width: 200px; }
+.filters input[type="text"] { flex: 1; min-width: 200px; }
+.btn-csv {
+  background: var(--surface); color: var(--text-secondary);
+  border: 1px solid var(--border); border-radius: var(--radius-sm);
+  padding: 0.5rem 0.9rem; font-size: 0.85rem;
+  font-family: inherit; cursor: pointer;
+  white-space: nowrap; transition: all var(--transition);
+}
+.btn-csv:hover { background: var(--bg-secondary); color: var(--text); border-color: var(--text-muted); }
 
-/* ── Tabelle ── */
-.table-wrap {
-  padding: 0 2rem 2rem; overflow-x: auto;
-}
+/* ── Table ── */
+.table-wrap { padding-bottom: 2rem; overflow-x: auto; }
 .table-container {
-  background: var(--glass);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border);
+  background: var(--surface);
   border-radius: var(--radius-lg);
+  border: 1px solid var(--border-light);
   overflow: hidden;
-  box-shadow: var(--shadow-sm), inset 0 1px 0 var(--glass-shine);
+  box-shadow: var(--shadow-sm);
 }
-table {
-  width: 100%; border-collapse: collapse;
-  font-size: 0.82rem;
-}
+table { width: 100%; border-collapse: collapse; font-size: 0.87rem; }
 th {
-  background: var(--bg-elevated);
-  padding: 0.7rem 0.9rem;
+  background: var(--bg-secondary);
+  padding: 0.7rem 1rem;
   text-align: left;
   color: var(--text-muted);
-  font-weight: 600;
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  border-bottom: 1px solid var(--border);
+  font-weight: 600; font-size: 0.75rem;
+  text-transform: uppercase; letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--border-light);
   position: sticky; top: 0;
   cursor: pointer; user-select: none;
 }
 th:hover { color: var(--text-secondary); }
 td {
-  padding: 0.65rem 0.9rem;
-  border-bottom: 1px solid rgba(255,255,255,0.03);
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border-light);
   vertical-align: top;
 }
 tr { transition: background var(--transition); }
-tr:hover td { background: rgba(240,96,48,0.04); }
+tr:hover td { background: var(--bg-secondary); }
 tr:last-child td { border-bottom: none; }
 
 /* ── Badges ── */
 .badge {
   display: inline-flex; align-items: center;
-  padding: 0.2rem 0.55rem;
-  border-radius: 6px; font-size: 0.7rem; font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px; font-size: 0.72rem; font-weight: 600;
   position: relative; cursor: help;
-  letter-spacing: 0.02em;
 }
-.badge-enriched { background: var(--green-glow); color: var(--green); }
-.badge-partial { background: var(--yellow-glow); color: var(--yellow); }
-.badge-pending { background: rgba(100,100,140,0.12); color: var(--text-muted); }
-.badge-fp { background: var(--red-glow); color: var(--red); }
-.badge-failed { background: rgba(100,100,120,0.1); color: #888; }
+.badge-enriched { background: var(--green-bg); color: #15803d; }
+.badge-partial { background: var(--yellow-bg); color: #b45309; }
+.badge-pending { background: var(--bg-secondary); color: var(--text-muted); }
+.badge-fp { background: var(--red-bg); color: #dc2626; }
+.badge-failed { background: var(--bg-secondary); color: #9ca3af; }
 .tooltip {
   visibility: hidden; opacity: 0;
   position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
-  background: var(--surface); color: var(--text-secondary);
-  border: 1px solid var(--border-light);
-  padding: 0.5rem 0.7rem; border-radius: var(--radius-sm);
+  background: var(--text); color: #fff;
+  padding: 0.4rem 0.7rem; border-radius: 6px;
   font-size: 0.72rem; font-weight: 400; white-space: nowrap;
   z-index: 100; pointer-events: none;
   transition: opacity 0.15s;
-  box-shadow: var(--shadow-md);
 }
 .tooltip::after {
   content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
-  border: 5px solid transparent; border-top-color: var(--surface);
+  border: 5px solid transparent; border-top-color: var(--text);
 }
 .badge:hover .tooltip { visibility: visible; opacity: 1; }
 .sources-count {
-  display: inline-block; background: rgba(100,100,140,0.15);
+  display: inline-block; background: var(--bg-secondary);
   color: var(--text-muted); padding: 0.1rem 0.4rem;
   border-radius: 4px; font-size: 0.65rem; margin-left: 0.3rem;
 }
-.link-icon {
-  color: var(--accent); text-decoration: none;
-  transition: color var(--transition);
-}
-.link-icon:hover { color: var(--accent-light); }
+.link-icon { color: var(--accent); text-decoration: none; }
+.link-icon:hover { color: var(--accent-hover); }
 
-/* ── Nicht-Relevant Button ── */
+/* ── Nicht-Relevant ── */
 .btn-nr {
-  background: transparent; color: var(--text-muted);
-  border: 1px solid var(--border); border-radius: 6px;
-  padding: 0.2rem 0.55rem; font-size: 0.68rem; cursor: pointer;
+  background: var(--surface); color: var(--text-muted);
+  border: 1px solid var(--border); border-radius: 20px;
+  padding: 0.2rem 0.6rem; font-size: 0.72rem; cursor: pointer;
   white-space: nowrap; transition: all var(--transition);
   font-family: inherit;
 }
-.btn-nr:hover { background: var(--red-glow); color: var(--red); border-color: rgba(248,113,113,0.3); }
+.btn-nr:hover { background: var(--red-bg); color: var(--red); border-color: rgba(255,59,48,0.3); }
 .btn-nr:disabled { opacity: 0.3; cursor: not-allowed; }
 
-/* ── Detail-Modal ── */
+/* ── Modal ── */
 .modal-bg {
   position: fixed; inset: 0;
-  background: rgba(0,0,0,0.6);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
   display: none; align-items: center; justify-content: center;
   z-index: 1000;
-  animation: fadeIn 0.2s ease;
+  animation: fadeIn 0.15s ease;
 }
 .modal-bg.show { display: flex; }
 @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
 .modal {
-  background: var(--glass);
-  backdrop-filter: blur(40px);
-  -webkit-backdrop-filter: blur(40px);
-  border: 1px solid var(--glass-border);
+  background: var(--surface);
   border-radius: var(--radius-xl);
   padding: 2rem;
   max-width: 700px; width: 90%;
   max-height: 80vh; overflow-y: auto;
-  box-shadow: var(--shadow-lg), inset 0 1px 0 var(--glass-shine);
-  animation: slideUp 0.25s ease;
+  box-shadow: var(--shadow-lg);
+  animation: slideUp 0.2s ease;
 }
 .modal h2 {
-  margin-bottom: 1.2rem; font-size: 1.15rem; font-weight: 700;
-  letter-spacing: -0.01em;
+  margin-bottom: 1.2rem; font-size: 1.3rem; font-weight: 700;
+  letter-spacing: -0.02em;
 }
 .modal .field { margin-bottom: 0.7rem; }
 .modal .field-label {
-  color: var(--text-muted); font-size: 0.68rem;
-  text-transform: uppercase; letter-spacing: 0.06em;
-  font-weight: 600; margin-bottom: 0.15rem;
+  color: var(--text-muted); font-size: 0.7rem;
+  text-transform: uppercase; letter-spacing: 0.05em;
+  font-weight: 600; margin-bottom: 0.1rem;
 }
 .modal .field-value { font-size: 0.9rem; color: var(--text-secondary); }
 .modal-close {
-  float: right; background: var(--surface); border: 1px solid var(--border);
-  color: var(--text-muted); font-size: 1.2rem; cursor: pointer;
+  float: right; background: var(--bg-secondary); border: none;
+  color: var(--text-muted); font-size: 1.1rem; cursor: pointer;
   width: 32px; height: 32px; border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   transition: all var(--transition);
 }
-.modal-close:hover { color: var(--text); background: var(--surface-hover); border-color: var(--border-light); }
+.modal-close:hover { color: var(--text); background: var(--border-light); }
 
 /* ── Chat ── */
-#chat-panel { display: none; padding: 0 2rem 2rem; }
+#chat-panel { display: none; padding-bottom: 2rem; }
 #chat-panel.show { display: block; }
 .chat-container {
-  background: var(--glass);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border);
+  background: var(--surface);
+  border: 1px solid var(--border-light);
   border-radius: var(--radius-xl);
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 800px; margin: 0 auto;
   display: flex; flex-direction: column;
   height: 520px;
-  box-shadow: var(--shadow-md), inset 0 1px 0 var(--glass-shine);
+  box-shadow: var(--shadow-sm);
 }
-.chat-messages {
-  flex: 1; overflow-y: auto;
-  padding: 1.2rem;
-}
+.chat-messages { flex: 1; overflow-y: auto; padding: 1.2rem; }
 .chat-msg {
-  margin-bottom: 0.8rem;
-  max-width: 82%;
-  font-size: 0.88rem;
+  margin-bottom: 0.8rem; max-width: 82%; font-size: 0.9rem;
 }
 .chat-msg.user {
   margin-left: auto;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-  color: #fff;
+  background: var(--accent); color: #fff;
   padding: 0.7rem 1rem;
   border-radius: var(--radius-md) var(--radius-md) 4px var(--radius-md);
-  box-shadow: 0 2px 12px var(--accent-glow);
 }
 .chat-msg.assistant {
-  background: var(--surface);
-  border: 1px solid var(--border);
+  background: var(--bg-secondary);
   padding: 0.7rem 1rem;
   border-radius: var(--radius-md) var(--radius-md) var(--radius-md) 4px;
   color: var(--text-secondary);
 }
 .chat-msg.assistant pre {
-  background: var(--bg);
-  padding: 0.5rem;
-  border-radius: 6px;
-  overflow-x: auto;
-  font-size: 0.78rem;
-  margin: 0.5rem 0;
+  background: var(--surface); border: 1px solid var(--border-light);
+  padding: 0.5rem; border-radius: 6px;
+  overflow-x: auto; font-size: 0.8rem; margin: 0.5rem 0;
 }
 .chat-input-row {
   display: flex; gap: 0.5rem;
   padding: 1rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid var(--border-light);
 }
 .chat-input-row input {
   flex: 1; padding: 0.7rem 1rem;
-  background: var(--bg); color: var(--text);
-  border: 1px solid var(--border); border-radius: var(--radius-md);
-  font-size: 0.88rem; font-family: inherit;
+  background: var(--bg-secondary); color: var(--text);
+  border: 1px solid var(--border-light); border-radius: var(--radius-md);
+  font-size: 0.9rem; font-family: inherit;
   transition: border-color var(--transition);
 }
-.chat-input-row input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+.chat-input-row input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(0,113,227,0.12); }
 .chat-input-row button {
   padding: 0.7rem 1.4rem;
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
-  color: #fff;
+  background: var(--accent); color: #fff;
   border: none; border-radius: var(--radius-md);
-  cursor: pointer; font-size: 0.88rem; font-weight: 600;
-  font-family: inherit;
-  transition: transform var(--transition), box-shadow var(--transition);
+  cursor: pointer; font-size: 0.9rem; font-weight: 600;
+  font-family: inherit; transition: background var(--transition);
 }
-.chat-input-row button:hover { transform: translateY(-1px); box-shadow: 0 4px 16px var(--accent-glow-strong); }
-.chat-input-row button:disabled { opacity: 0.4; cursor: not-allowed; transform: none; box-shadow: none; }
+.chat-input-row button:hover { background: var(--accent-hover); }
+.chat-input-row button:disabled { opacity: 0.4; cursor: not-allowed; }
 .chat-limit {
   text-align: center; padding: 0.3rem;
-  font-size: 0.72rem; color: var(--text-muted);
+  font-size: 0.75rem; color: var(--text-muted);
 }
 
-/* ── Kandidaten ── */
-#candidates-panel { display: none; padding: 1rem 2rem; }
+/* ── Candidates ── */
+#candidates-panel { display: none; padding-bottom: 2rem; }
 #candidates-panel.show { display: block; }
 .cand-card {
-  background: var(--glass);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid var(--glass-border);
+  background: var(--surface);
+  border: 1px solid var(--border-light);
   border-radius: var(--radius-lg);
   padding: 1.2rem 1.4rem;
   margin-bottom: 1rem;
   max-width: 800px;
-  transition: transform var(--transition), border-color var(--transition);
-  box-shadow: var(--shadow-sm), inset 0 1px 0 var(--glass-shine);
+  transition: box-shadow var(--transition);
+  box-shadow: var(--shadow-sm);
 }
-.cand-card:hover { border-color: var(--border-light); transform: translateY(-1px); }
+.cand-card:hover { box-shadow: var(--shadow-md); }
 .cand-header {
   display: flex; justify-content: space-between; align-items: center;
   margin-bottom: 0.8rem;
 }
 .cand-score {
   font-size: 0.75rem; font-weight: 700;
-  padding: 0.25rem 0.65rem; border-radius: 6px;
-  letter-spacing: 0.02em;
+  padding: 0.25rem 0.65rem; border-radius: 20px;
 }
-.cand-score-high { background: var(--yellow-glow); color: var(--yellow); }
-.cand-score-med { background: rgba(100,100,140,0.15); color: var(--text-muted); }
+.cand-score-high { background: var(--yellow-bg); color: #b45309; }
+.cand-score-med { background: var(--bg-secondary); color: var(--text-muted); }
 .cand-vs {
   display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.8rem;
-  align-items: start; font-size: 0.82rem;
+  align-items: start; font-size: 0.85rem;
 }
 .cand-entry {
-  padding: 0.7rem; background: var(--bg); border-radius: var(--radius-sm);
-  border: 1px solid rgba(255,255,255,0.03);
+  padding: 0.7rem; background: var(--bg-secondary); border-radius: var(--radius-sm);
 }
 .cand-entry .field-label {
-  color: var(--text-muted); font-size: 0.65rem;
-  text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600;
+  color: var(--text-muted); font-size: 0.68rem;
+  text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
 }
-.cand-entry .field-value { font-size: 0.82rem; }
-.cand-divider { color: var(--text-muted); font-size: 1.1rem; align-self: center; }
+.cand-entry .field-value { font-size: 0.85rem; }
+.cand-divider { color: var(--border); font-size: 1.1rem; align-self: center; }
 .cand-actions {
   display: flex; gap: 0.5rem; margin-top: 0.8rem; justify-content: flex-end;
 }
 .cand-actions button {
-  padding: 0.45rem 1.1rem; border: none; border-radius: var(--radius-sm);
-  cursor: pointer; font-size: 0.78rem; font-weight: 600;
-  font-family: inherit;
-  transition: all var(--transition);
+  padding: 0.45rem 1.1rem; border: none; border-radius: 20px;
+  cursor: pointer; font-size: 0.8rem; font-weight: 600;
+  font-family: inherit; transition: all var(--transition);
 }
-.btn-merge { background: var(--green-glow); color: var(--green); border: 1px solid rgba(52,211,153,0.2) !important; }
-.btn-merge:hover { background: rgba(52,211,153,0.2); border-color: rgba(52,211,153,0.4) !important; transform: translateY(-1px); }
-.btn-reject { background: var(--red-glow); color: var(--red); border: 1px solid rgba(248,113,113,0.2) !important; }
-.btn-reject:hover { background: rgba(248,113,113,0.2); border-color: rgba(248,113,113,0.4) !important; transform: translateY(-1px); }
+.btn-merge { background: var(--green-bg); color: #15803d; }
+.btn-merge:hover { background: #dcfce7; }
+.btn-reject { background: var(--red-bg); color: #dc2626; }
+.btn-reject:hover { background: #fee2e2; }
 .cand-empty {
   color: var(--text-muted); text-align: center; padding: 3rem;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
 }
 
 /* ── Responsive ── */
 @media (max-width: 768px) {
-  header { flex-direction: column; gap: 0.8rem; padding: 1rem; }
-  .bento-stats { grid-template-columns: repeat(2, 1fr); padding: 0.75rem 1rem; }
-  .filters { flex-direction: column; padding: 0.5rem 1rem; }
-  .tabs { padding: 0 1rem; overflow-x: auto; }
-  .table-wrap, #chat-panel, #candidates-panel { padding: 0.5rem 1rem; }
+  header { flex-direction: column; gap: 0.3rem; }
+  header h1 { font-size: 1.8rem; }
+  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .filters { flex-direction: column; }
+  .tabs { overflow-x: auto; }
   .cand-vs { grid-template-columns: 1fr; }
   .cand-divider { display: none; }
 }
 @media (max-width: 480px) {
-  .bento-stats { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
-  .bento-val { font-size: 1.6rem; }
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+  .stat-val { font-size: 1.6rem; }
 }
 </style>
 </head>
 <body>
 
-<!-- Passwort-Overlay -->
 <div id="auth-overlay">
   <div id="auth-box">
     <h2>KH-Brand-Monitor</h2>
-    <p style="color:var(--text-muted);margin-bottom:1.2rem;font-size:0.85rem;font-weight:400;">Krankenhausbrand-Datenbank Deutschland</p>
+    <p class="subtitle">Krankenhausbrand-Datenbank Deutschland</p>
     <input type="password" id="auth-pw" placeholder="Passwort" autofocus>
     <button onclick="checkAuth()">Einloggen</button>
     <div id="auth-error">Falsches Passwort</div>
   </div>
 </div>
 
-<!-- App -->
 <div id="app">
   <header>
-    <h1><span class="fire">🔥</span> <span class="brand">KH-Brand-Monitor</span><span class="sub">Deutschland</span></h1>
+    <h1>KH-Brand-Monitor</h1>
+    <span class="sub">Deutschland</span>
   </header>
 
-  <!-- Bento Stats -->
-  <div class="bento-stats">
-    <div class="bento-card">
-      <div class="bento-label">Einträge gesamt</div>
-      <div class="bento-val" id="s-total">—</div>
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-label">Einträge gesamt</div>
+      <div class="stat-val" id="s-total">—</div>
     </div>
-    <div class="bento-card">
-      <div class="bento-label">Verifiziert</div>
-      <div class="bento-val" id="s-enriched">—</div>
+    <div class="stat-card">
+      <div class="stat-label">Verifiziert</div>
+      <div class="stat-val" id="s-enriched">—</div>
     </div>
-    <div class="bento-card">
-      <div class="bento-label">Ausstehend</div>
-      <div class="bento-val" id="s-pending">—</div>
+    <div class="stat-card">
+      <div class="stat-label">Ausstehend</div>
+      <div class="stat-val" id="s-pending">—</div>
     </div>
-    <div class="bento-card">
-      <div class="bento-label">Nicht relevant</div>
-      <div class="bento-val" id="s-fp">—</div>
+    <div class="stat-card">
+      <div class="stat-label">Nicht relevant</div>
+      <div class="stat-val" id="s-fp">—</div>
     </div>
   </div>
 
   <div class="tabs">
     <div class="tab active" data-tab="dashboard">Dashboard</div>
-    <div class="tab" data-tab="candidates">Duplikate <span id="cand-count-badge" style="background:var(--yellow-glow);color:var(--yellow);padding:0.15rem 0.45rem;border-radius:5px;font-size:0.65rem;font-weight:700;margin-left:0.3rem;display:none;">0</span></div>
+    <div class="tab" data-tab="candidates">Duplikate <span id="cand-count-badge" style="background:var(--yellow-bg);color:#b45309;padding:0.15rem 0.45rem;border-radius:20px;font-size:0.65rem;font-weight:700;margin-left:0.3rem;display:none;">0</span></div>
     <div class="tab" data-tab="chat">Chat</div>
   </div>
 
-  <!-- Dashboard -->
   <div id="dashboard-panel">
     <div class="filters">
       <select id="f-status">
@@ -567,7 +489,7 @@ tr:last-child td { border-bottom: none; }
         <option value="">Alle Bundesländer</option>
       </select>
       <input type="text" id="f-search" placeholder="Suche nach Einrichtung, Ort, Titel...">
-      <button onclick="exportCSV()" style="background:var(--surface);color:var(--text-secondary);border:1px solid var(--border);border-radius:var(--radius-sm);padding:0.5rem 0.9rem;font-size:0.8rem;font-family:inherit;cursor:pointer;white-space:nowrap;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--text)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-secondary)'">&darr; CSV</button>
+      <button class="btn-csv" onclick="exportCSV()">↓ CSV</button>
     </div>
     <div class="table-wrap">
       <div class="table-container">
@@ -590,12 +512,10 @@ tr:last-child td { border-bottom: none; }
     </div>
   </div>
 
-  <!-- Duplikat-Kandidaten -->
   <div id="candidates-panel">
     <div id="candidates-list"></div>
   </div>
 
-  <!-- Chat -->
   <div id="chat-panel">
     <div class="chat-container">
       <div class="chat-messages" id="chat-messages">
@@ -607,19 +527,17 @@ tr:last-child td { border-bottom: none; }
         <button id="chat-send" onclick="sendChat()" disabled>Senden</button>
       </div>
     </div>
-    <p style="text-align:center;margin-top:0.8rem;font-size:0.75rem;color:var(--text-muted);">
-      Chat benötigt einen API-Proxy. <button onclick="showProxyConfig()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.75rem;font-family:inherit;">Proxy konfigurieren</button>
+    <p style="text-align:center;margin-top:0.8rem;font-size:0.78rem;color:var(--text-muted);">
+      Chat benötigt einen API-Proxy. <button onclick="showProxyConfig()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.78rem;font-family:inherit;">Proxy konfigurieren</button>
     </p>
   </div>
 
-  <!-- Detail-Modal -->
   <div class="modal-bg" id="modal-bg" onclick="closeModal(event)">
     <div class="modal" id="modal-content"></div>
   </div>
 </div>
 
 <script>
-// ── Auth ──
 const PW_HASH = 'd271d50b5c2affae5782b863b299887726f5c731376f9f620efe8cc22c13f7fa';
 
 async function sha256(str) {
@@ -649,7 +567,6 @@ if (sessionStorage.getItem('kh-auth') === '1') {
   document.getElementById('app').style.display = 'block';
 }
 
-// ── Data ──
 let allEntries = [];
 let sortField = 'datum';
 let sortDir = -1;
@@ -694,7 +611,6 @@ function getFiltered() {
   const status = document.getElementById('f-status').value;
   const bl = document.getElementById('f-bundesland').value;
   const search = document.getElementById('f-search').value.toLowerCase();
-
   return allEntries.filter(e => {
     const es = e.enrichment_status || 'pending';
     if (status && es !== status) return false;
@@ -719,7 +635,6 @@ function parseDatum(d) {
 
 function renderTable() {
   let entries = getFiltered();
-
   entries.sort((a, b) => {
     let va, vb;
     if (sortField === 'datum') {
@@ -794,17 +709,13 @@ function renderTable() {
   }).join('');
 }
 
-// ── Nicht-Relevant markieren ──
 async function markNotRelevant(hash, idx, btn) {
   if (!hash) { alert('Kein Hash vorhanden.'); return; }
   if (!confirm('Diesen Eintrag als nicht relevant markieren?')) return;
-
   btn.disabled = true;
   btn.textContent = '...';
-
   allEntries[idx].enrichment_status = 'false_positive';
   allEntries[idx].false_positive_grund = 'Manuell als nicht relevant markiert';
-
   try {
     const resp = await fetch(PROXY_URL.replace(/\/$/, '') + '/fp', {
       method: 'POST',
@@ -812,18 +723,14 @@ async function markNotRelevant(hash, idx, btn) {
       body: JSON.stringify({ hashes: [hash] }),
     });
     const data = await resp.json();
-    if (!data.success) {
-      console.error('FP-Markierung fehlgeschlagen:', data.error);
-    }
+    if (!data.success) console.error('FP-Markierung fehlgeschlagen:', data.error);
   } catch (e) {
     console.error('FP-Sync-Fehler:', e);
   }
-
   updateStats();
   renderTable();
 }
 
-// CSV Export
 function exportCSV() {
   const entries = getFiltered();
   const header = ['Datum','Einrichtung','Ort','PLZ','Bundesland','Brandursache','Brandort','Verletzte','Tote','Evakuierung','Sachschaden','Status','Zusammenfassung','Link','Erfasst am'];
@@ -858,7 +765,6 @@ function exportCSV() {
   URL.revokeObjectURL(url);
 }
 
-// Sorting
 document.querySelectorAll('th[data-sort]').forEach(th => {
   th.addEventListener('click', () => {
     const field = th.dataset.sort;
@@ -868,12 +774,10 @@ document.querySelectorAll('th[data-sort]').forEach(th => {
   });
 });
 
-// Filters
 document.getElementById('f-status').addEventListener('change', renderTable);
 document.getElementById('f-bundesland').addEventListener('change', renderTable);
 document.getElementById('f-search').addEventListener('input', renderTable);
 
-// ── Detail Modal ──
 function showDetail(idx) {
   const e = allEntries[idx];
   if (!e) return;
@@ -924,12 +828,9 @@ function showDetail(idx) {
 }
 
 function closeModal(ev) {
-  if (ev.target.id === 'modal-bg') {
-    document.getElementById('modal-bg').classList.remove('show');
-  }
+  if (ev.target.id === 'modal-bg') document.getElementById('modal-bg').classList.remove('show');
 }
 
-// ── Tabs ──
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -942,7 +843,6 @@ document.querySelectorAll('.tab').forEach(tab => {
   });
 });
 
-// ── Chat ──
 let PROXY_URL = localStorage.getItem('kh-proxy-url') || 'https://meyer2.2025-1f5.workers.dev';
 const DAILY_LIMIT = 30;
 
@@ -989,7 +889,6 @@ async function sendChat() {
   const input = document.getElementById('chat-input');
   const question = input.value.trim();
   if (!question || !PROXY_URL) return;
-
   input.value = '';
   addChatMsg('user', question);
   incChatCount();
@@ -1016,11 +915,9 @@ async function sendChat() {
         messages: [{ role: 'user', content: question }]
       })
     });
-
     const data = await resp.json();
     const msgs = document.getElementById('chat-messages');
     msgs.removeChild(msgs.lastChild);
-
     if (data.content && data.content[0]) {
       addChatMsg('assistant', data.content[0].text);
     } else if (data.error) {
@@ -1033,7 +930,6 @@ async function sendChat() {
     msgs.removeChild(msgs.lastChild);
     addChatMsg('assistant', `Verbindungsfehler: ${e.message}. Ist der Proxy konfiguriert?`);
   }
-
   updateChatLimit();
 }
 
@@ -1041,7 +937,6 @@ document.getElementById('chat-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') sendChat();
 });
 
-// ── Duplikat-Kandidaten ──
 let candidatesData = null;
 
 async function loadCandidates() {
@@ -1062,24 +957,21 @@ function renderCandidates() {
   const list = document.getElementById('candidates-list');
   const pending = candidatesData?.pending || [];
   const badge = document.getElementById('cand-count-badge');
-
   if (pending.length === 0) {
     list.innerHTML = '<div class="cand-empty">Keine offenen Duplikat-Kandidaten.</div>';
     badge.style.display = 'none';
     return;
   }
-
   badge.textContent = pending.length;
   badge.style.display = 'inline';
 
-  list.innerHTML = `<p style="color:var(--text-muted);font-size:0.82rem;margin-bottom:1rem;">
+  list.innerHTML = `<p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem;">
     ${pending.length} Paar(e) mit unsicherer Übereinstimmung. Bitte prüfe, ob es sich um denselben Brand handelt.
   </p>` + pending.map((c, idx) => {
     const a = c.entry_a || {};
     const b = c.entry_b || {};
     const scoreClass = c.score >= 0.65 ? 'cand-score-high' : 'cand-score-med';
     const scorePct = Math.round(c.score * 100);
-
     return `<div class="cand-card" id="cand-${idx}">
       <div class="cand-header">
         <span style="font-size:0.8rem;color:var(--text-muted);font-weight:500;">#${idx + 1}</span>
@@ -1093,7 +985,7 @@ function renderCandidates() {
           <div class="field-value">${a.ort || '—'} · ${a.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${a.bundesland || '—'} · ${a.status || '—'}</div>
-          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.72rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle</a>` : ''}
+          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle</a>` : ''}
         </div>
         <div class="cand-divider">↔</div>
         <div class="cand-entry">
@@ -1103,7 +995,7 @@ function renderCandidates() {
           <div class="field-value">${b.ort || '—'} · ${b.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${b.bundesland || '—'} · ${b.status || '—'}</div>
-          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.72rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle</a>` : ''}
+          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle</a>` : ''}
         </div>
       </div>
       <div class="cand-actions">
@@ -1112,7 +1004,6 @@ function renderCandidates() {
       </div>
     </div>`;
   }).join('');
-
   candidatesData._rendered = true;
 }
 
@@ -1122,16 +1013,13 @@ let syncTimer = null;
 async function decideCand(idx, action) {
   const pending = candidatesData.pending || [];
   if (idx >= pending.length) return;
-
   const cand = pending[idx];
   const decision = {
-    hashes: cand.hashes,
-    score: cand.score,
+    hashes: cand.hashes, score: cand.score,
     decided_at: new Date().toISOString(),
     entry_a_name: cand.entry_a?.einrichtung || '?',
     entry_b_name: cand.entry_b?.einrichtung || '?',
   };
-
   if (action === 'confirm') pendingDecisions.confirmed.push(decision);
   else pendingDecisions.rejected.push(decision);
   pending.splice(idx, 1);
@@ -1140,10 +1028,9 @@ async function decideCand(idx, action) {
   if (card) {
     card.style.opacity = '0.3';
     card.style.pointerEvents = 'none';
-    card.style.transform = 'scale(0.98)';
     const label = document.createElement('div');
-    label.style.cssText = 'text-align:center;padding:0.5rem;font-size:0.82rem;font-weight:600;';
-    label.style.color = action === 'confirm' ? 'var(--green)' : 'var(--red)';
+    label.style.cssText = 'text-align:center;padding:0.5rem;font-size:0.85rem;font-weight:600;';
+    label.style.color = action === 'confirm' ? '#15803d' : '#dc2626';
     label.textContent = action === 'confirm' ? '✓ Wird zusammengeführt' : '✗ Kein Duplikat';
     card.appendChild(label);
   }
@@ -1151,7 +1038,6 @@ async function decideCand(idx, action) {
   const badge = document.getElementById('cand-count-badge');
   badge.textContent = pending.length;
   if (pending.length === 0) badge.style.display = 'none';
-
   clearTimeout(syncTimer);
   syncTimer = setTimeout(syncDecisions, 2000);
   updateSyncStatus('pending');
@@ -1162,45 +1048,37 @@ function updateSyncStatus(state, detail) {
   if (!el) {
     el = document.createElement('div');
     el.id = 'cand-sync-status';
-    el.style.cssText = 'max-width:800px;padding:0.6rem 1rem;border-radius:' + 'var(--radius-sm)' + ';margin-top:1rem;font-size:0.82rem;';
+    el.style.cssText = 'max-width:800px;padding:0.6rem 1rem;border-radius:var(--radius-sm);margin-top:1rem;font-size:0.85rem;';
     document.getElementById('candidates-list').appendChild(el);
   }
   const total = pendingDecisions.confirmed.length + pendingDecisions.rejected.length;
   if (state === 'pending') {
-    el.style.background = 'var(--yellow-glow)';
-    el.style.border = '1px solid rgba(251,191,36,0.2)';
-    el.innerHTML = `<span style="color:var(--yellow);">⏳ ${total} Entscheidung(en) werden gespeichert...</span>`;
+    el.style.background = 'var(--yellow-bg)';
+    el.style.border = '1px solid #fde68a';
+    el.innerHTML = `<span style="color:#b45309;">⏳ ${total} Entscheidung(en) werden gespeichert...</span>`;
   } else if (state === 'success') {
-    el.style.background = 'var(--green-glow)';
-    el.style.border = '1px solid rgba(52,211,153,0.2)';
-    el.innerHTML = `<span style="color:var(--green);">✓ Gespeichert!</span>`;
+    el.style.background = 'var(--green-bg)';
+    el.style.border = '1px solid #a7f3d0';
+    el.innerHTML = `<span style="color:#15803d;">✓ Gespeichert!</span>`;
   } else if (state === 'error') {
-    el.style.background = 'var(--red-glow)';
-    el.style.border = '1px solid rgba(248,113,113,0.2)';
-    el.innerHTML = `<span style="color:var(--red);">✗ Fehler: ${detail || 'Unbekannt'} </span>
-      <button onclick="syncDecisions()" style="background:var(--accent);color:#fff;border:none;border-radius:6px;padding:0.2rem 0.6rem;cursor:pointer;font-size:0.75rem;font-family:inherit;">Retry</button>`;
+    el.style.background = 'var(--red-bg)';
+    el.style.border = '1px solid #fecaca';
+    el.innerHTML = `<span style="color:#dc2626;">✗ Fehler: ${detail || 'Unbekannt'} </span>
+      <button onclick="syncDecisions()" style="background:var(--accent);color:#fff;border:none;border-radius:20px;padding:0.2rem 0.6rem;cursor:pointer;font-size:0.78rem;font-family:inherit;">Retry</button>`;
   }
 }
 
 async function syncDecisions() {
   if (!PROXY_URL) { updateSyncStatus('error', 'Proxy nicht konfiguriert'); return; }
-
-  const toSync = {
-    confirmed: [...pendingDecisions.confirmed],
-    rejected: [...pendingDecisions.rejected],
-  };
-
+  const toSync = { confirmed: [...pendingDecisions.confirmed], rejected: [...pendingDecisions.rejected] };
   if (toSync.confirmed.length === 0 && toSync.rejected.length === 0) return;
-
   try {
     const resp = await fetch(PROXY_URL.replace(/\/$/, '') + '/candidates', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ candidates: toSync }),
     });
-
     const data = await resp.json();
-
     if (data.success) {
       pendingDecisions = { confirmed: [], rejected: [] };
       updateSyncStatus('success');
@@ -1219,14 +1097,10 @@ async function initCandidateBadge() {
     const data = await resp.json();
     const count = (data.pending || []).length;
     const badge = document.getElementById('cand-count-badge');
-    if (count > 0) {
-      badge.textContent = count;
-      badge.style.display = 'inline';
-    }
-  } catch (e) { /* silent */ }
+    if (count > 0) { badge.textContent = count; badge.style.display = 'inline'; }
+  } catch (e) {}
 }
 
-// ── Init ──
 if (sessionStorage.getItem('kh-auth') === '1') { loadData(); initCandidateBadge(); }
 updateChatLimit();
 </script>
