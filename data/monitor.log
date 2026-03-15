@@ -271,3 +271,36 @@
 [2026-03-15 07:53:15] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 07:53:15] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 08:54:16] === Monitor-Lauf gestartet ===
+[2026-03-15 08:54:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 08:54:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 08:54:19] Feed 'google_news_kh_brand': 56 Einträge
+[2026-03-15 08:54:20] Feed 'google_news_klinik_feuer': 45 Einträge
+[2026-03-15 08:54:21] Feed 'google_news_klinikbrand': 95 Einträge
+[2026-03-15 08:54:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 08:54:22] 71 relevante Treffer in Feeds
+[2026-03-15 08:54:22] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 08:54:22]    11.11.2025 |  |  | Klinik in Berlin-Neukölln durch Explosion beschädigt - Brand
+[2026-03-15 08:54:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 08:54:22] === Monitor-Lauf beendet ===
+
+[2026-03-15 08:54:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 08:54:22] [enrich] 44 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 08:54:22] [enrich] --- Enriche [1/5]: Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-15 08:54:22] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 08:54:24] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik Rendsburg in 
+[2026-03-15 08:54:25] [enrich] --- Enriche [2/5]: Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus -
+[2026-03-15 08:54:25] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 08:54:27] [enrich] Enrichment abgeschlossen: enriched — im Krankenhaus in 
+[2026-03-15 08:54:28] [enrich] --- Enriche [3/5]: Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-15 08:54:28] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 08:54:30] [enrich] Enrichment abgeschlossen: enriched — tödlichem Klinikbrand in 
+[2026-03-15 08:54:31] [enrich] --- Enriche [4/5]: Wohnungsbrand in München – Fünf Menschen im Krankenhaus - On
+[2026-03-15 08:54:31] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 08:54:33] [enrich] Enrichment abgeschlossen: enriched — im Krankenhaus in 
+[2026-03-15 08:54:34] [enrich] --- Enriche [5/5]: Brand in Bochumer Klinik: Sieben Verletzte, einer schwebt in
+[2026-03-15 08:54:34] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 08:54:36] [enrich] Enrichment abgeschlossen: enriched — Bochumer Klinik in 
+[2026-03-15 08:54:36] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 08:54:36] [enrich] === Enrichment-Lauf beendet ===
+
