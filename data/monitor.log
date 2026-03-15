@@ -812,3 +812,112 @@
 [2026-03-15 10:04:33] [enrich] Ergebnis: 12 enriched, 0 partial, 8 false_positive, 0 failed
 [2026-03-15 10:04:33] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 10:48:44] === Monitor-Lauf gestartet ===
+[2026-03-15 10:48:45] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 10:48:47] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 10:48:47] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 10:48:47] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-15 10:48:48] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-03-15 10:48:48] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-15 10:48:48] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 10:48:49] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 10:48:49] Feed 'gn_feuer_uniklinik': 49 Einträge
+[2026-03-15 10:48:50] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-15 10:48:51] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 10:48:51] 246 relevante Treffer in Feeds
+[2026-03-15 10:48:51] ✅ 4 NEUE Einträge gefunden:
+[2026-03-15 10:48:51]    02.01.2026 | Deutsche Kliniken nehmen Schweizer Brandopfer |  | Hilfeersuchen für 40 Verletzte: Deutsche Kliniken nehmen Sch
+[2026-03-15 10:48:51]    31.08.2023 | im Krankenhaus |  | Gebäude nach Explosion in der Altstadt von Salzwedel evakuie
+[2026-03-15 10:48:51]    05.04.2017 | in Klinikum |  | Bombenfund in Klinikum - Evakuierung läuft - Merkur
+[2026-03-15 10:48:51]    17.03.2011 | von Krankenhaus |  | 14 Patienten sterben nach Evakuierung von Krankenhaus - Merk
+[2026-03-15 10:48:51] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 10:48:51] === Monitor-Lauf beendet ===
+
+[2026-03-15 10:48:51] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 10:48:51] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 10:48:51] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 10:48:51] [enrich] 228 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 10:48:51] [enrich] --- Enriche [1/20]: Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-15 10:48:51] [enrich] Google News URL aufgelöst (v1): https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw
+[2026-03-15 10:48:52] [enrich] Volltext extrahiert: 4347 Zeichen von https://www.express.de/panorama/feuer-hoelle-von-crans-monta
+[2026-03-15 10:48:54] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die erwähnten deutschen Kliniken (Bergmannsheil Bochum, Klinikum Köln-Merheim, Unfallkrankenhaus Berlin) nehmen lediglich Brandopfer zur Behandlung auf, sind aber nicht Ort des Brandes selbst.
+[2026-03-15 10:48:55] [enrich] --- Enriche [2/20]: Feuer-Inferno in Crans-Montana: Klinikum Nürnberg versorgt B
+[2026-03-15 10:48:55] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/nuernberg/feuer-inferno-in-crans-montana-brand-silve
+[2026-03-15 10:48:56] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.infranken.de/lk/nuernberg/feuer-inferno-in-crans
+[2026-03-15 10:48:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Schweizer Bar (Crans-Montana), nicht in einem deutschen Krankenhaus. Die Erwähnung des Klinikum Nürnberg bezieht sich ausschließlich auf die Behandlung eines Brandopfers aus der Schweiz, nicht auf einen Brand im Krankenhaus selbst.
+[2026-03-15 10:48:59] [enrich] --- Enriche [3/20]: Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle beh
+[2026-03-15 10:48:59] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-s
+[2026-03-15 10:49:00] [enrich] Volltext extrahiert: 1696 Zeichen von https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-sch
+[2026-03-15 10:49:02] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana), nicht in Deutschland. Das deutsche Krankenhaus (Klinikum Bergmannstrost Halle) wird nur als Behandlungsort für ein Brandopfer erwähnt, nicht als Ort des Brandes selbst.
+[2026-03-15 10:49:03] [enrich] --- Enriche [4/20]: Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-15 10:49:03] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marie
+[2026-03-15 10:49:03] [enrich] Volltext extrahiert: 4358 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100748170/ha
+[2026-03-15 10:49:09] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 10:49:10] [enrich] --- Enriche [5/20]: Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier
+[2026-03-15 10:49:10] [enrich] Google News URL aufgelöst (v1): https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/40309
+[2026-03-15 10:49:10] [enrich] Volltext extrahiert: 2219 Zeichen von https://kurier.at/chronik/welt/klinik-brand-feuer-saarbrueck
+[2026-03-15 10:49:13] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken (Name nicht spezifiziert) in Saarbrücken
+[2026-03-15 10:49:14] [enrich] --- Enriche [6/20]: Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die 
+[2026-03-15 10:49:14] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-15 10:49:15] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-15 10:49:15] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (424 Z.)
+[2026-03-15 10:49:16] [enrich] FALSE POSITIVE erkannt: Der Artikel bietet nur eine Schlagzeile ohne Inhalt. Basierend auf der Überschrift allein kann nicht überprüft werden, ob es sich um einen Brand IN einer Klinik handelt oder ob Patienten nach einem Brand anderswo in einer Klinik behandelt wurden.
+[2026-03-15 10:49:17] [enrich] --- Enriche [7/20]: Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-15 10:49:17] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/minden/24160808_Wochenrueckblick-
+[2026-03-15 10:49:19] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/minden/241608
+[2026-03-15 10:49:25] [enrich] Enrichment abgeschlossen: enriched — Median-Klinik am Park in Bad Oeynhausen
+[2026-03-15 10:49:26] [enrich] --- Enriche [8/20]: Alptraum in Klinik: Zweimal kurz hintereinander Feueralarm -
+[2026-03-15 10:49:26] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/mainz/zwei-mal-brennt-es-in-reha-k
+[2026-03-15 10:49:28] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/mainz/zwei-mal
+[2026-03-15 10:49:33] [enrich] Enrichment abgeschlossen: enriched — Reha-Klinik Bad Sobernheim in Bad Sobernheim
+[2026-03-15 10:49:34] [enrich] --- Enriche [9/20]: Festnahme wegen Verdachts der Brandstiftung nach Feuer in Ha
+[2026-03-15 10:49:34] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/video/video-1472328.html
+[2026-03-15 10:49:35] [enrich] Volltext extrahiert: 303 Zeichen von https://www.tagesschau.de/video/video-1472328.html
+[2026-03-15 10:49:37] [enrich] Enrichment abgeschlossen: enriched — Hamburger Klinik (Name nicht spezifiziert) in Hamburg
+[2026-03-15 10:49:38] [enrich] --- Enriche [10/20]: Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SW
+[2026-03-15 10:49:39] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nah
+[2026-03-15 10:49:41] [enrich] Volltext extrahiert: 2536 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/br
+[2026-03-15 10:49:42] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus in Kliniknähe, nicht IN der GRN-Klinik selbst. Die Rauchwolke zog nur in Richtung der Klinik, aber der Brand war im benachbarten Wohnhaus.
+[2026-03-15 10:49:43] [enrich] --- Enriche [11/20]: Verdacht der Brandstiftung nach Feuer in Hamburger Klinik - 
+[2026-03-15 10:49:44] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/verdacht-der-brandstiftung-nach-feuer-in-hamburger-kli
+[2026-03-15 10:49:45] [enrich] Volltext extrahiert: 1387 Zeichen von https://www.stern.de/news/verdacht-der-brandstiftung-nach-fe
+[2026-03-15 10:49:47] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 10:49:48] [enrich] --- Enriche [12/20]: Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-15 10:49:48] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/anklage-nach-feuer-in
+[2026-03-15 10:49:49] [enrich] Volltext extrahiert: 3373 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/a
+[2026-03-15 10:49:52] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-15 10:49:53] [enrich] --- Enriche [13/20]: 41-Jähriger wird bei Zimmerbrand in Schleswiger Helios-Klini
+[2026-03-15 10:49:54] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/schleswig/artikel/brand-in-schleswiger-helios-klinik-
+[2026-03-15 10:49:55] [enrich] Volltext extrahiert: 1258 Zeichen von https://www.shz.de/lokales/schleswig/artikel/brand-in-schles
+[2026-03-15 10:49:57] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinik Schleswig (Psychiatrisches Krankenhaus) in Schleswig
+[2026-03-15 10:49:58] [enrich] --- Enriche [14/20]: Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-15 10:49:58] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patienten
+[2026-03-15 10:50:00] [enrich] Volltext extrahiert: 1675 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhause
+[2026-03-15 10:50:01] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keine Informationen über einen Brand in einem Krankenhaus. Es handelt sich um eine Paywall-Seite mit Login-Aufforderung und Links zu verschiedenen Artikeln, von denen keiner einen Krankenhausbrand beschreibt.
+[2026-03-15 10:50:02] [enrich] --- Enriche [15/20]: Saunabereich der Chiemgau-Klinik brennt vollständig aus - On
+[2026-03-15 10:50:03] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollst
+[2026-03-15 10:50:04] [enrich] Volltext extrahiert: 3685 Zeichen von https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-
+[2026-03-15 10:50:08] [enrich] Enrichment abgeschlossen: enriched — Chiemgau-Klinik in Marquartstein
+[2026-03-15 10:50:09] [enrich] --- Enriche [16/20]: Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-15 10:50:09] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote
+[2026-03-15 10:50:10] [enrich] Volltext extrahiert: 4246 Zeichen von https://rp-online.de/panorama/deutschland/hamburg-feuer-mari
+[2026-03-15 10:50:15] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 10:50:16] [enrich] --- Enriche [17/20]: Feuer bei Ameos-Klinik in Neustadt: Drei Verletzte – Kripo e
+[2026-03-15 10:50:16] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/brandstiftung-bei-ameos-feu
+[2026-03-15 10:50:16] [enrich] Volltext extrahiert: 1242 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/brandst
+[2026-03-15 10:50:19] [enrich] Enrichment abgeschlossen: enriched — Ameos-Klinik Neustadt in Neustadt
+[2026-03-15 10:50:20] [enrich] --- Enriche [18/20]: MB-Monitor 2024: Überlastung, Gewalt & Co. – Klinikärzte unt
+[2026-03-15 10:50:21] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/ueberlastung-und-gewalt-h
+[2026-03-15 10:50:22] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/ueber
+[2026-03-15 10:50:23] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Arbeitsbelastungen, Gewalt gegen Ärzte und Personalmangelprobleme in Krankenhäusern. Die Wörter 'Brand' und 'Feuer' werden nur metaphorisch verwendet ('unter Feuer'), nicht im Sinne eines tatsächlichen Brandes. Es wird kein Brand in einem Krankenhaus beschrieben.
+[2026-03-15 10:50:24] [enrich] --- Enriche [19/20]: Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-15 10:50:25] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/marl-krankenhausbrand-fuehrt-zu-grosse
+[2026-03-15 10:50:26] [enrich] Volltext extrahiert: 2225 Zeichen von https://rp-online.de/panorama/deutschland/marl-krankenhausbr
+[2026-03-15 10:50:29] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Marl (Klinikum) in Marl
+[2026-03-15 10:50:30] [enrich] --- Enriche [20/20]: Brand in Bad Salziger Klinik endet ohne Verletzte – 93 Patie
+[2026-03-15 10:50:31] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/brand-in-bad-salzig
+[2026-03-15 10:50:33] [enrich] Volltext extrahiert: 1179 Zeichen von https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung
+[2026-03-15 10:50:36] [enrich] Enrichment abgeschlossen: enriched — Mittelrhein-Klinik in Bad Salzig
+[2026-03-15 10:50:36] [enrich] Ergebnis: 13 enriched, 0 partial, 7 false_positive, 0 failed
+[2026-03-15 10:50:36] [enrich] === Enrichment-Lauf beendet ===
+
