@@ -1906,3 +1906,132 @@
 [2026-03-15 20:14:18] [DEDUP] Ergebnis: 223 Einträge (war: 225, 2 zusammengeführt)
 [2026-03-15 20:14:18] [DEDUP] Kandidaten-Datei: 67 pending, 1 confirmed, 0 rejected
 [2026-03-15 20:14:18] [DEDUP] Gespeichert: 225 → 223 Einträge
+[2026-03-15 20:29:45] === Monitor-Lauf gestartet ===
+[2026-03-15 20:29:46] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 20:29:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 20:29:48] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 20:29:49] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-15 20:29:49] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-15 20:29:50] Feed 'gn_brand_klinik': 35 Einträge
+[2026-03-15 20:29:50] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 20:29:51] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 20:29:51] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-15 20:29:52] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 20:29:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 20:29:54] 245 relevante Treffer in Feeds
+[2026-03-15 20:29:54] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 20:29:54]    02.06.2025 | in Krankenhaus |  | Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenh
+[2026-03-15 20:29:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 20:29:54] === Monitor-Lauf beendet ===
+
+[2026-03-15 20:29:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 20:29:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 20:29:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 20:29:54] [enrich] 105 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 20:29:54] [enrich] --- Enriche [1/20]: Feuerwehreinsatz in Essen an der Uniklinik - Radio Essen
+[2026-03-15 20:29:55] [enrich] Google News URL aufgelöst (v1): https://www.radioessen.de/artikel/feuerwehreinsatz-in-essen-an-der-uniklinik-242
+[2026-03-15 20:29:56] [enrich] Volltext extrahiert: 1026 Zeichen von https://www.radioessen.de/artikel/feuerwehreinsatz-in-essen-
+[2026-03-15 20:29:59] [enrich] Enrichment abgeschlossen: enriched — Uniklinikum Essen in Essen
+[2026-03-15 20:30:00] [enrich] --- Enriche [2/20]: Brand in Kölner Uniklinik: Gesamtes Gebäude evakuiert - TAG2
+[2026-03-15 20:30:00] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/koeln/brand-in-koelner-uniklinik-gesamtes-gebaeude-evakuier
+[2026-03-15 20:30:01] [enrich] Volltext extrahiert: 1569 Zeichen von https://www.tag24.de/koeln/brand-in-koelner-uniklinik-gesamt
+[2026-03-15 20:30:04] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Köln, Institut für Transfusionsmedizin in Köln
+[2026-03-15 20:30:05] [enrich] --- Enriche [3/20]: Krankenhaus Neuruppin: Feuer im Universitätsklinikum - Märki
+[2026-03-15 20:30:05] [enrich] Google News URL aufgelöst (v1): https://www.maz-online.de/lokales/ostprignitz-ruppin/neuruppin/krankenhaus-neuru
+[2026-03-15 20:30:06] [enrich] Volltext extrahiert: 2065 Zeichen von https://www.maz-online.de/lokales/ostprignitz-ruppin/neurupp
+[2026-03-15 20:30:09] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Ruppin-Brandenburg in Neuruppin
+[2026-03-15 20:30:10] [enrich] --- Enriche [4/20]: Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwi
+[2026-03-15 20:30:10] [enrich] Google News URL aufgelöst (v1): https://mainzund.de/feuer-auf-dem-gelaende-der-uniklinik-mainz-starke-rauchentwi
+[2026-03-15 20:30:12] [enrich] Volltext extrahiert: 5000 Zeichen von https://mainzund.de/feuer-auf-dem-gelaende-der-uniklinik-mai
+[2026-03-15 20:30:16] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz (Unimedizin Mainz) in Mainz
+[2026-03-15 20:30:17] [enrich] --- Enriche [5/20]: Großeinsatz wegen Feuer auf Uniklinik-Gelände - Allgemeine Z
+[2026-03-15 20:30:18] [enrich] Google News URL aufgelöst (v1): https://www.allgemeine-zeitung.de/lokales/mainz/stadt-mainz/grosseinsatz-wegen-f
+[2026-03-15 20:30:21] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.allgemeine-zeitung.de/lokales/mainz/stadt-mainz/
+[2026-03-15 20:30:25] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-03-15 20:30:26] [enrich] --- Enriche [6/20]: FW-BO: Feuer im LWL-Universitätsklinikum - Klinikpersonal re
+[2026-03-15 20:30:27] [enrich] Google News URL aufgelöst (v1): https://www.presseportal.de/blaulicht/pm/115868/5564404
+[2026-03-15 20:30:28] [enrich] Volltext extrahiert: 2205 Zeichen von https://www.presseportal.de/blaulicht/pm/115868/5564404
+[2026-03-15 20:30:32] [enrich] Enrichment abgeschlossen: enriched — LWL-Universitätsklinikum Bochum, Klinik für Psychiatrie, Psychotherapie und Präventivmedizin in Bochum
+[2026-03-15 20:30:33] [enrich] --- Enriche [7/20]: Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit
+[2026-03-15 20:30:34] [enrich] Google News URL aufgelöst (v1): https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feue
+[2026-03-15 20:30:34] [enrich] Volltext extrahiert: 1423 Zeichen von https://osthessen-news.de/n11656352/brand-auf-intensivstatio
+[2026-03-15 20:30:37] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Gießen in Gießen
+[2026-03-15 20:30:38] [enrich] --- Enriche [8/20]: Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Al
+[2026-03-15 20:30:39] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-a
+[2026-03-15 20:30:40] [enrich] Volltext extrahiert: 1837 Zeichen von https://www.giessener-allgemeine.de/giessen/zigarettenkippe-
+[2026-03-15 20:30:42] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen/Marburg (UKGM) in Gießen
+[2026-03-15 20:30:43] [enrich] --- Enriche [9/20]: Steckdosenbrand in der Uniklinik Halle (Saale): Keine Verlet
+[2026-03-15 20:30:44] [enrich] Google News URL aufgelöst (v1): https://dubisthalle.de/steckdosenbrand-in-der-uniklinik-halle-saale-keine-verlet
+[2026-03-15 20:30:48] [enrich] Volltext extrahiert: 545 Zeichen von https://dubisthalle.de/steckdosenbrand-in-der-uniklinik-hall
+[2026-03-15 20:30:50] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Halle (Saale) in Halle (Saale)
+[2026-03-15 20:30:51] [enrich] --- Enriche [10/20]: Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseld
+[2026-03-15 20:30:52] [enrich] Google News URL aufgelöst (v1): https://www.neue-duesseldorfer-online-zeitung.de/stadtnachrichten/artikel/brande
+[2026-03-15 20:30:53] [enrich] Volltext extrahiert: 3810 Zeichen von https://www.neue-duesseldorfer-online-zeitung.de/stadtnachri
+[2026-03-15 20:30:57] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Düsseldorf (UKD), Klinik für Urologie in Düsseldorf
+[2026-03-15 20:30:58] [enrich] --- Enriche [11/20]: Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stun
+[2026-03-15 20:30:59] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-
+[2026-03-15 20:31:01] [enrich] Volltext extrahiert: 3776 Zeichen von https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-be
+[2026-03-15 20:31:05] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil Bochum in Bochum
+[2026-03-15 20:31:06] [enrich] --- Enriche [12/20]: Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online
+[2026-03-15 20:31:07] [enrich] Google News URL aufgelöst (v1): https://www.echo-online.de/lokales/mainz/stadt-mainz/grosseinsatz-wegen-feuer-au
+[2026-03-15 20:31:10] [enrich] Volltext extrahiert: 4497 Zeichen von https://www.echo-online.de/lokales/mainz/stadt-mainz/grossei
+[2026-03-15 20:31:14] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-03-15 20:31:15] [enrich] --- Enriche [13/20]: Feuer in der Wäscherei der Uniklinik Freiburg - Radio Regenb
+[2026-03-15 20:31:15] [enrich] Google News URL aufgelöst (v1): https://www.regenbogen.de/kategorie-nachricht/subaden-schwarzwald/20210910/freib
+[2026-03-15 20:31:16] [enrich] Volltext extrahiert: 247 Zeichen von https://www.regenbogen.de/kategorie-nachricht/subaden-schwar
+[2026-03-15 20:31:17] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Freiburg in Freiburg
+[2026-03-15 20:31:18] [enrich] --- Enriche [14/20]: Feuer an der Mainzer Uniklinik - merkurist.de
+[2026-03-15 20:31:19] [enrich] Google News URL aufgelöst (v1): https://merkurist.de/mainz/grosseinsatz-feuer-an-der-mainzer-uniklinik_209U
+[2026-03-15 20:31:20] [enrich] Volltext extrahiert: 1489 Zeichen von https://merkurist.de/mainz/grosseinsatz-feuer-an-der-mainzer
+[2026-03-15 20:31:24] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Mainz in Mainz
+[2026-03-15 20:31:25] [enrich] --- Enriche [15/20]: Uniklinik Düsseldorf: Akkus fangen Feuer, Etage evakuiert - 
+[2026-03-15 20:31:25] [enrich] Google News URL aufgelöst (v1): https://www.nrz.de/staedte/duesseldorf/article236600269/Uniklinik-Duesseldorf-Ak
+[2026-03-15 20:31:26] [enrich] Volltext extrahiert: 1312 Zeichen von https://www.nrz.de/staedte/duesseldorf/article236600269/Unik
+[2026-03-15 20:31:28] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Düsseldorf in Düsseldorf
+[2026-03-15 20:31:29] [enrich] --- Enriche [16/20]: Brand an der Uniklinik Gießen: Chirurgische Station gesperrt
+[2026-03-15 20:31:30] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-unikli
+[2026-03-15 20:31:31] [enrich] Volltext extrahiert: 3975 Zeichen von https://www.giessener-allgemeine.de/giessen/giessen-brand-in
+[2026-03-15 20:31:35] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen (Uniklinik Gießen) in Gießen
+[2026-03-15 20:31:36] [enrich] --- Enriche [17/20]: Brand in Uniklinik Würzburg – keine Verletzten - TV Mainfran
+[2026-03-15 20:31:37] [enrich] Google News URL aufgelöst (v1): https://www.tvmainfranken.de/brand-in-uniklinik-wuerzburg-keine-verletzten-26530
+[2026-03-15 20:31:38] [enrich] Volltext zu kurz/leer (48 Z.), verwende RSS-Snippet (429 Z.)
+[2026-03-15 20:31:40] [enrich] Enrichment abgeschlossen: partial — Uniklinik Würzburg in Würzburg
+[2026-03-15 20:31:41] [enrich] --- Enriche [18/20]: Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote 
+[2026-03-15 20:31:42] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/bochum-mehrere-tote-bei-feuer-in-krankenhaus-a-1
+[2026-03-15 20:31:43] [enrich] Volltext extrahiert: 4558 Zeichen von https://www.spiegel.de/panorama/bochum-mehrere-tote-bei-feue
+[2026-03-15 20:31:49] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-15 20:31:50] [enrich] --- Enriche [19/20]: Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – P
+[2026-03-15 20:31:51] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071
+[2026-03-15 20:31:51] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.giessener-allgemeine.de/giessen/feuer-in-kranken
+[2026-03-15 20:31:56] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen (UKGM) in Gießen
+[2026-03-15 20:31:57] [enrich] --- Enriche [20/20]: Feuer auf Intensivstation der Uniklinik Gießen - Oberhessisc
+[2026-03-15 20:31:58] [enrich] Google News URL aufgelöst (v1): https://www.op-marburg.de/hessen/feuer-auf-intensivstation-der-uniklinik-giessen
+[2026-03-15 20:31:59] [enrich] Volltext extrahiert: 1951 Zeichen von https://www.op-marburg.de/hessen/feuer-auf-intensivstation-d
+[2026-03-15 20:32:02] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Gießen (Uniklinik Gießen) in Gießen
+[2026-03-15 20:32:02] [enrich] Ergebnis: 19 enriched, 1 partial, 0 false_positive, 0 failed
+[2026-03-15 20:32:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 20:32:02] [DEDUP] Starte Dedup für 224 Einträge
+[2026-03-15 20:32:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.91): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.81): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.90): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinikum Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.91): Universitätsklinik Mainz / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.95): Universitätsklinik Mainz / Mainz ↔ Universitätsklinikum Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.86): Universitätsklinik Mainz / Mainz ↔ Universitätsklinikum Mainz / Mainz
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.90): Uniklinik Gießen / Gießen ↔ Universitätsklinikum Gießen (Uniklinik G / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.81): Uniklinik Gießen / Gießen ↔ Universitätsklinikum Gießen (UKGM) / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.93): Uniklinik Gießen / Gießen ↔ Universitätsklinik Gießen (Uniklinik Gie / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.88): Universitätsklinikum Gießen (Uniklinik G / Gießen ↔ Universitätsklinikum Gießen (UKGM) / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.96): Universitätsklinikum Gießen (Uniklinik G / Gießen ↔ Universitätsklinik Gießen (Uniklinik Gie / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.87): Universitätsklinikum Gießen (UKGM) / Gießen ↔ Universitätsklinik Gießen (Uniklinik Gie / Gießen
+[2026-03-15 20:32:02] [DEDUP] Auto-Merge (0.91): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-15 20:32:02] [DEDUP] Paare verglichen: 1349
+[2026-03-15 20:32:02] [DEDUP] Auto-Merges: 13
+[2026-03-15 20:32:02] [DEDUP] Kandidaten (unsicher): 56
+[2026-03-15 20:32:02] [DEDUP] Cluster 4x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz, Universitätsklinik Mainz
+[2026-03-15 20:32:02] [DEDUP] Cluster 4x: Uniklinik Gießen, Universitätsklinikum Gießen (Uniklinik G, Universitätsklinikum Gießen (UKGM)
+[2026-03-15 20:32:02] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-03-15 20:32:02] [DEDUP] Ergebnis: 217 Einträge (war: 224, 7 zusammengeführt)
+[2026-03-15 20:32:02] [DEDUP] Kandidaten-Datei: 56 pending, 1 confirmed, 0 rejected
+[2026-03-15 20:32:02] [DEDUP] Gespeichert: 224 → 217 Einträge

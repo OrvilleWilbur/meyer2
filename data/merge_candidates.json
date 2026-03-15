@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T20:14:18.319728",
+  "generated_at": "2026-03-15T20:32:02.437112",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -133,6 +133,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.713,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.45454545454545453,
+        "total": 0.713
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (UKGM)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071390.html",
+        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - Gießener Allgemeine"
       }
     },
     {
@@ -562,6 +595,105 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
         "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.635,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.635
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (Uniklinik Gießen)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-uniklinik-feuer-patienten-verletzt-hoher-schaden-feuerwehr-polizei-zr-91070509.html",
+        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.626,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.626
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Gießen (Uniklinik Gießen)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.op-marburg.de/hessen/feuer-auf-intensivstation-der-uniklinik-giessen-3D635JGNJCESUNFTO665R7FC54.html",
+        "titel": "Feuer auf Intensivstation der Uniklinik Gießen - Oberhessische Presse"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.586,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.586
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feuerwehr-rueckt-mit-grossaufgebot-aus.html",
+        "titel": "Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit Großaufgebot aus - Osthessen|News"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
       }
     },
     {
@@ -1206,39 +1338,6 @@
         "total": 0.55
       },
       "entry_a": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "24.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEFDRnNFTGxudDRZN0o0ZE9sZ1dHYjdDRVlmMlpIakJNZGtlQWdYSXdBRDhqRllQMG1oTGtJLUp5eWh0b2MxOC1sRWpidGlaSEdSS0VMWmVEQkt3S0dITVItZVpDVnc1SUhCeTlxTXdEaEZpSzZhNkFxTklqZzNOU0lUeU5YZGVZbnlFdy15cWpmTzg0NVo4UC1KZUpjTk1sT0g0d2ktS0U1V01NVnVHUUV4TVhEZw?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Allgemeine Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "24.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb29QY21TNE5KRXdqQjVtc05tVHpBMXB4eGVJVEwtbnZsWEpZNVd6UlhqSUlsUjc0NFQxNzFHYUpDM19FSUNCMkxXV3BWamRic2UxeW1hNkxMTmI0NnJ1U0U2NTdiX2JHM2hqZUt1Z213X3F1QU82WXRLbVZWOGh4ag?oc=5",
-        "titel": "Feuer an der Mainzer Uniklinik - merkurist.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.55,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.55
-      },
-      "entry_a": {
         "einrichtung": "ins Krankenhaus gebracht",
         "ort": "",
         "datum": "29.08.2025",
@@ -1371,72 +1470,6 @@
         "total": 0.55
       },
       "entry_a": {
-        "einrichtung": "Uniklinik Gießen",
-        "ort": "",
-        "datum": "24.10.2021",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNRlF5SHc0ZDRGV0txU084ZGJoeHloLUwtUHB0NEhQdHBoR1J4V1ExSzBnRUZTQnJCUWVrbWNwdVJTSi1haFVrUkJXU3ZweGFLcUd0a1U4TDF3ME5QZWNSME41Y2ZpeE1zOXVGSW5yVnBkTEw0TUdaOUlkaVg2UUFmeXBad1NmMWtud1I1cW1qemo2X19nWTJjUHNpUEV4aFJqRUNoRmJYNFFkeTREb2JwOVBkNWY2X2hDdlZKelgxTlo4S1poV3JXV1FNRXNoX1JteHBIdlA2NU9mZnpuMkpVUTA4SnZRNWlmaWNDdlR3?oc=5",
-        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - Gießener Allgemeine"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Gießen",
-        "ort": "",
-        "datum": "24.10.2021",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdzIxSGtOX3A2cHUzdnNBLUdremtWQlJseldLWnF1MWt5Qmh2bEhaQVhkWFBoWGZmNjdMRzdickJkaG1udWZXN1B1WWVybTBqZmRybmZIVnh2bWNvcEx0QUpoVEZpVFNMOG5CWWtsSXRXem1DWVFVaGJzc2d2Q3VpZllPVExYMmZ1MmdWRy1FNjZsa05tM2tpd1VHUFlFQVpweF9UbmlGWTJKcXNhZkVkb2h30gHOAUFVX3lxTE1qSk5mRlpwYndudmdTM1FNQ0d5Nmw5NzBDUzdFaUNqcUU5dVJqeWRPM05zcDhrb3NrMGlSMDAwQ3JlbVBPMDhtQlJaZ0VTTURuZGI2TEtqaTJ0ZUtkN0VRd3UyLWw2NkNZWEpTMXpCUjdRR2VuNzZ4YlYtZlRHZnVTbWpyclJfWWRCVXN6VVA3UnJWUjk0NnRSVEZ6TVdSOWpTOWJyWlhqUzZkdU1rRS05WUlGQmlYWjJRRkhmcC1Rd1hYRlh6OUpnbVlKSi1R?oc=5",
-        "titel": "Feuer auf Intensivstation der Uniklinik Gießen - Oberhessische Presse"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.55,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.55
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjNKcnFXYnVsT2lBcXc3ajNrZktKYXp4ajdVSlRjMnhIdFZzQWE1dVljYmEtelVXWV9GWFk1QUNxLVMzX3dzUE85bVZ3OUhmblRrdkRhbFhYQ0VHdUVhaTJRUElWczlkekMxSVZqRi02bXF5alZhN0hOSUh4X2t6SlFyUkJZaDViSVFpdEJ2OXYteW10REVaRTdvT0RaMUVPcGl6U1BpSnh2cEhFaEFyX1NQMHQ2MVZ4?oc=5",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1NabTNUNXJ6M19pSmRvRnlxdVNjcjhHUEJZRW82TEV1WExtdTJzaGlTc1JNNGdfaHhqZnAzOVJCTmZqTHp1Z04wZWplaTRhb2xKcmtwSWNWQkNhTHl1U25acFQtdWxjRndCSVhvRkdwdkVQUy0yUDlMOUQxTFVwbjRKQm02STdocjFjTDZfLXdPQllrOEJuTGdZdThEQVhlTDB0aUxDU1RyQmstZFZvclNPNGMxS2lQYkE?oc=5",
-        "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.55,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.55
-      },
-      "entry_a": {
         "einrichtung": "Uni-Klinik",
         "ort": "",
         "datum": "30.09.2016",
@@ -1519,39 +1552,6 @@
         "status": "pending",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT2t2a2JnVmRpdlFtckg0Mzdvemppc1piUnhBNTZJcERGbnVsNUZySzBFN3lQWVlSSW5mX3U5azhIaFBxWVJZRFZheU1iZHRFdXVFNmRLaUxUOHNRNmFMcTNOdFcwb0tVTnVsTTVRNkhmRXdmU0tGdTBRMXQ4aXNHd19XR2szemJBNm5ubzVMTlFsazg?oc=5",
         "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Düsseldorf",
-        "ort": "",
-        "datum": "17.04.2023",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQbU12R3dkM3d6NFVUSno2RzlfT3E3OUVtdXRHbkxHamdVOFFzaDdKcnJjTWJFVmx3bjRYV1l1OUwyOEs1eThES2tVWk02Y0tGbEUyX2M2QVdPOEdfdHJGOEZsdEdEeW41ZzZ5UEFYNEJDRE84TWNzYWVoYTRZVnNfYWtvRGFRaGJzOUk4Vjk4elVuMDdkVnNYb0NNeEVJbUdJSndIR1U3QkpXSjJTNWs4dWhUNUZBZExtNzZHTkR5VzNja18zZXR0YU1jb2dRZWFRUTdGV3g0Tm5JNTJxenZGb2xYWQ?oc=5",
-        "titel": "Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseldorf - Neue Düsseldorfer Online Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "17.04.2023",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcWF4TGNha1NVdHljUzRIcEs5WVVXNldPRlY3RWJtTnNKTHdSb0ZtMGt1bk1jazJ6ajU0R2JRazNrQ1RleHBjeXZZdFZaSVdJT3hZN0JyNzBBcnNpWGVxTWh2Rmg5Tm5uRnJzWUNOQXl3UjhxYl9NLWJHX1cyVS0zb2J4QjZlZnM3NW9lRkk3czFNNkVENVluQzdhSmROR0tUdHUwYndCOElyaGotdklJUTRIeEZyM19GRHlRZA?oc=5",
-        "titel": "Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsseldorfer Uniklinik - RP Online"
       }
     },
     {
@@ -1602,105 +1602,6 @@
         "total": 0.5
       },
       "entry_a": {
-        "einrichtung": "Uniklinik Mainz",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMVU5ZWF6dEhNNG53cE9JR3lTeDV1cjZFVnRhTFB0UUE3ZEJEZndEZ2J4b285SU1uUlMwWHZ1TDlNOVZ0R1llbzB0NUowcVIwVUd4MDY2WUw2R0ZEOVJvb293SFktSkVSLWZseDZXMDV1eDBDWkxxUVNKTzVuUGhDbXRwbkl3MHR3WGtfYS1xNEJTZnhnOElUTUhqejJOYmIwMzVDdmJyYmJPY3RoSTZFY2s2dkRUT3Q1ZE5mQTJKSThJWG85eFF6TktTaG9fcnJfLU9TYUxHY2Q?oc=5",
-        "titel": "Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwicklung in unterirdischem Tunnelsystem, vierstündiger Einsatz - Internetzeitung Mainz"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWG1wdFhKSmJMLW9Qam5ua1NkV1p1MUtJWjk4ZDA4aV94UGV0ejNqZmtIWXRPNm1CUjUzZWNQb28xVm1Qa2s0SWpqVHU0RXdvMFhZaXBTT3VkVVU5YVhTamcwNXZvUnBGRDVXWGFXT1Q2UTRRUGtmVVhPWFg3LWxOOGxfUnlCZ1VSYWNJTFFOVEs5cmFpNElZTGR1dTdUT2E4MklTZ3NGU1JrNUVD?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Mainz",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMVU5ZWF6dEhNNG53cE9JR3lTeDV1cjZFVnRhTFB0UUE3ZEJEZndEZ2J4b285SU1uUlMwWHZ1TDlNOVZ0R1llbzB0NUowcVIwVUd4MDY2WUw2R0ZEOVJvb293SFktSkVSLWZseDZXMDV1eDBDWkxxUVNKTzVuUGhDbXRwbkl3MHR3WGtfYS1xNEJTZnhnOElUTUhqejJOYmIwMzVDdmJyYmJPY3RoSTZFY2s2dkRUT3Q1ZE5mQTJKSThJWG85eFF6TktTaG9fcnJfLU9TYUxHY2Q?oc=5",
-        "titel": "Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwicklung in unterirdischem Tunnelsystem, vierstündiger Einsatz - Internetzeitung Mainz"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Mainz sorgt für Großeinsatz",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaWF2UExBRFJCMXk4SHR3Z2RZXzVVZm9xSXcwN3pwTXFPUDZ0b3NkYVQyLVpkWlZkTXlyUlJFTmNuT0FLcm9LVUtqTnVmZ2hsZWE2RWQzNVc3a2VSYjktWW5YOXVmOWl4ay1XY3dzamR5YklxRVdZZHVzeERfbGtxZEJXLVNNRHlWZ212M1lqN0hzS3QtbjcxdEY3MFZuN2o4WUw3UmR1cmJSQWlFdlJnQXhpdF9pcUpsT1NtdVFIbw?oc=5",
-        "titel": "Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr - Hit Radio FFH"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWG1wdFhKSmJMLW9Qam5ua1NkV1p1MUtJWjk4ZDA4aV94UGV0ejNqZmtIWXRPNm1CUjUzZWNQb28xVm1Qa2s0SWpqVHU0RXdvMFhZaXBTT3VkVVU5YVhTamcwNXZvUnBGRDVXWGFXT1Q2UTRRUGtmVVhPWFg3LWxOOGxfUnlCZ1VSYWNJTFFOVEs5cmFpNElZTGR1dTdUT2E4MklTZ3NGU1JrNUVD?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Mainz sorgt für Großeinsatz",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaWF2UExBRFJCMXk4SHR3Z2RZXzVVZm9xSXcwN3pwTXFPUDZ0b3NkYVQyLVpkWlZkTXlyUlJFTmNuT0FLcm9LVUtqTnVmZ2hsZWE2RWQzNVc3a2VSYjktWW5YOXVmOWl4ay1XY3dzamR5YklxRVdZZHVzeERfbGtxZEJXLVNNRHlWZ212M1lqN0hzS3QtbjcxdEY3MFZuN2o4WUw3UmR1cmJSQWlFdlJnQXhpdF9pcUpsT1NtdVFIbw?oc=5",
-        "titel": "Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr - Hit Radio FFH"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
         "einrichtung": "Al-Schifa-Krankenhaus",
         "ort": "",
         "datum": "18.03.2024",
@@ -1734,105 +1635,6 @@
         "total": 0.5
       },
       "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjNKcnFXYnVsT2lBcXc3ajNrZktKYXp4ajdVSlRjMnhIdFZzQWE1dVljYmEtelVXWV9GWFk1QUNxLVMzX3dzUE85bVZ3OUhmblRrdkRhbFhYQ0VHdUVhaTJRUElWczlkekMxSVZqRi02bXF5alZhN0hOSUh4X2t6SlFyUkJZaDViSVFpdEJ2OXYteW10REVaRTdvT0RaMUVPcGl6U1BpSnh2cEhFaEFyX1NQMHQ2MVZ4?oc=5",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uni-Klinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNm8wUDdxakN4ZWRZVlhEWkZGQVBCY04xVG1taExsa0k3dkxjV21qVExqZmNhZ01KSWxXS0lwUnNPQVdjUVdxU1E3bDRjNGxuVXFzU1lsQzJ6aUNCQWVqQmJpTXVjN3ltVDZiUTJmM3lvb1RPU1JKbldXcXo2TVBPWmR3eVE1UUhyNW15OXgwamNyaTlmVTBXUVhYbm1KQXQwSmZfYzhEa9IBpwFBVV95cUxQSTIxT0RhZXpEcUdfcFZiN1pvZXFFWEJEdFFGSEpxaXpBcGJsY1Y5V2xkWEg2a2tMMXppeVV0d2tpVDRESHBSRG1DM19zdFlFYmdDRUxNelJxX2dWYUc5VFJuX1c4NGNzd2hPU0N5c1dxS01zNVdQeHZGMUFrc2xucWc3MVVQRmYteS1LU3JzNVdlQjZhVVgtdGNFU1N1TDFzdEFlZ1QzNA?oc=5",
-        "titel": "Tote bei Großbrand in Uni-Klinik - DW.com"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjNKcnFXYnVsT2lBcXc3ajNrZktKYXp4ajdVSlRjMnhIdFZzQWE1dVljYmEtelVXWV9GWFk1QUNxLVMzX3dzUE85bVZ3OUhmblRrdkRhbFhYQ0VHdUVhaTJRUElWczlkekMxSVZqRi02bXF5alZhN0hOSUh4X2t6SlFyUkJZaDViSVFpdEJ2OXYteW10REVaRTdvT0RaMUVPcGl6U1BpSnh2cEhFaEFyX1NQMHQ2MVZ4?oc=5",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObDhsV2V3VjhZNmhQckczNTI5QnBoVHd6WHp6d0d2RkkyZFNxcmRGbk9EdVVremtjNko0XzN1cE41NXZNbUx3aWFFNXI4emU3X1h6Wlk1bFh4SjF0NFhfMEtjVVNHNE9BVGpxWXNoamlENXg4UW1lS0NYaGswemIzZmdocXlTaTAwamU2NVBNOUJCV253SmJZaURMaF9OZDROY0tQWW8yYWxub3hPVnJqemNVclVXQVY4Z1ZtT2g3cGY?oc=5",
-        "titel": "Zwei Tote bei Feuer in Bochumer Uniklinik - T-Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjNKcnFXYnVsT2lBcXc3ajNrZktKYXp4ajdVSlRjMnhIdFZzQWE1dVljYmEtelVXWV9GWFk1QUNxLVMzX3dzUE85bVZ3OUhmblRrdkRhbFhYQ0VHdUVhaTJRUElWczlkekMxSVZqRi02bXF5alZhN0hOSUh4X2t6SlFyUkJZaDViSVFpdEJ2OXYteW10REVaRTdvT0RaMUVPcGl6U1BpSnh2cEhFaEFyX1NQMHQ2MVZ4?oc=5",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT2t2a2JnVmRpdlFtckg0Mzdvemppc1piUnhBNTZJcERGbnVsNUZySzBFN3lQWVlSSW5mX3U5azhIaFBxWVJZRFZheU1iZHRFdXVFNmRLaUxUOHNRNmFMcTNOdFcwb0tVTnVsTTVRNkhmRXdmU0tGdTBRMXQ4aXNHd19XR2szemJBNm5ubzVMTlFsazg?oc=5",
-        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
         "einrichtung": "Uniklinik Bochum",
         "ort": "",
         "datum": "30.09.2016",
@@ -2014,171 +1816,6 @@
         "status": "pending",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT2t2a2JnVmRpdlFtckg0Mzdvemppc1piUnhBNTZJcERGbnVsNUZySzBFN3lQWVlSSW5mX3U5azhIaFBxWVJZRFZheU1iZHRFdXVFNmRLaUxUOHNRNmFMcTNOdFcwb0tVTnVsTTVRNkhmRXdmU0tGdTBRMXQ4aXNHd19XR2szemJBNm5ubzVMTlFsazg?oc=5",
         "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.467,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.6666666666666666,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.467
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcjNKcnFXYnVsT2lBcXc3ajNrZktKYXp4ajdVSlRjMnhIdFZzQWE1dVljYmEtelVXWV9GWFk1QUNxLVMzX3dzUE85bVZ3OUhmblRrdkRhbFhYQ0VHdUVhaTJRUElWczlkekMxSVZqRi02bXF5alZhN0hOSUh4X2t6SlFyUkJZaDViSVFpdEJ2OXYteW10REVaRTdvT0RaMUVPcGl6U1BpSnh2cEhFaEFyX1NQMHQ2MVZ4?oc=5",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Bergmannsheil-Klinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYjhxc3h5RFBnc0tvNkRFaWR4T3M1R2U1VFZfbHhvUUhyZXJuZUZUWEd2WUdQV2VObjMwNE80SGhiT3kwQW50X1ByNDQ5QmhrQTFvNnNqN1VZR2QxeC1kS3dFSmhNM3pqOFNuOWdTUEcxOWZHZlcyOUY2a2tqeVFwaU9FNnVMZml6LXIzOGE3c2E5Y2RRMmc?oc=5",
-        "titel": "Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote - Spiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.467,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.6666666666666666,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.467
-      },
-      "entry_a": {
-        "einrichtung": "Bergmannsheil-Klinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYjhxc3h5RFBnc0tvNkRFaWR4T3M1R2U1VFZfbHhvUUhyZXJuZUZUWEd2WUdQV2VObjMwNE80SGhiT3kwQW50X1ByNDQ5QmhrQTFvNnNqN1VZR2QxeC1kS3dFSmhNM3pqOFNuOWdTUEcxOWZHZlcyOUY2a2tqeVFwaU9FNnVMZml6LXIzOGE3c2E5Y2RRMmc?oc=5",
-        "titel": "Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1NabTNUNXJ6M19pSmRvRnlxdVNjcjhHUEJZRW82TEV1WExtdTJzaGlTc1JNNGdfaHhqZnAzOVJCTmZqTHp1Z04wZWplaTRhb2xKcmtwSWNWQkNhTHl1U25acFQtdWxjRndCSVhvRkdwdkVQUy0yUDlMOUQxTFVwbjRKQm02STdocjFjTDZfLXdPQllrOEJuTGdZdThEQVhlTDB0aUxDU1RyQmstZFZvclNPNGMxS2lQYkE?oc=5",
-        "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.46,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.46
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "24.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEFDRnNFTGxudDRZN0o0ZE9sZ1dHYjdDRVlmMlpIakJNZGtlQWdYSXdBRDhqRllQMG1oTGtJLUp5eWh0b2MxOC1sRWpidGlaSEdSS0VMWmVEQkt3S0dITVItZVpDVnc1SUhCeTlxTXdEaEZpSzZhNkFxTklqZzNOU0lUeU5YZGVZbnlFdy15cWpmTzg0NVo4UC1KZUpjTk1sT0g0d2ktS0U1V01NVnVHUUV4TVhEZw?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Allgemeine Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWG1wdFhKSmJMLW9Qam5ua1NkV1p1MUtJWjk4ZDA4aV94UGV0ejNqZmtIWXRPNm1CUjUzZWNQb28xVm1Qa2s0SWpqVHU0RXdvMFhZaXBTT3VkVVU5YVhTamcwNXZvUnBGRDVXWGFXT1Q2UTRRUGtmVVhPWFg3LWxOOGxfUnlCZ1VSYWNJTFFOVEs5cmFpNElZTGR1dTdUT2E4MklTZ3NGU1JrNUVD?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.46,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.46
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "25.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWG1wdFhKSmJMLW9Qam5ua1NkV1p1MUtJWjk4ZDA4aV94UGV0ejNqZmtIWXRPNm1CUjUzZWNQb28xVm1Qa2s0SWpqVHU0RXdvMFhZaXBTT3VkVVU5YVhTamcwNXZvUnBGRDVXWGFXT1Q2UTRRUGtmVVhPWFg3LWxOOGxfUnlCZ1VSYWNJTFFOVEs5cmFpNElZTGR1dTdUT2E4MklTZ3NGU1JrNUVD?oc=5",
-        "titel": "Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "24.10.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb29QY21TNE5KRXdqQjVtc05tVHpBMXB4eGVJVEwtbnZsWEpZNVd6UlhqSUlsUjc0NFQxNzFHYUpDM19FSUNCMkxXV3BWamRic2UxeW1hNkxMTmI0NnJ1U0U2NTdiX2JHM2hqZUt1Z213X3F1QU82WXRLbVZWOGh4ag?oc=5",
-        "titel": "Feuer an der Mainzer Uniklinik - merkurist.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.46,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.46
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "25.10.2021",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVFFkSGh1U2VIazZsN1pTeXZXR2g0S0djbUVZX09VTFhWVkxPSW9ObjRkYzhoMVJ0cjJjbHFOQzZQTGVpdzlMOGVjdEQ3dGNQNjlLR3cwUHVhd3cxa0p3YV9lbGpjTVNlNVREV2pDVmxDRzNZcGpRclFINE8wb3lMdVJQenc3MVdhMjFXUTMyUFJMaFJ6ZzliUFdVR2Nmc0FqMFJCOGpZQ2w?oc=5",
-        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "26.10.2021",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRzE2bi1RMVFBSFRTZ09BN3c1S0hvbVVZeUlORU16NWEwczZXQmZyYjAxQ1RRSzhTVE9BUFBNYURLZ2dfenh4aVJNa1RocDRwODFLOEVFRlBEOVF5anJCb1l6QTU1b2thRm5iYTdoaXRZMkxSZms3ZGU2dzVTWGNLblU5d1VnbHlwdy1Yc0h6NkJDUQ?oc=5",
-        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - Gießener Allgemeine"
       }
     },
     {
