@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T21:43:11.090049",
+  "generated_at": "2026-03-15T22:48:37.093647",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -239,6 +239,39 @@
         "",
         ""
       ],
+      "score": 0.686,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.686
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
+        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.675,
       "details": {
         "datum": 0.0,
@@ -496,6 +529,72 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
+        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
+        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
       }
     },
     {
@@ -1123,39 +1222,6 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html",
         "titel": "Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.55,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.55
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik",
-        "ort": "",
-        "datum": "01.06.2025",
-        "bundesland": "",
-        "status": "false_positive",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Hamburger Klinik",
-        "ort": "",
-        "datum": "01.06.2025",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdDB5NDlrNFlIRE0yeGVhZjR0Mzgzb1pwUTE4dWI4ZkotWUU0S1M1X2VBMWlmWFpiN2lMVFZyVE1adXc4Z0ZxcEFIUE15RVNvc3RxMEI5N25HTkVlZ1doSENHM1o5aDVyOVBBUkNnSzlzNWtpNldoQXE4djBBOXd2QVRtQUk2NllqQnhlai1xckh2VGlPLWw0UFdjSHBxa2tnQ1NlM0RkVk1ZUDhQUkNpT2RvSGxEWTR6cExWa21tclV6V0w4NzhoMg?oc=5",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
       }
     },
     {

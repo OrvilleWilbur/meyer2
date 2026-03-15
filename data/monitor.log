@@ -2268,3 +2268,119 @@
 [2026-03-15 21:43:11] [DEDUP] Ergebnis: 212 Einträge (war: 213, 1 zusammengeführt)
 [2026-03-15 21:43:11] [DEDUP] Kandidaten-Datei: 47 pending, 1 confirmed, 0 rejected
 [2026-03-15 21:43:11] [DEDUP] Gespeichert: 213 → 212 Einträge
+[2026-03-15 22:47:09] === Monitor-Lauf gestartet ===
+[2026-03-15 22:47:10] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 22:47:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 22:47:11] Feed 'gn_brand_krankenhaus': 59 Einträge
+[2026-03-15 22:47:11] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-15 22:47:12] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-03-15 22:47:12] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-15 22:47:13] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-15 22:47:13] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 22:47:14] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-03-15 22:47:14] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 22:47:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 22:47:15] 251 relevante Treffer in Feeds
+[2026-03-15 22:47:15] ✅ 2 NEUE Einträge gefunden:
+[2026-03-15 22:47:15]    18.02.2025 | im Krankenhaus |  | Brand in Hallescher Straße: Feuer in Merseburg: Sechs Mensch
+[2026-03-15 22:47:15]    25.09.2025 | im Krankenhaus |  | Küchenbrand in Delmenhorst: Bewohner mit Verdacht auf Rauchg
+[2026-03-15 22:47:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 22:47:15] === Monitor-Lauf beendet ===
+
+[2026-03-15 22:47:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 22:47:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 22:47:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 22:47:16] [enrich] 47 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 22:47:16] [enrich] --- Enriche [1/20]: Evakuierung von Patienten wegen eines Brandes: Feuerwehr übt
+[2026-03-15 22:47:16] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/region_artikel,-Evakuierung-von-Patienten-wegen-eines-Bra
+[2026-03-15 22:47:18] [enrich] Volltext extrahiert: 1326 Zeichen von https://www.pz-news.de/region_artikel,-Evakuierung-von-Patie
+[2026-03-15 22:47:19] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/Evakuierungsübung der Feuerwehr, kein echter Brand in einem Krankenhaus
+[2026-03-15 22:47:20] [enrich] --- Enriche [2/20]: Bombenfund im Osten: Krankenhaus St. Josef probt die Evakuie
+[2026-03-15 22:47:20] [enrich] Google News URL aufgelöst (v1): https://www.mittelbayerische.de/nachrichten/bayern/bombenfund-im-osten-krankenha
+[2026-03-15 22:47:21] [enrich] Volltext extrahiert: 630 Zeichen von https://www.mittelbayerische.de/nachrichten/bayern/bombenfun
+[2026-03-15 22:47:22] [enrich] FALSE POSITIVE erkannt: Evakuierungsübung wegen Bombenentschärfung, nicht wegen Brand. Artikel beschreibt ein Szenario-Training, keine realen Brandereignisse.
+[2026-03-15 22:47:23] [enrich] --- Enriche [3/20]: Evakuierung Asklepios-Klinik: Keine Verletzen nach Chlorgas-
+[2026-03-15 22:47:23] [enrich] Google News URL aufgelöst (v1): https://www.insuedthueringen.de/inhalt.evakuierung-asklepios-klinik-keine-verlet
+[2026-03-15 22:47:25] [enrich] Volltext extrahiert: 1106 Zeichen von https://www.insuedthueringen.de/inhalt.evakuierung-asklepios
+[2026-03-15 22:47:28] [enrich] Enrichment abgeschlossen: enriched — Asklepios-Parkklinik in Bad Salzungen
+[2026-03-15 22:47:29] [enrich] --- Enriche [4/20]: Newsblog: Israel fordert Krankenhaus in Nord-Gaza zu Evakuie
+[2026-03-15 22:47:29] [enrich] Google News URL aufgelöst (v1): https://www.berliner-zeitung.de/news/newsblog-israel-will-mehr-als-eine-million-
+[2026-03-15 22:47:30] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.berliner-zeitung.de/news/newsblog-israel-will-me
+[2026-03-15 22:47:31] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt eine Evakuierungsaufforderung eines Krankenhauses in Gaza durch israelische Streitkräfte im Kontext des Krieges. Es wird kein Brand im Krankenhaus beschrieben. Das Krankenhaus befindet sich zudem nicht in Deutschland, sondern in Gaza (Palästina).
+[2026-03-15 22:47:32] [enrich] --- Enriche [5/20]: Feuer in psychiatrischer Klinik ausgebrochen - Zwei Statione
+[2026-03-15 22:47:33] [enrich] Google News URL aufgelöst (v1): https://www.hna.de/kassel/niederzwehren-ort83989/kassel-feuer-in-psychiatrischer
+[2026-03-15 22:47:34] [enrich] Volltext extrahiert: 2796 Zeichen von https://www.hna.de/kassel/niederzwehren-ort83989/kassel-feue
+[2026-03-15 22:47:37] [enrich] Enrichment abgeschlossen: enriched — Ludwig-Noll-Krankenhaus in Kassel, Niederzwehren
+[2026-03-15 22:47:38] [enrich] --- Enriche [6/20]: Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtunge
+[2026-03-15 22:47:38] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/news-erfurt-solingen-bombendrohung-schule-eins
+[2026-03-15 22:47:39] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.merkur.de/deutschland/news-erfurt-solingen-bombe
+[2026-03-15 22:47:41] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Bombendrohungen gegen Schulen, nicht einen Brand in einem Krankenhaus. Die Erwähnung des Krankenhauses bezieht sich nur auf die Behandlung von drei Schülerinnen mit Kreislaufproblemen nach einer Schulevakuierung - dies ist keine Evakuierung wegen eines Brandes im Krankenhaus selbst.
+[2026-03-15 22:47:42] [enrich] --- Enriche [7/20]: Klinik-Evakuierung - Rettung mit Problemen - Starnberg - SZ.
+[2026-03-15 22:47:42] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettung-mit-problemen-1.3
+[2026-03-15 22:47:43] [enrich] Volltext extrahiert: 4582 Zeichen von https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettu
+[2026-03-15 22:47:44] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung (Feuerschutz-Evakuierungsübung) in der Asklepios-Klinik Gauting, nicht einen realen Brand. Es handelt sich um eine inszenierte Übung zur Überprüfung von Brandschutzmaßnahmen und Evakuierungsprozeduren.
+[2026-03-15 22:47:45] [enrich] --- Enriche [8/20]: Erfolgreiche Evakuierung des Krankenhauses Porz am Rhein in 
+[2026-03-15 22:47:46] [enrich] Google News URL aufgelöst (v1): https://www.openpr.de/news/1071766/Erfolgreiche-Evakuierung-des-Krankenhauses-Po
+[2026-03-15 22:47:46] [enrich] Volltext extrahiert: 2937 Zeichen von https://www.openpr.de/news/1071766/Erfolgreiche-Evakuierung-
+[2026-03-15 22:47:47] [enrich] FALSE POSITIVE erkannt: Evakuierung aufgrund einer Bombenentschärfung, nicht aufgrund eines Brandes
+[2026-03-15 22:47:48] [enrich] --- Enriche [9/20]: Trier: Klinik-Evakuierung verlief reibungslos - SK-Verlag
+[2026-03-15 22:47:48] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuier
+[2026-03-15 22:47:49] [enrich] Volltext extrahiert: 1764 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/t
+[2026-03-15 22:47:50] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses wegen Bombenentschärfung (Blindgänger aus WWII), nicht wegen eines Brandes
+[2026-03-15 22:47:51] [enrich] --- Enriche [10/20]: Gasalarm in Reha-Klinik Bernkastel-Kues: 180 Menschen evakui
+[2026-03-15 22:47:52] [enrich] Google News URL aufgelöst (v1): https://lokalo.de/artikel/393570/bernkastel-kues-gasalarm-evakuierung-update/
+[2026-03-15 22:47:52] [enrich] Volltext extrahiert: 2422 Zeichen von https://lokalo.de/artikel/393570/bernkastel-kues-gasalarm-ev
+[2026-03-15 22:47:53] [enrich] FALSE POSITIVE erkannt: Gasalarm/Gefahrstoffalarm in einer Reha-Klinik, kein Brand
+[2026-03-15 22:47:54] [enrich] --- Enriche [11/20]: Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (
+[2026-03-15 22:47:55] [enrich] Google News URL aufgelöst (v1): https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-ba
+[2026-03-15 22:47:55] [enrich] Volltext extrahiert: 4158 Zeichen von https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdl
+[2026-03-15 22:47:57] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Straßeneinbruch (Erdloch) vor einem Krankenhaus in Bangkok, Thailand. Dies ist kein Brand in einem deutschen Krankenhaus, sondern ein Naturereignis in einem ausländischen Krankenhaus.
+[2026-03-15 22:47:58] [enrich] --- Enriche [12/20]: ++ Lokalo-Aktuell: Nach Gasaustritt – Klinik-Evakuierung in 
+[2026-03-15 22:47:58] [enrich] Google News URL aufgelöst (v1): https://lokalo.de/artikel/258549/lokalo-aktuell-nach-gasaustritt-klinik-evakuier
+[2026-03-15 22:47:59] [enrich] Volltext extrahiert: 838 Zeichen von https://lokalo.de/artikel/258549/lokalo-aktuell-nach-gasaust
+[2026-03-15 22:48:00] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Gasaustritt, nicht wegen Brand
+[2026-03-15 22:48:01] [enrich] --- Enriche [13/20]: Banja Luka: Krankenhaus-Evakuierung nach Bombendrohungen - K
+[2026-03-15 22:48:01] [enrich] Google News URL aufgelöst (v1): https://www.kosmo.at/banja-luka-krankenhaus-bombendrohungen/
+[2026-03-15 22:48:04] [enrich] Volltext extrahiert: 2878 Zeichen von https://www.kosmo.at/banja-luka-krankenhaus-bombendrohungen/
+[2026-03-15 22:48:05] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombendrohung, nicht wegen Brand. Zudem handelt es sich um ein Krankenhaus in Bosnien und Herzegowina (Banja Luka), nicht in Deutschland.
+[2026-03-15 22:48:06] [enrich] --- Enriche [14/20]: Feuerwehr bekämpft Großbrand an Rettungswache
+[2026-03-15 22:48:07] [enrich] Volltext extrahiert: 3557 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/feuerwehr-bekaem
+[2026-03-15 22:48:08] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Rettungswache (Malteser-Standort) und nicht in einem Krankenhaus oder einer Klinik. Eine Rettungswache ist eine Einrichtung des Rettungsdienstes, keine medizinische Behandlungseinrichtung.
+[2026-03-15 22:48:09] [enrich] --- Enriche [15/20]: Petition fordert Rentenpunkte fürs Ehrenamt
+[2026-03-15 22:48:10] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/petition-fordert
+[2026-03-15 22:48:11] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt eine Petition zur Altersvorsorge für Ehrenamtler in Blaulichtorganisationen. Es gibt keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik.
+[2026-03-15 22:48:12] [enrich] --- Enriche [16/20]: Mülheim: Feuer in Krankenhaus ausgebrochen! Sechs Verletzte 
+[2026-03-15 22:48:13] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/staedte/muelheim/muelheim-feuer-krankenhaus-brand-verle
+[2026-03-15 22:48:14] [enrich] Volltext extrahiert: 2327 Zeichen von https://www.derwesten.de/staedte/muelheim/muelheim-feuer-kra
+[2026-03-15 22:48:18] [enrich] Enrichment abgeschlossen: enriched — Evangelisches Krankenhaus Mülheim an der Ruhr in Mülheim an der Ruhr
+[2026-03-15 22:48:19] [enrich] --- Enriche [17/20]: Feuer in Malente: Batterien geraten in Brand – Hausbewohneri
+[2026-03-15 22:48:19] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-in-malente-batterien-
+[2026-03-15 22:48:21] [enrich] Volltext extrahiert: 1085 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-i
+[2026-03-15 22:48:22] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Doppelhaus in Malente), nicht in einem Krankenhaus. Die Hausbewohnerin wurde nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst ereignete sich nicht in einer medizinischen Einrichtung.
+[2026-03-15 22:48:23] [enrich] --- Enriche [18/20]: Feuer bricht in Küche von Wohnung aus – Bewohner kann sich m
+[2026-03-15 22:48:24] [enrich] Google News URL aufgelöst (v1): https://www.nonstopnews.de/meldung/30632
+[2026-03-15 22:48:24] [enrich] Volltext extrahiert: 1714 Zeichen von https://www.nonstopnews.de/meldung/30632
+[2026-03-15 22:48:26] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnwohnung (Doppelhaushälfte), nicht in einem Krankenhaus. Die Person wurde nach dem Brand ins Krankenhaus gebracht und dort behandelt, aber der Brand selbst fand nicht in der Klinik statt.
+[2026-03-15 22:48:27] [enrich] --- Enriche [19/20]: Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier
+[2026-03-15 22:48:27] [enrich] Google News URL aufgelöst (v1): https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/40309
+[2026-03-15 22:48:27] [enrich] Volltext extrahiert: 2219 Zeichen von https://kurier.at/chronik/welt/klinik-brand-feuer-saarbrueck
+[2026-03-15 22:48:30] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken (Name nicht vollständig spezifiziert) in Saarbrücken
+[2026-03-15 22:48:31] [enrich] --- Enriche [20/20]: Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-15 22:48:31] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marie
+[2026-03-15 22:48:32] [enrich] Volltext extrahiert: 4363 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100748170/ha
+[2026-03-15 22:48:36] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg (Stadtteil Hohenfelde)
+[2026-03-15 22:48:36] [enrich] Ergebnis: 5 enriched, 0 partial, 15 false_positive, 0 failed
+[2026-03-15 22:48:36] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 22:48:36] [DEDUP] Starte Dedup für 214 Einträge
+[2026-03-15 22:48:36] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 22:48:37] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg (Stadtteil H
+[2026-03-15 22:48:37] [DEDUP] Auto-Merge (0.96): Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken ↔ Klinik Saarbrücken (Name nicht vollständ / Saarbrücken
+[2026-03-15 22:48:37] [DEDUP] Paare verglichen: 1208
+[2026-03-15 22:48:37] [DEDUP] Auto-Merges: 2
+[2026-03-15 22:48:37] [DEDUP] Kandidaten (unsicher): 49
+[2026-03-15 22:48:37] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-03-15 22:48:37] [DEDUP] Cluster 2x: Klinik Saarbrücken (Name nicht spezifizi, Klinik Saarbrücken (Name nicht vollständ
+[2026-03-15 22:48:37] [DEDUP] Ergebnis: 212 Einträge (war: 214, 2 zusammengeführt)
+[2026-03-15 22:48:37] [DEDUP] Kandidaten-Datei: 49 pending, 1 confirmed, 0 rejected
+[2026-03-15 22:48:37] [DEDUP] Gespeichert: 214 → 212 Einträge
