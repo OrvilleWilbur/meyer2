@@ -1028,3 +1028,377 @@
 [2026-03-15 11:39:37] [enrich] Ergebnis: 13 enriched, 0 partial, 7 false_positive, 0 failed
 [2026-03-15 11:39:37] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 13:16:24] === Monitor-Lauf gestartet ===
+[2026-03-15 13:16:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 13:16:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 13:16:27] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 13:16:27] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-03-15 13:16:28] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-15 13:16:28] Feed 'gn_brand_klinik': 42 Einträge
+[2026-03-15 13:16:28] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 13:16:29] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 13:16:30] Feed 'gn_feuer_uniklinik': 59 Einträge
+[2026-03-15 13:16:30] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-15 13:16:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 13:16:31] 248 relevante Treffer in Feeds
+[2026-03-15 13:16:31] ✅ 7 NEUE Einträge gefunden:
+[2026-03-15 13:16:31]    13.12.2024 | ins Krankenhaus |  | Feuer in Neumünster: Familie musste ins Krankenhaus - shz.de
+[2026-03-15 13:16:31]    08.04.2024 | beim Krankenhaus Tirschenreuth |  | Autos beim Krankenhaus Tirschenreuth in Flammen - Onetz
+[2026-03-15 13:16:31]    17.12.2025 | Leipziger Krankenhaus |  | Brand in Leipziger Krankenhaus: Mehrere Patienten müssen ver
+[2026-03-15 13:16:31]    29.01.2026 | Helios Klinikum |  | Der Prozessauftakt in Bildern: Tödlichen Brand am Helios Kli
+[2026-03-15 13:16:31]    17.04.2023 | Uniklinik |  | Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsse
+[2026-03-15 13:16:31]    30.09.2016 | Uniklinik Bergmannsheil |  | Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklin
+[2026-03-15 13:16:31]    10.08.2024 | LWL-Klinik | DO | FW-DO: Brand in der LWL-Klinik in DO-Aplerbeck Nächtliche Ev
+[2026-03-15 13:16:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 13:16:31] === Monitor-Lauf beendet ===
+
+[2026-03-15 13:16:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 13:16:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 13:16:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 13:16:31] [enrich] 197 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 13:16:31] [enrich] --- Enriche [1/20]: War es Brandstiftung? Verdächtiger nach Feuer in Hamburger M
+[2026-03-15 13:16:32] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/panorama/artikel/brand-in-krankenhaus-in-ham
+[2026-03-15 13:16:35] [enrich] Volltext extrahiert: 1268 Zeichen von https://www.noz.de/deutschland-welt/panorama/artikel/brand-i
+[2026-03-15 13:16:38] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 13:16:39] [enrich] --- Enriche [2/20]: Kellerbrand im Krankenhaus: Polizei sucht Zeugen - BR
+[2026-03-15 13:16:39] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachrichten/bayern/kellerbrand-krankenhaus-in-neustadt-bei-cob
+[2026-03-15 13:16:40] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.br.de/nachrichten/bayern/kellerbrand-krankenhaus
+[2026-03-15 13:16:44] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Neustadt bei Coburg (Sana Kliniken Oberfranken) in Neustadt bei Coburg
+[2026-03-15 13:16:45] [enrich] --- Enriche [3/20]: Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenha
+[2026-03-15 13:16:45] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-pekinger-krankenhaus-
+[2026-03-15 13:16:47] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-p
+[2026-03-15 13:16:48] [enrich] FALSE POSITIVE erkannt: Der Artikel ist ein allgemeiner Text über Faktenchecks und TikTok-Inhalte. Er enthält keine Informationen über einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-03-15 13:16:49] [enrich] --- Enriche [4/20]: Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk
+[2026-03-15 13:16:49] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html
+[2026-03-15 13:16:51] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik
+[2026-03-15 13:16:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand, sondern behandelt allgemein das Thema Faktenchecks und virale Behauptungen. Es gibt keinen Bezug zu einem Krankenhausbrand oder einem Brand in einer Klinik.
+[2026-03-15 13:16:53] [enrich] --- Enriche [5/20]: Brand in Krankenhaus in Frankenberg: ein Toter und 13 Verlet
+[2026-03-15 13:16:53] [enrich] Google News URL aufgelöst (v1): https://www.hessenschau.de/panorama/brand-in-krankenhaus-in-frankenberg-ein-tote
+[2026-03-15 13:16:56] [enrich] Volltext extrahiert: 4264 Zeichen von https://www.hessenschau.de/panorama/brand-in-krankenhaus-in-
+[2026-03-15 13:16:59] [enrich] Enrichment abgeschlossen: enriched — Kreiskrankenhaus Frankenberg in Frankenberg (Eder)
+[2026-03-15 13:17:00] [enrich] --- Enriche [6/20]: Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-15 13:17:00] [enrich] Google News URL aufgelöst (v1): https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-15 13:17:01] [enrich] Kein Artikeltext extrahierbar für https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-15 13:17:01] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (617 Z.)
+[2026-03-15 13:17:03] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine konkreten Details eines Brandes in einem Krankenhaus, sondern behandelt nur eine Forderung der Stiftung Patientenschutz nach Brandschutzverbesserungen als Reaktion auf einen nicht näher beschriebenen Vorfall. Es fehlen wesentliche Informationen wie Name der Einrichtung, Ort, Datum und Details des Brandes.
+[2026-03-15 13:17:04] [enrich] --- Enriche [7/20]: Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-15 13:17:04] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheeren
+[2026-03-15 13:17:05] [enrich] Volltext zu kurz/leer (108 Z.), verwende RSS-Snippet (604 Z.)
+[2026-03-15 13:17:07] [enrich] Enrichment abgeschlossen: partial — Marienkrankenhaus in nicht spezifiziert
+[2026-03-15 13:17:08] [enrich] --- Enriche [8/20]: 14 Verletzte bei Brand in Jüdischem Krankenhaus Berlin - kei
+[2026-03-15 13:17:09] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/14-verletzte-bei-brand-in-juedischem-krankenhaus-berli
+[2026-03-15 13:17:09] [enrich] Volltext extrahiert: 2387 Zeichen von https://www.stern.de/news/14-verletzte-bei-brand-in-juedisch
+[2026-03-15 13:17:13] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin
+[2026-03-15 13:17:14] [enrich] --- Enriche [9/20]: Klein-Brand im Bruchsaler Krankenhaus – 18 Patienten vorüber
+[2026-03-15 13:17:14] [enrich] Google News URL aufgelöst (v1): https://landfunker.de/brand-im-bruchsaler-krankenhaus-18-patienten-voruebergehen
+[2026-03-15 13:17:16] [enrich] Volltext extrahiert: 2069 Zeichen von https://landfunker.de/brand-im-bruchsaler-krankenhaus-18-pat
+[2026-03-15 13:17:21] [enrich] Enrichment abgeschlossen: enriched — Fürst-Stirum-Klinikum Bruchsal in Bruchsal
+[2026-03-15 13:17:22] [enrich] --- Enriche [10/20]: Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi ers
+[2026-03-15 13:17:22] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/zehn-babys-sterben-bei-krankenhaus-brand-modi-ers
+[2026-03-15 13:17:23] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/zehn-babys-sterben-bei-kranke
+[2026-03-15 13:17:24] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um eine allgemeine Beschreibung von Faktenchecks und einem TikTok-Kanal. Kein Bezug zu Krankenhausbränden oder Bränden jeglicher Art.
+[2026-03-15 13:17:25] [enrich] --- Enriche [11/20]: Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verl
+[2026-03-15 13:17:26] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22
+[2026-03-15 13:17:27] [enrich] Volltext extrahiert: 4945 Zeichen von https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mind
+[2026-03-15 13:17:32] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen in Uelzen
+[2026-03-15 13:17:33] [enrich] --- Enriche [12/20]: Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt
+[2026-03-15 13:17:33] [enrich] Google News URL aufgelöst (v1): https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann-rettet-sich-aus-woh
+[2026-03-15 13:17:34] [enrich] Volltext extrahiert: 598 Zeichen von https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann
+[2026-03-15 13:17:35] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in Ricklingen. Die Person wird nach dem Brand ins Krankenhaus gebracht und stirbt dort an den Brandverletzungen. Dies ist kein Brand IN einem Krankenhaus, sondern ein Wohnungsbrand mit nachfolgender Krankenhausbehandlung.
+[2026-03-15 13:17:36] [enrich] --- Enriche [13/20]: Bei einem Brand in einem Krankenhaus in Hamburg sind fünf Me
+[2026-03-15 13:17:36] [enrich] Google News URL aufgelöst (v1): https://www.koha.net/de/bote/pese-te-vdekur-nga-zjarri-ne-nje-spital-ne-hamburg
+[2026-03-15 13:17:37] [enrich] Volltext extrahiert: 1925 Zeichen von https://www.koha.net/de/bote/pese-te-vdekur-nga-zjarri-ne-nj
+[2026-03-15 13:17:39] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus in Welzen in Welzen
+[2026-03-15 13:17:40] [enrich] --- Enriche [14/20]: Brände: Brand in Jüdischem Krankenhaus - kein antisemitische
+[2026-03-15 13:17:41] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/panorama/brand-in-judischem-krankenhaus-kein-antisemitisches-m
+[2026-03-15 13:17:42] [enrich] Volltext extrahiert: 2178 Zeichen von https://www.mz.de/panorama/brand-in-judischem-krankenhaus-ke
+[2026-03-15 13:17:46] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin
+[2026-03-15 13:17:47] [enrich] --- Enriche [15/20]: Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus -
+[2026-03-15 13:17:47] [enrich] Google News URL aufgelöst (v1): https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-
+[2026-03-15 13:17:48] [enrich] Volltext extrahiert: 464 Zeichen von https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapi
+[2026-03-15 13:17:50] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich auf einem Museumsschiff (Kapitän Meyer) in Wilhelmshaven, nicht in einem Krankenhaus. Arbeiter wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer Klinik/einem Krankenhaus statt.
+[2026-03-15 13:17:51] [enrich] --- Enriche [16/20]: Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-15 13:17:52] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-rath-feuer-im
+[2026-03-15 13:17:52] [enrich] Volltext extrahiert: 2145 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-15 13:17:55] [enrich] Enrichment abgeschlossen: enriched — Augusta-Krankenhaus in Düsseldorf-Rath
+[2026-03-15 13:17:56] [enrich] --- Enriche [17/20]: Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-15 13:17:57] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/patienten-kritik-klinik-brand-moebelhaeuser-ha
+[2026-03-15 13:17:58] [enrich] Volltext extrahiert: 3820 Zeichen von https://www.merkur.de/deutschland/patienten-kritik-klinik-br
+[2026-03-15 13:18:02] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-15 13:18:03] [enrich] --- Enriche [18/20]: Brand in Bochumer Klinik: Sieben Verletzte, einer schwebt in
+[2026-03-15 13:18:04] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/brand-in-bochume
+[2026-03-15 13:18:05] [enrich] Volltext extrahiert: 1124 Zeichen von https://www.noz.de/deutschland-welt/nordrhein-westfalen/arti
+[2026-03-15 13:18:08] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bochum (psychiatrische Station) in Bochum
+[2026-03-15 13:18:09] [enrich] --- Enriche [19/20]: Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-15 13:18:09] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feuer-in-der-schoen-klin
+[2026-03-15 13:18:10] [enrich] Volltext extrahiert: 3913 Zeichen von https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feue
+[2026-03-15 13:18:14] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik Rendsburg in Rendsburg
+[2026-03-15 13:18:15] [enrich] --- Enriche [20/20]: Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-15 13:18:16] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/feuer-in-marienhospital-duesseldorf-jede-woche
+[2026-03-15 13:18:17] [enrich] Volltext extrahiert: 968 Zeichen von https://rp-online.de/nrw/panorama/feuer-in-marienhospital-du
+[2026-03-15 13:18:19] [enrich] Enrichment abgeschlossen: enriched — Marienhospital in Düsseldorf
+[2026-03-15 13:18:19] [enrich] Ergebnis: 13 enriched, 1 partial, 6 false_positive, 0 failed
+[2026-03-15 13:18:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 13:18:19] [DEDUP] Starte Dedup für 277 Einträge
+[2026-03-15 13:18:19] [DEDUP] Bestätigte Merges: 0, Abgelehnte: 0
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.99): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.93): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.88): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.84): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.93): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.88): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.80): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg-Hohenfelde
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Marienkrankenhaus / Hamburg ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.85): Marienkrankenhaus Hamburg / Hamburg-Hohenfelde ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.90): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.81): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.98): Krankenhaus Neustadt bei Coburg (Sana Kl / Neustadt bei Coburg ↔ Krankenhaus Neustadt bei Coburg (Sana Kl / Neustadt bei Coburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Kreiskrankenhaus Frankenberg (Eder) / Frankenberg (Eder) ↔ Krankenhaus Frankenberg / Frankenberg (Eder)
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Kreiskrankenhaus Frankenberg (Eder) / Frankenberg (Eder) ↔ Kreiskrankenhaus Frankenberg / Frankenberg (Eder)
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Krankenhaus Frankenberg / Frankenberg (Eder) ↔ Kreiskrankenhaus Frankenberg / Frankenberg (Eder)
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.97): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Jüdisches Krankenhaus / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Jüdisches Krankenhaus / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.96): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Fürst-Stirum-Klinikum Bruchsal / Bruchsal ↔ Fürst-Stirum-Klinikum Bruchsal / Bruchsal
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Augusta-Krankenhaus / Düsseldorf-Rath ↔ Augusta-Krankenhaus / Düsseldorf-Rath
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Helios Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Helios Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.83): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Schön-Klinik Rendsburg / Rendsburg ↔ Schön-Klinik Rendsburg / Rendsburg
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Krankenhaus Bochum (psychiatrische Stati / Bochum ↔ Krankenhaus Bochum (psychiatrische Stati / Bochum
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.95): Krankenhaus in Welzen / Welzen ↔ Krankenhaus in Welzen / Welzen
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienhospital / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Marienhospital / Düsseldorf ↔ Marienhospital / Düsseldorf
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (0.91): Marienhospital Düsseldorf / Düsseldorf ↔ Marienhospital / Düsseldorf
+[2026-03-15 13:18:20] [DEDUP] Auto-Merge (1.00): Median-Klinik am Park / Bad Oeynhausen ↔ Median-Klinik am Park / Bad Oeynhausen
+[2026-03-15 13:18:20] [DEDUP] Paare verglichen: 2409
+[2026-03-15 13:18:20] [DEDUP] Auto-Merges: 242
+[2026-03-15 13:18:20] [DEDUP] Kandidaten (unsicher): 93
+[2026-03-15 13:18:20] [DEDUP] Cluster 22x: Marienkrankenhaus, Marienkrankenhaus Hamburg, Marienkrankenhaus
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Krankenhaus Neustadt bei Coburg (Sana Kl, Krankenhaus Neustadt bei Coburg (Sana Kl
+[2026-03-15 13:18:20] [DEDUP] Cluster 3x: Kreiskrankenhaus Frankenberg (Eder), Krankenhaus Frankenberg, Kreiskrankenhaus Frankenberg
+[2026-03-15 13:18:20] [DEDUP] Cluster 4x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus, Jüdisches Krankenhaus Berlin
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Fürst-Stirum-Klinikum Bruchsal, Fürst-Stirum-Klinikum Bruchsal
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Augusta-Krankenhaus, Augusta-Krankenhaus
+[2026-03-15 13:18:20] [DEDUP] Cluster 4x: Klinikum Uelzen, Helios Klinikum Uelzen, Klinikum Uelzen
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Schön-Klinik Rendsburg, Schön-Klinik Rendsburg
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Krankenhaus Bochum (psychiatrische Stati, Krankenhaus Bochum (psychiatrische Stati
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Krankenhaus in Welzen, Krankenhaus in Welzen
+[2026-03-15 13:18:20] [DEDUP] Cluster 3x: Marienhospital, Marienhospital Düsseldorf, Marienhospital
+[2026-03-15 13:18:20] [DEDUP] Cluster 2x: Median-Klinik am Park, Median-Klinik am Park
+[2026-03-15 13:18:20] [DEDUP] Ergebnis: 239 Einträge (war: 277, 38 zusammengeführt)
+[2026-03-15 13:18:20] [DEDUP] Kandidaten-Datei: 93 pending, 0 confirmed, 0 rejected
+[2026-03-15 13:18:20] [DEDUP] Gespeichert: 277 → 239 Einträge
