@@ -1402,3 +1402,136 @@
 [2026-03-15 13:18:20] [DEDUP] Ergebnis: 239 Einträge (war: 277, 38 zusammengeführt)
 [2026-03-15 13:18:20] [DEDUP] Kandidaten-Datei: 93 pending, 0 confirmed, 0 rejected
 [2026-03-15 13:18:20] [DEDUP] Gespeichert: 277 → 239 Einträge
+[2026-03-15 19:03:40] === Monitor-Lauf gestartet ===
+[2026-03-15 19:03:41] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 19:03:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 19:03:43] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 19:03:44] Feed 'gn_feuer_krankenhaus': 60 Einträge
+[2026-03-15 19:03:44] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-15 19:03:45] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-15 19:03:45] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 19:03:46] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 19:03:46] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-03-15 19:03:47] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-15 19:03:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 19:03:48] 253 relevante Treffer in Feeds
+[2026-03-15 19:03:48] ✅ 3 NEUE Einträge gefunden:
+[2026-03-15 19:03:48]    13.03.2026 | in Krankenhaus aus |  | Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de
+[2026-03-15 19:03:48]    02.01.2024 | im Krankenhaus Neuruppin |  | Brand im Krankenhaus Neuruppin: Patientenzimmer der Uniklini
+[2026-03-15 19:03:48]    30.09.2016 | Uniklinik |  | Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - V
+[2026-03-15 19:03:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 19:03:48] === Monitor-Lauf beendet ===
+
+[2026-03-15 19:03:48] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 19:03:48] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 19:03:48] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 19:03:48] [enrich] 180 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 19:03:48] [enrich] --- Enriche [1/20]: Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-03-15 19:03:49] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hotel-in-alcudia-121055
+[2026-03-15 19:03:50] [enrich] Volltext extrahiert: 3491 Zeichen von https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hot
+[2026-03-15 19:03:51] [enrich] FALSE POSITIVE erkannt: Brand in einem Hotel auf Mallorca (Spanien), nicht in Deutschland. Zwei Kinder werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst findet nicht in einem Krankenhaus statt.
+[2026-03-15 19:03:52] [enrich] --- Enriche [2/20]: Tödlicher Brand im Marienhospital Düsseldorf: Debatte um Bra
+[2026-03-15 19:03:53] [enrich] Google News URL aufgelöst (v1): https://www.wz.de/nrw/duesseldorf/toedlicher-brand-im-marienhospital-duesseldorf
+[2026-03-15 19:03:53] [enrich] Volltext extrahiert: 4111 Zeichen von https://www.wz.de/nrw/duesseldorf/toedlicher-brand-im-marien
+[2026-03-15 19:03:58] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf
+[2026-03-15 19:03:59] [enrich] --- Enriche [3/20]: Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Kran
+[2026-03-15 19:03:59] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/akku-loest-brand-in-
+[2026-03-15 19:04:00] [enrich] Volltext extrahiert: 2586 Zeichen von https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/
+[2026-03-15 19:04:02] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus, nicht in einem Krankenhaus. Zwei Personen wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand in einem privaten Wohnhaus statt.
+[2026-03-15 19:04:03] [enrich] --- Enriche [4/20]: Krankenhaus-Brand: Auch Deichhorst wird nicht angefahren - d
+[2026-03-15 19:04:03] [enrich] Google News URL aufgelöst (v1): https://www.dk-online.de/lokales/delmenhorst/artikel/bilder-feuer-im-krankenhaus
+[2026-03-15 19:04:05] [enrich] Volltext extrahiert: 1043 Zeichen von https://www.dk-online.de/lokales/delmenhorst/artikel/bilder-
+[2026-03-15 19:04:07] [enrich] Enrichment abgeschlossen: enriched — Josef-Hospital Delmenhorst (JHD), ehemals St. Josef-Stift in Delmenhorst
+[2026-03-15 19:04:08] [enrich] --- Enriche [5/20]: Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit
+[2026-03-15 19:04:08] [enrich] Google News URL aufgelöst (v1): https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfershausen-zwei-bewohner
+[2026-03-15 19:04:09] [enrich] Volltext extrahiert: 2455 Zeichen von https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfers
+[2026-03-15 19:04:11] [enrich] FALSE POSITIVE erkannt: Brand in einem Einfamilienhaus, nicht in einem Krankenhaus. Die Bewohner wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer Klinik/einem Krankenhaus statt.
+[2026-03-15 19:04:12] [enrich] --- Enriche [6/20]: Toter bei Brand in Krankenhaus - blaulichtmyk.de
+[2026-03-15 19:04:12] [enrich] Google News URL aufgelöst (v1): https://blaulichtmyk.de/toter-bei-brand-in-krankenhaus/
+[2026-03-15 19:04:13] [enrich] Volltext extrahiert: 1398 Zeichen von https://blaulichtmyk.de/toter-bei-brand-in-krankenhaus/
+[2026-03-15 19:04:16] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Frankenberg in Frankenberg (Eder)
+[2026-03-15 19:04:17] [enrich] --- Enriche [7/20]: Wohnungsbrand in München – Fünf Menschen im Krankenhaus - On
+[2026-03-15 19:04:18] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-mens
+[2026-03-15 19:04:19] [enrich] Volltext extrahiert: 3867 Zeichen von https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand
+[2026-03-15 19:04:21] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in München. Personen werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst ereignet sich nicht in einem Krankenhaus oder einer Klinik, sondern in einem Wohnhaus in der Schwanthalerstraße.
+[2026-03-15 19:04:22] [enrich] --- Enriche [8/20]: Feuer-Inferno in Crans-Montana: Klinikum Nürnberg versorgt B
+[2026-03-15 19:04:22] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/nuernberg/feuer-inferno-in-crans-montana-brand-silve
+[2026-03-15 19:04:23] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.infranken.de/lk/nuernberg/feuer-inferno-in-crans
+[2026-03-15 19:04:25] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Schweizer Bar (Crans-Montana), nicht in einem deutschen Krankenhaus. Die deutsche Klinik (Klinikum Nürnberg) wird nur erwähnt, weil sie ein Brandopfer zur Behandlung aufnimmt, nicht weil dort ein Brand stattgefunden hat.
+[2026-03-15 19:04:26] [enrich] --- Enriche [9/20]: Im Saarland: Verletzte bei Feuer in Krankenhaus - T-Online
+[2026-03-15 19:04:27] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/ungluecke/id_100941370/saarbruecken
+[2026-03-15 19:04:27] [enrich] Volltext extrahiert: 3068 Zeichen von https://www.t-online.de/nachrichten/panorama/ungluecke/id_10
+[2026-03-15 19:04:30] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken in Saarbrücken
+[2026-03-15 19:04:31] [enrich] --- Enriche [10/20]: Verdacht der Brandstiftung nach Feuer in Hamburger Klinik - 
+[2026-03-15 19:04:32] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/verdacht-der-brandstiftung-nach-feuer-in-hamburger-kli
+[2026-03-15 19:04:33] [enrich] Volltext extrahiert: 1387 Zeichen von https://www.stern.de/news/verdacht-der-brandstiftung-nach-fe
+[2026-03-15 19:04:35] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 19:04:36] [enrich] --- Enriche [11/20]: In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-15 19:04:36] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-
+[2026-03-15 19:04:37] [enrich] Volltext extrahiert: 2166 Zeichen von https://rp-online.de/nrw/staedte/moenchengladbach/moenchengl
+[2026-03-15 19:04:40] [enrich] Enrichment abgeschlossen: enriched — Kliniken Maria Hilf in Mönchengladbach
+[2026-03-15 19:04:41] [enrich] --- Enriche [12/20]: Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-15 19:04:41] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/marl-krankenhausbrand-fuehrt-zu-grosse
+[2026-03-15 19:04:42] [enrich] Volltext extrahiert: 2225 Zeichen von https://rp-online.de/panorama/deutschland/marl-krankenhausbr
+[2026-03-15 19:04:45] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Marl in Marl
+[2026-03-15 19:04:46] [enrich] --- Enriche [13/20]: Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krank
+[2026-03-15 19:04:46] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-grossmutter-nach-zim
+[2026-03-15 19:04:47] [enrich] Volltext extrahiert: 1272 Zeichen von https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-
+[2026-03-15 19:04:48] [enrich] FALSE POSITIVE erkannt: Brand in einem Privatwohnhaus (Einfamilienhaus in Gangelt), nicht in einem Krankenhaus. Die beiden Verletzten wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-03-15 19:04:49] [enrich] --- Enriche [14/20]: Brände - Feuer in JVA-Krankenhaus Plötzensee - Zwei Verletzt
+[2026-03-15 19:04:49] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-jva-krankenhaus-ploetzense
+[2026-03-15 19:04:50] [enrich] Volltext extrahiert: 1371 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-jva-kr
+[2026-03-15 19:04:52] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus der JVA Plötzensee in Berlin-Charlottenburg
+[2026-03-15 19:04:53] [enrich] --- Enriche [15/20]: Lidl Deutschland-Tour, Ärger über Sperrungen und Feuer in Kl
+[2026-03-15 19:04:53] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/minden/24159835_Lidl-Deutschland-
+[2026-03-15 19:04:54] [enrich] Volltext extrahiert: 4126 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/minden/241598
+[2026-03-15 19:04:58] [enrich] Enrichment abgeschlossen: enriched — Median-Klinik am Park in Bad Oeynhausen
+[2026-03-15 19:04:59] [enrich] --- Enriche [16/20]: Eutin: Feuer im Neubau am St.-Elisabeth-Krankenhaus - shz.de
+[2026-03-15 19:04:59] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/eutin-feuer-im-neubau-des-e
+[2026-03-15 19:05:00] [enrich] Volltext extrahiert: 1177 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/eutin-f
+[2026-03-15 19:05:02] [enrich] Enrichment abgeschlossen: enriched — St.-Elisabeth-Krankenhaus in Eutin
+[2026-03-15 19:05:03] [enrich] --- Enriche [17/20]: Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - BR
+[2026-03-15 19:05:04] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schif
+[2026-03-15 19:05:05] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.br.de/nachrichten/deutschland-welt/israels-milit
+[2026-03-15 19:05:09] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen militärischen Einsatz im Gazastreifen (Ausland, nicht Deutschland) mit Evakuierung wegen Kampfhandlungen, nicht wegen eines Brandes in einem deutschen Krankenhaus. Zwar wird erwähnt, dass ein Gebäude in Brand geraten ist, aber dies ist Teil eines Kriegsszenarios im Ausland und nicht relevant für die deutsche Krankenhausbrand-Datenbank.
+[2026-03-15 19:05:10] [enrich] --- Enriche [18/20]: Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten 
+[2026-03-15 19:05:10] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer-in-duesseldorf-bran
+[2026-03-15 19:05:10] [enrich] Volltext extrahiert: 3009 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer
+[2026-03-15 19:05:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnhausbrand in Düsseldorf. Die drei Personen wurden nach dem Brand ins Krankenhaus gebracht, das ist jedoch kein Brand IN einem Krankenhaus, sondern die Behandlung von Brandopfern in einer Klinik.
+[2026-03-15 19:05:13] [enrich] --- Enriche [19/20]: Vier Menschen in Lebensgefahr: Ein Toter und viele Verletzte
+[2026-03-15 19:05:14] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ei
+[2026-03-15 19:05:14] [enrich] Volltext extrahiert: 5000 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-bra
+[2026-03-15 19:05:18] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf
+[2026-03-15 19:05:19] [enrich] --- Enriche [20/20]: Feuer: Schuppen in Pinneberg brennt – eine Person im Kranken
+[2026-03-15 19:05:20] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/pinneberg-schenefeld/artikel/feuer-schuppen-in-pinneb
+[2026-03-15 19:05:21] [enrich] Volltext extrahiert: 1085 Zeichen von https://www.shz.de/lokales/pinneberg-schenefeld/artikel/feue
+[2026-03-15 19:05:22] [enrich] FALSE POSITIVE erkannt: Brand in einem Schuppen in Pinneberg, nicht in einem Krankenhaus. Eine Person wurde nach dem Brand ins Krankenhaus gebracht, aber das ist kein Brand IN einer medizinischen Einrichtung.
+[2026-03-15 19:05:22] [enrich] Ergebnis: 11 enriched, 0 partial, 9 false_positive, 0 failed
+[2026-03-15 19:05:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 19:05:22] [DEDUP] Starte Dedup für 242 Einträge
+[2026-03-15 19:05:22] [DEDUP] Bestätigte Merges: 0, Abgelehnte: 0
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.91): Kreiskrankenhaus Frankenberg (Eder) / Frankenberg (Eder) ↔ Krankenhaus Frankenberg / Frankenberg (Eder)
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (1.00): Kliniken Maria Hilf / Mönchengladbach ↔ Kliniken Maria Hilf / Mönchengladbach
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.86): Marienhospital / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.90): Marienhospital / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.86): Marienhospital Düsseldorf / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.97): Josef-Hospital Delmenhorst (JHD Mitte),  / Delmenhorst ↔ Josef-Hospital Delmenhorst (JHD), ehemal / Delmenhorst
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (1.00): Median-Klinik am Park / Bad Oeynhausen ↔ Median-Klinik am Park / Bad Oeynhausen
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.86): Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken ↔ Klinik Saarbrücken / Saarbrücken
+[2026-03-15 19:05:22] [DEDUP] Auto-Merge (0.95): Krankenhaus Marl (Klinikum) / Marl ↔ Krankenhaus Marl / Marl
+[2026-03-15 19:05:22] [DEDUP] Paare verglichen: 2022
+[2026-03-15 19:05:22] [DEDUP] Auto-Merges: 10
+[2026-03-15 19:05:22] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Kreiskrankenhaus Frankenberg (Eder), Krankenhaus Frankenberg
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Kliniken Maria Hilf, Kliniken Maria Hilf
+[2026-03-15 19:05:22] [DEDUP] Cluster 3x: Marienhospital, Marienhospital Düsseldorf, Marienhospital Düsseldorf
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Josef-Hospital Delmenhorst (JHD Mitte), , Josef-Hospital Delmenhorst (JHD), ehemal
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Median-Klinik am Park, Median-Klinik am Park
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Klinik Saarbrücken (Name nicht spezifizi, Klinik Saarbrücken
+[2026-03-15 19:05:22] [DEDUP] Cluster 2x: Krankenhaus Marl (Klinikum), Krankenhaus Marl
+[2026-03-15 19:05:22] [DEDUP] Ergebnis: 233 Einträge (war: 242, 9 zusammengeführt)
+[2026-03-15 19:05:22] [DEDUP] Kandidaten-Datei: 60 pending, 0 confirmed, 0 rejected
+[2026-03-15 19:05:22] [DEDUP] Gespeichert: 242 → 233 Einträge
