@@ -174,3 +174,36 @@
 [2026-03-15 03:30:46] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 03:30:46] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 05:44:10] === Monitor-Lauf gestartet ===
+[2026-03-15 05:44:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 05:44:12] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 05:44:13] Feed 'google_news_kh_brand': 54 Einträge
+[2026-03-15 05:44:13] Feed 'google_news_klinik_feuer': 36 Einträge
+[2026-03-15 05:44:14] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 05:44:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 05:44:15] 65 relevante Treffer in Feeds
+[2026-03-15 05:44:15] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 05:44:15]    02.06.2025 | in Krankenhaus |  | Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenh
+[2026-03-15 05:44:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 05:44:15] === Monitor-Lauf beendet ===
+
+[2026-03-15 05:44:15] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 05:44:15] [enrich] 57 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 05:44:15] [enrich] --- Enriche [1/5]: War es Brandstiftung? Verdächtiger nach Feuer in Hamburger M
+[2026-03-15 05:44:16] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 05:44:18] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus gefasst in 
+[2026-03-15 05:44:19] [enrich] --- Enriche [2/5]: Kellerbrand im Krankenhaus: Polizei sucht Zeugen - BR
+[2026-03-15 05:44:19] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 05:44:21] [enrich] Enrichment abgeschlossen: enriched — im Krankenhaus in 
+[2026-03-15 05:44:22] [enrich] --- Enriche [3/5]: Brand in Krankenhaus in Frankenberg: ein Toter und 13 Verlet
+[2026-03-15 05:44:22] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 05:44:24] [enrich] Enrichment abgeschlossen: enriched — in Krankenhaus in 
+[2026-03-15 05:44:25] [enrich] --- Enriche [4/5]: Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk
+[2026-03-15 05:44:25] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 05:44:27] [enrich] Enrichment abgeschlossen: enriched — in Klinik in 
+[2026-03-15 05:44:28] [enrich] --- Enriche [5/5]: Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenha
+[2026-03-15 05:44:28] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 05:44:30] [enrich] Enrichment abgeschlossen: enriched — Pekinger Krankenhaus steigt in 
+[2026-03-15 05:44:30] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 05:44:30] [enrich] === Enrichment-Lauf beendet ===
+
