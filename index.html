@@ -155,6 +155,16 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 .link-icon { color: var(--accent); text-decoration: none; }
 .link-icon:hover { color: var(--accent-light); }
 
+/* ── Nicht-Relevant Button ── */
+.btn-nr {
+  background: rgba(239,83,80,0.12); color: var(--red);
+  border: 1px solid rgba(239,83,80,0.25); border-radius: 5px;
+  padding: 0.2rem 0.5rem; font-size: 0.7rem; cursor: pointer;
+  white-space: nowrap; transition: all 0.15s;
+}
+.btn-nr:hover { background: rgba(239,83,80,0.25); border-color: var(--red); }
+.btn-nr:disabled { opacity: 0.3; cursor: not-allowed; }
+
 /* ── Detail-Modal ── */
 .modal-bg {
   position: fixed; inset: 0;
@@ -360,6 +370,7 @@ tr:hover td { background: rgba(232,93,44,0.05); }
             <th>Verletzte/Tote</th>
             <th data-sort="enrichment_status">Status ↕</th>
             <th>Link</th>
+            <th style="cursor:default;">Aktion</th>
           </tr>
         </thead>
         <tbody id="table-body"></tbody>
@@ -421,7 +432,6 @@ document.getElementById('auth-pw').addEventListener('keydown', e => {
   if (e.key === 'Enter') checkAuth();
 });
 
-// Auto-login if already authenticated
 if (sessionStorage.getItem('kh-auth') === '1') {
   document.getElementById('auth-overlay').style.display = 'none';
   document.getElementById('app').style.display = 'block';
@@ -498,7 +508,6 @@ function parseDatum(d) {
 function renderTable() {
   let entries = getFiltered();
 
-  // Sort
   entries.sort((a, b) => {
     let va, vb;
     if (sortField === 'datum') {
@@ -519,7 +528,6 @@ function renderTable() {
     return 0;
   });
 
-  // Build source groups: count entries with same einrichtung+ort+datum
   const sourceGroups = {};
   allEntries.forEach(e => {
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
@@ -544,18 +552,24 @@ function renderTable() {
     const statusTooltip = {
       enriched:'Volltext geholt, kompletter Steckbrief extrahiert',
       partial:'Nur RSS-Snippet verfügbar, Steckbrief weniger detailliert',
-      pending:'Wartet auf Enrichment-Verarbeitung',
+      pending:'Wartet auf nächsten Enrichment-Lauf (max. 20 pro Durchlauf)',
       false_positive:'Kein Krankenhausbrand (z.B. Wohnungsbrand)',
       failed:'Technischer Fehler, wird erneut versucht'
     }[status] || '';
 
-    // Quellen-Zähler: aus quellen-Array (nach Dedup) oder Gruppen-Fallback (vor Dedup)
     const quellenCount = e.quellen ? e.quellen.length : 0;
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
     const srcCount = quellenCount > 1 ? quellenCount : (sourceGroups[key] || 1);
     const srcBadge = srcCount > 1 ? `<span class="sources-count" title="${srcCount} Quellen/Artikel zu diesem Ereignis">${srcCount}×</span>` : '';
 
-    return `<tr onclick="showDetail(${allEntries.indexOf(e)})" style="cursor:pointer">
+    const globalIdx = allEntries.indexOf(e);
+    const hash = e.hash || '';
+    const isFP = status === 'false_positive';
+    const actionBtn = isFP
+      ? '<span style="color:var(--text-muted);font-size:0.7rem;">—</span>'
+      : `<button class="btn-nr" onclick="event.stopPropagation();markNotRelevant('${hash}',${globalIdx},this)" title="Als nicht relevant markieren">✗ Nicht relevant</button>`;
+
+    return `<tr onclick="showDetail(${globalIdx})" style="cursor:pointer">
       <td>${datum}</td>
       <td>${einrichtung === 'unbekannt' ? '—' : einrichtung}${srcBadge}</td>
       <td>${ort === 'unbekannt' ? '—' : ort}</td>
@@ -563,8 +577,47 @@ function renderTable() {
       <td>${vt === 'unbekannt' ? '—' : vt}</td>
       <td><span class="badge ${badgeClass}">${statusLabel}<span class="tooltip">${statusTooltip}</span></span></td>
       <td>${link ? `<a href="${link}" target="_blank" class="link-icon" onclick="event.stopPropagation()">🔗</a>` : '—'}</td>
+      <td>${actionBtn}</td>
     </tr>`;
   }).join('');
+}
+
+// ── Nicht-Relevant markieren ──
+async function markNotRelevant(hash, idx, btn) {
+  if (!hash) { alert('Kein Hash vorhanden — Eintrag kann nicht markiert werden.'); return; }
+  if (!confirm('Diesen Eintrag als "nicht relevant" markieren?')) return;
+
+  // Sofortiges UI-Feedback
+  btn.disabled = true;
+  btn.textContent = '⏳ ...';
+
+  // Lokal aktualisieren
+  allEntries[idx].enrichment_status = 'false_positive';
+  allEntries[idx].false_positive_grund = 'Manuell als nicht relevant markiert';
+
+  // Worker aufrufen
+  try {
+    const resp = await fetch(PROXY_URL.replace(/\/$/, '') + '/fp', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ hashes: [hash] }),
+    });
+    const data = await resp.json();
+    if (!data.success) {
+      console.error('FP-Markierung fehlgeschlagen:', data.error);
+      btn.textContent = '✗ Fehler';
+      btn.style.color = 'var(--yellow)';
+      // Trotzdem lokal behalten — wird beim nächsten Laden überschrieben
+    }
+  } catch (e) {
+    console.error('FP-Sync-Fehler:', e);
+    btn.textContent = '✗ Offline';
+    btn.style.color = 'var(--yellow)';
+  }
+
+  // UI aktualisieren
+  updateStats();
+  renderTable();
 }
 
 // Sorting
@@ -609,7 +662,6 @@ function showDetail(idx) {
   if (e.false_positive_grund) fields.push(['FP-Grund', e.false_positive_grund]);
   if (e.merged_from) fields.push(['Zusammengeführt aus', `${e.merged_from.length} Quellen`]);
 
-  // Quellen-Links: quellen-Array (nach Dedup) oder Fallback auf einzelnen Link
   let quellenHtml = '';
   if (e.quellen && e.quellen.length > 0) {
     quellenHtml = `<div class="field"><div class="field-label">Quellen (${e.quellen.length})</div><div class="field-value">${
@@ -653,7 +705,7 @@ document.querySelectorAll('.tab').forEach(tab => {
 });
 
 // ── Chat ──
-let PROXY_URL = localStorage.getItem('kh-proxy-url') || '';
+let PROXY_URL = localStorage.getItem('kh-proxy-url') || 'https://meyer2.2025-1f5.workers.dev';
 const DAILY_LIMIT = 30;
 
 function getChatCount() {
@@ -679,7 +731,7 @@ function updateChatLimit() {
 }
 
 function showProxyConfig() {
-  const url = prompt('Cloudflare Worker URL eingeben (z.B. https://kh-chat.deinname.workers.dev):', PROXY_URL);
+  const url = prompt('Worker-URL für API-Proxy:', PROXY_URL);
   if (url !== null) {
     PROXY_URL = url.trim();
     localStorage.setItem('kh-proxy-url', PROXY_URL);
@@ -704,7 +756,6 @@ async function sendChat() {
   addChatMsg('user', question);
   incChatCount();
 
-  // Build context: only enriched entries for context efficiency
   const enriched = allEntries.filter(e => e.enrichment_status === 'enriched' && e.steckbrief);
   const context = enriched.map(e => {
     const s = e.steckbrief;
@@ -729,7 +780,6 @@ async function sendChat() {
     });
 
     const data = await resp.json();
-    // Remove "thinking" message
     const msgs = document.getElementById('chat-messages');
     msgs.removeChild(msgs.lastChild);
 
@@ -759,7 +809,7 @@ let candidatesData = null;
 async function loadCandidates() {
   const list = document.getElementById('candidates-list');
   if (candidatesData && candidatesData._rendered) {
-    return; // Schon geladen
+    return;
   }
   list.innerHTML = '<div class="cand-empty">Lade Kandidaten...</div>';
   try {
@@ -808,6 +858,7 @@ function renderCandidates() {
           <div class="field-value">${a.ort || '—'} · ${a.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${a.bundesland || '—'} · ${a.status || '—'}</div>
+          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
         </div>
         <div class="cand-divider">↔</div>
         <div class="cand-entry">
@@ -817,6 +868,7 @@ function renderCandidates() {
           <div class="field-value">${b.ort || '—'} · ${b.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${b.bundesland || '—'} · ${b.status || '—'}</div>
+          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
         </div>
       </div>
       <div class="cand-actions">
@@ -829,7 +881,6 @@ function renderCandidates() {
   candidatesData._rendered = true;
 }
 
-// Sammelt Entscheidungen und schickt sie gebündelt an den Worker
 let pendingDecisions = { confirmed: [], rejected: [] };
 let syncTimer = null;
 
@@ -846,12 +897,10 @@ async function decideCand(idx, action) {
     entry_b_name: cand.entry_b?.einrichtung || '?',
   };
 
-  // Lokal vormerken
   if (action === 'confirm') pendingDecisions.confirmed.push(decision);
   else pendingDecisions.rejected.push(decision);
   pending.splice(idx, 1);
 
-  // UI-Update: Karte visuell markieren
   const card = document.getElementById(`cand-${idx}`);
   if (card) {
     card.style.opacity = '0.3';
@@ -863,13 +912,10 @@ async function decideCand(idx, action) {
     card.appendChild(label);
   }
 
-  // Badge aktualisieren
   const badge = document.getElementById('cand-count-badge');
   badge.textContent = pending.length;
   if (pending.length === 0) badge.style.display = 'none';
 
-  // Debounced sync: nach 2s Inaktivität an Worker senden
-  // (damit mehrere schnelle Klicks gebündelt werden)
   clearTimeout(syncTimer);
   syncTimer = setTimeout(syncDecisions, 2000);
   updateSyncStatus('pending');
@@ -923,7 +969,6 @@ async function syncDecisions() {
     const data = await resp.json();
 
     if (data.success) {
-      // Erfolgreich — lokalen Puffer leeren
       pendingDecisions = { confirmed: [], rejected: [] };
       updateSyncStatus('success');
     } else {
@@ -934,7 +979,6 @@ async function syncDecisions() {
   }
 }
 
-// Beim Laden: Kandidaten-Badge initial setzen
 async function initCandidateBadge() {
   try {
     const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/merge_candidates.json');
