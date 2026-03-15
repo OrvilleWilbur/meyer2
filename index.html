@@ -567,6 +567,7 @@ tr:last-child td { border-bottom: none; }
         <option value="">Alle Bundesländer</option>
       </select>
       <input type="text" id="f-search" placeholder="Suche nach Einrichtung, Ort, Titel...">
+      <button onclick="exportCSV()" style="background:var(--surface);color:var(--text-secondary);border:1px solid var(--border);border-radius:var(--radius-sm);padding:0.5rem 0.9rem;font-size:0.8rem;font-family:inherit;cursor:pointer;white-space:nowrap;transition:all 0.2s;" onmouseover="this.style.borderColor='var(--accent)';this.style.color='var(--text)'" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-secondary)'">&darr; CSV</button>
     </div>
     <div class="table-wrap">
       <div class="table-container">
@@ -820,6 +821,41 @@ async function markNotRelevant(hash, idx, btn) {
 
   updateStats();
   renderTable();
+}
+
+// CSV Export
+function exportCSV() {
+  const entries = getFiltered();
+  const header = ['Datum','Einrichtung','Ort','PLZ','Bundesland','Brandursache','Brandort','Verletzte','Tote','Evakuierung','Sachschaden','Status','Zusammenfassung','Link','Erfasst am'];
+  const rows = entries.map(e => {
+    const s = e.steckbrief || {};
+    return [
+      s.datum || e.datum || '',
+      s.einrichtung || e.einrichtung || '',
+      s.ort || e.ort || '',
+      s.plz || '',
+      s.bundesland || e.bundesland || '',
+      s.brandursache || '',
+      s.brandort_im_gebaeude || '',
+      s.verletzte || '',
+      s.tote || '',
+      s.evakuierung || '',
+      s.sachschaden || '',
+      e.enrichment_status || '',
+      (s.zusammenfassung || '').replace(/\n/g, ' '),
+      e.link || '',
+      e.erfasst_am || ''
+    ].map(v => `"${String(v).replace(/"/g, '""')}"`).join(';');
+  });
+  const bom = '\uFEFF';
+  const csv = bom + header.join(';') + '\n' + rows.join('\n');
+  const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `kh-braende-${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 // Sorting
@@ -1126,7 +1162,7 @@ function updateSyncStatus(state, detail) {
   if (!el) {
     el = document.createElement('div');
     el.id = 'cand-sync-status';
-    el.style.cssText = 'max-width:800px;padding:0.6rem 1rem;border-radius:8px;margin-top:1rem;font-size:0.82rem;';
+    el.style.cssText = 'max-width:800px;padding:0.6rem 1rem;border-radius:' + 'var(--radius-sm)' + ';margin-top:1rem;font-size:0.82rem;';
     document.getElementById('candidates-list').appendChild(el);
   }
   const total = pendingDecisions.confirmed.length + pendingDecisions.rejected.length;
