@@ -1666,3 +1666,124 @@
 [2026-03-15 19:45:09] [DEDUP] Ergebnis: 226 Einträge (war: 234, 8 zusammengeführt)
 [2026-03-15 19:45:09] [DEDUP] Kandidaten-Datei: 62 pending, 1 confirmed, 0 rejected
 [2026-03-15 19:45:09] [DEDUP] Gespeichert: 234 → 226 Einträge
+[2026-03-15 20:03:08] === Monitor-Lauf gestartet ===
+[2026-03-15 20:03:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 20:03:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 20:03:11] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 20:03:11] Feed 'gn_feuer_krankenhaus': 60 Einträge
+[2026-03-15 20:03:11] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-15 20:03:12] Feed 'gn_brand_klinik': 35 Einträge
+[2026-03-15 20:03:12] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 20:03:13] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 20:03:13] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-15 20:03:14] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 20:03:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 20:03:15] 244 relevante Treffer in Feeds
+[2026-03-15 20:03:15] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 20:03:15]    19.03.2025 |  |  | Neue Ermittlungen: Aufarbeitung des Feuers im Klinikum Uelze
+[2026-03-15 20:03:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 20:03:15] === Monitor-Lauf beendet ===
+
+[2026-03-15 20:03:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 20:03:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 20:03:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 20:03:16] [enrich] 142 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 20:03:16] [enrich] --- Enriche [1/20]: Katholisches Marienkrankenhaus - Drei Tote bei Brand in Hamb
+[2026-03-15 20:03:16] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/drei-tote-bei-brand-in-hamburger-klinik-erzbistum
+[2026-03-15 20:03:18] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/drei-tote-bei-brand-in-hambur
+[2026-03-15 20:03:19] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um eine allgemeine Beschreibung von Faktenchecks und einem TikTok-Kanal, ohne Bezug zu einem konkreten Krankenhausbrand oder überhaupt einem Brand.
+[2026-03-15 20:03:20] [enrich] --- Enriche [2/20]: Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-15 20:03:20] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-min
+[2026-03-15 20:03:21] [enrich] Volltext extrahiert: 1217 Zeichen von https://www.welt.de/vermischtes/video256194796/hamburg-brand
+[2026-03-15 20:03:24] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 20:03:25] [enrich] --- Enriche [3/20]: Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-15 20:03:26] [enrich] Google News URL aufgelöst (v1): https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreff
+[2026-03-15 20:03:27] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sol
+[2026-03-15 20:03:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana) und berichtet nur über die Behandlung von Brandopfern in deutschen Kliniken. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Aufnahme von Patienten nach einem Brand an anderem Ort.
+[2026-03-15 20:03:29] [enrich] --- Enriche [4/20]: Nach Brand: Klinikhochhaus in Bad Salzig bezugsfertig - Rhei
+[2026-03-15 20:03:30] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/nach-brand-klinikho
+[2026-03-15 20:03:31] [enrich] Volltext extrahiert: 967 Zeichen von https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung
+[2026-03-15 20:03:33] [enrich] Enrichment abgeschlossen: enriched — Mittelrhein-Klinik Bad Salzig in Bad Salzig
+[2026-03-15 20:03:34] [enrich] --- Enriche [5/20]: Berliner Klinik berichtet von Hilfeersuchen für 40 Brandopfe
+[2026-03-15 20:03:34] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/berliner-klinik-berichtet-von-hilfeersuchen-fuer-40-br
+[2026-03-15 20:03:35] [enrich] Volltext extrahiert: 2422 Zeichen von https://www.stern.de/news/berliner-klinik-berichtet-von-hilf
+[2026-03-15 20:03:36] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt nicht einen Brand IN einem deutschen Krankenhaus, sondern die Behandlung von Brandopfern aus einem Brand in Crans-Montana (Schweiz) in deutschen Kliniken. Dies fällt unter die Kategorie 'Brandopfer werden in einer Klinik behandelt'.
+[2026-03-15 20:03:37] [enrich] --- Enriche [6/20]: Brandopfer von Crans-Montana in Stuttgarter Klinik - T-Onlin
+[2026-03-15 20:03:38] [enrich] Google News URL aufgelöst (v1): https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans
+[2026-03-15 20:03:38] [enrich] Volltext extrahiert: 2986 Zeichen von https://stuttgart.t-online.de/region/stuttgart/id_101065126/
+[2026-03-15 20:03:40] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in Crans-Montana (Schweiz) in einer deutschen Klinik. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Einlieferung von Verletzten zur medizinischen Versorgung.
+[2026-03-15 20:03:41] [enrich] --- Enriche [7/20]: Patientin will rauchen und stirbt in Braunschweiger Klinik -
+[2026-03-15 20:03:41] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/brand-in-braunschweige
+[2026-03-15 20:03:42] [enrich] Volltext extrahiert: 1096 Zeichen von https://www.noz.de/deutschland-welt/niedersachsen/artikel/br
+[2026-03-15 20:03:44] [enrich] Enrichment abgeschlossen: enriched — Klinik in Braunschweig (Name nicht genannt) in Braunschweig
+[2026-03-15 20:03:45] [enrich] --- Enriche [8/20]: Nach Brand in Neckar-Odenwald-Klinik in Buchen - Ermittlunge
+[2026-03-15 20:03:45] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-neckar-odenwald-
+[2026-03-15 20:03:47] [enrich] Volltext extrahiert: 2217 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/br
+[2026-03-15 20:03:51] [enrich] Enrichment abgeschlossen: enriched — Neckar-Odenwald-Klinikum in Buchen
+[2026-03-15 20:03:52] [enrich] --- Enriche [9/20]: Niedersachsen - Vier Tote bei Brand in einer Klinik - Deutsc
+[2026-03-15 20:03:52] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/vier-tote-bei-brand-in-einer-klinik-106.html
+[2026-03-15 20:03:53] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/vier-tote-bei-brand-in-einer-
+[2026-03-15 20:03:55] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Faktenchecks und virale Behauptungen allgemein. Es wird kein konkreter Brand in einem Krankenhaus oder einer Klinik beschrieben.
+[2026-03-15 20:03:56] [enrich] --- Enriche [10/20]: Brand in der Schweiz: Ein Mädchen aus Belgien ist tot - Mehr
+[2026-03-15 20:03:56] [enrich] Google News URL aufgelöst (v1): https://www.vrt.be/vrtnws/de/2026/01/05/brand-in-der-schweiz-ein-maedchen-aus-be
+[2026-03-15 20:03:57] [enrich] Volltext extrahiert: 3243 Zeichen von https://www.vrt.be/vrtnws/de/2026/01/05/brand-in-der-schweiz
+[2026-03-15 20:03:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar im Schweizer Skiort Crans-Montana (nicht in Deutschland) und behandelt nur die nachfolgende Verlegung von Brandopfern zur Behandlung in belgischen, deutschen, französischen und italienischen Spezialkliniken. Dies ist keine Brand-Vorfall in einem deutschen Krankenhaus, sondern die medizinische Behandlung von Brandopfern aus einem Schweizer Brand.
+[2026-03-15 20:03:59] [enrich] --- Enriche [11/20]: Brand bei Norder Klinik - noz.de
+[2026-03-15 20:04:00] [enrich] Google News URL aufgelöst (v1): https://rheiderland.de/artikel/63382/brand-bei-norder-klinik
+[2026-03-15 20:04:02] [enrich] Volltext extrahiert: 874 Zeichen von https://rheiderland.de/artikel/63382/brand-bei-norder-klinik
+[2026-03-15 20:04:03] [enrich] Enrichment abgeschlossen: enriched — Norder Klinik in Norden
+[2026-03-15 20:04:04] [enrich] --- Enriche [12/20]: Brand in Curtius-Klinik: Feuerwehr und Rettungsdienst übt Gr
+[2026-03-15 20:04:05] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/brand-in-malenter-curtius-k
+[2026-03-15 20:04:06] [enrich] Volltext extrahiert: 1162 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/brand-i
+[2026-03-15 20:04:07] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/ein Trainingseinsatz, kein tatsächlicher Brand in einem Krankenhaus
+[2026-03-15 20:04:08] [enrich] --- Enriche [13/20]: Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-15 20:04:09] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in
+[2026-03-15 20:04:09] [enrich] Volltext extrahiert: 1786 Zeichen von https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios
+[2026-03-15 20:04:13] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinik (Helios-Klinikum) in Leipzig, Stadtteil Probstheida
+[2026-03-15 20:04:14] [enrich] --- Enriche [14/20]: Brandkatastrophe in der Schweiz: Opfer wird zur Behandlung i
+[2026-03-15 20:04:14] [enrich] Google News URL aufgelöst (v1): https://www.nn.de/nuernberg/brandkatastrophe-in-der-schweiz-opfer-wird-zur-behan
+[2026-03-15 20:04:15] [enrich] Volltext extrahiert: 664 Zeichen von https://www.nn.de/nuernberg/brandkatastrophe-in-der-schweiz-
+[2026-03-15 20:04:16] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brand in der Schweiz (Ski-Ort). Brandopfer werden zur Behandlung in deutsches Krankenhaus gebracht, aber es ist kein Brand IN einem deutschen Krankenhaus.
+[2026-03-15 20:04:17] [enrich] --- Enriche [15/20]: Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-15 20:04:18] [enrich] Google News URL aufgelöst (v1): https://www.diesachsen.de/unfall-und-verkehr/klinikum-in-leipzig-behandelt-brand
+[2026-03-15 20:04:18] [enrich] Volltext extrahiert: 2221 Zeichen von https://www.diesachsen.de/unfall-und-verkehr/klinikum-in-lei
+[2026-03-15 20:04:19] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die erwähnten deutschen Kliniken nehmen lediglich Brandopfer zur Behandlung auf, sind aber nicht der Ort des Brandes.
+[2026-03-15 20:04:20] [enrich] --- Enriche [16/20]: Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-15 20:04:21] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kliniken-leipzig-und-h
+[2026-03-15 20:04:21] [enrich] Volltext extrahiert: 752 Zeichen von https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kl
+[2026-03-15 20:04:23] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand im Schweizer Skiort Crans-Montana. Die erwähnten deutschen Kliniken (Klinikum St. Georg Leipzig, BG Klinikum Bergmannstrost Halle) dienen nur der Behandlung von Brandopfern, nicht als Brandort. Dies fällt nicht unter die Definition eines Krankenhausbrands in Deutschland.
+[2026-03-15 20:04:24] [enrich] --- Enriche [17/20]: Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftu
+[2026-03-15 20:04:24] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/brand-wald-naehe-w
+[2026-03-15 20:04:25] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/thueringen/ost-thueringen/ger
+[2026-03-15 20:04:27] [enrich] FALSE POSITIVE erkannt: Brand neben dem Wald-Klinikum, nicht im Krankenhaus selbst. Es handelt sich um einen Waldbrand im Geraer Stadtwald nahe des Krankenhauses, nicht um einen Brand in der Klinik.
+[2026-03-15 20:04:28] [enrich] --- Enriche [18/20]: Mann während Feuer ans Bett gefesselt: Tödlicher Brand in Kl
+[2026-03-15 20:04:28] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/hauptverfahren-feuer-
+[2026-03-15 20:04:29] [enrich] Volltext extrahiert: 3259 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/h
+[2026-03-15 20:04:32] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:04:33] [enrich] --- Enriche [19/20]: Niedersachsen: Vier Tote nach Brand im Helios Klinikum Uelze
+[2026-03-15 20:04:34] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/vier-tote-nach-brand-im-h
+[2026-03-15 20:04:34] [enrich] Volltext extrahiert: 4047 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/vier-
+[2026-03-15 20:04:38] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-15 20:04:39] [enrich] --- Enriche [20/20]: Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios K
+[2026-03-15 20:04:40] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/article249366216/Uelzen-Fuenf-Tote-und-viele-Ver
+[2026-03-15 20:04:40] [enrich] Volltext extrahiert: 4939 Zeichen von https://www.welt.de/vermischtes/article249366216/Uelzen-Fuen
+[2026-03-15 20:04:44] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-15 20:04:44] [enrich] Ergebnis: 9 enriched, 0 partial, 11 false_positive, 0 failed
+[2026-03-15 20:04:44] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 20:04:45] [DEDUP] Starte Dedup für 227 Einträge
+[2026-03-15 20:04:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 20:04:45] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 20:04:45] [DEDUP] Auto-Merge (0.86): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 20:04:45] [DEDUP] Auto-Merge (0.93): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 20:04:45] [DEDUP] Auto-Merge (0.90): Helios Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-15 20:04:45] [DEDUP] Auto-Merge (1.00): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios-Klinikum Pforzheim / Pforzheim
+[2026-03-15 20:04:45] [DEDUP] Paare verglichen: 1679
+[2026-03-15 20:04:45] [DEDUP] Auto-Merges: 5
+[2026-03-15 20:04:45] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-15 20:04:45] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-15 20:04:45] [DEDUP] Cluster 3x: Klinikum Uelzen, Helios Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-03-15 20:04:45] [DEDUP] Cluster 2x: Helios-Klinikum Pforzheim, Helios-Klinikum Pforzheim
+[2026-03-15 20:04:45] [DEDUP] Ergebnis: 223 Einträge (war: 227, 4 zusammengeführt)
+[2026-03-15 20:04:45] [DEDUP] Kandidaten-Datei: 61 pending, 1 confirmed, 0 rejected
+[2026-03-15 20:04:45] [DEDUP] Gespeichert: 227 → 223 Einträge

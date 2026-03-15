@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T19:45:09.206911",
+  "generated_at": "2026-03-15T20:04:45.190279",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -140,6 +140,105 @@
         "",
         ""
       ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
+        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
+        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
+        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.655,
       "details": {
         "datum": 1.0,
@@ -232,105 +331,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - RP Online"
       }
     },
     {
@@ -658,8 +658,8 @@
         "ort": "",
         "datum": "03.01.2026",
         "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPUi1hVS02ODNmSkV1WnozdXQ0RUZNVndOYmE3UlNvVG1XQ2NkZEpXaVpCV2RXRTU4ZDRoaEI2NTU2Y0tKWkR4T2JXNUxENGNnRUh4VnNkb2Z1NlN3RHFZUUg2UTRTRkF3UXQ2bV9YX1R4OGdCMWgxLUV0T2ZERk5pZUhqRkhHQkIwV1ZVVGp3bE8zaEwzd09DaXhYUnJKeEQwS083cVpYcUZmVGVTUUNLaVFXSUJXVHloMEJsOS02dktha1NLN2hDemQtTUNFczdsMk02a0s5X2JXX0ZZT1lwd1JaVExVdw?oc=5",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
         "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - Tagesspiegel"
       }
     },
@@ -1354,39 +1354,6 @@
         "status": "pending",
         "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNcWF4TGNha1NVdHljUzRIcEs5WVVXNldPRlY3RWJtTnNKTHdSb0ZtMGt1bk1jazJ6ajU0R2JRazNrQ1RleHBjeXZZdFZaSVdJT3hZN0JyNzBBcnNpWGVxTWh2Rmg5Tm5uRnJzWUNOQXl3UjhxYl9NLWJHX1cyVS0zb2J4QjZlZnM3NW9lRkk3czFNNkVENVluQzdhSmROR0tUdHUwYndCOElyaGotdklJUTRIeEZyM19GRHlRZA?oc=5",
         "titel": "Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsseldorfer Uniklinik - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "",
-        "datum": "05.01.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOGFBRUxRYXBMUG4xQkhudmpqcm9PT1R4Y3NZX0pCYkhrczFyQ3V5d3ZlN1AyY081RkYxODdnNXQtYTFCRjZReVFBREJaMG01cEMxVmdUY0hCNFFXLTRWV0JsYnFOaG5jdk5ob3g0OVBvWktMTFRQSEkxblJudXBma25jcDBqRmg5bkIxV0xnanh5MzU2eW9uWGRPcUl3WVpJMU1YcXhtYVhxVkU?oc=5",
-        "titel": "Niedersachsen: Vier Tote nach Brand im Helios Klinikum Uelzen - kma Online"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum",
-        "ort": "",
-        "datum": "05.01.2024",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdFFrVjc5QTVsMlRDQ29rU25jVnJzQjM3R1NQWkh1R3BLd2RHdGJOTTY2LXdrYmVpajY2ZE1ac0J0Q3RIb3dvVVFvYmVCRU9RY2dZYWJ5TVRnSUpsRHJHMDM5djJOVW5hd0N6X1EyUVVtQjJUb1FveFJQZ3o4TXJ1WEJRQ3dJYXNHVWs4bHZPWktxMm9fY3g3WmpuT2ZaNVI2R3FCVHM5a2dlZ081c3d4bWpkVTAyOHpoaGQwQXRn?oc=5",
-        "titel": "Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios Klinikum - WELT"
       }
     },
     {
