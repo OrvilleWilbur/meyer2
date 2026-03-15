@@ -10,6 +10,7 @@ import re
 import time
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlparse
 
 try:
     import requests
@@ -27,14 +28,14 @@ DB_FILE = DATA_DIR / "braende.json"
 LOG_FILE = DATA_DIR / "monitor.log"
 
 ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
-ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5-20241022")
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL") or "claude-haiku-4-5-20251001"
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY") or ""
 
 # Maximal so viele Einträge pro Lauf enrichen (Rate-Limiting / Kosten)
-MAX_ENRICH_PER_RUN = int(os.environ.get("MAX_ENRICH_PER_RUN", "5"))
+MAX_ENRICH_PER_RUN = int(os.environ.get("MAX_ENRICH_PER_RUN") or "20")
 
 # User-Agent für Artikel-Abruf
-USER_AGENT = "Mozilla/5.0 (compatible; KH-Brand-Monitor/1.0; +https://github.com/kh-brand-monitor)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
 
 def log(msg):
@@ -59,29 +60,95 @@ def save_db(db):
         json.dump(db, f, ensure_ascii=False, indent=2)
 
 
+# ── Google News Redirect-Auflösung ──
+
+def resolve_google_news_url(url):
+    """
+    Google News RSS liefert Redirect-URLs (news.google.com/rss/articles/...).
+    Diese Funktion löst den Redirect auf und gibt die finale Artikel-URL zurück.
+    """
+    if "news.google.com" not in url:
+        return url
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml",
+    }
+
+    try:
+        # Methode 1: HTTP-Redirect folgen
+        resp = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
+        final_url = resp.url
+
+        # Wenn wir nicht mehr auf Google sind, haben wir die echte URL
+        if "google.com" not in final_url and "google.de" not in final_url:
+            log(f"Google News Redirect aufgelöst: {final_url[:80]}")
+            return final_url
+
+        # Methode 2: Im HTML nach der echten URL suchen
+        if BeautifulSoup and resp.text:
+            soup = BeautifulSoup(resp.text, "html.parser")
+
+            # Google News nutzt oft data-url oder href in <a>-Tags
+            for a_tag in soup.find_all("a", href=True):
+                href = a_tag["href"]
+                if href.startswith("http") and "google" not in href.lower():
+                    log(f"Google News URL aus HTML extrahiert: {href[:80]}")
+                    return href
+
+            # Alternativ: meta refresh
+            meta_refresh = soup.find("meta", attrs={"http-equiv": "refresh"})
+            if meta_refresh and meta_refresh.get("content"):
+                match = re.search(r'url=(.+)', meta_refresh["content"], re.IGNORECASE)
+                if match:
+                    extracted = match.group(1).strip().rstrip('"').rstrip("'")
+                    log(f"Google News URL aus meta-refresh: {extracted[:80]}")
+                    return extracted
+
+        # Methode 3: URL aus dem Google News Link selbst extrahieren
+        if "/articles/" in url:
+            from urllib.parse import parse_qs, urlparse
+            parsed = urlparse(resp.url)
+            params = parse_qs(parsed.query)
+            if "url" in params:
+                return params["url"][0]
+
+        log(f"Google News Redirect konnte nicht aufgelöst werden, verwende Original: {url[:80]}")
+        return url
+
+    except Exception as e:
+        log(f"Fehler bei Google News Redirect-Auflösung: {e}")
+        return url
+
+
 # ── Artikel-Fetching mit Fallback-Kaskade ──
 
 def fetch_article_text(url):
     """
     Versucht den Volltext eines Artikels zu extrahieren.
-    Fallback-Kaskade: HTML-Body → <meta>-Tags → None
+    Löst zuerst Google News Redirects auf, dann Fallback-Kaskade.
     """
     if not requests:
         log("WARNUNG: requests nicht installiert, überspringe Artikel-Fetch")
         return None
 
-    headers = {"User-Agent": USER_AGENT}
+    # Google News Redirects auflösen
+    resolved_url = resolve_google_news_url(url)
+
+    headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "de-DE,de;q=0.9,en;q=0.8",
+    }
 
     try:
-        resp = requests.get(url, headers=headers, timeout=15, allow_redirects=True)
+        resp = requests.get(resolved_url, headers=headers, timeout=15, allow_redirects=True)
         resp.raise_for_status()
     except Exception as e:
-        log(f"Artikel-Fetch fehlgeschlagen für {url}: {e}")
+        log(f"Artikel-Fetch fehlgeschlagen für {resolved_url[:80]}: {e}")
         return None
 
     if not BeautifulSoup:
-        log("WARNUNG: beautifulsoup4 nicht installiert, Fallback auf Raw-Text")
-        # Rudimentärer Fallback: HTML-Tags entfernen
         text = re.sub(r'<[^>]+>', ' ', resp.text)
         text = re.sub(r'\s+', ' ', text).strip()
         return text[:5000] if text else None
@@ -89,7 +156,7 @@ def fetch_article_text(url):
     soup = BeautifulSoup(resp.text, "html.parser")
 
     # Strategie 1: Presseportal.de — spezifischer Selektor
-    if "presseportal.de" in url:
+    if "presseportal.de" in resolved_url:
         article = soup.find("div", class_="story-content") or soup.find("article")
         if article:
             text = article.get_text(separator=" ", strip=True)
@@ -103,7 +170,17 @@ def fetch_article_text(url):
         if len(text) > 100:
             return text[:5000]
 
-    # Strategie 3: Größter Text-Block (heuristisch)
+    # Strategie 3: Hauptinhalt über gängige CSS-Klassen
+    for selector in ["div.article-body", "div.article-content", "div.story-body",
+                      "div.entry-content", "div.post-content", "div.text",
+                      "main", "div[role='main']"]:
+        content = soup.select_one(selector)
+        if content:
+            text = content.get_text(separator=" ", strip=True)
+            if len(text) > 200:
+                return text[:5000]
+
+    # Strategie 4: Alle <p>-Tags
     paragraphs = soup.find_all("p")
     if paragraphs:
         text = " ".join(p.get_text(strip=True) for p in paragraphs)
@@ -119,17 +196,28 @@ def fetch_article_text(url):
     if meta_og and meta_og.get("content"):
         return meta_og["content"][:1000]
 
-    log(f"Kein Artikeltext extrahierbar für {url}")
+    log(f"Kein Artikeltext extrahierbar für {resolved_url[:80]}")
     return None
 
 
 # ── Claude API Call ──
 
-EXTRACTION_PROMPT = """Du bist ein Datenextraktions-Assistent. Extrahiere aus dem folgenden Presseartikel über einen Brand in einem Krankenhaus/einer Klinik strukturierte Daten.
+EXTRACTION_PROMPT = """Du bist ein Datenextraktions-Assistent für eine Datenbank über Brände in Krankenhäusern und Kliniken in Deutschland.
 
-Antworte ausschließlich mit einem JSON-Objekt (kein Markdown, kein Fließtext). Felder:
+WICHTIG: Prüfe zuerst, ob der Artikel tatsächlich einen Brand IN einem Krankenhaus/einer Klinik beschreibt.
+KEIN Krankenhausbrand ist:
+- Person wird nach einem Brand (z.B. Wohnungsbrand, Hotelbrand) ins Krankenhaus gebracht
+- Brandopfer werden in einer Klinik behandelt (z.B. Crans-Montana Brandopfer in deutscher Klinik)
+- Brand in der Nähe eines Krankenhauses, aber nicht im Krankenhaus selbst
+- Brandschutzübungen, Brandschutzkonzepte, Brandbriefe
+- Brände in ausländischen Krankenhäusern (außerhalb Deutschlands)
 
+Wenn der Artikel KEINEN Brand in einem deutschen Krankenhaus/einer Klinik beschreibt, antworte NUR mit:
+{"ist_krankenhausbrand": false, "grund": "kurze Begründung"}
+
+Wenn es ein echter Krankenhausbrand in Deutschland ist, antworte mit diesem JSON:
 {
+  "ist_krankenhausbrand": true,
   "einrichtung": "Name des Krankenhauses/der Klinik (so genau wie möglich)",
   "ort": "Stadt/Gemeinde",
   "plz": "Postleitzahl (falls im Text, sonst leer)",
@@ -137,15 +225,15 @@ Antworte ausschließlich mit einem JSON-Objekt (kein Markdown, kein Fließtext).
   "datum": "Datum des Brands im Format TT.MM.JJJJ (falls im Text)",
   "brandursache": "Ursache falls bekannt, sonst 'unbekannt'",
   "brandort": "Wo genau im Gebäude (z.B. Patientenzimmer, Keller, OP, Station, Dach)",
-  "verletzte": "Anzahl und Art (z.B. '3 Leichtverletzte, 1 Schwerverletzter'). 'keine' wenn explizit erwähnt, 'unbekannt' wenn nicht erwähnt",
+  "verletzte": "Anzahl und Art (z.B. '3 Leichtverletzte, 1 Schwerverletzter'). 'keine' wenn explizit, 'unbekannt' wenn nicht erwähnt",
   "tote": "Anzahl oder 'keine' oder 'unbekannt'",
   "evakuierung": "ja/nein/teilweise/unbekannt + Anzahl Personen falls bekannt",
   "sachschaden": "Beschreibung oder Summe falls bekannt, sonst 'unbekannt'",
-  "feuerwehr_einsatz": "Kurzbeschreibung des Einsatzes (Löschzüge, Dauer, etc.) falls bekannt",
+  "feuerwehr_einsatz": "Kurzbeschreibung des Einsatzes falls bekannt",
   "zusammenfassung": "2-3 Sätze sachliche Zusammenfassung des Vorfalls"
 }
 
-Falls ein Feld nicht aus dem Text ableitbar ist, setze den Wert auf "unbekannt" oder leer.
+Antworte ausschließlich mit JSON. Kein Markdown, kein Fließtext.
 
 ARTIKEL:
 """
@@ -179,12 +267,10 @@ def call_claude_api(article_text):
         resp.raise_for_status()
         data = resp.json()
 
-        # Antworttext extrahieren
         content = data.get("content", [])
         if content and content[0].get("type") == "text":
             raw_text = content[0]["text"].strip()
 
-            # JSON aus Antwort parsen (auch wenn in ```json ... ``` gewrappt)
             json_match = re.search(r'\{[\s\S]*\}', raw_text)
             if json_match:
                 return json.loads(json_match.group())
@@ -208,7 +294,7 @@ def call_claude_api(article_text):
 def enrich_entry(entry):
     """
     Enriched einen einzelnen braende.json-Eintrag.
-    Gibt den Status zurück: 'enriched', 'partial', 'failed'
+    Gibt den Status zurück: 'enriched', 'partial', 'false_positive', 'failed'
     """
     url = entry.get("link", "")
     if not url:
@@ -218,13 +304,13 @@ def enrich_entry(entry):
     # Schritt 1: Artikel-Volltext fetchen
     article_text = fetch_article_text(url)
 
-    if not article_text:
+    if not article_text or len(article_text) < 100:
         # Fallback: RSS-Snippet verwenden
         snippet = f"{entry.get('titel', '')} {entry.get('zusammenfassung', '')}"
         if len(snippet.strip()) < 50:
-            log(f"Weder Volltext noch Snippet verfügbar für {url}")
+            log(f"Weder Volltext noch Snippet verfügbar für {url[:80]}")
             return "failed"
-        log(f"Volltext nicht verfügbar, verwende RSS-Snippet ({len(snippet)} Zeichen)")
+        log(f"Volltext zu kurz ({len(article_text) if article_text else 0} Z.), verwende RSS-Snippet ({len(snippet)} Z.)")
         article_text = snippet
         is_snippet = True
     else:
@@ -236,13 +322,22 @@ def enrich_entry(entry):
     if not steckbrief:
         return "failed"
 
-    # Schritt 3: Steckbrief in Entry schreiben
+    # Schritt 3: False-Positive-Prüfung durch Claude
+    if not steckbrief.get("ist_krankenhausbrand", True):
+        grund = steckbrief.get("grund", "kein Grund angegeben")
+        log(f"FALSE POSITIVE erkannt: {grund}")
+        entry["enrichment_status"] = "false_positive"
+        entry["enriched_am"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        entry["false_positive_grund"] = grund
+        return "false_positive"
+
+    # Schritt 4: Steckbrief in Entry schreiben
     entry["steckbrief"] = steckbrief
     entry["enrichment_status"] = "partial" if is_snippet else "enriched"
     entry["enriched_am"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     entry["artikel_laenge"] = len(article_text)
 
-    # Felder aus Steckbrief in Entry übernehmen (falls besser als Regex-Extraktion)
+    # Felder aus Steckbrief übernehmen (falls besser als Regex-Extraktion)
     if steckbrief.get("einrichtung") and steckbrief["einrichtung"] != "unbekannt":
         entry["einrichtung"] = steckbrief["einrichtung"]
     if steckbrief.get("ort") and steckbrief["ort"] != "unbekannt":
@@ -270,10 +365,10 @@ def main():
     db = load_db()
     entries = db.get("entries", [])
 
-    # Finde Einträge, die noch nicht enriched sind
+    # Finde Einträge, die noch nicht enriched sind (failed werden erneut versucht)
     pending = [
         (i, e) for i, e in enumerate(entries)
-        if e.get("enrichment_status") not in ("enriched", "partial")
+        if e.get("enrichment_status") not in ("enriched", "partial", "false_positive")
     ]
 
     if not pending:
@@ -285,18 +380,21 @@ def main():
 
     enriched_count = 0
     partial_count = 0
+    false_positive_count = 0
     failed_count = 0
 
     for idx, (i, entry) in enumerate(pending[:MAX_ENRICH_PER_RUN]):
         log(f"--- Enriche [{idx+1}/{min(len(pending), MAX_ENRICH_PER_RUN)}]: {entry.get('titel', '')[:60]}")
 
         status = enrich_entry(entry)
-        entries[i] = entry  # Update in-place
+        entries[i] = entry
 
         if status == "enriched":
             enriched_count += 1
         elif status == "partial":
             partial_count += 1
+        elif status == "false_positive":
+            false_positive_count += 1
         else:
             failed_count += 1
             entry["enrichment_status"] = "failed"
@@ -309,7 +407,7 @@ def main():
     db["entries"] = entries
     save_db(db)
 
-    log(f"Ergebnis: {enriched_count} enriched, {partial_count} partial, {failed_count} failed")
+    log(f"Ergebnis: {enriched_count} enriched, {partial_count} partial, {false_positive_count} false_positive, {failed_count} failed")
     log("=== Enrichment-Lauf beendet ===\n")
 
 
