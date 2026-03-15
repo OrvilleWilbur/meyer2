@@ -921,3 +921,110 @@
 [2026-03-15 10:50:36] [enrich] Ergebnis: 13 enriched, 0 partial, 7 false_positive, 0 failed
 [2026-03-15 10:50:36] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 11:37:48] === Monitor-Lauf gestartet ===
+[2026-03-15 11:37:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 11:37:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 11:37:51] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 11:37:52] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-03-15 11:37:52] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-03-15 11:37:53] Feed 'gn_brand_klinik': 42 Einträge
+[2026-03-15 11:37:53] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-03-15 11:37:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 11:37:54] Feed 'gn_feuer_uniklinik': 50 Einträge
+[2026-03-15 11:37:54] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 11:37:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 11:37:56] 238 relevante Treffer in Feeds
+[2026-03-15 11:37:56] ✅ 2 NEUE Einträge gefunden:
+[2026-03-15 11:37:56]    02.06.2025 |  |  | Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei 
+[2026-03-15 11:37:56]    05.03.2026 | im Krankenhaus aus |  | Patientin will Zigarette anzünden und löst Brand im Krankenh
+[2026-03-15 11:37:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 11:37:56] === Monitor-Lauf beendet ===
+
+[2026-03-15 11:37:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 11:37:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 11:37:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 11:37:56] [enrich] 210 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 11:37:56] [enrich] --- Enriche [1/20]: Ameos-Klinik in Heiligenhafen: Erneut Feuer in Patientenzimm
+[2026-03-15 11:37:56] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/ameos-klinik-in-heiligenhaf
+[2026-03-15 11:37:58] [enrich] Volltext extrahiert: 1027 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/ameos-k
+[2026-03-15 11:38:00] [enrich] Enrichment abgeschlossen: enriched — Ameos-Klinik Heiligenhafen in Heiligenhafen
+[2026-03-15 11:38:01] [enrich] --- Enriche [2/20]: Feuer in der Klinik in Oldenburg in Holstein - shz.de
+[2026-03-15 11:38:01] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-in-der-klinik-in-olde
+[2026-03-15 11:38:03] [enrich] Volltext extrahiert: 960 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-i
+[2026-03-15 11:38:05] [enrich] Enrichment abgeschlossen: enriched — Klinik Oldenburg in Holstein in Oldenburg in Holstein
+[2026-03-15 11:38:06] [enrich] --- Enriche [3/20]: Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-15 11:38:06] [enrich] Google News URL aufgelöst (v1): https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreff
+[2026-03-15 11:38:08] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sol
+[2026-03-15 11:38:09] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana), nicht in Deutschland. Deutsche Kliniken werden nur erwähnt, weil sie Brandopfer zur Behandlung aufnehmen, nicht weil dort ein Brand stattgefunden hat.
+[2026-03-15 11:38:10] [enrich] --- Enriche [4/20]: Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Kran
+[2026-03-15 11:38:11] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/akku-loest-brand-in-
+[2026-03-15 11:38:12] [enrich] Volltext extrahiert: 2586 Zeichen von https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/
+[2026-03-15 11:38:13] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Kellerbrand durch Akku), nicht in einem Krankenhaus. Zwei Personen wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-03-15 11:38:14] [enrich] --- Enriche [5/20]: Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei 
+[2026-03-15 11:38:15] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-kra
+[2026-03-15 11:38:15] [enrich] Volltext extrahiert: 3641 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100750332/br
+[2026-03-15 11:38:18] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 11:38:19] [enrich] --- Enriche [6/20]: Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-15 11:38:20] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-in-kran
+[2026-03-15 11:38:22] [enrich] Volltext extrahiert: 2473 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-15 11:38:25] [enrich] Enrichment abgeschlossen: enriched — Marien-Hospital in Düsseldorf
+[2026-03-15 11:38:26] [enrich] --- Enriche [7/20]: Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenh
+[2026-03-15 11:38:26] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-bra
+[2026-03-15 11:38:27] [enrich] Volltext extrahiert: 3621 Zeichen von https://www.focus.de/panorama/welt/hamburg-drei-tote-und-vie
+[2026-03-15 11:38:31] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg
+[2026-03-15 11:38:32] [enrich] --- Enriche [8/20]: Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-15 11:38:32] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-min
+[2026-03-15 11:38:33] [enrich] Volltext extrahiert: 1219 Zeichen von https://www.welt.de/vermischtes/video256194796/hamburg-brand
+[2026-03-15 11:38:34] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 11:38:35] [enrich] --- Enriche [9/20]: Klinik in Berlin-Neukölln durch Explosion beschädigt - Brand
+[2026-03-15 11:38:36] [enrich] Google News URL aufgelöst (v1): https://www.rbb24.de/panorama/beitrag/2025/11/berlin-neukoelln-buckow-explosion-
+[2026-03-15 11:38:36] [enrich] Volltext zu kurz/leer (113 Z.), verwende RSS-Snippet (546 Z.)
+[2026-03-15 11:38:38] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Explosion und Brandschäden an Kliniken, aber es ist unklar, ob der Brand tatsächlich IN den Krankenhäusern selbst auftrat oder ob die Gebäude durch eine externe Explosion beschädigt wurden. Die Headline deutet auf Beschädigungen 'durch Explosion' hin, nicht auf einen Brand innerhalb der Einrichtungen. Ohne detaillierte Informationen im Artikel kann nicht eindeutig festgestellt werden, dass ein Brand IN einem deutschen Krankenhaus stattfand.
+[2026-03-15 11:38:39] [enrich] --- Enriche [10/20]: Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 11:38:40] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html
+[2026-03-15 11:38:41] [enrich] Volltext extrahiert: 1884 Zeichen von https://www.tagesschau.de/inland/gesellschaft/hamburg-kranke
+[2026-03-15 11:38:44] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 11:38:45] [enrich] --- Enriche [11/20]: Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 11:38:46] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand
+[2026-03-15 11:38:47] [enrich] Volltext extrahiert: 1058 Zeichen von https://www.noz.de/deutschland-welt/niedersachsen/artikel/ma
+[2026-03-15 11:38:48] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Einrichtung für betreutes Wohnen, nicht in einem Krankenhaus oder einer Klinik. Der Mann starb später im Krankenhaus, aber der Brand selbst war nicht im Krankenhaus.
+[2026-03-15 11:38:49] [enrich] --- Enriche [12/20]: Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 11:38:49] [enrich] Google News URL aufgelöst (v1): https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krankenhaus/a-72747838
+[2026-03-15 11:38:50] [enrich] Volltext extrahiert: 2396 Zeichen von https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krank
+[2026-03-15 11:38:53] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 11:38:54] [enrich] --- Enriche [13/20]: Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 11:38:55] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194958/hamburg-krankenhaus-brand-mit-dre
+[2026-03-15 11:38:56] [enrich] Volltext extrahiert: 1273 Zeichen von https://www.welt.de/vermischtes/video256194958/hamburg-krank
+[2026-03-15 11:38:58] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 11:38:59] [enrich] --- Enriche [14/20]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 11:38:59] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186
+[2026-03-15 11:39:00] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.sueddeutsche.de/panorama/brand-hamburg-krankenha
+[2026-03-15 11:39:05] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 11:39:06] [enrich] --- Enriche [15/20]: Klinik in Berlin-Neukölln durch Explosion beschädigt - Brand
+[2026-03-15 11:39:06] [enrich] Google News URL aufgelöst (v1): https://www.rbb24.de/panorama/beitrag/2025/11/berlin-neukoelln-buckow-explosion-
+[2026-03-15 11:39:07] [enrich] Volltext zu kurz/leer (113 Z.), verwende RSS-Snippet (546 Z.)
+[2026-03-15 11:39:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Explosion und deren Auswirkungen auf Kliniken, nicht einen Brand IN einem Krankenhaus/einer Klinik. Es handelt sich um externe Ereignisse (Explosion in der Umgebung), die zu Beschädigungen an Klinikgebäuden führten, nicht um einen Brand im Krankenhaus selbst.
+[2026-03-15 11:39:09] [enrich] --- Enriche [16/20]: "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-15 11:39:10] [enrich] Google News URL aufgelöst (v1): https://koeln.t-online.de/region/koeln/id_101068668/crans-montana-opfer-mit-schw
+[2026-03-15 11:39:11] [enrich] Volltext extrahiert: 4289 Zeichen von https://koeln.t-online.de/region/koeln/id_101068668/crans-mo
+[2026-03-15 11:39:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die Behandlung von Brandopfern in deutschen Kliniken ist nicht gleichzusetzen mit einem Brand im Krankenhaus selbst.
+[2026-03-15 11:39:13] [enrich] --- Enriche [17/20]: Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus ge
+[2026-03-15 11:39:14] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg
+[2026-03-15 11:39:14] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer
+[2026-03-15 11:39:18] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg-Hohenfelde
+[2026-03-15 11:39:19] [enrich] --- Enriche [18/20]: Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-15 11:39:20] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-
+[2026-03-15 11:39:21] [enrich] Volltext extrahiert: 3952 Zeichen von https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-
+[2026-03-15 11:39:25] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 11:39:26] [enrich] --- Enriche [19/20]: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-03-15 11:39:27] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-15 11:39:27] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-15 11:39:27] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (442 Z.)
+[2026-03-15 11:39:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Aufnahme von Brandopfern (aus einem Brand in der Schweiz) in einem deutschen Krankenhaus, nicht einen Brand im Krankenhaus selbst.
+[2026-03-15 11:39:29] [enrich] --- Enriche [20/20]: Nach Feuer in Hamburger Klinik: Verdächtiger kommt in Psychi
+[2026-03-15 11:39:30] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/hamburg/Nach-Feuer-in-Hamburger-Klinik-Verdaechti
+[2026-03-15 11:39:32] [enrich] Volltext extrahiert: 4296 Zeichen von https://www.ndr.de/nachrichten/hamburg/Nach-Feuer-in-Hamburg
+[2026-03-15 11:39:37] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 11:39:37] [enrich] Ergebnis: 13 enriched, 0 partial, 7 false_positive, 0 failed
+[2026-03-15 11:39:37] [enrich] === Enrichment-Lauf beendet ===
+
