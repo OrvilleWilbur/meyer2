@@ -24,7 +24,6 @@ body {
   color: var(--text);
   line-height: 1.5;
 }
-/* ── Passwort-Overlay ── */
 #auth-overlay {
   position: fixed; inset: 0;
   background: var(--bg);
@@ -54,7 +53,6 @@ body {
 }
 #auth-box button:hover { background: var(--accent-light); }
 #auth-error { color: var(--red); font-size: 0.85rem; margin-top: 0.5rem; display: none; }
-/* ── Layout ── */
 #app { display: none; }
 header {
   background: var(--surface);
@@ -64,13 +62,10 @@ header {
 }
 header h1 { font-size: 1.4rem; }
 header h1 span { color: var(--accent); }
-.stats {
-  display: flex; gap: 1.5rem;
-}
+.stats { display: flex; gap: 1.5rem; }
 .stat { text-align: center; }
 .stat-val { font-size: 1.6rem; font-weight: 700; }
 .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
-/* ── Tabs ── */
 .tabs {
   display: flex; gap: 0; background: var(--surface);
   border-bottom: 1px solid var(--border);
@@ -83,7 +78,6 @@ header h1 span { color: var(--accent); }
 }
 .tab:hover { color: var(--text); }
 .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
-/* ── Filter ── */
 .filters {
   display: flex; gap: 0.8rem; padding: 1rem 2rem;
   flex-wrap: wrap; align-items: center;
@@ -94,14 +88,8 @@ header h1 span { color: var(--accent); }
   padding: 0.5rem 0.8rem; font-size: 0.85rem;
 }
 .filters input { flex: 1; min-width: 200px; }
-/* ── Tabelle ── */
-.table-wrap {
-  padding: 0 2rem 2rem; overflow-x: auto;
-}
-table {
-  width: 100%; border-collapse: collapse;
-  font-size: 0.85rem;
-}
+.table-wrap { padding: 0 2rem 2rem; overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
 th {
   background: var(--surface);
   padding: 0.6rem 0.8rem;
@@ -122,13 +110,13 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 .badge {
   display: inline-block; padding: 0.15rem 0.5rem;
   border-radius: 4px; font-size: 0.75rem; font-weight: 600;
+  position: relative; cursor: help;
 }
 .badge-enriched { background: rgba(61,220,132,0.15); color: var(--green); }
 .badge-partial { background: rgba(255,213,79,0.15); color: var(--yellow); }
 .badge-pending { background: rgba(136,136,160,0.15); color: var(--text-muted); }
 .badge-fp { background: rgba(239,83,80,0.15); color: var(--red); }
 .badge-failed { background: rgba(239,83,80,0.1); color: #b0b0b0; }
-.badge { position: relative; cursor: help; }
 .tooltip {
   visibility: hidden; opacity: 0;
   position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
@@ -150,7 +138,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 }
 .link-icon { color: var(--accent); text-decoration: none; }
 .link-icon:hover { color: var(--accent-light); }
-/* ── Detail-Modal ── */
 .modal-bg {
   position: fixed; inset: 0;
   background: rgba(0,0,0,0.7);
@@ -175,7 +162,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   color: var(--text-muted); font-size: 1.5rem; cursor: pointer;
 }
 .modal-close:hover { color: var(--text); }
-/* ── Chat ── */
 #chat-panel { display: none; padding: 0 2rem 2rem; }
 #chat-panel.show { display: block; }
 .chat-container {
@@ -187,14 +173,8 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   display: flex; flex-direction: column;
   height: 500px;
 }
-.chat-messages {
-  flex: 1; overflow-y: auto;
-  padding: 1rem;
-}
-.chat-msg {
-  margin-bottom: 1rem;
-  max-width: 85%;
-}
+.chat-messages { flex: 1; overflow-y: auto; padding: 1rem; }
+.chat-msg { margin-bottom: 1rem; max-width: 85%; }
 .chat-msg.user {
   margin-left: auto;
   background: var(--accent);
@@ -234,11 +214,7 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   cursor: pointer; font-size: 0.9rem;
 }
 .chat-input-row button:disabled { opacity: 0.5; cursor: not-allowed; }
-.chat-limit {
-  text-align: center; padding: 0.3rem;
-  font-size: 0.75rem; color: var(--text-muted);
-}
-/* ── Kandidaten ── */
+.chat-limit { text-align: center; padding: 0.3rem; font-size: 0.75rem; color: var(--text-muted); }
 #candidates-panel { display: none; padding: 1rem 2rem; }
 #candidates-panel.show { display: block; }
 .cand-card {
@@ -278,11 +254,7 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 .btn-merge:hover { background: rgba(61,220,132,0.3); }
 .btn-reject { background: rgba(239,83,80,0.15); color: var(--red); }
 .btn-reject:hover { background: rgba(239,83,80,0.25); }
-.cand-empty {
-  color: var(--text-muted); text-align: center; padding: 3rem;
-  font-size: 0.95rem;
-}
-/* ── Responsive ── */
+.cand-empty { color: var(--text-muted); text-align: center; padding: 3rem; font-size: 0.95rem; }
 @media (max-width: 768px) {
   header { flex-direction: column; gap: 1rem; }
   .filters { flex-direction: column; }
@@ -295,7 +267,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 </style>
 </head>
 <body>
-<!-- Passwort-Overlay -->
 <div id="auth-overlay">
   <div id="auth-box">
     <h2>🔥 KH-Brand-Monitor</h2>
@@ -305,7 +276,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
     <div id="auth-error">Falsches Passwort</div>
   </div>
 </div>
-<!-- App -->
 <div id="app">
   <header>
     <h1>🔥 <span>KH-Brand-Monitor</span> Deutschland</h1>
@@ -321,7 +291,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
     <div class="tab" data-tab="candidates">Duplikate <span id="cand-count-badge" style="background:rgba(255,213,79,0.2);color:var(--yellow);padding:0.1rem 0.4rem;border-radius:4px;font-size:0.7rem;margin-left:0.3rem;display:none;">0</span></div>
     <div class="tab" data-tab="chat">Chat</div>
   </div>
-  <!-- Dashboard -->
   <div id="dashboard-panel">
     <div class="filters">
       <select id="f-status">
@@ -354,11 +323,9 @@ tr:hover td { background: rgba(232,93,44,0.05); }
       </table>
     </div>
   </div>
-  <!-- Duplikat-Kandidaten -->
   <div id="candidates-panel">
     <div id="candidates-list"></div>
   </div>
-  <!-- Chat -->
   <div id="chat-panel">
     <div class="chat-container">
       <div class="chat-messages" id="chat-messages">
@@ -374,13 +341,11 @@ tr:hover td { background: rgba(232,93,44,0.05); }
       Chat benötigt einen API-Proxy. <button onclick="showProxyConfig()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.8rem;">Proxy konfigurieren</button>
     </p>
   </div>
-  <!-- Detail-Modal -->
   <div class="modal-bg" id="modal-bg" onclick="closeModal(event)">
     <div class="modal" id="modal-content"></div>
   </div>
 </div>
 <script>
-// ── Auth ──
 const PW_HASH = 'd271d50b5c2affae5782b863b299887726f5c731376f9f620efe8cc22c13f7fa';
 async function sha256(str) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
@@ -401,12 +366,10 @@ async function checkAuth() {
 document.getElementById('auth-pw').addEventListener('keydown', e => {
   if (e.key === 'Enter') checkAuth();
 });
-// Auto-login if already authenticated
 if (sessionStorage.getItem('kh-auth') === '1') {
   document.getElementById('auth-overlay').style.display = 'none';
   document.getElementById('app').style.display = 'block';
 }
-// ── Data ──
 let allEntries = [];
 let sortField = 'datum';
 let sortDir = -1;
@@ -469,7 +432,6 @@ function parseDatum(d) {
 }
 function renderTable() {
   let entries = getFiltered();
-  // Sort
   entries.sort((a, b) => {
     let va, vb;
     if (sortField === 'datum') {
@@ -489,7 +451,6 @@ function renderTable() {
     if (va > vb) return 1 * sortDir;
     return 0;
   });
-  // Build source groups: count entries with same einrichtung+ort+datum
   const sourceGroups = {};
   allEntries.forEach(e => {
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
@@ -517,7 +478,6 @@ function renderTable() {
       false_positive:'Kein Krankenhausbrand (z.B. Wohnungsbrand)',
       failed:'Technischer Fehler, wird erneut versucht'
     }[status] || '';
-    // Quellen-Zähler: aus quellen-Array (nach Dedup) oder Gruppen-Fallback (vor Dedup)
     const quellenCount = e.quellen ? e.quellen.length : 0;
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
     const srcCount = quellenCount > 1 ? quellenCount : (sourceGroups[key] || 1);
@@ -533,7 +493,6 @@ function renderTable() {
     </tr>`;
   }).join('');
 }
-// Sorting
 document.querySelectorAll('th[data-sort]').forEach(th => {
   th.addEventListener('click', () => {
     const field = th.dataset.sort;
@@ -542,11 +501,9 @@ document.querySelectorAll('th[data-sort]').forEach(th => {
     renderTable();
   });
 });
-// Filters
 document.getElementById('f-status').addEventListener('change', renderTable);
 document.getElementById('f-bundesland').addEventListener('change', renderTable);
 document.getElementById('f-search').addEventListener('input', renderTable);
-// ── Detail Modal ──
 function showDetail(idx) {
   const e = allEntries[idx];
   if (!e) return;
@@ -572,7 +529,6 @@ function showDetail(idx) {
   ];
   if (e.false_positive_grund) fields.push(['FP-Grund', e.false_positive_grund]);
   if (e.merged_from) fields.push(['Zusammengeführt aus', `${e.merged_from.length} Quellen`]);
-  // Quellen-Links: quellen-Array (nach Dedup) oder Fallback auf einzelnen Link
   let quellenHtml = '';
   if (e.quellen && e.quellen.length > 0) {
     quellenHtml = `<div class="field"><div class="field-label">Quellen (${e.quellen.length})</div><div class="field-value">${
@@ -599,7 +555,6 @@ function closeModal(ev) {
     document.getElementById('modal-bg').classList.remove('show');
   }
 }
-// ── Tabs ──
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
@@ -611,7 +566,6 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (target === 'candidates') loadCandidates();
   });
 });
-// ── Chat ──
 let PROXY_URL = localStorage.getItem('kh-proxy-url') || 'https://meyer2.2025-1f5.workers.dev';
 const DAILY_LIMIT = 30;
 function getChatCount() {
@@ -655,7 +609,6 @@ async function sendChat() {
   input.value = '';
   addChatMsg('user', question);
   incChatCount();
-  // Build context: only enriched entries for context efficiency
   const enriched = allEntries.filter(e => e.enrichment_status === 'enriched' && e.steckbrief);
   const context = enriched.map(e => {
     const s = e.steckbrief;
@@ -676,7 +629,6 @@ async function sendChat() {
       })
     });
     const data = await resp.json();
-    // Remove "thinking" message
     const msgs = document.getElementById('chat-messages');
     msgs.removeChild(msgs.lastChild);
     if (data.content && data.content[0]) {
@@ -696,12 +648,11 @@ async function sendChat() {
 document.getElementById('chat-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') sendChat();
 });
-// ── Duplikat-Kandidaten ──
 let candidatesData = null;
 async function loadCandidates() {
   const list = document.getElementById('candidates-list');
   if (candidatesData && candidatesData._rendered) {
-    return; // Schon geladen
+    return;
   }
   list.innerHTML = '<div class="cand-empty">Lade Kandidaten...</div>';
   try {
@@ -745,6 +696,7 @@ function renderCandidates() {
           <div class="field-value">${a.ort || '—'} · ${a.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${a.bundesland || '—'} · ${a.status || '—'}</div>
+          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
         </div>
         <div class="cand-divider">↔</div>
         <div class="cand-entry">
@@ -754,6 +706,7 @@ function renderCandidates() {
           <div class="field-value">${b.ort || '—'} · ${b.datum || '—'}</div>
           <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
           <div class="field-value">${b.bundesland || '—'} · ${b.status || '—'}</div>
+          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
         </div>
       </div>
       <div class="cand-actions">
@@ -764,7 +717,6 @@ function renderCandidates() {
   }).join('');
   candidatesData._rendered = true;
 }
-// Sammelt Entscheidungen und schickt sie gebündelt an den Worker
 let pendingDecisions = { confirmed: [], rejected: [] };
 let syncTimer = null;
 async function decideCand(idx, action) {
@@ -778,11 +730,9 @@ async function decideCand(idx, action) {
     entry_a_name: cand.entry_a?.einrichtung || '?',
     entry_b_name: cand.entry_b?.einrichtung || '?',
   };
-  // Lokal vormerken
   if (action === 'confirm') pendingDecisions.confirmed.push(decision);
   else pendingDecisions.rejected.push(decision);
   pending.splice(idx, 1);
-  // UI-Update: Karte visuell markieren
   const card = document.getElementById(`cand-${idx}`);
   if (card) {
     card.style.opacity = '0.3';
@@ -793,11 +743,9 @@ async function decideCand(idx, action) {
     label.textContent = action === 'confirm' ? '✓ Wird zusammengeführt' : '✗ Kein Duplikat';
     card.appendChild(label);
   }
-  // Badge aktualisieren
   const badge = document.getElementById('cand-count-badge');
   badge.textContent = pending.length;
   if (pending.length === 0) badge.style.display = 'none';
-  // Debounced sync: nach 2s Inaktivität an Worker senden
   clearTimeout(syncTimer);
   syncTimer = setTimeout(syncDecisions, 2000);
   updateSyncStatus('pending');
@@ -853,7 +801,6 @@ async function syncDecisions() {
     updateSyncStatus('error', e.message);
   }
 }
-// Beim Laden: Kandidaten-Badge initial setzen
 async function initCandidateBadge() {
   try {
     const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/merge_candidates.json');
@@ -867,7 +814,6 @@ async function initCandidateBadge() {
     }
   } catch (e) { /* silent */ }
 }
-// ── Init ──
 if (sessionStorage.getItem('kh-auth') === '1') { loadData(); initCandidateBadge(); }
 updateChatLimit();
 </script>
