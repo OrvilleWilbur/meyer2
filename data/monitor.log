@@ -706,3 +706,109 @@
 [2026-03-15 09:59:45] [enrich] Ergebnis: 13 enriched, 1 partial, 6 false_positive, 0 failed
 [2026-03-15 09:59:45] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 10:02:55] === Monitor-Lauf gestartet ===
+[2026-03-15 10:02:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 10:02:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 10:02:57] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 10:02:58] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-15 10:02:58] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-15 10:02:59] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-15 10:02:59] Feed 'gn_brand_klinikum': 29 Einträge
+[2026-03-15 10:03:00] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 10:03:00] Feed 'gn_feuer_uniklinik': 49 Einträge
+[2026-03-15 10:03:01] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-15 10:03:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 10:03:02] 228 relevante Treffer in Feeds
+[2026-03-15 10:03:02] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 10:03:02]    13.06.2025 | in Krankenhaus |  | Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-15 10:03:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 10:03:02] === Monitor-Lauf beendet ===
+
+[2026-03-15 10:03:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 10:03:02] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 10:03:02] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 10:03:02] [enrich] 244 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 10:03:02] [enrich] --- Enriche [1/20]: Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt
+[2026-03-15 10:03:02] [enrich] Google News URL aufgelöst (v1): https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann-rettet-sich-aus-woh
+[2026-03-15 10:03:03] [enrich] Volltext extrahiert: 598 Zeichen von https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann
+[2026-03-15 10:03:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in Ricklingen. Das Krankenhaus wird nur erwähnt, weil der Brandopfer dort an seinen Verletzungen starb. Dies ist kein Brand IN einem Krankenhaus.
+[2026-03-15 10:03:05] [enrich] --- Enriche [2/20]: Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi ers
+[2026-03-15 10:03:05] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/zehn-babys-sterben-bei-krankenhaus-brand-modi-ers
+[2026-03-15 10:03:06] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/zehn-babys-sterben-bei-kranke
+[2026-03-15 10:03:07] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um einen allgemeinen Text über Faktenchecks und virale Behauptungen, der keinen Bezug zu einem Krankenhausbrand hat.
+[2026-03-15 10:03:08] [enrich] --- Enriche [3/20]: Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-15 10:03:08] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-rath-feuer-im
+[2026-03-15 10:03:09] [enrich] Volltext extrahiert: 2145 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-15 10:03:12] [enrich] Enrichment abgeschlossen: enriched — Augusta-Krankenhaus in Düsseldorf-Rath
+[2026-03-15 10:03:13] [enrich] --- Enriche [4/20]: Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verl
+[2026-03-15 10:03:13] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22
+[2026-03-15 10:03:14] [enrich] Volltext extrahiert: 4945 Zeichen von https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mind
+[2026-03-15 10:03:19] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen in Uelzen
+[2026-03-15 10:03:20] [enrich] --- Enriche [5/20]: Brände: Brand in Jüdischem Krankenhaus - kein antisemitische
+[2026-03-15 10:03:20] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/panorama/brand-in-judischem-krankenhaus-kein-antisemitisches-m
+[2026-03-15 10:03:21] [enrich] Volltext extrahiert: 2174 Zeichen von https://www.mz.de/panorama/brand-in-judischem-krankenhaus-ke
+[2026-03-15 10:03:24] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus in Berlin
+[2026-03-15 10:03:25] [enrich] --- Enriche [6/20]: Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-15 10:03:25] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feuer-in-der-schoen-klin
+[2026-03-15 10:03:25] [enrich] Volltext extrahiert: 3913 Zeichen von https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feue
+[2026-03-15 10:03:30] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik Rendsburg in Rendsburg
+[2026-03-15 10:03:31] [enrich] --- Enriche [7/20]: Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus -
+[2026-03-15 10:03:31] [enrich] Google News URL aufgelöst (v1): https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-
+[2026-03-15 10:03:32] [enrich] Volltext extrahiert: 464 Zeichen von https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapi
+[2026-03-15 10:03:33] [enrich] FALSE POSITIVE erkannt: Brand auf einem Museumsschiff, nicht in einem Krankenhaus. Arbeiter werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst ereignet sich nicht in einer medizinischen Einrichtung.
+[2026-03-15 10:03:34] [enrich] --- Enriche [8/20]: Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-15 10:03:34] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/patienten-kritik-klinik-brand-moebelhaeuser-ha
+[2026-03-15 10:03:35] [enrich] Volltext extrahiert: 3805 Zeichen von https://www.merkur.de/deutschland/patienten-kritik-klinik-br
+[2026-03-15 10:03:39] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-15 10:03:40] [enrich] --- Enriche [9/20]: Wohnungsbrand in München – Fünf Menschen im Krankenhaus - On
+[2026-03-15 10:03:40] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-mens
+[2026-03-15 10:03:41] [enrich] Volltext extrahiert: 3778 Zeichen von https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand
+[2026-03-15 10:03:43] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in München. Personen werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus oder einer Klinik statt.
+[2026-03-15 10:03:44] [enrich] --- Enriche [10/20]: Brand in Bochumer Klinik: Sieben Verletzte, einer schwebt in
+[2026-03-15 10:03:44] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/brand-in-bochume
+[2026-03-15 10:03:46] [enrich] Volltext extrahiert: 1124 Zeichen von https://www.noz.de/deutschland-welt/nordrhein-westfalen/arti
+[2026-03-15 10:03:48] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bochum (psychiatrische Station) in Bochum
+[2026-03-15 10:03:49] [enrich] --- Enriche [11/20]: Bei einem Brand in einem Krankenhaus in Hamburg sind fünf Me
+[2026-03-15 10:03:49] [enrich] Google News URL aufgelöst (v1): https://www.koha.net/de/bote/pese-te-vdekur-nga-zjarri-ne-nje-spital-ne-hamburg
+[2026-03-15 10:03:50] [enrich] Volltext extrahiert: 1975 Zeichen von https://www.koha.net/de/bote/pese-te-vdekur-nga-zjarri-ne-nj
+[2026-03-15 10:03:53] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus in Welzen in Welzen
+[2026-03-15 10:03:54] [enrich] --- Enriche [12/20]: Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-03-15 10:03:54] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hotel-in-alcudia-121055
+[2026-03-15 10:03:55] [enrich] Volltext extrahiert: 3331 Zeichen von https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hot
+[2026-03-15 10:03:57] [enrich] FALSE POSITIVE erkannt: Brand in einem Hotel auf Mallorca (Spanien), nicht in Deutschland. Zwei Kinder wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt.
+[2026-03-15 10:03:58] [enrich] --- Enriche [13/20]: Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-15 10:03:58] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/feuer-in-marienhospital-duesseldorf-jede-woche
+[2026-03-15 10:03:58] [enrich] Volltext extrahiert: 968 Zeichen von https://rp-online.de/nrw/panorama/feuer-in-marienhospital-du
+[2026-03-15 10:04:01] [enrich] Enrichment abgeschlossen: enriched — Marienhospital in Düsseldorf
+[2026-03-15 10:04:02] [enrich] --- Enriche [14/20]: Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten 
+[2026-03-15 10:04:02] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer-in-duesseldorf-bran
+[2026-03-15 10:04:03] [enrich] Volltext extrahiert: 3009 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer
+[2026-03-15 10:04:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Wohnhaus (Oberbilk, Düsseldorf), nicht in einem Krankenhaus. Die drei Personen wurden nach dem Wohnungsbrand zur Kontrolle ins Krankenhaus gebracht, aber das Krankenhaus war nicht Brandort.
+[2026-03-15 10:04:05] [enrich] --- Enriche [15/20]: Tödlicher Brand im Marienhospital Düsseldorf: Debatte um Bra
+[2026-03-15 10:04:05] [enrich] Google News URL aufgelöst (v1): https://www.wz.de/nrw/duesseldorf/toedlicher-brand-im-marienhospital-duesseldorf
+[2026-03-15 10:04:06] [enrich] Volltext extrahiert: 4111 Zeichen von https://www.wz.de/nrw/duesseldorf/toedlicher-brand-im-marien
+[2026-03-15 10:04:09] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf
+[2026-03-15 10:04:10] [enrich] --- Enriche [16/20]: Krankenhaus-Brand: Auch Deichhorst wird nicht angefahren - d
+[2026-03-15 10:04:10] [enrich] Google News URL aufgelöst (v1): https://www.dk-online.de/lokales/delmenhorst/artikel/bilder-feuer-im-krankenhaus
+[2026-03-15 10:04:12] [enrich] Volltext extrahiert: 1043 Zeichen von https://www.dk-online.de/lokales/delmenhorst/artikel/bilder-
+[2026-03-15 10:04:15] [enrich] Enrichment abgeschlossen: enriched — Josef-Hospital Delmenhorst (JHD Mitte), ehemals St. Josef-Stift in Delmenhorst
+[2026-03-15 10:04:16] [enrich] --- Enriche [17/20]: Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit
+[2026-03-15 10:04:16] [enrich] Google News URL aufgelöst (v1): https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfershausen-zwei-bewohner
+[2026-03-15 10:04:17] [enrich] Volltext extrahiert: 2455 Zeichen von https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfers
+[2026-03-15 10:04:18] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Einfamilienhaus, nicht in einem Krankenhaus. Die Bewohner wurden nach dem Brand mit Rauchgasvergiftung ins Krankenhaus gebracht, dies ist jedoch nur eine nachgelagerte Behandlung und kein Brand IN einer medizinischen Einrichtung.
+[2026-03-15 10:04:19] [enrich] --- Enriche [18/20]: Toter bei Brand in Krankenhaus - blaulichtmyk.de
+[2026-03-15 10:04:20] [enrich] Google News URL aufgelöst (v1): https://blaulichtmyk.de/toter-bei-brand-in-krankenhaus/
+[2026-03-15 10:04:21] [enrich] Volltext extrahiert: 1398 Zeichen von https://blaulichtmyk.de/toter-bei-brand-in-krankenhaus/
+[2026-03-15 10:04:23] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Frankenberg in Frankenberg (Eder)
+[2026-03-15 10:04:24] [enrich] --- Enriche [19/20]: Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.
+[2026-03-15 10:04:25] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kre
+[2026-03-15 10:04:26] [enrich] Artikel-Fetch fehlgeschlagen für https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kre: 410 Client Error: Page Gone for url: https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-49886635
+[2026-03-15 10:04:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (491 Z.)
+[2026-03-15 10:04:27] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Textinhalt. Es können keine verlässlichen Informationen zum Brand extrahiert werden.
+[2026-03-15 10:04:28] [enrich] --- Enriche [20/20]: Lidl Deutschland-Tour, Ärger über Sperrungen und Feuer in Kl
+[2026-03-15 10:04:28] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/minden/24159835_Lidl-Deutschland-
+[2026-03-15 10:04:30] [enrich] Volltext extrahiert: 4126 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/minden/241598
+[2026-03-15 10:04:33] [enrich] Enrichment abgeschlossen: enriched — Median-Klinik am Park in Bad Oeynhausen
+[2026-03-15 10:04:33] [enrich] Ergebnis: 12 enriched, 0 partial, 8 false_positive, 0 failed
+[2026-03-15 10:04:33] [enrich] === Enrichment-Lauf beendet ===
+
