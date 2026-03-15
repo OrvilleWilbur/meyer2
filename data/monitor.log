@@ -107,3 +107,36 @@
 [2026-03-15 00:03:56] [enrich] Ergebnis: 0 enriched, 0 partial, 5 failed
 [2026-03-15 00:03:56] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 00:07:53] === Monitor-Lauf gestartet ===
+[2026-03-15 00:07:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 00:07:55] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 00:07:56] Feed 'google_news_kh_brand': 59 Einträge
+[2026-03-15 00:07:56] Feed 'google_news_klinik_feuer': 46 Einträge
+[2026-03-15 00:07:57] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 00:07:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 00:07:58] 75 relevante Treffer in Feeds
+[2026-03-15 00:07:58] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 00:07:58]    13.10.2021 | im Krankenhaus |  | Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Kran
+[2026-03-15 00:07:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 00:07:58] === Monitor-Lauf beendet ===
+
+[2026-03-15 00:07:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 00:07:58] [enrich] 64 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 00:07:58] [enrich] --- Enriche [1/5]: Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 00:07:58] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:08:00] [enrich] Enrichment abgeschlossen: enriched — im Krankenhaus in 
+[2026-03-15 00:08:01] [enrich] --- Enriche [2/5]: Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 00:08:01] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:08:03] [enrich] Enrichment abgeschlossen: enriched — Hamburger Klinik in 
+[2026-03-15 00:08:04] [enrich] --- Enriche [3/5]: Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 00:08:04] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:08:06] [enrich] Enrichment abgeschlossen: enriched — Hamburger Krankenhaus in 
+[2026-03-15 00:08:07] [enrich] --- Enriche [4/5]: Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 00:08:07] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:08:09] [enrich] Enrichment abgeschlossen: enriched —  in 
+[2026-03-15 00:08:10] [enrich] --- Enriche [5/5]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 00:08:10] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:08:12] [enrich] Enrichment abgeschlossen: enriched — Hamburger Krankenhaus in 
+[2026-03-15 00:08:12] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 00:08:12] [enrich] === Enrichment-Lauf beendet ===
+
