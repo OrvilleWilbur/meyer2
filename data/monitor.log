@@ -238,3 +238,36 @@
 [2026-03-15 07:13:13] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 07:13:13] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 07:52:58] === Monitor-Lauf gestartet ===
+[2026-03-15 07:52:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 07:53:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 07:53:00] Feed 'google_news_kh_brand': 57 Einträge
+[2026-03-15 07:53:00] Feed 'google_news_klinik_feuer': 45 Einträge
+[2026-03-15 07:53:01] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 07:53:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 07:53:02] 71 relevante Treffer in Feeds
+[2026-03-15 07:53:02] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 07:53:02]    31.05.2025 | einer Klinik |  | Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-15 07:53:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 07:53:02] === Monitor-Lauf beendet ===
+
+[2026-03-15 07:53:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 07:53:02] [enrich] 48 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 07:53:02] [enrich] --- Enriche [1/5]: Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt
+[2026-03-15 07:53:02] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:53:04] [enrich] Enrichment abgeschlossen: enriched — im Krankenhaus in 
+[2026-03-15 07:53:05] [enrich] --- Enriche [2/5]: Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi ers
+[2026-03-15 07:53:05] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:53:07] [enrich] Enrichment abgeschlossen: enriched — bei Krankenhaus in 
+[2026-03-15 07:53:08] [enrich] --- Enriche [3/5]: Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-15 07:53:08] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:53:09] [enrich] Enrichment abgeschlossen: enriched — Augusta-Krankenhaus in 
+[2026-03-15 07:53:10] [enrich] --- Enriche [4/5]: Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verl
+[2026-03-15 07:53:10] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:53:12] [enrich] Enrichment abgeschlossen: enriched — in Krankenhaus in 
+[2026-03-15 07:53:13] [enrich] --- Enriche [5/5]: Brände: Brand in Jüdischem Krankenhaus - kein antisemitische
+[2026-03-15 07:53:13] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:53:15] [enrich] Enrichment abgeschlossen: enriched — Jüdischem Krankenhaus in 
+[2026-03-15 07:53:15] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 07:53:15] [enrich] === Enrichment-Lauf beendet ===
+
