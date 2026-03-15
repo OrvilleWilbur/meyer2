@@ -16,33 +16,62 @@ from datetime import datetime, timedelta
 from pathlib import Path
 
 # ── Konfiguration ──
+
+# Einrichtungs-Keywords (muss mindestens eines matchen)
 KEYWORDS = [
-    "krankenhaus", "klinik", "klinikum", "hospital", "uniklinik",
-    "universitätsklinikum", "fachklinik", "patientenzimmer", "station",
+    # Grundbegriffe
+    "krankenhaus", "klinik", "klinikum", "hospital",
+    # Spezialformen
+    "uniklinik", "universitätsklinikum", "universitätsklinik",
+    "fachklinik", "rehaklinik", "reha-klinik", "tagesklinik",
+    "psychiatrie", "forensik",
+    # Gebäude-/Bereichsbegriffe
+    "patientenzimmer", "station", "notaufnahme", "intensivstation",
+    "operationssaal", "op-saal",
+    # Große Ketten
     "charité", "helios", "asklepios", "vivantes", "sana", "ameos",
+    "schön klinik", "schön-klinik", "rhön-klinikum", "rhön klinikum",
+    "agaplesion", "diakovere", "evangelisches krankenhaus",
+    "marienkrankenhaus", "marienhospital", "johanniter",
+    "malteser", "bethanien",
 ]
 
+# Brand-Keywords (muss mindestens eines matchen)
 BRAND_KEYWORDS = [
-    "brand", "feuer", "brennt", "brannte", "flammen", "rauch",
-    "rauchentwicklung", "feuerwehr", "evakuiert", "evakuierung",
-    "brandstiftung", "brandursache", "lösch",
+    "brand", "feuer", "brennt", "brannte", "gebrannt",
+    "flammen", "rauch", "rauchentwicklung", "qualm",
+    "feuerwehr", "feuerwehreinsatz", "löscharbeiten",
+    "evakuiert", "evakuierung",
+    "brandstiftung", "brandursache", "brandmeldeanlage",
+    "lösch", "gelöscht",
+    "zimmerbrand", "kellerbrand", "dachstuhlbrand",
 ]
 
 # Ausschluss-Keywords (Falsch-Positive)
 EXCLUDE_KEYWORDS = [
     "brandbrief", "brandschutzübung", "brandschutzbegehung",
     "brandmeldeanlage test", "feuerwerk", "brandschutzkonzept",
+    "brandschutzprüfung", "brandschutztag", "brandschutzordnung",
+    "brandschutzunterweisung", "brandschutzhelfer",
+    "mb-monitor",
 ]
 
 RSS_FEEDS = {
-    # Presseportal.de Blaulicht (Feuerwehr-Meldungen)
+    # Presseportal.de — direkte Feuerwehr-/Polizeimeldungen
     "presseportal_feuerwehr": "https://www.presseportal.de/rss/presseportal_feuerwehr.rss2",
     "presseportal_blaulicht": "https://www.presseportal.de/rss/presseportal_blaulicht.rss2",
-    # Google News RSS
-    "google_news_kh_brand": "https://news.google.com/rss/search?q=%22Brand%22+%22Krankenhaus%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
-    "google_news_klinik_feuer": "https://news.google.com/rss/search?q=%22Feuer%22+%22Klinik%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
-    "google_news_klinikbrand": "https://news.google.com/rss/search?q=Klinikbrand+OR+Krankenhausbrand+Deutschland&hl=de&gl=DE&ceid=DE:de",
-    # Feuerwehrmagazin RSS
+
+    # Google News — verschiedene Keyword-Kombinationen
+    "gn_brand_krankenhaus": "https://news.google.com/rss/search?q=%22Brand%22+%22Krankenhaus%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_feuer_krankenhaus": "https://news.google.com/rss/search?q=%22Feuer%22+%22Krankenhaus%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_feuer_klinik": "https://news.google.com/rss/search?q=%22Feuer%22+%22Klinik%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_brand_klinik": "https://news.google.com/rss/search?q=%22Brand%22+%22Klinik%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_brand_klinikum": "https://news.google.com/rss/search?q=%22Brand%22+%22Klinikum%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_klinikbrand": "https://news.google.com/rss/search?q=Klinikbrand+OR+Krankenhausbrand+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_feuer_uniklinik": "https://news.google.com/rss/search?q=%22Feuer%22+%22Uniklinik%22+OR+%22Universit%C3%A4tsklinikum%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+    "gn_evakuierung_klinik": "https://news.google.com/rss/search?q=%22Evakuierung%22+%22Klinik%22+OR+%22Krankenhaus%22+Deutschland&hl=de&gl=DE&ceid=DE:de",
+
+    # Feuerwehrmagazin — redaktionelle Berichte
     "feuerwehrmagazin": "https://www.feuerwehrmagazin.de/feed",
 }
 
@@ -74,7 +103,8 @@ def log(msg):
 
 
 def make_hash(title, link):
-    raw = f"{title.lower().strip()}{link.lower().strip()}"
+    """Hash basierend auf Titel (link kann bei Google News variieren)."""
+    raw = f"{title.lower().strip()}"
     return hashlib.md5(raw.encode()).hexdigest()
 
 
