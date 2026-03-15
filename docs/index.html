@@ -54,7 +54,6 @@ body {
 }
 #auth-box button:hover { background: var(--accent-light); }
 #auth-error { color: var(--red); font-size: 0.85rem; margin-top: 0.5rem; display: none; }
-
 /* ── Layout ── */
 #app { display: none; }
 header {
@@ -71,7 +70,6 @@ header h1 span { color: var(--accent); }
 .stat { text-align: center; }
 .stat-val { font-size: 1.6rem; font-weight: 700; }
 .stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
-
 /* ── Tabs ── */
 .tabs {
   display: flex; gap: 0; background: var(--surface);
@@ -85,7 +83,6 @@ header h1 span { color: var(--accent); }
 }
 .tab:hover { color: var(--text); }
 .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
-
 /* ── Filter ── */
 .filters {
   display: flex; gap: 0.8rem; padding: 1rem 2rem;
@@ -97,7 +94,6 @@ header h1 span { color: var(--accent); }
   padding: 0.5rem 0.8rem; font-size: 0.85rem;
 }
 .filters input { flex: 1; min-width: 200px; }
-
 /* ── Tabelle ── */
 .table-wrap {
   padding: 0 2rem 2rem; overflow-x: auto;
@@ -154,7 +150,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 }
 .link-icon { color: var(--accent); text-decoration: none; }
 .link-icon:hover { color: var(--accent-light); }
-
 /* ── Detail-Modal ── */
 .modal-bg {
   position: fixed; inset: 0;
@@ -180,7 +175,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   color: var(--text-muted); font-size: 1.5rem; cursor: pointer;
 }
 .modal-close:hover { color: var(--text); }
-
 /* ── Chat ── */
 #chat-panel { display: none; padding: 0 2rem 2rem; }
 #chat-panel.show { display: block; }
@@ -244,7 +238,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   text-align: center; padding: 0.3rem;
   font-size: 0.75rem; color: var(--text-muted);
 }
-
 /* ── Kandidaten ── */
 #candidates-panel { display: none; padding: 1rem 2rem; }
 #candidates-panel.show { display: block; }
@@ -289,7 +282,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
   color: var(--text-muted); text-align: center; padding: 3rem;
   font-size: 0.95rem;
 }
-
 /* ── Responsive ── */
 @media (max-width: 768px) {
   header { flex-direction: column; gap: 1rem; }
@@ -303,7 +295,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
 </style>
 </head>
 <body>
-
 <!-- Passwort-Overlay -->
 <div id="auth-overlay">
   <div id="auth-box">
@@ -314,7 +305,6 @@ tr:hover td { background: rgba(232,93,44,0.05); }
     <div id="auth-error">Falsches Passwort</div>
   </div>
 </div>
-
 <!-- App -->
 <div id="app">
   <header>
@@ -326,13 +316,11 @@ tr:hover td { background: rgba(232,93,44,0.05); }
       <div class="stat"><div class="stat-val" id="s-fp">—</div><div class="stat-label">False Pos.</div></div>
     </div>
   </header>
-
   <div class="tabs">
     <div class="tab active" data-tab="dashboard">Dashboard</div>
     <div class="tab" data-tab="candidates">Duplikate <span id="cand-count-badge" style="background:rgba(255,213,79,0.2);color:var(--yellow);padding:0.1rem 0.4rem;border-radius:4px;font-size:0.7rem;margin-left:0.3rem;display:none;">0</span></div>
     <div class="tab" data-tab="chat">Chat</div>
   </div>
-
   <!-- Dashboard -->
   <div id="dashboard-panel">
     <div class="filters">
@@ -366,12 +354,10 @@ tr:hover td { background: rgba(232,93,44,0.05); }
       </table>
     </div>
   </div>
-
   <!-- Duplikat-Kandidaten -->
   <div id="candidates-panel">
     <div id="candidates-list"></div>
   </div>
-
   <!-- Chat -->
   <div id="chat-panel">
     <div class="chat-container">
@@ -388,22 +374,18 @@ tr:hover td { background: rgba(232,93,44,0.05); }
       Chat benötigt einen API-Proxy. <button onclick="showProxyConfig()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.8rem;">Proxy konfigurieren</button>
     </p>
   </div>
-
   <!-- Detail-Modal -->
   <div class="modal-bg" id="modal-bg" onclick="closeModal(event)">
     <div class="modal" id="modal-content"></div>
   </div>
 </div>
-
 <script>
 // ── Auth ──
 const PW_HASH = 'd271d50b5c2affae5782b863b299887726f5c731376f9f620efe8cc22c13f7fa';
-
 async function sha256(str) {
   const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
   return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
 }
-
 async function checkAuth() {
   const pw = document.getElementById('auth-pw').value;
   const hash = await sha256(pw);
@@ -416,22 +398,18 @@ async function checkAuth() {
     document.getElementById('auth-error').style.display = 'block';
   }
 }
-
 document.getElementById('auth-pw').addEventListener('keydown', e => {
   if (e.key === 'Enter') checkAuth();
 });
-
 // Auto-login if already authenticated
 if (sessionStorage.getItem('kh-auth') === '1') {
   document.getElementById('auth-overlay').style.display = 'none';
   document.getElementById('app').style.display = 'block';
 }
-
 // ── Data ──
 let allEntries = [];
 let sortField = 'datum';
 let sortDir = -1;
-
 async function loadData() {
   try {
     const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/braende.json');
@@ -444,7 +422,6 @@ async function loadData() {
     console.error('Daten konnten nicht geladen werden:', e);
   }
 }
-
 function updateStats() {
   const total = allEntries.length;
   const enriched = allEntries.filter(e => e.enrichment_status === 'enriched').length;
@@ -455,7 +432,6 @@ function updateStats() {
   document.getElementById('s-pending').textContent = pending;
   document.getElementById('s-fp').textContent = fp;
 }
-
 function populateFilters() {
   const bls = new Set();
   allEntries.forEach(e => {
@@ -467,12 +443,10 @@ function populateFilters() {
     sel.innerHTML += `<option value="${bl}">${bl}</option>`;
   });
 }
-
 function getFiltered() {
   const status = document.getElementById('f-status').value;
   const bl = document.getElementById('f-bundesland').value;
   const search = document.getElementById('f-search').value.toLowerCase();
-
   return allEntries.filter(e => {
     const es = e.enrichment_status || 'pending';
     if (status && es !== status) return false;
@@ -487,17 +461,14 @@ function getFiltered() {
     return true;
   });
 }
-
 function parseDatum(d) {
   if (!d) return 0;
   const parts = d.split('.');
   if (parts.length === 3) return parseInt(parts[2] + parts[1].padStart(2,'0') + parts[0].padStart(2,'0'));
   return 0;
 }
-
 function renderTable() {
   let entries = getFiltered();
-
   // Sort
   entries.sort((a, b) => {
     let va, vb;
@@ -518,14 +489,12 @@ function renderTable() {
     if (va > vb) return 1 * sortDir;
     return 0;
   });
-
   // Build source groups: count entries with same einrichtung+ort+datum
   const sourceGroups = {};
   allEntries.forEach(e => {
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
     sourceGroups[key] = (sourceGroups[key] || 0) + 1;
   });
-
   const tbody = document.getElementById('table-body');
   tbody.innerHTML = entries.map((e, i) => {
     const datum = e.steckbrief?.datum || e.datum || '—';
@@ -548,13 +517,11 @@ function renderTable() {
       false_positive:'Kein Krankenhausbrand (z.B. Wohnungsbrand)',
       failed:'Technischer Fehler, wird erneut versucht'
     }[status] || '';
-
     // Quellen-Zähler: aus quellen-Array (nach Dedup) oder Gruppen-Fallback (vor Dedup)
     const quellenCount = e.quellen ? e.quellen.length : 0;
     const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
     const srcCount = quellenCount > 1 ? quellenCount : (sourceGroups[key] || 1);
     const srcBadge = srcCount > 1 ? `<span class="sources-count" title="${srcCount} Quellen/Artikel zu diesem Ereignis">${srcCount}×</span>` : '';
-
     return `<tr onclick="showDetail(${allEntries.indexOf(e)})" style="cursor:pointer">
       <td>${datum}</td>
       <td>${einrichtung === 'unbekannt' ? '—' : einrichtung}${srcBadge}</td>
@@ -566,7 +533,6 @@ function renderTable() {
     </tr>`;
   }).join('');
 }
-
 // Sorting
 document.querySelectorAll('th[data-sort]').forEach(th => {
   th.addEventListener('click', () => {
@@ -576,12 +542,10 @@ document.querySelectorAll('th[data-sort]').forEach(th => {
     renderTable();
   });
 });
-
 // Filters
 document.getElementById('f-status').addEventListener('change', renderTable);
 document.getElementById('f-bundesland').addEventListener('change', renderTable);
 document.getElementById('f-search').addEventListener('input', renderTable);
-
 // ── Detail Modal ──
 function showDetail(idx) {
   const e = allEntries[idx];
@@ -608,7 +572,6 @@ function showDetail(idx) {
   ];
   if (e.false_positive_grund) fields.push(['FP-Grund', e.false_positive_grund]);
   if (e.merged_from) fields.push(['Zusammengeführt aus', `${e.merged_from.length} Quellen`]);
-
   // Quellen-Links: quellen-Array (nach Dedup) oder Fallback auf einzelnen Link
   let quellenHtml = '';
   if (e.quellen && e.quellen.length > 0) {
@@ -623,7 +586,6 @@ function showDetail(idx) {
     const link = e.resolved_url || e.link || '';
     quellenHtml = link ? `<div class="field"><div class="field-label">Artikel-Link</div><div class="field-value"><a href="${link}" target="_blank" style="color:var(--accent)">${link}</a></div></div>` : '';
   }
-
   document.getElementById('modal-content').innerHTML = `
     <button class="modal-close" onclick="document.getElementById('modal-bg').classList.remove('show')">&times;</button>
     <h2>${s.einrichtung || e.titel || 'Details'}</h2>
@@ -632,13 +594,11 @@ function showDetail(idx) {
   `;
   document.getElementById('modal-bg').classList.add('show');
 }
-
 function closeModal(ev) {
   if (ev.target.id === 'modal-bg') {
     document.getElementById('modal-bg').classList.remove('show');
   }
 }
-
 // ── Tabs ──
 document.querySelectorAll('.tab').forEach(tab => {
   tab.addEventListener('click', () => {
@@ -651,25 +611,21 @@ document.querySelectorAll('.tab').forEach(tab => {
     if (target === 'candidates') loadCandidates();
   });
 });
-
 // ── Chat ──
-let PROXY_URL = localStorage.getItem('kh-proxy-url') || '';
+let PROXY_URL = localStorage.getItem('kh-proxy-url') || 'https://meyer2.2025-1f5.workers.dev';
 const DAILY_LIMIT = 30;
-
 function getChatCount() {
   const today = new Date().toISOString().slice(0, 10);
   const stored = JSON.parse(localStorage.getItem('kh-chat-count') || '{}');
   if (stored.date !== today) return 0;
   return stored.count || 0;
 }
-
 function incChatCount() {
   const today = new Date().toISOString().slice(0, 10);
   const count = getChatCount() + 1;
   localStorage.setItem('kh-chat-count', JSON.stringify({ date: today, count }));
   updateChatLimit();
 }
-
 function updateChatLimit() {
   const remaining = DAILY_LIMIT - getChatCount();
   document.getElementById('chat-limit').textContent = `${remaining} / ${DAILY_LIMIT} Fragen heute verfügbar`;
@@ -677,16 +633,14 @@ function updateChatLimit() {
   document.getElementById('chat-input').disabled = !canChat;
   document.getElementById('chat-send').disabled = !canChat;
 }
-
 function showProxyConfig() {
-  const url = prompt('Cloudflare Worker URL eingeben (z.B. https://kh-chat.deinname.workers.dev):', PROXY_URL);
+  const url = prompt('Worker-URL für API-Proxy:', PROXY_URL);
   if (url !== null) {
     PROXY_URL = url.trim();
     localStorage.setItem('kh-proxy-url', PROXY_URL);
     updateChatLimit();
   }
 }
-
 function addChatMsg(role, text) {
   const div = document.createElement('div');
   div.className = `chat-msg ${role}`;
@@ -694,28 +648,22 @@ function addChatMsg(role, text) {
   document.getElementById('chat-messages').appendChild(div);
   div.scrollIntoView({ behavior: 'smooth' });
 }
-
 async function sendChat() {
   const input = document.getElementById('chat-input');
   const question = input.value.trim();
   if (!question || !PROXY_URL) return;
-
   input.value = '';
   addChatMsg('user', question);
   incChatCount();
-
   // Build context: only enriched entries for context efficiency
   const enriched = allEntries.filter(e => e.enrichment_status === 'enriched' && e.steckbrief);
   const context = enriched.map(e => {
     const s = e.steckbrief;
     return `${s.datum || '?'} | ${s.einrichtung || '?'} | ${s.ort || '?'} | ${s.bundesland || '?'} | Tote: ${s.tote || '?'} | Verletzte: ${s.verletzte || '?'} | Ursache: ${s.brandursache || '?'} | Evakuierung: ${s.evakuierung || '?'} | ${s.zusammenfassung || ''}`;
   }).join('\n');
-
   const systemPrompt = `Du bist ein Datenanalyst für die Krankenhausbrand-Datenbank Deutschland. Du hast Zugriff auf ${enriched.length} verifizierte Brandfälle (von insgesamt ${allEntries.length} Einträgen, der Rest wird noch verarbeitet). Antworte präzise, auf Deutsch, mit konkreten Zahlen und Daten. Wenn die Daten nicht ausreichen, sage das ehrlich.\n\nDATEN:\n${context}`;
-
   document.getElementById('chat-send').disabled = true;
   addChatMsg('assistant', '⏳ Denke nach...');
-
   try {
     const resp = await fetch(PROXY_URL, {
       method: 'POST',
@@ -727,12 +675,10 @@ async function sendChat() {
         messages: [{ role: 'user', content: question }]
       })
     });
-
     const data = await resp.json();
     // Remove "thinking" message
     const msgs = document.getElementById('chat-messages');
     msgs.removeChild(msgs.lastChild);
-
     if (data.content && data.content[0]) {
       addChatMsg('assistant', data.content[0].text);
     } else if (data.error) {
@@ -745,17 +691,13 @@ async function sendChat() {
     msgs.removeChild(msgs.lastChild);
     addChatMsg('assistant', `Verbindungsfehler: ${e.message}. Ist der Proxy konfiguriert?`);
   }
-
   updateChatLimit();
 }
-
 document.getElementById('chat-input').addEventListener('keydown', e => {
   if (e.key === 'Enter') sendChat();
 });
-
 // ── Duplikat-Kandidaten ──
 let candidatesData = null;
-
 async function loadCandidates() {
   const list = document.getElementById('candidates-list');
   if (candidatesData && candidatesData._rendered) {
@@ -771,21 +713,17 @@ async function loadCandidates() {
     list.innerHTML = '<div class="cand-empty">Keine Duplikat-Kandidaten vorhanden. Das System hat noch keine unsicheren Paare gefunden.</div>';
   }
 }
-
 function renderCandidates() {
   const list = document.getElementById('candidates-list');
   const pending = candidatesData?.pending || [];
   const badge = document.getElementById('cand-count-badge');
-
   if (pending.length === 0) {
     list.innerHTML = '<div class="cand-empty">Keine offenen Duplikat-Kandidaten. Alle Paare wurden bearbeitet oder das System ist sich bei allen sicher.</div>';
     badge.style.display = 'none';
     return;
   }
-
   badge.textContent = pending.length;
   badge.style.display = 'inline';
-
   list.innerHTML = `<p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem;">
     ${pending.length} Paar(e) mit unsicherer Übereinstimmung gefunden. Bitte prüfe, ob es sich um denselben Brand handelt.
     <br>Deine Entscheidungen werden beim nächsten Pipeline-Lauf verarbeitet.
@@ -794,7 +732,6 @@ function renderCandidates() {
     const b = c.entry_b || {};
     const scoreClass = c.score >= 0.65 ? 'cand-score-high' : 'cand-score-med';
     const scorePct = Math.round(c.score * 100);
-
     return `<div class="cand-card" id="cand-${idx}">
       <div class="cand-header">
         <span style="font-size:0.85rem;color:var(--text-muted);">Kandidat #${idx + 1}</span>
@@ -825,18 +762,14 @@ function renderCandidates() {
       </div>
     </div>`;
   }).join('');
-
   candidatesData._rendered = true;
 }
-
 // Sammelt Entscheidungen und schickt sie gebündelt an den Worker
 let pendingDecisions = { confirmed: [], rejected: [] };
 let syncTimer = null;
-
 async function decideCand(idx, action) {
   const pending = candidatesData.pending || [];
   if (idx >= pending.length) return;
-
   const cand = pending[idx];
   const decision = {
     hashes: cand.hashes,
@@ -845,12 +778,10 @@ async function decideCand(idx, action) {
     entry_a_name: cand.entry_a?.einrichtung || '?',
     entry_b_name: cand.entry_b?.einrichtung || '?',
   };
-
   // Lokal vormerken
   if (action === 'confirm') pendingDecisions.confirmed.push(decision);
   else pendingDecisions.rejected.push(decision);
   pending.splice(idx, 1);
-
   // UI-Update: Karte visuell markieren
   const card = document.getElementById(`cand-${idx}`);
   if (card) {
@@ -862,19 +793,15 @@ async function decideCand(idx, action) {
     label.textContent = action === 'confirm' ? '✓ Wird zusammengeführt' : '✗ Kein Duplikat';
     card.appendChild(label);
   }
-
   // Badge aktualisieren
   const badge = document.getElementById('cand-count-badge');
   badge.textContent = pending.length;
   if (pending.length === 0) badge.style.display = 'none';
-
   // Debounced sync: nach 2s Inaktivität an Worker senden
-  // (damit mehrere schnelle Klicks gebündelt werden)
   clearTimeout(syncTimer);
   syncTimer = setTimeout(syncDecisions, 2000);
   updateSyncStatus('pending');
 }
-
 function updateSyncStatus(state, detail) {
   let el = document.getElementById('cand-sync-status');
   if (!el) {
@@ -899,31 +826,24 @@ function updateSyncStatus(state, detail) {
       <button onclick="syncDecisions()" style="background:var(--accent);color:#fff;border:none;border-radius:6px;padding:0.2rem 0.6rem;cursor:pointer;font-size:0.8rem;">Erneut versuchen</button>`;
   }
 }
-
 async function syncDecisions() {
   if (!PROXY_URL) {
     updateSyncStatus('error', 'Proxy nicht konfiguriert');
     return;
   }
-
   const toSync = {
     confirmed: [...pendingDecisions.confirmed],
     rejected: [...pendingDecisions.rejected],
   };
-
   if (toSync.confirmed.length === 0 && toSync.rejected.length === 0) return;
-
   try {
     const resp = await fetch(PROXY_URL.replace(/\/$/, '') + '/candidates', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ candidates: toSync }),
     });
-
     const data = await resp.json();
-
     if (data.success) {
-      // Erfolgreich — lokalen Puffer leeren
       pendingDecisions = { confirmed: [], rejected: [] };
       updateSyncStatus('success');
     } else {
@@ -933,7 +853,6 @@ async function syncDecisions() {
     updateSyncStatus('error', e.message);
   }
 }
-
 // Beim Laden: Kandidaten-Badge initial setzen
 async function initCandidateBadge() {
   try {
@@ -948,7 +867,6 @@ async function initCandidateBadge() {
     }
   } catch (e) { /* silent */ }
 }
-
 // ── Init ──
 if (sessionStorage.getItem('kh-auth') === '1') { loadData(); initCandidateBadge(); }
 updateChatLimit();
