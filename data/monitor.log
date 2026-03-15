@@ -207,3 +207,34 @@
 [2026-03-15 05:44:30] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 05:44:30] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 07:12:54] === Monitor-Lauf gestartet ===
+[2026-03-15 07:12:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 07:12:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 07:12:57] Feed 'google_news_kh_brand': 57 Einträge
+[2026-03-15 07:12:57] Feed 'google_news_klinik_feuer': 38 Einträge
+[2026-03-15 07:12:58] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 07:12:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 07:12:59] 64 relevante Treffer in Feeds
+[2026-03-15 07:12:59] Keine neuen Einträge
+[2026-03-15 07:12:59] === Monitor-Lauf beendet ===
+
+[2026-03-15 07:12:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 07:12:59] [enrich] 52 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 07:12:59] [enrich] --- Enriche [1/5]: In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-15 07:13:00] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:13:01] [enrich] Enrichment abgeschlossen: enriched — Möchengladbacher Krankenhaus in 
+[2026-03-15 07:13:02] [enrich] --- Enriche [2/5]: Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-15 07:13:03] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:13:04] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in 
+[2026-03-15 07:13:05] [enrich] --- Enriche [3/5]: Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-15 07:13:06] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:13:07] [enrich] Enrichment abgeschlossen: enriched — in Krankenhaus in 
+[2026-03-15 07:13:08] [enrich] --- Enriche [4/5]: 14 Verletzte bei Brand in Jüdischem Krankenhaus Berlin - kei
+[2026-03-15 07:13:08] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:13:10] [enrich] Enrichment abgeschlossen: enriched — Jüdischem Krankenhaus Berlin in 
+[2026-03-15 07:13:11] [enrich] --- Enriche [5/5]: Klein-Brand im Bruchsaler Krankenhaus – 18 Patienten vorüber
+[2026-03-15 07:13:11] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 07:13:13] [enrich] Enrichment abgeschlossen: enriched — Bruchsaler Krankenhaus in 
+[2026-03-15 07:13:13] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 07:13:13] [enrich] === Enrichment-Lauf beendet ===
+
