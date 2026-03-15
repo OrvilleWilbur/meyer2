@@ -53,7 +53,7 @@ EXCLUDE_KEYWORDS = [
     "brandmeldeanlage test", "feuerwerk", "brandschutzkonzept",
     "brandschutzprüfung", "brandschutztag", "brandschutzordnung",
     "brandschutzunterweisung", "brandschutzhelfer",
-    "mb-monitor",
+    "mb-monitor",  # Marburger Bund Monitor (False Positive)
 ]
 
 RSS_FEEDS = {
@@ -182,6 +182,14 @@ def extract_info(title, summary, link, published, source):
     }
 
 
+def extract_info_with_source(title, summary, link, published, source, source_url=""):
+    """Wrapper um extract_info der source_url mitgibt."""
+    info = extract_info(title, summary, link, published, source)
+    if source_url:
+        info["source_url"] = source_url
+    return info
+
+
 def fetch_feeds():
     """Alle RSS-Feeds abrufen und relevante Einträge filtern."""
     results = []
@@ -196,12 +204,19 @@ def fetch_feeds():
                 published = entry.get("published", "")
 
                 if is_relevant(title, summary):
+                    # Google News RSS enthält <source url="..."> mit Publisher-Homepage
+                    source_info = entry.get("source", {})
+                    source_url = ""
+                    if hasattr(source_info, "get"):
+                        source_url = source_info.get("href", "")
+
                     results.append({
                         "title": title,
                         "summary": summary,
                         "link": link,
                         "published": published,
                         "source": name,
+                        "source_url": source_url,
                     })
         except Exception as e:
             log(f"FEHLER bei Feed '{name}': {e}")
@@ -259,7 +274,7 @@ def main():
         if h in seen:
             continue
         seen.add(h)
-        info = extract_info(c["title"], c["summary"], c["link"], c["published"], c["source"])
+        info = extract_info_with_source(c["title"], c["summary"], c["link"], c["published"], c["source"], c.get("source_url", ""))
         db["entries"].append(info)
         new_entries.append(info)
 
