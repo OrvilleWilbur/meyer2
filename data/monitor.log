@@ -592,3 +592,117 @@
 [2026-03-15 09:37:14] [enrich] Ergebnis: 0 enriched, 0 partial, 20 false_positive, 0 failed
 [2026-03-15 09:37:14] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 09:57:41] === Monitor-Lauf gestartet ===
+[2026-03-15 09:57:42] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 09:57:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 09:57:44] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 09:57:44] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-15 09:57:45] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-03-15 09:57:45] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-15 09:57:46] Feed 'gn_brand_klinikum': 29 Einträge
+[2026-03-15 09:57:46] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 09:57:47] Feed 'gn_feuer_uniklinik': 53 Einträge
+[2026-03-15 09:57:48] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-15 09:57:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 09:57:49] 238 relevante Treffer in Feeds
+[2026-03-15 09:57:50] ✅ 8 NEUE Einträge gefunden:
+[2026-03-15 09:57:50]    17.01.2025 |  |  | Mülheim: Feuer in Krankenhaus ausgebrochen! Sechs Verletzte 
+[2026-03-15 09:57:50]    11.10.2025 | ins Krankenhaus |  | Feuer in Malente: Batterien geraten in Brand – Hausbewohneri
+[2026-03-15 09:57:50]    19.07.2019 | im Krankenhaus |  | Feuer bricht in Küche von Wohnung aus – Bewohner kann sich m
+[2026-03-15 09:57:50]    04.10.2025 |  |  | Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier
+[2026-03-15 09:57:50]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-15 09:57:50]    26.12.2022 | Ameos-Klinik |  | Ameos-Klinik in Heiligenhafen: Erneut Feuer in Patientenzimm
+[2026-03-15 09:57:50]    25.10.2023 | Uniklinikum Halle |  | Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufw
+[2026-03-15 09:57:50]    27.08.2024 | Uniklinik nun besser gewappnet |  | Brandgefahr: Uniklinik nun besser gewappnet - Aachener Zeitu
+[2026-03-15 09:57:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 09:57:50] === Monitor-Lauf beendet ===
+
+[2026-03-15 09:57:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 09:57:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 09:57:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 09:57:50] [enrich] 263 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 09:57:50] [enrich] --- Enriche [1/20]: Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 09:57:50] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand
+[2026-03-15 09:57:51] [enrich] Volltext extrahiert: 1058 Zeichen von https://www.noz.de/deutschland-welt/niedersachsen/artikel/ma
+[2026-03-15 09:57:53] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Einrichtung für betreutes Wohnen, nicht in einem Krankenhaus oder einer Klinik. Das Krankenhaus wird nur im Kontext der Behandlung/des Todes des Brandopfers erwähnt.
+[2026-03-15 09:57:54] [enrich] --- Enriche [2/20]: Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 09:57:54] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html
+[2026-03-15 09:57:56] [enrich] Volltext extrahiert: 1884 Zeichen von https://www.tagesschau.de/inland/gesellschaft/hamburg-kranke
+[2026-03-15 09:57:59] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 09:58:00] [enrich] --- Enriche [3/20]: Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 09:58:01] [enrich] Google News URL aufgelöst (v1): https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krankenhaus/a-72747838
+[2026-03-15 09:58:02] [enrich] Volltext extrahiert: 2396 Zeichen von https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krank
+[2026-03-15 09:58:05] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 09:58:06] [enrich] --- Enriche [4/20]: Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 09:58:06] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194958/hamburg-krankenhaus-brand-mit-dre
+[2026-03-15 09:58:07] [enrich] Volltext extrahiert: 1306 Zeichen von https://www.welt.de/vermischtes/video256194958/hamburg-krank
+[2026-03-15 09:58:10] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 09:58:11] [enrich] --- Enriche [5/20]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 09:58:11] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186
+[2026-03-15 09:58:12] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.sueddeutsche.de/panorama/brand-hamburg-krankenha
+[2026-03-15 09:58:17] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 09:58:18] [enrich] --- Enriche [6/20]: "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-15 09:58:19] [enrich] Google News URL aufgelöst (v1): https://koeln.t-online.de/region/koeln/id_101068668/crans-montana-opfer-mit-schw
+[2026-03-15 09:58:20] [enrich] Volltext extrahiert: 4282 Zeichen von https://koeln.t-online.de/region/koeln/id_101068668/crans-mo
+[2026-03-15 09:58:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die deutschen Kliniken werden nur erwähnt, weil sie Brandopfer aus dem Schweizer Brand zur Behandlung aufnehmen. Dies fällt unter die Ausschlusskriterien: 'Brandopfer werden in einer Klinik behandelt' und 'Brände in ausländischen Krankenhäusern'.
+[2026-03-15 09:58:23] [enrich] --- Enriche [7/20]: Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-15 09:58:23] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-
+[2026-03-15 09:58:24] [enrich] Volltext extrahiert: 4401 Zeichen von https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-
+[2026-03-15 09:58:29] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 09:58:30] [enrich] --- Enriche [8/20]: Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus ge
+[2026-03-15 09:58:30] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg
+[2026-03-15 09:58:31] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer
+[2026-03-15 09:58:35] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg-Hohenfelde
+[2026-03-15 09:58:36] [enrich] --- Enriche [9/20]: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-03-15 09:58:36] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-15 09:58:37] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-15 09:58:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (442 Z.)
+[2026-03-15 09:58:38] [enrich] FALSE POSITIVE erkannt: Brandopfer aus einem Brand in der Schweiz (Crans-Montana) werden zur Behandlung in ein deutsches Krankenhaus gebracht. Dies ist keine Brand-Ereignis in einem deutschen Krankenhaus, sondern die Behandlung von Brandopfern aus dem Ausland.
+[2026-03-15 09:58:39] [enrich] --- Enriche [10/20]: Nach Feuer in Hamburger Klinik: Verdächtiger kommt in Psychi
+[2026-03-15 09:58:39] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/hamburg/Nach-Feuer-in-Hamburger-Klinik-Verdaechti
+[2026-03-15 09:58:41] [enrich] Volltext extrahiert: 4296 Zeichen von https://www.ndr.de/nachrichten/hamburg/Nach-Feuer-in-Hamburg
+[2026-03-15 09:58:46] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 09:58:47] [enrich] --- Enriche [11/20]: War es Brandstiftung? Verdächtiger nach Feuer in Hamburger M
+[2026-03-15 09:58:47] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/panorama/artikel/brand-in-krankenhaus-in-ham
+[2026-03-15 09:58:48] [enrich] Volltext extrahiert: 1268 Zeichen von https://www.noz.de/deutschland-welt/panorama/artikel/brand-i
+[2026-03-15 09:58:50] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 09:58:51] [enrich] --- Enriche [12/20]: Kellerbrand im Krankenhaus: Polizei sucht Zeugen - BR
+[2026-03-15 09:58:52] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachrichten/bayern/kellerbrand-krankenhaus-in-neustadt-bei-cob
+[2026-03-15 09:58:53] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.br.de/nachrichten/bayern/kellerbrand-krankenhaus
+[2026-03-15 09:58:57] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Neustadt bei Coburg (Sana Kliniken Oberfranken) in Neustadt bei Coburg
+[2026-03-15 09:58:58] [enrich] --- Enriche [13/20]: Brand in Krankenhaus in Frankenberg: ein Toter und 13 Verlet
+[2026-03-15 09:58:58] [enrich] Google News URL aufgelöst (v1): https://www.hessenschau.de/panorama/brand-in-krankenhaus-in-frankenberg-ein-tote
+[2026-03-15 09:59:01] [enrich] Volltext extrahiert: 4264 Zeichen von https://www.hessenschau.de/panorama/brand-in-krankenhaus-in-
+[2026-03-15 09:59:05] [enrich] Enrichment abgeschlossen: enriched — Kreiskrankenhaus Frankenberg (Eder) in Frankenberg (Eder)
+[2026-03-15 09:59:06] [enrich] --- Enriche [14/20]: Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk
+[2026-03-15 09:59:06] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html
+[2026-03-15 09:59:08] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik
+[2026-03-15 09:59:10] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um einen allgemeinen Text über Faktenchecks und Verifikation von Behauptungen, ohne Bezug zu einem Krankenhausbrand.
+[2026-03-15 09:59:11] [enrich] --- Enriche [15/20]: Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenha
+[2026-03-15 09:59:12] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-pekinger-krankenhaus-
+[2026-03-15 09:59:13] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-p
+[2026-03-15 09:59:14] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Faktenchecks und virale Behauptungen allgemein. Es gibt keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik in Deutschland.
+[2026-03-15 09:59:15] [enrich] --- Enriche [16/20]: In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-15 09:59:15] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-
+[2026-03-15 09:59:15] [enrich] Volltext extrahiert: 2166 Zeichen von https://rp-online.de/nrw/staedte/moenchengladbach/moenchengl
+[2026-03-15 09:59:22] [enrich] Enrichment abgeschlossen: enriched — Kliniken Maria Hilf in Mönchengladbach
+[2026-03-15 09:59:23] [enrich] --- Enriche [17/20]: Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-15 09:59:24] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheeren
+[2026-03-15 09:59:26] [enrich] Volltext zu kurz/leer (108 Z.), verwende RSS-Snippet (604 Z.)
+[2026-03-15 09:59:28] [enrich] Enrichment abgeschlossen: partial — Marienkrankenhaus in 
+[2026-03-15 09:59:29] [enrich] --- Enriche [18/20]: Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-15 09:59:30] [enrich] Google News URL aufgelöst (v1): https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-15 09:59:30] [enrich] Kein Artikeltext extrahierbar für https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-15 09:59:30] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (617 Z.)
+[2026-03-15 09:59:32] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine konkreten Details eines Brandes in einem deutschen Krankenhaus. Es handelt sich um eine Stellungnahme der Stiftung Patientenschutz zu Brandschutzmaßnahmen, ohne dass ein spezifischer Krankenhausbrand dokumentiert wird. Der Artikel ist eine Forderung/Reaktion, keine Berichterstattung über einen tatsächlichen Brandvorfall.
+[2026-03-15 09:59:33] [enrich] --- Enriche [19/20]: 14 Verletzte bei Brand in Jüdischem Krankenhaus Berlin - kei
+[2026-03-15 09:59:34] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/14-verletzte-bei-brand-in-juedischem-krankenhaus-berli
+[2026-03-15 09:59:35] [enrich] Volltext extrahiert: 2387 Zeichen von https://www.stern.de/news/14-verletzte-bei-brand-in-juedisch
+[2026-03-15 09:59:38] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin
+[2026-03-15 09:59:39] [enrich] --- Enriche [20/20]: Klein-Brand im Bruchsaler Krankenhaus – 18 Patienten vorüber
+[2026-03-15 09:59:40] [enrich] Google News URL aufgelöst (v1): https://landfunker.de/brand-im-bruchsaler-krankenhaus-18-patienten-voruebergehen
+[2026-03-15 09:59:42] [enrich] Volltext extrahiert: 2069 Zeichen von https://landfunker.de/brand-im-bruchsaler-krankenhaus-18-pat
+[2026-03-15 09:59:45] [enrich] Enrichment abgeschlossen: enriched — Fürst-Stirum-Klinikum Bruchsal in Bruchsal
+[2026-03-15 09:59:45] [enrich] Ergebnis: 13 enriched, 1 partial, 6 false_positive, 0 failed
+[2026-03-15 09:59:45] [enrich] === Enrichment-Lauf beendet ===
+
