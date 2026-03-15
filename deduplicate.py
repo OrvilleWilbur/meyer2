@@ -50,13 +50,9 @@ def normalize(text: str) -> str:
         return ""
     t = text.lower().strip()
     t = unicodedata.normalize("NFC", t)
-    # Sonderzeichen → Leerzeichen (vor Compound-Split, damit Bindestriche weg sind)
     t = re.sub(r"[().,;:\-/\"\']", " ", t)
-    # Deutsche Kompositwörter an Krankenhaus-Begriffen auftrennen
-    # "marienkrankenhaus" → "marien krankenhaus", "herzklinik" → "herz klinik"
     for term in ["krankenhaus", "klinikum", "klinik", "hospital", "spital"]:
         t = re.sub(rf"(\w+?)({term})", rf"\1 \2", t)
-    # Gängige Abkürzungen/Synonyme NACH dem Split
     t = t.replace("st.", "sankt").replace("ev.", "evangelisch")
     t = t.replace("kath.", "katholisch")
     t = t.replace("klinikum", "klinik")
@@ -156,16 +152,15 @@ def similarity_score(entry_a: dict, entry_b: dict) -> tuple[float, dict]:
         else:
             datum_sim = 0.0
     elif not da and not db:
-        datum_sim = 0.0  # Kein Signal — kein Score
+        datum_sim = 0.0
     else:
-        datum_sim = 0.0  # Einer fehlt
+        datum_sim = 0.0
     details["datum"] = datum_sim
 
     # ── Ort (0.30) ──
     ort_a = extract_words(fa["ort"])
     ort_b = extract_words(fb["ort"])
     ort_sim = jaccard(ort_a, ort_b) if (ort_a and ort_b) else 0.0
-    # Boost: wenn ein Ort substring des anderen ist
     na, nb = normalize(fa["ort"]), normalize(fb["ort"])
     if na and nb and (na in nb or nb in na):
         ort_sim = max(ort_sim, 0.85)
@@ -175,7 +170,6 @@ def similarity_score(entry_a: dict, entry_b: dict) -> tuple[float, dict]:
     einr_a = extract_words(fa["einrichtung"])
     einr_b = extract_words(fb["einrichtung"])
     einr_sim = jaccard(einr_a, einr_b) if (einr_a and einr_b) else 0.0
-    # Boost: Substring-Match auf normalisierten Gesamtstring
     ea, eb = normalize(fa["einrichtung"]), normalize(fb["einrichtung"])
     if ea and eb and (ea in eb or eb in ea):
         einr_sim = max(einr_sim, 0.80)
@@ -187,7 +181,7 @@ def similarity_score(entry_a: dict, entry_b: dict) -> tuple[float, dict]:
     if bla and blb:
         bl_sim = 1.0 if bla == blb else 0.0
     else:
-        bl_sim = 0.0  # Fehlend = kein Signal
+        bl_sim = 0.0
     details["bundesland"] = bl_sim
 
     # ── Brandort (0.05) ──
@@ -305,7 +299,6 @@ def merge_group(entries: list) -> dict:
         ensure_quellen(entries[0])
         return entries[0]
 
-    # Sort by status priority (best first)
     entries.sort(
         key=lambda e: STATUS_PRIORITY.get(e.get("enrichment_status", "pending"), 0),
         reverse=True,
@@ -314,16 +307,13 @@ def merge_group(entries: list) -> dict:
     primary = entries[0]
     merged = primary.copy()
 
-    # Steckbrief mergen
     steckbriefe = [e["steckbrief"] for e in entries if e.get("steckbrief")]
     if steckbriefe:
         merged["steckbrief"] = merge_steckbriefe(steckbriefe)
 
-    # Quellen-Array aufbauen
     quellen = []
     seen_links = set()
     for e in entries:
-        # Existing quellen-Array (von vorherigem Merge)?
         if e.get("quellen"):
             for q in e["quellen"]:
                 link = q.get("link", "")
@@ -343,14 +333,12 @@ def merge_group(entries: list) -> dict:
                 })
     merged["quellen"] = quellen
 
-    # Besten Status nehmen
     best_status = max(
         (e.get("enrichment_status", "pending") for e in entries),
         key=lambda s: STATUS_PRIORITY.get(s, 0),
     )
     merged["enrichment_status"] = best_status
 
-    # Metadaten
     erfasst_dates = [e["erfasst_am"] for e in entries if e.get("erfasst_am")]
     if erfasst_dates:
         merged["erfasst_am"] = min(erfasst_dates)
@@ -359,7 +347,6 @@ def merge_group(entries: list) -> dict:
     if enriched_dates:
         merged["enriched_am"] = max(enriched_dates)
 
-    # False-Positive-Grund
     if best_status == "false_positive":
         fp_gruende = [e["false_positive_grund"] for e in entries if e.get("false_positive_grund")]
         if fp_gruende:
@@ -367,7 +354,6 @@ def merge_group(entries: list) -> dict:
     else:
         merged.pop("false_positive_grund", None)
 
-    # Primär-Link
     for e in entries:
         if e.get("enrichment_status") == "enriched":
             merged["link"] = e.get("link", "")
@@ -375,12 +361,10 @@ def merge_group(entries: list) -> dict:
             merged["resolve_method"] = e.get("resolve_method", "")
             break
 
-    # Top-Level-Felder
     for field in ["einrichtung", "ort", "datum", "titel"]:
         vals = [e.get(field, "") for e in entries]
         merged[field] = pick_best_value(*vals)
 
-    # Audit-Trail
     original_hashes = []
     for e in entries:
         if e.get("merged_from"):
@@ -388,7 +372,7 @@ def merge_group(entries: list) -> dict:
         elif e.get("hash"):
             original_hashes.append(e["hash"])
     if len(original_hashes) > 1:
-        merged["merged_from"] = list(dict.fromkeys(original_hashes))  # deduplicate, keep order
+        merged["merged_from"] = list(dict.fromkeys(original_hashes))
 
     merged["hash"] = entries[0].get("hash", "")
 
@@ -447,25 +431,19 @@ def deduplicate(db: dict) -> dict:
     n = len(entries)
     log(f"Starte Dedup für {n} Einträge")
 
-    # Nutzer-Entscheidungen laden
     confirmed_merges = load_confirmed_merges()
     rejected_merges = load_rejected_merges()
     log(f"Bestätigte Merges: {len(confirmed_merges)}, Abgelehnte: {len(rejected_merges)}")
 
-    # ── Paarweises Scoring ──
-    # Optimierung: nur Einträge mit mindestens Ort ODER Datum vergleichen
-    # und Vorsortierung nach Bundesland
     uf = UnionFind(n)
     candidates = []
 
-    # Für O(n²)-Vermeidung: Vorab-Gruppierung nach Bundesland + Datum-Monat
     buckets = defaultdict(list)
     for i, e in enumerate(entries):
         f = get_fields(e)
         bl = normalize(f["bundesland"]) or "_"
         d = parse_datum(f["datum"])
         month_key = f"{d.year}-{d.month:02d}" if d else "_"
-        # In eigenen Bucket + Nachbar-Monate (für Monatsgrenz-Brände)
         buckets[(bl, month_key)].append(i)
         if d:
             prev = d.replace(day=1) - timedelta(days=1)
@@ -485,16 +463,13 @@ def deduplicate(db: dict) -> dict:
 
                 score, details = similarity_score(entries[i], entries[j])
 
-                # Hash-Paar für Nutzer-Entscheidungen
                 hi = entries[i].get("hash", "")
                 hj = entries[j].get("hash", "")
                 hash_pair = tuple(sorted([hi, hj])) if hi and hj else None
 
-                # Vom Nutzer abgelehnt? → Skip
                 if hash_pair and hash_pair in rejected_merges:
                     continue
 
-                # Vom Nutzer bestätigt? → Auto-Merge
                 if hash_pair and hash_pair in confirmed_merges:
                     uf.union(i, j)
                     auto_merge_count += 1
@@ -519,7 +494,6 @@ def deduplicate(db: dict) -> dict:
     log(f"Auto-Merges: {auto_merge_count}")
     log(f"Kandidaten (unsicher): {len(candidates)}")
 
-    # ── Cluster bilden und mergen ──
     clusters = uf.clusters()
     merged_entries = []
     total_merged = 0
@@ -537,8 +511,6 @@ def deduplicate(db: dict) -> dict:
 
     db["entries"] = merged_entries
 
-    # ── Kandidaten-Datei schreiben ──
-    # Bestehende Entscheidungen beibehalten
     existing = {}
     if CANDIDATES_FILE.exists():
         try:
@@ -546,7 +518,6 @@ def deduplicate(db: dict) -> dict:
         except Exception:
             existing = {}
 
-    # Neue Kandidaten aufbereiten (nur die, die nicht schon entschieden sind)
     new_candidates = []
     for c in candidates:
         hi, hj = entries[c["i"]].get("hash", ""), entries[c["j"]].get("hash", "")
@@ -581,7 +552,6 @@ def deduplicate(db: dict) -> dict:
             },
         })
 
-    # Sortieren: höchster Score zuerst
     new_candidates.sort(key=lambda c: c["score"], reverse=True)
 
     candidates_data = {
@@ -622,17 +592,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
----
-
-**2. `docs/index.html`** — die hast du gerade erst aktualisiert. Die einzige neue Änderung gegenüber dem Code, den du eben hochgeladen hast, sind zwei Zeilen in den Kandidaten-Karten. Suche im Edit-Modus nach `Bundesland / Status` — es gibt zwei Stellen (für entry_a und entry_b). Jeweils **direkt nach** der Zeile `<div class="field-value">${a.bundesland...` bzw. `${b.bundesland...` und **vor** `</div>` (dem schließenden cand-entry div) diese Zeile einfügen:
-
-Für Entry A (nach `${a.bundesland || '—'} · ${a.status || '—'}</div>`):
-```
-          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
-```
-
-Für Entry B (nach `${b.bundesland || '—'} · ${b.status || '—'}</div>`):
-```
-          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
