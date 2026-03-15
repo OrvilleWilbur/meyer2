@@ -1535,3 +1535,134 @@
 [2026-03-15 19:05:22] [DEDUP] Ergebnis: 233 Einträge (war: 242, 9 zusammengeführt)
 [2026-03-15 19:05:22] [DEDUP] Kandidaten-Datei: 60 pending, 0 confirmed, 0 rejected
 [2026-03-15 19:05:22] [DEDUP] Gespeichert: 242 → 233 Einträge
+[2026-03-15 19:42:51] === Monitor-Lauf gestartet ===
+[2026-03-15 19:42:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 19:42:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 19:42:54] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 19:42:54] Feed 'gn_feuer_krankenhaus': 60 Einträge
+[2026-03-15 19:42:55] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-15 19:42:55] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-15 19:42:55] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-03-15 19:42:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 19:42:56] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-03-15 19:42:57] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 19:42:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 19:42:58] 254 relevante Treffer in Feeds
+[2026-03-15 19:42:58] ✅ 1 NEUE Einträge gefunden:
+[2026-03-15 19:42:58]    30.09.2016 | Bochumer Krankenhaus |  | Zwei Tote bei Brand-Katastrophe in Bochumer Krankenhaus - Fe
+[2026-03-15 19:42:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 19:42:58] === Monitor-Lauf beendet ===
+
+[2026-03-15 19:42:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 19:42:58] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 19:42:58] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 19:42:58] [enrich] 161 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 19:42:58] [enrich] --- Enriche [1/20]: Feuer in Einfamilienhaus im Harz: Drei Bewohner nach Brand i
+[2026-03-15 19:42:59] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/quedlinburg/feuer-in-einfamilienhaus-im-harz-drei-bewohn
+[2026-03-15 19:43:00] [enrich] Volltext extrahiert: 1592 Zeichen von https://www.mz.de/lokal/quedlinburg/feuer-in-einfamilienhaus
+[2026-03-15 19:43:01] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Einfamilienhaus in Westerhausen. Die Erwähnung des Krankenhauses bezieht sich nur darauf, dass drei verletzte Bewohner nach dem Brand zur Behandlung ins Krankenhaus gebracht wurden. Dies ist kein Brand IN einem Krankenhaus.
+[2026-03-15 19:43:02] [enrich] --- Enriche [2/20]: Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.
+[2026-03-15 19:43:02] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kre
+[2026-03-15 19:43:03] [enrich] Artikel-Fetch fehlgeschlagen für https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kre: 410 Client Error: Page Gone for url: https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-49886635
+[2026-03-15 19:43:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (491 Z.)
+[2026-03-15 19:43:04] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Textinhalt. Eine Bewertung, ob ein echter Brand in einer deutschen Klinik stattgefunden hat, ist nicht möglich.
+[2026-03-15 19:43:05] [enrich] --- Enriche [3/20]: Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-15 19:43:05] [enrich] Google News URL aufgelöst (v1): https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw
+[2026-03-15 19:43:06] [enrich] Volltext extrahiert: 4347 Zeichen von https://www.express.de/panorama/feuer-hoelle-von-crans-monta
+[2026-03-15 19:43:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in der Schweiz (Crans-Montana). Deutsche Kliniken nehmen lediglich Brandopfer zur Behandlung auf, aber der Brand selbst fand nicht in einem deutschen Krankenhaus statt.
+[2026-03-15 19:43:09] [enrich] --- Enriche [4/20]: Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle beh
+[2026-03-15 19:43:09] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-s
+[2026-03-15 19:43:09] [enrich] Volltext extrahiert: 1788 Zeichen von https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-sch
+[2026-03-15 19:43:11] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana), nicht in Deutschland. Das Klinikum Bergmannstrost in Halle nimmt lediglich ein Brandopfer zur Behandlung auf, ist aber nicht der Ort des Brandes.
+[2026-03-15 19:43:12] [enrich] --- Enriche [5/20]: Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die 
+[2026-03-15 19:43:12] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-15 19:43:12] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-15 19:43:12] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (424 Z.)
+[2026-03-15 19:43:14] [enrich] Enrichment abgeschlossen: partial — Klinik Hamburg (Name nicht vollständig angegeben) in Hamburg
+[2026-03-15 19:43:15] [enrich] --- Enriche [6/20]: Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-15 19:43:15] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/minden/24160808_Wochenrueckblick-
+[2026-03-15 19:43:18] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/minden/241608
+[2026-03-15 19:43:21] [enrich] Enrichment abgeschlossen: enriched — Median-Klinik am Park in Bad Oeynhausen
+[2026-03-15 19:43:22] [enrich] --- Enriche [7/20]: Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – I
+[2026-03-15 19:43:23] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/nordrhein-westfalen/in-psychiatrie-in-nrw-geba
+[2026-03-15 19:43:27] [enrich] Volltext extrahiert: 3590 Zeichen von https://www.merkur.de/deutschland/nordrhein-westfalen/in-psy
+[2026-03-15 19:43:30] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bedburg-Hau (forensische Psychiatrie) in Bedburg-Hau
+[2026-03-15 19:43:31] [enrich] --- Enriche [8/20]: Alptraum in Klinik: Zweimal kurz hintereinander Feueralarm -
+[2026-03-15 19:43:32] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/mainz/zwei-mal-brennt-es-in-reha-k
+[2026-03-15 19:43:34] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/mainz/zwei-mal
+[2026-03-15 19:43:44] [enrich] Enrichment abgeschlossen: enriched — Reha-Klinik Bad Sobernheim in Bad Sobernheim
+[2026-03-15 19:43:45] [enrich] --- Enriche [9/20]: Festnahme wegen Verdachts der Brandstiftung nach Feuer in Ha
+[2026-03-15 19:43:45] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/video/video-1472328.html
+[2026-03-15 19:43:46] [enrich] Volltext extrahiert: 303 Zeichen von https://www.tagesschau.de/video/video-1472328.html
+[2026-03-15 19:43:48] [enrich] Enrichment abgeschlossen: enriched — Hamburger Klinik (genaue Bezeichnung im Text nicht genannt) in Hamburg
+[2026-03-15 19:43:49] [enrich] --- Enriche [10/20]: Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SW
+[2026-03-15 19:43:49] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nah
+[2026-03-15 19:43:51] [enrich] Volltext extrahiert: 2536 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/br
+[2026-03-15 19:43:53] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus in Kliniknähe, nicht im Krankenhaus selbst. Die GRN-Klinik war nur indirekt betroffen (Rauchwolke zog in Richtung der Radiologie), aber der Brand ereignete sich in einem separaten Wohngebäude.
+[2026-03-15 19:43:54] [enrich] --- Enriche [11/20]: Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen si
+[2026-03-15 19:43:54] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-i
+[2026-03-15 19:43:55] [enrich] Volltext extrahiert: 1900 Zeichen von https://www.welt.de/vermischtes/article256098192/Bedburg-Hau
+[2026-03-15 19:44:04] [enrich] Enrichment abgeschlossen: enriched — Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland) in Bedburg-Hau
+[2026-03-15 19:44:05] [enrich] --- Enriche [12/20]: Saunabereich der Chiemgau-Klinik brennt vollständig aus - On
+[2026-03-15 19:44:05] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollst
+[2026-03-15 19:44:07] [enrich] Volltext extrahiert: 4585 Zeichen von https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-
+[2026-03-15 19:44:11] [enrich] Enrichment abgeschlossen: enriched — Chiemgau-Klinik in Marquartstein
+[2026-03-15 19:44:12] [enrich] --- Enriche [13/20]: Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-15 19:44:12] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patienten
+[2026-03-15 19:44:14] [enrich] Volltext extrahiert: 1680 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhause
+[2026-03-15 19:44:16] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Bericht über einen Brand in einem Krankenhaus. Es handelt sich um eine Paywall-Seite einer Nachrichtenwebseite mit Anmeldeversuchen und Links zu verschiedenen Artikeln, von denen einer 'Krankenhaus Bad Oeynhausen' erwähnt, aber kein Brand-Ereignis beschrieben wird.
+[2026-03-15 19:44:17] [enrich] --- Enriche [14/20]: 41-Jähriger wird bei Zimmerbrand in Schleswiger Helios-Klini
+[2026-03-15 19:44:17] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/schleswig/artikel/brand-in-schleswiger-helios-klinik-
+[2026-03-15 19:44:19] [enrich] Volltext extrahiert: 1258 Zeichen von https://www.shz.de/lokales/schleswig/artikel/brand-in-schles
+[2026-03-15 19:44:21] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinik Schleswig in Schleswig
+[2026-03-15 19:44:22] [enrich] --- Enriche [15/20]: Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-15 19:44:22] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote
+[2026-03-15 19:44:22] [enrich] Volltext extrahiert: 4246 Zeichen von https://rp-online.de/panorama/deutschland/hamburg-feuer-mari
+[2026-03-15 19:44:27] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-15 19:44:28] [enrich] --- Enriche [16/20]: Feuer bei Ameos-Klinik in Neustadt: Drei Verletzte – Kripo e
+[2026-03-15 19:44:28] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/brandstiftung-bei-ameos-feu
+[2026-03-15 19:44:29] [enrich] Volltext extrahiert: 1242 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/brandst
+[2026-03-15 19:44:32] [enrich] Enrichment abgeschlossen: enriched — Ameos-Klinik in Neustadt
+[2026-03-15 19:44:33] [enrich] --- Enriche [17/20]: Brand in Bad Salziger Klinik endet ohne Verletzte – 93 Patie
+[2026-03-15 19:44:34] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/brand-in-bad-salzig
+[2026-03-15 19:44:36] [enrich] Volltext extrahiert: 1179 Zeichen von https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung
+[2026-03-15 19:44:39] [enrich] Enrichment abgeschlossen: enriched — Mittelrhein-Klinik in Bad Salzig
+[2026-03-15 19:44:40] [enrich] --- Enriche [18/20]: Feuer in der Klinik in Oldenburg in Holstein - shz.de
+[2026-03-15 19:44:40] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-in-der-klinik-in-olde
+[2026-03-15 19:44:55] [enrich] Volltext extrahiert: 960 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/feuer-i
+[2026-03-15 19:44:58] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Oldenburg in Holstein in Oldenburg in Holstein
+[2026-03-15 19:44:59] [enrich] --- Enriche [19/20]: Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in
+[2026-03-15 19:45:00] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigsh
+[2026-03-15 19:45:03] [enrich] Volltext extrahiert: 3267 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/b
+[2026-03-15 19:45:05] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt die Behandlung von Brandopfern eines Brandes in der Schweiz (Crans-Montana) in deutschen Kliniken. Der Brand selbst fand nicht in einem deutschen Krankenhaus statt, sondern in einer Bar in der Schweiz. Die deutschen Kliniken sind nur Behandlungsorte für die Opfer, nicht Brandschauplatz.
+[2026-03-15 19:45:06] [enrich] --- Enriche [20/20]: Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt 
+[2026-03-15 19:45:06] [enrich] Google News URL aufgelöst (v1): https://www.berliner-zeitung.de/news/berliner-unfallkrankenhaus-nimmt-brandopfer
+[2026-03-15 19:45:07] [enrich] Volltext extrahiert: 1180 Zeichen von https://www.berliner-zeitung.de/news/berliner-unfallkrankenh
+[2026-03-15 19:45:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Schweizer Skiort (Crans-Montana), nicht in einem deutschen Krankenhaus. Das Unfallkrankenhaus Berlin nimmt lediglich Brandopfer zur Behandlung auf, was kein Krankenhausbrand ist.
+[2026-03-15 19:45:08] [enrich] Ergebnis: 11 enriched, 1 partial, 8 false_positive, 0 failed
+[2026-03-15 19:45:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 19:45:09] [DEDUP] Starte Dedup für 234 Einträge
+[2026-03-15 19:45:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (1.00): Median-Klinik am Park / Bad Oeynhausen ↔ Median-Klinik am Park / Bad Oeynhausen
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.97): Reha-Klinik Bad Sobernheim / Bad Sobernheim ↔ Reha-Klinik Bad Sobernheim / Bad Sobernheim
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.95): Helios-Klinik Schleswig (Psychiatrisches / Schleswig ↔ Helios-Klinik Schleswig / Schleswig
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (1.00): Chiemgau-Klinik / Marquartstein ↔ Chiemgau-Klinik / Marquartstein
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.95): Ameos-Klinik Neustadt / Neustadt ↔ Ameos-Klinik / Neustadt
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.95): Mittelrhein-Klinik / Bad Salzig ↔ Mittelrhein-Klinik / Bad Salzig
+[2026-03-15 19:45:09] [DEDUP] Auto-Merge (0.90): Klinik Oldenburg in Holstein / Oldenburg in Holstei ↔ Krankenhaus Oldenburg in Holstein / Oldenburg in Holstei
+[2026-03-15 19:45:09] [DEDUP] Paare verglichen: 1847
+[2026-03-15 19:45:09] [DEDUP] Auto-Merges: 8
+[2026-03-15 19:45:09] [DEDUP] Kandidaten (unsicher): 62
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Median-Klinik am Park, Median-Klinik am Park
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Reha-Klinik Bad Sobernheim, Reha-Klinik Bad Sobernheim
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Helios-Klinik Schleswig (Psychiatrisches, Helios-Klinik Schleswig
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Chiemgau-Klinik, Chiemgau-Klinik
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Ameos-Klinik Neustadt, Ameos-Klinik
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Mittelrhein-Klinik, Mittelrhein-Klinik
+[2026-03-15 19:45:09] [DEDUP] Cluster 2x: Klinik Oldenburg in Holstein, Krankenhaus Oldenburg in Holstein
+[2026-03-15 19:45:09] [DEDUP] Ergebnis: 226 Einträge (war: 234, 8 zusammengeführt)
+[2026-03-15 19:45:09] [DEDUP] Kandidaten-Datei: 62 pending, 1 confirmed, 0 rejected
+[2026-03-15 19:45:09] [DEDUP] Gespeichert: 234 → 226 Einträge
