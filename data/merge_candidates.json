@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T20:47:46.476982",
+  "generated_at": "2026-03-15T21:43:11.090049",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -166,6 +166,39 @@
         "status": "enriched",
         "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
         "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Aurich",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/aurich-evakuierung-nach-brand-in-klinik,klinik-122.html",
+        "titel": "Aurich: Evakuierung nach Brand in Klinik - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Ubbo-Emmius-Klinik",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
+        "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - NWZonline"
       }
     },
     {
@@ -1417,8 +1450,8 @@
         "ort": "",
         "datum": "18.03.2024",
         "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON3EyQ1RwVHQ2b2RlSndUcndpVFFlU2hXRzB4OW00RV8wZG9iWVg5TUQxY0E4T1RDYkVzd25pZnRKYnhaSGhyckZ6aFBRUHZQM1U3NEpjeDJIY2sxcDg2R2ZxVmE4NDNlM0x1ZFZLNk5nS3JjcDdTbVp6SnZMRUh6UDlaNS1UVG1qRjh1MW5JQ1c0aS1CUDZJdTNpUC1WMzIwb0h3dmtIM2lBSDdIUXc?oc=5",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-und-umgebung-auf-110.html",
         "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus und Umgebung auf - Deutschlandfunk"
       }
     },
@@ -1453,39 +1486,6 @@
         "status": "pending",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT2t2a2JnVmRpdlFtckg0Mzdvemppc1piUnhBNTZJcERGbnVsNUZySzBFN3lQWVlSSW5mX3U5azhIaFBxWVJZRFZheU1iZHRFdXVFNmRLaUxUOHNRNmFMcTNOdFcwb0tVTnVsTTVRNkhmRXdmU0tGdTBRMXQ4aXNHd19XR2szemJBNm5ubzVMTlFsazg?oc=5",
         "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.486,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.047619047619047616,
-        "total": 0.486
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere-sch%C3%A4den/a-35931243",
-        "titel": "Tote bei Großbrand in Uni-Klinik - DW.com"
       }
     },
     {
@@ -1540,8 +1540,8 @@
         "ort": "",
         "datum": "19.11.2023",
         "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbDY0R3JFWXZOUTlUZndZVmRROTY1cHBrOTBpLU1FY1pmOFpxYzJRaHFYLTdmZVdZSEl5ZzVGSUxyMkFvZlRmLWFSWUREOE5STDZyeXBUTEFwUWFOUHc1dlkwSS1DUnZncVZ3Q1J6R1NGSERyeTRKVkFFenhrbENaVDNjTmNuVWJBMFZmVXByUEN5THczcVZQMHA1dEh1cmxLTk9wLVd2MUd0dlJiYnpNaXk0aGJfSXFKUkxjbW9YS0lpclU2aWNhTExHdXJQMVk?oc=5",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-100.html",
         "titel": "Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - Deutschlandfunk"
       },
       "entry_b": {
@@ -1549,8 +1549,8 @@
         "ort": "",
         "datum": "20.11.2023",
         "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMkxNY1VFTFZMSFpDdnVheFlPSjJCSmdybloyYmg3QmtRTVFRWkVRWDZzOEpCSHNsR2t6VEJUTHluaUMwYk1uaVBXOEtXel9MbXJxb3l6bkJobGFmQmprV1R3MkVYTzNma05VQ00weTBoWUhGcThROEExbzZQT1V1S0NBMUhUN1NLSDBreWNka2czNVpuNmhWLVFaUTZaY2RqaUVjZ1JHbjhBSTRWSlY2TXlOQk8weEZaNHBBdjJjUUpTalFub3N6YlhSdTRmX0E?oc=5",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-108.html",
         "titel": "Gaza-Krieg Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - Deutschlandfunk"
       }
     }

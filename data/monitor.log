@@ -2155,3 +2155,116 @@
 [2026-03-15 20:47:46] [DEDUP] Ergebnis: 213 Einträge (war: 217, 4 zusammengeführt)
 [2026-03-15 20:47:46] [DEDUP] Kandidaten-Datei: 47 pending, 1 confirmed, 0 rejected
 [2026-03-15 20:47:46] [DEDUP] Gespeichert: 217 → 213 Einträge
+[2026-03-15 21:41:40] === Monitor-Lauf gestartet ===
+[2026-03-15 21:41:41] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 21:41:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 21:41:43] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 21:41:43] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-03-15 21:41:43] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-03-15 21:41:44] Feed 'gn_brand_klinik': 35 Einträge
+[2026-03-15 21:41:44] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-15 21:41:45] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 21:41:45] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-15 21:41:46] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 21:41:47] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 21:41:47] 241 relevante Treffer in Feeds
+[2026-03-15 21:41:47] Keine neuen Einträge
+[2026-03-15 21:41:47] === Monitor-Lauf beendet ===
+
+[2026-03-15 21:41:47] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 21:41:47] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 21:41:47] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 21:41:47] [enrich] 65 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 21:41:47] [enrich] --- Enriche [1/20]: Cham: Evakuierung während der Entbindung - Schwangere müssen
+[2026-03-15 21:41:47] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-blindgaenger-kranken
+[2026-03-15 21:41:48] [enrich] Volltext extrahiert: 3990 Zeichen von https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-
+[2026-03-15 21:41:49] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Fliegerbomb), nicht wegen Brand
+[2026-03-15 21:41:50] [enrich] --- Enriche [2/20]: Evakuierung: Klinik Königsfeld in acht Minuten geräumt - Wes
+[2026-03-15 21:41:50] [enrich] Google News URL aufgelöst (v1): https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/article409286294/evakuier
+[2026-03-15 21:41:51] [enrich] Volltext extrahiert: 2177 Zeichen von https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/artic
+[2026-03-15 21:41:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/Evakuierungsübung, keine tatsächlichen Brand in einem Krankenhaus. Laut Anleitung sind Brandschutzübungen und Brandschutzkonzepte nicht als Krankenhausbrände zu dokumentieren.
+[2026-03-15 21:41:53] [enrich] --- Enriche [3/20]: Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus 
+[2026-03-15 21:41:54] [enrich] Google News URL aufgelöst (v1): https://www.lessentiel.lu/de/story/frankreich-weltkriegsgranate-in-rektum-loest-
+[2026-03-15 21:41:54] [enrich] Volltext extrahiert: 2344 Zeichen von https://www.lessentiel.lu/de/story/frankreich-weltkriegsgran
+[2026-03-15 21:41:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung eines französischen Krankenhauses wegen eines verdächtigen Gegenstands (Weltkriegsgranate), nicht wegen eines Brandes. Zudem handelt es sich um ein Krankenhaus in Frankreich, nicht in Deutschland.
+[2026-03-15 21:41:58] [enrich] --- Enriche [4/20]: Stromausfall: Maus sorgt für Evakuierung der Sana-Klinik - O
+[2026-03-15 21:41:58] [enrich] Google News URL aufgelöst (v1): https://www.oberberg-aktuell.de/news/krankenhaus-nach-stromausfall-evakuiert-a-1
+[2026-03-15 21:41:59] [enrich] Volltext extrahiert: 3840 Zeichen von https://www.oberberg-aktuell.de/news/krankenhaus-nach-stroma
+[2026-03-15 21:42:02] [enrich] FALSE POSITIVE erkannt: Kein Brand im Krankenhaus selbst. Es handelt sich um einen Stromausfall durch eine Maus im Traforaum, die einen Kurzschluss verursachte. Die Brandmeldeanlage löste aus wegen Verrauchung nach der Überspannung im Technikraum, aber es gab keinen eigentlichen Brand in der Klinik. Die Evakuierung war eine Folge des Stromausfalls, nicht eines Brandes.
+[2026-03-15 21:42:03] [enrich] --- Enriche [5/20]: ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vi
+[2026-03-15 21:42:03] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-einsatz-in-klotzsche-e
+[2026-03-15 21:42:03] [enrich] Volltext extrahiert: 2929 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-ei
+[2026-03-15 21:42:05] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Labor-Vorfall mit Gefahrstoffaustritt an der 'dresden chip academy', nicht einen Brand in einem Krankenhaus. Vier Personen wurden zur Behandlung ins Krankenhaus gebracht, was kein Krankenhausbrand darstellt.
+[2026-03-15 21:42:06] [enrich] --- Enriche [6/20]: Sichere Evakuierung - Sensiblen „Trainingsplan“ im Krankenha
+[2026-03-15 21:42:06] [enrich] Google News URL aufgelöst (v1): https://www.krone.at/3896004
+[2026-03-15 21:42:10] [enrich] Volltext extrahiert: 2058 Zeichen von https://www.krone.at/3896004
+[2026-03-15 21:42:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/Evakuierungsübung in einem Krankenhaus, keinen tatsächlichen Brand. Dies fällt unter die Ausschlusskriterien 'Brandschutzübungen, Brandschutzkonzepte'.
+[2026-03-15 21:42:13] [enrich] --- Enriche [7/20]: Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung 
+[2026-03-15 21:42:13] [enrich] Google News URL aufgelöst (v1): https://www.sachsen-fernsehen.de/hochwasser-alarm-katastrophenschutz-uebt-klinik
+[2026-03-15 21:42:14] [enrich] Volltext extrahiert: 213 Zeichen von https://www.sachsen-fernsehen.de/hochwasser-alarm-katastroph
+[2026-03-15 21:42:15] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/Katastrophenschutzübung für Hochwasser, kein tatsächlicher Brand in einem Krankenhaus
+[2026-03-15 21:42:16] [enrich] --- Enriche [8/20]: Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krank
+[2026-03-15 21:42:16] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenh
+[2026-03-15 21:42:17] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/israelische-armee-tunnel-unte
+[2026-03-15 21:42:18] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine Brand-Ereignisse, sondern ist eine allgemeine Beschreibung von Faktenchecks und dem TikTok-Kanal 'Moment mal'. Es gibt keinen Bezug zu einem Krankenhausbrand.
+[2026-03-15 21:42:19] [enrich] --- Enriche [9/20]: Israel-Gaza-Krieg: Berichte über Evakuierung von Schifa-Klin
+[2026-03-15 21:42:19] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/ausland/gaza-krieg-israel-ordnet-offenbar-evakuierung-von
+[2026-03-15 21:42:21] [enrich] Volltext extrahiert: 2990 Zeichen von https://www.spiegel.de/ausland/gaza-krieg-israel-ordnet-offe
+[2026-03-15 21:42:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Militäroperation und potenzielle Evakuierung des Schifa-Krankenhauses im Gazastreifen im Kontext des Israel-Hamas-Konflikts. Es geht nicht um einen Brand in einem deutschen Krankenhaus, sondern um eine politisch-militärische Situation im Ausland (Gazastreifen).
+[2026-03-15 21:42:23] [enrich] --- Enriche [10/20]: Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequ
+[2026-03-15 21:42:24] [enrich] Google News URL aufgelöst (v1): https://www.mittelbayerische.de/lokales/landkreis-cham/die-sana-klinik-in-cham-n
+[2026-03-15 21:42:24] [enrich] Volltext extrahiert: 856 Zeichen von https://www.mittelbayerische.de/lokales/landkreis-cham/die-s
+[2026-03-15 21:42:25] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand
+[2026-03-15 21:42:26] [enrich] --- Enriche [11/20]: Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund –
+[2026-03-15 21:42:27] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfu
+[2026-03-15 21:42:27] [enrich] Volltext extrahiert: 3907 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/evaku
+[2026-03-15 21:42:29] [enrich] FALSE POSITIVE erkannt: Evakuierungsübung wegen Bombenfund (Nicht-Brand-Grund), keine echten Brand im Krankenhaus. Der Artikel beschreibt eine Notfallübung, nicht einen realen Brand.
+[2026-03-15 21:42:30] [enrich] --- Enriche [12/20]: Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, vie
+[2026-03-15 21:42:30] [enrich] Google News URL aufgelöst (v1): https://www.krone.at/3917917
+[2026-03-15 21:42:32] [enrich] Volltext extrahiert: 2634 Zeichen von https://www.krone.at/3917917
+[2026-03-15 21:42:35] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken in Saarbrücken
+[2026-03-15 21:42:36] [enrich] --- Enriche [13/20]: Gaza-Krieg Israelische Armee: Tunnel unter Al-Schifa-Kranken
+[2026-03-15 21:42:36] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenh
+[2026-03-15 21:42:38] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/israelische-armee-tunnel-unte
+[2026-03-15 21:42:39] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um eine allgemeine Beschreibung von Faktenchecks und Inhalten eines TikTok-Kanals, ohne Bezug zu einem Krankenhausbrand.
+[2026-03-15 21:42:40] [enrich] --- Enriche [14/20]: Andernach: Feuer in Klinik führt zu Evakuierung - BILD
+[2026-03-15 21:42:41] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/rheinland-pfalz/andernach-feuer-in-klinik-fuehrt-zu
+[2026-03-15 21:42:43] [enrich] Volltext extrahiert: 2363 Zeichen von https://www.bild.de/regional/rheinland-pfalz/andernach-feuer
+[2026-03-15 21:42:45] [enrich] Enrichment abgeschlossen: enriched — Rhein-Mosel-Fachklinik in Andernach
+[2026-03-15 21:42:46] [enrich] --- Enriche [15/20]: Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Kranke
+[2026-03-15 21:42:47] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenh
+[2026-03-15 21:42:47] [enrich] Volltext extrahiert: 264 Zeichen von https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-vo
+[2026-03-15 21:42:48] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand. Es handelt sich um einen allgemeinen Text über Faktenchecks und Überprüfung von viralen Behauptungen, ohne Bezug zu Krankenhausbränden.
+[2026-03-15 21:42:49] [enrich] --- Enriche [16/20]: Psychiatrie-Direktor über Evakuierung: „Das war eine tolle E
+[2026-03-15 21:42:50] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-aachen/aachen/psychiatrie-direkto
+[2026-03-15 21:42:51] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.aachener-zeitung.de/lokales/region-aachen/aachen
+[2026-03-15 21:42:53] [enrich] FALSE POSITIVE erkannt: Die Evakuierung des Alexianer-Krankenhauses war die Folge eines Bombenfunds (Kampfmittel), nicht eines Brands. Der Artikel behandelt ausschließlich die Evakuierung wegen einer gefundenen Bombe aus dem Zweiten Weltkrieg.
+[2026-03-15 21:42:54] [enrich] --- Enriche [17/20]: Neustadt bei Coburg: Evakuierung nach Brand in Krankenhaus -
+[2026-03-15 21:42:54] [enrich] Google News URL aufgelöst (v1): https://www.tvo.de/mediathek/video/neustadt-bei-coburg-evakuierung-nach-brand-in
+[2026-03-15 21:42:56] [enrich] Volltext zu kurz/leer (171 Z.), verwende RSS-Snippet (456 Z.)
+[2026-03-15 21:42:57] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN einem Krankenhaus stattgefunden hat oder ob es sich um einen anderen Sachverhalt handelt (z.B. Brand in der Nähe, Evakuierung aus anderen Gründen). Zur Datenextraktion ist der vollständige Artikeltext erforderlich.
+[2026-03-15 21:42:58] [enrich] --- Enriche [18/20]: Evakuierung aus Rafah: Im fliegenden Krankenhaus - DIE ZEIT
+[2026-03-15 21:42:59] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafah-flugzeug-gazastrei
+[2026-03-15 21:42:59] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafa
+[2026-03-15 21:43:01] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Evakuierungsmaßnahme von verletzten Patienten aus dem Gazastreifen nach Abu Dhabi. Es geht um medizinische Versorgung von Kriegsverletzten, nicht um einen Brand in einem Krankenhaus oder einer Klinik in Deutschland.
+[2026-03-15 21:43:02] [enrich] --- Enriche [19/20]: Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Bran
+[2026-03-15 21:43:02] [enrich] Google News URL aufgelöst (v1): https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius
+[2026-03-15 21:43:03] [enrich] Volltext extrahiert: 3792 Zeichen von https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakui
+[2026-03-15 21:43:07] [enrich] Enrichment abgeschlossen: enriched — Ubbo-Emmius-Klinik in Aurich
+[2026-03-15 21:43:08] [enrich] --- Enriche [20/20]: Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - R
+[2026-03-15 21:43:08] [enrich] Google News URL aufgelöst (v1): https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moers-koennte-evakuierun
+[2026-03-15 21:43:09] [enrich] Volltext extrahiert: 738 Zeichen von https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moer
+[2026-03-15 21:43:10] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Evakuierungsmaßnahme wegen möglicher Kampfmittelaltlasten (Bombenentschärfung), nicht wegen eines Brandes
+[2026-03-15 21:43:10] [enrich] Ergebnis: 3 enriched, 0 partial, 17 false_positive, 0 failed
+[2026-03-15 21:43:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 21:43:10] [DEDUP] Starte Dedup für 213 Einträge
+[2026-03-15 21:43:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 21:43:11] [DEDUP] Auto-Merge (0.86): Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken ↔ Klinik Saarbrücken / Saarbrücken
+[2026-03-15 21:43:11] [DEDUP] Paare verglichen: 1214
+[2026-03-15 21:43:11] [DEDUP] Auto-Merges: 1
+[2026-03-15 21:43:11] [DEDUP] Kandidaten (unsicher): 47
+[2026-03-15 21:43:11] [DEDUP] Cluster 2x: Klinik Saarbrücken (Name nicht spezifizi, Klinik Saarbrücken
+[2026-03-15 21:43:11] [DEDUP] Ergebnis: 212 Einträge (war: 213, 1 zusammengeführt)
+[2026-03-15 21:43:11] [DEDUP] Kandidaten-Datei: 47 pending, 1 confirmed, 0 rejected
+[2026-03-15 21:43:11] [DEDUP] Gespeichert: 213 → 212 Einträge
