@@ -36,13 +36,8 @@ jobs:
       - name: Enrichment ausführen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: claude-haiku-4-5-20241022
+          ANTHROPIC_MODEL: claude-haiku-4-5-20251001
           MAX_ENRICH_PER_RUN: '5'
-          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
-          SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
-          SMTP_PORT: ${{ secrets.SMTP_PORT }}
-          SMTP_USER: ${{ secrets.SMTP_USER }}
-          SMTP_PASS: ${{ secrets.SMTP_PASS }}
         run: python enrich.py
 
       - name: Änderungen committen
