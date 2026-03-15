@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T20:04:45.190279",
+  "generated_at": "2026-03-15T20:14:18.319728",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -142,30 +142,30 @@
       ],
       "score": 0.7,
       "details": {
-        "datum": 1.0,
+        "datum": 0.0,
         "ort": 1.0,
-        "einrichtung": 0.0,
+        "einrichtung": 1.0,
         "bundesland": 1.0,
-        "brandort": 0.0,
+        "brandort": 1.0,
         "total": 0.7
       },
       "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
         "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
         "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
-        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
       }
     },
     {
@@ -173,32 +173,32 @@
         "",
         ""
       ],
-      "score": 0.7,
+      "score": 0.675,
       "details": {
-        "datum": 1.0,
+        "datum": 0.0,
         "ort": 1.0,
-        "einrichtung": 0.0,
+        "einrichtung": 1.0,
         "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
+        "brandort": 0.5,
+        "total": 0.675
       },
       "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
         "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
-        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
       }
     },
     {
@@ -206,32 +206,131 @@
         "",
         ""
       ],
-      "score": 0.7,
+      "score": 0.675,
       "details": {
-        "datum": 1.0,
+        "datum": 0.0,
         "ort": 1.0,
-        "einrichtung": 0.0,
+        "einrichtung": 1.0,
         "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
+        "brandort": 0.5,
+        "total": 0.675
       },
       "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
         "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
         "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-mindestens-drei-patienten-sterben.html",
-        "titel": "Brand in einer Klinik – Mindestens drei Patienten sterben - WELT"
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
       }
     },
     {
@@ -331,6 +430,138 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
       }
     },
     {
@@ -1849,39 +2080,6 @@
         "status": "pending",
         "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1NabTNUNXJ6M19pSmRvRnlxdVNjcjhHUEJZRW82TEV1WExtdTJzaGlTc1JNNGdfaHhqZnAzOVJCTmZqTHp1Z04wZWplaTRhb2xKcmtwSWNWQkNhTHl1U25acFQtdWxjRndCSVhvRkdwdkVQUy0yUDlMOUQxTFVwbjRKQm02STdocjFjTDZfLXdPQllrOEJuTGdZdThEQVhlTDB0aUxDU1RyQmstZFZvclNPNGMxS2lQYkE?oc=5",
         "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.46,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.46
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum",
-        "ort": "",
-        "datum": "30.01.2026",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOdzBJQWZsWTRpWmdxdXVGZlBtWl9yTFVKVldOOTQ4Y1FpX0ZYaFVNR3I5YnlJRExOQmdtWVpkSXRIMmppSDVndVVPSjV0Tzlkck1rSWdCNmFGS291bFd0Y3N6TlV1dWNIVUo3WnJpUGxjcnJNRnVUNm9aSmFsRHhMVFdPUkp1NUpaRWRzTVkxQWFGZmhZU0tUQUZqeWlEVENqZy1iS0poYXdYVG9Rbm0wd1huTzhXMmVrcndJa3QzZnJPQmo2MG55X2pVbXNKcU1ubGtqdjZOLUY0MVZiSDVsdmhSMXBKUUs3Ny1KSG1iRDEwUQ?oc=5",
-        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum",
-        "ort": "",
-        "datum": "29.01.2026",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPNDlsZ0l0LUR0eVVEU256WHBBNlE3M3A0TWRqSHpXSVhES0lWM1JOUGJVR2c2UU1NVXVCMWprSlBjRXA1UDVuTkYyNFVLZklvR05pN1M5dVBJLXFxR3VMNGtEQmFBNTBRY3ZGWEw3WWhBLUU4UThEUDFuVGpPNlFHRlVKanloOWJQRElCLXQtOUZ2Q3Jub3U1OHZtemljVTgtUWRJaTYwel9UUVR2dHBjbE8yYkJTYXFPTmRodG5PcG83R1BER0pJRlk1MzU?oc=5",
-        "titel": "Der Prozessauftakt in Bildern: Tödlichen Brand am Helios Klinikum - Bildergalerie - Pforzheimer-Zeitung - PZ-news"
       }
     },
     {

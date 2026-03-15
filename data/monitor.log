@@ -1787,3 +1787,122 @@
 [2026-03-15 20:04:45] [DEDUP] Ergebnis: 223 Einträge (war: 227, 4 zusammengeführt)
 [2026-03-15 20:04:45] [DEDUP] Kandidaten-Datei: 61 pending, 1 confirmed, 0 rejected
 [2026-03-15 20:04:45] [DEDUP] Gespeichert: 227 → 223 Einträge
+[2026-03-15 20:12:16] === Monitor-Lauf gestartet ===
+[2026-03-15 20:12:18] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 20:12:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 20:12:19] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 20:12:20] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-15 20:12:20] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-15 20:12:21] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-15 20:12:21] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 20:12:22] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 20:12:22] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-03-15 20:12:23] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-15 20:12:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 20:12:24] 255 relevante Treffer in Feeds
+[2026-03-15 20:12:24] ✅ 2 NEUE Einträge gefunden:
+[2026-03-15 20:12:24]    30.10.2024 | die Klinik |  | So bereitet sich die Klinik auf die Evakuierung vor - IVZ-Ak
+[2026-03-15 20:12:24]    02.12.2025 | Gefängnis-Klinik |  | Der Tag: Feuer in Berliner Gefängnis-Klinik - Evakuierung - 
+[2026-03-15 20:12:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 20:12:24] === Monitor-Lauf beendet ===
+
+[2026-03-15 20:12:25] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 20:12:25] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 20:12:25] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 20:12:25] [enrich] 124 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 20:12:25] [enrich] --- Enriche [1/20]: Feuerwehr am Asklepios-Klinikum Göttingen: Brand auf Station
+[2026-03-15 20:12:25] [enrich] Google News URL aufgelöst (v1): https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a
+[2026-03-15 20:12:26] [enrich] Artikel-Fetch fehlgeschlagen für https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a: 403 Client Error: Forbidden for url: https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-am-asklepios-klinikum-goettingen-brand-auf-station-BNSBKB7UXBBN3MAYTAL6VPELB4.html
+[2026-03-15 20:12:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (585 Z.)
+[2026-03-15 20:12:28] [enrich] Enrichment abgeschlossen: partial — Asklepios-Klinikum Göttingen in Göttingen
+[2026-03-15 20:12:29] [enrich] --- Enriche [2/20]: Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kennt
+[2026-03-15 20:12:29] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-man
+[2026-03-15 20:12:30] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/p
+[2026-03-15 20:12:34] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:12:35] [enrich] --- Enriche [3/20]: Nordrhein-Westfalen: Kabeldiebe lösen Brand am Bielefelder K
+[2026-03-15 20:12:35] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/nordrhein-westfalen/Kabeldiebe-loesen-Brand-am-Bi
+[2026-03-15 20:12:36] [enrich] Volltext extrahiert: 4981 Zeichen von https://www.n-tv.de/regionales/nordrhein-westfalen/Kabeldieb
+[2026-03-15 20:12:40] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bielefeld in Bielefeld
+[2026-03-15 20:12:41] [enrich] --- Enriche [4/20]: Brand im Haarer Klinikum: Suchtstation wird evakuiert - Merk
+[2026-03-15 20:12:42] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/lokales/muenchen-lk/haar-ort104496/brand-im-haarer-kliniku
+[2026-03-15 20:12:43] [enrich] Volltext extrahiert: 1144 Zeichen von https://www.merkur.de/lokales/muenchen-lk/haar-ort104496/bra
+[2026-03-15 20:12:46] [enrich] Enrichment abgeschlossen: enriched — kbo-Klinikum in Haar in Haar
+[2026-03-15 20:12:47] [enrich] --- Enriche [5/20]: Update: Brand in Patientenzimmer - Vorsätzliche Brandstiftun
+[2026-03-15 20:12:47] [enrich] Google News URL aufgelöst (v1): https://www.blick.de/erzgebirge/update-brand-in-patientenzimmer-vorsaetzliche-br
+[2026-03-15 20:12:49] [enrich] Volltext extrahiert: 4600 Zeichen von https://www.blick.de/erzgebirge/update-brand-in-patientenzim
+[2026-03-15 20:12:53] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Aue in Aue
+[2026-03-15 20:12:54] [enrich] --- Enriche [6/20]: Mehrere Millionen Euro Schaden: Wer zahlt nach dem Brand im 
+[2026-03-15 20:12:54] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_lippe/uebersicht/23461029_Mehrere-Millionen-Euro-S
+[2026-03-15 20:12:57] [enrich] Volltext extrahiert: 1705 Zeichen von https://www.nw.de/lokal/kreis_lippe/uebersicht/23461029_Mehr
+[2026-03-15 20:12:58] [enrich] FALSE POSITIVE erkannt: Der Artikel ist eine Paywall- und Login-Seite einer Nachrichtenwebsite ohne inhaltliche Information zu einem Krankenhausbrand. Es ist kein tatsächlicher Artikel vorhanden.
+[2026-03-15 20:12:59] [enrich] --- Enriche [7/20]: Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: 
+[2026-03-15 20:13:00] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-
+[2026-03-15 20:13:03] [enrich] Volltext extrahiert: 1285 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlic
+[2026-03-15 20:13:05] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:06] [enrich] --- Enriche [8/20]: Brand am Helios Klinikum Pforzheim: Schwurgericht verhandelt
+[2026-03-15 20:13:07] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-Sch
+[2026-03-15 20:13:08] [enrich] Volltext extrahiert: 1262 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Kl
+[2026-03-15 20:13:10] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:11] [enrich] --- Enriche [9/20]: Brand am Helios Klinikum Pforzheim: So steht es um den Proze
+[2026-03-15 20:13:11] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-
+[2026-03-15 20:13:13] [enrich] Volltext extrahiert: 1249 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Kl
+[2026-03-15 20:13:15] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:16] [enrich] --- Enriche [10/20]: Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Pro
+[2026-03-15 20:13:16] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pf
+[2026-03-15 20:13:19] [enrich] Volltext extrahiert: 1288 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-a
+[2026-03-15 20:13:21] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:22] [enrich] --- Enriche [11/20]: Feuermeldung aus „Steri“ des Sana-Klinikums Hameln weckt Eri
+[2026-03-15 20:13:22] [enrich] Google News URL aufgelöst (v1): https://www.dewezet.de/lokales/hameln-pyrmont/feuermeldung-aus-steri-des-sana-kl
+[2026-03-15 20:13:23] [enrich] Volltext extrahiert: 4587 Zeichen von https://www.dewezet.de/lokales/hameln-pyrmont/feuermeldung-a
+[2026-03-15 20:13:25] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt hauptsächlich einen Feueralarm (Rauchmelder-Fehlalarm) am 21.02.2024 ohne tatsächlichen Brand. Zwar werden historische Brände im Sana-Klinikum Hameln erwähnt (14.08.2021 und 25.07.2022), aber der aktuelle Vorfall ist kein Brand, sondern ein Feueralarm ohne Feuer.
+[2026-03-15 20:13:26] [enrich] --- Enriche [12/20]: Einsatzbilder vom Brand im Klinikum Lemgo - Radio Lippe
+[2026-03-15 20:13:27] [enrich] Google News URL aufgelöst (v1): https://www.radiolippe.de/fotos/fotostrecken-2023/einsatzbilder-aus-lemgo-vom-kl
+[2026-03-15 20:13:29] [enrich] Volltext extrahiert: 1061 Zeichen von https://www.radiolippe.de/fotos/fotostrecken-2023/einsatzbil
+[2026-03-15 20:13:31] [enrich] FALSE POSITIVE erkannt: Der Artikel erwähnt zwar einen Brand mit einer verstorbenen Patientin und Evakuierungen, liefert aber keine konkrete Information über die betroffene Einrichtung, den genauen Ort oder das Datum. Der Text ist fragmentarisch und enthält hauptsächlich unrelated Veranstaltungsinformationen. Die Brandmeldung kann aufgrund fehlender wesentlicher Informationen nicht verifiziert werden.
+[2026-03-15 20:13:32] [enrich] --- Enriche [13/20]: Feuer in Krankenhaus: Patientin stirbt bei Brand auf Pneumol
+[2026-03-15 20:13:33] [enrich] Google News URL aufgelöst (v1): https://www.wa.de/nordrhein-westfalen/brand-klinikum-lemgo-nrw-patientin-tot-pne
+[2026-03-15 20:13:34] [enrich] Volltext extrahiert: 1809 Zeichen von https://www.wa.de/nordrhein-westfalen/brand-klinikum-lemgo-n
+[2026-03-15 20:13:37] [enrich] Enrichment abgeschlossen: enriched — Klinikum Lemgo in Lemgo
+[2026-03-15 20:13:38] [enrich] --- Enriche [14/20]: Fotos vom Tag danach: Ermittlungen zum Brand im Helios Klini
+[2026-03-15 20:13:39] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/bildergalerie_fotos,-Fotos-vom-Tag-danach-Ermittlungen-zu
+[2026-03-15 20:13:41] [enrich] Volltext extrahiert: 332 Zeichen von https://www.pz-news.de/bildergalerie_fotos,-Fotos-vom-Tag-da
+[2026-03-15 20:13:43] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:44] [enrich] --- Enriche [15/20]: Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant 
+[2026-03-15 20:13:44] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pf
+[2026-03-15 20:13:46] [enrich] Volltext extrahiert: 997 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-i
+[2026-03-15 20:13:47] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-15 20:13:48] [enrich] --- Enriche [16/20]: Ein Toter und 14 Verletzte nach Brand in Klinikum Konstanz -
+[2026-03-15 20:13:49] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/baden-wuerttemberg_artikel,-Ein-Toter-und-14-Verletzte-na
+[2026-03-15 20:13:50] [enrich] Volltext extrahiert: 1670 Zeichen von https://www.pz-news.de/baden-wuerttemberg_artikel,-Ein-Toter
+[2026-03-15 20:13:53] [enrich] Enrichment abgeschlossen: enriched — Klinikum Konstanz in Konstanz
+[2026-03-15 20:13:54] [enrich] --- Enriche [17/20]: Großeinsatz der Feuerwehr: Brand im Klinikum Annaberg-Buchho
+[2026-03-15 20:13:54] [enrich] Google News URL aufgelöst (v1): https://www.blick.de/erzgebirge/grosseinsatz-der-feuerwehr-brand-im-klinikum-ann
+[2026-03-15 20:13:55] [enrich] Volltext extrahiert: 1282 Zeichen von https://www.blick.de/erzgebirge/grosseinsatz-der-feuerwehr-b
+[2026-03-15 20:14:02] [enrich] Enrichment abgeschlossen: enriched — Erzgebirgsklinikum Annaberg-Buchholz in Annaberg-Buchholz
+[2026-03-15 20:14:03] [enrich] --- Enriche [18/20]: Neue Markenidentität und modernes Brand Design für Städtisch
+[2026-03-15 20:14:04] [enrich] Google News URL aufgelöst (v1): https://designbote.com/neue-markenidentitaet-und-modernes-brand-design-fuer-stae
+[2026-03-15 20:14:05] [enrich] Volltext extrahiert: 4302 Zeichen von https://designbote.com/neue-markenidentitaet-und-modernes-br
+[2026-03-15 20:14:07] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen neuen Markenauftritt und ein Branddesign-Projekt für das Städtische Klinikum München. 'Brand' bezieht sich hier auf Markenentwicklung und Corporate Design, nicht auf einen Feuer/Brandunfall in einer Klinik. Es ist kein Krankenhausbrand dokumentiert.
+[2026-03-15 20:14:08] [enrich] --- Enriche [19/20]: Was tun bei einem Waldbrand? - Malteser in Deutschland
+[2026-03-15 20:14:09] [enrich] Google News URL aufgelöst (v1): https://www.malteser.de/aware/hilfreich/was-tun-bei-einem-waldbrand.html
+[2026-03-15 20:14:10] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.malteser.de/aware/hilfreich/was-tun-bei-einem-wa
+[2026-03-15 20:14:12] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt ausschließlich Waldbrände und deren Prävention. Es gibt keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik in Deutschland.
+[2026-03-15 20:14:13] [enrich] --- Enriche [20/20]: Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in
+[2026-03-15 20:14:14] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/26-jaehriger-patient-stir
+[2026-03-15 20:14:15] [enrich] Volltext extrahiert: 2137 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/26-ja
+[2026-03-15 20:14:18] [enrich] Enrichment abgeschlossen: enriched — Klinik und Poliklinik für Psychiatrie und Psychotherapie der Universitätsmedizin Rostock in Rostock
+[2026-03-15 20:14:18] [enrich] Ergebnis: 14 enriched, 1 partial, 5 false_positive, 0 failed
+[2026-03-15 20:14:18] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 20:14:18] [DEDUP] Starte Dedup für 225 Einträge
+[2026-03-15 20:14:18] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 20:14:18] [DEDUP] Auto-Merge (0.97): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-15 20:14:18] [DEDUP] Auto-Merge (0.86): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-15 20:14:18] [DEDUP] Auto-Merge (0.86): Helios Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-15 20:14:18] [DEDUP] Paare verglichen: 1451
+[2026-03-15 20:14:18] [DEDUP] Auto-Merges: 3
+[2026-03-15 20:14:18] [DEDUP] Kandidaten (unsicher): 67
+[2026-03-15 20:14:18] [DEDUP] Cluster 3x: Helios-Klinikum Pforzheim, Helios Klinikum Pforzheim, Helios Klinikum Pforzheim
+[2026-03-15 20:14:18] [DEDUP] Ergebnis: 223 Einträge (war: 225, 2 zusammengeführt)
+[2026-03-15 20:14:18] [DEDUP] Kandidaten-Datei: 67 pending, 1 confirmed, 0 rejected
+[2026-03-15 20:14:18] [DEDUP] Gespeichert: 225 → 223 Einträge
