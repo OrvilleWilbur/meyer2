@@ -140,3 +140,37 @@
 [2026-03-15 00:08:12] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 00:08:12] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 03:30:26] === Monitor-Lauf gestartet ===
+[2026-03-15 03:30:28] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 03:30:29] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 03:30:30] Feed 'google_news_kh_brand': 53 Einträge
+[2026-03-15 03:30:30] Feed 'google_news_klinik_feuer': 35 Einträge
+[2026-03-15 03:30:31] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 03:30:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 03:30:32] 68 relevante Treffer in Feeds
+[2026-03-15 03:30:32] ✅ 2 NEUE Einträge gefunden:
+[2026-03-15 03:30:32]    02.06.2025 |  |  | Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei 
+[2026-03-15 03:30:32]    13.06.2025 | in Krankenhaus |  | Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-15 03:30:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 03:30:32] === Monitor-Lauf beendet ===
+
+[2026-03-15 03:30:33] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 03:30:33] [enrich] 61 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 03:30:33] [enrich] --- Enriche [1/5]: "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-15 03:30:33] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 03:30:35] [enrich] Enrichment abgeschlossen: enriched —  in 
+[2026-03-15 03:30:36] [enrich] --- Enriche [2/5]: Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-15 03:30:36] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 03:30:37] [enrich] Enrichment abgeschlossen: enriched — Hamburger Klinik in 
+[2026-03-15 03:30:38] [enrich] --- Enriche [3/5]: Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus ge
+[2026-03-15 03:30:38] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 03:30:40] [enrich] Enrichment abgeschlossen: enriched — Hamburger Krankenhaus getötet in 
+[2026-03-15 03:30:41] [enrich] --- Enriche [4/5]: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-03-15 03:30:41] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 03:30:43] [enrich] Enrichment abgeschlossen: enriched — Unfallkrankenhaus nimmt Brandopfer aus in 
+[2026-03-15 03:30:44] [enrich] --- Enriche [5/5]: Nach Feuer in Hamburger Klinik: Verdächtiger kommt in Psychi
+[2026-03-15 03:30:44] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 03:30:46] [enrich] Enrichment abgeschlossen: enriched — Hamburger Klinik in 
+[2026-03-15 03:30:46] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
+[2026-03-15 03:30:46] [enrich] === Enrichment-Lauf beendet ===
+
