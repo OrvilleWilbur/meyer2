@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KH-Brand-Monitor</title>
+<style>
+:root {
+  --bg: #0f1117;
+  --surface: #1a1d27;
+  --border: #2a2d3a;
+  --text: #e0e0e6;
+  --text-muted: #8888a0;
+  --accent: #e85d2c;
+  --accent-light: #ff7a47;
+  --green: #3ddc84;
+  --yellow: #ffd54f;
+  --red: #ef5350;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+/* ── Passwort-Overlay ── */
+#auth-overlay {
+  position: fixed; inset: 0;
+  background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 9999;
+}
+#auth-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 340px;
+  text-align: center;
+}
+#auth-box h2 { margin-bottom: 1rem; font-size: 1.3rem; }
+#auth-box input {
+  width: 100%; padding: 0.6rem 1rem;
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  font-size: 1rem; margin-bottom: 0.8rem;
+}
+#auth-box button {
+  width: 100%; padding: 0.6rem;
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 8px;
+  font-size: 1rem; cursor: pointer;
+}
+#auth-box button:hover { background: var(--accent-light); }
+#auth-error { color: var(--red); font-size: 0.85rem; margin-top: 0.5rem; display: none; }
+
+/* ── Layout ── */
+#app { display: none; }
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 1rem 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+}
+header h1 { font-size: 1.4rem; }
+header h1 span { color: var(--accent); }
+.stats {
+  display: flex; gap: 1.5rem;
+}
+.stat { text-align: center; }
+.stat-val { font-size: 1.6rem; font-weight: 700; }
+.stat-label { font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+
+/* ── Tabs ── */
+.tabs {
+  display: flex; gap: 0; background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem;
+}
+.tab {
+  padding: 0.8rem 1.5rem; cursor: pointer;
+  color: var(--text-muted); border-bottom: 2px solid transparent;
+  font-size: 0.9rem; transition: all 0.2s;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+/* ── Filter ── */
+.filters {
+  display: flex; gap: 0.8rem; padding: 1rem 2rem;
+  flex-wrap: wrap; align-items: center;
+}
+.filters select, .filters input {
+  background: var(--surface); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  padding: 0.5rem 0.8rem; font-size: 0.85rem;
+}
+.filters input { flex: 1; min-width: 200px; }
+
+/* ── Tabelle ── */
+.table-wrap {
+  padding: 0 2rem 2rem; overflow-x: auto;
+}
+table {
+  width: 100%; border-collapse: collapse;
+  font-size: 0.85rem;
+}
+th {
+  background: var(--surface);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0;
+  cursor: pointer; user-select: none;
+}
+th:hover { color: var(--text); }
+td {
+  padding: 0.6rem 0.8rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+tr:hover td { background: rgba(232,93,44,0.05); }
+.badge {
+  display: inline-block; padding: 0.15rem 0.5rem;
+  border-radius: 4px; font-size: 0.75rem; font-weight: 600;
+}
+.badge-enriched { background: rgba(61,220,132,0.15); color: var(--green); }
+.badge-partial { background: rgba(255,213,79,0.15); color: var(--yellow); }
+.badge-pending { background: rgba(136,136,160,0.15); color: var(--text-muted); }
+.badge-fp { background: rgba(239,83,80,0.15); color: var(--red); }
+.badge-failed { background: rgba(239,83,80,0.1); color: #b0b0b0; }
+.badge { position: relative; cursor: help; }
+.tooltip {
+  visibility: hidden; opacity: 0;
+  position: absolute; bottom: 130%; left: 50%; transform: translateX(-50%);
+  background: #222; color: #ddd; border: 1px solid var(--border);
+  padding: 0.5rem 0.7rem; border-radius: 6px;
+  font-size: 0.75rem; font-weight: 400; white-space: nowrap;
+  z-index: 100; pointer-events: none;
+  transition: opacity 0.15s;
+}
+.tooltip::after {
+  content: ''; position: absolute; top: 100%; left: 50%; transform: translateX(-50%);
+  border: 5px solid transparent; border-top-color: #222;
+}
+.badge:hover .tooltip { visibility: visible; opacity: 1; }
+.sources-count {
+  display: inline-block; background: rgba(136,136,160,0.2);
+  color: var(--text-muted); padding: 0.1rem 0.4rem;
+  border-radius: 4px; font-size: 0.7rem; margin-left: 0.3rem;
+}
+.link-icon { color: var(--accent); text-decoration: none; }
+.link-icon:hover { color: var(--accent-light); }
+
+/* ── Detail-Modal ── */
+.modal-bg {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: none; align-items: center; justify-content: center;
+  z-index: 1000;
+}
+.modal-bg.show { display: flex; }
+.modal {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 700px; width: 90%;
+  max-height: 80vh; overflow-y: auto;
+}
+.modal h2 { margin-bottom: 1rem; font-size: 1.2rem; }
+.modal .field { margin-bottom: 0.6rem; }
+.modal .field-label { color: var(--text-muted); font-size: 0.8rem; text-transform: uppercase; }
+.modal .field-value { font-size: 0.95rem; }
+.modal-close {
+  float: right; background: none; border: none;
+  color: var(--text-muted); font-size: 1.5rem; cursor: pointer;
+}
+.modal-close:hover { color: var(--text); }
+
+/* ── Chat ── */
+#chat-panel { display: none; padding: 0 2rem 2rem; }
+#chat-panel.show { display: block; }
+.chat-container {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex; flex-direction: column;
+  height: 500px;
+}
+.chat-messages {
+  flex: 1; overflow-y: auto;
+  padding: 1rem;
+}
+.chat-msg {
+  margin-bottom: 1rem;
+  max-width: 85%;
+}
+.chat-msg.user {
+  margin-left: auto;
+  background: var(--accent);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 12px 12px 0 12px;
+}
+.chat-msg.assistant {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: 0.6rem 1rem;
+  border-radius: 12px 12px 12px 0;
+}
+.chat-msg.assistant pre {
+  background: var(--surface);
+  padding: 0.5rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.8rem;
+  margin: 0.5rem 0;
+}
+.chat-input-row {
+  display: flex; gap: 0.5rem;
+  padding: 1rem;
+  border-top: 1px solid var(--border);
+}
+.chat-input-row input {
+  flex: 1; padding: 0.6rem 1rem;
+  background: var(--bg); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px;
+  font-size: 0.9rem;
+}
+.chat-input-row button {
+  padding: 0.6rem 1.2rem;
+  background: var(--accent); color: #fff;
+  border: none; border-radius: 8px;
+  cursor: pointer; font-size: 0.9rem;
+}
+.chat-input-row button:disabled { opacity: 0.5; cursor: not-allowed; }
+.chat-limit {
+  text-align: center; padding: 0.3rem;
+  font-size: 0.75rem; color: var(--text-muted);
+}
+
+/* ── Kandidaten ── */
+#candidates-panel { display: none; padding: 1rem 2rem; }
+#candidates-panel.show { display: block; }
+.cand-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin-bottom: 1rem;
+  max-width: 800px;
+}
+.cand-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 0.6rem;
+}
+.cand-score {
+  font-size: 0.8rem; font-weight: 600;
+  padding: 0.2rem 0.6rem; border-radius: 4px;
+}
+.cand-score-high { background: rgba(255,213,79,0.2); color: var(--yellow); }
+.cand-score-med { background: rgba(136,136,160,0.2); color: var(--text-muted); }
+.cand-vs {
+  display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.8rem;
+  align-items: start; font-size: 0.85rem;
+}
+.cand-entry { padding: 0.5rem; background: var(--bg); border-radius: 6px; }
+.cand-entry .field-label { color: var(--text-muted); font-size: 0.7rem; text-transform: uppercase; }
+.cand-entry .field-value { font-size: 0.85rem; }
+.cand-divider { color: var(--text-muted); font-size: 1.2rem; align-self: center; }
+.cand-actions {
+  display: flex; gap: 0.5rem; margin-top: 0.8rem; justify-content: flex-end;
+}
+.cand-actions button {
+  padding: 0.4rem 1rem; border: none; border-radius: 6px;
+  cursor: pointer; font-size: 0.8rem; font-weight: 600;
+}
+.btn-merge { background: rgba(61,220,132,0.2); color: var(--green); }
+.btn-merge:hover { background: rgba(61,220,132,0.3); }
+.btn-reject { background: rgba(239,83,80,0.15); color: var(--red); }
+.btn-reject:hover { background: rgba(239,83,80,0.25); }
+.cand-empty {
+  color: var(--text-muted); text-align: center; padding: 3rem;
+  font-size: 0.95rem;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  header { flex-direction: column; gap: 1rem; }
+  .filters { flex-direction: column; }
+  .stats { gap: 1rem; }
+  .tabs { padding: 0 1rem; }
+  .table-wrap, .filters, #chat-panel, #candidates-panel { padding: 0.5rem 1rem; }
+  .cand-vs { grid-template-columns: 1fr; }
+  .cand-divider { display: none; }
+}
+</style>
+</head>
+<body>
+
+<!-- Passwort-Overlay -->
+<div id="auth-overlay">
+  <div id="auth-box">
+    <h2>🔥 KH-Brand-Monitor</h2>
+    <p style="color:var(--text-muted);margin-bottom:1rem;font-size:0.9rem;">Zugang erforderlich</p>
+    <input type="password" id="auth-pw" placeholder="Passwort eingeben" autofocus>
+    <button onclick="checkAuth()">Einloggen</button>
+    <div id="auth-error">Falsches Passwort</div>
+  </div>
+</div>
+
+<!-- App -->
+<div id="app">
+  <header>
+    <h1>🔥 <span>KH-Brand-Monitor</span> Deutschland</h1>
+    <div class="stats">
+      <div class="stat"><div class="stat-val" id="s-total">—</div><div class="stat-label">Einträge</div></div>
+      <div class="stat"><div class="stat-val" id="s-enriched">—</div><div class="stat-label">Enriched</div></div>
+      <div class="stat"><div class="stat-val" id="s-pending">—</div><div class="stat-label">Pending</div></div>
+      <div class="stat"><div class="stat-val" id="s-fp">—</div><div class="stat-label">False Pos.</div></div>
+    </div>
+  </header>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="dashboard">Dashboard</div>
+    <div class="tab" data-tab="candidates">Duplikate <span id="cand-count-badge" style="background:rgba(255,213,79,0.2);color:var(--yellow);padding:0.1rem 0.4rem;border-radius:4px;font-size:0.7rem;margin-left:0.3rem;display:none;">0</span></div>
+    <div class="tab" data-tab="chat">Chat</div>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="dashboard-panel">
+    <div class="filters">
+      <select id="f-status">
+        <option value="">Alle Status</option>
+        <option value="enriched">Enriched</option>
+        <option value="partial">Partial</option>
+        <option value="pending">Pending</option>
+        <option value="false_positive">False Positive</option>
+        <option value="failed">Failed</option>
+      </select>
+      <select id="f-bundesland">
+        <option value="">Alle Bundesländer</option>
+      </select>
+      <input type="text" id="f-search" placeholder="Suche (Einrichtung, Ort, Titel...)">
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th data-sort="datum">Datum ↕</th>
+            <th data-sort="einrichtung">Einrichtung ↕</th>
+            <th data-sort="ort">Ort ↕</th>
+            <th data-sort="bundesland">Bundesland ↕</th>
+            <th>Verletzte/Tote</th>
+            <th data-sort="enrichment_status">Status ↕</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Duplikat-Kandidaten -->
+  <div id="candidates-panel">
+    <div id="candidates-list"></div>
+  </div>
+
+  <!-- Chat -->
+  <div id="chat-panel">
+    <div class="chat-container">
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-msg assistant">Willkommen! Stelle mir Fragen zu den erfassten Krankenhausbränden. Beispiele: „Wie viele Brände gab es in NRW?", „Welche Einrichtung hatte die meisten Vorfälle?", „Zeige alle Brände mit Toten."</div>
+      </div>
+      <div class="chat-limit" id="chat-limit">30 / 30 Fragen heute verfügbar</div>
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" placeholder="Frage eingeben..." disabled>
+        <button id="chat-send" onclick="sendChat()" disabled>Senden</button>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:0.8rem;font-size:0.8rem;color:var(--text-muted);">
+      Chat benötigt einen API-Proxy. <button onclick="showProxyConfig()" style="background:none;border:none;color:var(--accent);cursor:pointer;font-size:0.8rem;">Proxy konfigurieren</button>
+    </p>
+  </div>
+
+  <!-- Detail-Modal -->
+  <div class="modal-bg" id="modal-bg" onclick="closeModal(event)">
+    <div class="modal" id="modal-content"></div>
+  </div>
+</div>
+
+<script>
+// ── Auth ──
+const PW_HASH = 'd271d50b5c2affae5782b863b299887726f5c731376f9f620efe8cc22c13f7fa';
+
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('');
+}
+
+async function checkAuth() {
+  const pw = document.getElementById('auth-pw').value;
+  const hash = await sha256(pw);
+  if (hash === PW_HASH) {
+    document.getElementById('auth-overlay').style.display = 'none';
+    document.getElementById('app').style.display = 'block';
+    sessionStorage.setItem('kh-auth', '1');
+    loadData();
+  } else {
+    document.getElementById('auth-error').style.display = 'block';
+  }
+}
+
+document.getElementById('auth-pw').addEventListener('keydown', e => {
+  if (e.key === 'Enter') checkAuth();
+});
+
+// Auto-login if already authenticated
+if (sessionStorage.getItem('kh-auth') === '1') {
+  document.getElementById('auth-overlay').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+}
+
+// ── Data ──
+let allEntries = [];
+let sortField = 'datum';
+let sortDir = -1;
+
+async function loadData() {
+  try {
+    const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/braende.json');
+    const db = await resp.json();
+    allEntries = db.entries || [];
+    updateStats();
+    populateFilters();
+    renderTable();
+  } catch (e) {
+    console.error('Daten konnten nicht geladen werden:', e);
+  }
+}
+
+function updateStats() {
+  const total = allEntries.length;
+  const enriched = allEntries.filter(e => e.enrichment_status === 'enriched').length;
+  const pending = allEntries.filter(e => !e.enrichment_status || e.enrichment_status === 'pending').length;
+  const fp = allEntries.filter(e => e.enrichment_status === 'false_positive').length;
+  document.getElementById('s-total').textContent = total;
+  document.getElementById('s-enriched').textContent = enriched;
+  document.getElementById('s-pending').textContent = pending;
+  document.getElementById('s-fp').textContent = fp;
+}
+
+function populateFilters() {
+  const bls = new Set();
+  allEntries.forEach(e => {
+    const bl = e.steckbrief?.bundesland || '';
+    if (bl && bl !== 'unbekannt') bls.add(bl);
+  });
+  const sel = document.getElementById('f-bundesland');
+  [...bls].sort().forEach(bl => {
+    sel.innerHTML += `<option value="${bl}">${bl}</option>`;
+  });
+}
+
+function getFiltered() {
+  const status = document.getElementById('f-status').value;
+  const bl = document.getElementById('f-bundesland').value;
+  const search = document.getElementById('f-search').value.toLowerCase();
+
+  return allEntries.filter(e => {
+    const es = e.enrichment_status || 'pending';
+    if (status && es !== status) return false;
+    if (bl) {
+      const ebl = e.steckbrief?.bundesland || '';
+      if (ebl !== bl) return false;
+    }
+    if (search) {
+      const haystack = `${e.titel || ''} ${e.einrichtung || ''} ${e.ort || ''} ${e.steckbrief?.einrichtung || ''} ${e.steckbrief?.ort || ''} ${e.zusammenfassung || ''}`.toLowerCase();
+      if (!haystack.includes(search)) return false;
+    }
+    return true;
+  });
+}
+
+function parseDatum(d) {
+  if (!d) return 0;
+  const parts = d.split('.');
+  if (parts.length === 3) return parseInt(parts[2] + parts[1].padStart(2,'0') + parts[0].padStart(2,'0'));
+  return 0;
+}
+
+function renderTable() {
+  let entries = getFiltered();
+
+  // Sort
+  entries.sort((a, b) => {
+    let va, vb;
+    if (sortField === 'datum') {
+      va = parseDatum(a.datum || a.steckbrief?.datum);
+      vb = parseDatum(b.datum || b.steckbrief?.datum);
+    } else if (sortField === 'enrichment_status') {
+      va = a.enrichment_status || 'pending';
+      vb = b.enrichment_status || 'pending';
+    } else if (sortField === 'bundesland') {
+      va = a.steckbrief?.bundesland || '';
+      vb = b.steckbrief?.bundesland || '';
+    } else {
+      va = (a.steckbrief?.[sortField] || a[sortField] || '').toLowerCase();
+      vb = (b.steckbrief?.[sortField] || b[sortField] || '').toLowerCase();
+    }
+    if (va < vb) return -1 * sortDir;
+    if (va > vb) return 1 * sortDir;
+    return 0;
+  });
+
+  // Build source groups: count entries with same einrichtung+ort+datum
+  const sourceGroups = {};
+  allEntries.forEach(e => {
+    const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
+    sourceGroups[key] = (sourceGroups[key] || 0) + 1;
+  });
+
+  const tbody = document.getElementById('table-body');
+  tbody.innerHTML = entries.map((e, i) => {
+    const datum = e.steckbrief?.datum || e.datum || '—';
+    const einrichtung = e.steckbrief?.einrichtung || e.einrichtung || '—';
+    const ort = e.steckbrief?.ort || e.ort || '—';
+    const bl = e.steckbrief?.bundesland || '—';
+    const status = e.enrichment_status || 'pending';
+    const verletzte = e.steckbrief?.verletzte || e.verletzte || '—';
+    const tote = e.steckbrief?.tote || '';
+    const vt = tote && tote !== 'keine' && tote !== 'unbekannt' && tote !== '0'
+      ? `${tote} Tote` + (verletzte !== '—' && verletzte !== 'unbekannt' ? `, ${verletzte}` : '')
+      : (verletzte !== '—' ? verletzte : '—');
+    const link = e.resolved_url || e.link || '';
+    const badgeClass = {enriched:'badge-enriched',partial:'badge-partial',pending:'badge-pending',false_positive:'badge-fp',failed:'badge-failed'}[status] || 'badge-pending';
+    const statusLabel = {enriched:'Enriched',partial:'Partial',pending:'Pending',false_positive:'False Pos.',failed:'Failed'}[status] || status;
+    const statusTooltip = {
+      enriched:'Volltext geholt, kompletter Steckbrief extrahiert',
+      partial:'Nur RSS-Snippet verfügbar, Steckbrief weniger detailliert',
+      pending:'Wartet auf Enrichment-Verarbeitung',
+      false_positive:'Kein Krankenhausbrand (z.B. Wohnungsbrand)',
+      failed:'Technischer Fehler, wird erneut versucht'
+    }[status] || '';
+
+    // Quellen-Zähler: aus quellen-Array (nach Dedup) oder Gruppen-Fallback (vor Dedup)
+    const quellenCount = e.quellen ? e.quellen.length : 0;
+    const key = `${(e.steckbrief?.einrichtung || e.einrichtung || '').toLowerCase()}|${(e.steckbrief?.ort || e.ort || '').toLowerCase()}|${e.steckbrief?.datum || e.datum || ''}`;
+    const srcCount = quellenCount > 1 ? quellenCount : (sourceGroups[key] || 1);
+    const srcBadge = srcCount > 1 ? `<span class="sources-count" title="${srcCount} Quellen/Artikel zu diesem Ereignis">${srcCount}×</span>` : '';
+
+    return `<tr onclick="showDetail(${allEntries.indexOf(e)})" style="cursor:pointer">
+      <td>${datum}</td>
+      <td>${einrichtung === 'unbekannt' ? '—' : einrichtung}${srcBadge}</td>
+      <td>${ort === 'unbekannt' ? '—' : ort}</td>
+      <td>${bl === 'unbekannt' ? '—' : bl}</td>
+      <td>${vt === 'unbekannt' ? '—' : vt}</td>
+      <td><span class="badge ${badgeClass}">${statusLabel}<span class="tooltip">${statusTooltip}</span></span></td>
+      <td>${link ? `<a href="${link}" target="_blank" class="link-icon" onclick="event.stopPropagation()">🔗</a>` : '—'}</td>
+    </tr>`;
+  }).join('');
+}
+
+// Sorting
+document.querySelectorAll('th[data-sort]').forEach(th => {
+  th.addEventListener('click', () => {
+    const field = th.dataset.sort;
+    if (sortField === field) sortDir *= -1;
+    else { sortField = field; sortDir = -1; }
+    renderTable();
+  });
+});
+
+// Filters
+document.getElementById('f-status').addEventListener('change', renderTable);
+document.getElementById('f-bundesland').addEventListener('change', renderTable);
+document.getElementById('f-search').addEventListener('input', renderTable);
+
+// ── Detail Modal ──
+function showDetail(idx) {
+  const e = allEntries[idx];
+  if (!e) return;
+  const s = e.steckbrief || {};
+  const fields = [
+    ['Einrichtung', s.einrichtung || e.einrichtung || '—'],
+    ['Ort', s.ort || e.ort || '—'],
+    ['PLZ', s.plz || '—'],
+    ['Bundesland', s.bundesland || '—'],
+    ['Datum', s.datum || e.datum || '—'],
+    ['Brandursache', s.brandursache || '—'],
+    ['Brandort', s.brandort || '—'],
+    ['Verletzte', s.verletzte || e.verletzte || '—'],
+    ['Tote', s.tote || '—'],
+    ['Evakuierung', s.evakuierung || '—'],
+    ['Sachschaden', s.sachschaden || '—'],
+    ['Feuerwehr-Einsatz', s.feuerwehr_einsatz || '—'],
+    ['Zusammenfassung', s.zusammenfassung || e.zusammenfassung || '—'],
+    ['Status', e.enrichment_status || 'pending'],
+    ['Quelle', e.quelle || '—'],
+    ['Erfasst am', e.erfasst_am || '—'],
+    ['Enriched am', e.enriched_am || '—'],
+  ];
+  if (e.false_positive_grund) fields.push(['FP-Grund', e.false_positive_grund]);
+  if (e.merged_from) fields.push(['Zusammengeführt aus', `${e.merged_from.length} Quellen`]);
+
+  // Quellen-Links: quellen-Array (nach Dedup) oder Fallback auf einzelnen Link
+  let quellenHtml = '';
+  if (e.quellen && e.quellen.length > 0) {
+    quellenHtml = `<div class="field"><div class="field-label">Quellen (${e.quellen.length})</div><div class="field-value">${
+      e.quellen.map((q, i) => {
+        const label = q.quelle || q.titel || `Quelle ${i + 1}`;
+        const statusBadge = q.enrichment_status ? ` <span class="badge badge-${q.enrichment_status === 'false_positive' ? 'fp' : q.enrichment_status}" style="font-size:0.65rem;padding:0.1rem 0.3rem;">${q.enrichment_status}</span>` : '';
+        return q.link ? `<div style="margin-bottom:0.3rem;"><a href="${q.link}" target="_blank" style="color:var(--accent)">${label}</a>${statusBadge}</div>` : `<div style="margin-bottom:0.3rem;">${label}${statusBadge}</div>`;
+      }).join('')
+    }</div></div>`;
+  } else {
+    const link = e.resolved_url || e.link || '';
+    quellenHtml = link ? `<div class="field"><div class="field-label">Artikel-Link</div><div class="field-value"><a href="${link}" target="_blank" style="color:var(--accent)">${link}</a></div></div>` : '';
+  }
+
+  document.getElementById('modal-content').innerHTML = `
+    <button class="modal-close" onclick="document.getElementById('modal-bg').classList.remove('show')">&times;</button>
+    <h2>${s.einrichtung || e.titel || 'Details'}</h2>
+    ${fields.map(([l,v]) => `<div class="field"><div class="field-label">${l}</div><div class="field-value">${v === 'unbekannt' ? '—' : v}</div></div>`).join('')}
+    ${quellenHtml}
+  `;
+  document.getElementById('modal-bg').classList.add('show');
+}
+
+function closeModal(ev) {
+  if (ev.target.id === 'modal-bg') {
+    document.getElementById('modal-bg').classList.remove('show');
+  }
+}
+
+// ── Tabs ──
+document.querySelectorAll('.tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    const target = tab.dataset.tab;
+    document.getElementById('dashboard-panel').style.display = target === 'dashboard' ? 'block' : 'none';
+    document.getElementById('candidates-panel').classList.toggle('show', target === 'candidates');
+    document.getElementById('chat-panel').classList.toggle('show', target === 'chat');
+    if (target === 'candidates') loadCandidates();
+  });
+});
+
+// ── Chat ──
+let PROXY_URL = localStorage.getItem('kh-proxy-url') || '';
+const DAILY_LIMIT = 30;
+
+function getChatCount() {
+  const today = new Date().toISOString().slice(0, 10);
+  const stored = JSON.parse(localStorage.getItem('kh-chat-count') || '{}');
+  if (stored.date !== today) return 0;
+  return stored.count || 0;
+}
+
+function incChatCount() {
+  const today = new Date().toISOString().slice(0, 10);
+  const count = getChatCount() + 1;
+  localStorage.setItem('kh-chat-count', JSON.stringify({ date: today, count }));
+  updateChatLimit();
+}
+
+function updateChatLimit() {
+  const remaining = DAILY_LIMIT - getChatCount();
+  document.getElementById('chat-limit').textContent = `${remaining} / ${DAILY_LIMIT} Fragen heute verfügbar`;
+  const canChat = remaining > 0 && PROXY_URL;
+  document.getElementById('chat-input').disabled = !canChat;
+  document.getElementById('chat-send').disabled = !canChat;
+}
+
+function showProxyConfig() {
+  const url = prompt('Cloudflare Worker URL eingeben (z.B. https://kh-chat.deinname.workers.dev):', PROXY_URL);
+  if (url !== null) {
+    PROXY_URL = url.trim();
+    localStorage.setItem('kh-proxy-url', PROXY_URL);
+    updateChatLimit();
+  }
+}
+
+function addChatMsg(role, text) {
+  const div = document.createElement('div');
+  div.className = `chat-msg ${role}`;
+  div.innerHTML = text.replace(/\n/g, '<br>');
+  document.getElementById('chat-messages').appendChild(div);
+  div.scrollIntoView({ behavior: 'smooth' });
+}
+
+async function sendChat() {
+  const input = document.getElementById('chat-input');
+  const question = input.value.trim();
+  if (!question || !PROXY_URL) return;
+
+  input.value = '';
+  addChatMsg('user', question);
+  incChatCount();
+
+  // Build context: only enriched entries for context efficiency
+  const enriched = allEntries.filter(e => e.enrichment_status === 'enriched' && e.steckbrief);
+  const context = enriched.map(e => {
+    const s = e.steckbrief;
+    return `${s.datum || '?'} | ${s.einrichtung || '?'} | ${s.ort || '?'} | ${s.bundesland || '?'} | Tote: ${s.tote || '?'} | Verletzte: ${s.verletzte || '?'} | Ursache: ${s.brandursache || '?'} | Evakuierung: ${s.evakuierung || '?'} | ${s.zusammenfassung || ''}`;
+  }).join('\n');
+
+  const systemPrompt = `Du bist ein Datenanalyst für die Krankenhausbrand-Datenbank Deutschland. Du hast Zugriff auf ${enriched.length} verifizierte Brandfälle (von insgesamt ${allEntries.length} Einträgen, der Rest wird noch verarbeitet). Antworte präzise, auf Deutsch, mit konkreten Zahlen und Daten. Wenn die Daten nicht ausreichen, sage das ehrlich.\n\nDATEN:\n${context}`;
+
+  document.getElementById('chat-send').disabled = true;
+  addChatMsg('assistant', '⏳ Denke nach...');
+
+  try {
+    const resp = await fetch(PROXY_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 1024,
+        system: systemPrompt,
+        messages: [{ role: 'user', content: question }]
+      })
+    });
+
+    const data = await resp.json();
+    // Remove "thinking" message
+    const msgs = document.getElementById('chat-messages');
+    msgs.removeChild(msgs.lastChild);
+
+    if (data.content && data.content[0]) {
+      addChatMsg('assistant', data.content[0].text);
+    } else if (data.error) {
+      addChatMsg('assistant', `Fehler: ${data.error}`);
+    } else {
+      addChatMsg('assistant', 'Keine Antwort erhalten.');
+    }
+  } catch (e) {
+    const msgs = document.getElementById('chat-messages');
+    msgs.removeChild(msgs.lastChild);
+    addChatMsg('assistant', `Verbindungsfehler: ${e.message}. Ist der Proxy konfiguriert?`);
+  }
+
+  updateChatLimit();
+}
+
+document.getElementById('chat-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') sendChat();
+});
+
+// ── Duplikat-Kandidaten ──
+let candidatesData = null;
+
+async function loadCandidates() {
+  const list = document.getElementById('candidates-list');
+  if (candidatesData && candidatesData._rendered) {
+    return; // Schon geladen
+  }
+  list.innerHTML = '<div class="cand-empty">Lade Kandidaten...</div>';
+  try {
+    const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/merge_candidates.json');
+    if (!resp.ok) throw new Error('Nicht gefunden');
+    candidatesData = await resp.json();
+    renderCandidates();
+  } catch (e) {
+    list.innerHTML = '<div class="cand-empty">Keine Duplikat-Kandidaten vorhanden. Das System hat noch keine unsicheren Paare gefunden.</div>';
+  }
+}
+
+function renderCandidates() {
+  const list = document.getElementById('candidates-list');
+  const pending = candidatesData?.pending || [];
+  const badge = document.getElementById('cand-count-badge');
+
+  if (pending.length === 0) {
+    list.innerHTML = '<div class="cand-empty">Keine offenen Duplikat-Kandidaten. Alle Paare wurden bearbeitet oder das System ist sich bei allen sicher.</div>';
+    badge.style.display = 'none';
+    return;
+  }
+
+  badge.textContent = pending.length;
+  badge.style.display = 'inline';
+
+  list.innerHTML = `<p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1rem;">
+    ${pending.length} Paar(e) mit unsicherer Übereinstimmung gefunden. Bitte prüfe, ob es sich um denselben Brand handelt.
+    <br>Deine Entscheidungen werden beim nächsten Pipeline-Lauf verarbeitet.
+  </p>` + pending.map((c, idx) => {
+    const a = c.entry_a || {};
+    const b = c.entry_b || {};
+    const scoreClass = c.score >= 0.65 ? 'cand-score-high' : 'cand-score-med';
+    const scorePct = Math.round(c.score * 100);
+
+    return `<div class="cand-card" id="cand-${idx}">
+      <div class="cand-header">
+        <span style="font-size:0.85rem;color:var(--text-muted);">Kandidat #${idx + 1}</span>
+        <span class="cand-score ${scoreClass}">${scorePct}% Übereinstimmung</span>
+      </div>
+      <div class="cand-vs">
+        <div class="cand-entry">
+          <div class="field-label">Einrichtung</div>
+          <div class="field-value">${a.einrichtung || '—'}</div>
+          <div class="field-label" style="margin-top:0.3rem;">Ort / Datum</div>
+          <div class="field-value">${a.ort || '—'} · ${a.datum || '—'}</div>
+          <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
+          <div class="field-value">${a.bundesland || '—'} · ${a.status || '—'}</div>
+        </div>
+        <div class="cand-divider">↔</div>
+        <div class="cand-entry">
+          <div class="field-label">Einrichtung</div>
+          <div class="field-value">${b.einrichtung || '—'}</div>
+          <div class="field-label" style="margin-top:0.3rem;">Ort / Datum</div>
+          <div class="field-value">${b.ort || '—'} · ${b.datum || '—'}</div>
+          <div class="field-label" style="margin-top:0.3rem;">Bundesland / Status</div>
+          <div class="field-value">${b.bundesland || '—'} · ${b.status || '—'}</div>
+        </div>
+      </div>
+      <div class="cand-actions">
+        <button class="btn-reject" onclick="decideCand(${idx}, 'reject')">Kein Duplikat</button>
+        <button class="btn-merge" onclick="decideCand(${idx}, 'confirm')">Zusammenführen</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  candidatesData._rendered = true;
+}
+
+// Sammelt Entscheidungen und schickt sie gebündelt an den Worker
+let pendingDecisions = { confirmed: [], rejected: [] };
+let syncTimer = null;
+
+async function decideCand(idx, action) {
+  const pending = candidatesData.pending || [];
+  if (idx >= pending.length) return;
+
+  const cand = pending[idx];
+  const decision = {
+    hashes: cand.hashes,
+    score: cand.score,
+    decided_at: new Date().toISOString(),
+    entry_a_name: cand.entry_a?.einrichtung || '?',
+    entry_b_name: cand.entry_b?.einrichtung || '?',
+  };
+
+  // Lokal vormerken
+  if (action === 'confirm') pendingDecisions.confirmed.push(decision);
+  else pendingDecisions.rejected.push(decision);
+  pending.splice(idx, 1);
+
+  // UI-Update: Karte visuell markieren
+  const card = document.getElementById(`cand-${idx}`);
+  if (card) {
+    card.style.opacity = '0.3';
+    card.style.pointerEvents = 'none';
+    const label = document.createElement('div');
+    label.style.cssText = 'text-align:center;padding:0.5rem;font-size:0.85rem;font-weight:600;';
+    label.style.color = action === 'confirm' ? 'var(--green)' : 'var(--red)';
+    label.textContent = action === 'confirm' ? '✓ Wird zusammengeführt' : '✗ Kein Duplikat';
+    card.appendChild(label);
+  }
+
+  // Badge aktualisieren
+  const badge = document.getElementById('cand-count-badge');
+  badge.textContent = pending.length;
+  if (pending.length === 0) badge.style.display = 'none';
+
+  // Debounced sync: nach 2s Inaktivität an Worker senden
+  // (damit mehrere schnelle Klicks gebündelt werden)
+  clearTimeout(syncTimer);
+  syncTimer = setTimeout(syncDecisions, 2000);
+  updateSyncStatus('pending');
+}
+
+function updateSyncStatus(state, detail) {
+  let el = document.getElementById('cand-sync-status');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'cand-sync-status';
+    el.style.cssText = 'max-width:800px;padding:0.6rem 1rem;border-radius:8px;margin-top:1rem;font-size:0.85rem;';
+    document.getElementById('candidates-list').appendChild(el);
+  }
+  const total = pendingDecisions.confirmed.length + pendingDecisions.rejected.length;
+  if (state === 'pending') {
+    el.style.background = 'rgba(255,213,79,0.1)';
+    el.style.border = '1px solid rgba(255,213,79,0.3)';
+    el.innerHTML = `<span style="color:var(--yellow);">⏳ ${total} Entscheidung(en) werden gespeichert...</span>`;
+  } else if (state === 'success') {
+    el.style.background = 'rgba(61,220,132,0.1)';
+    el.style.border = '1px solid rgba(61,220,132,0.3)';
+    el.innerHTML = `<span style="color:var(--green);">✓ Gespeichert! Wird beim nächsten Pipeline-Lauf verarbeitet.</span>`;
+  } else if (state === 'error') {
+    el.style.background = 'rgba(239,83,80,0.1)';
+    el.style.border = '1px solid rgba(239,83,80,0.3)';
+    el.innerHTML = `<span style="color:var(--red);">✗ Fehler beim Speichern: ${detail || 'Unbekannt'}. </span>
+      <button onclick="syncDecisions()" style="background:var(--accent);color:#fff;border:none;border-radius:6px;padding:0.2rem 0.6rem;cursor:pointer;font-size:0.8rem;">Erneut versuchen</button>`;
+  }
+}
+
+async function syncDecisions() {
+  if (!PROXY_URL) {
+    updateSyncStatus('error', 'Proxy nicht konfiguriert');
+    return;
+  }
+
+  const toSync = {
+    confirmed: [...pendingDecisions.confirmed],
+    rejected: [...pendingDecisions.rejected],
+  };
+
+  if (toSync.confirmed.length === 0 && toSync.rejected.length === 0) return;
+
+  try {
+    const resp = await fetch(PROXY_URL.replace(/\/$/, '') + '/candidates', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ candidates: toSync }),
+    });
+
+    const data = await resp.json();
+
+    if (data.success) {
+      // Erfolgreich — lokalen Puffer leeren
+      pendingDecisions = { confirmed: [], rejected: [] };
+      updateSyncStatus('success');
+    } else {
+      updateSyncStatus('error', data.error || 'Server-Fehler');
+    }
+  } catch (e) {
+    updateSyncStatus('error', e.message);
+  }
+}
+
+// Beim Laden: Kandidaten-Badge initial setzen
+async function initCandidateBadge() {
+  try {
+    const resp = await fetch('https://raw.githubusercontent.com/OrvilleWilbur/meyer2/main/data/merge_candidates.json');
+    if (!resp.ok) return;
+    const data = await resp.json();
+    const count = (data.pending || []).length;
+    const badge = document.getElementById('cand-count-badge');
+    if (count > 0) {
+      badge.textContent = count;
+      badge.style.display = 'inline';
+    }
+  } catch (e) { /* silent */ }
+}
+
+// ── Init ──
+if (sessionStorage.getItem('kh-auth') === '1') { loadData(); initCandidateBadge(); }
+updateChatLimit();
+</script>
+</body>
+</html>
