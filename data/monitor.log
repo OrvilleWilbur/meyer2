@@ -304,3 +304,291 @@
 [2026-03-15 08:54:36] [enrich] Ergebnis: 5 enriched, 0 partial, 0 failed
 [2026-03-15 08:54:36] [enrich] === Enrichment-Lauf beendet ===
 
+[2026-03-15 09:36:14] === Monitor-Lauf gestartet ===
+[2026-03-15 09:36:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 09:36:16] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 09:36:16] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-15 09:36:17] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-15 09:36:17] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-03-15 09:36:18] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-15 09:36:18] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 09:36:18] Feed 'gn_klinikbrand': 88 Einträge
+[2026-03-15 09:36:19] Feed 'gn_feuer_uniklinik': 49 Einträge
+[2026-03-15 09:36:19] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 09:36:20] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 09:36:20] 244 relevante Treffer in Feeds
+[2026-03-15 09:36:21] ✅ 186 NEUE Einträge gefunden:
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Klinik |  | Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 09:36:21]    22.02.2026 | im Krankenhaus |  | Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Krankenhaus |  | Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 09:36:21]    01.06.2025 |  |  | Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Krankenhaus |  | Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 09:36:21]    11.11.2025 |  |  | Klinik in Berlin-Neukölln durch Explosion beschädigt - Brand
+[2026-03-15 09:36:21]    05.01.2026 |  |  | "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Krankenhaus getötet |  | Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus ge
+[2026-03-15 09:36:21]    02.06.2025 | Hamburger Klinik |  | Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-15 09:36:21]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-03-15 09:36:21]    03.06.2025 | Hamburger Klinik |  | Nach Feuer in Hamburger Klinik: Verdächtiger kommt in Psychi
+[2026-03-15 09:36:21]    01.06.2025 | Marienkrankenhaus gefasst |  | War es Brandstiftung? Verdächtiger nach Feuer in Hamburger M
+[2026-03-15 09:36:21]    02.01.2025 | im Krankenhaus |  | Kellerbrand im Krankenhaus: Polizei sucht Zeugen - BR
+[2026-03-15 09:36:21]    19.04.2023 | Pekinger Krankenhaus steigt |  | Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenha
+[2026-03-15 09:36:21]    01.06.2025 | in Klinik |  | Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk
+[2026-03-15 09:36:21]    01.11.2024 | in Krankenhaus |  | Brand in Krankenhaus in Frankenberg: ein Toter und 13 Verlet
+[2026-03-15 09:36:21]    07.01.2024 | in Krankenhaus |  | Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-15 09:36:21]    19.12.2025 | Marienkrankenhaus |  | Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-15 09:36:21]    28.01.2026 | Jüdischem Krankenhaus Berlin |  | 14 Verletzte bei Brand in Jüdischem Krankenhaus Berlin - kei
+[2026-03-15 09:36:21]    11.11.2025 | Bruchsaler Krankenhaus |  | Klein-Brand im Bruchsaler Krankenhaus – 18 Patienten vorüber
+[2026-03-15 09:36:21]    16.11.2024 | bei Krankenhaus |  | Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi ers
+[2026-03-15 09:36:21]    05.01.2024 | in Krankenhaus |  | Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verl
+[2026-03-15 09:36:21]    02.02.2026 | im Krankenhaus |  | Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt
+[2026-03-15 09:36:21]    06.01.2024 | einem Krankenhaus |  | Bei einem Brand in einem Krankenhaus in Hamburg sind fünf Me
+[2026-03-15 09:36:21]    28.01.2026 | Jüdischem Krankenhaus |  | Brände: Brand in Jüdischem Krankenhaus - kein antisemitische
+[2026-03-15 09:36:21]    02.12.2025 | im Krankenhaus |  | Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus -
+[2026-03-15 09:36:21]    04.04.2025 | Augusta-Krankenhaus |  | Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-15 09:36:21]    06.01.2024 | tödlichem Klinikbrand |  | Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-15 09:36:21]    13.01.2025 | Bochumer Klinik |  | Brand in Bochumer Klinik: Sieben Verletzte, einer schwebt in
+[2026-03-15 09:36:21]    13.12.2024 | Schön-Klinik Rendsburg |  | Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-15 09:36:21]    10.09.2019 | einem Krankenhaus |  | Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-15 09:36:21]    29.08.2025 | ins Krankenhaus gebracht |  | Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-03-15 09:36:21]    10.09.2019 | Marienhospital Düsseldorf |  | Tödlicher Brand im Marienhospital Düsseldorf: Debatte um Bra
+[2026-03-15 09:36:21]    13.10.2021 | im Krankenhaus |  | Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Kran
+[2026-03-15 09:36:21]    16.09.2016 |  |  | Krankenhaus-Brand: Auch Deichhorst wird nicht angefahren - d
+[2026-03-15 09:36:21]    10.03.2026 | im Krankenhaus |  | Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit
+[2026-03-15 09:36:21]    01.11.2024 | in Krankenhaus |  | Toter bei Brand in Krankenhaus - blaulichtmyk.de
+[2026-03-15 09:36:21]    20.02.2026 | im Krankenhaus |  | Wohnungsbrand in München – Fünf Menschen im Krankenhaus - On
+[2026-03-15 09:36:21]    07.01.2026 |  |  | Feuer-Inferno in Crans-Montana: Klinikum Nürnberg versorgt B
+[2026-03-15 09:36:21]    03.10.2025 | in Krankenhaus |  | Im Saarland: Verletzte bei Feuer in Krankenhaus - T-Online
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Klinik |  | Verdacht der Brandstiftung nach Feuer in Hamburger Klinik - 
+[2026-03-15 09:36:21]    13.03.2026 | Möchengladbacher Krankenhaus |  | In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-15 09:36:21]    30.06.2023 |  |  | Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-15 09:36:21]    31.01.2026 | im Krankenhaus |  | Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krank
+[2026-03-15 09:36:21]    02.12.2025 | JVA-Krankenhaus Plötzensee |  | Brände - Feuer in JVA-Krankenhaus Plötzensee - Zwei Verletzt
+[2026-03-15 09:36:21]    22.08.2025 | in Klinik |  | Lidl Deutschland-Tour, Ärger über Sperrungen und Feuer in Kl
+[2026-03-15 09:36:21]    07.11.2023 | St.-Elisabeth-Krankenhaus |  | Eutin: Feuer im Neubau am St.-Elisabeth-Krankenhaus - shz.de
+[2026-03-15 09:36:21]    18.03.2024 | Al-Schifa-Krankenhaus |  | Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - BR
+[2026-03-15 09:36:21]    24.12.2024 | im Krankenhaus |  | Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten 
+[2026-03-15 09:36:21]    12.09.2019 | Marienhospital |  | Vier Menschen in Lebensgefahr: Ein Toter und viele Verletzte
+[2026-03-15 09:36:21]    12.11.2022 | im Krankenhaus |  | Feuer: Schuppen in Pinneberg brennt – eine Person im Kranken
+[2026-03-15 09:36:21]    12.12.2025 | im Krankenhaus |  | Feuer in Einfamilienhaus im Harz: Drei Bewohner nach Brand i
+[2026-03-15 09:36:21]    11.02.2026 | in Klinik |  | Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.
+[2026-03-15 09:36:21]    03.01.2026 | NRW-Klinik verlegt |  | Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-15 09:36:21]    02.01.2026 | Spezialklinik |  | Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle beh
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die 
+[2026-03-15 09:36:21]    25.08.2025 | Reha-Klinik |  | Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-15 09:36:21]    14.05.2025 |  |  | Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – I
+[2026-03-15 09:36:21]    27.11.2025 | in Klinik |  | Alptraum in Klinik: Zweimal kurz hintereinander Feueralarm -
+[2026-03-15 09:36:21]    01.06.2025 | Hamburger Klinik |  | Festnahme wegen Verdachts der Brandstiftung nach Feuer in Ha
+[2026-03-15 09:36:21]    07.08.2025 | GRN-Klinik |  | Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SW
+[2026-03-15 09:36:21]    10.05.2025 |  |  | Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen si
+[2026-03-15 09:36:21]    18.02.2026 | Chiemgau-Klinik brennt vollständig aus |  | Saunabereich der Chiemgau-Klinik brennt vollständig aus - On
+[2026-03-15 09:36:21]    21.08.2025 | Reha-Klinik |  | Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-15 09:36:21]    22.04.2024 | Helios-Klinik schwer verletzt |  | 41-Jähriger wird bei Zimmerbrand in Schleswiger Helios-Klini
+[2026-03-15 09:36:21]    01.06.2025 | Marienkrankenhaus |  | Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-15 09:36:21]    14.04.2025 | Ameos-Klinik |  | Feuer bei Ameos-Klinik in Neustadt: Drei Verletzte – Kripo e
+[2026-03-15 09:36:21]    25.09.2023 | Salziger Klinik endet ohne Verletzte |  | Brand in Bad Salziger Klinik endet ohne Verletzte – 93 Patie
+[2026-03-15 09:36:21]    22.04.2019 | der Klinik |  | Feuer in der Klinik in Oldenburg in Holstein - shz.de
+[2026-03-15 09:36:21]    02.01.2026 | Spezialklinik |  | Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in
+[2026-03-15 09:36:21]    02.01.2026 | Unfallkrankenhaus nimmt Opfer aus Crans |  | Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt 
+[2026-03-15 09:36:21]    01.06.2025 | Marienkrankenhaus |  | Katholisches Marienkrankenhaus - Drei Tote bei Brand in Hamb
+[2026-03-15 09:36:21]    31.05.2025 | einer Klinik |  | Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-15 09:36:21]    03.01.2026 | Unfallkrankenhaus Berlin nimmt Patienten |  | Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-15 09:36:21]    22.07.2025 |  |  | Nach Brand: Klinikhochhaus in Bad Salzig bezugsfertig - Rhei
+[2026-03-15 09:36:21]    02.01.2026 | Berliner Klinik berichtet von Hilfeersuchen für 40 Brandopfer aus Crans |  | Berliner Klinik berichtet von Hilfeersuchen für 40 Brandopfe
+[2026-03-15 09:36:21]    02.01.2026 | Stuttgarter Klinik |  | Brandopfer von Crans-Montana in Stuttgarter Klinik - T-Onlin
+[2026-03-15 09:36:21]    03.03.2026 | Braunschweiger Klinik |  | Patientin will rauchen und stirbt in Braunschweiger Klinik -
+[2026-03-15 09:36:21]    16.12.2024 | Neckar-Odenwald-Klinik |  | Nach Brand in Neckar-Odenwald-Klinik in Buchen - Ermittlunge
+[2026-03-15 09:36:21]    05.01.2024 | einer Klinik |  | Niedersachsen - Vier Tote bei Brand in einer Klinik - Deutsc
+[2026-03-15 09:36:21]    05.01.2026 | Spezialkliniken |  | Brand in der Schweiz: Ein Mädchen aus Belgien ist tot - Mehr
+[2026-03-15 09:36:21]    15.02.2026 | Norder Klinik |  | Brand bei Norder Klinik - noz.de
+[2026-03-15 09:36:21]    01.07.2023 | Curtius-Klinik |  | Brand in Curtius-Klinik: Feuerwehr und Rettungsdienst übt Gr
+[2026-03-15 09:36:21]    17.12.2025 | Helios-Klinik |  | Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-15 09:36:21]    02.01.2026 | Nürnberger Klinikum erwartet |  | Brandkatastrophe in der Schweiz: Opfer wird zur Behandlung i
+[2026-03-15 09:36:21]    02.01.2026 |  |  | Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-15 09:36:21]    02.01.2026 |  |  | Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-15 09:36:21]    07.07.2025 | Wald-Klinikum Gera |  | Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftu
+[2026-03-15 09:36:21]    16.05.2025 | in Klinikum bald vor Gericht |  | Mann während Feuer ans Bett gefesselt: Tödlicher Brand in Kl
+[2026-03-15 09:36:21]    05.01.2024 | Helios Klinikum Uelzen |  | Niedersachsen: Vier Tote nach Brand im Helios Klinikum Uelze
+[2026-03-15 09:36:21]    05.01.2024 | Helios Klinikum |  | Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios K
+[2026-03-15 09:36:21]    12.01.2025 | Asklepios-Klinikum Göttingen |  | Feuerwehr am Asklepios-Klinikum Göttingen: Brand auf Station
+[2026-03-15 09:36:21]    29.01.2026 | in Krankenhaus |  | Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kennt
+[2026-03-15 09:36:21]    03.03.2026 | Bielefelder Klinikum aus |  | Nordrhein-Westfalen: Kabeldiebe lösen Brand am Bielefelder K
+[2026-03-15 09:36:21]    19.04.2024 | Haarer Klinikum |  | Brand im Haarer Klinikum: Suchtstation wird evakuiert - Merk
+[2026-03-15 09:36:21]    25.01.2025 | Helios Klinikum Aue |  | Update: Brand in Patientenzimmer - Vorsätzliche Brandstiftun
+[2026-03-15 09:36:21]    18.01.2023 |  |  | Mehrere Millionen Euro Schaden: Wer zahlt nach dem Brand im 
+[2026-03-15 09:36:21]    30.01.2026 | Helios Klinikum |  | Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: 
+[2026-03-15 09:36:21]    27.01.2026 | Helios Klinikum Pforzheim |  | Brand am Helios Klinikum Pforzheim: Schwurgericht verhandelt
+[2026-03-15 09:36:21]    02.07.2025 | Helios Klinikum Pforzheim |  | Brand am Helios Klinikum Pforzheim: So steht es um den Proze
+[2026-03-15 09:36:21]    15.07.2025 | Helios Klinikum Pforzheim |  | Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Pro
+[2026-03-15 09:36:21]    21.02.2024 | Sana-Klinikums Hameln weckt Erinnerungen an Millionen |  | Feuermeldung aus „Steri“ des Sana-Klinikums Hameln weckt Eri
+[2026-03-15 09:36:21]    20.01.2023 | im Klinikum Lemgo |  | Einsatzbilder vom Brand im Klinikum Lemgo - Radio Lippe
+[2026-03-15 09:36:21]    16.01.2023 | in Krankenhaus |  | Feuer in Krankenhaus: Patientin stirbt bei Brand auf Pneumol
+[2026-03-15 09:36:21]    03.05.2023 | Helios Klinikum Pforzheim |  | Fotos vom Tag danach: Ermittlungen zum Brand im Helios Klini
+[2026-03-15 09:36:21]    30.12.2025 | Helios Klinikum Pforzheim |  | Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant 
+[2026-03-15 09:36:21]    18.11.2018 | in Klinikum Konstanz |  | Ein Toter und 14 Verletzte nach Brand in Klinikum Konstanz -
+[2026-03-15 09:36:21]    26.04.2024 | im Klinikum Annaberg |  | Großeinsatz der Feuerwehr: Brand im Klinikum Annaberg-Buchho
+[2026-03-15 09:36:21]    18.10.2018 | Städtisches Klinikum |  | Neue Markenidentität und modernes Brand Design für Städtisch
+[2026-03-15 09:36:21]    08.08.2023 |  |  | Was tun bei einem Waldbrand? - Malteser in Deutschland
+[2026-03-15 09:36:21]    08.09.2025 | Uniklinik |  | Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in
+[2026-03-15 09:36:21]    26.08.2025 | Uniklinik |  | Feuerwehreinsatz in Essen an der Uniklinik - Radio Essen
+[2026-03-15 09:36:21]    03.09.2025 | Uniklinik |  | Brand in Kölner Uniklinik: Gesamtes Gebäude evakuiert - TAG2
+[2026-03-15 09:36:21]    01.01.2024 | Universitätsklinikum |  | Krankenhaus Neuruppin: Feuer im Universitätsklinikum - Märki
+[2026-03-15 09:36:21]    25.10.2024 | Uniklinik Mainz |  | Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwi
+[2026-03-15 09:36:21]    24.10.2024 | Uniklinik |  | Großeinsatz wegen Feuer auf Uniklinik-Gelände - Allgemeine Z
+[2026-03-15 09:36:21]    21.07.2023 | LWL-Universitätsklinikum | BO | FW-BO: Feuer im LWL-Universitätsklinikum - Klinikpersonal re
+[2026-03-15 09:36:21]    23.10.2021 | Uniklinik |  | Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit
+[2026-03-15 09:36:21]    25.10.2021 | Uniklinik |  | Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Al
+[2026-03-15 09:36:21]    25.10.2023 |  |  | Steckdosenbrand in der Uniklinik Halle (Saale): Keine Verlet
+[2026-03-15 09:36:21]    17.04.2023 | Uniklinik Düsseldorf |  | Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseld
+[2026-03-15 09:36:21]    30.09.2016 | Uniklinik Bergmannsheil |  | Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stun
+[2026-03-15 09:36:21]    25.10.2024 | Uniklinik |  | Großeinsatz wegen Feuer auf Uniklinik-Gelände - Echo Online
+[2026-03-15 09:36:21]    10.09.2021 | Uniklinik Freiburg |  | Feuer in der Wäscherei der Uniklinik Freiburg - Radio Regenb
+[2026-03-15 09:36:21]    24.10.2024 | Uniklinik |  | Feuer an der Mainzer Uniklinik - merkurist.de
+[2026-03-15 09:36:21]    05.10.2022 | Uniklinik Düsseldorf |  | Uniklinik Düsseldorf: Akkus fangen Feuer, Etage evakuiert - 
+[2026-03-15 09:36:21]    24.10.2021 | Uniklinik Gießen |  | Brand an der Uniklinik Gießen: Chirurgische Station gesperrt
+[2026-03-15 09:36:21]    21.09.2021 | Uniklinik Würzburg |  | Brand in Uniklinik Würzburg – keine Verletzten - TV Mainfran
+[2026-03-15 09:36:21]    30.09.2016 | Bergmannsheil-Klinik |  | Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote 
+[2026-03-15 09:36:21]    26.10.2021 | Uniklinik |  | Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – P
+[2026-03-15 09:36:21]    24.10.2021 | Uniklinik Gießen |  | Feuer auf Intensivstation der Uniklinik Gießen - Oberhessisc
+[2026-03-15 09:36:21]    20.03.2022 | Uniklinik festgenommen |  | Explosion auf Teneriffa: Frau nach Feuer in Uniklinik festge
+[2026-03-15 09:36:21]    25.10.2024 | Uniklinik Mainz sorgt für Großeinsatz |  | Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr
+[2026-03-15 09:36:21]    03.01.2026 | Uniklinik angekommen |  | Crans-Montana-Brandopfer bewusstlos in Aachener Uniklinik an
+[2026-03-15 09:36:21]    26.04.2022 | Essener Krankenhaus gerettet |  | Brand in der Uniklink: 50 Patienten aus Essener Krankenhaus 
+[2026-03-15 09:36:21]    22.09.2021 | Uniklinik |  | Brand in Uniklinik: Zwölf Menschen erleiden Rauchvergiftung 
+[2026-03-15 09:36:21]    27.01.2017 | Uniklinik war Brandstiftung |  | Feuer in Freiburger Uniklinik war Brandstiftung - baden.fm
+[2026-03-15 09:36:21]    08.11.2017 |  |  | Großalarm! - Feuer in der Uni-Klinik! - BILD
+[2026-03-15 09:36:21]    11.11.2025 | an Kliniken |  | Detonation und Feuer an Kliniken – politisch motiviert? - RT
+[2026-03-15 09:36:21]    09.11.2024 | Uniklinikum Homburg |  | Feuerwehr im Einsatz: Feuer am Uniklinikum Homburg: Polizei 
+[2026-03-15 09:36:21]    30.09.2016 | Uniklinik Bochum |  | Feuer in Uniklinik Bochum: Zwei Tote bei Großbrand - Spiegel
+[2026-03-15 09:36:21]    04.10.2016 | Uniklinik Bergmannsheil |  | Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - 
+[2026-03-15 09:36:21]    30.09.2016 | Uni-Klinik |  | Tote bei Großbrand in Uni-Klinik - DW.com
+[2026-03-15 09:36:21]    30.09.2016 | Uniklinik |  | Zwei Tote bei Feuer in Bochumer Uniklinik - T-Online
+[2026-03-15 09:36:21]    05.12.2025 | Uniklinik |  | Brandverletztenzentrum an der Uniklinik in Halle versorgt Ki
+[2026-03-15 09:36:21]    17.04.2023 | Uniklinik erfordern umfangreiche Lüftungsmaßnahmen |  | Erstmeldung der Feuerwehr: Brand in einem Gebäude der Unikli
+[2026-03-15 09:36:21]    08.01.2016 | Uniklinik schnell gelöscht |  | Kleiner Brand in Freiburger Uniklinik schnell gelöscht - bad
+[2026-03-15 09:36:21]    12.05.2018 | Uniklinik |  | Fotos: Großbrand in Bochumer Uniklinik - RP Online
+[2026-03-15 09:36:21]    28.04.2015 |  |  | Feuer im Herzzentrum Bad Krozingen – Klinik braucht Notstrom
+[2026-03-15 09:36:21]    05.07.2025 | in Klinik |  | Aurich: Evakuierung nach Brand in Klinik - NDR.de
+[2026-03-15 09:36:21]    25.09.2025 | Reha-Klinik führt zu Evakuierung |  | Bad Sülze: Brand in Reha-Klinik führt zu Evakuierung - BILD
+[2026-03-15 09:36:21]    12.07.2025 | müssen Klinik wegen Bombenfund verlassen |  | Cham: Evakuierung während der Entbindung - Schwangere müssen
+[2026-03-15 09:36:21]    17.06.2025 |  |  | Evakuierung: Klinik Königsfeld in acht Minuten geräumt - Wes
+[2026-03-15 09:36:21]    02.02.2026 | löst Krankenhausevakuierung aus |  | Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus 
+[2026-03-15 09:36:21]    28.05.2025 | Sana-Klinik |  | Stromausfall: Maus sorgt für Evakuierung der Sana-Klinik - O
+[2026-03-15 09:36:21]    04.12.2025 | im Krankenhaus |  | ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vi
+[2026-03-15 09:36:21]    13.09.2025 | im Krankenhaus erprobt |  | Sichere Evakuierung - Sensiblen „Trainingsplan“ im Krankenha
+[2026-03-15 09:36:21]    22.03.2025 | übt Klinik |  | Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung 
+[2026-03-15 09:36:21]    19.11.2023 | Al-Schifa-Krankenhaus entdeckt |  | Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krank
+[2026-03-15 09:36:21]    18.11.2023 | Schifa-Klinik |  | Israel-Gaza-Krieg: Berichte über Evakuierung von Schifa-Klin
+[2026-03-15 09:36:21]    30.09.2025 | Sana Klinik |  | Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequ
+[2026-03-15 09:36:21]    10.01.2023 | Caritas-Krankenhaus St |  | Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund –
+[2026-03-15 09:36:21]    03.10.2025 | in Klinik |  | Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, vie
+[2026-03-15 09:36:21]    20.11.2023 | Al-Schifa-Krankenhaus entdeckt |  | Gaza-Krieg Israelische Armee: Tunnel unter Al-Schifa-Kranken
+[2026-03-15 09:36:21]    12.08.2025 | in Klinik führt zu Evakuierung |  | Andernach: Feuer in Klinik führt zu Evakuierung - BILD
+[2026-03-15 09:36:21]    18.03.2024 | Al-Schifa-Krankenhaus und Umgebung |  | Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Kranke
+[2026-03-15 09:36:21]    30.01.2026 |  |  | Psychiatrie-Direktor über Evakuierung: „Das war eine tolle E
+[2026-03-15 09:36:21]    29.12.2024 | in Krankenhaus |  | Neustadt bei Coburg: Evakuierung nach Brand in Krankenhaus -
+[2026-03-15 09:36:21]    12.05.2024 | fliegenden Krankenhaus |  | Evakuierung aus Rafah: Im fliegenden Krankenhaus - DIE ZEIT
+[2026-03-15 09:36:21]    05.07.2025 | Ubbo-Emmius-Klinik nach Brand |  | Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Bran
+[2026-03-15 09:36:21]    16.11.2025 | Bethanien-Krankenhaus |  | Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - R
+[2026-03-15 09:36:21]    06.07.2025 | Mühlacker Klinik |  | Evakuierung von Patienten wegen eines Brandes: Feuerwehr übt
+[2026-03-15 09:36:21]    10.01.2023 |  |  | Bombenfund im Osten: Krankenhaus St. Josef probt die Evakuie
+[2026-03-15 09:36:21]    06.09.2022 | Asklepios-Klinik |  | Evakuierung Asklepios-Klinik: Keine Verletzen nach Chlorgas-
+[2026-03-15 09:36:21]    13.10.2023 | fordert Krankenhaus |  | Newsblog: Israel fordert Krankenhaus in Nord-Gaza zu Evakuie
+[2026-03-15 09:36:21]    27.08.2020 | psychiatrischer Klinik ausgebrochen |  | Feuer in psychiatrischer Klinik ausgebrochen - Zwei Statione
+[2026-03-15 09:36:21]    28.10.2023 | im Krankenhaus |  | Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtunge
+[2026-03-15 09:36:21]    22.11.2016 |  |  | Klinik-Evakuierung - Rettung mit Problemen - Starnberg - SZ.
+[2026-03-15 09:36:21]    19.12.2019 | des Krankenhauses Porz |  | Erfolgreiche Evakuierung des Krankenhauses Porz am Rhein in 
+[2026-03-15 09:36:21]    26.03.2007 |  |  | Trier: Klinik-Evakuierung verlief reibungslos - SK-Verlag
+[2026-03-15 09:36:21]    11.12.2025 | Reha-Klinik Bernkastel |  | Gasalarm in Reha-Klinik Bernkastel-Kues: 180 Menschen evakui
+[2026-03-15 09:36:21]    24.09.2025 | vor Klinik |  | Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (
+[2026-03-15 09:36:21]    08.04.2022 |  |  | ++ Lokalo-Aktuell: Nach Gasaustritt – Klinik-Evakuierung in 
+[2026-03-15 09:36:21]    03.06.2022 |  |  | Banja Luka: Krankenhaus-Evakuierung nach Bombendrohungen - K
+[2026-03-15 09:36:21]    13.03.2026 |  |  | Feuerwehr bekämpft Großbrand an Rettungswache
+[2026-03-15 09:36:21]    11.03.2026 |  |  | Petition fordert Rentenpunkte fürs Ehrenamt
+[2026-03-15 09:36:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 09:36:21] === Monitor-Lauf beendet ===
+
+[2026-03-15 09:36:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 09:36:21] [enrich] 225 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 09:36:21] [enrich] --- Enriche [1/20]: Bei einem Brand in einem Krankenhaus in Hamburg sind fünf Me
+[2026-03-15 09:36:21] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMihgFBVV95cUxPdzBLZG1SLWluVVNGekhySnNxVWZ
+[2026-03-15 09:36:21] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:22] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keine konkreten Informationen über einen Brand in einem deutschen Krankenhaus. Es handelt sich nur um eine generische Beschreibung von Google News als Nachrichtenquelle.
+[2026-03-15 09:36:23] [enrich] --- Enriche [2/20]: Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-03-15 09:36:23] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMikgFBVV95cUxNekd6a3h4TWJpRDZRYlc4NkxrT3J
+[2026-03-15 09:36:24] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:25] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine konkreten Brände in deutschen Krankenhäusern. Es handelt sich um eine generische Beschreibung von Google News als Nachrichtenaggregator ohne spezifischen Bezug zu einem Krankenhausbrand.
+[2026-03-15 09:36:26] [enrich] --- Enriche [3/20]: Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-15 09:36:26] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcm9NNFE1RG5Ecm92SlA0SzVCaDh
+[2026-03-15 09:36:26] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:27] [enrich] FALSE POSITIVE erkannt: Der Text ist nur eine generische Beschreibung von Google News und enthält keinen konkreten Artikel über einen Krankenhausbrand. Es fehlen alle notwendigen Informationen wie Ort, Datum, Einrichtung oder Branddetails.
+[2026-03-15 09:36:28] [enrich] --- Enriche [4/20]: Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten 
+[2026-03-15 09:36:28] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPQjBhVXZNNEU3NUZycU9WNmU5VTl
+[2026-03-15 09:36:29] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:30] [enrich] FALSE POSITIVE erkannt: Der eingereichte Text ist keine konkrete Nachricht über einen Krankenhausbrand, sondern nur eine generische Beschreibung der Funktion von Google News. Es ist kein tatsächlicher Artikel mit Informationen über einen Brand vorhanden.
+[2026-03-15 09:36:31] [enrich] --- Enriche [5/20]: Tödlicher Brand im Marienhospital Düsseldorf: Debatte um Bra
+[2026-03-15 09:36:31] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMitwFBVV95cUxNUk5heDFLMWJ1M2c5SGwwYVRaXzZ
+[2026-03-15 09:36:31] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:32] [enrich] FALSE POSITIVE erkannt: Der Text ist eine generische Beschreibung von Google News und enthält keinen konkreten Artikel über einen Brand in einem deutschen Krankenhaus/einer Klinik.
+[2026-03-15 09:36:33] [enrich] --- Enriche [6/20]: Krankenhaus-Brand: Auch Deichhorst wird nicht angefahren - d
+[2026-03-15 09:36:33] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMivwFBVV95cUxNTkxSUzRhZkZIRGZVd3hIYVdzY1J
+[2026-03-15 09:36:33] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:35] [enrich] FALSE POSITIVE erkannt: Der Artikel ist eine generische Beschreibung von Google News und enthält keinen konkreten Bericht über einen Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:36:36] [enrich] --- Enriche [7/20]: Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit
+[2026-03-15 09:36:37] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQblRkNVZwLUJ3V0hza2VqU0ZnckV
+[2026-03-15 09:36:37] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:38] [enrich] FALSE POSITIVE erkannt: Der Text ist nur eine generische Beschreibung einer Nachrichtensammlung und enthält keinen konkreten Artikel über einen Brand in einem Krankenhaus oder einer Klinik in Deutschland.
+[2026-03-15 09:36:39] [enrich] --- Enriche [8/20]: Toter bei Brand in Krankenhaus - blaulichtmyk.de
+[2026-03-15 09:36:39] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uTW9lV1NmanNFX3piaHA1MmhoNk0
+[2026-03-15 09:36:39] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:40] [enrich] FALSE POSITIVE erkannt: Der Text ist keine konkrete Nachricht über einen Krankenhausbrand, sondern eine generische Beschreibung einer Google News Seite. Es wird kein spezifischer Brandfall beschrieben.
+[2026-03-15 09:36:41] [enrich] --- Enriche [9/20]: Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.
+[2026-03-15 09:36:41] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiugFBVV95cUxPUVFubUlHTjlIZGRGSFF6NWpPLXB
+[2026-03-15 09:36:42] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:43] [enrich] FALSE POSITIVE erkannt: Der Text ist eine generische Beschreibung von Google News und enthält keinen konkreten Artikel über einen Krankenhausbrand. Es handelt sich um eine Metabeschreibung einer Nachrichtenplattform, nicht um einen spezifischen Brandfall.
+[2026-03-15 09:36:44] [enrich] --- Enriche [10/20]: Lidl Deutschland-Tour, Ärger über Sperrungen und Feuer in Kl
+[2026-03-15 09:36:44] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMizgFBVV95cUxQUjhxV2NtN3U3LVlwdGlCWUcwMVZ
+[2026-03-15 09:36:44] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:45] [enrich] FALSE POSITIVE erkannt: Der Text ist keine konkrete Nachricht über einen Krankenhausbrand, sondern nur eine generische Beschreibung von Google News als Nachrichtenquelle
+[2026-03-15 09:36:46] [enrich] --- Enriche [11/20]: Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-15 09:36:46] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFl5MjF6VExpcTdOdjRDeko1eGx
+[2026-03-15 09:36:47] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:48] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keine spezifischen Informationen über einen Brand in einem Krankenhaus oder einer Klinik in Deutschland. Es handelt sich um eine allgemeine Beschreibung von Google News ohne konkreten Bezug zu einem Krankenhausbrand.
+[2026-03-15 09:36:49] [enrich] --- Enriche [12/20]: Feuer-Inferno in Crans-Montana: Klinikum Nürnberg versorgt B
+[2026-03-15 09:36:49] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQejRjS3lXU1pPN0dTem5meHRSd2N
+[2026-03-15 09:36:49] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:50] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine konkreten Brände, sondern ist eine allgemeine Beschreibung von Google News als Nachrichtenquelle. Es fehlen jegliche spezifischen Informationen zu einem Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:36:51] [enrich] --- Enriche [13/20]: Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle beh
+[2026-03-15 09:36:51] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV3E2d3ZWNEJ5UHNHcjlVdmdndVg
+[2026-03-15 09:36:52] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:53] [enrich] FALSE POSITIVE erkannt: Der Text enthält keine Informationen über einen spezifischen Krankenhausbrand. Es handelt sich nur um eine allgemeine Beschreibung einer Google News-Funktion.
+[2026-03-15 09:36:54] [enrich] --- Enriche [14/20]: Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-15 09:36:54] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdDB5NDlrNFlIRE0yeGVhZjR0Mzg
+[2026-03-15 09:36:54] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:55] [enrich] FALSE POSITIVE erkannt: Der Text ist eine generische Beschreibung von Google News und enthält keinen konkreten Artikel über einen Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:36:56] [enrich] --- Enriche [15/20]: Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier
+[2026-03-15 09:36:56] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMijAFBVV95cUxQUDRETGxndnNFblhQc2g3UmNXUE9
+[2026-03-15 09:36:56] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:36:57] [enrich] FALSE POSITIVE erkannt: Der Text ist eine generische Beschreibung einer News-Aggregationsplattform und enthält keinen konkreten Artikel über einen Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:36:58] [enrich] --- Enriche [16/20]: Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die 
+[2026-03-15 09:36:59] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMid0FVX3lxTFBtdXVXSHVYaTY3Qld5WkVCSmVrejN
+[2026-03-15 09:36:59] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:37:00] [enrich] FALSE POSITIVE erkannt: Der Text ist nur eine generische Beschreibung einer Google News-Seite, enthält keinen konkreten Artikel über einen Krankenhausbrand
+[2026-03-15 09:37:01] [enrich] --- Enriche [17/20]: Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-15 09:37:01] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQ21FdUxtMHZid1U3ZXR0RmVfa1V
+[2026-03-15 09:37:01] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:37:02] [enrich] FALSE POSITIVE erkannt: Der Text ist nur eine generische Beschreibung einer Nachrichtenplattform (Google News). Es wird kein konkreter Brandartikel oder Krankenhausbrand beschrieben.
+[2026-03-15 09:37:03] [enrich] --- Enriche [18/20]: Alptraum in Klinik: Zweimal kurz hintereinander Feueralarm -
+[2026-03-15 09:37:03] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMisgFBVV95cUxPNVB6OUstMUdzSjJJM3B5Sm9uSWt
+[2026-03-15 09:37:04] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:37:05] [enrich] FALSE POSITIVE erkannt: Der Text ist eine generische Beschreibung von Google News und enthält keinen spezifischen Artikel über einen Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:37:06] [enrich] --- Enriche [19/20]: Festnahme wegen Verdachts der Brandstiftung nach Feuer in Ha
+[2026-03-15 09:37:06] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uYU13SmY5bi1leXM1ZVN4YUpzUmN
+[2026-03-15 09:37:06] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:37:07] [enrich] FALSE POSITIVE erkannt: Der eingereichte Text ist kein Artikel über einen konkreten Krankenhausbrand, sondern nur eine generische Beschreibung der Seite 'Google News'. Es enthält keine Informationen über einen spezifischen Brandvorfall in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:37:08] [enrich] --- Enriche [20/20]: Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SW
+[2026-03-15 09:37:08] [enrich] Google News Redirect konnte nicht aufgelöst werden, verwende Original: https://news.google.com/rss/articles/CBMiowFBVV95cUxNQnJtdmFRT0UyZjR0YklYQjg0VFh
+[2026-03-15 09:37:09] [enrich] Volltext extrahiert: 121 Zeichen
+[2026-03-15 09:37:14] [enrich] FALSE POSITIVE erkannt: Der eingereichte Text ist keine Nachricht über einen konkreten Krankenhausbrand, sondern nur eine generische Beschreibung einer News-Aggregator-Funktion. Es gibt keinen tatsächlichen Artikel mit Informationen über einen Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-15 09:37:14] [enrich] Ergebnis: 0 enriched, 0 partial, 20 false_positive, 0 failed
+[2026-03-15 09:37:14] [enrich] === Enrichment-Lauf beendet ===
+
