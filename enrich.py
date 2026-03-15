@@ -2,6 +2,9 @@
 """
 Enrichment-Layer für den Krankenhausbrand-Monitor.
 Fetcht Artikel-Volltexte und extrahiert per Claude API strukturierte Steckbriefe.
+
+v3.0 — Google News URL-Auflösung via googlenewsdecoder, Boilerplate-Erkennung,
+        robuster Snippet-Fallback.
 """
 
 import json
@@ -22,6 +25,18 @@ try:
 except ImportError:
     BeautifulSoup = None
 
+# Google News Decoder — zwei Methoden verfügbar
+try:
+    from googlenewsdecoder import new_decoderv1 as gn_decode_v1
+except ImportError:
+    gn_decode_v1 = None
+
+try:
+    from googlenewsdecoder import GoogleDecoder
+    gn_decoder_v2 = GoogleDecoder()
+except ImportError:
+    gn_decoder_v2 = None
+
 # ── Konfiguration ──
 DATA_DIR = Path(__file__).parent / "data"
 DB_FILE = DATA_DIR / "braende.json"
@@ -36,6 +51,14 @@ MAX_ENRICH_PER_RUN = int(os.environ.get("MAX_ENRICH_PER_RUN") or "20")
 
 # User-Agent für Artikel-Abruf
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+# Bekannte Google-Boilerplate-Texte (wenn resolve fehlschlägt, liefert Google nur diese Seite)
+GOOGLE_BOILERPLATE_MARKERS = [
+    "google news",
+    "before you continue to google",
+    "javascript is not enabled",
+    "to continue, turn on javascript",
+]
 
 
 def log(msg):
@@ -60,65 +83,77 @@ def save_db(db):
         json.dump(db, f, ensure_ascii=False, indent=2)
 
 
+def is_google_boilerplate(text):
+    """Erkennt Google News Boilerplate-Text (wenn Redirect-Auflösung fehlschlägt)."""
+    if not text:
+        return True
+    text_lower = text.lower()
+    # Zu kurz für einen echten Artikel
+    if len(text.strip()) < 200:
+        for marker in GOOGLE_BOILERPLATE_MARKERS:
+            if marker in text_lower:
+                return True
+    # Weitere Heuristik: Text enthält fast nur Google-spezifische Inhalte
+    if "consent.google" in text_lower or "accounts.google" in text_lower:
+        return True
+    return False
+
+
 # ── Google News Redirect-Auflösung ──
 
 def resolve_google_news_url(url):
     """
     Google News RSS liefert Redirect-URLs (news.google.com/rss/articles/...).
-    Diese Funktion löst den Redirect auf und gibt die finale Artikel-URL zurück.
+    Löst diese auf über googlenewsdecoder-Library (2 Methoden).
+    Gibt (resolved_url, methode) zurück.
     """
     if "news.google.com" not in url:
-        return url
+        return url, "direct"
 
-    headers = {
-        "User-Agent": USER_AGENT,
-        "Accept": "text/html,application/xhtml+xml",
-    }
+    # Methode 1: googlenewsdecoder v1 (schnell, offline base64-Decode)
+    # Funktioniert nur bei älteren Google News URL-Formaten
+    if gn_decode_v1:
+        try:
+            result = gn_decode_v1(url)
+            if isinstance(result, dict):
+                if result.get("status") and result.get("decoded_url"):
+                    decoded = result["decoded_url"]
+                    if decoded.startswith("http") and "google" not in decoded.lower():
+                        log(f"Google News URL aufgelöst (v1): {decoded[:80]}")
+                        return decoded, "gn_decoder_v1"
+            elif isinstance(result, str) and result.startswith("http") and "google" not in result.lower():
+                log(f"Google News URL aufgelöst (v1): {result[:80]}")
+                return result, "gn_decoder_v1"
+        except Exception as e:
+            log(f"googlenewsdecoder v1 fehlgeschlagen: {e}")
 
-    try:
-        # Methode 1: HTTP-Redirect folgen
-        resp = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
-        final_url = resp.url
+    # Methode 2: googlenewsdecoder v2 (macht HTTP-Requests an Google, zuverlässiger)
+    if gn_decoder_v2:
+        try:
+            result = gn_decoder_v2.decode_google_news_url(url)
+            if result.get("status") and result.get("decoded_url"):
+                decoded = result["decoded_url"]
+                log(f"Google News URL aufgelöst (v2): {decoded[:80]}")
+                return decoded, "gn_decoder_v2"
+            else:
+                log(f"googlenewsdecoder v2 fehlgeschlagen: {result.get('message', 'unbekannt')}")
+        except Exception as e:
+            log(f"googlenewsdecoder v2 Fehler: {e}")
 
-        # Wenn wir nicht mehr auf Google sind, haben wir die echte URL
-        if "google.com" not in final_url and "google.de" not in final_url:
-            log(f"Google News Redirect aufgelöst: {final_url[:80]}")
-            return final_url
+    # Methode 3: Fallback — HTTP-Redirect folgen (funktioniert selten bei Google News)
+    if requests:
+        try:
+            headers = {"User-Agent": USER_AGENT, "Accept": "text/html"}
+            resp = requests.get(url, headers=headers, timeout=10, allow_redirects=True)
+            final_url = resp.url
+            if "google.com" not in final_url and "google.de" not in final_url:
+                log(f"Google News URL aufgelöst (HTTP-Redirect): {final_url[:80]}")
+                return final_url, "http_redirect"
+        except Exception as e:
+            log(f"HTTP-Redirect-Auflösung fehlgeschlagen: {e}")
 
-        # Methode 2: Im HTML nach der echten URL suchen
-        if BeautifulSoup and resp.text:
-            soup = BeautifulSoup(resp.text, "html.parser")
-
-            # Google News nutzt oft data-url oder href in <a>-Tags
-            for a_tag in soup.find_all("a", href=True):
-                href = a_tag["href"]
-                if href.startswith("http") and "google" not in href.lower():
-                    log(f"Google News URL aus HTML extrahiert: {href[:80]}")
-                    return href
-
-            # Alternativ: meta refresh
-            meta_refresh = soup.find("meta", attrs={"http-equiv": "refresh"})
-            if meta_refresh and meta_refresh.get("content"):
-                match = re.search(r'url=(.+)', meta_refresh["content"], re.IGNORECASE)
-                if match:
-                    extracted = match.group(1).strip().rstrip('"').rstrip("'")
-                    log(f"Google News URL aus meta-refresh: {extracted[:80]}")
-                    return extracted
-
-        # Methode 3: URL aus dem Google News Link selbst extrahieren
-        if "/articles/" in url:
-            from urllib.parse import parse_qs, urlparse
-            parsed = urlparse(resp.url)
-            params = parse_qs(parsed.query)
-            if "url" in params:
-                return params["url"][0]
-
-        log(f"Google News Redirect konnte nicht aufgelöst werden, verwende Original: {url[:80]}")
-        return url
-
-    except Exception as e:
-        log(f"Fehler bei Google News Redirect-Auflösung: {e}")
-        return url
+    log(f"Google News URL konnte NICHT aufgelöst werden: {url[:80]}")
+    return url, "failed"
 
 
 # ── Artikel-Fetching mit Fallback-Kaskade ──
@@ -127,13 +162,19 @@ def fetch_article_text(url):
     """
     Versucht den Volltext eines Artikels zu extrahieren.
     Löst zuerst Google News Redirects auf, dann Fallback-Kaskade.
+    Gibt (text, resolved_url, resolve_method) zurück.
     """
     if not requests:
         log("WARNUNG: requests nicht installiert, überspringe Artikel-Fetch")
-        return None
+        return None, url, "no_requests"
 
     # Google News Redirects auflösen
-    resolved_url = resolve_google_news_url(url)
+    resolved_url, resolve_method = resolve_google_news_url(url)
+
+    # Wenn Auflösung fehlgeschlagen und URL noch auf Google zeigt → kein Fetch versuchen
+    if resolve_method == "failed" and "news.google.com" in resolved_url:
+        log(f"Überspringe Fetch — Google News URL nicht aufgelöst")
+        return None, resolved_url, resolve_method
 
     headers = {
         "User-Agent": USER_AGENT,
@@ -146,12 +187,17 @@ def fetch_article_text(url):
         resp.raise_for_status()
     except Exception as e:
         log(f"Artikel-Fetch fehlgeschlagen für {resolved_url[:80]}: {e}")
-        return None
+        return None, resolved_url, resolve_method
+
+    # Boilerplate-Check (falls wir doch auf einer Google-Seite gelandet sind)
+    if is_google_boilerplate(resp.text[:500]):
+        log(f"Google Boilerplate erkannt — Text verworfen")
+        return None, resolved_url, resolve_method
 
     if not BeautifulSoup:
         text = re.sub(r'<[^>]+>', ' ', resp.text)
         text = re.sub(r'\s+', ' ', text).strip()
-        return text[:5000] if text else None
+        return (text[:5000] if text else None), resolved_url, resolve_method
 
     soup = BeautifulSoup(resp.text, "html.parser")
 
@@ -161,43 +207,44 @@ def fetch_article_text(url):
         if article:
             text = article.get_text(separator=" ", strip=True)
             if len(text) > 100:
-                return text[:5000]
+                return text[:5000], resolved_url, resolve_method
 
     # Strategie 2: <article>-Tag
     article = soup.find("article")
     if article:
         text = article.get_text(separator=" ", strip=True)
         if len(text) > 100:
-            return text[:5000]
+            return text[:5000], resolved_url, resolve_method
 
     # Strategie 3: Hauptinhalt über gängige CSS-Klassen
     for selector in ["div.article-body", "div.article-content", "div.story-body",
                       "div.entry-content", "div.post-content", "div.text",
-                      "main", "div[role='main']"]:
+                      "div.article__body", "div.article-text", "div.content-body",
+                      "main", "div[role='main']", "div[itemprop='articleBody']"]:
         content = soup.select_one(selector)
         if content:
             text = content.get_text(separator=" ", strip=True)
             if len(text) > 200:
-                return text[:5000]
+                return text[:5000], resolved_url, resolve_method
 
     # Strategie 4: Alle <p>-Tags
     paragraphs = soup.find_all("p")
     if paragraphs:
         text = " ".join(p.get_text(strip=True) for p in paragraphs)
         if len(text) > 100:
-            return text[:5000]
+            return text[:5000], resolved_url, resolve_method
 
     # Fallback: <meta> description
     meta_desc = soup.find("meta", attrs={"name": "description"})
     if meta_desc and meta_desc.get("content"):
-        return meta_desc["content"][:1000]
+        return meta_desc["content"][:1000], resolved_url, resolve_method
 
     meta_og = soup.find("meta", attrs={"property": "og:description"})
     if meta_og and meta_og.get("content"):
-        return meta_og["content"][:1000]
+        return meta_og["content"][:1000], resolved_url, resolve_method
 
     log(f"Kein Artikeltext extrahierbar für {resolved_url[:80]}")
-    return None
+    return None, resolved_url, resolve_method
 
 
 # ── Claude API Call ──
@@ -211,6 +258,8 @@ KEIN Krankenhausbrand ist:
 - Brand in der Nähe eines Krankenhauses, aber nicht im Krankenhaus selbst
 - Brandschutzübungen, Brandschutzkonzepte, Brandbriefe
 - Brände in ausländischen Krankenhäusern (außerhalb Deutschlands)
+- Evakuierungen wegen Bombenentschärfung, Hochwasser oder anderen Nicht-Brand-Gründen
+- Artikel die "Krankenhaus" und "Brand/Feuer" nur im Kontext von Behandlung/Einlieferung erwähnen
 
 Wenn der Artikel KEINEN Brand in einem deutschen Krankenhaus/einer Klinik beschreibt, antworte NUR mit:
 {"ist_krankenhausbrand": false, "grund": "kurze Begründung"}
@@ -302,20 +351,25 @@ def enrich_entry(entry):
         return "failed"
 
     # Schritt 1: Artikel-Volltext fetchen
-    article_text = fetch_article_text(url)
+    article_text, resolved_url, resolve_method = fetch_article_text(url)
 
-    if not article_text or len(article_text) < 100:
+    # Aufgelöste URL im Entry speichern (für spätere Referenz)
+    if resolved_url != url:
+        entry["resolved_url"] = resolved_url
+    entry["resolve_method"] = resolve_method
+
+    if not article_text or len(article_text) < 200:
         # Fallback: RSS-Snippet verwenden
         snippet = f"{entry.get('titel', '')} {entry.get('zusammenfassung', '')}"
         if len(snippet.strip()) < 50:
             log(f"Weder Volltext noch Snippet verfügbar für {url[:80]}")
             return "failed"
-        log(f"Volltext zu kurz ({len(article_text) if article_text else 0} Z.), verwende RSS-Snippet ({len(snippet)} Z.)")
+        log(f"Volltext zu kurz/leer ({len(article_text) if article_text else 0} Z.), verwende RSS-Snippet ({len(snippet)} Z.)")
         article_text = snippet
         is_snippet = True
     else:
         is_snippet = False
-        log(f"Volltext extrahiert: {len(article_text)} Zeichen")
+        log(f"Volltext extrahiert: {len(article_text)} Zeichen von {resolved_url[:60]}")
 
     # Schritt 2: Claude API aufrufen
     steckbrief = call_claude_api(article_text)
@@ -361,6 +415,10 @@ def main():
     if not requests:
         log("FEHLER: requests-Bibliothek nicht verfügbar")
         return
+
+    # Verfügbarkeit der Decoder loggen
+    log(f"googlenewsdecoder v1: {'verfügbar' if gn_decode_v1 else 'NICHT verfügbar'}")
+    log(f"googlenewsdecoder v2: {'verfügbar' if gn_decoder_v2 else 'NICHT verfügbar'}")
 
     db = load_db()
     entries = db.get("entries", [])
