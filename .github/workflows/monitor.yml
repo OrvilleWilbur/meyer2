@@ -1,29 +1,22 @@
 name: Krankenhausbrand-Monitor
-
 on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
-
 permissions:
   contents: write
-
 jobs:
   monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Python Setup
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-
       - name: Dependencies
         run: pip install -r requirements.txt
-
       - name: Crawler ausführen
         env:
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
@@ -32,14 +25,14 @@ jobs:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
         run: python monitor.py
-
       - name: Enrichment ausführen
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: claude-haiku-4-5-20251001
           MAX_ENRICH_PER_RUN: '20'
         run: python enrich.py
-
+      - name: Duplikate zusammenführen
+        run: python deduplicate.py
       - name: Änderungen committen
         run: |
           git config user.name "KH-Brand-Monitor"
