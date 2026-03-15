@@ -1,8 +1,41 @@
 {
-  "generated_at": "2026-03-15T22:48:37.093647",
+  "generated_at": "2026-03-15T23:45:45.723547",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.8,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.8
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Halle (Saale)",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://dubisthalle.de/steckdosenbrand-in-der-uniklinik-halle-saale-keine-verletzten-op-betrieb-sichergestellt",
+        "titel": "Steckdosenbrand in der Uniklinik Halle (Saale): Keine Verletzten, OP-Betrieb sichergestellt - Du bist Halle"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinikum Halle",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
+        "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
+      }
+    },
     {
       "hashes": [
         "",
@@ -34,6 +67,39 @@
         "status": "partial",
         "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
         "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.794,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.2777777777777778,
+        "total": 0.794
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
+        "ort": "Leipzig, Stadtteil Probstheida",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
+        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Park-Klinikum Leipzig",
+        "ort": "Leipzig",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
+        "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - TAG24"
       }
     },
     {
@@ -100,6 +166,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.754,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.38461538461538464,
+        "total": 0.754
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
+        "ort": "Düsseldorf",
+        "datum": "16.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
+        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Düsseldorf (UKD)",
+        "ort": "Düsseldorf",
+        "datum": "17.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuerwehr-loescht-brand-in-der-uniklinik_aid-88674117",
+        "titel": "Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsseldorfer Uniklinik - RP Online"
       }
     },
     {
@@ -206,6 +305,72 @@
         "",
         ""
       ],
+      "score": 0.713,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.05555555555555555,
+        "total": 0.713
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Bergmannsheil",
+        "ort": "Bochum",
+        "datum": "29.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.tagesspiegel.de/gesellschaft/panorama/zwei-tote-bei-brand-in-bochumer-uniklinik-bergmannsheil-3759997.html",
+        "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Bochum (Uniklinik Bochum)",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/video158458539/Zwei-Patienten-sterben-bei-Grossbrand.html",
+        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.71,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.71
+      },
+      "entry_a": {
+        "einrichtung": "Kliniken Maria Hilf",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
+        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.7,
       "details": {
         "datum": 0.0,
@@ -239,32 +404,32 @@
         "",
         ""
       ],
-      "score": 0.686,
+      "score": 0.698,
       "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.125,
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
         "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.686
+        "brandort": 0.3333333333333333,
+        "total": 0.698
       },
       "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+        "einrichtung": "Klinik in Braunschweig (Name nicht genannt)",
+        "ort": "Braunschweig",
+        "datum": "03.03.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/brand-in-braunschweiger-klinik-patientin-tot-50110250",
+        "titel": "Patientin will rauchen und stirbt in Braunschweiger Klinik - noz.de"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
+        "einrichtung": "Städtisches Klinikum Braunschweig",
+        "ort": "Braunschweig",
+        "datum": "04.03.2026",
+        "bundesland": "Niedersachsen",
         "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursache-nach-feuer-im-krankenhaus-in-braunschweig-geklaert,klinikum-110.html",
+        "titel": "Patientin will Zigarette anzünden und löst Brand im Krankenhaus aus - sie selbst stirbt - NDR.de"
       }
     },
     {
@@ -536,72 +701,6 @@
         "",
         ""
       ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - T-Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.65,
       "details": {
         "datum": 0.0,
@@ -727,6 +826,105 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
         "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
+        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
+        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
+        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
       }
     },
     {
@@ -760,6 +958,39 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.558,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.6,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.558
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmansheil Bochum",
+        "ort": "Bochum",
+        "datum": "05.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
+        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Bochum (Uniklinik Bochum)",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/video158458539/Zwei-Patienten-sterben-bei-Grossbrand.html",
+        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
       }
     },
     {
@@ -1519,39 +1750,6 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-und-umgebung-auf-110.html",
         "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus und Umgebung auf - Deutschlandfunk"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.5,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 0.8,
-        "bundesland": 0.0,
-        "brandort": 0.0,
-        "total": 0.5
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQR1NabTNUNXJ6M19pSmRvRnlxdVNjcjhHUEJZRW82TEV1WExtdTJzaGlTc1JNNGdfaHhqZnAzOVJCTmZqTHp1Z04wZWplaTRhb2xKcmtwSWNWQkNhTHl1U25acFQtdWxjRndCSVhvRkdwdkVQUy0yUDlMOUQxTFVwbjRKQm02STdocjFjTDZfLXdPQllrOEJuTGdZdThEQVhlTDB0aUxDU1RyQmstZFZvclNPNGMxS2lQYkE?oc=5",
-        "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik",
-        "ort": "",
-        "datum": "30.09.2016",
-        "bundesland": "",
-        "status": "pending",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT2t2a2JnVmRpdlFtckg0Mzdvemppc1piUnhBNTZJcERGbnVsNUZySzBFN3lQWVlSSW5mX3U5azhIaFBxWVJZRFZheU1iZHRFdXVFNmRLaUxUOHNRNmFMcTNOdFcwb0tVTnVsTTVRNkhmRXdmU0tGdTBRMXQ4aXNHd19XR2szemJBNm5ubzVMTlFsazg?oc=5",
-        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
       }
     },
     {

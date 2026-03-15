@@ -2384,3 +2384,127 @@
 [2026-03-15 22:48:37] [DEDUP] Ergebnis: 212 Einträge (war: 214, 2 zusammengeführt)
 [2026-03-15 22:48:37] [DEDUP] Kandidaten-Datei: 49 pending, 1 confirmed, 0 rejected
 [2026-03-15 22:48:37] [DEDUP] Gespeichert: 214 → 212 Einträge
+[2026-03-15 23:44:04] === Monitor-Lauf gestartet ===
+[2026-03-15 23:44:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 23:44:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 23:44:06] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 23:44:06] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-15 23:44:07] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-03-15 23:44:07] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-15 23:44:07] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-15 23:44:08] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-15 23:44:08] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-03-15 23:44:09] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-03-15 23:44:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 23:44:10] 244 relevante Treffer in Feeds
+[2026-03-15 23:44:10] Keine neuen Einträge
+[2026-03-15 23:44:10] === Monitor-Lauf beendet ===
+
+[2026-03-15 23:44:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 23:44:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 23:44:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 23:44:10] [enrich] 27 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 23:44:10] [enrich] --- Enriche [1/20]: Ameos-Klinik in Heiligenhafen: Erneut Feuer in Patientenzimm
+[2026-03-15 23:44:10] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/ameos-klinik-in-heiligenhaf
+[2026-03-15 23:44:11] [enrich] Volltext extrahiert: 1027 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/ameos-k
+[2026-03-15 23:44:13] [enrich] Enrichment abgeschlossen: enriched — Ameos-Klinik Heiligenhafen in Heiligenhafen
+[2026-03-15 23:44:14] [enrich] --- Enriche [2/20]: Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufw
+[2026-03-15 23:44:15] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sicher
+[2026-03-15 23:44:15] [enrich] Volltext extrahiert: 1453 Zeichen von https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-hal
+[2026-03-15 23:44:18] [enrich] Enrichment abgeschlossen: enriched — Uniklinikum Halle in Halle (Saale)
+[2026-03-15 23:44:19] [enrich] --- Enriche [3/20]: Brandgefahr: Uniklinik nun besser gewappnet - Aachener Zeitu
+[2026-03-15 23:44:19] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-aachen/aachen/brandgefahr-uniklin
+[2026-03-15 23:44:22] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.aachener-zeitung.de/lokales/region-aachen/aachen
+[2026-03-15 23:44:24] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt ein Brandschutzkonzept und Brandschutzmaßnahmen in der Uniklinik Aachen, nicht einen tatsächlichen Brand. Es geht um die Genehmigung und Umsetzung von Brandschutzvorschriften und -infrastruktur, nicht um einen eingetretenen Brandfall.
+[2026-03-15 23:44:25] [enrich] --- Enriche [4/20]: Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-15 23:44:25] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-in-kran
+[2026-03-15 23:44:26] [enrich] Volltext extrahiert: 2473 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-15 23:44:29] [enrich] Enrichment abgeschlossen: enriched — Marien-Hospital in Düsseldorf
+[2026-03-15 23:44:30] [enrich] --- Enriche [5/20]: Hilfeersuchen für 40 Verletzte: Deutsche Kliniken nehmen Sch
+[2026-03-15 23:44:30] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Deutsche-Kliniken-nehmen-Schweizer-Brandopfer-auf-i
+[2026-03-15 23:44:30] [enrich] Volltext extrahiert: 4428 Zeichen von https://www.n-tv.de/panorama/Deutsche-Kliniken-nehmen-Schwei
+[2026-03-15 23:44:32] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in Crans-Montana (Schweiz) und berichtet nur über die Behandlung von Brandopfern in deutschen Kliniken. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Aufnahme von Verletzten aus einem ausländischen Brandunfall zur medizinischen Versorgung.
+[2026-03-15 23:44:33] [enrich] --- Enriche [6/20]: Gebäude nach Explosion in der Altstadt von Salzwedel evakuie
+[2026-03-15 23:44:34] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/lokal/salzwedel/explosion-salzwedel-verpuffung-heizun
+[2026-03-15 23:44:34] [enrich] Volltext extrahiert: 1569 Zeichen von https://www.volksstimme.de/lokal/salzwedel/explosion-salzwed
+[2026-03-15 23:44:36] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Explosion in einem Bürogebäude (IT-Firma) in der Altstadt von Salzwedel. Die Erwähnung eines Mannes im Krankenhaus bezieht sich auf die Behandlung eines Verletzten nach der Explosion, nicht auf einen Brand IN einem Krankenhaus.
+[2026-03-15 23:44:37] [enrich] --- Enriche [7/20]: Bombenfund in Klinikum - Evakuierung läuft - Merkur
+[2026-03-15 23:44:37] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik-mainkofen-evakuieru
+[2026-03-15 23:44:38] [enrich] Volltext extrahiert: 801 Zeichen von https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik
+[2026-03-15 23:44:38] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand
+[2026-03-15 23:44:39] [enrich] --- Enriche [8/20]: 14 Patienten sterben nach Evakuierung von Krankenhaus - Merk
+[2026-03-15 23:44:40] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/welt/patienten-sterben-nach-evakuierung-krankenhaus-zr-116
+[2026-03-15 23:44:41] [enrich] Volltext extrahiert: 1119 Zeichen von https://www.merkur.de/welt/patienten-sterben-nach-evakuierun
+[2026-03-15 23:44:42] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses in Japan nach Erdbeben und Tsunami (Fukushima-Katastrophe), kein Brand in deutschem Krankenhaus
+[2026-03-15 23:44:43] [enrich] --- Enriche [9/20]: Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei 
+[2026-03-15 23:44:43] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-kra
+[2026-03-15 23:44:43] [enrich] Volltext extrahiert: 3672 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100750332/br
+[2026-03-15 23:44:46] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-15 23:44:47] [enrich] --- Enriche [10/20]: Patientin will Zigarette anzünden und löst Brand im Krankenh
+[2026-03-15 23:44:47] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursach
+[2026-03-15 23:44:48] [enrich] Volltext extrahiert: 1413 Zeichen von https://www.ndr.de/nachrichten/niedersachsen/braunschweig_ha
+[2026-03-15 23:44:51] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Braunschweig in Braunschweig
+[2026-03-15 23:44:52] [enrich] --- Enriche [11/20]: Feuer in Neumünster: Familie musste ins Krankenhaus - shz.de
+[2026-03-15 23:44:52] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/neumuenster/artikel/feuer-in-neumuenster-familie-im-k
+[2026-03-15 23:44:53] [enrich] Volltext extrahiert: 1058 Zeichen von https://www.shz.de/lokales/neumuenster/artikel/feuer-in-neum
+[2026-03-15 23:44:54] [enrich] FALSE POSITIVE erkannt: Ein Küchenbrand in einem Mehrfamilienhaus. Eine Familie wurde nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-03-15 23:44:55] [enrich] --- Enriche [12/20]: Autos beim Krankenhaus Tirschenreuth in Flammen - Onetz
+[2026-03-15 23:44:55] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/oberpfalz/tirschenreuth/autos-beim-krankenhaus-tirschenreut
+[2026-03-15 23:44:56] [enrich] Volltext extrahiert: 2386 Zeichen von https://www.onetz.de/oberpfalz/tirschenreuth/autos-beim-kran
+[2026-03-15 23:44:58] [enrich] FALSE POSITIVE erkannt: Brand auf dem Parkplatz außerhalb des Krankenhauses (Fahrzeugbrände), nicht im Gebäude selbst. Das Krankenhaus war zu keiner Zeit gefährdet.
+[2026-03-15 23:44:59] [enrich] --- Enriche [13/20]: Brand in Leipziger Krankenhaus: Mehrere Patienten müssen ver
+[2026-03-15 23:44:59] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-kranken
+[2026-03-15 23:44:59] [enrich] Volltext extrahiert: 2395 Zeichen von https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-
+[2026-03-15 23:45:02] [enrich] Enrichment abgeschlossen: enriched — Helios Park-Klinikum Leipzig in Leipzig
+[2026-03-15 23:45:03] [enrich] --- Enriche [14/20]: Der Prozessauftakt in Bildern: Tödlichen Brand am Helios Kli
+[2026-03-15 23:45:03] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/bildergalerie_fotos,-Der-Prozessauftakt-in-Bildern-Toedli
+[2026-03-15 23:45:05] [enrich] Volltext extrahiert: 388 Zeichen von https://www.pz-news.de/bildergalerie_fotos,-Der-Prozessaufta
+[2026-03-15 23:45:07] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline zu einem Prozessauftakt zu einem Brand am Helios Klinikum, aber keinen eigentlichen Artikeltext mit Informationen zum Brand selbst. Es handelt sich um eine Paywall-Seite ohne substantielle Inhalte zum Brandvorfal.
+[2026-03-15 23:45:08] [enrich] --- Enriche [15/20]: Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsse
+[2026-03-15 23:45:08] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuerwehr-loe
+[2026-03-15 23:45:09] [enrich] Volltext extrahiert: 4092 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-15 23:45:18] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Düsseldorf (UKD) in Düsseldorf
+[2026-03-15 23:45:19] [enrich] --- Enriche [16/20]: Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklin
+[2026-03-15 23:45:19] [enrich] Google News URL aufgelöst (v1): https://www.tagesspiegel.de/gesellschaft/panorama/zwei-tote-bei-brand-in-bochume
+[2026-03-15 23:45:20] [enrich] Volltext extrahiert: 3447 Zeichen von https://www.tagesspiegel.de/gesellschaft/panorama/zwei-tote-
+[2026-03-15 23:45:25] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-15 23:45:26] [enrich] --- Enriche [17/20]: FW-DO: Brand in der LWL-Klinik in DO-Aplerbeck Nächtliche Ev
+[2026-03-15 23:45:26] [enrich] Google News URL aufgelöst (v1): https://www.presseportal.de/blaulicht/pm/115869/5840891
+[2026-03-15 23:45:27] [enrich] Volltext extrahiert: 1579 Zeichen von https://www.presseportal.de/blaulicht/pm/115869/5840891
+[2026-03-15 23:45:30] [enrich] Enrichment abgeschlossen: enriched — LWL-Klinik für psychische Erkrankungen in Dortmund
+[2026-03-15 23:45:31] [enrich] --- Enriche [18/20]: Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de
+[2026-03-15 23:45:31] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand
+[2026-03-15 23:45:32] [enrich] Volltext extrahiert: 1427 Zeichen von https://www.sueddeutsche.de/panorama/station-evakuiert-feuer
+[2026-03-15 23:45:34] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus in Mönchengladbach (Name nicht spezifiziert) in Mönchengladbach
+[2026-03-15 23:45:35] [enrich] --- Enriche [19/20]: Brand im Krankenhaus Neuruppin: Patientenzimmer der Uniklini
+[2026-03-15 23:45:36] [enrich] Google News URL aufgelöst (v1): https://www.moz.de/lokales/neuruppin/brand-im-krankenhaus-neuruppin-patientenzim
+[2026-03-15 23:45:37] [enrich] Volltext extrahiert: 2239 Zeichen von https://www.moz.de/lokales/neuruppin/brand-im-krankenhaus-ne
+[2026-03-15 23:45:40] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum (UKRB) Neuruppin in Neuruppin
+[2026-03-15 23:45:41] [enrich] --- Enriche [20/20]: Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - V
+[2026-03-15 23:45:42] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video158458539/Zwei-Patienten-sterben-bei-Grossb
+[2026-03-15 23:45:43] [enrich] Volltext extrahiert: 1183 Zeichen von https://www.welt.de/vermischtes/video158458539/Zwei-Patiente
+[2026-03-15 23:45:45] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Bochum (Uniklinik Bochum) in Bochum
+[2026-03-15 23:45:45] [enrich] Ergebnis: 12 enriched, 0 partial, 8 false_positive, 0 failed
+[2026-03-15 23:45:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 23:45:45] [DEDUP] Starte Dedup für 212 Einträge
+[2026-03-15 23:45:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (0.83): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (1.00): Ameos-Klinik Heiligenhafen / Heiligenhafen ↔ Ameos-Klinik Heiligenhafen / Heiligenhafen
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (1.00): Marien-Hospital / Düsseldorf ↔ Marien-Hospital / Düsseldorf
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (0.81): Universitätsklinikum Ruppin-Brandenburg / Neuruppin ↔ Universitätsklinikum (UKRB) Neuruppin / Neuruppin
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (0.91): Universitätsklinik Düsseldorf (UKD), Kli / Düsseldorf ↔ Universitätsklinikum Düsseldorf (UKD) / Düsseldorf
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (0.82): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-15 23:45:45] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinik Bochum (Uniklinik Boc / Bochum
+[2026-03-15 23:45:45] [DEDUP] Paare verglichen: 1120
+[2026-03-15 23:45:45] [DEDUP] Auto-Merges: 7
+[2026-03-15 23:45:45] [DEDUP] Kandidaten (unsicher): 55
+[2026-03-15 23:45:45] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-15 23:45:45] [DEDUP] Cluster 2x: Ameos-Klinik Heiligenhafen, Ameos-Klinik Heiligenhafen
+[2026-03-15 23:45:45] [DEDUP] Cluster 2x: Marien-Hospital, Marien-Hospital
+[2026-03-15 23:45:45] [DEDUP] Cluster 2x: Universitätsklinikum Ruppin-Brandenburg, Universitätsklinikum (UKRB) Neuruppin
+[2026-03-15 23:45:45] [DEDUP] Cluster 2x: Universitätsklinik Düsseldorf (UKD), Kli, Universitätsklinikum Düsseldorf (UKD)
+[2026-03-15 23:45:45] [DEDUP] Cluster 3x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil, Universitätsklinik Bochum (Uniklinik Boc
+[2026-03-15 23:45:45] [DEDUP] Ergebnis: 205 Einträge (war: 212, 7 zusammengeführt)
+[2026-03-15 23:45:45] [DEDUP] Kandidaten-Datei: 55 pending, 1 confirmed, 0 rejected
+[2026-03-15 23:45:45] [DEDUP] Gespeichert: 212 → 205 Einträge
