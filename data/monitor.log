@@ -12,3 +12,98 @@
 [2026-03-14 22:38:50] [enrich] ANTHROPIC_API_KEY nicht gesetzt — Enrichment übersprungen
 [2026-03-14 22:38:50] [enrich] === Enrichment-Lauf beendet (kein API-Key) ===
 
+[2026-03-15 00:03:45] === Monitor-Lauf gestartet ===
+[2026-03-15 00:03:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 00:03:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 00:03:48] Feed 'google_news_kh_brand': 60 Einträge
+[2026-03-15 00:03:49] Feed 'google_news_klinik_feuer': 46 Einträge
+[2026-03-15 00:03:49] Feed 'google_news_klinikbrand': 100 Einträge
+[2026-03-15 00:03:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 00:03:50] 75 relevante Treffer in Feeds
+[2026-03-15 00:03:50] ✅ 63 NEUE Einträge gefunden:
+[2026-03-15 00:03:50]    22.02.2026 | im Krankenhaus |  | Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Klinik |  | Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Krankenhaus |  | Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 00:03:50]    01.06.2025 |  |  | Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Krankenhaus |  | Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 00:03:50]    05.01.2026 |  |  | "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-15 00:03:50]    02.06.2025 | Hamburger Klinik |  | Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Krankenhaus getötet |  | Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus ge
+[2026-03-15 00:03:50]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-03-15 00:03:50]    03.06.2025 | Hamburger Klinik |  | Nach Feuer in Hamburger Klinik: Verdächtiger kommt in Psychi
+[2026-03-15 00:03:50]    01.06.2025 | Marienkrankenhaus gefasst |  | War es Brandstiftung? Verdächtiger nach Feuer in Hamburger M
+[2026-03-15 00:03:50]    02.01.2025 | im Krankenhaus |  | Kellerbrand im Krankenhaus: Polizei sucht Zeugen - BR
+[2026-03-15 00:03:50]    01.11.2024 | in Krankenhaus |  | Brand in Krankenhaus in Frankenberg: ein Toter und 13 Verlet
+[2026-03-15 00:03:50]    01.06.2025 | in Klinik |  | Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk
+[2026-03-15 00:03:50]    19.04.2023 | Pekinger Krankenhaus steigt |  | Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenha
+[2026-03-15 00:03:50]    13.03.2026 | Möchengladbacher Krankenhaus |  | In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-15 00:03:50]    19.12.2025 | Marienkrankenhaus |  | Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-15 00:03:50]    07.01.2024 | in Krankenhaus |  | Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-15 00:03:50]    28.01.2026 | Jüdischem Krankenhaus Berlin |  | 14 Verletzte bei Brand in Jüdischem Krankenhaus Berlin - kei
+[2026-03-15 00:03:50]    11.11.2025 | Bruchsaler Krankenhaus |  | Klein-Brand im Bruchsaler Krankenhaus – 18 Patienten vorüber
+[2026-03-15 00:03:50]    02.02.2026 | im Krankenhaus |  | Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt
+[2026-03-15 00:03:50]    16.11.2024 | bei Krankenhaus |  | Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi ers
+[2026-03-15 00:03:50]    04.04.2025 | Augusta-Krankenhaus |  | Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-15 00:03:50]    05.01.2024 | in Krankenhaus |  | Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verl
+[2026-03-15 00:03:50]    28.01.2026 | Jüdischem Krankenhaus |  | Brände: Brand in Jüdischem Krankenhaus - kein antisemitische
+[2026-03-15 00:03:50]    13.12.2024 | Schön-Klinik Rendsburg |  | Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-15 00:03:50]    02.12.2025 | im Krankenhaus |  | Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus -
+[2026-03-15 00:03:50]    06.01.2024 | tödlichem Klinikbrand |  | Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-15 00:03:50]    20.02.2026 | im Krankenhaus |  | Wohnungsbrand in München – Fünf Menschen im Krankenhaus - On
+[2026-03-15 00:03:50]    13.01.2025 | Bochumer Klinik |  | Brand in Bochumer Klinik: Sieben Verletzte, einer schwebt in
+[2026-03-15 00:03:50]    06.01.2024 | einem Krankenhaus |  | Bei einem Brand in einem Krankenhaus in Hamburg sind fünf Me
+[2026-03-15 00:03:50]    29.08.2025 | ins Krankenhaus gebracht |  | Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-03-15 00:03:50]    10.09.2019 | einem Krankenhaus |  | Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-15 00:03:50]    24.12.2024 | im Krankenhaus |  | Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten 
+[2026-03-15 00:03:50]    10.09.2019 | Marienhospital Düsseldorf |  | Tödlicher Brand im Marienhospital Düsseldorf: Debatte um Bra
+[2026-03-15 00:03:50]    16.09.2016 |  |  | Krankenhaus-Brand: Auch Deichhorst wird nicht angefahren - d
+[2026-03-15 00:03:50]    10.03.2026 | im Krankenhaus |  | Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit
+[2026-03-15 00:03:50]    01.11.2024 | in Krankenhaus |  | Toter bei Brand in Krankenhaus - blaulichtmyk.de
+[2026-03-15 00:03:50]    11.02.2026 | in Klinik |  | Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.
+[2026-03-15 00:03:50]    22.08.2025 | in Klinik |  | Lidl Deutschland-Tour, Ärger über Sperrungen und Feuer in Kl
+[2026-03-15 00:03:50]    03.01.2026 | NRW-Klinik verlegt |  | Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-15 00:03:50]    07.01.2026 |  |  | Feuer-Inferno in Crans-Montana: Klinikum Nürnberg versorgt B
+[2026-03-15 00:03:50]    02.01.2026 | Spezialklinik |  | Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle beh
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-15 00:03:50]    04.10.2025 |  |  | Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die 
+[2026-03-15 00:03:50]    25.08.2025 | Reha-Klinik |  | Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-15 00:03:50]    27.11.2025 | in Klinik |  | Alptraum in Klinik: Zweimal kurz hintereinander Feueralarm -
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Klinik |  | Festnahme wegen Verdachts der Brandstiftung nach Feuer in Ha
+[2026-03-15 00:03:50]    07.08.2025 | GRN-Klinik |  | Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SW
+[2026-03-15 00:03:50]    01.06.2025 | Hamburger Klinik |  | Verdacht der Brandstiftung nach Feuer in Hamburger Klinik - 
+[2026-03-15 00:03:50]    19.04.2024 | in Krankenhaus |  | Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-15 00:03:50]    22.04.2024 | Helios-Klinik schwer verletzt |  | 41-Jähriger wird bei Zimmerbrand in Schleswiger Helios-Klini
+[2026-03-15 00:03:50]    21.08.2025 | Reha-Klinik |  | Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-15 00:03:50]    18.02.2026 | Chiemgau-Klinik brennt vollständig aus |  | Saunabereich der Chiemgau-Klinik brennt vollständig aus - On
+[2026-03-15 00:03:50]    01.06.2025 | Marienkrankenhaus |  | Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-15 00:03:50]    14.04.2025 | Ameos-Klinik |  | Feuer bei Ameos-Klinik in Neustadt: Drei Verletzte – Kripo e
+[2026-03-15 00:03:50]    07.02.2025 |  |  | MB-Monitor 2024: Überlastung, Gewalt & Co. – Klinikärzte unt
+[2026-03-15 00:03:50]    30.06.2023 |  |  | Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-15 00:03:50]    25.09.2023 | Salziger Klinik endet ohne Verletzte |  | Brand in Bad Salziger Klinik endet ohne Verletzte – 93 Patie
+[2026-03-15 00:03:50]    26.12.2022 | Ameos-Klinik |  | Ameos-Klinik in Heiligenhafen: Erneut Feuer in Patientenzimm
+[2026-03-15 00:03:50]    22.04.2019 | der Klinik |  | Feuer in der Klinik in Oldenburg in Holstein - shz.de
+[2026-03-15 00:03:50]    03.01.2026 | Unfallkrankenhaus Berlin nimmt Patienten |  | Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-15 00:03:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-15 00:03:50] === Monitor-Lauf beendet ===
+
+[2026-03-15 00:03:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 00:03:50] [enrich] 63 Einträge warten auf Enrichment (max 5 pro Lauf)
+[2026-03-15 00:03:50] [enrich] --- Enriche [1/5]: Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de
+[2026-03-15 00:03:51] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:03:51] [enrich] Claude API Fehler: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+[2026-03-15 00:03:52] [enrich] --- Enriche [2/5]: Tote und Verletzte bei Brand in Hamburger Klinik - tagesscha
+[2026-03-15 00:03:52] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:03:52] [enrich] Claude API Fehler: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+[2026-03-15 00:03:53] [enrich] --- Enriche [3/5]: Drei Tote bei Brand in Hamburger Krankenhaus - DW.com
+[2026-03-15 00:03:53] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:03:54] [enrich] Claude API Fehler: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+[2026-03-15 00:03:55] [enrich] --- Enriche [4/5]: Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-15 00:03:55] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:03:55] [enrich] Claude API Fehler: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+[2026-03-15 00:03:56] [enrich] --- Enriche [5/5]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-15 00:03:56] [enrich] Volltext extrahiert: 98 Zeichen
+[2026-03-15 00:03:56] [enrich] Claude API Fehler: 404 Client Error: Not Found for url: https://api.anthropic.com/v1/messages
+[2026-03-15 00:03:56] [enrich] Ergebnis: 0 enriched, 0 partial, 5 failed
+[2026-03-15 00:03:56] [enrich] === Enrichment-Lauf beendet ===
+
