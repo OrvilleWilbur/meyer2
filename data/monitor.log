@@ -2035,3 +2035,123 @@
 [2026-03-15 20:32:02] [DEDUP] Ergebnis: 217 Einträge (war: 224, 7 zusammengeführt)
 [2026-03-15 20:32:02] [DEDUP] Kandidaten-Datei: 56 pending, 1 confirmed, 0 rejected
 [2026-03-15 20:32:02] [DEDUP] Gespeichert: 224 → 217 Einträge
+[2026-03-15 20:45:50] === Monitor-Lauf gestartet ===
+[2026-03-15 20:45:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-15 20:45:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-15 20:45:53] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-15 20:45:54] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-03-15 20:45:54] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-03-15 20:45:55] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-15 20:45:55] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-15 20:45:56] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-15 20:45:56] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-15 20:45:57] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-15 20:45:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-15 20:45:58] 250 relevante Treffer in Feeds
+[2026-03-15 20:45:58] Keine neuen Einträge
+[2026-03-15 20:45:58] === Monitor-Lauf beendet ===
+
+[2026-03-15 20:45:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-15 20:45:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-15 20:45:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-15 20:45:59] [enrich] 85 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-15 20:45:59] [enrich] --- Enriche [1/20]: Explosion auf Teneriffa: Frau nach Feuer in Uniklinik festge
+[2026-03-15 20:45:59] [enrich] Google News URL aufgelöst (v1): https://www.teneriffa-news.com/news/teneriffa/explosion-auf-teneriffa-frau-nach-
+[2026-03-15 20:45:59] [enrich] Volltext extrahiert: 2717 Zeichen von https://www.teneriffa-news.com/news/teneriffa/explosion-auf-
+[2026-03-15 20:46:00] [enrich] FALSE POSITIVE erkannt: Brand in ausländischem Krankenhaus (Teneriffa, Spanien, nicht Deutschland)
+[2026-03-15 20:46:01] [enrich] --- Enriche [2/20]: Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr
+[2026-03-15 20:46:02] [enrich] Google News URL aufgelöst (v1): https://www.ffh.de/nachrichten/hessen/wiesbaden/415741-brand-an-uniklinik-mainz-
+[2026-03-15 20:46:03] [enrich] Volltext extrahiert: 2743 Zeichen von https://www.ffh.de/nachrichten/hessen/wiesbaden/415741-brand
+[2026-03-15 20:46:07] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-03-15 20:46:08] [enrich] --- Enriche [3/20]: Crans-Montana-Brandopfer bewusstlos in Aachener Uniklinik an
+[2026-03-15 20:46:08] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-aachen/aachen/crans-montana-brand
+[2026-03-15 20:46:10] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.aachener-zeitung.de/lokales/region-aachen/aachen
+[2026-03-15 20:46:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in der Schweiz (Crans-Montana), nicht in einem deutschen Krankenhaus. Die Aachener Uniklinik wird nur als Behandlungsort für ein Brandopfer erwähnt, nicht als Ort des Brandes selbst.
+[2026-03-15 20:46:13] [enrich] --- Enriche [4/20]: Brand in der Uniklink: 50 Patienten aus Essener Krankenhaus 
+[2026-03-15 20:46:13] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/essen-brand-in-universitaetsklinikum-50-patien
+[2026-03-15 20:46:14] [enrich] Volltext extrahiert: 1228 Zeichen von https://rp-online.de/nrw/panorama/essen-brand-in-universitae
+[2026-03-15 20:46:17] [enrich] Enrichment abgeschlossen: enriched — Essener Universitätsklinikum (Uniklinik Essen) in Essen
+[2026-03-15 20:46:18] [enrich] --- Enriche [5/20]: Brand in Uniklinik: Zwölf Menschen erleiden Rauchvergiftung 
+[2026-03-15 20:46:19] [enrich] Google News URL aufgelöst (v1): https://www.abendblatt.de/schleswig-holstein/article402411338/luebeck-uniklinik-
+[2026-03-15 20:46:19] [enrich] Volltext extrahiert: 415 Zeichen von https://www.abendblatt.de/schleswig-holstein/article40241133
+[2026-03-15 20:46:21] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Lübeck in Lübeck
+[2026-03-15 20:46:22] [enrich] --- Enriche [6/20]: Feuer in Freiburger Uniklinik war Brandstiftung - baden.fm
+[2026-03-15 20:46:23] [enrich] Google News URL aufgelöst (v1): https://www.baden.fm/nachrichten/feuer-in-freiburger-uniklinik-war-brandstiftung
+[2026-03-15 20:46:24] [enrich] Volltext zu kurz/leer (96 Z.), verwende RSS-Snippet (430 Z.)
+[2026-03-15 20:46:26] [enrich] Enrichment abgeschlossen: partial — Universitätsklinik Freiburg in Freiburg
+[2026-03-15 20:46:27] [enrich] --- Enriche [7/20]: Großalarm! - Feuer in der Uni-Klinik! - BILD
+[2026-03-15 20:46:27] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/frankfurt/frankfurt-am-main/uniklinik-feuer-5379555
+[2026-03-15 20:46:28] [enrich] Volltext extrahiert: 2548 Zeichen von https://www.bild.de/regional/frankfurt/frankfurt-am-main/uni
+[2026-03-15 20:46:31] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Frankfurt (Uni-Klinik Frankfurt) in Frankfurt am Main
+[2026-03-15 20:46:32] [enrich] --- Enriche [8/20]: Detonation und Feuer an Kliniken – politisch motiviert? - RT
+[2026-03-15 20:46:33] [enrich] Google News URL aufgelöst (v1): https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.ht
+[2026-03-15 20:46:33] [enrich] Volltext extrahiert: 4182 Zeichen von https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-
+[2026-03-15 20:46:38] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Vivantes Berlin-Neukölln in Berlin-Neukölln (Ortsteil Buckow)
+[2026-03-15 20:46:39] [enrich] --- Enriche [9/20]: Feuerwehr im Einsatz: Feuer am Uniklinikum Homburg: Polizei 
+[2026-03-15 20:46:39] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/brand-am-uniklinikum-homburg-poliz
+[2026-03-15 20:46:40] [enrich] Volltext extrahiert: 1624 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/brand-am-unikl
+[2026-03-15 20:46:43] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Homburg (UKS) in Homburg
+[2026-03-15 20:46:44] [enrich] --- Enriche [10/20]: Feuer in Uniklinik Bochum: Zwei Tote bei Großbrand - Spiegel
+[2026-03-15 20:46:45] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/video/feuer-in-uniklinik-bochum-zwei-tote-bei-grossbrand-
+[2026-03-15 20:46:46] [enrich] Volltext extrahiert: 548 Zeichen von https://www.spiegel.de/video/feuer-in-uniklinik-bochum-zwei-
+[2026-03-15 20:46:48] [enrich] Enrichment abgeschlossen: enriched — Bergmannsheil in Bochum
+[2026-03-15 20:46:49] [enrich] --- Enriche [11/20]: Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - 
+[2026-03-15 20:46:49] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-boch
+[2026-03-15 20:46:51] [enrich] Volltext extrahiert: 2306 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin
+[2026-03-15 20:46:55] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Bergmansheil Bochum in Bochum
+[2026-03-15 20:46:56] [enrich] --- Enriche [12/20]: Tote bei Großbrand in Uni-Klinik - DW.com
+[2026-03-15 20:46:56] [enrich] Google News URL aufgelöst (v1): https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere
+[2026-03-15 20:46:57] [enrich] Volltext extrahiert: 3244 Zeichen von https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-z
+[2026-03-15 20:47:01] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil Bochum in Bochum
+[2026-03-15 20:47:02] [enrich] --- Enriche [13/20]: Zwei Tote bei Feuer in Bochumer Uniklinik - T-Online
+[2026-03-15 20:47:02] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_79142944/bochum-ursache-fuer-bra
+[2026-03-15 20:47:03] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.t-online.de/nachrichten/panorama/id_79142944/boc
+[2026-03-15 20:47:07] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-15 20:47:08] [enrich] --- Enriche [14/20]: Brandverletztenzentrum an der Uniklinik in Halle versorgt Ki
+[2026-03-15 20:47:09] [enrich] Google News URL aufgelöst (v1): https://dubisthalle.de/brandverletztenzentrum-an-der-uniklinik-in-halle-versorgt
+[2026-03-15 20:47:11] [enrich] Volltext extrahiert: 4696 Zeichen von https://dubisthalle.de/brandverletztenzentrum-an-der-uniklin
+[2026-03-15 20:47:13] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt ein Brandverletztenzentrum an der Uniklinik Halle und dessen Behandlung von brandverletzten Kindern und Jugendlichen. Es geht um die medizinische Versorgung von Brandopfern, nicht um einen Brand, der IN dem Krankenhaus stattgefunden hat. Der Artikel behandelt Prävention, Erste Hilfe und spezialisierte Behandlung von Brandverletzungen, nicht um einen Brandvorfall im Krankenhaus selbst.
+[2026-03-15 20:47:14] [enrich] --- Enriche [15/20]: Erstmeldung der Feuerwehr: Brand in einem Gebäude der Unikli
+[2026-03-15 20:47:15] [enrich] Google News URL aufgelöst (v1): https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-
+[2026-03-15 20:47:16] [enrich] Volltext extrahiert: 2343 Zeichen von https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in
+[2026-03-15 20:47:19] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Moorenstraße / Uniklinik Düsseldorf in Düsseldorf
+[2026-03-15 20:47:20] [enrich] --- Enriche [16/20]: Kleiner Brand in Freiburger Uniklinik schnell gelöscht - bad
+[2026-03-15 20:47:21] [enrich] Google News URL aufgelöst (v1): https://www.baden.fm/nachrichten/kleiner-brand-in-freiburger-uniklinik-schnell-g
+[2026-03-15 20:47:22] [enrich] Volltext zu kurz/leer (96 Z.), verwende RSS-Snippet (457 Z.)
+[2026-03-15 20:47:24] [enrich] Enrichment abgeschlossen: partial — Universitätsklinikum Freiburg in Freiburg
+[2026-03-15 20:47:25] [enrich] --- Enriche [17/20]: Fotos: Großbrand in Bochumer Uniklinik - RP Online
+[2026-03-15 20:47:26] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-
+[2026-03-15 20:47:26] [enrich] Volltext extrahiert: 3353 Zeichen von https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-un
+[2026-03-15 20:47:30] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-15 20:47:31] [enrich] --- Enriche [18/20]: Feuer im Herzzentrum Bad Krozingen – Klinik braucht Notstrom
+[2026-03-15 20:47:32] [enrich] Google News URL aufgelöst (v1): https://www.baden.fm/nachrichten/feuer-im-herzzentrum-bad-krozingen-klinik-brauc
+[2026-03-15 20:47:33] [enrich] Volltext zu kurz/leer (122 Z.), verwende RSS-Snippet (473 Z.)
+[2026-03-15 20:47:35] [enrich] Enrichment abgeschlossen: partial — Herzzentrum Bad Krozingen in Bad Krozingen
+[2026-03-15 20:47:36] [enrich] --- Enriche [19/20]: Aurich: Evakuierung nach Brand in Klinik - NDR.de
+[2026-03-15 20:47:37] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/aurich-evaku
+[2026-03-15 20:47:38] [enrich] Volltext extrahiert: 261 Zeichen von https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfr
+[2026-03-15 20:47:40] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Aurich in Aurich
+[2026-03-15 20:47:41] [enrich] --- Enriche [20/20]: Bad Sülze: Brand in Reha-Klinik führt zu Evakuierung - BILD
+[2026-03-15 20:47:42] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/mecklenburg-vorpommern/bad-suelze-brand-in-reha-kli
+[2026-03-15 20:47:43] [enrich] Volltext extrahiert: 2397 Zeichen von https://www.bild.de/regional/mecklenburg-vorpommern/bad-suel
+[2026-03-15 20:47:46] [enrich] Enrichment abgeschlossen: enriched — Reha-Klinik Bad Sülze in Bad Sülze
+[2026-03-15 20:47:46] [enrich] Ergebnis: 14 enriched, 3 partial, 3 false_positive, 0 failed
+[2026-03-15 20:47:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-15 20:47:46] [DEDUP] Starte Dedup für 217 Einträge
+[2026-03-15 20:47:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.81): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Bergmannsheil / Bochum
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.97): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil Bochu / Bochum
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.90): Bergmannsheil / Bochum ↔ Universitätsklinikum Bergmannsheil Bochu / Bochum
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.90): Bergmannsheil / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-15 20:47:46] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-15 20:47:46] [DEDUP] Paare verglichen: 1261
+[2026-03-15 20:47:46] [DEDUP] Auto-Merges: 7
+[2026-03-15 20:47:46] [DEDUP] Kandidaten (unsicher): 47
+[2026-03-15 20:47:46] [DEDUP] Cluster 2x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz
+[2026-03-15 20:47:46] [DEDUP] Cluster 4x: Universitätsklinikum Bergmannsheil Bochu, Bergmannsheil, Universitätsklinikum Bergmannsheil Bochu
+[2026-03-15 20:47:46] [DEDUP] Ergebnis: 213 Einträge (war: 217, 4 zusammengeführt)
+[2026-03-15 20:47:46] [DEDUP] Kandidaten-Datei: 47 pending, 1 confirmed, 0 rejected
+[2026-03-15 20:47:46] [DEDUP] Gespeichert: 217 → 213 Einträge
