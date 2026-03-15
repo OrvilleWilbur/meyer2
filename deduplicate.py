@@ -556,6 +556,7 @@ def deduplicate(db: dict) -> dict:
 
         fi = get_fields(entries[c["i"]])
         fj = get_fields(entries[c["j"]])
+        ei, ej = entries[c["i"]], entries[c["j"]]
         new_candidates.append({
             "hashes": [hi, hj],
             "score": c["score"],
@@ -565,14 +566,18 @@ def deduplicate(db: dict) -> dict:
                 "ort": fi["ort"],
                 "datum": fi["datum"],
                 "bundesland": fi["bundesland"],
-                "status": entries[c["i"]].get("enrichment_status", "pending"),
+                "status": ei.get("enrichment_status", "pending"),
+                "link": ei.get("resolved_url") or ei.get("link", ""),
+                "titel": ei.get("titel", ""),
             },
             "entry_b": {
                 "einrichtung": fj["einrichtung"],
                 "ort": fj["ort"],
                 "datum": fj["datum"],
                 "bundesland": fj["bundesland"],
-                "status": entries[c["j"]].get("enrichment_status", "pending"),
+                "status": ej.get("enrichment_status", "pending"),
+                "link": ej.get("resolved_url") or ej.get("link", ""),
+                "titel": ej.get("titel", ""),
             },
         })
 
@@ -617,3 +622,17 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
+
+---
+
+**2. `docs/index.html`** — die hast du gerade erst aktualisiert. Die einzige neue Änderung gegenüber dem Code, den du eben hochgeladen hast, sind zwei Zeilen in den Kandidaten-Karten. Suche im Edit-Modus nach `Bundesland / Status` — es gibt zwei Stellen (für entry_a und entry_b). Jeweils **direkt nach** der Zeile `<div class="field-value">${a.bundesland...` bzw. `${b.bundesland...` und **vor** `</div>` (dem schließenden cand-entry div) diese Zeile einfügen:
+
+Für Entry A (nach `${a.bundesland || '—'} · ${a.status || '—'}</div>`):
+```
+          ${a.link ? `<a href="${a.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
+```
+
+Für Entry B (nach `${b.bundesland || '—'} · ${b.status || '—'}</div>`):
+```
+          ${b.link ? `<a href="${b.link}" target="_blank" style="color:var(--accent);font-size:0.75rem;margin-top:0.3rem;display:inline-block;" onclick="event.stopPropagation()">🔗 Quelle prüfen</a>` : ''}
