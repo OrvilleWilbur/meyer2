@@ -3004,3 +3004,57 @@
 [2026-03-16 17:17:28] [DEDUP] Ergebnis: 219 Einträge (war: 219, 0 zusammengeführt)
 [2026-03-16 17:17:28] [DEDUP] Kandidaten-Datei: 57 pending, 1 confirmed, 0 rejected
 [2026-03-16 17:17:28] [DEDUP] Gespeichert: 219 → 219 Einträge
+[2026-03-16 18:10:47] === Monitor-Lauf gestartet ===
+[2026-03-16 18:10:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 18:10:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 18:10:50] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-16 18:10:50] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-16 18:10:50] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-16 18:10:51] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-16 18:10:52] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-16 18:10:52] Feed 'gn_klinikbrand': 93 Einträge
+[2026-03-16 18:10:53] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-16 18:10:53] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-03-16 18:10:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 18:10:54] 246 relevante Treffer in Feeds
+[2026-03-16 18:10:54] ✅ 4 NEUE Einträge gefunden:
+[2026-03-16 18:10:54]    01.02.2023 | im Krankenhaus |  | Ein Toter bei Feuer in Hamburg-Eimsbüttel, zweites Opfer im 
+[2026-03-16 18:10:54]    10.05.2025 |  |  | Feuer und Randale in Psychiatrie: Gefangene lösen SEK-Einsat
+[2026-03-16 18:10:54]    02.01.2026 |  |  | Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-16 18:10:54]    17.12.2025 | Helios-Klinik |  | Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-16 18:10:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 18:10:54] === Monitor-Lauf beendet ===
+
+[2026-03-16 18:10:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 18:10:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 18:10:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 18:10:55] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 18:10:55] [enrich] --- Enriche [1/4]: Ein Toter bei Feuer in Hamburg-Eimsbüttel, zweites Opfer im 
+[2026-03-16 18:10:56] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/hamburg/artikel/toter-bei-feuer-in-hamburg-e
+[2026-03-16 18:10:57] [enrich] Volltext extrahiert: 1002 Zeichen von https://www.shz.de/deutschland-welt/hamburg/artikel/toter-be
+[2026-03-16 18:10:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Wohnung in Hamburg-Eimsbüttel. Ein Brandopfer wird zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst findet nicht in einem Krankenhaus statt.
+[2026-03-16 18:10:59] [enrich] --- Enriche [2/4]: Feuer und Randale in Psychiatrie: Gefangene lösen SEK-Einsat
+[2026-03-16 18:10:59] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100716138/bedburg-
+[2026-03-16 18:11:00] [enrich] Volltext extrahiert: 4442 Zeichen von https://www.t-online.de/nachrichten/panorama/kriminalitaet/i
+[2026-03-16 18:11:02] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Randale und Unruhen in einer psychiatrischen Klinik, bei der Patienten Möbel anzündeten. Dies ist eine Brandstiftung im Kontext einer Sicherheitsstörung/Randale, nicht ein unkontrollierter Brand in der Einrichtung. Der Fokus des Artikels liegt auf der polizeilichen Einsatzreaktion auf die Unruhen, nicht auf einem Krankenhausbrand als solchem.
+[2026-03-16 18:11:03] [enrich] --- Enriche [3/4]: Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-16 18:11:04] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kliniken-leipzig-und-h
+[2026-03-16 18:11:04] [enrich] Volltext extrahiert: 752 Zeichen von https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kl
+[2026-03-16 18:11:06] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand im Schweizer Skiort Crans-Montana. Die erwähnten deutschen Kliniken (Klinikum St. Georg Leipzig, BG Klinikum Bergmannstrost Halle) dienen nur zur Behandlung von Brandopfern aus dem Ausland, nicht als Brandort selbst.
+[2026-03-16 18:11:07] [enrich] --- Enriche [4/4]: Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-16 18:11:07] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in
+[2026-03-16 18:11:08] [enrich] Volltext extrahiert: 1786 Zeichen von https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios
+[2026-03-16 18:11:11] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinik (Helios-Klinikum) in Leipzig, Stadtteil Probstheida
+[2026-03-16 18:11:11] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-03-16 18:11:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 18:11:11] [DEDUP] Starte Dedup für 223 Einträge
+[2026-03-16 18:11:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 18:11:11] [DEDUP] Auto-Merge (1.00): Helios-Klinik (Helios-Klinikum) / Leipzig, Stadtteil P ↔ Helios-Klinik (Helios-Klinikum) / Leipzig, Stadtteil P
+[2026-03-16 18:11:11] [DEDUP] Paare verglichen: 1285
+[2026-03-16 18:11:11] [DEDUP] Auto-Merges: 1
+[2026-03-16 18:11:11] [DEDUP] Kandidaten (unsicher): 58
+[2026-03-16 18:11:11] [DEDUP] Cluster 2x: Helios-Klinik (Helios-Klinikum), Helios-Klinik (Helios-Klinikum)
+[2026-03-16 18:11:11] [DEDUP] Ergebnis: 222 Einträge (war: 223, 1 zusammengeführt)
+[2026-03-16 18:11:11] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
+[2026-03-16 18:11:11] [DEDUP] Gespeichert: 223 → 222 Einträge
