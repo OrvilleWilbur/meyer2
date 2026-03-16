@@ -3100,3 +3100,45 @@
 [2026-03-16 19:22:03] [DEDUP] Ergebnis: 224 Einträge (war: 224, 0 zusammengeführt)
 [2026-03-16 19:22:03] [DEDUP] Kandidaten-Datei: 57 pending, 2 confirmed, 0 rejected
 [2026-03-16 19:22:04] [DEDUP] Gespeichert: 224 → 224 Einträge
+[2026-03-16 20:57:22] === Monitor-Lauf gestartet ===
+[2026-03-16 20:57:23] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 20:57:24] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 20:57:25] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-16 20:57:25] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-16 20:57:26] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-16 20:57:26] Feed 'gn_brand_klinik': 52 Einträge
+[2026-03-16 20:57:26] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-16 20:57:27] Feed 'gn_klinikbrand': 96 Einträge
+[2026-03-16 20:57:27] Feed 'gn_feuer_uniklinik': 60 Einträge
+[2026-03-16 20:57:28] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-16 20:57:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 20:57:29] 257 relevante Treffer in Feeds
+[2026-03-16 20:57:29] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 20:57:29]    30.09.2016 | in Krankenhaus |  | Bochum: Brand in Krankenhaus - Spiegel
+[2026-03-16 20:57:29]    12.10.2007 | im Krankenhaus |  | Die Katastrophe im Krankenhaus: Evakuierung - SK-Verlag
+[2026-03-16 20:57:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 20:57:29] === Monitor-Lauf beendet ===
+
+[2026-03-16 20:57:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 20:57:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 20:57:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 20:57:30] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 20:57:30] [enrich] --- Enriche [1/2]: Bochum: Brand in Krankenhaus - Spiegel
+[2026-03-16 20:57:30] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html
+[2026-03-16 20:57:33] [enrich] Volltext extrahiert: 504 Zeichen von https://www.spiegel.de/video/bochum-brand-in-krankenhaus-vid
+[2026-03-16 20:57:35] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Bochum in Bochum
+[2026-03-16 20:57:36] [enrich] --- Enriche [2/2]: Die Katastrophe im Krankenhaus: Evakuierung - SK-Verlag
+[2026-03-16 20:57:36] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-kr
+[2026-03-16 20:57:37] [enrich] Volltext extrahiert: 589 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/d
+[2026-03-16 20:57:38] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt allgemein das Thema Evakuierungen in Krankenhäusern, Brandschutzübungen und rechtliche Grundlagen. Es wird kein konkreter Brand in einem deutschen Krankenhaus beschrieben.
+[2026-03-16 20:57:38] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-16 20:57:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 20:57:38] [DEDUP] Starte Dedup für 226 Einträge
+[2026-03-16 20:57:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 20:57:39] [DEDUP] Paare verglichen: 1301
+[2026-03-16 20:57:39] [DEDUP] Auto-Merges: 0
+[2026-03-16 20:57:39] [DEDUP] Kandidaten (unsicher): 59
+[2026-03-16 20:57:39] [DEDUP] Ergebnis: 226 Einträge (war: 226, 0 zusammengeführt)
+[2026-03-16 20:57:39] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
+[2026-03-16 20:57:39] [DEDUP] Gespeichert: 226 → 226 Einträge
