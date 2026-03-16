@@ -1,8 +1,1890 @@
 {
-  "generated_at": "2026-03-16T18:11:11.578598",
+  "generated_at": "2026-03-16T19:22:03.994364",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
-  "pending": [],
+  "pending": [
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.8,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.8
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Halle (Saale)",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://dubisthalle.de/steckdosenbrand-in-der-uniklinik-halle-saale-keine-verletzten-op-betrieb-sichergestellt",
+        "titel": "Steckdosenbrand in der Uniklinik Halle (Saale): Keine Verletzten, OP-Betrieb sichergestellt - Du bist Halle"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinikum Halle",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
+        "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.794,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.794
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.794,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.2777777777777778,
+        "total": 0.794
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
+        "ort": "Leipzig, Stadtteil Probstheida",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
+        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Park-Klinikum Leipzig",
+        "ort": "Leipzig",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
+        "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - TAG24"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.788,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.788
+      },
+      "entry_a": {
+        "einrichtung": "LVR-Klinik Bedburg-Hau (forensische Psychiatrie)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/nordrhein-westfalen/in-psychiatrie-in-nrw-gebaeude-brennt-polizei-im-grosseinsatz-gefangene-randalieren-93725154.html",
+        "titel": "Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – Insassen stellen sich nach Polizei-Großeinsatz - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
+        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.775,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.775
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.742,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.742
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.26666666666666666,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Düsseldorf (UKD), Klinik für Urologie",
+        "ort": "Düsseldorf",
+        "datum": "17.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.neue-duesseldorfer-online-zeitung.de/stadtnachrichten/artikel/brandereignis-in-einer-op-raeumlichkeit-der-uniklinik-duesseldorf-2528.html",
+        "titel": "Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseldorf - Neue Düsseldorfer Online Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
+        "ort": "Düsseldorf",
+        "datum": "16.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
+        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Aurich",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/aurich-evakuierung-nach-brand-in-klinik,klinik-122.html",
+        "titel": "Aurich: Evakuierung nach Brand in Klinik - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Ubbo-Emmius-Klinik",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
+        "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - NWZonline"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.71,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.71
+      },
+      "entry_a": {
+        "einrichtung": "Kliniken Maria Hilf",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
+        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.698,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.698
+      },
+      "entry_a": {
+        "einrichtung": "Klinik in Braunschweig (Name nicht genannt)",
+        "ort": "Braunschweig",
+        "datum": "03.03.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/brand-in-braunschweiger-klinik-patientin-tot-50110250",
+        "titel": "Patientin will rauchen und stirbt in Braunschweiger Klinik - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Städtisches Klinikum Braunschweig",
+        "ort": "Braunschweig",
+        "datum": "04.03.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursache-nach-feuer-im-krankenhaus-in-braunschweig-geklaert,klinikum-110.html",
+        "titel": "Patientin will Zigarette anzünden und löst Brand im Krankenhaus aus - sie selbst stirbt - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.586,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.586
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feuerwehr-rueckt-mit-grossaufgebot-aus.html",
+        "titel": "Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit Großaufgebot aus - Osthessen|News"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "02.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann-rettet-sich-aus-wohnung-und-stirbt-im-krankenhaus-IQKPX6VZYJAQXKTAIEWH65VYIQ.html",
+        "titel": "Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt im Krankenhaus - HAZ"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "02.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.haz.de/lokales/hannover/brand-in-ricklingen-mann-rettet-sich-aus-wohnung-und-stirbt-im-krankenhaus-IQKPX6VZYJAQXKTAIEWH65VYIQ.html",
+        "titel": "Brand in Ricklingen: Mann rettet sich aus Wohnung und stirbt im Krankenhaus - HAZ"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "10.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfershausen-zwei-bewohner-mit-rauchgasvergiftung-im-krankenhaus/",
+        "titel": "Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit Rauchgasvergiftung im Krankenhaus - blaulichtmyk.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "10.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://blaulichtmyk.de/brand-in-einfamilienhaus-in-woelfershausen-zwei-bewohner-mit-rauchgasvergiftung-im-krankenhaus/",
+        "titel": "Brand in Einfamilienhaus in Wölfershausen: Zwei Bewohner mit Rauchgasvergiftung im Krankenhaus - blaulichtmyk.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "11.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-49886635",
+        "titel": "Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "11.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-49886635",
+        "titel": "Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - Express"
+      },
+      "entry_b": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - Express"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigshafen-behandelt-brandopfer-aus-der-schweiz-100.html",
+        "titel": "Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in Ludwigshafen nimmt zwei Opfer auf - SWR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - Tagesspiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - Tagesspiegel"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigshafen-behandelt-brandopfer-aus-der-schweiz-100.html",
+        "titel": "Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in Ludwigshafen nimmt zwei Opfer auf - SWR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "unbekannt",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "nicht spezifiziert",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "02.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-im-krankenhaus-594395.html",
+        "titel": "Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus - GN-Online"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "02.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-im-krankenhaus-594395.html",
+        "titel": "Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus - GN-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html",
+        "titel": "Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html",
+        "titel": "Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Pekinger Krankenhaus steigt",
+        "ort": "",
+        "datum": "19.04.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-pekinger-krankenhaus-steigt-auf-100.html",
+        "titel": "Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenhaus steigt auf 29 - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "Pekinger Krankenhaus steigt",
+        "ort": "",
+        "datum": "19.04.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zahl-der-toten-bei-feuer-in-pekinger-krankenhaus-steigt-auf-100.html",
+        "titel": "Brand-Opfer - Zahl der Toten bei Feuer in Pekinger Krankenhaus steigt auf 29 - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - Ärzte Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - Ärzte Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Krankenhaus",
+        "ort": "",
+        "datum": "16.11.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zehn-babys-sterben-bei-krankenhaus-brand-modi-erschuettert-100.html",
+        "titel": "Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi erschüttert - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "bei Krankenhaus",
+        "ort": "",
+        "datum": "16.11.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zehn-babys-sterben-bei-krankenhaus-brand-modi-erschuettert-100.html",
+        "titel": "Indien - Zehn Babys sterben bei Krankenhaus-Brand - Modi erschüttert - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "24.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer-in-duesseldorf-brand-in-mehrfamilienhaus-drei-menschen-im-krankenhaus_aid-122427107",
+        "titel": "Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten – drei Menschen im Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "24.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer-in-duesseldorf-brand-in-mehrfamilienhaus-drei-menschen-im-krankenhaus_aid-122427107",
+        "titel": "Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten – drei Menschen im Krankenhaus - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus gebracht",
+        "ort": "",
+        "datum": "29.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hotel-in-alcudia-121055362.html",
+        "titel": "Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht - Mallorca Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus gebracht",
+        "ort": "",
+        "datum": "29.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hotel-in-alcudia-121055362.html",
+        "titel": "Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht - Mallorca Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SWR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      },
+      "entry_b": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "13.10.2021",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/akku-loest-brand-in-stuhr-aus-zwei-personen-verletzt-im-krankenhaus-91047295.html",
+        "titel": "Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Krankenhaus - Kreiszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "13.10.2021",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/akku-loest-brand-in-stuhr-aus-zwei-personen-verletzt-im-krankenhaus-91047295.html",
+        "titel": "Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Krankenhaus - Kreiszeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
+        "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - BR"
+      },
+      "entry_b": {
+        "einrichtung": "Al-Schifa-Krankenhaus und Umgebung",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-und-umgebung-auf-110.html",
+        "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus und Umgebung auf - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.483,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.483
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-ueber-den-brand-wissen-a-1114706.html",
+        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Bergmansheil Bochum",
+        "ort": "Bochum",
+        "datum": "05.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
+        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus entdeckt",
+        "ort": "",
+        "datum": "19.11.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-100.html",
+        "titel": "Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "Al-Schifa-Krankenhaus entdeckt",
+        "ort": "",
+        "datum": "20.11.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-108.html",
+        "titel": "Gaza-Krieg Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - Deutschlandfunk"
+      }
+    }
+  ],
   "confirmed": [
     {
       "hashes": [

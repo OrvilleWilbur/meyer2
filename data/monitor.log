@@ -3058,3 +3058,45 @@
 [2026-03-16 18:11:11] [DEDUP] Ergebnis: 222 Einträge (war: 223, 1 zusammengeführt)
 [2026-03-16 18:11:11] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
 [2026-03-16 18:11:11] [DEDUP] Gespeichert: 223 → 222 Einträge
+[2026-03-16 19:21:46] === Monitor-Lauf gestartet ===
+[2026-03-16 19:21:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 19:21:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 19:21:49] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-16 19:21:50] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-03-16 19:21:50] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-16 19:21:51] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-16 19:21:51] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-16 19:21:52] Feed 'gn_klinikbrand': 95 Einträge
+[2026-03-16 19:21:52] Feed 'gn_feuer_uniklinik': 58 Einträge
+[2026-03-16 19:21:52] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-16 19:21:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 19:21:54] 252 relevante Treffer in Feeds
+[2026-03-16 19:21:54] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 19:21:54]    02.02.2025 | Gunzenbachklinik |  | Patient hat Feuer in der Gunzenbachklinik in Baden-Baden sel
+[2026-03-16 19:21:54]    17.06.2025 |  |  | Evakuierung: Klinik Königsfeld in acht Minuten geräumt - WP 
+[2026-03-16 19:21:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 19:21:54] === Monitor-Lauf beendet ===
+
+[2026-03-16 19:21:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 19:21:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 19:21:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 19:21:55] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 19:21:55] [enrich] --- Enriche [1/2]: Patient hat Feuer in der Gunzenbachklinik in Baden-Baden sel
+[2026-03-16 19:21:55] [enrich] Google News URL aufgelöst (v1): https://bnn.de/mittelbaden/baden-baden/verstorbener-patient-hat-feuer-in-der-gun
+[2026-03-16 19:21:57] [enrich] Volltext extrahiert: 821 Zeichen von https://bnn.de/mittelbaden/baden-baden/verstorbener-patient-
+[2026-03-16 19:21:59] [enrich] Enrichment abgeschlossen: enriched — Fachklinik Gunzenbachhof (Gunzenbachklinik) in Baden-Baden
+[2026-03-16 19:22:00] [enrich] --- Enriche [2/2]: Evakuierung: Klinik Königsfeld in acht Minuten geräumt - WP 
+[2026-03-16 19:22:00] [enrich] Google News URL aufgelöst (v1): https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/article409286294/evakuier
+[2026-03-16 19:22:01] [enrich] Volltext extrahiert: 2177 Zeichen von https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/artic
+[2026-03-16 19:22:03] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/Evakuierungsübung, keine tatsächlichen Brände in einem Krankenhaus
+[2026-03-16 19:22:03] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-16 19:22:03] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 19:22:03] [DEDUP] Starte Dedup für 224 Einträge
+[2026-03-16 19:22:03] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 19:22:03] [DEDUP] Paare verglichen: 1299
+[2026-03-16 19:22:03] [DEDUP] Auto-Merges: 0
+[2026-03-16 19:22:03] [DEDUP] Kandidaten (unsicher): 57
+[2026-03-16 19:22:03] [DEDUP] Ergebnis: 224 Einträge (war: 224, 0 zusammengeführt)
+[2026-03-16 19:22:03] [DEDUP] Kandidaten-Datei: 57 pending, 2 confirmed, 0 rejected
+[2026-03-16 19:22:04] [DEDUP] Gespeichert: 224 → 224 Einträge
