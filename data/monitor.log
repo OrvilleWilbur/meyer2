@@ -2880,3 +2880,48 @@
 [2026-03-16 11:56:44] [DEDUP] Ergebnis: 216 Einträge (war: 217, 1 zusammengeführt)
 [2026-03-16 11:56:44] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
 [2026-03-16 11:56:44] [DEDUP] Gespeichert: 217 → 216 Einträge
+[2026-03-16 13:53:29] === Monitor-Lauf gestartet ===
+[2026-03-16 13:53:30] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 13:53:31] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 13:53:31] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-16 13:53:32] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-16 13:53:32] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-16 13:53:33] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-16 13:53:33] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-03-16 13:53:34] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 13:53:34] Feed 'gn_feuer_uniklinik': 55 Einträge
+[2026-03-16 13:53:35] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-16 13:53:36] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 13:53:36] 249 relevante Treffer in Feeds
+[2026-03-16 13:53:36] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 13:53:36]    02.06.2025 | zum Krankenhaus |  | Er zündete sein Kissen an: Staatsanwaltschaft liefert Inform
+[2026-03-16 13:53:36]    13.01.2026 | am Klinikum Sonnenberg |  | Keine Verletzten: Brand am Klinikum Sonnenberg – Feuerwehr m
+[2026-03-16 13:53:36] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 13:53:36] === Monitor-Lauf beendet ===
+
+[2026-03-16 13:53:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 13:53:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 13:53:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 13:53:36] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 13:53:36] [enrich] --- Enriche [1/2]: Er zündete sein Kissen an: Staatsanwaltschaft liefert Inform
+[2026-03-16 13:53:37] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100750384/marienkrankenhaus-staa
+[2026-03-16 13:53:37] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100750384/ma
+[2026-03-16 13:53:42] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg
+[2026-03-16 13:53:43] [enrich] --- Enriche [2/2]: Keine Verletzten: Brand am Klinikum Sonnenberg – Feuerwehr m
+[2026-03-16 13:53:43] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/saarbruecken-brand-am-klinikum-son
+[2026-03-16 13:53:44] [enrich] Volltext extrahiert: 1903 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/saarbruecken-b
+[2026-03-16 13:53:47] [enrich] Enrichment abgeschlossen: enriched — Klinikum Sonnenberg in Saarbrücken
+[2026-03-16 13:53:47] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-16 13:53:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 13:53:47] [DEDUP] Starte Dedup für 218 Einträge
+[2026-03-16 13:53:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 13:53:47] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-16 13:53:47] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus Hamburg / Hamburg ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-16 13:53:47] [DEDUP] Paare verglichen: 1174
+[2026-03-16 13:53:47] [DEDUP] Auto-Merges: 2
+[2026-03-16 13:53:47] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-16 13:53:47] [DEDUP] Cluster 3x: Marienkrankenhaus, Marienkrankenhaus Hamburg, Marienkrankenhaus Hamburg
+[2026-03-16 13:53:47] [DEDUP] Ergebnis: 216 Einträge (war: 218, 2 zusammengeführt)
+[2026-03-16 13:53:47] [DEDUP] Kandidaten-Datei: 63 pending, 1 confirmed, 0 rejected
+[2026-03-16 13:53:47] [DEDUP] Gespeichert: 218 → 216 Einträge
