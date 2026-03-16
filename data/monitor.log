@@ -2508,3 +2508,106 @@
 [2026-03-15 23:45:45] [DEDUP] Ergebnis: 205 Einträge (war: 212, 7 zusammengeführt)
 [2026-03-15 23:45:45] [DEDUP] Kandidaten-Datei: 55 pending, 1 confirmed, 0 rejected
 [2026-03-15 23:45:45] [DEDUP] Gespeichert: 212 → 205 Einträge
+[2026-03-16 03:33:19] === Monitor-Lauf gestartet ===
+[2026-03-16 03:33:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 03:33:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 03:33:22] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-16 03:33:22] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-16 03:33:23] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-16 03:33:23] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-16 03:33:24] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-16 03:33:24] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-16 03:33:25] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-16 03:33:25] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-16 03:33:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 03:33:26] 255 relevante Treffer in Feeds
+[2026-03-16 03:33:26] ✅ 6 NEUE Einträge gefunden:
+[2026-03-16 03:33:26]    13.06.2023 | in Krankenhaus |  | Essen: Feuer-Drama in Krankenhaus – Mitarbeiter schwerst ver
+[2026-03-16 03:33:26]    19.04.2024 | in Krankenhaus |  | Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-16 03:33:26]    17.12.2025 | Park-Klinikum |  | Brand in Park-Klinikum in Leipzig verläuft glimplich - MDR
+[2026-03-16 03:33:26]    05.01.2026 | Helios-Klinikum |  | Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum:
+[2026-03-16 03:33:26]    15.06.2023 | Helios Klinikum |  | Nach Brand in Helios Klinikum: Ermittlungen gegen neun freig
+[2026-03-16 03:33:26]    26.03.2007 |  |  | Trier: Klinik-Evakuierung verlief reibungslos - skverlag.de
+[2026-03-16 03:33:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 03:33:26] === Monitor-Lauf beendet ===
+
+[2026-03-16 03:33:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 03:33:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 03:33:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 03:33:27] [enrich] 13 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 03:33:27] [enrich] --- Enriche [1/13]: Zwei Tote bei Brand-Katastrophe in Bochumer Krankenhaus - Fe
+[2026-03-16 03:33:28] [enrich] Google News URL aufgelöst (v1): https://www.feuerwehrmagazin.de/nachrichten/einsatze/zwei-tote-bei-brand-katastr
+[2026-03-16 03:33:29] [enrich] Volltext extrahiert: 3358 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/einsatze/zwei-to
+[2026-03-16 03:33:34] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-16 03:33:35] [enrich] --- Enriche [2/13]: Neue Ermittlungen: Aufarbeitung des Feuers im Klinikum Uelze
+[2026-03-16 03:33:35] [enrich] Google News URL aufgelöst (v1): https://www.az-online.de/uelzen/stadt-uelzen/neue-ermittlungen-aufarbeitung-des-
+[2026-03-16 03:33:36] [enrich] Volltext extrahiert: 3166 Zeichen von https://www.az-online.de/uelzen/stadt-uelzen/neue-ermittlung
+[2026-03-16 03:33:40] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Uelzen in Uelzen
+[2026-03-16 03:33:41] [enrich] --- Enriche [3/13]: So bereitet sich die Klinik auf die Evakuierung vor - IVZ-Ak
+[2026-03-16 03:33:42] [enrich] Google News URL aufgelöst (v1): https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-e
+[2026-03-16 03:33:42] [enrich] Kein Artikeltext extrahierbar für https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-e
+[2026-03-16 03:33:42] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (454 Z.)
+[2026-03-16 03:33:43] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierungsvorbereitung einer Klinik, ohne dass ein konkreter Brand in einem deutschen Krankenhaus erwähnt wird. Es handelt sich um eine allgemeine Brandschutzmaßnahme oder -übung, nicht um einen tatsächlichen Brandfall.
+[2026-03-16 03:33:44] [enrich] --- Enriche [4/13]: Der Tag: Feuer in Berliner Gefängnis-Klinik - Evakuierung - 
+[2026-03-16 03:33:45] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/der_tag/Feuer-in-Berliner-Gefaengnis-Klinik-Evakuierung-id30
+[2026-03-16 03:33:45] [enrich] Volltext extrahiert: 1896 Zeichen von https://www.n-tv.de/der_tag/Feuer-in-Berliner-Gefaengnis-Kli
+[2026-03-16 03:33:48] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus der JVA Plötzensee in Berlin-Charlottenburg
+[2026-03-16 03:33:49] [enrich] --- Enriche [5/13]: Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenh
+[2026-03-16 03:33:49] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-bra
+[2026-03-16 03:33:50] [enrich] Volltext extrahiert: 3621 Zeichen von https://www.focus.de/panorama/welt/hamburg-drei-tote-und-vie
+[2026-03-16 03:33:54] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg
+[2026-03-16 03:33:55] [enrich] --- Enriche [6/13]: Brand in Hallescher Straße: Feuer in Merseburg: Sechs Mensch
+[2026-03-16 03:33:56] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/merseburg/feuer-in-merseburg-sechs-menschen-im-krankenha
+[2026-03-16 03:33:57] [enrich] Volltext extrahiert: 1849 Zeichen von https://www.mz.de/lokal/merseburg/feuer-in-merseburg-sechs-m
+[2026-03-16 03:33:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Mehrfamilienhaus (Kellerbrand in der Halleschen Straße in Merseburg), nicht in einem Krankenhaus oder einer Klinik. Die sechs verletzten Personen wurden zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-03-16 03:33:59] [enrich] --- Enriche [7/13]: Küchenbrand in Delmenhorst: Bewohner mit Verdacht auf Rauchg
+[2026-03-16 03:34:00] [enrich] Google News URL aufgelöst (v1): https://www.dk-online.de/lokales/delmenhorst/artikel/kuechenbrand-in-delmenhorst
+[2026-03-16 03:34:01] [enrich] Volltext extrahiert: 1257 Zeichen von https://www.dk-online.de/lokales/delmenhorst/artikel/kuechen
+[2026-03-16 03:34:02] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Küchenbrand in einem Mehrfamilienhaus (nicht in einem Krankenhaus). Die Bewohner werden danach mit Verdacht auf Rauchgasvergiftung ins Krankenhaus gebracht - das ist eine Behandlung von Brandopfern, kein Brand in einem Krankenhaus selbst.
+[2026-03-16 03:34:03] [enrich] --- Enriche [8/13]: Essen: Feuer-Drama in Krankenhaus – Mitarbeiter schwerst ver
+[2026-03-16 03:34:04] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/staedte/essen/essen-kettwig-fachklinik-rhein-ruhr-feuer
+[2026-03-16 03:34:05] [enrich] Volltext extrahiert: 2579 Zeichen von https://www.derwesten.de/staedte/essen/essen-kettwig-fachkli
+[2026-03-16 03:34:08] [enrich] Enrichment abgeschlossen: enriched — Fachklinik Rhein/Ruhr Auf der Rötsch in Essen-Kettwig
+[2026-03-16 03:34:09] [enrich] --- Enriche [9/13]: Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-16 03:34:10] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/anklage-nach-feuer-in
+[2026-03-16 03:34:12] [enrich] Volltext extrahiert: 3373 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/a
+[2026-03-16 03:34:15] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-16 03:34:16] [enrich] --- Enriche [10/13]: Brand in Park-Klinikum in Leipzig verläuft glimplich - MDR
+[2026-03-16 03:34:17] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-k
+[2026-03-16 03:34:18] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipz
+[2026-03-16 03:34:22] [enrich] Enrichment abgeschlossen: enriched — Park-Klinikum Leipzig in Leipzig
+[2026-03-16 03:34:23] [enrich] --- Enriche [11/13]: Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum:
+[2026-03-16 03:34:23] [enrich] Google News URL aufgelöst (v1): https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall
+[2026-03-16 03:34:25] [enrich] Volltext extrahiert: 915 Zeichen von https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheim
+[2026-03-16 03:34:27] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-16 03:34:28] [enrich] --- Enriche [12/13]: Nach Brand in Helios Klinikum: Ermittlungen gegen neun freig
+[2026-03-16 03:34:28] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Nach-Brand-in-Helios-Klinikum-Ermittlu
+[2026-03-16 03:34:31] [enrich] Volltext extrahiert: 2832 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Nach-Brand-in-Heli
+[2026-03-16 03:34:34] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-16 03:34:35] [enrich] --- Enriche [13/13]: Trier: Klinik-Evakuierung verlief reibungslos - skverlag.de
+[2026-03-16 03:34:35] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuier
+[2026-03-16 03:34:36] [enrich] Volltext extrahiert: 1764 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/t
+[2026-03-16 03:34:39] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses wegen Bombenentschärfung (Blindgänger aus WWII), nicht wegen eines Brandes
+[2026-03-16 03:34:39] [enrich] Ergebnis: 9 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-03-16 03:34:39] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 03:34:39] [DEDUP] Starte Dedup für 211 Einträge
+[2026-03-16 03:34:39] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.97): Krankenhaus der JVA Plötzensee / Berlin-Charlottenbur ↔ Krankenhaus der JVA Plötzensee / Berlin-Charlottenbur
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.82): Klinikum Uelzen / Uelzen ↔ Helios-Klinikum Uelzen / Uelzen
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (1.00): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios-Klinikum Pforzheim / Pforzheim
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.97): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.97): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.91): Helios Park-Klinikum Leipzig / Leipzig ↔ Park-Klinikum Leipzig / Leipzig
+[2026-03-16 03:34:39] [DEDUP] Auto-Merge (0.91): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-16 03:34:39] [DEDUP] Paare verglichen: 1077
+[2026-03-16 03:34:39] [DEDUP] Auto-Merges: 7
+[2026-03-16 03:34:39] [DEDUP] Kandidaten (unsicher): 59
+[2026-03-16 03:34:39] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios-Klinikum Uelzen
+[2026-03-16 03:34:39] [DEDUP] Cluster 3x: Helios-Klinikum Pforzheim, Helios-Klinikum Pforzheim, Helios Klinikum Pforzheim
+[2026-03-16 03:34:39] [DEDUP] Cluster 2x: Krankenhaus der JVA Plötzensee, Krankenhaus der JVA Plötzensee
+[2026-03-16 03:34:39] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-03-16 03:34:39] [DEDUP] Cluster 2x: Helios Park-Klinikum Leipzig, Park-Klinikum Leipzig
+[2026-03-16 03:34:39] [DEDUP] Ergebnis: 205 Einträge (war: 211, 6 zusammengeführt)
+[2026-03-16 03:34:39] [DEDUP] Kandidaten-Datei: 59 pending, 1 confirmed, 0 rejected
+[2026-03-16 03:34:39] [DEDUP] Gespeichert: 211 → 205 Einträge

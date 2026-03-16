@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T23:45:45.723547",
+  "generated_at": "2026-03-16T03:34:39.233074",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -140,6 +140,39 @@
         "",
         ""
       ],
+      "score": 0.785,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.785
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-brand-in-krankenhaus_3cd126c1-fa29-4091-92f9-ca8bc94fded4.html",
+        "titel": "Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenhaus - FOCUS online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -173,39 +206,6 @@
         "",
         ""
       ],
-      "score": 0.754,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.5,
-        "bundesland": 1.0,
-        "brandort": 0.38461538461538464,
-        "total": 0.754
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
-        "ort": "Düsseldorf",
-        "datum": "16.04.2023",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
-        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Düsseldorf (UKD)",
-        "ort": "Düsseldorf",
-        "datum": "17.04.2023",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuerwehr-loescht-brand-in-der-uniklinik_aid-88674117",
-        "titel": "Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsseldorfer Uniklinik - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.742,
       "details": {
         "datum": 1.0,
@@ -232,6 +232,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.733,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.3076923076923077,
+        "total": 0.733
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
+        "ort": "Leipzig, Stadtteil Probstheida",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
+        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Park-Klinikum Leipzig",
+        "ort": "Leipzig",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-klinik-100.html",
+        "titel": "Brand in Park-Klinikum in Leipzig verläuft glimplich - MDR"
       }
     },
     {
@@ -305,39 +338,6 @@
         "",
         ""
       ],
-      "score": 0.713,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.4,
-        "bundesland": 1.0,
-        "brandort": 0.05555555555555555,
-        "total": 0.713
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "29.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.tagesspiegel.de/gesellschaft/panorama/zwei-tote-bei-brand-in-bochumer-uniklinik-bergmannsheil-3759997.html",
-        "titel": "Nordrhein-Westfalen: Zwei Tote bei Brand in Bochumer Uniklinik Bergmannsheil - Tagesspiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinik Bochum (Uniklinik Bochum)",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/video158458539/Zwei-Patienten-sterben-bei-Grossbrand.html",
-        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -397,6 +397,72 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
         "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-steht-es-um-den-Prozessauftakt-_arid,2237082.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: So steht es um den Prozessauftakt - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
+        "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
       }
     },
     {
@@ -536,6 +602,39 @@
         "",
         ""
       ],
+      "score": 0.675,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-am-Helios-Klinikum-Pforzheim-Termin-fuer-Prozessauftakt-steht-fest-_arid,2242020.html",
+        "titel": "Tödlicher Brand am Helios Klinikum Pforzheim: Termin für Prozessauftakt steht fest - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.667,
       "details": {
         "datum": 0.0,
@@ -595,6 +694,39 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
         "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - PZ-news"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.667,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.667
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-mann-stirbt-bei-brand-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kenntnis von Vorgaben? - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
       }
     },
     {
@@ -833,6 +965,72 @@
         "",
         ""
       ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-Klinikum-in-Pforzheim-Pflegerinnen-sprechen-von-Systemfehlern-_arid,2323608.html",
+        "titel": "Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: Pflegerinnen sprechen von Systemfehlern und belasten Klinik - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
+        "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.641,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.641
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-brand-in-krankenhaus_3cd126c1-fa29-4091-92f9-ca8bc94fded4.html",
+        "titel": "Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenhaus - FOCUS online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.61,
       "details": {
         "datum": 0.7,
@@ -852,46 +1050,13 @@
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
+        "einrichtung": "Marienkrankenhaus Hamburg",
         "ort": "Hamburg",
         "datum": "02.06.2025",
         "bundesland": "Hamburg",
         "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
-        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.61,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.61
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
-        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
+        "link": "https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-brand-in-krankenhaus_3cd126c1-fa29-4091-92f9-ca8bc94fded4.html",
+        "titel": "Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenhaus - FOCUS online"
       }
     },
     {
@@ -918,13 +1083,13 @@
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
+        "einrichtung": "Marienkrankenhaus Hamburg",
         "ort": "Hamburg",
         "datum": "02.06.2025",
         "bundesland": "Hamburg",
         "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100750332/brand-in-hamburger-krankenhaus-polizei-vermeldet-weiteres-todesopfer.html",
-        "titel": "Viertes Opfer durch Brand in Krankenhaus gestorben? Polizei vermeldet weitere Tote - T-Online"
+        "link": "https://www.focus.de/panorama/welt/hamburg-drei-tote-und-viele-verletzte-bei-brand-in-krankenhaus_3cd126c1-fa29-4091-92f9-ca8bc94fded4.html",
+        "titel": "Hamburg: Drei Tote und viele Verletzte bei Brand in Krankenhaus - FOCUS online"
       }
     },
     {
@@ -958,39 +1123,6 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.558,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.6,
-        "bundesland": 1.0,
-        "brandort": 0.16666666666666666,
-        "total": 0.558
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinik Bochum (Uniklinik Bochum)",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/video158458539/Zwei-Patienten-sterben-bei-Grossbrand.html",
-        "titel": "Bochumer Uniklinik: Zwei Patienten sterben bei Großbrand - Video - WELT"
       }
     },
     {
