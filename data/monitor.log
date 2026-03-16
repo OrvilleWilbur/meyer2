@@ -2695,3 +2695,58 @@
 [2026-03-16 07:48:26] [DEDUP] Ergebnis: 209 Einträge (war: 209, 0 zusammengeführt)
 [2026-03-16 07:48:26] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
 [2026-03-16 07:48:26] [DEDUP] Gespeichert: 209 → 209 Einträge
+[2026-03-16 09:12:32] === Monitor-Lauf gestartet ===
+[2026-03-16 09:12:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 09:12:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 09:12:34] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-16 09:12:35] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-16 09:12:35] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-16 09:12:35] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-16 09:12:36] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-16 09:12:36] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 09:12:36] Feed 'gn_feuer_uniklinik': 55 Einträge
+[2026-03-16 09:12:37] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-16 09:12:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 09:12:38] 259 relevante Treffer in Feeds
+[2026-03-16 09:12:38] ✅ 4 NEUE Einträge gefunden:
+[2026-03-16 09:12:38]    28.01.2026 | Jüdischen Krankenhaus |  | Patient (71) legt Feuer im Jüdischen Krankenhaus – 14 Verlet
+[2026-03-16 09:12:38]    16.03.2026 | bei Klinikbrand |  | Mindestens zehn Tote bei Klinikbrand in Indien - Onetz
+[2026-03-16 09:12:38]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfe
+[2026-03-16 09:12:38]    07.03.2026 | Im Klinikum Idar |  | Feuerwehr ist zur Stelle: Im Klinikum Idar-Oberstein hat Däm
+[2026-03-16 09:12:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 09:12:38] === Monitor-Lauf beendet ===
+
+[2026-03-16 09:12:39] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 09:12:39] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 09:12:39] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 09:12:39] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 09:12:39] [enrich] --- Enriche [1/4]: Patient (71) legt Feuer im Jüdischen Krankenhaus – 14 Verlet
+[2026-03-16 09:12:39] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/polizei/feuer-juedisches-krankenhaus
+[2026-03-16 09:12:39] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/polizei/feuer-juedisches-krankenhaus: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/polizei/feuer-juedisches-krankenhaus
+[2026-03-16 09:12:39] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (448 Z.)
+[2026-03-16 09:12:41] [enrich] Enrichment abgeschlossen: partial — Jüdisches Krankenhaus in Berlin
+[2026-03-16 09:12:42] [enrich] --- Enriche [2/4]: Mindestens zehn Tote bei Klinikbrand in Indien - Onetz
+[2026-03-16 09:12:43] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id
+[2026-03-16 09:12:44] [enrich] Volltext extrahiert: 3504 Zeichen von https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-k
+[2026-03-16 09:12:45] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus in Indien (Cuttack, Odisha). Die Datenbank erfasst nur Brände in deutschen Krankenhäusern und Kliniken.
+[2026-03-16 09:12:46] [enrich] --- Enriche [3/4]: Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfe
+[2026-03-16 09:12:46] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-
+[2026-03-16 09:12:47] [enrich] Volltext extrahiert: 3399 Zeichen von https://www.sueddeutsche.de/panorama/brand-auf-silvesterpart
+[2026-03-16 09:12:48] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Das Unfallkrankenhaus Berlin nimmt lediglich Brandopfer zur Behandlung auf, der Brand selbst fand im Ausland statt.
+[2026-03-16 09:12:49] [enrich] --- Enriche [4/4]: Feuerwehr ist zur Stelle: Im Klinikum Idar-Oberstein hat Däm
+[2026-03-16 09:12:50] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/nahe-zeitung/im-klinikum-idar-oberstein-hat
+[2026-03-16 09:12:51] [enrich] Volltext extrahiert: 941 Zeichen von https://www.rhein-zeitung.de/lokales/nahe-zeitung/im-kliniku
+[2026-03-16 09:12:54] [enrich] Enrichment abgeschlossen: enriched — Klinikum Idar-Oberstein in Idar-Oberstein
+[2026-03-16 09:12:54] [enrich] Ergebnis: 1 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-03-16 09:12:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 09:12:54] [DEDUP] Starte Dedup für 213 Einträge
+[2026-03-16 09:12:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 09:12:54] [DEDUP] Auto-Merge (0.90): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus / Berlin
+[2026-03-16 09:12:54] [DEDUP] Paare verglichen: 1128
+[2026-03-16 09:12:54] [DEDUP] Auto-Merges: 1
+[2026-03-16 09:12:54] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-16 09:12:54] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus
+[2026-03-16 09:12:54] [DEDUP] Ergebnis: 212 Einträge (war: 213, 1 zusammengeführt)
+[2026-03-16 09:12:54] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
+[2026-03-16 09:12:54] [DEDUP] Gespeichert: 213 → 212 Einträge
