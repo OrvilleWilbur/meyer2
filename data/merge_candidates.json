@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T03:34:39.233074",
+  "generated_at": "2026-03-16T05:56:49.445551",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -232,39 +232,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.733,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.3076923076923077,
-        "total": 0.733
-      },
-      "entry_a": {
-        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
-        "ort": "Leipzig, Stadtteil Probstheida",
-        "datum": "17.12.2025",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
-        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Park-Klinikum Leipzig",
-        "ort": "Leipzig",
-        "datum": "17.12.2025",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-klinik-100.html",
-        "titel": "Brand in Park-Klinikum in Leipzig verläuft glimplich - MDR"
       }
     },
     {

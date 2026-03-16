@@ -2611,3 +2611,45 @@
 [2026-03-16 03:34:39] [DEDUP] Ergebnis: 205 Einträge (war: 211, 6 zusammengeführt)
 [2026-03-16 03:34:39] [DEDUP] Kandidaten-Datei: 59 pending, 1 confirmed, 0 rejected
 [2026-03-16 03:34:39] [DEDUP] Gespeichert: 211 → 205 Einträge
+[2026-03-16 05:56:33] === Monitor-Lauf gestartet ===
+[2026-03-16 05:56:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 05:56:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 05:56:35] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-16 05:56:35] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-16 05:56:36] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-16 05:56:36] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-16 05:56:37] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-16 05:56:37] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 05:56:38] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-16 05:56:38] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-16 05:56:39] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 05:56:39] 252 relevante Treffer in Feeds
+[2026-03-16 05:56:39] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 05:56:39]    16.03.2026 | Bezirksklinikum |  | Feuer im Bezirksklinikum: Ein Mensch leicht verletzt - Onetz
+[2026-03-16 05:56:39]    25.01.2026 | gegen Klinikpersonal startet |  | Tödlicher Brand in Pforzheim: Prozess gegen Klinikpersonal s
+[2026-03-16 05:56:39] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 05:56:39] === Monitor-Lauf beendet ===
+
+[2026-03-16 05:56:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 05:56:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 05:56:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 05:56:40] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 05:56:40] [enrich] --- Enriche [1/2]: Feuer im Bezirksklinikum: Ein Mensch leicht verletzt - Onetz
+[2026-03-16 05:56:40] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/feuer-bezirksklinikum-mensch-leicht-verlet
+[2026-03-16 05:56:41] [enrich] Volltext extrahiert: 3532 Zeichen von https://www.onetz.de/deutschland-welt/feuer-bezirksklinikum-
+[2026-03-16 05:56:44] [enrich] Enrichment abgeschlossen: enriched — Bezirksklinikum in Landkreis Deggendorf
+[2026-03-16 05:56:45] [enrich] --- Enriche [2/2]: Tödlicher Brand in Pforzheim: Prozess gegen Klinikpersonal s
+[2026-03-16 05:56:46] [enrich] Google News URL aufgelöst (v1): https://bnn.de/pforzheim/pforzheim-stadt/toedlicher-brand-am-pforzheimer-helios-
+[2026-03-16 05:56:47] [enrich] Volltext extrahiert: 917 Zeichen von https://bnn.de/pforzheim/pforzheim-stadt/toedlicher-brand-am
+[2026-03-16 05:56:49] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-16 05:56:49] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-16 05:56:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 05:56:49] [DEDUP] Starte Dedup für 207 Einträge
+[2026-03-16 05:56:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 05:56:49] [DEDUP] Paare verglichen: 1067
+[2026-03-16 05:56:49] [DEDUP] Auto-Merges: 0
+[2026-03-16 05:56:49] [DEDUP] Kandidaten (unsicher): 58
+[2026-03-16 05:56:49] [DEDUP] Ergebnis: 207 Einträge (war: 207, 0 zusammengeführt)
+[2026-03-16 05:56:49] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
+[2026-03-16 05:56:49] [DEDUP] Gespeichert: 207 → 207 Einträge
