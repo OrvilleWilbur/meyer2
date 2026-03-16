@@ -3211,3 +3211,47 @@
 [2026-03-16 22:51:11] [DEDUP] Ergebnis: 226 Einträge (war: 227, 1 zusammengeführt)
 [2026-03-16 22:51:11] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
 [2026-03-16 22:51:11] [DEDUP] Gespeichert: 227 → 226 Einträge
+[2026-03-16 23:43:14] === Monitor-Lauf gestartet ===
+[2026-03-16 23:43:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 23:43:16] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 23:43:16] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-16 23:43:17] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-16 23:43:17] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-16 23:43:18] Feed 'gn_brand_klinik': 40 Einträge
+[2026-03-16 23:43:18] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-16 23:43:18] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 23:43:19] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-16 23:43:19] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-16 23:43:20] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 23:43:20] 256 relevante Treffer in Feeds
+[2026-03-16 23:43:20] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 23:43:20]    28.01.2026 | Jüdischem Krankenhaus |  | Brände - Brand in Jüdischem Krankenhaus - kein antisemitisch
+[2026-03-16 23:43:20]    18.07.2025 | Uniklinikum |  | Feuerwehreinsatz in Leipzig-Südost: Fehlalarm am Uniklinikum
+[2026-03-16 23:43:20] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 23:43:20] === Monitor-Lauf beendet ===
+
+[2026-03-16 23:43:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 23:43:21] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 23:43:21] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 23:43:21] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 23:43:21] [enrich] --- Enriche [1/2]: Brände - Brand in Jüdischem Krankenhaus - kein antisemitisch
+[2026-03-16 23:43:21] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-brand-in-juedischem-krankenhaus-kei
+[2026-03-16 23:43:21] [enrich] Volltext extrahiert: 2365 Zeichen von https://www.sueddeutsche.de/panorama/braende-brand-in-juedis
+[2026-03-16 23:43:24] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus in Berlin
+[2026-03-16 23:43:25] [enrich] --- Enriche [2/2]: Feuerwehreinsatz in Leipzig-Südost: Fehlalarm am Uniklinikum
+[2026-03-16 23:43:25] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipzig-suedost-fehlalarm
+[2026-03-16 23:43:26] [enrich] Volltext extrahiert: 1146 Zeichen von https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipz
+[2026-03-16 23:43:27] [enrich] FALSE POSITIVE erkannt: Es handelt sich um einen Fehlalarm, keinen tatsächlichen Brand im Krankenhaus. Ein Brandmelder wurde ausgelöst, aber vor Ort stellte sich heraus, dass kein Brand vorhanden war.
+[2026-03-16 23:43:27] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-16 23:43:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 23:43:27] [DEDUP] Starte Dedup für 228 Einträge
+[2026-03-16 23:43:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 23:43:27] [DEDUP] Auto-Merge (0.91): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus / Berlin
+[2026-03-16 23:43:27] [DEDUP] Paare verglichen: 1318
+[2026-03-16 23:43:27] [DEDUP] Auto-Merges: 1
+[2026-03-16 23:43:27] [DEDUP] Kandidaten (unsicher): 59
+[2026-03-16 23:43:27] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus
+[2026-03-16 23:43:27] [DEDUP] Ergebnis: 227 Einträge (war: 228, 1 zusammengeführt)
+[2026-03-16 23:43:27] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
+[2026-03-16 23:43:27] [DEDUP] Gespeichert: 228 → 227 Einträge
