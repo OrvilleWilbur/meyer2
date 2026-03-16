@@ -3172,3 +3172,42 @@
 [2026-03-16 21:54:00] [DEDUP] Ergebnis: 226 Einträge (war: 226, 0 zusammengeführt)
 [2026-03-16 21:54:00] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
 [2026-03-16 21:54:00] [DEDUP] Gespeichert: 226 → 226 Einträge
+[2026-03-16 22:51:00] === Monitor-Lauf gestartet ===
+[2026-03-16 22:51:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 22:51:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 22:51:02] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-16 22:51:03] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-16 22:51:03] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-16 22:51:03] Feed 'gn_brand_klinik': 41 Einträge
+[2026-03-16 22:51:04] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-16 22:51:05] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 22:51:05] Feed 'gn_feuer_uniklinik': 58 Einträge
+[2026-03-16 22:51:05] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-16 22:51:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 22:51:06] 258 relevante Treffer in Feeds
+[2026-03-16 22:51:06] ✅ 1 NEUE Einträge gefunden:
+[2026-03-16 22:51:06]    22.09.2021 | in Krankenhaus |  | Feuer in Krankenhaus: Station geräumt – zwölf Verletzte - MO
+[2026-03-16 22:51:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 22:51:06] === Monitor-Lauf beendet ===
+
+[2026-03-16 22:51:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 22:51:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 22:51:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 22:51:07] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 22:51:07] [enrich] --- Enriche [1/1]: Feuer in Krankenhaus: Station geräumt – zwölf Verletzte - MO
+[2026-03-16 22:51:07] [enrich] Google News URL aufgelöst (v1): https://www.mopo.de/im-norden/schleswig-holstein/feuer-in-krankenhaus-station-ge
+[2026-03-16 22:51:09] [enrich] Volltext extrahiert: 698 Zeichen von https://www.mopo.de/im-norden/schleswig-holstein/feuer-in-kr
+[2026-03-16 22:51:11] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Schleswig-Holstein (UKSH) Lübeck in Lübeck
+[2026-03-16 22:51:11] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-16 22:51:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 22:51:11] [DEDUP] Starte Dedup für 227 Einträge
+[2026-03-16 22:51:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 22:51:11] [DEDUP] Auto-Merge (0.82): Universitätsklinikum Lübeck / Lübeck ↔ Universitätsklinikum Schleswig-Holstein  / Lübeck
+[2026-03-16 22:51:11] [DEDUP] Paare verglichen: 1302
+[2026-03-16 22:51:11] [DEDUP] Auto-Merges: 1
+[2026-03-16 22:51:11] [DEDUP] Kandidaten (unsicher): 59
+[2026-03-16 22:51:11] [DEDUP] Cluster 2x: Universitätsklinikum Lübeck, Universitätsklinikum Schleswig-Holstein 
+[2026-03-16 22:51:11] [DEDUP] Ergebnis: 226 Einträge (war: 227, 1 zusammengeführt)
+[2026-03-16 22:51:11] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
+[2026-03-16 22:51:11] [DEDUP] Gespeichert: 227 → 226 Einträge
