@@ -2925,3 +2925,40 @@
 [2026-03-16 13:53:47] [DEDUP] Ergebnis: 216 Einträge (war: 218, 2 zusammengeführt)
 [2026-03-16 13:53:47] [DEDUP] Kandidaten-Datei: 63 pending, 1 confirmed, 0 rejected
 [2026-03-16 13:53:47] [DEDUP] Gespeichert: 218 → 216 Einträge
+[2026-03-16 15:18:30] === Monitor-Lauf gestartet ===
+[2026-03-16 15:18:31] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 15:18:32] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 15:18:33] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-16 15:18:33] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-16 15:18:34] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-16 15:18:34] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-16 15:18:35] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-16 15:18:35] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 15:18:36] Feed 'gn_feuer_uniklinik': 56 Einträge
+[2026-03-16 15:18:36] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-16 15:18:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 15:18:37] 255 relevante Treffer in Feeds
+[2026-03-16 15:18:37] ✅ 1 NEUE Einträge gefunden:
+[2026-03-16 15:18:37]    16.03.2026 | bei Klinikbrand |  | Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachr
+[2026-03-16 15:18:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 15:18:37] === Monitor-Lauf beendet ===
+
+[2026-03-16 15:18:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 15:18:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 15:18:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 15:18:38] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 15:18:38] [enrich] --- Enriche [1/1]: Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachr
+[2026-03-16 15:18:38] [enrich] Google News URL aufgelöst (v1): https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-0820017
+[2026-03-16 15:18:39] [enrich] Volltext extrahiert: 860 Zeichen von https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinik
+[2026-03-16 15:18:40] [enrich] FALSE POSITIVE erkannt: Der Artikel ist eine generische Datenschutzerklärung von Yahoo und enthält keine Informationen über einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-03-16 15:18:40] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-16 15:18:40] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 15:18:40] [DEDUP] Starte Dedup für 217 Einträge
+[2026-03-16 15:18:40] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 15:18:40] [DEDUP] Paare verglichen: 1179
+[2026-03-16 15:18:40] [DEDUP] Auto-Merges: 0
+[2026-03-16 15:18:40] [DEDUP] Kandidaten (unsicher): 57
+[2026-03-16 15:18:40] [DEDUP] Ergebnis: 217 Einträge (war: 217, 0 zusammengeführt)
+[2026-03-16 15:18:40] [DEDUP] Kandidaten-Datei: 57 pending, 1 confirmed, 0 rejected
+[2026-03-16 15:18:40] [DEDUP] Gespeichert: 217 → 217 Einträge
