@@ -2804,3 +2804,40 @@
 [2026-03-16 10:15:10] [DEDUP] Ergebnis: 215 Einträge (war: 216, 1 zusammengeführt)
 [2026-03-16 10:15:10] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
 [2026-03-16 10:15:10] [DEDUP] Gespeichert: 216 → 215 Einträge
+[2026-03-16 11:11:56] === Monitor-Lauf gestartet ===
+[2026-03-16 11:11:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 11:11:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 11:11:59] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-16 11:11:59] Feed 'gn_feuer_krankenhaus': 59 Einträge
+[2026-03-16 11:11:59] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-16 11:12:00] Feed 'gn_brand_klinik': 50 Einträge
+[2026-03-16 11:12:00] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-16 11:12:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 11:12:01] Feed 'gn_feuer_uniklinik': 49 Einträge
+[2026-03-16 11:12:02] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-16 11:12:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 11:12:04] 252 relevante Treffer in Feeds
+[2026-03-16 11:12:04] ✅ 1 NEUE Einträge gefunden:
+[2026-03-16 11:12:04]    10.06.2024 | von Krankenhaus |  | Feuer in Notaufnahme: Evakuierung von Krankenhaus in Winnend
+[2026-03-16 11:12:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 11:12:04] === Monitor-Lauf beendet ===
+
+[2026-03-16 11:12:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 11:12:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 11:12:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 11:12:05] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 11:12:05] [enrich] --- Enriche [1/1]: Feuer in Notaufnahme: Evakuierung von Krankenhaus in Winnend
+[2026-03-16 11:12:05] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/brand-rems-murr-klini
+[2026-03-16 11:12:08] [enrich] Volltext extrahiert: 2204 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/b
+[2026-03-16 11:12:11] [enrich] Enrichment abgeschlossen: enriched — Rems-Murr-Klinikum in Winnenden
+[2026-03-16 11:12:11] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-16 11:12:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 11:12:11] [DEDUP] Starte Dedup für 216 Einträge
+[2026-03-16 11:12:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 11:12:11] [DEDUP] Paare verglichen: 1169
+[2026-03-16 11:12:11] [DEDUP] Auto-Merges: 0
+[2026-03-16 11:12:11] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-16 11:12:11] [DEDUP] Ergebnis: 216 Einträge (war: 216, 0 zusammengeführt)
+[2026-03-16 11:12:11] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
+[2026-03-16 11:12:12] [DEDUP] Gespeichert: 216 → 216 Einträge
