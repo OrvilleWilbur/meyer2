@@ -2653,3 +2653,45 @@
 [2026-03-16 05:56:49] [DEDUP] Ergebnis: 207 Einträge (war: 207, 0 zusammengeführt)
 [2026-03-16 05:56:49] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
 [2026-03-16 05:56:49] [DEDUP] Gespeichert: 207 → 207 Einträge
+[2026-03-16 07:48:10] === Monitor-Lauf gestartet ===
+[2026-03-16 07:48:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 07:48:12] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 07:48:12] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-03-16 07:48:13] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-16 07:48:13] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-16 07:48:13] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-16 07:48:14] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-16 07:48:14] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 07:48:15] Feed 'gn_feuer_uniklinik': 55 Einträge
+[2026-03-16 07:48:15] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-16 07:48:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 07:48:16] 251 relevante Treffer in Feeds
+[2026-03-16 07:48:16] ✅ 2 NEUE Einträge gefunden:
+[2026-03-16 07:48:16]    10.04.2024 | Uniklinik |  | 29-Jähriger nach Brand in Uniklinik - Homburg-Erbach - Die R
+[2026-03-16 07:48:16]    20.10.2020 | im Krankenhaus Seesen |  | Feuer im Krankenhaus Seesen – keine Evakuierung - Harzkurier
+[2026-03-16 07:48:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 07:48:16] === Monitor-Lauf beendet ===
+
+[2026-03-16 07:48:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 07:48:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 07:48:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 07:48:17] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 07:48:17] [enrich] --- Enriche [1/2]: 29-Jähriger nach Brand in Uniklinik - Homburg-Erbach - Die R
+[2026-03-16 07:48:17] [enrich] Google News URL aufgelöst (v1): https://www.rheinpfalz.de/lokal/zweibruecken_artikel,-29-j%C3%A4hriger-nach-bran
+[2026-03-16 07:48:20] [enrich] Volltext extrahiert: 3240 Zeichen von https://www.rheinpfalz.de/lokal/zweibruecken_artikel,-29-j%C
+[2026-03-16 07:48:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Wohnung (Dachgeschosswohnung in der Steinbachstraße 76), nicht in einem Krankenhaus. Ein 29-Jähriger wird nach dem Brand mit Rauchvergiftung in die Uniklinik eingeliefert, aber das ist eine Folge des Wohnungsbrands, nicht ein Brand im Krankenhaus selbst.
+[2026-03-16 07:48:23] [enrich] --- Enriche [2/2]: Feuer im Krankenhaus Seesen – keine Evakuierung - Harzkurier
+[2026-03-16 07:48:23] [enrich] Google News URL aufgelöst (v1): https://www.harzkurier.de/region/article230719612/Feuer-im-Krankenhaus-Seesen-ke
+[2026-03-16 07:48:23] [enrich] Volltext extrahiert: 377 Zeichen von https://www.harzkurier.de/region/article230719612/Feuer-im-K
+[2026-03-16 07:48:25] [enrich] Enrichment abgeschlossen: enriched — Asklepios Kliniken Schildautal in Seesen
+[2026-03-16 07:48:25] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-16 07:48:25] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 07:48:25] [DEDUP] Starte Dedup für 209 Einträge
+[2026-03-16 07:48:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 07:48:26] [DEDUP] Paare verglichen: 1071
+[2026-03-16 07:48:26] [DEDUP] Auto-Merges: 0
+[2026-03-16 07:48:26] [DEDUP] Kandidaten (unsicher): 58
+[2026-03-16 07:48:26] [DEDUP] Ergebnis: 209 Einträge (war: 209, 0 zusammengeführt)
+[2026-03-16 07:48:26] [DEDUP] Kandidaten-Datei: 58 pending, 1 confirmed, 0 rejected
+[2026-03-16 07:48:26] [DEDUP] Gespeichert: 209 → 209 Einträge
