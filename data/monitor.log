@@ -2750,3 +2750,57 @@
 [2026-03-16 09:12:54] [DEDUP] Ergebnis: 212 Einträge (war: 213, 1 zusammengeführt)
 [2026-03-16 09:12:54] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
 [2026-03-16 09:12:54] [DEDUP] Gespeichert: 213 → 212 Einträge
+[2026-03-16 10:14:42] === Monitor-Lauf gestartet ===
+[2026-03-16 10:14:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-16 10:14:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-16 10:14:45] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-16 10:14:45] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-03-16 10:14:46] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-16 10:14:46] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-16 10:14:46] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-16 10:14:47] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-16 10:14:47] Feed 'gn_feuer_uniklinik': 55 Einträge
+[2026-03-16 10:14:48] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-16 10:14:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-16 10:14:49] 262 relevante Treffer in Feeds
+[2026-03-16 10:14:49] ✅ 4 NEUE Einträge gefunden:
+[2026-03-16 10:14:49]    25.09.2025 | Reha-Klinik |  | Feuer in Reha-Klinik – 80 Menschen gerettet - Nordkurier
+[2026-03-16 10:14:49]    14.01.2026 | in Klinik untergebracht |  | Brände - Feuer vor Synagoge: Verdächtiger in Klinik untergeb
+[2026-03-16 10:14:49]    02.01.2022 | Pfälzer Klinik um sich |  | An Katastrophe vorbeigeschrammt: Feuer greift rasend schnell
+[2026-03-16 10:14:49]    03.08.2021 | Rehaklinik |  | Tödliches Feuer in Rehaklinik: Keine Rauchmelder im Patiente
+[2026-03-16 10:14:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-16 10:14:49] === Monitor-Lauf beendet ===
+
+[2026-03-16 10:14:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-16 10:14:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-16 10:14:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-16 10:14:50] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-16 10:14:50] [enrich] --- Enriche [1/4]: Feuer in Reha-Klinik – 80 Menschen gerettet - Nordkurier
+[2026-03-16 10:14:50] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/mecklenburg-vorpommern/feuer-in-reha-klinik-8
+[2026-03-16 10:14:51] [enrich] Volltext extrahiert: 1203 Zeichen von https://www.nordkurier.de/regional/mecklenburg-vorpommern/fe
+[2026-03-16 10:14:54] [enrich] Enrichment abgeschlossen: enriched — Reha-Klinik Bad Sülze in Bad Sülze
+[2026-03-16 10:14:55] [enrich] --- Enriche [2/4]: Brände - Feuer vor Synagoge: Verdächtiger in Klinik untergeb
+[2026-03-16 10:14:55] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-vor-synagoge-verdaechtiger-in
+[2026-03-16 10:14:56] [enrich] Volltext extrahiert: 1963 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-vor-synag
+[2026-03-16 10:14:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand von Müllcontainern vor einer Synagoge, nicht in einem Krankenhaus. Die Erwähnung der Klinik bezieht sich nur auf die nachträgliche Unterbringung des Tatverdächtigen zur Beobachtung - dies ist keine Brandlage im Krankenhaus.
+[2026-03-16 10:14:58] [enrich] --- Enriche [3/4]: An Katastrophe vorbeigeschrammt: Feuer greift rasend schnell
+[2026-03-16 10:14:59] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/rheinland-pfalz/fe
+[2026-03-16 10:14:59] [enrich] Volltext extrahiert: 3064 Zeichen von https://www.saarbruecker-zeitung.de/saarland/blickzumnachbar
+[2026-03-16 10:15:04] [enrich] Enrichment abgeschlossen: enriched — Südpfalz-Klinikum Kandel in Kandel
+[2026-03-16 10:15:05] [enrich] --- Enriche [4/4]: Tödliches Feuer in Rehaklinik: Keine Rauchmelder im Patiente
+[2026-03-16 10:15:06] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/nachrichten/zwischen_weser_und_rhein/23062825_Toedliches-Feuer
+[2026-03-16 10:15:08] [enrich] Volltext extrahiert: 1718 Zeichen von https://www.nw.de/nachrichten/zwischen_weser_und_rhein/23062
+[2026-03-16 10:15:10] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Inhalt über einen Brand in einem Krankenhaus. Der Text besteht nur aus technischen Elementen einer Nachrichtenwebseite (Anmeldung, Abonnement, Feedback-Formulare) ohne medizinischen oder brandrelevanten Inhalt.
+[2026-03-16 10:15:10] [enrich] Ergebnis: 2 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-16 10:15:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-16 10:15:10] [DEDUP] Starte Dedup für 216 Einträge
+[2026-03-16 10:15:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-16 10:15:10] [DEDUP] Auto-Merge (1.00): Reha-Klinik Bad Sülze / Bad Sülze ↔ Reha-Klinik Bad Sülze / Bad Sülze
+[2026-03-16 10:15:10] [DEDUP] Paare verglichen: 1171
+[2026-03-16 10:15:10] [DEDUP] Auto-Merges: 1
+[2026-03-16 10:15:10] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-16 10:15:10] [DEDUP] Cluster 2x: Reha-Klinik Bad Sülze, Reha-Klinik Bad Sülze
+[2026-03-16 10:15:10] [DEDUP] Ergebnis: 215 Einträge (war: 216, 1 zusammengeführt)
+[2026-03-16 10:15:10] [DEDUP] Kandidaten-Datei: 60 pending, 1 confirmed, 0 rejected
+[2026-03-16 10:15:10] [DEDUP] Gespeichert: 216 → 215 Einträge
