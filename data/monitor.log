@@ -3571,3 +3571,40 @@
 [2026-03-17 13:51:12] [DEDUP] Ergebnis: 233 Einträge (war: 233, 0 zusammengeführt)
 [2026-03-17 13:51:12] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
 [2026-03-17 13:51:12] [DEDUP] Gespeichert: 233 → 233 Einträge
+[2026-03-17 15:16:36] === Monitor-Lauf gestartet ===
+[2026-03-17 15:16:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 15:16:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 15:16:38] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-17 15:16:39] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-17 15:16:40] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-17 15:16:40] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-17 15:16:41] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-17 15:16:41] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-17 15:16:42] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-03-17 15:16:42] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-03-17 15:16:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 15:16:43] 240 relevante Treffer in Feeds
+[2026-03-17 15:16:43] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 15:16:43]    16.08.2024 | LVR-Klinik Bedburg |  | „Irgendwie verschlampt“: Angeklagter fehlt bei Prozess zum F
+[2026-03-17 15:16:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 15:16:43] === Monitor-Lauf beendet ===
+
+[2026-03-17 15:16:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 15:16:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 15:16:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 15:16:44] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 15:16:44] [enrich] --- Enriche [1/1]: „Irgendwie verschlampt“: Angeklagter fehlt bei Prozess zum F
+[2026-03-17 15:16:45] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/kleve/feuer-in-lvr-klinik-bedburg-hau-angeklagt
+[2026-03-17 15:16:46] [enrich] Volltext extrahiert: 1031 Zeichen von https://rp-online.de/nrw/staedte/kleve/feuer-in-lvr-klinik-b
+[2026-03-17 15:16:50] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bedburg-Hau in Bedburg-Hau
+[2026-03-17 15:16:50] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-17 15:16:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 15:16:50] [DEDUP] Starte Dedup für 234 Einträge
+[2026-03-17 15:16:50] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 15:16:50] [DEDUP] Paare verglichen: 1423
+[2026-03-17 15:16:50] [DEDUP] Auto-Merges: 0
+[2026-03-17 15:16:50] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-17 15:16:50] [DEDUP] Ergebnis: 234 Einträge (war: 234, 0 zusammengeführt)
+[2026-03-17 15:16:50] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
+[2026-03-17 15:16:50] [DEDUP] Gespeichert: 234 → 234 Einträge
