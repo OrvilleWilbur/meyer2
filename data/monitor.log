@@ -3608,3 +3608,42 @@
 [2026-03-17 15:16:50] [DEDUP] Ergebnis: 234 Einträge (war: 234, 0 zusammengeführt)
 [2026-03-17 15:16:50] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
 [2026-03-17 15:16:50] [DEDUP] Gespeichert: 234 → 234 Einträge
+[2026-03-17 16:19:03] === Monitor-Lauf gestartet ===
+[2026-03-17 16:19:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 16:19:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 16:19:06] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-17 16:19:07] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-17 16:19:07] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-03-17 16:19:08] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-17 16:19:08] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-17 16:19:09] Feed 'gn_klinikbrand': 97 Einträge
+[2026-03-17 16:19:09] Feed 'gn_feuer_uniklinik': 48 Einträge
+[2026-03-17 16:19:10] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-17 16:19:11] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 16:19:11] 246 relevante Treffer in Feeds
+[2026-03-17 16:19:11] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 16:19:11]    28.01.2026 | Jüdischem Krankenhaus |  | Feuer in Jüdischem Krankenhaus - Hinweise auf politische Tat
+[2026-03-17 16:19:11] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 16:19:11] === Monitor-Lauf beendet ===
+
+[2026-03-17 16:19:11] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 16:19:11] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 16:19:11] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 16:19:11] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 16:19:11] [enrich] --- Enriche [1/1]: Feuer in Jüdischem Krankenhaus - Hinweise auf politische Tat
+[2026-03-17 16:19:12] [enrich] Google News URL aufgelöst (v1): https://www.juedische-allgemeine.de/politik/feuer-in-juedischem-krankenhaus-hinw
+[2026-03-17 16:19:14] [enrich] Volltext extrahiert: 4371 Zeichen von https://www.juedische-allgemeine.de/politik/feuer-in-juedisc
+[2026-03-17 16:19:19] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin, Stadtteil Gesundbrunnen
+[2026-03-17 16:19:19] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-17 16:19:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 16:19:19] [DEDUP] Starte Dedup für 235 Einträge
+[2026-03-17 16:19:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 16:19:19] [DEDUP] Auto-Merge (0.91): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin, Stadtteil Ge
+[2026-03-17 16:19:19] [DEDUP] Paare verglichen: 1425
+[2026-03-17 16:19:19] [DEDUP] Auto-Merges: 1
+[2026-03-17 16:19:19] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-17 16:19:19] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus Berlin
+[2026-03-17 16:19:19] [DEDUP] Ergebnis: 234 Einträge (war: 235, 1 zusammengeführt)
+[2026-03-17 16:19:19] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
+[2026-03-17 16:19:19] [DEDUP] Gespeichert: 235 → 234 Einträge
