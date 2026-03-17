@@ -3677,3 +3677,65 @@
 [2026-03-17 18:08:30] [DEDUP] Ergebnis: 234 Einträge (war: 234, 0 zusammengeführt)
 [2026-03-17 18:08:30] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
 [2026-03-17 18:08:30] [DEDUP] Gespeichert: 234 → 234 Einträge
+[2026-03-17 19:19:42] === Monitor-Lauf gestartet ===
+[2026-03-17 19:19:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 19:19:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 19:19:45] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-17 19:19:45] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-17 19:19:46] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-17 19:19:46] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-17 19:19:47] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-17 19:19:48] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-17 19:19:48] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-03-17 19:19:49] Feed 'gn_evakuierung_klinik': 54 Einträge
+[2026-03-17 19:19:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 19:19:50] 237 relevante Treffer in Feeds
+[2026-03-17 19:19:50] ✅ 5 NEUE Einträge gefunden:
+[2026-03-17 19:19:50]    01.06.2025 | Hamburger Krankenhaus |  | Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-17 19:19:50]    03.10.2025 | in Klinik |  | Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STE
+[2026-03-17 19:19:50]    17.12.2025 | Helios-Klinik |  | Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-17 19:19:50]    01.10.2025 | in Klinik |  | Brand in Klinik: Patient zündet Klopapier an - Feuerwehr-Mag
+[2026-03-17 19:19:50]    02.01.2026 |  |  | Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-17 19:19:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 19:19:50] === Monitor-Lauf beendet ===
+
+[2026-03-17 19:19:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 19:19:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 19:19:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 19:19:50] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 19:19:50] [enrich] --- Enriche [1/5]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-17 19:19:51] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186
+[2026-03-17 19:19:52] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.sueddeutsche.de/panorama/brand-hamburg-krankenha
+[2026-03-17 19:20:00] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg, Stadtteil Hohenfelde
+[2026-03-17 19:20:01] [enrich] --- Enriche [2/5]: Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STE
+[2026-03-17 19:20:02] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verl
+[2026-03-17 19:20:03] [enrich] Volltext extrahiert: 1298 Zeichen von https://www.stern.de/panorama/saarbruecken--brand-in-klinik-
+[2026-03-17 19:20:06] [enrich] Enrichment abgeschlossen: enriched — Sonnenbergklinik in Saarbrücken
+[2026-03-17 19:20:07] [enrich] --- Enriche [3/5]: Brand im Leipziger Helios-Klinik – Patienten in Sicherheit g
+[2026-03-17 19:20:07] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in
+[2026-03-17 19:20:08] [enrich] Volltext extrahiert: 1786 Zeichen von https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios
+[2026-03-17 19:20:11] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinik Leipzig (Helios-Klinikum) in Leipzig, Stadtteil Probstheida
+[2026-03-17 19:20:12] [enrich] --- Enriche [4/5]: Brand in Klinik: Patient zündet Klopapier an - Feuerwehr-Mag
+[2026-03-17 19:20:13] [enrich] Google News URL aufgelöst (v1): https://www.feuerwehrmagazin.de/nachrichten/brand-in-klinik-patient-zuendet-klop
+[2026-03-17 19:20:15] [enrich] Volltext extrahiert: 2498 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/brand-in-klinik-
+[2026-03-17 19:20:18] [enrich] Enrichment abgeschlossen: enriched — Klinikum Hanau in Hanau
+[2026-03-17 19:20:19] [enrich] --- Enriche [5/5]: Feuer in Crans-Montana: Kliniken Leipzig und Halle versorgen
+[2026-03-17 19:20:20] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kliniken-leipzig-und-h
+[2026-03-17 19:20:21] [enrich] Volltext extrahiert: 752 Zeichen von https://www.lvz.de/lokales/leipzig/feuer-in-crans-montana-kl
+[2026-03-17 19:20:24] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand im Schweizer Skiort Crans-Montana. Deutsche Kliniken (Leipzig und Halle) werden nur zur Behandlung von Brandopfern erwähnt, nicht als Ort des Brandes. Dies ist kein Brand in einem deutschen Krankenhaus.
+[2026-03-17 19:20:24] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-17 19:20:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 19:20:24] [DEDUP] Starte Dedup für 239 Einträge
+[2026-03-17 19:20:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 19:20:24] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-17 19:20:24] [DEDUP] Auto-Merge (0.91): Helios-Klinik (Helios-Klinikum) / Leipzig, Stadtteil P ↔ Helios-Klinik Leipzig (Helios-Klinikum) / Leipzig, Stadtteil P
+[2026-03-17 19:20:24] [DEDUP] Auto-Merge (0.86): Helios Park-Klinikum Leipzig / Leipzig ↔ Helios-Klinik Leipzig (Helios-Klinikum) / Leipzig, Stadtteil P
+[2026-03-17 19:20:24] [DEDUP] Paare verglichen: 1478
+[2026-03-17 19:20:24] [DEDUP] Auto-Merges: 3
+[2026-03-17 19:20:24] [DEDUP] Kandidaten (unsicher): 64
+[2026-03-17 19:20:24] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-03-17 19:20:24] [DEDUP] Cluster 3x: Helios-Klinik (Helios-Klinikum), Helios Park-Klinikum Leipzig, Helios-Klinik Leipzig (Helios-Klinikum)
+[2026-03-17 19:20:24] [DEDUP] Ergebnis: 236 Einträge (war: 239, 3 zusammengeführt)
+[2026-03-17 19:20:24] [DEDUP] Kandidaten-Datei: 64 pending, 2 confirmed, 0 rejected
+[2026-03-17 19:20:24] [DEDUP] Gespeichert: 239 → 236 Einträge

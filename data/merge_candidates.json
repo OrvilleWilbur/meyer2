@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T18:08:30.733820",
+  "generated_at": "2026-03-17T19:20:24.541120",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -338,6 +338,39 @@
         "",
         ""
       ],
+      "score": 0.702,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.702
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "04.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
+        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
+      },
+      "entry_b": {
+        "einrichtung": "Sonnenbergklinik",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
+        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.7,
       "details": {
         "datum": 0.0,
@@ -463,6 +496,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursache-nach-feuer-im-krankenhaus-in-braunschweig-geklaert,klinikum-110.html",
         "titel": "Patientin will Zigarette anzünden und löst Brand im Krankenhaus aus - sie selbst stirbt - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.686,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.686
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -793,6 +859,72 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - SZ.de"
       }
     },
     {
