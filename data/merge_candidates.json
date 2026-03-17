@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T06:13:17.379508",
+  "generated_at": "2026-03-17T07:19:16.883267",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -199,39 +199,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.dw.com/de/zwei-tote-bei-gro%C3%9Fbrand-in-bochumer-krankenhaus/a-35929131",
-        "titel": "Zwei Tote bei Krankenhaus-Großbrand - dw.com"
       }
     },
     {
