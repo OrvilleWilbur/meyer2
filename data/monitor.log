@@ -3401,3 +3401,45 @@
 [2026-03-17 07:19:16] [DEDUP] Ergebnis: 230 Einträge (war: 230, 0 zusammengeführt)
 [2026-03-17 07:19:16] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
 [2026-03-17 07:19:16] [DEDUP] Gespeichert: 230 → 230 Einträge
+[2026-03-17 09:07:52] === Monitor-Lauf gestartet ===
+[2026-03-17 09:07:53] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 09:07:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 09:07:54] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-17 09:07:54] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-17 09:07:54] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-17 09:07:55] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-17 09:07:55] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-03-17 09:07:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-17 09:07:56] Feed 'gn_feuer_uniklinik': 51 Einträge
+[2026-03-17 09:07:56] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-17 09:07:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 09:07:58] 237 relevante Treffer in Feeds
+[2026-03-17 09:07:58] ✅ 2 NEUE Einträge gefunden:
+[2026-03-17 09:07:58]    11.02.2026 | in Klinik |  | Großeinsatz: Feuer in Klinik im Kreis Goslar - Patienten eva
+[2026-03-17 09:07:58]    13.03.2025 | Vivantes-Klinikum |  | Berlin: Brand im Vivantes-Klinikum in Neukölln - 24 Patiente
+[2026-03-17 09:07:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 09:07:58] === Monitor-Lauf beendet ===
+
+[2026-03-17 09:07:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 09:07:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 09:07:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 09:07:59] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 09:07:59] [enrich] --- Enriche [1/2]: Großeinsatz: Feuer in Klinik im Kreis Goslar - Patienten eva
+[2026-03-17 09:07:59] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/panorama/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-4
+[2026-03-17 09:08:00] [enrich] Volltext extrahiert: 1271 Zeichen von https://www.mz.de/panorama/feuer-in-klinik-im-kreis-goslar-p
+[2026-03-17 09:08:03] [enrich] Enrichment abgeschlossen: enriched — Klinik Dr. Fontheim in Liebenburg
+[2026-03-17 09:08:04] [enrich] --- Enriche [2/2]: Berlin: Brand im Vivantes-Klinikum in Neukölln - 24 Patiente
+[2026-03-17 09:08:04] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/berlin/feuerwehreinsatz-berlin/brand-im-vivantes-klinikum-i
+[2026-03-17 09:08:05] [enrich] Volltext extrahiert: 1499 Zeichen von https://www.tag24.de/berlin/feuerwehreinsatz-berlin/brand-im
+[2026-03-17 09:08:08] [enrich] Enrichment abgeschlossen: enriched — Vivantes-Klinikum in Berlin-Neukölln
+[2026-03-17 09:08:08] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-17 09:08:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 09:08:08] [DEDUP] Starte Dedup für 232 Einträge
+[2026-03-17 09:08:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 09:08:08] [DEDUP] Paare verglichen: 1410
+[2026-03-17 09:08:08] [DEDUP] Auto-Merges: 0
+[2026-03-17 09:08:08] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-17 09:08:08] [DEDUP] Ergebnis: 232 Einträge (war: 232, 0 zusammengeführt)
+[2026-03-17 09:08:08] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
+[2026-03-17 09:08:08] [DEDUP] Gespeichert: 232 → 232 Einträge
