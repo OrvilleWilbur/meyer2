@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T22:52:09.211795",
+  "generated_at": "2026-03-17T23:46:42.772795",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -965,39 +965,6 @@
         "",
         ""
       ],
-      "score": 0.596,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.85,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.596
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.wort.lu/panorama/toedlicher-klinikbrand-patient-zuendete-sein-kissen-an/69812867.html",
-        "titel": "Tödlicher Klinikbrand: Patient zündete sein Kissen an - Luxemburger Wort"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.588,
       "details": {
         "datum": 0.0,
@@ -1057,72 +1024,6 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.565,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.565
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.wort.lu/panorama/toedlicher-klinikbrand-patient-zuendete-sein-kissen-an/69812867.html",
-        "titel": "Tödlicher Klinikbrand: Patient zündete sein Kissen an - Luxemburger Wort"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.565,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.565
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.wort.lu/panorama/toedlicher-klinikbrand-patient-zuendete-sein-kissen-an/69812867.html",
-        "titel": "Tödlicher Klinikbrand: Patient zündete sein Kissen an - Luxemburger Wort"
       }
     },
     {
