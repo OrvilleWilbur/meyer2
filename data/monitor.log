@@ -3255,3 +3255,40 @@
 [2026-03-16 23:43:27] [DEDUP] Ergebnis: 227 Einträge (war: 228, 1 zusammengeführt)
 [2026-03-16 23:43:27] [DEDUP] Kandidaten-Datei: 59 pending, 2 confirmed, 0 rejected
 [2026-03-16 23:43:27] [DEDUP] Gespeichert: 228 → 227 Einträge
+[2026-03-17 03:12:00] === Monitor-Lauf gestartet ===
+[2026-03-17 03:12:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 03:12:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 03:12:03] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-03-17 03:12:03] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-17 03:12:03] Feed 'gn_feuer_klinik': 36 Einträge
+[2026-03-17 03:12:04] Feed 'gn_brand_klinik': 52 Einträge
+[2026-03-17 03:12:04] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-17 03:12:05] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-17 03:12:05] Feed 'gn_feuer_uniklinik': 55 Einträge
+[2026-03-17 03:12:06] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-17 03:12:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 03:12:07] 239 relevante Treffer in Feeds
+[2026-03-17 03:12:07] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 03:12:07]    12.10.2007 | im Krankenhaus |  | Die Katastrophe im Krankenhaus: Evakuierung - skverlag.de
+[2026-03-17 03:12:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 03:12:07] === Monitor-Lauf beendet ===
+
+[2026-03-17 03:12:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 03:12:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 03:12:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 03:12:07] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 03:12:07] [enrich] --- Enriche [1/1]: Die Katastrophe im Krankenhaus: Evakuierung - skverlag.de
+[2026-03-17 03:12:08] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-kr
+[2026-03-17 03:12:09] [enrich] Volltext extrahiert: 589 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/d
+[2026-03-17 03:12:12] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt das Thema Evakuierungen und Brandschutzübungen in allgemeiner Form, beschreibt aber keinen konkreten Brand in einem deutschen Krankenhaus. Es handelt sich um einen redaktionellen Überblicksartikel ohne Bezug zu einem realen Krankenhausbrand.
+[2026-03-17 03:12:12] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-17 03:12:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 03:12:12] [DEDUP] Starte Dedup für 228 Einträge
+[2026-03-17 03:12:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 03:12:12] [DEDUP] Paare verglichen: 1317
+[2026-03-17 03:12:12] [DEDUP] Auto-Merges: 0
+[2026-03-17 03:12:12] [DEDUP] Kandidaten (unsicher): 60
+[2026-03-17 03:12:12] [DEDUP] Ergebnis: 228 Einträge (war: 228, 0 zusammengeführt)
+[2026-03-17 03:12:12] [DEDUP] Kandidaten-Datei: 60 pending, 2 confirmed, 0 rejected
+[2026-03-17 03:12:12] [DEDUP] Gespeichert: 228 → 228 Einträge

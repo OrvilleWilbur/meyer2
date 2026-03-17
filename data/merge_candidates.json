@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T23:43:27.757095",
+  "generated_at": "2026-03-17T03:12:12.920753",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1849,6 +1849,39 @@
         "status": "false_positive",
         "link": "https://www.kreiszeitung.de/lokales/diepholz/stuhr-ort52271/akku-loest-brand-in-stuhr-aus-zwei-personen-verletzt-im-krankenhaus-91047295.html",
         "titel": "Akku löst Brand in Stuhr aus: Zwei Personen verletzt im Krankenhaus - Kreiszeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - SK-Verlag"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - skverlag.de"
       }
     },
     {
