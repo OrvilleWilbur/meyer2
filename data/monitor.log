@@ -3813,3 +3813,42 @@
 [2026-03-17 21:53:47] [DEDUP] Ergebnis: 238 Einträge (war: 238, 0 zusammengeführt)
 [2026-03-17 21:53:47] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-17 21:53:47] [DEDUP] Gespeichert: 238 → 238 Einträge
+[2026-03-17 22:51:53] === Monitor-Lauf gestartet ===
+[2026-03-17 22:51:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 22:51:55] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 22:51:55] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-03-17 22:51:56] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-03-17 22:51:56] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-17 22:51:57] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-17 22:51:57] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-17 22:51:58] Feed 'gn_klinikbrand': 80 Einträge
+[2026-03-17 22:51:58] Feed 'gn_feuer_uniklinik': 46 Einträge
+[2026-03-17 22:51:58] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-17 22:51:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 22:51:59] 244 relevante Treffer in Feeds
+[2026-03-17 22:51:59] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 22:51:59]    02.06.2025 | Tödlicher Klinikbrand |  | Tödlicher Klinikbrand: Patient zündete sein Kissen an - Luxe
+[2026-03-17 22:51:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 22:51:59] === Monitor-Lauf beendet ===
+
+[2026-03-17 22:52:00] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 22:52:00] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 22:52:00] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 22:52:00] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 22:52:00] [enrich] --- Enriche [1/1]: Tödlicher Klinikbrand: Patient zündete sein Kissen an - Luxe
+[2026-03-17 22:52:00] [enrich] Google News URL aufgelöst (v1): https://www.wort.lu/panorama/toedlicher-klinikbrand-patient-zuendete-sein-kissen
+[2026-03-17 22:52:03] [enrich] Volltext extrahiert: 3406 Zeichen von https://www.wort.lu/panorama/toedlicher-klinikbrand-patient-
+[2026-03-17 22:52:08] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg, Stadtteil Hohenfelde
+[2026-03-17 22:52:08] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-17 22:52:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 22:52:09] [DEDUP] Starte Dedup für 239 Einträge
+[2026-03-17 22:52:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 22:52:09] [DEDUP] Auto-Merge (0.82): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg, Stadtteil H
+[2026-03-17 22:52:09] [DEDUP] Paare verglichen: 1492
+[2026-03-17 22:52:09] [DEDUP] Auto-Merges: 1
+[2026-03-17 22:52:09] [DEDUP] Kandidaten (unsicher): 64
+[2026-03-17 22:52:09] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-03-17 22:52:09] [DEDUP] Ergebnis: 238 Einträge (war: 239, 1 zusammengeführt)
+[2026-03-17 22:52:09] [DEDUP] Kandidaten-Datei: 64 pending, 2 confirmed, 0 rejected
+[2026-03-17 22:52:09] [DEDUP] Gespeichert: 239 → 238 Einträge
