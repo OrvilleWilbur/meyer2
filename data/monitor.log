@@ -3776,3 +3776,40 @@
 [2026-03-17 20:56:48] [DEDUP] Ergebnis: 237 Einträge (war: 237, 0 zusammengeführt)
 [2026-03-17 20:56:48] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-17 20:56:48] [DEDUP] Gespeichert: 237 → 237 Einträge
+[2026-03-17 21:53:34] === Monitor-Lauf gestartet ===
+[2026-03-17 21:53:36] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 21:53:37] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 21:53:37] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-17 21:53:38] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-17 21:53:38] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-17 21:53:39] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-17 21:53:39] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-17 21:53:40] Feed 'gn_klinikbrand': 96 Einträge
+[2026-03-17 21:53:40] Feed 'gn_feuer_uniklinik': 47 Einträge
+[2026-03-17 21:53:41] Feed 'gn_evakuierung_klinik': 54 Einträge
+[2026-03-17 21:53:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 21:53:42] 248 relevante Treffer in Feeds
+[2026-03-17 21:53:42] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 21:53:42]    23.12.2024 | Schön-Klinik Rendsburg |  | Nach Feuer in Schön-Klinik Rendsburg: So funktioniert der Ev
+[2026-03-17 21:53:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 21:53:42] === Monitor-Lauf beendet ===
+
+[2026-03-17 21:53:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 21:53:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 21:53:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 21:53:43] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 21:53:43] [enrich] --- Enriche [1/1]: Nach Feuer in Schön-Klinik Rendsburg: So funktioniert der Ev
+[2026-03-17 21:53:43] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/rendsburg-eckernfoerde/nach-feuer-in-schoen-kli
+[2026-03-17 21:53:44] [enrich] Volltext extrahiert: 642 Zeichen von https://www.kn-online.de/lokales/rendsburg-eckernfoerde/nach
+[2026-03-17 21:53:47] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik Rendsburg in Rendsburg
+[2026-03-17 21:53:47] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-17 21:53:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 21:53:47] [DEDUP] Starte Dedup für 238 Einträge
+[2026-03-17 21:53:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 21:53:47] [DEDUP] Paare verglichen: 1488
+[2026-03-17 21:53:47] [DEDUP] Auto-Merges: 0
+[2026-03-17 21:53:47] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-17 21:53:47] [DEDUP] Ergebnis: 238 Einträge (war: 238, 0 zusammengeführt)
+[2026-03-17 21:53:47] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
+[2026-03-17 21:53:47] [DEDUP] Gespeichert: 238 → 238 Einträge
