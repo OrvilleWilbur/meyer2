@@ -3739,3 +3739,40 @@
 [2026-03-17 19:20:24] [DEDUP] Ergebnis: 236 Einträge (war: 239, 3 zusammengeführt)
 [2026-03-17 19:20:24] [DEDUP] Kandidaten-Datei: 64 pending, 2 confirmed, 0 rejected
 [2026-03-17 19:20:24] [DEDUP] Gespeichert: 239 → 236 Einträge
+[2026-03-17 20:56:39] === Monitor-Lauf gestartet ===
+[2026-03-17 20:56:40] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-17 20:56:41] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-17 20:56:41] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-17 20:56:42] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-17 20:56:42] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-17 20:56:42] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-17 20:56:43] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-17 20:56:43] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-17 20:56:44] Feed 'gn_feuer_uniklinik': 48 Einträge
+[2026-03-17 20:56:44] Feed 'gn_evakuierung_klinik': 54 Einträge
+[2026-03-17 20:56:45] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-17 20:56:45] 247 relevante Treffer in Feeds
+[2026-03-17 20:56:45] ✅ 1 NEUE Einträge gefunden:
+[2026-03-17 20:56:45]    18.07.2025 | Uniklinikum löst Großeinsatz aus |  | Feueralarm am Leipziger Uniklinikum löst Großeinsatz aus - L
+[2026-03-17 20:56:45] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-17 20:56:45] === Monitor-Lauf beendet ===
+
+[2026-03-17 20:56:46] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-17 20:56:46] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-17 20:56:46] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-17 20:56:46] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-17 20:56:46] [enrich] --- Enriche [1/1]: Feueralarm am Leipziger Uniklinikum löst Großeinsatz aus - L
+[2026-03-17 20:56:46] [enrich] Google News URL aufgelöst (v1): https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipzig-suedost-fehlalarm
+[2026-03-17 20:56:47] [enrich] Volltext extrahiert: 1146 Zeichen von https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipz
+[2026-03-17 20:56:48] [enrich] FALSE POSITIVE erkannt: Es handelt sich um einen Fehlalarm, nicht um einen tatsächlichen Brand. Der Brandmelder wurde ausgelöst, aber es gab keinen Brand im Krankenhaus.
+[2026-03-17 20:56:48] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-17 20:56:48] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-17 20:56:48] [DEDUP] Starte Dedup für 237 Einträge
+[2026-03-17 20:56:48] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-17 20:56:48] [DEDUP] Paare verglichen: 1488
+[2026-03-17 20:56:48] [DEDUP] Auto-Merges: 0
+[2026-03-17 20:56:48] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-17 20:56:48] [DEDUP] Ergebnis: 237 Einträge (war: 237, 0 zusammengeführt)
+[2026-03-17 20:56:48] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
+[2026-03-17 20:56:48] [DEDUP] Gespeichert: 237 → 237 Einträge
