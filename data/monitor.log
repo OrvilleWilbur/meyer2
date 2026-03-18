@@ -4115,3 +4115,47 @@
 [2026-03-18 11:09:28] [DEDUP] Ergebnis: 240 Einträge (war: 240, 0 zusammengeführt)
 [2026-03-18 11:09:28] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-18 11:09:28] [DEDUP] Gespeichert: 240 → 240 Einträge
+[2026-03-18 11:58:10] === Monitor-Lauf gestartet ===
+[2026-03-18 11:58:12] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-18 11:58:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-18 11:58:13] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-18 11:58:14] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-18 11:58:14] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-18 11:58:15] Feed 'gn_brand_klinik': 50 Einträge
+[2026-03-18 11:58:15] Feed 'gn_brand_klinikum': 26 Einträge
+[2026-03-18 11:58:16] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-18 11:58:16] Feed 'gn_feuer_uniklinik': 45 Einträge
+[2026-03-18 11:58:17] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-18 11:58:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-18 11:58:18] 229 relevante Treffer in Feeds
+[2026-03-18 11:58:18] ✅ 2 NEUE Einträge gefunden:
+[2026-03-18 11:58:18]    17.12.2021 | bei Krankenhaus |  | Teil-Evakuierung und ein Schwerverletzter bei Krankenhaus-Br
+[2026-03-18 11:58:18]    10.09.2019 | in Krankenhaus |  | Brand in Krankenhaus: So hat ein Patient die Evakuierung des
+[2026-03-18 11:58:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-18 11:58:18] === Monitor-Lauf beendet ===
+
+[2026-03-18 11:58:18] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-18 11:58:18] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-18 11:58:18] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-18 11:58:18] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-18 11:58:18] [enrich] --- Enriche [1/2]: Teil-Evakuierung und ein Schwerverletzter bei Krankenhaus-Br
+[2026-03-18 11:58:19] [enrich] Google News URL aufgelöst (v1): https://filmpost.de/aktuell/archiv/2021/teil-evakuierung-und-ein-schwerverletzte
+[2026-03-18 11:58:20] [enrich] Volltext extrahiert: 2603 Zeichen von https://filmpost.de/aktuell/archiv/2021/teil-evakuierung-und
+[2026-03-18 11:58:24] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Eschweiler (Name nicht explizit genannt, Adresse: Dechant-Deckers-Straße) in Eschweiler
+[2026-03-18 11:58:25] [enrich] --- Enriche [2/2]: Brand in Krankenhaus: So hat ein Patient die Evakuierung des
+[2026-03-18 11:58:25] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/brand-in-duesseldorf-evak
+[2026-03-18 11:58:26] [enrich] Volltext extrahiert: 736 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/brand
+[2026-03-18 11:58:28] [enrich] Enrichment abgeschlossen: enriched — Marienhospital in Düsseldorf
+[2026-03-18 11:58:28] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-18 11:58:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-18 11:58:28] [DEDUP] Starte Dedup für 242 Einträge
+[2026-03-18 11:58:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-18 11:58:28] [DEDUP] Auto-Merge (0.86): Marienhospital / Düsseldorf ↔ Marienhospital / Düsseldorf
+[2026-03-18 11:58:28] [DEDUP] Paare verglichen: 1587
+[2026-03-18 11:58:28] [DEDUP] Auto-Merges: 1
+[2026-03-18 11:58:28] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-18 11:58:28] [DEDUP] Cluster 2x: Marienhospital, Marienhospital
+[2026-03-18 11:58:28] [DEDUP] Ergebnis: 241 Einträge (war: 242, 1 zusammengeführt)
+[2026-03-18 11:58:28] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
+[2026-03-18 11:58:29] [DEDUP] Gespeichert: 242 → 241 Einträge
