@@ -4048,3 +4048,40 @@
 [2026-03-18 09:07:23] [DEDUP] Ergebnis: 239 Einträge (war: 239, 0 zusammengeführt)
 [2026-03-18 09:07:23] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-18 09:07:23] [DEDUP] Gespeichert: 239 → 239 Einträge
+[2026-03-18 10:11:05] === Monitor-Lauf gestartet ===
+[2026-03-18 10:11:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-18 10:11:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-18 10:11:07] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-18 10:11:08] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-18 10:11:08] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-03-18 10:11:09] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-18 10:11:09] Feed 'gn_brand_klinikum': 26 Einträge
+[2026-03-18 10:11:09] Feed 'gn_klinikbrand': 98 Einträge
+[2026-03-18 10:11:10] Feed 'gn_feuer_uniklinik': 45 Einträge
+[2026-03-18 10:11:10] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-18 10:11:11] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-18 10:11:11] 228 relevante Treffer in Feeds
+[2026-03-18 10:11:11] ✅ 1 NEUE Einträge gefunden:
+[2026-03-18 10:11:11]    09.02.2026 | im Krankenhaus |  | Rauchgas-Gefahr am Kamin: In Ahrensburg endet ein gemütliche
+[2026-03-18 10:11:11] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-18 10:11:11] === Monitor-Lauf beendet ===
+
+[2026-03-18 10:11:12] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-18 10:11:12] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-18 10:11:12] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-18 10:11:12] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-18 10:11:12] [enrich] --- Enriche [1/1]: Rauchgas-Gefahr am Kamin: In Ahrensburg endet ein gemütliche
+[2026-03-18 10:11:12] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/bargteheide-ahrensburg/artikel/brand-in-ahrensfelde-b
+[2026-03-18 10:11:13] [enrich] Volltext extrahiert: 1792 Zeichen von https://www.shz.de/lokales/bargteheide-ahrensburg/artikel/br
+[2026-03-18 10:11:15] [enrich] FALSE POSITIVE erkannt: Brand in einem Einfamilienhaus in Ahrensburg, nicht in einem Krankenhaus. Eine Person wurde nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber das ist kein Brand IN einer Klinik/einem Krankenhaus.
+[2026-03-18 10:11:15] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-18 10:11:15] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-18 10:11:15] [DEDUP] Starte Dedup für 240 Einträge
+[2026-03-18 10:11:15] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-18 10:11:15] [DEDUP] Paare verglichen: 1584
+[2026-03-18 10:11:15] [DEDUP] Auto-Merges: 0
+[2026-03-18 10:11:15] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-18 10:11:15] [DEDUP] Ergebnis: 240 Einträge (war: 240, 0 zusammengeführt)
+[2026-03-18 10:11:15] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
+[2026-03-18 10:11:15] [DEDUP] Gespeichert: 240 → 240 Einträge
