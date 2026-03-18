@@ -4228,3 +4228,50 @@
 [2026-03-18 15:37:22] [DEDUP] Ergebnis: 241 Einträge (war: 242, 1 zusammengeführt)
 [2026-03-18 15:37:22] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-18 15:37:22] [DEDUP] Gespeichert: 242 → 241 Einträge
+[2026-03-18 17:17:22] === Monitor-Lauf gestartet ===
+[2026-03-18 17:17:23] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-18 17:17:24] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-18 17:17:24] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-03-18 17:17:25] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-18 17:17:25] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-18 17:17:25] Feed 'gn_brand_klinik': 50 Einträge
+[2026-03-18 17:17:26] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-18 17:17:26] Feed 'gn_klinikbrand': 89 Einträge
+[2026-03-18 17:17:27] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-18 17:17:27] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-18 17:17:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-18 17:17:28] 227 relevante Treffer in Feeds
+[2026-03-18 17:17:28] ✅ 3 NEUE Einträge gefunden:
+[2026-03-18 17:17:28]    14.01.2026 | in Klinik untergebracht |  | Feuer vor Synagoge: Verdächtiger in Klinik untergebracht - S
+[2026-03-18 17:17:28]    14.04.2025 | Ameos Klinik |  | Feuer in Ameos Klinik - der reporter
+[2026-03-18 17:17:28]    02.06.2024 | Stiftungsklinik Weißenhorn |  | Hochwassergefahr: So lief die Evakuierung der Stiftungsklini
+[2026-03-18 17:17:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-18 17:17:28] === Monitor-Lauf beendet ===
+
+[2026-03-18 17:17:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-18 17:17:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-18 17:17:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-18 17:17:28] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-18 17:17:28] [enrich] --- Enriche [1/3]: Feuer vor Synagoge: Verdächtiger in Klinik untergebracht - S
+[2026-03-18 17:17:29] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-vor-synagoge-verdaechtiger-in
+[2026-03-18 17:17:29] [enrich] Volltext extrahiert: 1963 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-vor-synag
+[2026-03-18 17:17:31] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand von Müllcontainern vor einer Synagoge, nicht einen Brand in einem Krankenhaus. Die Erwähnung der Klinik bezieht sich nur auf die gerichtlich angeordnete Unterbringung des Verdächtigen zur Behandlung, nicht auf einen Brand im Krankenhaus selbst.
+[2026-03-18 17:17:32] [enrich] --- Enriche [2/3]: Feuer in Ameos Klinik - der reporter
+[2026-03-18 17:17:32] [enrich] Google News URL aufgelöst (v1): https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik
+[2026-03-18 17:17:33] [enrich] Volltext extrahiert: 1523 Zeichen von https://www.der-reporter.de/timeline/neustadt/artikel/feuer-
+[2026-03-18 17:17:36] [enrich] Enrichment abgeschlossen: enriched — Ameos Klinik in Neustadt in Holstein
+[2026-03-18 17:17:37] [enrich] --- Enriche [3/3]: Hochwassergefahr: So lief die Evakuierung der Stiftungsklini
+[2026-03-18 17:17:37] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hochwassergefahr-so-lie
+[2026-03-18 17:17:38] [enrich] Volltext extrahiert: 264 Zeichen von https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hoc
+[2026-03-18 17:17:42] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Hochwassergefahr, nicht wegen Brand
+[2026-03-18 17:17:42] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-18 17:17:42] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-18 17:17:42] [DEDUP] Starte Dedup für 244 Einträge
+[2026-03-18 17:17:42] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-18 17:17:42] [DEDUP] Paare verglichen: 1639
+[2026-03-18 17:17:42] [DEDUP] Auto-Merges: 0
+[2026-03-18 17:17:42] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-18 17:17:42] [DEDUP] Ergebnis: 244 Einträge (war: 244, 0 zusammengeführt)
+[2026-03-18 17:17:42] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-18 17:17:42] [DEDUP] Gespeichert: 244 → 244 Einträge
