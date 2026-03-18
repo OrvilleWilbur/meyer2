@@ -3912,3 +3912,40 @@
 [2026-03-18 03:19:54] [DEDUP] Ergebnis: 238 Einträge (war: 238, 0 zusammengeführt)
 [2026-03-18 03:19:54] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
 [2026-03-18 03:19:54] [DEDUP] Gespeichert: 238 → 238 Einträge
+[2026-03-18 05:41:19] === Monitor-Lauf gestartet ===
+[2026-03-18 05:41:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-18 05:41:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-18 05:41:21] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-18 05:41:22] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-18 05:41:22] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-18 05:41:23] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-18 05:41:23] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-18 05:41:24] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-18 05:41:24] Feed 'gn_feuer_uniklinik': 47 Einträge
+[2026-03-18 05:41:24] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-18 05:41:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-18 05:41:26] 234 relevante Treffer in Feeds
+[2026-03-18 05:41:26] ✅ 1 NEUE Einträge gefunden:
+[2026-03-18 05:41:26]    02.01.2026 |  |  | Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-18 05:41:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-18 05:41:26] === Monitor-Lauf beendet ===
+
+[2026-03-18 05:41:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-18 05:41:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-18 05:41:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-18 05:41:26] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-18 05:41:26] [enrich] --- Enriche [1/1]: Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-18 05:41:27] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brandkatastrophe-klinikum-in-leipzig-behand
+[2026-03-18 05:41:27] [enrich] Volltext extrahiert: 2192 Zeichen von https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik
+[2026-03-18 05:41:29] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Schweizer Skiort (Crans-Montana), nicht in einem deutschen Krankenhaus. Das Klinikum St. Georg in Leipzig wird nur erwähnt, weil es Brandopfer zur Behandlung aufnimmt - dies fällt unter die Ausschlusskriterien 'Person wird nach einem Brand ins Krankenhaus gebracht' und 'Brandopfer werden in einer Klinik behandelt'.
+[2026-03-18 05:41:29] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-18 05:41:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-18 05:41:29] [DEDUP] Starte Dedup für 239 Einträge
+[2026-03-18 05:41:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-18 05:41:29] [DEDUP] Paare verglichen: 1537
+[2026-03-18 05:41:29] [DEDUP] Auto-Merges: 0
+[2026-03-18 05:41:29] [DEDUP] Kandidaten (unsicher): 61
+[2026-03-18 05:41:29] [DEDUP] Ergebnis: 239 Einträge (war: 239, 0 zusammengeführt)
+[2026-03-18 05:41:29] [DEDUP] Kandidaten-Datei: 61 pending, 2 confirmed, 0 rejected
+[2026-03-18 05:41:29] [DEDUP] Gespeichert: 239 → 239 Einträge
