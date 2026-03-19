@@ -4695,3 +4695,41 @@
 [2026-03-19 11:01:09] [DEDUP] Ergebnis: 247 Einträge (war: 248, 1 zusammengeführt)
 [2026-03-19 11:01:09] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 11:01:09] [DEDUP] Gespeichert: 248 → 247 Einträge
+[2026-03-19 11:49:48] === Monitor-Lauf gestartet ===
+[2026-03-19 11:49:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 11:49:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 11:49:52] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-19 11:49:52] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-19 11:49:53] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-19 11:49:53] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-19 11:49:53] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-19 11:49:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 11:49:55] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-03-19 11:49:55] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-19 11:49:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 11:49:56] 229 relevante Treffer in Feeds
+[2026-03-19 11:49:56] ✅ 1 NEUE Einträge gefunden:
+[2026-03-19 11:49:56]    19.03.2026 | im Klinikum Dresden |  | Stromausfall nach Brand im Klinikum Dresden-Friedrichstadt –
+[2026-03-19 11:49:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 11:49:56] === Monitor-Lauf beendet ===
+
+[2026-03-19 11:49:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 11:49:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 11:49:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 11:49:57] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 11:49:57] [enrich] --- Enriche [1/1]: Stromausfall nach Brand im Klinikum Dresden-Friedrichstadt –
+[2026-03-19 11:49:57] [enrich] Google News URL aufgelöst (v1): https://lomazoma.com/stromausfall-nach-brand-im-klinikum-dresden-friedrichstadt-
+[2026-03-19 11:49:57] [enrich] Artikel-Fetch fehlgeschlagen für https://lomazoma.com/stromausfall-nach-brand-im-klinikum-dresden-friedrichstadt-: 403 Client Error: Forbidden for url: https://lomazoma.com/stromausfall-nach-brand-im-klinikum-dresden-friedrichstadt-betrieb-vorerst-eingestellt/
+[2026-03-19 11:49:57] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (554 Z.)
+[2026-03-19 11:49:59] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne vollständigen Text. Basierend auf der Überschrift allein kann nicht ausreichend verifiziert werden, dass ein Brand tatsächlich IM Krankenhaus stattgefunden hat (es könnte auch ein Brand in der Nähe sein, der zu einem Stromausfall führte). Zur Datenextraktion ist der vollständige Artikeltext erforderlich.
+[2026-03-19 11:49:59] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-19 11:49:59] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 11:49:59] [DEDUP] Starte Dedup für 248 Einträge
+[2026-03-19 11:49:59] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 11:49:59] [DEDUP] Paare verglichen: 1712
+[2026-03-19 11:49:59] [DEDUP] Auto-Merges: 0
+[2026-03-19 11:49:59] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 11:49:59] [DEDUP] Ergebnis: 248 Einträge (war: 248, 0 zusammengeführt)
+[2026-03-19 11:49:59] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 11:49:59] [DEDUP] Gespeichert: 248 → 248 Einträge
