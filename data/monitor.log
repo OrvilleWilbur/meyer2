@@ -4617,3 +4617,42 @@
 [2026-03-19 09:01:47] [DEDUP] Ergebnis: 247 Einträge (war: 249, 2 zusammengeführt)
 [2026-03-19 09:01:47] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 09:01:47] [DEDUP] Gespeichert: 249 → 247 Einträge
+[2026-03-19 10:00:34] === Monitor-Lauf gestartet ===
+[2026-03-19 10:00:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 10:00:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 10:00:36] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-03-19 10:00:37] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-03-19 10:00:37] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-19 10:00:37] Feed 'gn_brand_klinik': 50 Einträge
+[2026-03-19 10:00:38] Feed 'gn_brand_klinikum': 30 Einträge
+[2026-03-19 10:00:38] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 10:00:39] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-03-19 10:00:39] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-03-19 10:00:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 10:00:40] 216 relevante Treffer in Feeds
+[2026-03-19 10:00:40] ✅ 1 NEUE Einträge gefunden:
+[2026-03-19 10:00:40]    19.03.2026 | in Klinikum |  | Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-03-19 10:00:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 10:00:40] === Monitor-Lauf beendet ===
+
+[2026-03-19 10:00:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 10:00:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 10:00:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 10:00:40] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 10:00:40] [enrich] --- Enriche [1/1]: Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-03-19 10:00:41] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektro-brand-in-klinikum-
+[2026-03-19 10:00:41] [enrich] Volltext extrahiert: 3092 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektr
+[2026-03-19 10:00:45] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-19 10:00:45] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-19 10:00:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 10:00:45] [DEDUP] Starte Dedup für 248 Einträge
+[2026-03-19 10:00:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 10:00:46] [DEDUP] Auto-Merge (0.89): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-19 10:00:46] [DEDUP] Paare verglichen: 1696
+[2026-03-19 10:00:46] [DEDUP] Auto-Merges: 1
+[2026-03-19 10:00:46] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 10:00:46] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-03-19 10:00:46] [DEDUP] Ergebnis: 247 Einträge (war: 248, 1 zusammengeführt)
+[2026-03-19 10:00:46] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 10:00:46] [DEDUP] Gespeichert: 248 → 247 Einträge
