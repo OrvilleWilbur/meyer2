@@ -4911,3 +4911,40 @@
 [2026-03-19 17:13:55] [DEDUP] Ergebnis: 251 Einträge (war: 252, 1 zusammengeführt)
 [2026-03-19 17:13:55] [DEDUP] Kandidaten-Datei: 64 pending, 2 confirmed, 0 rejected
 [2026-03-19 17:13:55] [DEDUP] Gespeichert: 252 → 251 Einträge
+[2026-03-19 18:05:45] === Monitor-Lauf gestartet ===
+[2026-03-19 18:05:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 18:05:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 18:05:48] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-19 18:05:49] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-19 18:05:49] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-19 18:05:50] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-19 18:05:51] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-19 18:05:52] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 18:05:52] Feed 'gn_feuer_uniklinik': 43 Einträge
+[2026-03-19 18:05:52] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-19 18:05:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 18:05:54] 231 relevante Treffer in Feeds
+[2026-03-19 18:05:54] ✅ 1 NEUE Einträge gefunden:
+[2026-03-19 18:05:54]    19.02.2021 | Limburger Krankenhaus |  | Brand in Limburger Krankenhaus – zwei Verletzte - RND.de
+[2026-03-19 18:05:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 18:05:54] === Monitor-Lauf beendet ===
+
+[2026-03-19 18:05:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 18:05:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 18:05:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 18:05:54] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 18:05:54] [enrich] --- Enriche [1/1]: Brand in Limburger Krankenhaus – zwei Verletzte - RND.de
+[2026-03-19 18:05:55] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/brand-in-limburger-krankenhaus-zwei-verletzte-UG5ESF
+[2026-03-19 18:05:56] [enrich] Volltext extrahiert: 1162 Zeichen von https://www.rnd.de/panorama/brand-in-limburger-krankenhaus-z
+[2026-03-19 18:05:58] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Limburg in Limburg
+[2026-03-19 18:05:58] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-19 18:05:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 18:05:58] [DEDUP] Starte Dedup für 252 Einträge
+[2026-03-19 18:05:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 18:05:58] [DEDUP] Paare verglichen: 1767
+[2026-03-19 18:05:58] [DEDUP] Auto-Merges: 0
+[2026-03-19 18:05:58] [DEDUP] Kandidaten (unsicher): 64
+[2026-03-19 18:05:58] [DEDUP] Ergebnis: 252 Einträge (war: 252, 0 zusammengeführt)
+[2026-03-19 18:05:58] [DEDUP] Kandidaten-Datei: 64 pending, 2 confirmed, 0 rejected
+[2026-03-19 18:05:58] [DEDUP] Gespeichert: 252 → 252 Einträge
