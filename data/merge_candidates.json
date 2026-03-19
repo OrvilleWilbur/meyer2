@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T20:56:26.510681",
+  "generated_at": "2026-03-19T21:49:08.330121",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -496,6 +496,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursache-nach-feuer-im-krankenhaus-in-braunschweig-geklaert,klinikum-110.html",
         "titel": "Patientin will Zigarette anzünden und löst Brand im Krankenhaus aus - sie selbst stirbt - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.691,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.691
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Bezirk Mitte, Berlin (Name nicht spezifiziert)",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
+        "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
       }
     },
     {
@@ -1024,6 +1057,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.595,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.3333333333333333,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.23076923076923078,
+        "total": 0.595
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin-Neukölln (Ortsteil Buckow)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
       }
     },
     {
