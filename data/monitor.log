@@ -4821,3 +4821,49 @@
 [2026-03-19 15:05:58] [DEDUP] Ergebnis: 250 Einträge (war: 250, 0 zusammengeführt)
 [2026-03-19 15:05:58] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 15:05:58] [DEDUP] Gespeichert: 250 → 250 Einträge
+[2026-03-19 16:07:28] === Monitor-Lauf gestartet ===
+[2026-03-19 16:07:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 16:07:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 16:07:31] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-03-19 16:07:31] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-19 16:07:32] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-03-19 16:07:32] Feed 'gn_brand_klinik': 52 Einträge
+[2026-03-19 16:07:33] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-19 16:07:33] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 16:07:34] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-19 16:07:34] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-03-19 16:07:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 16:07:35] 223 relevante Treffer in Feeds
+[2026-03-19 16:07:35] ✅ 2 NEUE Einträge gefunden:
+[2026-03-19 16:07:35]    16.03.2026 | Bezirksklinikum |  | Landkreis Deggendorf: Feuer im Bezirksklinikum: Ein Mensch l
+[2026-03-19 16:07:35]    19.03.2026 |  |  | Nach Brand: Klinikum Dresden will Betrieb am Donnerstag wied
+[2026-03-19 16:07:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 16:07:35] === Monitor-Lauf beendet ===
+
+[2026-03-19 16:07:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 16:07:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 16:07:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 16:07:36] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 16:07:36] [enrich] --- Enriche [1/2]: Landkreis Deggendorf: Feuer im Bezirksklinikum: Ein Mensch l
+[2026-03-19 16:07:37] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/bayern/landkreis-deggendorf--feuer-im
+[2026-03-19 16:07:37] [enrich] Volltext extrahiert: 1311 Zeichen von https://www.stern.de/gesellschaft/regional/bayern/landkreis-
+[2026-03-19 16:07:40] [enrich] Enrichment abgeschlossen: enriched — Bezirksklinikum in Landkreis Deggendorf
+[2026-03-19 16:07:41] [enrich] --- Enriche [2/2]: Nach Brand: Klinikum Dresden will Betrieb am Donnerstag wied
+[2026-03-19 16:07:41] [enrich] Google News URL aufgelöst (v1): https://www.saechsische.de/lokales/dresden/dresden-krankenhaus-friedrichstadt-ka
+[2026-03-19 16:07:42] [enrich] Volltext extrahiert: 4576 Zeichen von https://www.saechsische.de/lokales/dresden/dresden-krankenha
+[2026-03-19 16:07:46] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden, Standort Dresden-Friedrichstadt in Dresden
+[2026-03-19 16:07:46] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-19 16:07:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 16:07:46] [DEDUP] Starte Dedup für 252 Einträge
+[2026-03-19 16:07:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 16:07:46] [DEDUP] Auto-Merge (0.97): Bezirksklinikum / Landkreis Deggendorf ↔ Bezirksklinikum / Landkreis Deggendorf
+[2026-03-19 16:07:46] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden, Standort D / Dresden
+[2026-03-19 16:07:46] [DEDUP] Paare verglichen: 1768
+[2026-03-19 16:07:46] [DEDUP] Auto-Merges: 2
+[2026-03-19 16:07:46] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 16:07:46] [DEDUP] Cluster 2x: Bezirksklinikum, Bezirksklinikum
+[2026-03-19 16:07:46] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden, Standort D
+[2026-03-19 16:07:46] [DEDUP] Ergebnis: 250 Einträge (war: 252, 2 zusammengeführt)
+[2026-03-19 16:07:46] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 16:07:46] [DEDUP] Gespeichert: 252 → 250 Einträge
