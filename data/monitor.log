@@ -4455,3 +4455,40 @@
 [2026-03-19 03:20:17] [DEDUP] Ergebnis: 244 Einträge (war: 244, 0 zusammengeführt)
 [2026-03-19 03:20:17] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 03:20:17] [DEDUP] Gespeichert: 244 → 244 Einträge
+[2026-03-19 05:37:19] === Monitor-Lauf gestartet ===
+[2026-03-19 05:37:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 05:37:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 05:37:21] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-19 05:37:21] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-19 05:37:22] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-19 05:37:22] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-19 05:37:22] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-19 05:37:23] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 05:37:23] Feed 'gn_feuer_uniklinik': 43 Einträge
+[2026-03-19 05:37:24] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-19 05:37:25] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 05:37:25] 224 relevante Treffer in Feeds
+[2026-03-19 05:37:25] ✅ 1 NEUE Einträge gefunden:
+[2026-03-19 05:37:25]    02.01.2026 |  |  | Brandkatastrophe: Klinikum in Leipzig behandelt Brandopfer a
+[2026-03-19 05:37:25] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 05:37:25] === Monitor-Lauf beendet ===
+
+[2026-03-19 05:37:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 05:37:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 05:37:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 05:37:26] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 05:37:26] [enrich] --- Enriche [1/1]: Brandkatastrophe: Klinikum in Leipzig behandelt Brandopfer a
+[2026-03-19 05:37:26] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-01/02/klinikum-in-leipzig-behandelt-brandopfer-aus
+[2026-03-19 05:37:26] [enrich] Volltext extrahiert: 2229 Zeichen von https://www.zeit.de/news/2026-01/02/klinikum-in-leipzig-beha
+[2026-03-19 05:37:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in Crans-Montana (Schweiz) in deutschen Kliniken. Der Brand selbst fand nicht in einem deutschen Krankenhaus statt, sondern in einer Bar in der Schweiz. Die deutschen Kliniken werden nur als Behandlungsorte für die Verletzten erwähnt.
+[2026-03-19 05:37:28] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-19 05:37:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 05:37:28] [DEDUP] Starte Dedup für 245 Einträge
+[2026-03-19 05:37:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 05:37:28] [DEDUP] Paare verglichen: 1691
+[2026-03-19 05:37:28] [DEDUP] Auto-Merges: 0
+[2026-03-19 05:37:28] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 05:37:28] [DEDUP] Ergebnis: 245 Einträge (war: 245, 0 zusammengeführt)
+[2026-03-19 05:37:28] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 05:37:28] [DEDUP] Gespeichert: 245 → 245 Einträge
