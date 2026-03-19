@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-19T19:52:21.975980",
+  "generated_at": "2026-03-19T20:56:26.510681",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1288,6 +1288,72 @@
         "status": "false_positive",
         "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
       }
     },
     {
