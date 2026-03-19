@@ -4522,3 +4522,47 @@
 [2026-03-19 07:13:49] [DEDUP] Ergebnis: 245 Einträge (war: 245, 0 zusammengeführt)
 [2026-03-19 07:13:49] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 07:13:49] [DEDUP] Gespeichert: 245 → 245 Einträge
+[2026-03-19 07:55:11] === Monitor-Lauf gestartet ===
+[2026-03-19 07:55:12] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 07:55:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 07:55:13] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-19 07:55:13] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-19 07:55:14] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-19 07:55:14] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-19 07:55:14] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-19 07:55:15] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 07:55:15] Feed 'gn_feuer_uniklinik': 43 Einträge
+[2026-03-19 07:55:15] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-19 07:55:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 07:55:16] 229 relevante Treffer in Feeds
+[2026-03-19 07:55:16] ✅ 2 NEUE Einträge gefunden:
+[2026-03-19 07:55:16]    19.03.2026 |  |  | Dresden: Krankenhaus Friedrichstadt kann nach Feuer keine Pa
+[2026-03-19 07:55:16]    19.03.2026 | in Klinikum Friedrichstadt |  | Sachsen: Feuerwehr löscht Brand in Klinikum Friedrichstadt -
+[2026-03-19 07:55:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 07:55:16] === Monitor-Lauf beendet ===
+
+[2026-03-19 07:55:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 07:55:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 07:55:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 07:55:17] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 07:55:17] [enrich] --- Enriche [1/2]: Dresden: Krankenhaus Friedrichstadt kann nach Feuer keine Pa
+[2026-03-19 07:55:18] [enrich] Google News URL aufgelöst (v1): https://www.saechsische.de/lokales/dresden/dresden-krankenhaus-friedrichstadt-ka
+[2026-03-19 07:55:19] [enrich] Volltext extrahiert: 2545 Zeichen von https://www.saechsische.de/lokales/dresden/dresden-krankenha
+[2026-03-19 07:55:22] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden-Friedrichstadt in Dresden
+[2026-03-19 07:55:23] [enrich] --- Enriche [2/2]: Sachsen: Feuerwehr löscht Brand in Klinikum Friedrichstadt -
+[2026-03-19 07:55:23] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/sachsen/Feuerwehr-loescht-Brand-in-Klinikum-Fried
+[2026-03-19 07:55:23] [enrich] Volltext extrahiert: 4542 Zeichen von https://www.n-tv.de/regionales/sachsen/Feuerwehr-loescht-Bra
+[2026-03-19 07:55:27] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-19 07:55:27] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-19 07:55:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 07:55:28] [DEDUP] Starte Dedup für 247 Einträge
+[2026-03-19 07:55:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 07:55:28] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-19 07:55:28] [DEDUP] Paare verglichen: 1692
+[2026-03-19 07:55:28] [DEDUP] Auto-Merges: 1
+[2026-03-19 07:55:28] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 07:55:28] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-03-19 07:55:28] [DEDUP] Ergebnis: 246 Einträge (war: 247, 1 zusammengeführt)
+[2026-03-19 07:55:28] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 07:55:28] [DEDUP] Gespeichert: 247 → 246 Einträge
