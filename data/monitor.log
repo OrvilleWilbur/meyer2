@@ -4733,3 +4733,54 @@
 [2026-03-19 11:49:59] [DEDUP] Ergebnis: 248 Einträge (war: 248, 0 zusammengeführt)
 [2026-03-19 11:49:59] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 11:49:59] [DEDUP] Gespeichert: 248 → 248 Einträge
+[2026-03-19 13:41:54] === Monitor-Lauf gestartet ===
+[2026-03-19 13:41:55] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 13:41:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 13:41:56] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-19 13:41:57] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-19 13:41:57] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-19 13:41:58] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-19 13:41:58] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-19 13:41:59] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-19 13:41:59] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-03-19 13:41:59] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-03-19 13:42:00] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 13:42:00] 224 relevante Treffer in Feeds
+[2026-03-19 13:42:00] ✅ 3 NEUE Einträge gefunden:
+[2026-03-19 13:42:00]    12.09.2022 | Auricher Klinik richtet Millionenschaden an |  | Feuer in Auricher Klinik richtet Millionenschaden an – News 
+[2026-03-19 13:42:00]    19.03.2026 | in Klinikum Friedrichstadt |  | Brand in Elektroanlage: Feuerwehr löscht Brand in Klinikum F
+[2026-03-19 13:42:00]    19.03.2026 | Städtischen Klinikum Friedrichstadt |  | FW Dresden: Brand in einer Elektroanlage im Städtischen Klin
+[2026-03-19 13:42:00] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 13:42:00] === Monitor-Lauf beendet ===
+
+[2026-03-19 13:42:01] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 13:42:01] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 13:42:01] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 13:42:01] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 13:42:01] [enrich] --- Enriche [1/3]: Feuer in Auricher Klinik richtet Millionenschaden an – News 
+[2026-03-19 13:42:02] [enrich] Google News URL aufgelöst (v1): https://www.aerzteblatt.de/news/feuer-in-auricher-klinik-richtet-millionenschade
+[2026-03-19 13:42:02] [enrich] Volltext extrahiert: 2552 Zeichen von https://www.aerzteblatt.de/news/feuer-in-auricher-klinik-ric
+[2026-03-19 13:42:05] [enrich] Enrichment abgeschlossen: enriched — Ubbo-Emmius-Klinik in Aurich
+[2026-03-19 13:42:06] [enrich] --- Enriche [2/3]: Brand in Elektroanlage: Feuerwehr löscht Brand in Klinikum F
+[2026-03-19 13:42:07] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/sachsen/brand-in-elektroanlage--feuer
+[2026-03-19 13:42:07] [enrich] Volltext extrahiert: 1622 Zeichen von https://www.stern.de/gesellschaft/regional/sachsen/brand-in-
+[2026-03-19 13:42:10] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-19 13:42:11] [enrich] --- Enriche [3/3]: FW Dresden: Brand in einer Elektroanlage im Städtischen Klin
+[2026-03-19 13:42:11] [enrich] Google News URL aufgelöst (v1): https://www.nachrichten-heute.net/1641265-fw-dresden-brand-in-einer-elektroanlag
+[2026-03-19 13:42:12] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nachrichten-heute.net/1641265-fw-dresden-brand-i
+[2026-03-19 13:42:16] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-19 13:42:16] [enrich] Ergebnis: 3 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-19 13:42:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 13:42:16] [DEDUP] Starte Dedup für 251 Einträge
+[2026-03-19 13:42:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 13:42:16] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-19 13:42:16] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-19 13:42:16] [DEDUP] Auto-Merge (0.97): Städtisches Klinikum Friedrichstadt / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-19 13:42:16] [DEDUP] Paare verglichen: 1715
+[2026-03-19 13:42:16] [DEDUP] Auto-Merges: 3
+[2026-03-19 13:42:16] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 13:42:16] [DEDUP] Cluster 3x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt, Städtisches Klinikum Friedrichstadt
+[2026-03-19 13:42:16] [DEDUP] Ergebnis: 249 Einträge (war: 251, 2 zusammengeführt)
+[2026-03-19 13:42:16] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 13:42:16] [DEDUP] Gespeichert: 251 → 249 Einträge
