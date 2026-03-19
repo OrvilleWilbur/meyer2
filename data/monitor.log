@@ -4784,3 +4784,40 @@
 [2026-03-19 13:42:16] [DEDUP] Ergebnis: 249 Einträge (war: 251, 2 zusammengeführt)
 [2026-03-19 13:42:16] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
 [2026-03-19 13:42:16] [DEDUP] Gespeichert: 251 → 249 Einträge
+[2026-03-19 15:05:41] === Monitor-Lauf gestartet ===
+[2026-03-19 15:05:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-19 15:05:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-19 15:05:45] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-03-19 15:05:46] Feed 'gn_feuer_krankenhaus': 0 Einträge
+[2026-03-19 15:05:47] Feed 'gn_feuer_klinik': 0 Einträge
+[2026-03-19 15:05:48] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-19 15:05:49] Feed 'gn_brand_klinikum': 0 Einträge
+[2026-03-19 15:05:50] Feed 'gn_klinikbrand': 0 Einträge
+[2026-03-19 15:05:51] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-19 15:05:51] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-03-19 15:05:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-19 15:05:52] 126 relevante Treffer in Feeds
+[2026-03-19 15:05:52] ✅ 1 NEUE Einträge gefunden:
+[2026-03-19 15:05:52]    14.01.2026 | psychiatrischer Klinik |  | Brand vor Synagoge: Verdächtiger in psychiatrischer Klinik -
+[2026-03-19 15:05:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-19 15:05:52] === Monitor-Lauf beendet ===
+
+[2026-03-19 15:05:53] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-19 15:05:53] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-19 15:05:53] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-19 15:05:53] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-19 15:05:53] [enrich] --- Enriche [1/1]: Brand vor Synagoge: Verdächtiger in psychiatrischer Klinik -
+[2026-03-19 15:05:53] [enrich] Google News URL aufgelöst (v1): https://www.mittelhessen.de/lokales/kreis-giessen/giessen/brand-vor-synagoge-ver
+[2026-03-19 15:05:56] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mittelhessen.de/lokales/kreis-giessen/giessen/br
+[2026-03-19 15:05:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand vor einer Synagoge in Gießen, nicht in einem Krankenhaus. Der Tatverdächtige wurde nach dem Brand auf Anordnung der Haftrichterin in eine psychiatrische Klinik eingewiesen, dies ist aber eine Unterbringungsmaßnahme nach der Straftat, nicht ein Brand IN der Klinik.
+[2026-03-19 15:05:58] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-19 15:05:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-19 15:05:58] [DEDUP] Starte Dedup für 250 Einträge
+[2026-03-19 15:05:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-19 15:05:58] [DEDUP] Paare verglichen: 1765
+[2026-03-19 15:05:58] [DEDUP] Auto-Merges: 0
+[2026-03-19 15:05:58] [DEDUP] Kandidaten (unsicher): 63
+[2026-03-19 15:05:58] [DEDUP] Ergebnis: 250 Einträge (war: 250, 0 zusammengeführt)
+[2026-03-19 15:05:58] [DEDUP] Kandidaten-Datei: 63 pending, 2 confirmed, 0 rejected
+[2026-03-19 15:05:58] [DEDUP] Gespeichert: 250 → 250 Einträge
