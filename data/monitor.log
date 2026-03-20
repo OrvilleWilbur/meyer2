@@ -5763,3 +5763,40 @@
 [2026-03-20 21:44:45] [DEDUP] Ergebnis: 261 Einträge (war: 261, 0 zusammengeführt)
 [2026-03-20 21:44:45] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
 [2026-03-20 21:44:45] [DEDUP] Gespeichert: 261 → 261 Einträge
+[2026-03-20 22:47:20] === Monitor-Lauf gestartet ===
+[2026-03-20 22:47:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 22:47:23] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 22:47:23] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-20 22:47:23] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-20 22:47:24] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-03-20 22:47:24] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-20 22:47:25] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-20 22:47:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 22:47:26] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-03-20 22:47:26] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-20 22:47:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 22:47:27] 218 relevante Treffer in Feeds
+[2026-03-20 22:47:27] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 22:47:27]    27.10.2018 |  |  | Krankenhaus-Evakuierung in Kiel - Fliegerbombe reißt Loch in
+[2026-03-20 22:47:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 22:47:27] === Monitor-Lauf beendet ===
+
+[2026-03-20 22:47:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 22:47:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 22:47:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 22:47:28] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 22:47:28] [enrich] --- Enriche [1/1]: Krankenhaus-Evakuierung in Kiel - Fliegerbombe reißt Loch in
+[2026-03-20 22:47:28] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/kiel/fliegerbombe-reisst-loch-in-den-etat-7LXRQ
+[2026-03-20 22:47:30] [enrich] Volltext extrahiert: 3590 Zeichen von https://www.kn-online.de/lokales/kiel/fliegerbombe-reisst-lo
+[2026-03-20 22:47:38] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand. Der Artikel behandelt eine Fliegerbombe-Entschärfung und deren finanzielle Folgen, nicht einen Brand in der Klinik.
+[2026-03-20 22:47:38] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-20 22:47:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 22:47:38] [DEDUP] Starte Dedup für 262 Einträge
+[2026-03-20 22:47:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 22:47:38] [DEDUP] Paare verglichen: 1811
+[2026-03-20 22:47:38] [DEDUP] Auto-Merges: 0
+[2026-03-20 22:47:38] [DEDUP] Kandidaten (unsicher): 74
+[2026-03-20 22:47:38] [DEDUP] Ergebnis: 262 Einträge (war: 262, 0 zusammengeführt)
+[2026-03-20 22:47:38] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
+[2026-03-20 22:47:38] [DEDUP] Gespeichert: 262 → 262 Einträge
