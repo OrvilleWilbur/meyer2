@@ -5407,3 +5407,40 @@
 [2026-03-20 10:56:57] [DEDUP] Ergebnis: 255 Einträge (war: 255, 0 zusammengeführt)
 [2026-03-20 10:56:57] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
 [2026-03-20 10:56:57] [DEDUP] Gespeichert: 255 → 255 Einträge
+[2026-03-20 11:45:38] === Monitor-Lauf gestartet ===
+[2026-03-20 11:45:39] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 11:45:41] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 11:45:41] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-20 11:45:42] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-20 11:45:42] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-20 11:45:43] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-20 11:45:43] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-03-20 11:45:44] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 11:45:44] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-03-20 11:45:45] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-20 11:45:46] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 11:45:46] 224 relevante Treffer in Feeds
+[2026-03-20 11:45:46] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 11:45:46]    20.03.2023 | und Klinik von Evakuierung betroffen |  | Weltkriegsbombe in Berlin: Schulen und Klinik von Evakuierun
+[2026-03-20 11:45:46] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 11:45:46] === Monitor-Lauf beendet ===
+
+[2026-03-20 11:45:47] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 11:45:47] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 11:45:47] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 11:45:47] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 11:45:47] [enrich] --- Enriche [1/1]: Weltkriegsbombe in Berlin: Schulen und Klinik von Evakuierun
+[2026-03-20 11:45:47] [enrich] Google News URL aufgelöst (v1): https://berlin.t-online.de/region/berlin/id_100146684/berlin-evakuierung-wegen-w
+[2026-03-20 11:45:48] [enrich] Volltext extrahiert: 4096 Zeichen von https://berlin.t-online.de/region/berlin/id_100146684/berlin
+[2026-03-20 11:45:50] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Weltkriegsbombe), nicht wegen Brand. Das Krankenhaus war nur im Sperrkreis betroffen, aber es fand kein Brand statt.
+[2026-03-20 11:45:50] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-20 11:45:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 11:45:50] [DEDUP] Starte Dedup für 256 Einträge
+[2026-03-20 11:45:50] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 11:45:50] [DEDUP] Paare verglichen: 1793
+[2026-03-20 11:45:50] [DEDUP] Auto-Merges: 0
+[2026-03-20 11:45:50] [DEDUP] Kandidaten (unsicher): 69
+[2026-03-20 11:45:50] [DEDUP] Ergebnis: 256 Einträge (war: 256, 0 zusammengeführt)
+[2026-03-20 11:45:50] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
+[2026-03-20 11:45:50] [DEDUP] Gespeichert: 256 → 256 Einträge
