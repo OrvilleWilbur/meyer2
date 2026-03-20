@@ -5377,3 +5377,33 @@
 [2026-03-20 09:58:11] [DEDUP] Ergebnis: 255 Einträge (war: 255, 0 zusammengeführt)
 [2026-03-20 09:58:11] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
 [2026-03-20 09:58:11] [DEDUP] Gespeichert: 255 → 255 Einträge
+[2026-03-20 10:56:50] === Monitor-Lauf gestartet ===
+[2026-03-20 10:56:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 10:56:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 10:56:53] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-20 10:56:53] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-20 10:56:53] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-03-20 10:56:54] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-20 10:56:54] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-20 10:56:55] Feed 'gn_klinikbrand': 96 Einträge
+[2026-03-20 10:56:55] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-03-20 10:56:56] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-03-20 10:56:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 10:56:57] 217 relevante Treffer in Feeds
+[2026-03-20 10:56:57] Keine neuen Einträge
+[2026-03-20 10:56:57] === Monitor-Lauf beendet ===
+
+[2026-03-20 10:56:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 10:56:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 10:56:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 10:56:57] [enrich] Keine offenen Einträge zum Enrichen
+[2026-03-20 10:56:57] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 10:56:57] [DEDUP] Starte Dedup für 255 Einträge
+[2026-03-20 10:56:57] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 10:56:57] [DEDUP] Paare verglichen: 1790
+[2026-03-20 10:56:57] [DEDUP] Auto-Merges: 0
+[2026-03-20 10:56:57] [DEDUP] Kandidaten (unsicher): 69
+[2026-03-20 10:56:57] [DEDUP] Ergebnis: 255 Einträge (war: 255, 0 zusammengeführt)
+[2026-03-20 10:56:57] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
+[2026-03-20 10:56:57] [DEDUP] Gespeichert: 255 → 255 Einträge
