@@ -5301,3 +5301,42 @@
 [2026-03-20 07:54:32] [DEDUP] Ergebnis: 254 Einträge (war: 254, 0 zusammengeführt)
 [2026-03-20 07:54:32] [DEDUP] Kandidaten-Datei: 68 pending, 2 confirmed, 0 rejected
 [2026-03-20 07:54:32] [DEDUP] Gespeichert: 254 → 254 Einträge
+[2026-03-20 08:58:34] === Monitor-Lauf gestartet ===
+[2026-03-20 08:58:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 08:58:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 08:58:37] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-20 08:58:37] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-20 08:58:38] Feed 'gn_feuer_klinik': 52 Einträge
+[2026-03-20 08:58:38] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-20 08:58:38] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-20 08:58:39] Feed 'gn_klinikbrand': 82 Einträge
+[2026-03-20 08:58:39] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-03-20 08:58:39] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-20 08:58:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 08:58:40] 216 relevante Treffer in Feeds
+[2026-03-20 08:58:40] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 08:58:40]    19.03.2026 |  |  | Nach Feuer: Klinikum Dresden-Friedrichstadt wieder im Normal
+[2026-03-20 08:58:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 08:58:40] === Monitor-Lauf beendet ===
+
+[2026-03-20 08:58:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 08:58:41] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 08:58:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 08:58:41] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 08:58:41] [enrich] --- Enriche [1/1]: Nach Feuer: Klinikum Dresden-Friedrichstadt wieder im Normal
+[2026-03-20 08:58:41] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/brand-stromausfa
+[2026-03-20 08:58:42] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radeb
+[2026-03-20 08:58:46] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden-Friedrichstadt in Dresden
+[2026-03-20 08:58:46] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-20 08:58:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 08:58:46] [DEDUP] Starte Dedup für 255 Einträge
+[2026-03-20 08:58:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 08:58:46] [DEDUP] Auto-Merge (0.96): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden-Friedrichst / Dresden
+[2026-03-20 08:58:46] [DEDUP] Paare verglichen: 1789
+[2026-03-20 08:58:46] [DEDUP] Auto-Merges: 1
+[2026-03-20 08:58:46] [DEDUP] Kandidaten (unsicher): 68
+[2026-03-20 08:58:46] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden-Friedrichst
+[2026-03-20 08:58:46] [DEDUP] Ergebnis: 254 Einträge (war: 255, 1 zusammengeführt)
+[2026-03-20 08:58:46] [DEDUP] Kandidaten-Datei: 68 pending, 2 confirmed, 0 rejected
+[2026-03-20 08:58:46] [DEDUP] Gespeichert: 255 → 254 Einträge
