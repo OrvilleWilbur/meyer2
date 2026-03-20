@@ -5590,3 +5590,42 @@
 [2026-03-20 17:01:46] [DEDUP] Ergebnis: 259 Einträge (war: 260, 1 zusammengeführt)
 [2026-03-20 17:01:46] [DEDUP] Kandidaten-Datei: 73 pending, 2 confirmed, 0 rejected
 [2026-03-20 17:01:46] [DEDUP] Gespeichert: 260 → 259 Einträge
+[2026-03-20 17:52:51] === Monitor-Lauf gestartet ===
+[2026-03-20 17:52:53] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 17:52:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 17:52:55] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-20 17:52:55] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-20 17:52:56] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-20 17:52:56] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-20 17:52:57] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-20 17:52:57] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 17:52:58] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-20 17:52:58] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-20 17:53:00] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 17:53:00] 223 relevante Treffer in Feeds
+[2026-03-20 17:53:00] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 17:53:00]    01.06.2025 | in Krankenhaus |  | Feuer in Krankenhaus - STERN.de
+[2026-03-20 17:53:00] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 17:53:00] === Monitor-Lauf beendet ===
+
+[2026-03-20 17:53:01] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 17:53:01] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 17:53:01] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 17:53:01] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 17:53:01] [enrich] --- Enriche [1/1]: Feuer in Krankenhaus - STERN.de
+[2026-03-20 17:53:01] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/feuer-in-krankenhaus-35771808.html
+[2026-03-20 17:53:02] [enrich] Volltext extrahiert: 432 Zeichen von https://www.stern.de/news/feuer-in-krankenhaus-35771808.html
+[2026-03-20 17:53:03] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-20 17:53:03] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-20 17:53:03] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 17:53:04] [DEDUP] Starte Dedup für 260 Einträge
+[2026-03-20 17:53:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 17:53:04] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-20 17:53:04] [DEDUP] Paare verglichen: 1802
+[2026-03-20 17:53:04] [DEDUP] Auto-Merges: 1
+[2026-03-20 17:53:04] [DEDUP] Kandidaten (unsicher): 77
+[2026-03-20 17:53:04] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-20 17:53:04] [DEDUP] Ergebnis: 259 Einträge (war: 260, 1 zusammengeführt)
+[2026-03-20 17:53:04] [DEDUP] Kandidaten-Datei: 77 pending, 2 confirmed, 0 rejected
+[2026-03-20 17:53:04] [DEDUP] Gespeichert: 260 → 259 Einträge

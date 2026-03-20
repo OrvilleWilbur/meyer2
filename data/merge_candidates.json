@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T17:01:46.523093",
+  "generated_at": "2026-03-20T17:53:04.249620",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -166,6 +166,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/feuer-in-krankenhaus-35771808.html",
+        "titel": "Feuer in Krankenhaus - STERN.de"
       }
     },
     {
@@ -480,6 +513,72 @@
         "total": 0.7
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/feuer-in-krankenhaus-35771808.html",
+        "titel": "Feuer in Krankenhaus - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/feuer-in-krankenhaus-35771808.html",
+        "titel": "Feuer in Krankenhaus - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
         "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
         "ort": "Hamburg",
         "datum": "01.06.2025",
@@ -496,6 +595,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/feuer-in-krankenhaus-35771808.html",
+        "titel": "Feuer in Krankenhaus - STERN.de"
       }
     },
     {
