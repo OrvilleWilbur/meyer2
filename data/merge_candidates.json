@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T19:49:17.929214",
+  "generated_at": "2026-03-20T20:49:51.978834",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2179,6 +2179,39 @@
         "status": "false_positive",
         "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
         "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "vor Klinik",
+        "ort": "",
+        "datum": "24.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-bangkok/",
+        "titel": "Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (Video) - Wochenblitz"
+      },
+      "entry_b": {
+        "einrichtung": "vor Klinik",
+        "ort": "",
+        "datum": "24.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-bangkok/",
+        "titel": "Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (Video) - wochenblitz.com"
       }
     },
     {

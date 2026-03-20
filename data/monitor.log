@@ -5696,3 +5696,40 @@
 [2026-03-20 19:49:17] [DEDUP] Ergebnis: 260 Einträge (war: 260, 0 zusammengeführt)
 [2026-03-20 19:49:17] [DEDUP] Kandidaten-Datei: 73 pending, 2 confirmed, 0 rejected
 [2026-03-20 19:49:17] [DEDUP] Gespeichert: 260 → 260 Einträge
+[2026-03-20 20:49:37] === Monitor-Lauf gestartet ===
+[2026-03-20 20:49:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 20:49:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 20:49:39] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-20 20:49:40] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-20 20:49:40] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-20 20:49:40] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-20 20:49:41] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-20 20:49:41] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 20:49:42] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-20 20:49:42] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-20 20:49:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 20:49:43] 222 relevante Treffer in Feeds
+[2026-03-20 20:49:43] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 20:49:43]    24.09.2025 | vor Klinik |  | Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (
+[2026-03-20 20:49:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 20:49:43] === Monitor-Lauf beendet ===
+
+[2026-03-20 20:49:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 20:49:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 20:49:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 20:49:44] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 20:49:44] [enrich] --- Enriche [1/1]: Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (
+[2026-03-20 20:49:44] [enrich] Google News URL aufgelöst (v1): https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-ba
+[2026-03-20 20:49:45] [enrich] Volltext extrahiert: 4158 Zeichen von https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdl
+[2026-03-20 20:49:51] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Straßeneinbruch/Erdfall vor einem Krankenhaus in Bangkok, Thailand. Dies ist kein Brand in einem deutschen Krankenhaus. Zusätzlich liegt der Vorfall außerhalb Deutschlands (Bangkok, Thailand).
+[2026-03-20 20:49:51] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-20 20:49:51] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 20:49:51] [DEDUP] Starte Dedup für 261 Einträge
+[2026-03-20 20:49:51] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 20:49:51] [DEDUP] Paare verglichen: 1810
+[2026-03-20 20:49:51] [DEDUP] Auto-Merges: 0
+[2026-03-20 20:49:51] [DEDUP] Kandidaten (unsicher): 74
+[2026-03-20 20:49:51] [DEDUP] Ergebnis: 261 Einträge (war: 261, 0 zusammengeführt)
+[2026-03-20 20:49:51] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
+[2026-03-20 20:49:51] [DEDUP] Gespeichert: 261 → 261 Einträge
