@@ -5474,3 +5474,40 @@
 [2026-03-20 13:34:12] [DEDUP] Ergebnis: 256 Einträge (war: 256, 0 zusammengeführt)
 [2026-03-20 13:34:12] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
 [2026-03-20 13:34:12] [DEDUP] Gespeichert: 256 → 256 Einträge
+[2026-03-20 15:01:18] === Monitor-Lauf gestartet ===
+[2026-03-20 15:01:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 15:01:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 15:01:21] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-20 15:01:22] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-20 15:01:22] Feed 'gn_feuer_klinik': 52 Einträge
+[2026-03-20 15:01:23] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-20 15:01:23] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-20 15:01:24] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 15:01:24] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-20 15:01:25] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-20 15:01:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 15:01:26] 230 relevante Treffer in Feeds
+[2026-03-20 15:01:26] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 15:01:26]    12.06.2017 |  |  | Feuer im KRANKENHAUS GUMMERSBACH! 50 Feuerwehrleute bei Übun
+[2026-03-20 15:01:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 15:01:26] === Monitor-Lauf beendet ===
+
+[2026-03-20 15:01:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 15:01:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 15:01:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 15:01:27] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 15:01:27] [enrich] --- Enriche [1/1]: Feuer im KRANKENHAUS GUMMERSBACH! 50 Feuerwehrleute bei Übun
+[2026-03-20 15:01:27] [enrich] Google News URL aufgelöst (v1): https://www.news-on-tour.de/111813/feuer-im-krankenhaus-gummersbach-50-feuerwehr
+[2026-03-20 15:01:29] [enrich] Volltext extrahiert: 1474 Zeichen von https://www.news-on-tour.de/111813/feuer-im-krankenhaus-gumm
+[2026-03-20 15:01:30] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung im Krankenhaus Gummersbach, keine echten Brandfall. Brandschutzübungen sind explizit ausgeschlossen.
+[2026-03-20 15:01:30] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-20 15:01:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 15:01:30] [DEDUP] Starte Dedup für 257 Einträge
+[2026-03-20 15:01:30] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 15:01:30] [DEDUP] Paare verglichen: 1793
+[2026-03-20 15:01:30] [DEDUP] Auto-Merges: 0
+[2026-03-20 15:01:30] [DEDUP] Kandidaten (unsicher): 69
+[2026-03-20 15:01:30] [DEDUP] Ergebnis: 257 Einträge (war: 257, 0 zusammengeführt)
+[2026-03-20 15:01:30] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
+[2026-03-20 15:01:30] [DEDUP] Gespeichert: 257 → 257 Einträge
