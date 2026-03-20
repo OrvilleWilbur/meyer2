@@ -5340,3 +5340,40 @@
 [2026-03-20 08:58:46] [DEDUP] Ergebnis: 254 Einträge (war: 255, 1 zusammengeführt)
 [2026-03-20 08:58:46] [DEDUP] Kandidaten-Datei: 68 pending, 2 confirmed, 0 rejected
 [2026-03-20 08:58:46] [DEDUP] Gespeichert: 255 → 254 Einträge
+[2026-03-20 09:57:53] === Monitor-Lauf gestartet ===
+[2026-03-20 09:57:55] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 09:57:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 09:57:56] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-20 09:57:57] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-20 09:57:57] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-20 09:57:58] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-20 09:57:58] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-20 09:57:59] Feed 'gn_klinikbrand': 96 Einträge
+[2026-03-20 09:57:59] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-03-20 09:58:00] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-03-20 09:58:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 09:58:01] 214 relevante Treffer in Feeds
+[2026-03-20 09:58:01] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 09:58:01]    09.09.2025 | Rostocker Klinik |  | Toter bei Brand auf Station in Rostocker Klinik: Mann legte 
+[2026-03-20 09:58:01] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 09:58:01] === Monitor-Lauf beendet ===
+
+[2026-03-20 09:58:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 09:58:02] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 09:58:02] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 09:58:02] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 09:58:02] [enrich] --- Enriche [1/1]: Toter bei Brand auf Station in Rostocker Klinik: Mann legte 
+[2026-03-20 09:58:02] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-
+[2026-03-20 09:58:03] [enrich] Volltext extrahiert: 896 Zeichen von https://www.stern.de/news/toter-bei-brand-auf-station-in-ros
+[2026-03-20 09:58:10] [enrich] Enrichment abgeschlossen: enriched — Rostocker Universitätsklinik in Rostock
+[2026-03-20 09:58:10] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-20 09:58:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 09:58:10] [DEDUP] Starte Dedup für 255 Einträge
+[2026-03-20 09:58:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 09:58:11] [DEDUP] Paare verglichen: 1790
+[2026-03-20 09:58:11] [DEDUP] Auto-Merges: 0
+[2026-03-20 09:58:11] [DEDUP] Kandidaten (unsicher): 69
+[2026-03-20 09:58:11] [DEDUP] Ergebnis: 255 Einträge (war: 255, 0 zusammengeführt)
+[2026-03-20 09:58:11] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
+[2026-03-20 09:58:11] [DEDUP] Gespeichert: 255 → 255 Einträge
