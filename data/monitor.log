@@ -5142,3 +5142,42 @@
 [2026-03-19 23:43:52] [DEDUP] Ergebnis: 254 Einträge (war: 254, 0 zusammengeführt)
 [2026-03-19 23:43:52] [DEDUP] Kandidaten-Datei: 68 pending, 2 confirmed, 0 rejected
 [2026-03-19 23:43:52] [DEDUP] Gespeichert: 254 → 254 Einträge
+[2026-03-20 03:09:41] === Monitor-Lauf gestartet ===
+[2026-03-20 03:09:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 03:09:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 03:09:45] Feed 'gn_brand_krankenhaus': 42 Einträge
+[2026-03-20 03:09:45] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-20 03:09:46] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-20 03:09:46] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-20 03:09:47] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-20 03:09:48] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 03:09:48] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-03-20 03:09:48] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-20 03:09:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 03:09:50] 220 relevante Treffer in Feeds
+[2026-03-20 03:09:50] ✅ 1 NEUE Einträge gefunden:
+[2026-03-20 03:09:50]    01.06.2025 | bei Krankenhaus |  | Drei Patienten zwischen 84 und 87 Jahren sterben bei Kranken
+[2026-03-20 03:09:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 03:09:50] === Monitor-Lauf beendet ===
+
+[2026-03-20 03:09:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 03:09:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 03:09:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 03:09:50] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 03:09:50] [enrich] --- Enriche [1/1]: Drei Patienten zwischen 84 und 87 Jahren sterben bei Kranken
+[2026-03-20 03:09:51] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/war-es-brandstiftung--drei-patienten-sterben-bei-f
+[2026-03-20 03:09:52] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.stern.de/panorama/war-es-brandstiftung--drei-pat
+[2026-03-20 03:09:57] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg
+[2026-03-20 03:09:57] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-20 03:09:57] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 03:09:57] [DEDUP] Starte Dedup für 255 Einträge
+[2026-03-20 03:09:57] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 03:09:57] [DEDUP] Auto-Merge (0.87): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-03-20 03:09:57] [DEDUP] Paare verglichen: 1792
+[2026-03-20 03:09:57] [DEDUP] Auto-Merges: 1
+[2026-03-20 03:09:57] [DEDUP] Kandidaten (unsicher): 71
+[2026-03-20 03:09:57] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-03-20 03:09:57] [DEDUP] Ergebnis: 254 Einträge (war: 255, 1 zusammengeführt)
+[2026-03-20 03:09:57] [DEDUP] Kandidaten-Datei: 71 pending, 2 confirmed, 0 rejected
+[2026-03-20 03:09:57] [DEDUP] Gespeichert: 255 → 254 Einträge
