@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T03:09:57.430390",
+  "generated_at": "2026-03-20T04:57:12.895021",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -206,39 +206,6 @@
         "",
         ""
       ],
-      "score": 0.731,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.731
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/war-es-brandstiftung--drei-patienten-sterben-bei-feuer-in-hamburg-35771318.html",
-        "titel": "Drei Patienten zwischen 84 und 87 Jahren sterben bei Krankenhaus-Brand - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.717,
       "details": {
         "datum": 0.7,
@@ -397,72 +364,6 @@
         "status": "enriched",
         "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
         "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/war-es-brandstiftung--drei-patienten-sterben-bei-feuer-in-hamburg-35771318.html",
-        "titel": "Drei Patienten zwischen 84 und 87 Jahren sterben bei Krankenhaus-Brand - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/war-es-brandstiftung--drei-patienten-sterben-bei-feuer-in-hamburg-35771318.html",
-        "titel": "Drei Patienten zwischen 84 und 87 Jahren sterben bei Krankenhaus-Brand - STERN.de"
       }
     },
     {
