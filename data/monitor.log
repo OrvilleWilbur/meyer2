@@ -5541,3 +5541,52 @@
 [2026-03-20 15:58:10] [DEDUP] Ergebnis: 257 Einträge (war: 257, 0 zusammengeführt)
 [2026-03-20 15:58:10] [DEDUP] Kandidaten-Datei: 69 pending, 2 confirmed, 0 rejected
 [2026-03-20 15:58:10] [DEDUP] Gespeichert: 257 → 257 Einträge
+[2026-03-20 17:01:20] === Monitor-Lauf gestartet ===
+[2026-03-20 17:01:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-20 17:01:23] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-20 17:01:23] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-20 17:01:24] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-20 17:01:24] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-20 17:01:25] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-20 17:01:26] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-20 17:01:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-20 17:01:27] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-03-20 17:01:28] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-03-20 17:01:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-20 17:01:29] 225 relevante Treffer in Feeds
+[2026-03-20 17:01:29] ✅ 3 NEUE Einträge gefunden:
+[2026-03-20 17:01:29]    17.12.2025 | in Krankenhaus |  | Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandsti
+[2026-03-20 17:01:29]    12.03.2026 | in Klinik leicht verletzt |  | Brände: Pflegekraft bei Feuer in Klinik leicht verletzt - ST
+[2026-03-20 17:01:29]    20.03.2026 | in Klinikum Dresden |  | Ursache für Feuer in Klinikum Dresden-Friedrichstadt gefunde
+[2026-03-20 17:01:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-20 17:01:29] === Monitor-Lauf beendet ===
+
+[2026-03-20 17:01:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-20 17:01:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-20 17:01:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-20 17:01:29] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-20 17:01:29] [enrich] --- Enriche [1/3]: Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandsti
+[2026-03-20 17:01:30] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-b
+[2026-03-20 17:01:30] [enrich] Volltext extrahiert: 1772 Zeichen von https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus
+[2026-03-20 17:01:34] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Hamburg-Hohenfelde (geriatrische Station) in Hamburg
+[2026-03-20 17:01:35] [enrich] --- Enriche [2/3]: Brände: Pflegekraft bei Feuer in Klinik leicht verletzt - ST
+[2026-03-20 17:01:35] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/braende--pfl
+[2026-03-20 17:01:36] [enrich] Volltext extrahiert: 1335 Zeichen von https://www.stern.de/gesellschaft/regional/rheinland-pfalz-s
+[2026-03-20 17:01:40] [enrich] Enrichment abgeschlossen: enriched — Psychiatrisches Krankenhaus Neunkirchen in Neunkirchen
+[2026-03-20 17:01:41] [enrich] --- Enriche [3/3]: Ursache für Feuer in Klinikum Dresden-Friedrichstadt gefunde
+[2026-03-20 17:01:41] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/brand-ursache-st
+[2026-03-20 17:01:42] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radeb
+[2026-03-20 17:01:46] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden, Standort Friedrichstadt in Dresden
+[2026-03-20 17:01:46] [enrich] Ergebnis: 3 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-20 17:01:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-20 17:01:46] [DEDUP] Starte Dedup für 260 Einträge
+[2026-03-20 17:01:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-20 17:01:46] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden, Standort F / Dresden
+[2026-03-20 17:01:46] [DEDUP] Paare verglichen: 1798
+[2026-03-20 17:01:46] [DEDUP] Auto-Merges: 1
+[2026-03-20 17:01:46] [DEDUP] Kandidaten (unsicher): 73
+[2026-03-20 17:01:46] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden, Standort F
+[2026-03-20 17:01:46] [DEDUP] Ergebnis: 259 Einträge (war: 260, 1 zusammengeführt)
+[2026-03-20 17:01:46] [DEDUP] Kandidaten-Datei: 73 pending, 2 confirmed, 0 rejected
+[2026-03-20 17:01:46] [DEDUP] Gespeichert: 260 → 259 Einträge
