@@ -5980,3 +5980,40 @@
 [2026-03-21 07:46:00] [DEDUP] Ergebnis: 262 Einträge (war: 262, 0 zusammengeführt)
 [2026-03-21 07:46:00] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
 [2026-03-21 07:46:00] [DEDUP] Gespeichert: 262 → 262 Einträge
+[2026-03-21 08:49:57] === Monitor-Lauf gestartet ===
+[2026-03-21 08:49:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-21 08:49:59] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-21 08:50:00] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-21 08:50:00] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-03-21 08:50:00] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-21 08:50:01] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-21 08:50:01] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-21 08:50:02] Feed 'gn_klinikbrand': 80 Einträge
+[2026-03-21 08:50:02] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-03-21 08:50:03] Feed 'gn_evakuierung_klinik': 54 Einträge
+[2026-03-21 08:50:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-21 08:50:06] 220 relevante Treffer in Feeds
+[2026-03-21 08:50:06] ✅ 1 NEUE Einträge gefunden:
+[2026-03-21 08:50:06]    03.04.2023 | Urban-Krankenhaus |  | Feuer im Urban-Krankenhaus: Tatverdächtiger gefasst - Berlin
+[2026-03-21 08:50:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-21 08:50:06] === Monitor-Lauf beendet ===
+
+[2026-03-21 08:50:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-21 08:50:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-21 08:50:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-21 08:50:07] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-21 08:50:07] [enrich] --- Enriche [1/1]: Feuer im Urban-Krankenhaus: Tatverdächtiger gefasst - Berlin
+[2026-03-21 08:50:07] [enrich] Google News URL aufgelöst (v1): https://www.morgenpost.de/berlin/polizeibericht/article238059661/urban-krankenha
+[2026-03-21 08:50:08] [enrich] Volltext extrahiert: 430 Zeichen von https://www.morgenpost.de/berlin/polizeibericht/article23805
+[2026-03-21 08:50:10] [enrich] Enrichment abgeschlossen: enriched — Urban-Krankenhaus in Berlin-Kreuzberg
+[2026-03-21 08:50:10] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-21 08:50:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-21 08:50:10] [DEDUP] Starte Dedup für 263 Einträge
+[2026-03-21 08:50:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-21 08:50:11] [DEDUP] Paare verglichen: 1811
+[2026-03-21 08:50:11] [DEDUP] Auto-Merges: 0
+[2026-03-21 08:50:11] [DEDUP] Kandidaten (unsicher): 74
+[2026-03-21 08:50:11] [DEDUP] Ergebnis: 263 Einträge (war: 263, 0 zusammengeführt)
+[2026-03-21 08:50:11] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
+[2026-03-21 08:50:11] [DEDUP] Gespeichert: 263 → 263 Einträge
