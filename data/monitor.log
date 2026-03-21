@@ -6114,3 +6114,64 @@
 [2026-03-21 11:34:59] [DEDUP] Ergebnis: 264 Einträge (war: 264, 0 zusammengeführt)
 [2026-03-21 11:34:59] [DEDUP] Kandidaten-Datei: 75 pending, 2 confirmed, 0 rejected
 [2026-03-21 11:34:59] [DEDUP] Gespeichert: 264 → 264 Einträge
+[2026-03-21 13:11:40] === Monitor-Lauf gestartet ===
+[2026-03-21 13:11:42] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-21 13:11:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-21 13:11:44] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-21 13:11:44] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-21 13:11:45] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-21 13:11:45] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-21 13:11:46] Feed 'gn_brand_klinikum': 43 Einträge
+[2026-03-21 13:11:46] Feed 'gn_klinikbrand': 99 Einträge
+[2026-03-21 13:11:47] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-03-21 13:11:47] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-21 13:11:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-21 13:11:48] 230 relevante Treffer in Feeds
+[2026-03-21 13:11:48] ✅ 5 NEUE Einträge gefunden:
+[2026-03-21 13:11:48]    16.03.2026 | Bezirksklinikum |  | Feuer im Bezirksklinikum: Ein Mensch leicht verletzt - onetz
+[2026-03-21 13:11:48]    20.02.2026 | im Krankenhaus |  | Wohnungsbrand in München – Fünf Menschen im Krankenhaus - on
+[2026-03-21 13:11:48]    16.03.2026 | bei Klinikbrand |  | Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de
+[2026-03-21 13:11:48]    18.02.2026 | Chiemgau-Klinik brennt vollständig aus |  | Saunabereich der Chiemgau-Klinik brennt vollständig aus - on
+[2026-03-21 13:11:48]    03.01.2026 | Unfallkrankenhaus Berlin nimmt Patienten |  | Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-21 13:11:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-21 13:11:48] === Monitor-Lauf beendet ===
+
+[2026-03-21 13:11:48] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-21 13:11:48] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-21 13:11:48] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-21 13:11:48] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-21 13:11:48] [enrich] --- Enriche [1/5]: Feuer im Bezirksklinikum: Ein Mensch leicht verletzt - onetz
+[2026-03-21 13:11:49] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/feuer-bezirksklinikum-mensch-leicht-verlet
+[2026-03-21 13:11:50] [enrich] Volltext extrahiert: 3618 Zeichen von https://www.onetz.de/deutschland-welt/feuer-bezirksklinikum-
+[2026-03-21 13:11:53] [enrich] Enrichment abgeschlossen: enriched — Bezirksklinikum in Landkreis Deggendorf
+[2026-03-21 13:11:54] [enrich] --- Enriche [2/5]: Wohnungsbrand in München – Fünf Menschen im Krankenhaus - on
+[2026-03-21 13:11:54] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-mens
+[2026-03-21 13:11:55] [enrich] Artikel-Fetch fehlgeschlagen für https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-mens: 410 Client Error: Gone for url: https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html
+[2026-03-21 13:11:55] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (486 Z.)
+[2026-03-21 13:11:56] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Wohnungsbrand in München, bei dem Personen ins Krankenhaus gebracht wurden. Dies ist kein Brand IN einem Krankenhaus, sondern eine Einlieferung von Brandopfern zur Behandlung.
+[2026-03-21 13:11:57] [enrich] --- Enriche [3/5]: Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de
+[2026-03-21 13:11:57] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id
+[2026-03-21 13:11:59] [enrich] Volltext extrahiert: 3742 Zeichen von https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-k
+[2026-03-21 13:12:00] [enrich] FALSE POSITIVE erkannt: Brand in einer Klinik in Indien (Cuttack, Odisha), nicht in Deutschland
+[2026-03-21 13:12:01] [enrich] --- Enriche [4/5]: Saunabereich der Chiemgau-Klinik brennt vollständig aus - on
+[2026-03-21 13:12:01] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollst
+[2026-03-21 13:12:02] [enrich] Artikel-Fetch fehlgeschlagen für https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollst: 410 Client Error: Gone for url: https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html
+[2026-03-21 13:12:02] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (468 Z.)
+[2026-03-21 13:12:05] [enrich] Enrichment abgeschlossen: partial — Chiemgau-Klinik in 
+[2026-03-21 13:12:06] [enrich] --- Enriche [5/5]: Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer
+[2026-03-21 13:12:06] [enrich] Google News URL aufgelöst (v1): https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreff
+[2026-03-21 13:12:07] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sol
+[2026-03-21 13:12:09] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Schweizer Skiort (Crans-Montana), nicht in einem deutschen Krankenhaus. Deutsche Kliniken werden nur erwähnt, weil sie Brandopfer zur Behandlung aufnehmen, nicht weil dort ein Brand stattgefunden hat.
+[2026-03-21 13:12:09] [enrich] Ergebnis: 1 enriched, 1 partial, 3 false_positive, 0 failed
+[2026-03-21 13:12:09] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-21 13:12:09] [DEDUP] Starte Dedup für 269 Einträge
+[2026-03-21 13:12:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-21 13:12:09] [DEDUP] Auto-Merge (1.00): Bezirksklinikum / Landkreis Deggendorf ↔ Bezirksklinikum / Landkreis Deggendorf
+[2026-03-21 13:12:09] [DEDUP] Paare verglichen: 1962
+[2026-03-21 13:12:09] [DEDUP] Auto-Merges: 1
+[2026-03-21 13:12:09] [DEDUP] Kandidaten (unsicher): 83
+[2026-03-21 13:12:09] [DEDUP] Cluster 2x: Bezirksklinikum, Bezirksklinikum
+[2026-03-21 13:12:09] [DEDUP] Ergebnis: 268 Einträge (war: 269, 1 zusammengeführt)
+[2026-03-21 13:12:09] [DEDUP] Kandidaten-Datei: 83 pending, 2 confirmed, 0 rejected
+[2026-03-21 13:12:09] [DEDUP] Gespeichert: 269 → 268 Einträge

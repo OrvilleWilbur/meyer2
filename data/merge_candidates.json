@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T11:34:59.911952",
+  "generated_at": "2026-03-21T13:12:09.393045",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -694,6 +694,39 @@
         "status": "enriched",
         "link": "https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik",
         "titel": "Feuer in Ameos Klinik - der reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.675,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.675
+      },
+      "entry_a": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "Marquartstein",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "enriched",
+        "link": "https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html",
+        "titel": "Saunabereich der Chiemgau-Klinik brennt vollständig aus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "unbekannt",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "partial",
+        "link": "https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html",
+        "titel": "Saunabereich der Chiemgau-Klinik brennt vollständig aus - onetz.de"
       }
     },
     {
@@ -1406,6 +1439,39 @@
       "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
         "datum": "10.03.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -1470,6 +1536,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "bei Klinikbrand",
         "ort": "",
         "datum": "16.03.2026",
@@ -1541,6 +1640,39 @@
         "datum": "16.03.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
       },
@@ -1552,6 +1684,72 @@
         "status": "false_positive",
         "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de"
       }
     },
     {
@@ -1767,6 +1965,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - Tagesspiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - tagesspiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
         "ort": "",
         "datum": "02.01.2026",
@@ -1816,6 +2047,39 @@
         "status": "false_positive",
         "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigshafen-behandelt-brandopfer-aus-der-schweiz-100.html",
         "titel": "Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in Ludwigshafen nimmt zwei Opfer auf - SWR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - Tagesspiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
+        "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - tagesspiegel.de"
       }
     },
     {
