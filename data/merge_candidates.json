@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T20:42:42.002432",
+  "generated_at": "2026-03-21T21:38:10.008905",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -100,6 +100,39 @@
         "status": "partial",
         "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
         "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.794,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.794
+      },
+      "entry_a": {
+        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
+        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Forensische Klinik Bedburg-Hau (LVR)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-brand-polizei-grosseinsatz-li.3250581",
+        "titel": "Nordrhein-Westfalen: Polizei beendet Randale in forensischer Klinik – Feuer gelöscht - Panorama - SZ.de - SZ.de"
       }
     },
     {

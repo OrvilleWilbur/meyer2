@@ -6415,3 +6415,42 @@
 [2026-03-21 20:42:42] [DEDUP] Ergebnis: 268 Einträge (war: 268, 0 zusammengeführt)
 [2026-03-21 20:42:42] [DEDUP] Kandidaten-Datei: 83 pending, 2 confirmed, 0 rejected
 [2026-03-21 20:42:42] [DEDUP] Gespeichert: 268 → 268 Einträge
+[2026-03-21 21:37:57] === Monitor-Lauf gestartet ===
+[2026-03-21 21:37:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-21 21:37:59] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-21 21:38:00] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-21 21:38:00] Feed 'gn_feuer_krankenhaus': 41 Einträge
+[2026-03-21 21:38:00] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-21 21:38:01] Feed 'gn_brand_klinik': 50 Einträge
+[2026-03-21 21:38:01] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-03-21 21:38:02] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-21 21:38:02] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-21 21:38:03] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-21 21:38:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-21 21:38:04] 223 relevante Treffer in Feeds
+[2026-03-21 21:38:04] ✅ 1 NEUE Einträge gefunden:
+[2026-03-21 21:38:04]    10.05.2025 | forensischer Klinik |  | Nordrhein-Westfalen: Polizei beendet Randale in forensischer
+[2026-03-21 21:38:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-21 21:38:04] === Monitor-Lauf beendet ===
+
+[2026-03-21 21:38:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-21 21:38:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-21 21:38:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-21 21:38:04] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-21 21:38:04] [enrich] --- Enriche [1/1]: Nordrhein-Westfalen: Polizei beendet Randale in forensischer
+[2026-03-21 21:38:05] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-brand-polizei-grossein
+[2026-03-21 21:38:06] [enrich] Volltext extrahiert: 2306 Zeichen von https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-br
+[2026-03-21 21:38:09] [enrich] Enrichment abgeschlossen: enriched — Forensische Klinik Bedburg-Hau (LVR) in Bedburg-Hau
+[2026-03-21 21:38:09] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-21 21:38:09] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-21 21:38:09] [DEDUP] Starte Dedup für 269 Einträge
+[2026-03-21 21:38:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-21 21:38:09] [DEDUP] Auto-Merge (0.93): LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau ↔ Forensische Klinik Bedburg-Hau (LVR) / Bedburg-Hau
+[2026-03-21 21:38:10] [DEDUP] Paare verglichen: 1963
+[2026-03-21 21:38:10] [DEDUP] Auto-Merges: 1
+[2026-03-21 21:38:10] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-21 21:38:10] [DEDUP] Cluster 2x: LVR-Klinik Bedburg-Hau (forensische Psyc, Forensische Klinik Bedburg-Hau (LVR)
+[2026-03-21 21:38:10] [DEDUP] Ergebnis: 268 Einträge (war: 269, 1 zusammengeführt)
+[2026-03-21 21:38:10] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-21 21:38:10] [DEDUP] Gespeichert: 269 → 268 Einträge
