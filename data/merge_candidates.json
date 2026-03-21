@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T08:50:11.125853",
+  "generated_at": "2026-03-21T09:46:13.035697",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2410,6 +2410,39 @@
         "status": "enriched",
         "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
         "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinikum",
+        "ort": "",
+        "datum": "18.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipzig-suedost-fehlalarm-am-uniklinikum-CYHWDUHCLNBRPNVLYO7ZPRSMYM.html",
+        "titel": "Feuerwehreinsatz in Leipzig-Südost: Fehlalarm am Uniklinikum - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Uni-Klinik",
+        "ort": "",
+        "datum": "17.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
+        "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - DerWesten"
       }
     },
     {

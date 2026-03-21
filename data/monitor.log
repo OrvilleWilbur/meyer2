@@ -6017,3 +6017,40 @@
 [2026-03-21 08:50:11] [DEDUP] Ergebnis: 263 Einträge (war: 263, 0 zusammengeführt)
 [2026-03-21 08:50:11] [DEDUP] Kandidaten-Datei: 74 pending, 2 confirmed, 0 rejected
 [2026-03-21 08:50:11] [DEDUP] Gespeichert: 263 → 263 Einträge
+[2026-03-21 09:46:02] === Monitor-Lauf gestartet ===
+[2026-03-21 09:46:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-21 09:46:03] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-21 09:46:04] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-21 09:46:04] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-21 09:46:05] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-21 09:46:05] Feed 'gn_brand_klinik': 52 Einträge
+[2026-03-21 09:46:06] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-03-21 09:46:06] Feed 'gn_klinikbrand': 91 Einträge
+[2026-03-21 09:46:07] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-21 09:46:07] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-21 09:46:08] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-21 09:46:08] 229 relevante Treffer in Feeds
+[2026-03-21 09:46:08] ✅ 1 NEUE Einträge gefunden:
+[2026-03-21 09:46:08]    17.07.2025 | Uni-Klinik |  | Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben 
+[2026-03-21 09:46:08] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-21 09:46:08] === Monitor-Lauf beendet ===
+
+[2026-03-21 09:46:09] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-21 09:46:09] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-21 09:46:09] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-21 09:46:09] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-21 09:46:09] [enrich] --- Enriche [1/1]: Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben 
+[2026-03-21 09:46:09] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-
+[2026-03-21 09:46:10] [enrich] Volltext extrahiert: 3649 Zeichen von https://www.derwesten.de/region/koeln-bombe-entschaerfung-ev
+[2026-03-21 09:46:12] [enrich] FALSE POSITIVE erkannt: Evakuierung der Uniklinik Köln wegen Bombenentschärfung (Kampfmittel aus WWII), nicht wegen Brand. Der Artikel behandelt ausschließlich eine Bombenentschärfung, keine Brandgefahr im Krankenhaus.
+[2026-03-21 09:46:12] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-21 09:46:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-21 09:46:12] [DEDUP] Starte Dedup für 264 Einträge
+[2026-03-21 09:46:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-21 09:46:13] [DEDUP] Paare verglichen: 1829
+[2026-03-21 09:46:13] [DEDUP] Auto-Merges: 0
+[2026-03-21 09:46:13] [DEDUP] Kandidaten (unsicher): 75
+[2026-03-21 09:46:13] [DEDUP] Ergebnis: 264 Einträge (war: 264, 0 zusammengeführt)
+[2026-03-21 09:46:13] [DEDUP] Kandidaten-Datei: 75 pending, 2 confirmed, 0 rejected
+[2026-03-21 09:46:13] [DEDUP] Gespeichert: 264 → 264 Einträge
