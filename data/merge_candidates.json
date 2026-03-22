@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T23:38:04.596906",
+  "generated_at": "2026-03-22T03:20:46.697652",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2014,6 +2014,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
         "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "31.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-grossmutter-nach-zimmerbrand-im-krankenhaus-dpa.urn-newsml-dpa-com-20090101-260131-930-624389",
+        "titel": "Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krankenhaus - Panorama - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "31.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-grossmutter-nach-zimmerbrand-im-krankenhaus-dpa.urn-newsml-dpa-com-20090101-260131-930-624389",
+        "titel": "Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {

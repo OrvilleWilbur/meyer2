@@ -6514,3 +6514,40 @@
 [2026-03-21 23:38:04] [DEDUP] Ergebnis: 268 Einträge (war: 268, 0 zusammengeführt)
 [2026-03-21 23:38:04] [DEDUP] Kandidaten-Datei: 83 pending, 2 confirmed, 0 rejected
 [2026-03-21 23:38:04] [DEDUP] Gespeichert: 268 → 268 Einträge
+[2026-03-22 03:20:34] === Monitor-Lauf gestartet ===
+[2026-03-22 03:20:36] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-22 03:20:37] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-22 03:20:38] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-22 03:20:38] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-22 03:20:39] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-03-22 03:20:39] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-22 03:20:40] Feed 'gn_brand_klinikum': 45 Einträge
+[2026-03-22 03:20:40] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-22 03:20:41] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-22 03:20:41] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-22 03:20:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-22 03:20:42] 228 relevante Treffer in Feeds
+[2026-03-22 03:20:42] ✅ 1 NEUE Einträge gefunden:
+[2026-03-22 03:20:42]    31.01.2026 | im Krankenhaus |  | Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krank
+[2026-03-22 03:20:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-22 03:20:42] === Monitor-Lauf beendet ===
+
+[2026-03-22 03:20:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-22 03:20:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-22 03:20:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-22 03:20:43] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-22 03:20:43] [enrich] --- Enriche [1/1]: Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krank
+[2026-03-22 03:20:44] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-grossmutter-nach-zim
+[2026-03-22 03:20:44] [enrich] Volltext extrahiert: 1272 Zeichen von https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-
+[2026-03-22 03:20:46] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Einfamilienhaus in Gangelt), nicht in einem Krankenhaus. Die Verletzten wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-03-22 03:20:46] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-22 03:20:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-22 03:20:46] [DEDUP] Starte Dedup für 269 Einträge
+[2026-03-22 03:20:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-22 03:20:46] [DEDUP] Paare verglichen: 2015
+[2026-03-22 03:20:46] [DEDUP] Auto-Merges: 0
+[2026-03-22 03:20:46] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-22 03:20:46] [DEDUP] Ergebnis: 269 Einträge (war: 269, 0 zusammengeführt)
+[2026-03-22 03:20:46] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-22 03:20:46] [DEDUP] Gespeichert: 269 → 269 Einträge
