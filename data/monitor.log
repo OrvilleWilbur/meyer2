@@ -7015,3 +7015,42 @@
 [2026-03-22 18:55:33] [DEDUP] Ergebnis: 272 Einträge (war: 272, 0 zusammengeführt)
 [2026-03-22 18:55:33] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-22 18:55:33] [DEDUP] Gespeichert: 272 → 272 Einträge
+[2026-03-22 19:37:14] === Monitor-Lauf gestartet ===
+[2026-03-22 19:37:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-22 19:37:16] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-22 19:37:17] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-22 19:37:17] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-22 19:37:18] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-22 19:37:18] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-22 19:37:19] Feed 'gn_brand_klinikum': 49 Einträge
+[2026-03-22 19:37:19] Feed 'gn_klinikbrand': 94 Einträge
+[2026-03-22 19:37:20] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-22 19:37:20] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-22 19:37:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-22 19:37:21] 235 relevante Treffer in Feeds
+[2026-03-22 19:37:21] ✅ 1 NEUE Einträge gefunden:
+[2026-03-22 19:37:21]    19.03.2026 | im Krankenhaus |  | Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-03-22 19:37:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-22 19:37:21] === Monitor-Lauf beendet ===
+
+[2026-03-22 19:37:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-22 19:37:21] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-22 19:37:21] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-22 19:37:21] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-22 19:37:21] [enrich] --- Enriche [1/1]: Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-03-22 19:37:22] [enrich] Google News URL aufgelöst (v1): https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-d
+[2026-03-22 19:37:22] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus
+[2026-03-22 19:37:27] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden in Dresden
+[2026-03-22 19:37:27] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-22 19:37:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-22 19:37:27] [DEDUP] Starte Dedup für 273 Einträge
+[2026-03-22 19:37:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-22 19:37:27] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden / Dresden
+[2026-03-22 19:37:27] [DEDUP] Paare verglichen: 2129
+[2026-03-22 19:37:27] [DEDUP] Auto-Merges: 1
+[2026-03-22 19:37:27] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-22 19:37:27] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden
+[2026-03-22 19:37:27] [DEDUP] Ergebnis: 272 Einträge (war: 273, 1 zusammengeführt)
+[2026-03-22 19:37:27] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-22 19:37:27] [DEDUP] Gespeichert: 273 → 272 Einträge
