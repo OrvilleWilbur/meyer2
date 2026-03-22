@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T09:47:30.861981",
+  "generated_at": "2026-03-22T10:46:38.205131",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -595,39 +595,6 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.698,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.2857142857142857,
-        "bundesland": 1.0,
-        "brandort": 0.3333333333333333,
-        "total": 0.698
-      },
-      "entry_a": {
-        "einrichtung": "Klinik in Braunschweig (Name nicht genannt)",
-        "ort": "Braunschweig",
-        "datum": "03.03.2026",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/brand-in-braunschweiger-klinik-patientin-tot-50110250",
-        "titel": "Patientin will rauchen und stirbt in Braunschweiger Klinik - noz.de"
-      },
-      "entry_b": {
-        "einrichtung": "Städtisches Klinikum Braunschweig",
-        "ort": "Braunschweig",
-        "datum": "04.03.2026",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/niedersachsen/braunschweig_harz_goettingen/ursache-nach-feuer-im-krankenhaus-in-braunschweig-geklaert,klinikum-110.html",
-        "titel": "Patientin will Zigarette anzünden und löst Brand im Krankenhaus aus - sie selbst stirbt - NDR.de"
       }
     },
     {
