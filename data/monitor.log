@@ -6581,3 +6581,53 @@
 [2026-03-22 05:32:35] [DEDUP] Ergebnis: 269 Einträge (war: 269, 0 zusammengeführt)
 [2026-03-22 05:32:35] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-22 05:32:35] [DEDUP] Gespeichert: 269 → 269 Einträge
+[2026-03-22 07:07:54] === Monitor-Lauf gestartet ===
+[2026-03-22 07:07:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-22 07:07:55] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-22 07:07:55] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-22 07:07:56] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-22 07:07:56] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-22 07:07:57] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-22 07:07:57] Feed 'gn_brand_klinikum': 46 Einträge
+[2026-03-22 07:07:57] Feed 'gn_klinikbrand': 91 Einträge
+[2026-03-22 07:07:58] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-03-22 07:07:58] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-22 07:07:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-22 07:07:59] 237 relevante Treffer in Feeds
+[2026-03-22 07:07:59] ✅ 3 NEUE Einträge gefunden:
+[2026-03-22 07:07:59]    20.02.2026 | ins Krankenhaus |  | Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss in
+[2026-03-22 07:07:59]    03.04.2023 | Berliner Krankenhaus |  | Feuer und Schwerverletzte in Berliner Krankenhaus - FAZ
+[2026-03-22 07:07:59]    15.01.2026 | am Klinikum Sonnenberg |  | Großeinsatz am Klinikum Sonnenberg: Starke Rauchentwicklung 
+[2026-03-22 07:07:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-22 07:07:59] === Monitor-Lauf beendet ===
+
+[2026-03-22 07:08:00] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-22 07:08:00] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-22 07:08:00] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-22 07:08:00] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-22 07:08:00] [enrich] --- Enriche [1/3]: Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss in
+[2026-03-22 07:08:00] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuen
+[2026-03-22 07:08:01] [enrich] Volltext extrahiert: 1679 Zeichen von https://www.kn-online.de/lokales/neumuenster/feuer-im-einfam
+[2026-03-22 07:08:02] [enrich] FALSE POSITIVE erkannt: Brand in einem Einfamilienhaus, nicht in einem Krankenhaus. Eine Person wird nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst findet nicht im Krankenhaus statt.
+[2026-03-22 07:08:03] [enrich] --- Enriche [2/3]: Feuer und Schwerverletzte in Berliner Krankenhaus - FAZ
+[2026-03-22 07:08:03] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/feuer-und-schwerverletzte-in-
+[2026-03-22 07:08:05] [enrich] Volltext extrahiert: 1152 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/feuer-und
+[2026-03-22 07:08:07] [enrich] Enrichment abgeschlossen: enriched — Urban-Krankenhaus (Klinikum am Urban) in Berlin-Kreuzberg
+[2026-03-22 07:08:08] [enrich] --- Enriche [3/3]: Großeinsatz am Klinikum Sonnenberg: Starke Rauchentwicklung 
+[2026-03-22 07:08:08] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/blaulicht-saarland/grosseinsatz-am-klinikum-sonnenberg-starke
+[2026-03-22 07:08:08] [enrich] Artikel-Fetch fehlgeschlagen für https://www.sol.de/blaulicht-saarland/grosseinsatz-am-klinikum-sonnenberg-starke: 403 Client Error: Forbidden for url: https://www.sol.de/blaulicht-saarland/grosseinsatz-am-klinikum-sonnenberg-starke-rauchentwicklung-nach-brand-in-kapelle-re-2,669768.html
+[2026-03-22 07:08:08] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (579 Z.)
+[2026-03-22 07:08:10] [enrich] Enrichment abgeschlossen: partial — Klinikum Sonnenberg in 
+[2026-03-22 07:08:10] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-03-22 07:08:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-22 07:08:10] [DEDUP] Starte Dedup für 272 Einträge
+[2026-03-22 07:08:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-22 07:08:10] [DEDUP] Auto-Merge (0.91): Urban-Krankenhaus / Berlin-Kreuzberg ↔ Urban-Krankenhaus (Klinikum am Urban) / Berlin-Kreuzberg
+[2026-03-22 07:08:10] [DEDUP] Paare verglichen: 2131
+[2026-03-22 07:08:10] [DEDUP] Auto-Merges: 1
+[2026-03-22 07:08:10] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-22 07:08:10] [DEDUP] Cluster 2x: Urban-Krankenhaus, Urban-Krankenhaus (Klinikum am Urban)
+[2026-03-22 07:08:10] [DEDUP] Ergebnis: 271 Einträge (war: 272, 1 zusammengeführt)
+[2026-03-22 07:08:10] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-22 07:08:10] [DEDUP] Gespeichert: 272 → 271 Einträge
