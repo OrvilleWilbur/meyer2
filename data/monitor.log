@@ -6911,3 +6911,40 @@
 [2026-03-22 15:40:13] [DEDUP] Ergebnis: 270 Einträge (war: 270, 0 zusammengeführt)
 [2026-03-22 15:40:13] [DEDUP] Kandidaten-Datei: 83 pending, 2 confirmed, 0 rejected
 [2026-03-22 15:40:13] [DEDUP] Gespeichert: 270 → 270 Einträge
+[2026-03-22 16:47:03] === Monitor-Lauf gestartet ===
+[2026-03-22 16:47:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-22 16:47:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-22 16:47:05] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-03-22 16:47:06] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-22 16:47:06] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-03-22 16:47:06] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-22 16:47:07] Feed 'gn_brand_klinikum': 47 Einträge
+[2026-03-22 16:47:07] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-22 16:47:08] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-22 16:47:08] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-22 16:47:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-22 16:47:09] 233 relevante Treffer in Feeds
+[2026-03-22 16:47:09] ✅ 1 NEUE Einträge gefunden:
+[2026-03-22 16:47:09]    03.06.2022 |  |  | Banja Luka: Krankenhaus-Evakuierung nach Bombendrohungen - k
+[2026-03-22 16:47:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-22 16:47:09] === Monitor-Lauf beendet ===
+
+[2026-03-22 16:47:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-22 16:47:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-22 16:47:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-22 16:47:10] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-22 16:47:10] [enrich] --- Enriche [1/1]: Banja Luka: Krankenhaus-Evakuierung nach Bombendrohungen - k
+[2026-03-22 16:47:10] [enrich] Google News URL aufgelöst (v1): https://www.kosmo.at/banja-luka-krankenhaus-bombendrohungen/
+[2026-03-22 16:47:14] [enrich] Volltext extrahiert: 2863 Zeichen von https://www.kosmo.at/banja-luka-krankenhaus-bombendrohungen/
+[2026-03-22 16:47:16] [enrich] FALSE POSITIVE erkannt: Die Evakuierung des Krankenhauses in Banja Luka war die Folge einer Bombendrohung, nicht eines Brandes. Zudem liegt Banja Luka in Bosnien und Herzegowina, nicht in Deutschland.
+[2026-03-22 16:47:16] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-22 16:47:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-22 16:47:16] [DEDUP] Starte Dedup für 271 Einträge
+[2026-03-22 16:47:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-22 16:47:16] [DEDUP] Paare verglichen: 2127
+[2026-03-22 16:47:16] [DEDUP] Auto-Merges: 0
+[2026-03-22 16:47:16] [DEDUP] Kandidaten (unsicher): 83
+[2026-03-22 16:47:16] [DEDUP] Ergebnis: 271 Einträge (war: 271, 0 zusammengeführt)
+[2026-03-22 16:47:16] [DEDUP] Kandidaten-Datei: 83 pending, 2 confirmed, 0 rejected
+[2026-03-22 16:47:16] [DEDUP] Gespeichert: 271 → 271 Einträge
