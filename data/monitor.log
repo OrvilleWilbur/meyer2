@@ -7557,3 +7557,47 @@
 [2026-03-23 18:04:06] [DEDUP] Ergebnis: 274 Einträge (war: 274, 0 zusammengeführt)
 [2026-03-23 18:04:06] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-23 18:04:06] [DEDUP] Gespeichert: 274 → 274 Einträge
+[2026-03-23 19:12:45] === Monitor-Lauf gestartet ===
+[2026-03-23 19:12:46] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-23 19:12:47] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-23 19:12:48] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-23 19:12:48] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-23 19:12:49] Feed 'gn_feuer_klinik': 53 Einträge
+[2026-03-23 19:12:49] Feed 'gn_brand_klinik': 39 Einträge
+[2026-03-23 19:12:50] Feed 'gn_brand_klinikum': 50 Einträge
+[2026-03-23 19:12:50] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-23 19:12:51] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-23 19:12:51] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-23 19:12:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-23 19:12:52] 235 relevante Treffer in Feeds
+[2026-03-23 19:12:52] ✅ 2 NEUE Einträge gefunden:
+[2026-03-23 19:12:52]    04.06.2025 |  |  | Brandschutz Verband warnt vor Heim- und Klinik­brände - Rech
+[2026-03-23 19:12:52]    19.03.2026 | im Klinikum Friedrichstadt |  | Feuer im Klinikum Friedrichstadt: Dresden nach Stromausfall 
+[2026-03-23 19:12:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-23 19:12:52] === Monitor-Lauf beendet ===
+
+[2026-03-23 19:12:52] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-23 19:12:52] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-23 19:12:52] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-23 19:12:52] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-23 19:12:52] [enrich] --- Enriche [1/2]: Brandschutz Verband warnt vor Heim- und Klinik­brände - Rech
+[2026-03-23 19:12:53] [enrich] Google News URL aufgelöst (v1): https://www.rechtsdepesche.de/hohes-risiko-fuer-heim-und-klinikbraende/
+[2026-03-23 19:12:54] [enrich] Volltext extrahiert: 4141 Zeichen von https://www.rechtsdepesche.de/hohes-risiko-fuer-heim-und-kli
+[2026-03-23 19:12:55] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Brandschutzkonzepte, Brandschutzrichtlinien und statistische Warnungen vor Heim- und Klinikbränden, nicht aber einen konkreten Brand in einem deutschen Krankenhaus. Es werden keine spezifischen Brandvorfälle mit Ort, Datum und Details beschrieben.
+[2026-03-23 19:12:56] [enrich] --- Enriche [2/2]: Feuer im Klinikum Friedrichstadt: Dresden nach Stromausfall 
+[2026-03-23 19:12:57] [enrich] Google News URL aufgelöst (v1): https://www.diesachsen.de/dresden-news/feuer-im-klinikum-friedrichstadt-dresden-
+[2026-03-23 19:12:57] [enrich] Volltext extrahiert: 2982 Zeichen von https://www.diesachsen.de/dresden-news/feuer-im-klinikum-fri
+[2026-03-23 19:13:00] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-23 19:13:01] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-23 19:13:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-23 19:13:01] [DEDUP] Starte Dedup für 276 Einträge
+[2026-03-23 19:13:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-23 19:13:01] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-23 19:13:01] [DEDUP] Paare verglichen: 2147
+[2026-03-23 19:13:01] [DEDUP] Auto-Merges: 1
+[2026-03-23 19:13:01] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-23 19:13:01] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-03-23 19:13:01] [DEDUP] Ergebnis: 275 Einträge (war: 276, 1 zusammengeführt)
+[2026-03-23 19:13:01] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-23 19:13:01] [DEDUP] Gespeichert: 276 → 275 Einträge
