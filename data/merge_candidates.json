@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T11:09:03.544552",
+  "generated_at": "2026-03-23T11:54:45.469162",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1024,6 +1024,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.az-online.de/uelzen/stadt-uelzen/feuer-brand-uelzen-helios-klinikum-tote-mehrere-zimmer-vollbrand-92759711.html",
+        "titel": "Feuer-Drama im Helios-Klinikum Uelzen: Todesopfer zwischen 55 und 94 Jahre alt - AZ-Online"
       }
     },
     {
