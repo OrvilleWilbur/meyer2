@@ -7631,3 +7631,45 @@
 [2026-03-23 19:54:56] [DEDUP] Ergebnis: 275 Einträge (war: 275, 0 zusammengeführt)
 [2026-03-23 19:54:56] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-23 19:54:56] [DEDUP] Gespeichert: 275 → 275 Einträge
+[2026-03-23 20:54:19] === Monitor-Lauf gestartet ===
+[2026-03-23 20:54:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-23 20:54:20] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-23 20:54:21] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-23 20:54:21] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-23 20:54:22] Feed 'gn_feuer_klinik': 52 Einträge
+[2026-03-23 20:54:22] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-23 20:54:23] Feed 'gn_brand_klinikum': 51 Einträge
+[2026-03-23 20:54:23] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-23 20:54:23] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-23 20:54:24] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-23 20:54:25] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-23 20:54:25] 247 relevante Treffer in Feeds
+[2026-03-23 20:54:25] ✅ 2 NEUE Einträge gefunden:
+[2026-03-23 20:54:25]    09.01.2026 | im Krankenhaus |  | Kleidung einer 92-Jährigen fängt Feuer – sie verstirbt im Kr
+[2026-03-23 20:54:25]    08.04.2025 | und Krankenhaus |  | Rathaus, Kita und Krankenhaus: Bombenverdacht in Eitorf – Ev
+[2026-03-23 20:54:25] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-23 20:54:25] === Monitor-Lauf beendet ===
+
+[2026-03-23 20:54:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-23 20:54:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-23 20:54:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-23 20:54:26] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-23 20:54:26] [enrich] --- Enriche [1/2]: Kleidung einer 92-Jährigen fängt Feuer – sie verstirbt im Kr
+[2026-03-23 20:54:26] [enrich] Google News URL aufgelöst (v1): https://www.sauerlandkurier.de/kreis-olpe/finnentrop/feuer-in-roenkhausen-92-jae
+[2026-03-23 20:54:27] [enrich] Volltext extrahiert: 2532 Zeichen von https://www.sauerlandkurier.de/kreis-olpe/finnentrop/feuer-i
+[2026-03-23 20:54:32] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einem Wohnhaus in Finnentrop-Rönkhausen, nicht in einem Krankenhaus. Die 92-Jährige wurde nach dem Brand ins Krankenhaus gebracht und starb dort an ihren Verletzungen, aber das Feuer selbst war kein Krankenhausbrand.
+[2026-03-23 20:54:33] [enrich] --- Enriche [2/2]: Rathaus, Kita und Krankenhaus: Bombenverdacht in Eitorf – Ev
+[2026-03-23 20:54:34] [enrich] Google News URL aufgelöst (v1): https://www.ksta.de/region/rhein-sieg-bonn/eitorf-windeck/bombenverdacht-eitorf-
+[2026-03-23 20:54:35] [enrich] Volltext extrahiert: 4378 Zeichen von https://www.ksta.de/region/rhein-sieg-bonn/eitorf-windeck/bo
+[2026-03-23 20:54:37] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Kampfmittelbeseitigung), nicht wegen Brand. Das Krankenhaus wird nur erwähnt, weil es im 500-Meter-Evakuierungsradius liegt.
+[2026-03-23 20:54:37] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-23 20:54:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-23 20:54:37] [DEDUP] Starte Dedup für 277 Einträge
+[2026-03-23 20:54:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-23 20:54:37] [DEDUP] Paare verglichen: 2208
+[2026-03-23 20:54:37] [DEDUP] Auto-Merges: 0
+[2026-03-23 20:54:37] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-23 20:54:37] [DEDUP] Ergebnis: 277 Einträge (war: 277, 0 zusammengeführt)
+[2026-03-23 20:54:37] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-23 20:54:37] [DEDUP] Gespeichert: 277 → 277 Einträge
