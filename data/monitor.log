@@ -7520,3 +7520,40 @@
 [2026-03-23 17:08:43] [DEDUP] Ergebnis: 273 Einträge (war: 273, 0 zusammengeführt)
 [2026-03-23 17:08:43] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-23 17:08:43] [DEDUP] Gespeichert: 273 → 273 Einträge
+[2026-03-23 18:03:55] === Monitor-Lauf gestartet ===
+[2026-03-23 18:03:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-23 18:03:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-23 18:03:58] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-23 18:03:58] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-23 18:03:59] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-03-23 18:03:59] Feed 'gn_brand_klinik': 39 Einträge
+[2026-03-23 18:04:00] Feed 'gn_brand_klinikum': 50 Einträge
+[2026-03-23 18:04:00] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-23 18:04:01] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-03-23 18:04:01] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-23 18:04:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-23 18:04:02] 236 relevante Treffer in Feeds
+[2026-03-23 18:04:02] ✅ 1 NEUE Einträge gefunden:
+[2026-03-23 18:04:02]    29.05.2022 | Uniklinik Graz geflogen |  | A10: Brandopfer zur Uniklinik Graz geflogen - kaernten.ORF.a
+[2026-03-23 18:04:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-23 18:04:02] === Monitor-Lauf beendet ===
+
+[2026-03-23 18:04:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-23 18:04:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-23 18:04:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-23 18:04:03] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-23 18:04:03] [enrich] --- Enriche [1/1]: A10: Brandopfer zur Uniklinik Graz geflogen - kaernten.ORF.a
+[2026-03-23 18:04:03] [enrich] Google News URL aufgelöst (v1): https://kaernten.orf.at/stories/3158447/
+[2026-03-23 18:04:04] [enrich] Volltext extrahiert: 1770 Zeichen von https://kaernten.orf.at/stories/3158447/
+[2026-03-23 18:04:05] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnmobil auf der Autobahn A10, nicht in einem Krankenhaus. Das Brandopfer wurde nach dem Brand zur Uniklinik Graz transportiert, aber der Brand selbst fand nicht in der Klinik statt.
+[2026-03-23 18:04:05] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-23 18:04:05] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-23 18:04:06] [DEDUP] Starte Dedup für 274 Einträge
+[2026-03-23 18:04:06] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-23 18:04:06] [DEDUP] Paare verglichen: 2131
+[2026-03-23 18:04:06] [DEDUP] Auto-Merges: 0
+[2026-03-23 18:04:06] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-23 18:04:06] [DEDUP] Ergebnis: 274 Einträge (war: 274, 0 zusammengeführt)
+[2026-03-23 18:04:06] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-23 18:04:06] [DEDUP] Gespeichert: 274 → 274 Einträge
