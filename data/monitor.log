@@ -8208,3 +8208,40 @@
 [2026-03-24 20:57:34] [DEDUP] Ergebnis: 278 Einträge (war: 278, 0 zusammengeführt)
 [2026-03-24 20:57:34] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-24 20:57:34] [DEDUP] Gespeichert: 278 → 278 Einträge
+[2026-03-24 21:51:57] === Monitor-Lauf gestartet ===
+[2026-03-24 21:51:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-24 21:51:59] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-24 21:51:59] Feed 'gn_brand_krankenhaus': 59 Einträge
+[2026-03-24 21:52:00] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-24 21:52:00] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-24 21:52:01] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-24 21:52:01] Feed 'gn_brand_klinikum': 50 Einträge
+[2026-03-24 21:52:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-24 21:52:02] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-03-24 21:52:02] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-24 21:52:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-24 21:52:03] 241 relevante Treffer in Feeds
+[2026-03-24 21:52:03] ✅ 1 NEUE Einträge gefunden:
+[2026-03-24 21:52:03]    07.12.2016 | in Klinik |  | Frau in Brand gesteckt: Sie stirbt in Klinik - Merkur
+[2026-03-24 21:52:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-24 21:52:03] === Monitor-Lauf beendet ===
+
+[2026-03-24 21:52:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-24 21:52:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-24 21:52:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-24 21:52:04] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-24 21:52:04] [enrich] --- Enriche [1/1]: Frau in Brand gesteckt: Sie stirbt in Klinik - Merkur
+[2026-03-24 21:52:04] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-brand-gesteckt-zr-707
+[2026-03-24 21:52:05] [enrich] Volltext extrahiert: 3614 Zeichen von https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-b
+[2026-03-24 21:52:08] [enrich] FALSE POSITIVE erkannt: Die Frau wurde nach einem Brand auf offener Straße (Brandanschlag durch ihren Ehemann) in eine Klinik gebracht und starb dort an ihren Verletzungen. Der Brand ereignete sich nicht IN der Klinik, sondern auf der Straße in Kronshagen. Die Klinik war nur der Ort der medizinischen Behandlung und des Todes, nicht des Brandes.
+[2026-03-24 21:52:08] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-24 21:52:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-24 21:52:08] [DEDUP] Starte Dedup für 279 Einträge
+[2026-03-24 21:52:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-24 21:52:08] [DEDUP] Paare verglichen: 2209
+[2026-03-24 21:52:08] [DEDUP] Auto-Merges: 0
+[2026-03-24 21:52:08] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-24 21:52:08] [DEDUP] Ergebnis: 279 Einträge (war: 279, 0 zusammengeführt)
+[2026-03-24 21:52:08] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-24 21:52:08] [DEDUP] Gespeichert: 279 → 279 Einträge
