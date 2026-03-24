@@ -8042,3 +8042,40 @@
 [2026-03-24 13:50:22] [DEDUP] Ergebnis: 277 Einträge (war: 277, 0 zusammengeführt)
 [2026-03-24 13:50:22] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-24 13:50:22] [DEDUP] Gespeichert: 277 → 277 Einträge
+[2026-03-24 15:19:06] === Monitor-Lauf gestartet ===
+[2026-03-24 15:19:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-24 15:19:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-24 15:19:09] Feed 'gn_brand_krankenhaus': 59 Einträge
+[2026-03-24 15:19:09] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-24 15:19:09] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-24 15:19:10] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-24 15:19:10] Feed 'gn_brand_klinikum': 50 Einträge
+[2026-03-24 15:19:11] Feed 'gn_klinikbrand': 96 Einträge
+[2026-03-24 15:19:11] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-24 15:19:12] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-24 15:19:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-24 15:19:13] 238 relevante Treffer in Feeds
+[2026-03-24 15:19:13] ✅ 1 NEUE Einträge gefunden:
+[2026-03-24 15:19:13]    02.12.2020 | Segeberger Klinik |  | Feuer in Segeberger Klinik – Ursache war eine brennende Wasc
+[2026-03-24 15:19:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-24 15:19:13] === Monitor-Lauf beendet ===
+
+[2026-03-24 15:19:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-24 15:19:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-24 15:19:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-24 15:19:13] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-24 15:19:13] [enrich] --- Enriche [1/1]: Feuer in Segeberger Klinik – Ursache war eine brennende Wasc
+[2026-03-24 15:19:13] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/schleswig-holstein/artikel/feuer-in-segeberg
+[2026-03-24 15:19:15] [enrich] Volltext extrahiert: 1607 Zeichen von https://www.shz.de/deutschland-welt/schleswig-holstein/artik
+[2026-03-24 15:19:19] [enrich] Enrichment abgeschlossen: enriched — Segeberger Klinik in Segeberg
+[2026-03-24 15:19:19] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-24 15:19:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-24 15:19:19] [DEDUP] Starte Dedup für 278 Einträge
+[2026-03-24 15:19:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-24 15:19:19] [DEDUP] Paare verglichen: 2208
+[2026-03-24 15:19:19] [DEDUP] Auto-Merges: 0
+[2026-03-24 15:19:19] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-24 15:19:19] [DEDUP] Ergebnis: 278 Einträge (war: 278, 0 zusammengeführt)
+[2026-03-24 15:19:19] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-24 15:19:19] [DEDUP] Gespeichert: 278 → 278 Einträge
