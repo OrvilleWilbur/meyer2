@@ -8079,3 +8079,42 @@
 [2026-03-24 15:19:19] [DEDUP] Ergebnis: 278 Einträge (war: 278, 0 zusammengeführt)
 [2026-03-24 15:19:19] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-24 15:19:19] [DEDUP] Gespeichert: 278 → 278 Einträge
+[2026-03-24 17:14:08] === Monitor-Lauf gestartet ===
+[2026-03-24 17:14:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-24 17:14:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-24 17:14:10] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-03-24 17:14:11] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-24 17:14:11] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-24 17:14:11] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-24 17:14:12] Feed 'gn_brand_klinikum': 50 Einträge
+[2026-03-24 17:14:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-24 17:14:13] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-03-24 17:14:13] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-03-24 17:14:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-24 17:14:14] 237 relevante Treffer in Feeds
+[2026-03-24 17:14:14] ✅ 1 NEUE Einträge gefunden:
+[2026-03-24 17:14:14]    19.03.2026 | Dresdner Klinikum |  | Brand in Dresdner Klinikum: Stromschwankungen in der Stadt u
+[2026-03-24 17:14:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-24 17:14:14] === Monitor-Lauf beendet ===
+
+[2026-03-24 17:14:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-24 17:14:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-24 17:14:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-24 17:14:14] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-24 17:14:14] [enrich] --- Enriche [1/1]: Brand in Dresdner Klinikum: Stromschwankungen in der Stadt u
+[2026-03-24 17:14:15] [enrich] Google News URL aufgelöst (v1): https://www.blick.de/dresden/brand-in-dresdner-klinikum-stromschwankungen-in-der
+[2026-03-24 17:14:16] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.blick.de/dresden/brand-in-dresdner-klinikum-stro
+[2026-03-24 17:14:20] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden-Friedrichstadt in Dresden
+[2026-03-24 17:14:20] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-24 17:14:20] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-24 17:14:20] [DEDUP] Starte Dedup für 279 Einträge
+[2026-03-24 17:14:20] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-24 17:14:20] [DEDUP] Auto-Merge (0.97): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden-Friedrichst / Dresden
+[2026-03-24 17:14:20] [DEDUP] Paare verglichen: 2209
+[2026-03-24 17:14:20] [DEDUP] Auto-Merges: 1
+[2026-03-24 17:14:20] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-24 17:14:20] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden-Friedrichst
+[2026-03-24 17:14:20] [DEDUP] Ergebnis: 278 Einträge (war: 279, 1 zusammengeführt)
+[2026-03-24 17:14:20] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-24 17:14:20] [DEDUP] Gespeichert: 279 → 278 Einträge
