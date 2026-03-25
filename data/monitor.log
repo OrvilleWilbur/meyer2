@@ -8461,3 +8461,42 @@
 [2026-03-25 09:08:09] [DEDUP] Ergebnis: 282 Einträge (war: 283, 1 zusammengeführt)
 [2026-03-25 09:08:09] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 09:08:09] [DEDUP] Gespeichert: 283 → 282 Einträge
+[2026-03-25 10:08:10] === Monitor-Lauf gestartet ===
+[2026-03-25 10:08:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 10:08:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 10:08:12] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-25 10:08:12] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-25 10:08:13] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-25 10:08:13] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-25 10:08:13] Feed 'gn_brand_klinikum': 43 Einträge
+[2026-03-25 10:08:14] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-25 10:08:14] Feed 'gn_feuer_uniklinik': 24 Einträge
+[2026-03-25 10:08:15] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-25 10:08:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 10:08:16] 227 relevante Treffer in Feeds
+[2026-03-25 10:08:16] ✅ 1 NEUE Einträge gefunden:
+[2026-03-25 10:08:16]    01.06.2025 | Hamburger Krankenhaus |  | Drei Tote und 55 Verletzte bei Brand in Hamburger Krankenhau
+[2026-03-25 10:08:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 10:08:16] === Monitor-Lauf beendet ===
+
+[2026-03-25 10:08:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 10:08:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 10:08:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 10:08:16] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 10:08:16] [enrich] --- Enriche [1/1]: Drei Tote und 55 Verletzte bei Brand in Hamburger Krankenhau
+[2026-03-25 10:08:16] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/news/drei-tote-und-55-verletzte-bei-brand-in-hamburger-kran
+[2026-03-25 10:08:17] [enrich] Volltext extrahiert: 4105 Zeichen von https://www.stern.de/news/drei-tote-und-55-verletzte-bei-bra
+[2026-03-25 10:08:22] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-25 10:08:22] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-25 10:08:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 10:08:22] [DEDUP] Starte Dedup für 283 Einträge
+[2026-03-25 10:08:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 10:08:22] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-25 10:08:22] [DEDUP] Paare verglichen: 2240
+[2026-03-25 10:08:22] [DEDUP] Auto-Merges: 1
+[2026-03-25 10:08:22] [DEDUP] Kandidaten (unsicher): 88
+[2026-03-25 10:08:22] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-25 10:08:22] [DEDUP] Ergebnis: 282 Einträge (war: 283, 1 zusammengeführt)
+[2026-03-25 10:08:22] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
+[2026-03-25 10:08:22] [DEDUP] Gespeichert: 283 → 282 Einträge
