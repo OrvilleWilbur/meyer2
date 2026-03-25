@@ -8374,3 +8374,40 @@
 [2026-03-25 05:38:53] [DEDUP] Ergebnis: 279 Einträge (war: 279, 0 zusammengeführt)
 [2026-03-25 05:38:53] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 05:38:53] [DEDUP] Gespeichert: 279 → 279 Einträge
+[2026-03-25 07:17:20] === Monitor-Lauf gestartet ===
+[2026-03-25 07:17:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 07:17:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 07:17:23] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-25 07:17:23] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-03-25 07:17:23] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-25 07:17:24] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-25 07:17:24] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-03-25 07:17:25] Feed 'gn_klinikbrand': 95 Einträge
+[2026-03-25 07:17:25] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-25 07:17:25] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-25 07:17:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 07:17:26] 222 relevante Treffer in Feeds
+[2026-03-25 07:17:26] ✅ 1 NEUE Einträge gefunden:
+[2026-03-25 07:17:26]    24.03.2026 | Uniklinik |  | MÜNSTER: Brand an Uniklinik - Radio Kiepenkerl
+[2026-03-25 07:17:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 07:17:26] === Monitor-Lauf beendet ===
+
+[2026-03-25 07:17:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 07:17:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 07:17:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 07:17:27] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 07:17:27] [enrich] --- Enriche [1/1]: MÜNSTER: Brand an Uniklinik - Radio Kiepenkerl
+[2026-03-25 07:17:27] [enrich] Google News URL aufgelöst (v1): https://www.radiokiepenkerl.de/artikel/muenster-brand-an-uniklinik-2608202
+[2026-03-25 07:17:27] [enrich] Volltext extrahiert: 222 Zeichen von https://www.radiokiepenkerl.de/artikel/muenster-brand-an-uni
+[2026-03-25 07:17:30] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (Uniklinik Münster) in Münster
+[2026-03-25 07:17:30] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-25 07:17:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 07:17:30] [DEDUP] Starte Dedup für 280 Einträge
+[2026-03-25 07:17:30] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 07:17:30] [DEDUP] Paare verglichen: 2212
+[2026-03-25 07:17:30] [DEDUP] Auto-Merges: 0
+[2026-03-25 07:17:30] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-25 07:17:30] [DEDUP] Ergebnis: 280 Einträge (war: 280, 0 zusammengeführt)
+[2026-03-25 07:17:30] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-25 07:17:30] [DEDUP] Gespeichert: 280 → 280 Einträge
