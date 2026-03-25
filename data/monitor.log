@@ -8606,3 +8606,42 @@
 [2026-03-25 13:49:31] [DEDUP] Ergebnis: 283 Einträge (war: 284, 1 zusammengeführt)
 [2026-03-25 13:49:31] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 13:49:31] [DEDUP] Gespeichert: 284 → 283 Einträge
+[2026-03-25 15:20:53] === Monitor-Lauf gestartet ===
+[2026-03-25 15:20:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 15:20:55] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 15:20:55] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-25 15:20:56] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-25 15:20:56] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-25 15:20:57] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-25 15:20:57] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-25 15:20:58] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-25 15:20:58] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-25 15:20:58] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-03-25 15:20:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 15:20:59] 223 relevante Treffer in Feeds
+[2026-03-25 15:20:59] ✅ 1 NEUE Einträge gefunden:
+[2026-03-25 15:20:59]    11.03.2026 |  |  | Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pf
+[2026-03-25 15:20:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 15:20:59] === Monitor-Lauf beendet ===
+
+[2026-03-25 15:21:00] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 15:21:00] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 15:21:00] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 15:21:00] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 15:21:00] [enrich] --- Enriche [1/1]: Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pf
+[2026-03-25 15:21:01] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/nahe-zeitung/beim-brand-reagierten-drei-jun
+[2026-03-25 15:21:02] [enrich] Volltext extrahiert: 973 Zeichen von https://www.rhein-zeitung.de/lokales/nahe-zeitung/beim-brand
+[2026-03-25 15:21:04] [enrich] Enrichment abgeschlossen: enriched — Klinikum Idar-Oberstein in Idar-Oberstein
+[2026-03-25 15:21:04] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-25 15:21:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 15:21:04] [DEDUP] Starte Dedup für 284 Einträge
+[2026-03-25 15:21:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 15:21:05] [DEDUP] Auto-Merge (0.87): Klinikum Idar-Oberstein / Idar-Oberstein ↔ Klinikum Idar-Oberstein / Idar-Oberstein
+[2026-03-25 15:21:05] [DEDUP] Paare verglichen: 2296
+[2026-03-25 15:21:05] [DEDUP] Auto-Merges: 1
+[2026-03-25 15:21:05] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-25 15:21:05] [DEDUP] Cluster 2x: Klinikum Idar-Oberstein, Klinikum Idar-Oberstein
+[2026-03-25 15:21:05] [DEDUP] Ergebnis: 283 Einträge (war: 284, 1 zusammengeführt)
+[2026-03-25 15:21:05] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-25 15:21:05] [DEDUP] Gespeichert: 284 → 283 Einträge
