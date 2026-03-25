@@ -8567,3 +8567,42 @@
 [2026-03-25 11:55:18] [DEDUP] Ergebnis: 283 Einträge (war: 283, 0 zusammengeführt)
 [2026-03-25 11:55:18] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 11:55:18] [DEDUP] Gespeichert: 283 → 283 Einträge
+[2026-03-25 13:49:20] === Monitor-Lauf gestartet ===
+[2026-03-25 13:49:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 13:49:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 13:49:22] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-25 13:49:23] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-25 13:49:23] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-25 13:49:24] Feed 'gn_brand_klinik': 41 Einträge
+[2026-03-25 13:49:24] Feed 'gn_brand_klinikum': 43 Einträge
+[2026-03-25 13:49:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-25 13:49:25] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-25 13:49:25] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-25 13:49:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 13:49:27] 222 relevante Treffer in Feeds
+[2026-03-25 13:49:27] ✅ 1 NEUE Einträge gefunden:
+[2026-03-25 13:49:27]    25.03.2026 | Universitätsklinikums Münster |  | Brand im alten Kreißsaal des Universitätsklinikums Münster -
+[2026-03-25 13:49:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 13:49:27] === Monitor-Lauf beendet ===
+
+[2026-03-25 13:49:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 13:49:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 13:49:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 13:49:27] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 13:49:27] [enrich] --- Enriche [1/1]: Brand im alten Kreißsaal des Universitätsklinikums Münster -
+[2026-03-25 13:49:27] [enrich] Google News URL aufgelöst (v1): https://www.die-glocke.de/regionales/artikel/brand-im-alten-kreisssaal-des-unive
+[2026-03-25 13:49:28] [enrich] Volltext extrahiert: 1706 Zeichen von https://www.die-glocke.de/regionales/artikel/brand-im-alten-
+[2026-03-25 13:49:31] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (UKM) in Münster
+[2026-03-25 13:49:31] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-25 13:49:31] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 13:49:31] [DEDUP] Starte Dedup für 284 Einträge
+[2026-03-25 13:49:31] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 13:49:31] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Universitätsklinikum Münster (UKM) / Münster
+[2026-03-25 13:49:31] [DEDUP] Paare verglichen: 2299
+[2026-03-25 13:49:31] [DEDUP] Auto-Merges: 1
+[2026-03-25 13:49:31] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-25 13:49:31] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Universitätsklinikum Münster (UKM)
+[2026-03-25 13:49:31] [DEDUP] Ergebnis: 283 Einträge (war: 284, 1 zusammengeführt)
+[2026-03-25 13:49:31] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-25 13:49:31] [DEDUP] Gespeichert: 284 → 283 Einträge
