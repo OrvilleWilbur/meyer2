@@ -8795,3 +8795,47 @@
 [2026-03-25 20:55:21] [DEDUP] Ergebnis: 283 Einträge (war: 283, 0 zusammengeführt)
 [2026-03-25 20:55:21] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 20:55:21] [DEDUP] Gespeichert: 283 → 283 Einträge
+[2026-03-25 21:53:24] === Monitor-Lauf gestartet ===
+[2026-03-25 21:53:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 21:53:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 21:53:27] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-25 21:53:27] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-25 21:53:28] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-25 21:53:28] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-25 21:53:28] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-25 21:53:29] Feed 'gn_klinikbrand': 73 Einträge
+[2026-03-25 21:53:29] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-03-25 21:53:30] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-03-25 21:53:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 21:53:31] 222 relevante Treffer in Feeds
+[2026-03-25 21:53:31] ✅ 2 NEUE Einträge gefunden:
+[2026-03-25 21:53:31]    09.07.2025 | im Krankenhaus |  | Gartenlaube brennt in Magdeburg - Zwei Männer nach Löschvers
+[2026-03-25 21:53:31]    19.03.2026 | in Klinikum Friedrichstadt |  | Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-03-25 21:53:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 21:53:31] === Monitor-Lauf beendet ===
+
+[2026-03-25 21:53:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 21:53:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 21:53:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 21:53:31] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 21:53:31] [enrich] --- Enriche [1/2]: Gartenlaube brennt in Magdeburg - Zwei Männer nach Löschvers
+[2026-03-25 21:53:32] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/mitteldeutschland/blaulicht/feuer-gartenanlage-laube-brand-feu
+[2026-03-25 21:53:32] [enrich] Volltext extrahiert: 1230 Zeichen von https://www.mz.de/mitteldeutschland/blaulicht/feuer-gartenan
+[2026-03-25 21:53:34] [enrich] FALSE POSITIVE erkannt: Brand in einer Gartenlaube (private Gartenanlage), nicht in einem Krankenhaus. Zwei Verletzte wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-03-25 21:53:35] [enrich] --- Enriche [2/2]: Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-03-25 21:53:35] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-feuerwehr-loescht-br
+[2026-03-25 21:53:35] [enrich] Volltext extrahiert: 1916 Zeichen von https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-
+[2026-03-25 21:53:38] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-25 21:53:38] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-25 21:53:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 21:53:38] [DEDUP] Starte Dedup für 285 Einträge
+[2026-03-25 21:53:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 21:53:38] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-25 21:53:38] [DEDUP] Paare verglichen: 2316
+[2026-03-25 21:53:38] [DEDUP] Auto-Merges: 1
+[2026-03-25 21:53:38] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-25 21:53:38] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-03-25 21:53:38] [DEDUP] Ergebnis: 284 Einträge (war: 285, 1 zusammengeführt)
+[2026-03-25 21:53:38] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-25 21:53:38] [DEDUP] Gespeichert: 285 → 284 Einträge
