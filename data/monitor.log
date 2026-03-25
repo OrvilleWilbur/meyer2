@@ -8500,3 +8500,40 @@
 [2026-03-25 10:08:22] [DEDUP] Ergebnis: 282 Einträge (war: 283, 1 zusammengeführt)
 [2026-03-25 10:08:22] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-25 10:08:22] [DEDUP] Gespeichert: 283 → 282 Einträge
+[2026-03-25 11:06:19] === Monitor-Lauf gestartet ===
+[2026-03-25 11:06:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 11:06:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 11:06:23] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-25 11:06:24] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-25 11:06:24] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-25 11:06:25] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-25 11:06:25] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-03-25 11:06:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-25 11:06:26] Feed 'gn_feuer_uniklinik': 23 Einträge
+[2026-03-25 11:06:27] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-03-25 11:06:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 11:06:28] 224 relevante Treffer in Feeds
+[2026-03-25 11:06:28] ✅ 1 NEUE Einträge gefunden:
+[2026-03-25 11:06:28]    05.01.2026 | ins Krankenhaus gebracht |  | Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus geb
+[2026-03-25 11:06:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 11:06:28] === Monitor-Lauf beendet ===
+
+[2026-03-25 11:06:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 11:06:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 11:06:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 11:06:29] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 11:06:29] [enrich] --- Enriche [1/1]: Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus geb
+[2026-03-25 11:06:30] [enrich] Google News URL aufgelöst (v1): https://www.news5.de/news/news/read/40154
+[2026-03-25 11:06:30] [enrich] Volltext extrahiert: 1355 Zeichen von https://www.news5.de/news/news/read/40154
+[2026-03-25 11:06:32] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnblock, nicht in einem Krankenhaus. Brandopfer wurden nachträglich in Krankenhäuser gebracht, aber der Brand selbst fand in einer Wohnung statt.
+[2026-03-25 11:06:32] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-25 11:06:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 11:06:32] [DEDUP] Starte Dedup für 283 Einträge
+[2026-03-25 11:06:32] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 11:06:32] [DEDUP] Paare verglichen: 2295
+[2026-03-25 11:06:32] [DEDUP] Auto-Merges: 0
+[2026-03-25 11:06:32] [DEDUP] Kandidaten (unsicher): 84
+[2026-03-25 11:06:32] [DEDUP] Ergebnis: 283 Einträge (war: 283, 0 zusammengeführt)
+[2026-03-25 11:06:32] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
+[2026-03-25 11:06:32] [DEDUP] Gespeichert: 283 → 283 Einträge
