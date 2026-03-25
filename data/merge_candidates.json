@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T22:55:50.393014",
+  "generated_at": "2026-03-25T23:51:05.056872",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -100,6 +100,39 @@
         "status": "partial",
         "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
         "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.793,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.2631578947368421,
+        "total": 0.793
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
+        "ort": "Leipzig, Stadtteil Probstheida",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
+        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Park-Klinikum Leipzig",
+        "ort": "Leipzig",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
+        "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - tag24.de"
       }
     },
     {
@@ -2212,6 +2245,39 @@
         "status": "false_positive",
         "link": "https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-im-krankenhaus-594395.html",
         "titel": "Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus - GN-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-einsatz-in-klotzsche-evakuierung-nach-labor-vorfall-vier-personen-im-krankenhaus-3445383",
+        "titel": "ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vier Personen im Krankenhaus - TAG24"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-einsatz-in-klotzsche-evakuierung-nach-labor-vorfall-vier-personen-im-krankenhaus-3445383",
+        "titel": "ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vier Personen im Krankenhaus - tag24.de"
       }
     },
     {

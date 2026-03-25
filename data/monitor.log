@@ -8869,3 +8869,66 @@
 [2026-03-25 22:55:50] [DEDUP] Ergebnis: 284 Einträge (war: 284, 0 zusammengeführt)
 [2026-03-25 22:55:50] [DEDUP] Kandidaten-Datei: 84 pending, 2 confirmed, 0 rejected
 [2026-03-25 22:55:50] [DEDUP] Gespeichert: 284 → 284 Einträge
+[2026-03-25 23:50:34] === Monitor-Lauf gestartet ===
+[2026-03-25 23:50:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-25 23:50:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-25 23:50:37] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-25 23:50:37] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-25 23:50:38] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-03-25 23:50:38] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-25 23:50:39] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-03-25 23:50:39] Feed 'gn_klinikbrand': 73 Einträge
+[2026-03-25 23:50:40] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-25 23:50:40] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-25 23:50:41] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-25 23:50:41] 217 relevante Treffer in Feeds
+[2026-03-25 23:50:41] ✅ 5 NEUE Einträge gefunden:
+[2026-03-25 23:50:41]    03.03.2026 | im Klinikum |  | Schlimmer Brand im Klinikum: Patientin kommt ums Leben - tag
+[2026-03-25 23:50:41]    17.12.2025 | Leipziger Krankenhaus |  | Brand in Leipziger Krankenhaus: Mehrere Patienten müssen ver
+[2026-03-25 23:50:41]    13.03.2025 | Vivantes-Klinikum |  | Berlin: Brand im Vivantes-Klinikum in Neukölln - 24 Patiente
+[2026-03-25 23:50:41]    03.09.2025 | Uniklinik |  | Brand in Kölner Uniklinik: Gesamtes Gebäude evakuiert - tag2
+[2026-03-25 23:50:41]    04.12.2025 | im Krankenhaus |  | ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vi
+[2026-03-25 23:50:41] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-25 23:50:41] === Monitor-Lauf beendet ===
+
+[2026-03-25 23:50:42] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-25 23:50:42] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-25 23:50:42] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-25 23:50:42] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-25 23:50:42] [enrich] --- Enriche [1/5]: Schlimmer Brand im Klinikum: Patientin kommt ums Leben - tag
+[2026-03-25 23:50:42] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/thema/feuerwehreinsatz-heute/schlimmer-brand-am-braunschwei
+[2026-03-25 23:50:43] [enrich] Volltext extrahiert: 2310 Zeichen von https://www.tag24.de/thema/feuerwehreinsatz-heute/schlimmer-
+[2026-03-25 23:50:46] [enrich] Enrichment abgeschlossen: enriched — Klinikum Braunschweig in Braunschweig
+[2026-03-25 23:50:47] [enrich] --- Enriche [2/5]: Brand in Leipziger Krankenhaus: Mehrere Patienten müssen ver
+[2026-03-25 23:50:48] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-kranken
+[2026-03-25 23:50:48] [enrich] Volltext extrahiert: 2364 Zeichen von https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-
+[2026-03-25 23:50:52] [enrich] Enrichment abgeschlossen: enriched — Helios Park-Klinikum Leipzig in Leipzig
+[2026-03-25 23:50:53] [enrich] --- Enriche [3/5]: Berlin: Brand im Vivantes-Klinikum in Neukölln - 24 Patiente
+[2026-03-25 23:50:53] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/berlin/feuerwehreinsatz-berlin/brand-im-vivantes-klinikum-i
+[2026-03-25 23:50:53] [enrich] Volltext extrahiert: 1496 Zeichen von https://www.tag24.de/berlin/feuerwehreinsatz-berlin/brand-im
+[2026-03-25 23:50:56] [enrich] Enrichment abgeschlossen: enriched — Vivantes-Klinikum in Berlin-Neukölln
+[2026-03-25 23:50:57] [enrich] --- Enriche [4/5]: Brand in Kölner Uniklinik: Gesamtes Gebäude evakuiert - tag2
+[2026-03-25 23:50:57] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/koeln/brand-in-koelner-uniklinik-gesamtes-gebaeude-evakuier
+[2026-03-25 23:50:58] [enrich] Volltext extrahiert: 1593 Zeichen von https://www.tag24.de/koeln/brand-in-koelner-uniklinik-gesamt
+[2026-03-25 23:51:01] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Köln, Institut für Transfusionsmedizin in Köln
+[2026-03-25 23:51:02] [enrich] --- Enriche [5/5]: ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vi
+[2026-03-25 23:51:02] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-einsatz-in-klotzsche-e
+[2026-03-25 23:51:02] [enrich] Volltext extrahiert: 2940 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-ei
+[2026-03-25 23:51:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Labor-Vorfall (Gefahrstoffaustritt) an der 'dresden chip academy', nicht einen Brand in einem Krankenhaus. Vier Personen wurden nach dem Vorfall ins Krankenhaus gebracht, aber das ist eine Folge des Unfalls, nicht der Brand selbst. Dies fällt unter die Kategorie 'Person wird nach einem Vorfall ins Krankenhaus gebracht'.
+[2026-03-25 23:51:04] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-25 23:51:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-25 23:51:04] [DEDUP] Starte Dedup für 289 Einträge
+[2026-03-25 23:51:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-25 23:51:05] [DEDUP] Auto-Merge (1.00): Uniklinik Köln, Institut für Transfusion / Köln ↔ Uniklinik Köln, Institut für Transfusion / Köln
+[2026-03-25 23:51:05] [DEDUP] Auto-Merge (0.81): Klinik in Braunschweig (Name nicht genan / Braunschweig ↔ Klinikum Braunschweig / Braunschweig
+[2026-03-25 23:51:05] [DEDUP] Auto-Merge (1.00): Vivantes-Klinikum / Berlin-Neukölln ↔ Vivantes-Klinikum / Berlin-Neukölln
+[2026-03-25 23:51:05] [DEDUP] Paare verglichen: 2375
+[2026-03-25 23:51:05] [DEDUP] Auto-Merges: 3
+[2026-03-25 23:51:05] [DEDUP] Kandidaten (unsicher): 86
+[2026-03-25 23:51:05] [DEDUP] Cluster 2x: Klinik in Braunschweig (Name nicht genan, Klinikum Braunschweig
+[2026-03-25 23:51:05] [DEDUP] Cluster 2x: Uniklinik Köln, Institut für Transfusion, Uniklinik Köln, Institut für Transfusion
+[2026-03-25 23:51:05] [DEDUP] Cluster 2x: Vivantes-Klinikum, Vivantes-Klinikum
+[2026-03-25 23:51:05] [DEDUP] Ergebnis: 286 Einträge (war: 289, 3 zusammengeführt)
+[2026-03-25 23:51:05] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
+[2026-03-25 23:51:05] [DEDUP] Gespeichert: 289 → 286 Einträge
