@@ -9008,3 +9008,40 @@
 [2026-03-26 05:49:40] [DEDUP] Ergebnis: 286 Einträge (war: 286, 0 zusammengeführt)
 [2026-03-26 05:49:40] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
 [2026-03-26 05:49:40] [DEDUP] Gespeichert: 286 → 286 Einträge
+[2026-03-26 07:36:10] === Monitor-Lauf gestartet ===
+[2026-03-26 07:36:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-26 07:36:12] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-26 07:36:12] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-26 07:36:13] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-03-26 07:36:13] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-26 07:36:14] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-26 07:36:14] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-26 07:36:15] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-26 07:36:15] Feed 'gn_feuer_uniklinik': 25 Einträge
+[2026-03-26 07:36:15] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-03-26 07:36:17] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-26 07:36:17] 222 relevante Treffer in Feeds
+[2026-03-26 07:36:17] ✅ 1 NEUE Einträge gefunden:
+[2026-03-26 07:36:17]    26.03.2026 | im Krankenhaus |  | Brände: Feuer bricht auf Terrasse aus - drei Menschen im Kra
+[2026-03-26 07:36:17] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-26 07:36:17] === Monitor-Lauf beendet ===
+
+[2026-03-26 07:36:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-26 07:36:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-26 07:36:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-26 07:36:17] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-26 07:36:17] [enrich] --- Enriche [1/1]: Brände: Feuer bricht auf Terrasse aus - drei Menschen im Kra
+[2026-03-26 07:36:17] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/hessen/braende--feuer-bricht-auf-terr
+[2026-03-26 07:36:18] [enrich] Volltext extrahiert: 1023 Zeichen von https://www.stern.de/gesellschaft/regional/hessen/braende--f
+[2026-03-26 07:36:19] [enrich] FALSE POSITIVE erkannt: Brand in Wohnhaus (Terrasse, Schuppen, Dachstuhl) - Bewohner werden danach ins Krankenhaus gebracht, aber kein Brand im Krankenhaus selbst
+[2026-03-26 07:36:19] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-26 07:36:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-26 07:36:19] [DEDUP] Starte Dedup für 287 Einträge
+[2026-03-26 07:36:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-26 07:36:19] [DEDUP] Paare verglichen: 2390
+[2026-03-26 07:36:19] [DEDUP] Auto-Merges: 0
+[2026-03-26 07:36:19] [DEDUP] Kandidaten (unsicher): 86
+[2026-03-26 07:36:19] [DEDUP] Ergebnis: 287 Einträge (war: 287, 0 zusammengeführt)
+[2026-03-26 07:36:19] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
+[2026-03-26 07:36:19] [DEDUP] Gespeichert: 287 → 287 Einträge
