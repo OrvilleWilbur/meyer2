@@ -9165,3 +9165,40 @@
 [2026-03-26 11:58:39] [DEDUP] Ergebnis: 287 Einträge (war: 287, 0 zusammengeführt)
 [2026-03-26 11:58:39] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
 [2026-03-26 11:58:39] [DEDUP] Gespeichert: 287 → 287 Einträge
+[2026-03-26 13:58:12] === Monitor-Lauf gestartet ===
+[2026-03-26 13:58:14] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-26 13:58:15] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-26 13:58:16] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-26 13:58:16] Feed 'gn_feuer_krankenhaus': 44 Einträge
+[2026-03-26 13:58:17] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-26 13:58:17] Feed 'gn_brand_klinik': 30 Einträge
+[2026-03-26 13:58:18] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-03-26 13:58:18] Feed 'gn_klinikbrand': 93 Einträge
+[2026-03-26 13:58:19] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-26 13:58:19] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-26 13:58:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-26 13:58:21] 203 relevante Treffer in Feeds
+[2026-03-26 13:58:21] ✅ 1 NEUE Einträge gefunden:
+[2026-03-26 13:58:21]    03.03.2026 | Bielefelder Klinikum aus |  | Kabeldiebe lösen Brand am Bielefelder Klinikum aus - WELT
+[2026-03-26 13:58:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-26 13:58:21] === Monitor-Lauf beendet ===
+
+[2026-03-26 13:58:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-26 13:58:21] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-26 13:58:21] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-26 13:58:21] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-26 13:58:21] [enrich] --- Enriche [1/1]: Kabeldiebe lösen Brand am Bielefelder Klinikum aus - WELT
+[2026-03-26 13:58:21] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46e8f3d2/kabeldiebe-lo
+[2026-03-26 13:58:22] [enrich] Volltext extrahiert: 1613 Zeichen von https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46
+[2026-03-26 13:58:24] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich auf einer Baustelle des Klinikums, nicht im Krankenhaus selbst. Der Brand war auf dem Gelände/in einem Kabelschacht der Baustelle lokalisiert.
+[2026-03-26 13:58:24] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-26 13:58:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-26 13:58:24] [DEDUP] Starte Dedup für 288 Einträge
+[2026-03-26 13:58:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-26 13:58:24] [DEDUP] Paare verglichen: 2414
+[2026-03-26 13:58:24] [DEDUP] Auto-Merges: 0
+[2026-03-26 13:58:24] [DEDUP] Kandidaten (unsicher): 86
+[2026-03-26 13:58:24] [DEDUP] Ergebnis: 288 Einträge (war: 288, 0 zusammengeführt)
+[2026-03-26 13:58:24] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
+[2026-03-26 13:58:24] [DEDUP] Gespeichert: 288 → 288 Einträge
