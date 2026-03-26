@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T03:27:07.243766",
+  "generated_at": "2026-03-26T05:49:40.141139",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1255,39 +1255,6 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.599,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.75,
-        "bundesland": 1.0,
-        "brandort": 0.23076923076923078,
-        "total": 0.599
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Uelzen (Helios Kliniken)",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.focus.de/panorama/welt/uelzen-in-niedersachsen-patientenzimmer-in-flammen-ein-toter-und-22-verletzte-bei-brand-in-klinik_id_259549747.html",
-        "titel": "Patienschützer wüten nach Klinik-Brand: „Möbelhäuser haben besseren Brandschutz“ - FOCUS online"
       }
     },
     {
