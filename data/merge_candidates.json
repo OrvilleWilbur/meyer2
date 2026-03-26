@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T15:40:07.131909",
+  "generated_at": "2026-03-26T17:18:44.205531",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1229,39 +1229,6 @@
         "",
         ""
       ],
-      "score": 0.612,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.23076923076923078,
-        "total": 0.612
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2024-01/05/ein-toter-und-22-verletzte-nach-brand-in-krankenhaus-in-uelzen",
-        "titel": "Niedersachsen: Feuer in Krankenhaus: Fünf Menschen sterben, viele Verletzte - DIE ZEIT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -2344,6 +2311,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html",
         "titel": "Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Wald-Klinikum Gera",
+        "ort": "",
+        "datum": "07.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/brand-wald-naehe-wald-klinikum-100.html",
+        "titel": "Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftung aus - MDR"
+      },
+      "entry_b": {
+        "einrichtung": "Wald-Klinikum Gera",
+        "ort": "",
+        "datum": "07.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/brand-wald-naehe-wald-klinikum-100.html",
+        "titel": "Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftung aus - mdr.de"
       }
     },
     {

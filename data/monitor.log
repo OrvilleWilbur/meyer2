@@ -9241,3 +9241,47 @@
 [2026-03-26 15:40:07] [DEDUP] Ergebnis: 288 Einträge (war: 289, 1 zusammengeführt)
 [2026-03-26 15:40:07] [DEDUP] Kandidaten-Datei: 87 pending, 2 confirmed, 0 rejected
 [2026-03-26 15:40:07] [DEDUP] Gespeichert: 289 → 288 Einträge
+[2026-03-26 17:18:24] === Monitor-Lauf gestartet ===
+[2026-03-26 17:18:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-26 17:18:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-26 17:18:26] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-26 17:18:27] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-26 17:18:27] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-26 17:18:28] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-26 17:18:28] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-26 17:18:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-26 17:18:30] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-26 17:18:30] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-03-26 17:18:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-26 17:18:31] 210 relevante Treffer in Feeds
+[2026-03-26 17:18:31] ✅ 2 NEUE Einträge gefunden:
+[2026-03-26 17:18:31]    07.07.2025 | Wald-Klinikum Gera |  | Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftu
+[2026-03-26 17:18:31]    20.03.2026 | in Klinikum Dresden |  | Ursache für Feuer in Klinikum Dresden-Friedrichstadt gefunde
+[2026-03-26 17:18:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-26 17:18:31] === Monitor-Lauf beendet ===
+
+[2026-03-26 17:18:32] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-26 17:18:32] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-26 17:18:32] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-26 17:18:33] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-26 17:18:33] [enrich] --- Enriche [1/2]: Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftu
+[2026-03-26 17:18:33] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/brand-wald-naehe-w
+[2026-03-26 17:18:35] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/thueringen/ost-thueringen/ger
+[2026-03-26 17:18:37] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Waldbrand neben dem Wald-Klinikum Gera, nicht einen Brand im Krankenhaus selbst. Das Feuer brach im Geraer Stadtwald aus, nicht in der Klinik.
+[2026-03-26 17:18:38] [enrich] --- Enriche [2/2]: Ursache für Feuer in Klinikum Dresden-Friedrichstadt gefunde
+[2026-03-26 17:18:38] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/brand-ursache-st
+[2026-03-26 17:18:39] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radeb
+[2026-03-26 17:18:43] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden, Standort Friedrichstadt in Dresden
+[2026-03-26 17:18:43] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-26 17:18:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-26 17:18:43] [DEDUP] Starte Dedup für 290 Einträge
+[2026-03-26 17:18:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-26 17:18:44] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden, Standort F / Dresden
+[2026-03-26 17:18:44] [DEDUP] Paare verglichen: 2436
+[2026-03-26 17:18:44] [DEDUP] Auto-Merges: 1
+[2026-03-26 17:18:44] [DEDUP] Kandidaten (unsicher): 87
+[2026-03-26 17:18:44] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden, Standort F
+[2026-03-26 17:18:44] [DEDUP] Ergebnis: 289 Einträge (war: 290, 1 zusammengeführt)
+[2026-03-26 17:18:44] [DEDUP] Kandidaten-Datei: 87 pending, 2 confirmed, 0 rejected
+[2026-03-26 17:18:44] [DEDUP] Gespeichert: 290 → 289 Einträge
