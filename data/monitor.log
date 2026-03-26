@@ -8932,3 +8932,49 @@
 [2026-03-25 23:51:05] [DEDUP] Ergebnis: 286 Einträge (war: 289, 3 zusammengeführt)
 [2026-03-25 23:51:05] [DEDUP] Kandidaten-Datei: 86 pending, 2 confirmed, 0 rejected
 [2026-03-25 23:51:05] [DEDUP] Gespeichert: 289 → 286 Einträge
+[2026-03-26 03:26:49] === Monitor-Lauf gestartet ===
+[2026-03-26 03:26:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-26 03:26:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-26 03:26:51] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-26 03:26:52] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-03-26 03:26:52] Feed 'gn_feuer_klinik': 32 Einträge
+[2026-03-26 03:26:53] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-26 03:26:53] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-26 03:26:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-26 03:26:54] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-26 03:26:54] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-26 03:26:55] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-26 03:26:55] 210 relevante Treffer in Feeds
+[2026-03-26 03:26:55] ✅ 2 NEUE Einträge gefunden:
+[2026-03-26 03:26:55]    23.04.2024 |  |  | Nach Brand bei Helios: Klinik-Chef Rasche lobt Mitarbeiter f
+[2026-03-26 03:26:55]    05.01.2024 | nach Klinik |  | Patienschützer wüten nach Klinik-Brand: „Möbelhäuser haben b
+[2026-03-26 03:26:55] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-26 03:26:55] === Monitor-Lauf beendet ===
+
+[2026-03-26 03:26:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-26 03:26:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-26 03:26:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-26 03:26:56] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-26 03:26:56] [enrich] --- Enriche [1/2]: Nach Brand bei Helios: Klinik-Chef Rasche lobt Mitarbeiter f
+[2026-03-26 03:26:56] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/schleswig/artikel/nach-brand-bei-helios-klinik-chef-r
+[2026-03-26 03:26:57] [enrich] Volltext extrahiert: 1737 Zeichen von https://www.shz.de/lokales/schleswig/artikel/nach-brand-bei-
+[2026-03-26 03:26:59] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Schleswig in Schleswig
+[2026-03-26 03:27:00] [enrich] --- Enriche [2/2]: Patienschützer wüten nach Klinik-Brand: „Möbelhäuser haben b
+[2026-03-26 03:27:01] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/uelzen-in-niedersachsen-patientenzimmer-in-fl
+[2026-03-26 03:27:02] [enrich] Volltext extrahiert: 4669 Zeichen von https://www.focus.de/panorama/welt/uelzen-in-niedersachsen-p
+[2026-03-26 03:27:06] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen (Helios Kliniken) in Uelzen
+[2026-03-26 03:27:06] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-26 03:27:06] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-26 03:27:06] [DEDUP] Starte Dedup für 288 Einträge
+[2026-03-26 03:27:06] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-26 03:27:07] [DEDUP] Auto-Merge (0.95): Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen (Helios Kliniken) / Uelzen
+[2026-03-26 03:27:07] [DEDUP] Auto-Merge (0.81): Helios-Klinik Schleswig (Psychiatrisches / Schleswig ↔ Helios-Klinikum Schleswig / Schleswig
+[2026-03-26 03:27:07] [DEDUP] Paare verglichen: 2370
+[2026-03-26 03:27:07] [DEDUP] Auto-Merges: 2
+[2026-03-26 03:27:07] [DEDUP] Kandidaten (unsicher): 87
+[2026-03-26 03:27:07] [DEDUP] Cluster 2x: Klinikum Uelzen, Klinikum Uelzen (Helios Kliniken)
+[2026-03-26 03:27:07] [DEDUP] Cluster 2x: Helios-Klinik Schleswig (Psychiatrisches, Helios-Klinikum Schleswig
+[2026-03-26 03:27:07] [DEDUP] Ergebnis: 286 Einträge (war: 288, 2 zusammengeführt)
+[2026-03-26 03:27:07] [DEDUP] Kandidaten-Datei: 87 pending, 2 confirmed, 0 rejected
+[2026-03-26 03:27:07] [DEDUP] Gespeichert: 288 → 286 Einträge
