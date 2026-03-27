@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T20:55:29.466205",
+  "generated_at": "2026-03-27T21:51:19.289536",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -206,6 +206,105 @@
         "",
         ""
       ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.1,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
+        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Forensische Klinik Bedburg-Hau",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-brand-polizei-grosseinsatz-li.3250581",
+        "titel": "Nordrhein-Westfalen: Polizei beendet Randale in forensischer Klinik – Feuer gelöscht - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.755,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.755
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "unbekannt",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.742,
       "details": {
         "datum": 1.0,
@@ -364,6 +463,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.71,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.71
+      },
+      "entry_a": {
+        "einrichtung": "Kliniken Maria Hilf",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
+        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "unbekannt",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -767,6 +899,39 @@
         "",
         ""
       ],
+      "score": 0.686,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.686
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.682,
       "details": {
         "datum": 0.3,
@@ -1156,6 +1321,72 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg (Stadtteil Hohenfelde)",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
+        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -2773,6 +3004,39 @@
         "status": "false_positive",
         "link": "https://www.mdr.de/nachrichten/thueringen/ost-thueringen/gera/brand-wald-naehe-wald-klinikum-100.html",
         "titel": "Brand neben Wald-Klinikum Gera: Polizei geht von Brandstiftung aus - mdr.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "müssen Klinik wegen Bombenfund verlassen",
+        "ort": "",
+        "datum": "12.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-blindgaenger-krankenhaus-geburt-evakuierung-li.3283450",
+        "titel": "Cham: Evakuierung während der Entbindung - Schwangere müssen Klinik wegen Bombenfund verlassen - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "müssen Klinik wegen Bombenfund verlassen",
+        "ort": "",
+        "datum": "12.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-blindgaenger-krankenhaus-geburt-evakuierung-li.3283450",
+        "titel": "Cham: Evakuierung während der Entbindung - Schwangere müssen Klinik wegen Bombenfund verlassen - sueddeutsche.de"
       }
     },
     {

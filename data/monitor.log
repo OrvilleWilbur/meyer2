@@ -10203,3 +10203,76 @@
 [2026-03-27 20:55:29] [DEDUP] Ergebnis: 312 Einträge (war: 314, 2 zusammengeführt)
 [2026-03-27 20:55:29] [DEDUP] Kandidaten-Datei: 106 pending, 2 confirmed, 0 rejected
 [2026-03-27 20:55:29] [DEDUP] Gespeichert: 314 → 312 Einträge
+[2026-03-27 21:50:40] === Monitor-Lauf gestartet ===
+[2026-03-27 21:50:42] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 21:50:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 21:50:43] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-27 21:50:44] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-27 21:50:44] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-27 21:50:45] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-27 21:50:45] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 21:50:46] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 21:50:46] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-27 21:50:47] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-27 21:50:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 21:50:48] 220 relevante Treffer in Feeds
+[2026-03-27 21:50:48] ✅ 7 NEUE Einträge gefunden:
+[2026-03-27 21:50:48]    01.06.2025 | Hamburger Krankenhaus |  | Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-27 21:50:48]    13.03.2026 | in Krankenhaus aus |  | Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-03-27 21:50:48]    28.01.2026 | Jüdischem Krankenhaus |  | Brände - Brand in Jüdischem Krankenhaus - kein antisemitisch
+[2026-03-27 21:50:48]    10.05.2025 | forensischer Klinik |  | Nordrhein-Westfalen: Polizei beendet Randale in forensischer
+[2026-03-27 21:50:48]    25.03.2026 | Uniklinik Münster |  | Brand in Uniklinik Münster: Feuer gelöscht - wdr.de
+[2026-03-27 21:50:48]    12.07.2025 | müssen Klinik wegen Bombenfund verlassen |  | Cham: Evakuierung während der Entbindung - Schwangere müssen
+[2026-03-27 21:50:48]    22.11.2016 |  |  | Klinik-Evakuierung - Rettung mit Problemen - Starnberg - sue
+[2026-03-27 21:50:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 21:50:48] === Monitor-Lauf beendet ===
+
+[2026-03-27 21:50:48] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 21:50:48] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 21:50:48] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 21:50:48] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 21:50:48] [enrich] --- Enriche [1/7]: Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - 
+[2026-03-27 21:50:49] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186
+[2026-03-27 21:50:50] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.sueddeutsche.de/panorama/brand-hamburg-krankenha
+[2026-03-27 21:50:55] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg (Stadtteil Hohenfelde)
+[2026-03-27 21:50:56] [enrich] --- Enriche [2/7]: Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-03-27 21:50:56] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand
+[2026-03-27 21:50:57] [enrich] Volltext extrahiert: 1427 Zeichen von https://www.sueddeutsche.de/panorama/station-evakuiert-feuer
+[2026-03-27 21:50:59] [enrich] Enrichment abgeschlossen: enriched — in Krankenhaus aus in Mönchengladbach
+[2026-03-27 21:51:00] [enrich] --- Enriche [3/7]: Brände - Brand in Jüdischem Krankenhaus - kein antisemitisch
+[2026-03-27 21:51:01] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-brand-in-juedischem-krankenhaus-kei
+[2026-03-27 21:51:01] [enrich] Volltext extrahiert: 2365 Zeichen von https://www.sueddeutsche.de/panorama/braende-brand-in-juedis
+[2026-03-27 21:51:04] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin
+[2026-03-27 21:51:05] [enrich] --- Enriche [4/7]: Nordrhein-Westfalen: Polizei beendet Randale in forensischer
+[2026-03-27 21:51:05] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-brand-polizei-grossein
+[2026-03-27 21:51:06] [enrich] Volltext extrahiert: 2306 Zeichen von https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-br
+[2026-03-27 21:51:09] [enrich] Enrichment abgeschlossen: enriched — Forensische Klinik Bedburg-Hau in Bedburg-Hau
+[2026-03-27 21:51:10] [enrich] --- Enriche [5/7]: Brand in Uniklinik Münster: Feuer gelöscht - wdr.de
+[2026-03-27 21:51:10] [enrich] Google News URL aufgelöst (v1): https://www1.wdr.de/mediathek/video/sendungen/wdr/brand-uniklinik-muenster-op-10
+[2026-03-27 21:51:11] [enrich] Volltext extrahiert: 927 Zeichen von https://www1.wdr.de/mediathek/video/sendungen/wdr/brand-unik
+[2026-03-27 21:51:13] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift und Navigationsmenü des WDR ohne konkrete Informationen zum Brand. Keine Details zum Brandort, Zeitpunkt, Ursachen oder Schäden vorhanden.
+[2026-03-27 21:51:14] [enrich] --- Enriche [6/7]: Cham: Evakuierung während der Entbindung - Schwangere müssen
+[2026-03-27 21:51:14] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-blindgaenger-kranken
+[2026-03-27 21:51:14] [enrich] Volltext extrahiert: 3990 Zeichen von https://www.sueddeutsche.de/bayern/cham-roding-fliegerbombe-
+[2026-03-27 21:51:15] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Fliegerbomb), nicht wegen Brand
+[2026-03-27 21:51:16] [enrich] --- Enriche [7/7]: Klinik-Evakuierung - Rettung mit Problemen - Starnberg - sue
+[2026-03-27 21:51:17] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettung-mit-problemen-1.3
+[2026-03-27 21:51:17] [enrich] Volltext extrahiert: 4582 Zeichen von https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettu
+[2026-03-27 21:51:18] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung (inszenierte Feuerwehr-Evakuierungsübung), keinen echten Brand in einem Krankenhaus.
+[2026-03-27 21:51:18] [enrich] Ergebnis: 4 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-03-27 21:51:18] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 21:51:18] [DEDUP] Starte Dedup für 319 Einträge
+[2026-03-27 21:51:18] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 21:51:19] [DEDUP] Auto-Merge (0.91): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg (Stadtteil H
+[2026-03-27 21:51:19] [DEDUP] Auto-Merge (0.95): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-03-27 21:51:19] [DEDUP] Auto-Merge (0.88): LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau ↔ Forensische Klinik Bedburg-Hau / Bedburg-Hau
+[2026-03-27 21:51:19] [DEDUP] Paare verglichen: 3052
+[2026-03-27 21:51:19] [DEDUP] Auto-Merges: 3
+[2026-03-27 21:51:19] [DEDUP] Kandidaten (unsicher): 114
+[2026-03-27 21:51:19] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-03-27 21:51:19] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus Berlin
+[2026-03-27 21:51:19] [DEDUP] Cluster 2x: LVR-Klinik Bedburg-Hau (forensische Psyc, Forensische Klinik Bedburg-Hau
+[2026-03-27 21:51:19] [DEDUP] Ergebnis: 316 Einträge (war: 319, 3 zusammengeführt)
+[2026-03-27 21:51:19] [DEDUP] Kandidaten-Datei: 114 pending, 2 confirmed, 0 rejected
+[2026-03-27 21:51:19] [DEDUP] Gespeichert: 319 → 316 Einträge
