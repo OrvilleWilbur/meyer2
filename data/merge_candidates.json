@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T21:51:19.289536",
+  "generated_at": "2026-03-27T22:52:26.444120",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -173,6 +173,39 @@
         "",
         ""
       ],
+      "score": 0.787,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.787
+      },
+      "entry_a": {
+        "einrichtung": "Sonnenbergklinik",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
+        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Saarbrücken (Hauptgebäude)",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.krone.at/3917917",
+        "titel": "Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, viele Verletzte - krone.at"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -199,72 +232,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.767,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.1,
-        "total": 0.767
-      },
-      "entry_a": {
-        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
-        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
-      },
-      "entry_b": {
-        "einrichtung": "Forensische Klinik Bedburg-Hau",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/forensik-bedburg-hau-brand-polizei-grosseinsatz-li.3250581",
-        "titel": "Nordrhein-Westfalen: Polizei beendet Randale in forensischer Klinik – Feuer gelöscht - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.755,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.3333333333333333,
-        "total": 0.755
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
-        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
-        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -364,6 +331,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.718,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.718
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "04.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
+        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Saarbrücken (Hauptgebäude)",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.krone.at/3917917",
+        "titel": "Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, viele Verletzte - krone.at"
       }
     },
     {
@@ -899,39 +899,6 @@
         "",
         ""
       ],
-      "score": 0.686,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.686
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
-        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.682,
       "details": {
         "datum": 0.3,
@@ -1229,6 +1196,39 @@
         "",
         ""
       ],
+      "score": 0.661,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.21428571428571427,
+        "total": 0.661
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.zeit.de/news/2024-01/05/klinikbrand-mit-vier-toten-schuetzer-fordern-sprinkler",
+        "titel": "Uelzen: Feuer in Krankenhaus: Vier Menschen sterben, viele Verletzte - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.655,
       "details": {
         "datum": 1.0,
@@ -1321,72 +1321,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
-        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg (Stadtteil Hohenfelde)",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/brand-hamburg-krankenhaus-brennt-li.3262186",
-        "titel": "Brand im Hamburger Krankenhaus: Verdächtiger festgenommen - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -3367,6 +3301,39 @@
         "status": "false_positive",
         "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
         "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - nw.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus erprobt",
+        "ort": "",
+        "datum": "13.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.krone.at/3896004",
+        "titel": "Sichere Evakuierung - Sensiblen „Trainingsplan“ im Krankenhaus erprobt - Kronen Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus erprobt",
+        "ort": "",
+        "datum": "13.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.krone.at/3896004",
+        "titel": "Sichere Evakuierung - Sensiblen „Trainingsplan“ im Krankenhaus erprobt - krone.at"
       }
     },
     {
