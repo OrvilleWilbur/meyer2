@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T19:12:21.109011",
+  "generated_at": "2026-03-27T19:51:14.535170",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -206,6 +206,39 @@
         "",
         ""
       ],
+      "score": 0.745,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.14285714285714285,
+        "total": 0.745
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg-Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
+        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.742,
       "details": {
         "datum": 1.0,
@@ -298,6 +331,39 @@
         "status": "enriched",
         "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
         "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.26666666666666666,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
+        "ort": "Düsseldorf",
+        "datum": "16.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
+        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Düsseldorf (UKD), Klinik für Urologie",
+        "ort": "Düsseldorf",
+        "datum": "17.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.neue-duesseldorfer-online-zeitung.de/stadtnachrichten/artikel/brandereignis-in-einer-op-raeumlichkeit-der-uniklinik-duesseldorf-2528.html",
+        "titel": "Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseldorf - neue-duesseldorfer-online-zeitung.de"
       }
     },
     {
@@ -437,39 +503,6 @@
         "",
         ""
       ],
-      "score": 0.705,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.16666666666666666,
-        "total": 0.705
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
-        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.702,
       "details": {
         "datum": 0.7,
@@ -562,6 +595,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Mittelrhein-Klinik Bad Salzig",
+        "ort": "Bad Salzig",
+        "datum": "09.2023",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/nach-brand-klinikhochhaus-in-bad-salzig-bezugsfertig_arid-4056481.html",
+        "titel": "Nach Brand: Klinikhochhaus in Bad Salzig bezugsfertig - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Mittelrhein-Klinik Bad Salzig",
+        "ort": "Bad Salzig",
+        "datum": "09.2023",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/rhein-hunsrueck-zeitung/nach-brand-klinikhochhaus-in-bad-salzig-bezugsfertig_arid-4056481.html",
+        "titel": "Nach Brand: Klinikhochhaus in Bad Salzig bezugsfertig - rhein-zeitung.de"
       }
     },
     {
@@ -760,6 +826,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
         "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.686,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.686
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg-Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
+        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
       }
     },
     {
@@ -1182,46 +1281,13 @@
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg-Hohenfelde",
         "datum": "01.06.2025",
         "bundesland": "Hamburg",
         "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
+        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
       }
     },
     {
@@ -1248,13 +1314,13 @@
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
       },
       "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg-Hohenfelde",
         "datum": "01.06.2025",
         "bundesland": "Hamburg",
         "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
-        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
+        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
+        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
       }
     },
     {
@@ -1427,39 +1493,6 @@
         "",
         ""
       ],
-      "score": 0.615,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.3076923076923077,
-        "total": 0.615
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22-verletzte-A5YMON2UT5K6XNJMDWVUYDPO4E.html",
-        "titel": "Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verletzte - RND.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - rp-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -1486,6 +1519,39 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.611,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.21428571428571427,
+        "total": 0.611
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/uelzen-in-niedersachsen-patientenzimmer-in-flammen-ein-toter-und-22-verletzte-bei-brand-in-klinik_id_259549747.html",
+        "titel": "Patienschützer wüten nach Klinik-Brand: „Möbelhäuser haben besseren Brandschutz“ - focus.de"
       }
     },
     {
@@ -2295,6 +2361,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - mz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
         "ort": "",
         "datum": "03.01.2026",
@@ -2493,6 +2592,72 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - mz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigshafen-behandelt-brandopfer-aus-der-schweiz-100.html",
+        "titel": "Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in Ludwigshafen nimmt zwei Opfer auf - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialklinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
+        "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - mz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Unfallkrankenhaus Berlin nimmt Patienten",
         "ort": "",
         "datum": "03.01.2026",
@@ -2509,6 +2674,39 @@
         "status": "false_positive",
         "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
         "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - tagesspiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Spezialkliniken",
+        "ort": "",
+        "datum": "05.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.vrt.be/vrtnws/de/2026/01/05/brand-in-der-schweiz-ein-maedchen-aus-belgien-ist-tot-mehrere/",
+        "titel": "Brand in der Schweiz: Ein Mädchen aus Belgien ist tot - Mehrere Verletzte in belgischen Spezialkliniken - VRT"
+      },
+      "entry_b": {
+        "einrichtung": "Spezialkliniken",
+        "ort": "",
+        "datum": "05.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.vrt.be/vrtnws/de/2026/01/05/brand-in-der-schweiz-ein-maedchen-aus-belgien-ist-tot-mehrere/",
+        "titel": "Brand in der Schweiz: Ein Mädchen aus Belgien ist tot - Mehrere Verletzte in belgischen Spezialkliniken - vrt.be"
       }
     },
     {
@@ -3153,6 +3351,72 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma Online"
+      },
+      "entry_b": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "fliegenden Krankenhaus",
+        "ort": "",
+        "datum": "12.05.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafah-flugzeug-gazastreifen-abu-dhabi-kinder",
+        "titel": "Evakuierung aus Rafah: Im fliegenden Krankenhaus - DIE ZEIT"
+      },
+      "entry_b": {
+        "einrichtung": "fliegenden Krankenhaus",
+        "ort": "",
+        "datum": "12.05.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafah-flugzeug-gazastreifen-abu-dhabi-kinder",
+        "titel": "Evakuierung aus Rafah: Im fliegenden Krankenhaus - zeit.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "12.10.2007",
@@ -3202,6 +3466,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
         "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.523,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.09090909090909091,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.523
+      },
+      "entry_a": {
+        "einrichtung": "Rostocker Universitätsklinik",
+        "ort": "Rostock",
+        "datum": "09.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
+        "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik und Poliklinik für Psychiatrie und Psychotherapie der Universitätsmedizin Rostock",
+        "ort": "Rostock",
+        "datum": "07.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/26-jaehriger-patient-stirbt-bei-brand-in-rostocker-uniklinik-54474",
+        "titel": "Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in Rostocker Uniklinik - kma-online.de"
       }
     },
     {
