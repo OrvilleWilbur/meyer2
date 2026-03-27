@@ -9734,3 +9734,42 @@
 [2026-03-27 13:42:58] [DEDUP] Ergebnis: 297 Einträge (war: 297, 0 zusammengeführt)
 [2026-03-27 13:42:58] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-27 13:42:58] [DEDUP] Gespeichert: 297 → 297 Einträge
+[2026-03-27 15:08:42] === Monitor-Lauf gestartet ===
+[2026-03-27 15:08:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 15:08:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 15:08:45] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-03-27 15:08:45] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-27 15:08:46] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-03-27 15:08:46] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-27 15:08:47] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-27 15:08:47] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 15:08:48] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-27 15:08:48] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-27 15:08:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 15:08:50] 217 relevante Treffer in Feeds
+[2026-03-27 15:08:50] ✅ 1 NEUE Einträge gefunden:
+[2026-03-27 15:08:50]    13.03.2026 | in Krankenhaus aus |  | Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-03-27 15:08:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 15:08:50] === Monitor-Lauf beendet ===
+
+[2026-03-27 15:08:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 15:08:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 15:08:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 15:08:50] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 15:08:50] [enrich] --- Enriche [1/1]: Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-03-27 15:08:51] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand
+[2026-03-27 15:08:51] [enrich] Volltext extrahiert: 1427 Zeichen von https://www.sueddeutsche.de/panorama/station-evakuiert-feuer
+[2026-03-27 15:08:54] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Mönchengladbach (Name nicht spezifiziert) in Mönchengladbach
+[2026-03-27 15:08:54] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-27 15:08:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 15:08:54] [DEDUP] Starte Dedup für 298 Einträge
+[2026-03-27 15:08:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 15:08:54] [DEDUP] Auto-Merge (0.96): Krankenhaus in Mönchengladbach (Name nic / Mönchengladbach ↔ Krankenhaus Mönchengladbach (Name nicht  / Mönchengladbach
+[2026-03-27 15:08:54] [DEDUP] Paare verglichen: 2506
+[2026-03-27 15:08:54] [DEDUP] Auto-Merges: 1
+[2026-03-27 15:08:54] [DEDUP] Kandidaten (unsicher): 89
+[2026-03-27 15:08:54] [DEDUP] Cluster 2x: Krankenhaus in Mönchengladbach (Name nic, Krankenhaus Mönchengladbach (Name nicht 
+[2026-03-27 15:08:54] [DEDUP] Ergebnis: 297 Einträge (war: 298, 1 zusammengeführt)
+[2026-03-27 15:08:54] [DEDUP] Kandidaten-Datei: 89 pending, 2 confirmed, 0 rejected
+[2026-03-27 15:08:54] [DEDUP] Gespeichert: 298 → 297 Einträge
