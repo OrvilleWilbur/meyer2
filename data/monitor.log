@@ -9509,3 +9509,40 @@
 [2026-03-27 05:50:05] [DEDUP] Ergebnis: 291 Einträge (war: 291, 0 zusammengeführt)
 [2026-03-27 05:50:05] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-27 05:50:05] [DEDUP] Gespeichert: 291 → 291 Einträge
+[2026-03-27 07:34:38] === Monitor-Lauf gestartet ===
+[2026-03-27 07:34:39] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 07:34:41] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 07:34:41] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-27 07:34:42] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-27 07:34:42] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-27 07:34:43] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-27 07:34:43] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 07:34:44] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 07:34:44] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-03-27 07:34:45] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-27 07:34:51] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 07:34:51] 220 relevante Treffer in Feeds
+[2026-03-27 07:34:51] ✅ 1 NEUE Einträge gefunden:
+[2026-03-27 07:34:51]    16.10.2023 | im Krankenhaus zwingt zur Evakuierung |  | Kurzschluss im Krankenhaus zwingt zur Evakuierung - wochenbl
+[2026-03-27 07:34:51] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 07:34:51] === Monitor-Lauf beendet ===
+
+[2026-03-27 07:34:51] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 07:34:51] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 07:34:51] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 07:34:51] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 07:34:51] [enrich] --- Enriche [1/1]: Kurzschluss im Krankenhaus zwingt zur Evakuierung - wochenbl
+[2026-03-27 07:34:51] [enrich] Google News URL aufgelöst (v1): https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/
+[2026-03-27 07:34:54] [enrich] Volltext extrahiert: 2363 Zeichen von https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur
+[2026-03-27 07:34:56] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung aufgrund eines Kurzschlusses in Paraguay, nicht einen Brand in einem deutschen Krankenhaus. Das Ereignis fand zudem im Ausland (Paraguay) statt, nicht in Deutschland.
+[2026-03-27 07:34:56] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-27 07:34:56] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 07:34:56] [DEDUP] Starte Dedup für 292 Einträge
+[2026-03-27 07:34:56] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 07:34:56] [DEDUP] Paare verglichen: 2465
+[2026-03-27 07:34:56] [DEDUP] Auto-Merges: 0
+[2026-03-27 07:34:56] [DEDUP] Kandidaten (unsicher): 88
+[2026-03-27 07:34:56] [DEDUP] Ergebnis: 292 Einträge (war: 292, 0 zusammengeführt)
+[2026-03-27 07:34:56] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
+[2026-03-27 07:34:56] [DEDUP] Gespeichert: 292 → 292 Einträge
