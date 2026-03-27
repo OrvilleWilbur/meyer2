@@ -9442,3 +9442,40 @@
 [2026-03-26 23:47:20] [DEDUP] Ergebnis: 290 Einträge (war: 290, 0 zusammengeführt)
 [2026-03-26 23:47:20] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-26 23:47:20] [DEDUP] Gespeichert: 290 → 290 Einträge
+[2026-03-27 03:29:16] === Monitor-Lauf gestartet ===
+[2026-03-27 03:29:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 03:29:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 03:29:19] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-27 03:29:20] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-27 03:29:20] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-27 03:29:21] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-27 03:29:21] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 03:29:22] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 03:29:22] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-27 03:29:23] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-27 03:29:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 03:29:24] 221 relevante Treffer in Feeds
+[2026-03-27 03:29:24] ✅ 1 NEUE Einträge gefunden:
+[2026-03-27 03:29:24]    04.08.2022 | im Krankenhaus |  | Video: Istanbul: Brand im Krankenhaus - STERN.de
+[2026-03-27 03:29:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 03:29:24] === Monitor-Lauf beendet ===
+
+[2026-03-27 03:29:24] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 03:29:24] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 03:29:24] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 03:29:24] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 03:29:24] [enrich] --- Enriche [1/1]: Video: Istanbul: Brand im Krankenhaus - STERN.de
+[2026-03-27 03:29:24] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/video-istanbul--brand-im-krankenhaus-32602104.html
+[2026-03-27 03:29:25] [enrich] Volltext extrahiert: 997 Zeichen von https://www.stern.de/panorama/video-istanbul--brand-im-krank
+[2026-03-27 03:29:27] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus in Istanbul, Türkei - liegt außerhalb Deutschlands und ist daher nicht relevant für die Datenbank über Brände in deutschen Krankenhäusern.
+[2026-03-27 03:29:27] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-27 03:29:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 03:29:27] [DEDUP] Starte Dedup für 291 Einträge
+[2026-03-27 03:29:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 03:29:27] [DEDUP] Paare verglichen: 2460
+[2026-03-27 03:29:27] [DEDUP] Auto-Merges: 0
+[2026-03-27 03:29:27] [DEDUP] Kandidaten (unsicher): 88
+[2026-03-27 03:29:27] [DEDUP] Ergebnis: 291 Einträge (war: 291, 0 zusammengeführt)
+[2026-03-27 03:29:27] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
+[2026-03-27 03:29:27] [DEDUP] Gespeichert: 291 → 291 Einträge
