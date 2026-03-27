@@ -10331,3 +10331,54 @@
 [2026-03-27 22:52:26] [DEDUP] Ergebnis: 319 Einträge (war: 320, 1 zusammengeführt)
 [2026-03-27 22:52:26] [DEDUP] Kandidaten-Datei: 113 pending, 2 confirmed, 0 rejected
 [2026-03-27 22:52:26] [DEDUP] Gespeichert: 320 → 319 Einträge
+[2026-03-27 23:45:47] === Monitor-Lauf gestartet ===
+[2026-03-27 23:45:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 23:45:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 23:45:50] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-27 23:45:50] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-27 23:45:51] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-27 23:45:51] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-27 23:45:52] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 23:45:52] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 23:45:53] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-03-27 23:45:53] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-27 23:45:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 23:45:54] 214 relevante Treffer in Feeds
+[2026-03-27 23:45:54] ✅ 3 NEUE Einträge gefunden:
+[2026-03-27 23:45:54]    19.03.2026 | Städtisches Klinikum Dresden nimmt Betrieb wieder komplett |  | Nach Brand: Städtisches Klinikum Dresden nimmt Betrieb wiede
+[2026-03-27 23:45:54]    27.03.2026 | beim Klinikum Dortmund |  | Brand beim Klinikum Dortmund – Rauchwolke sorgt für große Al
+[2026-03-27 23:45:54]    21.09.2021 | Uniklinik Würzburg |  | Brand in Uniklinik Würzburg – keine Verletzten - tvmainfrank
+[2026-03-27 23:45:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 23:45:54] === Monitor-Lauf beendet ===
+
+[2026-03-27 23:45:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 23:45:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 23:45:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 23:45:54] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 23:45:54] [enrich] --- Enriche [1/3]: Nach Brand: Städtisches Klinikum Dresden nimmt Betrieb wiede
+[2026-03-27 23:45:55] [enrich] Google News URL aufgelöst (v1): https://www.saechsische.de/lokales/dresden/dresden-krankenhaus-friedrichstadt-ka
+[2026-03-27 23:45:55] [enrich] Volltext extrahiert: 4576 Zeichen von https://www.saechsische.de/lokales/dresden/dresden-krankenha
+[2026-03-27 23:45:59] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden, Standort Friedrichstadt in Dresden
+[2026-03-27 23:46:00] [enrich] --- Enriche [2/3]: Brand beim Klinikum Dortmund – Rauchwolke sorgt für große Al
+[2026-03-27 23:46:00] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/staedte/dortmund/dortmund-klinikum-rauchwolke-id3020274
+[2026-03-27 23:46:00] [enrich] Volltext extrahiert: 2222 Zeichen von https://www.derwesten.de/staedte/dortmund/dortmund-klinikum-
+[2026-03-27 23:46:02] [enrich] FALSE POSITIVE erkannt: Brand betraf einen Müllcontainer auf dem Klinikgelände, nicht das Klinikgebäude selbst. Der Brand war räumlich vom Krankenhaus getrennt und breitete sich nicht auf das Gebäude aus.
+[2026-03-27 23:46:03] [enrich] --- Enriche [3/3]: Brand in Uniklinik Würzburg – keine Verletzten - tvmainfrank
+[2026-03-27 23:46:03] [enrich] Google News URL aufgelöst (v1): https://www.tvmainfranken.de/brand-in-uniklinik-wuerzburg-keine-verletzten-26530
+[2026-03-27 23:46:07] [enrich] Volltext zu kurz/leer (48 Z.), verwende RSS-Snippet (433 Z.)
+[2026-03-27 23:46:08] [enrich] Enrichment abgeschlossen: partial — Uniklinik Würzburg in Würzburg
+[2026-03-27 23:46:08] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-03-27 23:46:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 23:46:08] [DEDUP] Starte Dedup für 322 Einträge
+[2026-03-27 23:46:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 23:46:09] [DEDUP] Auto-Merge (0.95): Uniklinik Würzburg / Würzburg ↔ Uniklinik Würzburg / Würzburg
+[2026-03-27 23:46:09] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden, Standort F / Dresden
+[2026-03-27 23:46:09] [DEDUP] Paare verglichen: 3145
+[2026-03-27 23:46:09] [DEDUP] Auto-Merges: 2
+[2026-03-27 23:46:09] [DEDUP] Kandidaten (unsicher): 113
+[2026-03-27 23:46:09] [DEDUP] Cluster 2x: Uniklinik Würzburg, Uniklinik Würzburg
+[2026-03-27 23:46:09] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden, Standort F
+[2026-03-27 23:46:09] [DEDUP] Ergebnis: 320 Einträge (war: 322, 2 zusammengeführt)
+[2026-03-27 23:46:09] [DEDUP] Kandidaten-Datei: 113 pending, 2 confirmed, 0 rejected
+[2026-03-27 23:46:09] [DEDUP] Gespeichert: 322 → 320 Einträge

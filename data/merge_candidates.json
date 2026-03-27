@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T22:52:26.444120",
+  "generated_at": "2026-03-27T23:46:09.064086",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1196,39 +1196,6 @@
         "",
         ""
       ],
-      "score": 0.661,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.21428571428571427,
-        "total": 0.661
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2024-01/05/klinikbrand-mit-vier-toten-schuetzer-fordern-sprinkler",
-        "titel": "Uelzen: Feuer in Krankenhaus: Vier Menschen sterben, viele Verletzte - DIE ZEIT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.655,
       "details": {
         "datum": 1.0,
@@ -2113,6 +2080,39 @@
         "status": "false_positive",
         "link": "https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Menschen-im-Krankenhaus-id30512927.html",
         "titel": "Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "beim Klinikum Dortmund",
+        "ort": "",
+        "datum": "27.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/staedte/dortmund/dortmund-klinikum-rauchwolke-id302027448.html",
+        "titel": "Brand beim Klinikum Dortmund – Rauchwolke sorgt für große Alarmierung - DerWesten"
+      },
+      "entry_b": {
+        "einrichtung": "beim Klinikum Dortmund",
+        "ort": "",
+        "datum": "27.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/staedte/dortmund/dortmund-klinikum-rauchwolke-id302027448.html",
+        "titel": "Brand beim Klinikum Dortmund – Rauchwolke sorgt für große Alarmierung - derwesten.de"
       }
     },
     {
