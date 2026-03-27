@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T17:10:25.588059",
+  "generated_at": "2026-03-27T18:03:48.996673",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -628,6 +628,72 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum für seelische Gesundheit Marienheide",
+        "ort": "Marienheide",
+        "datum": "Mitte Mai 2024",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-klinikum-in-marienheide-2001576",
+        "titel": "Ermittlungen nach Brand in Klinikum in Marienheide - Radio Berg"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum für seelische Gesundheit Marienheide",
+        "ort": "Marienheide",
+        "datum": "Mai 2024",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-klinikum-in-marienheide-2001576",
+        "titel": "Ermittlungen nach Brand in Klinikum in Marienheide - radioberg.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Bergisch Gladbach",
+        "datum": "Mitte September 2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
+        "titel": "Kein Prozess nach Krankenhaus-Brand - Radio Berg"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Bergisch Gladbach",
+        "datum": "Mitte September 2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
+        "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
       }
     },
     {
@@ -1800,6 +1866,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuenster-ein-bewohner-muss-ins-krankenhaus-7JVO7SRBARAPLJAN27JPBJABH4.html",
+        "titel": "Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss ins Krankenhaus - Kieler Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuenster-ein-bewohner-muss-ins-krankenhaus-7JVO7SRBARAPLJAN27JPBJABH4.html",
+        "titel": "Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss ins Krankenhaus - kn-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "26.03.2026",
@@ -1899,6 +1998,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "NRW-Klinik verlegt",
         "ort": "",
         "datum": "03.01.2026",
@@ -2097,6 +2229,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "31.01.2026",
@@ -2179,6 +2344,39 @@
         "status": "false_positive",
         "link": "https://www.tagesspiegel.de/berlin/erste-schwerverletzte-sollen-samstag-eintreffen-berliner-klinik-nimmt-brandopfer-aus-crans-montana-auf-15097350.html",
         "titel": "Auch Unfallkrankenhaus Berlin nimmt Patienten auf Brandopfer aus Crans-Montana nach Deutschland verlegt - tagesspiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
       }
     },
     {
@@ -2344,6 +2542,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/drei-tote-bei-brand-in-klinik-106.html",
         "titel": "Hamburg - Drei Tote bei Brand in Klinik - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - bz-berlin.de"
       }
     },
     {

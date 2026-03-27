@@ -9866,3 +9866,83 @@
 [2026-03-27 17:10:25] [DEDUP] Ergebnis: 299 Einträge (war: 302, 3 zusammengeführt)
 [2026-03-27 17:10:25] [DEDUP] Kandidaten-Datei: 90 pending, 2 confirmed, 0 rejected
 [2026-03-27 17:10:25] [DEDUP] Gespeichert: 302 → 299 Einträge
+[2026-03-27 18:03:15] === Monitor-Lauf gestartet ===
+[2026-03-27 18:03:16] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 18:03:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 18:03:17] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-27 18:03:18] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-03-27 18:03:18] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-27 18:03:19] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-27 18:03:19] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-27 18:03:20] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 18:03:20] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-03-27 18:03:21] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-27 18:03:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 18:03:22] 223 relevante Treffer in Feeds
+[2026-03-27 18:03:22] ✅ 8 NEUE Einträge gefunden:
+[2026-03-27 18:03:22]    26.03.2026 | nach Krankenhaus |  | Kein Prozess nach Krankenhaus-Brand - radioberg.de
+[2026-03-27 18:03:22]    13.12.2024 | Schön-Klinik Rendsburg |  | Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-27 18:03:22]    20.02.2026 | ins Krankenhaus |  | Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss in
+[2026-03-27 18:03:22]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Patienten tot - bz-berlin.d
+[2026-03-27 18:03:22]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-
+[2026-03-27 18:03:22]    26.03.2026 | in Klinikum |  | Ermittlungen nach Brand in Klinikum in Marienheide - radiobe
+[2026-03-27 18:03:22]    02.01.2026 |  |  | Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-27 18:03:22]    24.03.2026 | Uniklinik |  | MÜNSTER: Brand an Uniklinik - radiokiepenkerl.de
+[2026-03-27 18:03:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 18:03:22] === Monitor-Lauf beendet ===
+
+[2026-03-27 18:03:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 18:03:22] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 18:03:22] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 18:03:22] [enrich] 8 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 18:03:22] [enrich] --- Enriche [1/8]: Kein Prozess nach Krankenhaus-Brand - radioberg.de
+[2026-03-27 18:03:23] [enrich] Google News URL aufgelöst (v1): https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913
+[2026-03-27 18:03:23] [enrich] Volltext extrahiert: 820 Zeichen von https://www.radioberg.de/artikel/kein-prozess-nach-krankenha
+[2026-03-27 18:03:26] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Bergisch Gladbach
+[2026-03-27 18:03:27] [enrich] --- Enriche [2/8]: Feuer in der Schön-Klinik Rendsburg: Theorie zur Brandursach
+[2026-03-27 18:03:27] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feuer-in-der-schoen-klin
+[2026-03-27 18:03:27] [enrich] Artikel-Fetch fehlgeschlagen für https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feuer-in-der-schoen-klin: 403 Client Error: Forbidden for url: https://www.kn-online.de/lokales/rendsburg-eckernfoerde/feuer-in-der-schoen-klinik-rendsburg-theorie-zur-brandursache-FIXIVUEV4FDYVJLAZAN3APT6XU.html
+[2026-03-27 18:03:27] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (577 Z.)
+[2026-03-27 18:03:29] [enrich] Enrichment abgeschlossen: partial — Schön-Klinik Rendsburg in Rendsburg
+[2026-03-27 18:03:30] [enrich] --- Enriche [3/8]: Feuer im Einfamilienhaus in Neumünster: ein Bewohner muss in
+[2026-03-27 18:03:30] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuen
+[2026-03-27 18:03:30] [enrich] Artikel-Fetch fehlgeschlagen für https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuen: 403 Client Error: Forbidden for url: https://www.kn-online.de/lokales/neumuenster/feuer-im-einfamilienhaus-in-neumuenster-ein-bewohner-muss-ins-krankenhaus-7JVO7SRBARAPLJAN27JPBJABH4.html
+[2026-03-27 18:03:30] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (589 Z.)
+[2026-03-27 18:03:32] [enrich] FALSE POSITIVE erkannt: Ein Bewohner eines Einfamilienhauses wird nach einem Wohnungsbrand ins Krankenhaus gebracht - dies ist kein Brand IN einem Krankenhaus, sondern eine Einlieferung eines Brandopfers zur Behandlung
+[2026-03-27 18:03:33] [enrich] --- Enriche [4/8]: Brand in Hamburger Klinik – drei Patienten tot - bz-berlin.d
+[2026-03-27 18:03:33] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-27 18:03:33] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-03-27 18:03:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (398 Z.)
+[2026-03-27 18:03:35] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Basierend auf der Überschrift allein kann nicht überprüft werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder ob Patienten nach einem Brand andernorts ins Krankenhaus gebracht wurden. Eine verlässliche Einordnung ist nicht möglich.
+[2026-03-27 18:03:36] [enrich] --- Enriche [5/8]: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-
+[2026-03-27 18:03:36] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-27 18:03:36] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-03-27 18:03:36] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (416 Z.)
+[2026-03-27 18:03:37] [enrich] FALSE POSITIVE erkannt: Brandopfer aus einem Brand in der Schweiz werden zur Behandlung in ein deutsches Krankenhaus aufgenommen. Dies ist kein Brand IN einem deutschen Krankenhaus, sondern die Behandlung von Brandopfern eines ausländischen Brandes.
+[2026-03-27 18:03:38] [enrich] --- Enriche [6/8]: Ermittlungen nach Brand in Klinikum in Marienheide - radiobe
+[2026-03-27 18:03:39] [enrich] Google News URL aufgelöst (v1): https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-klinikum-in-marienhe
+[2026-03-27 18:03:39] [enrich] Volltext extrahiert: 761 Zeichen von https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-
+[2026-03-27 18:03:41] [enrich] Enrichment abgeschlossen: enriched — Klinikum für seelische Gesundheit Marienheide in Marienheide
+[2026-03-27 18:03:42] [enrich] --- Enriche [7/8]: Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-03-27 18:03:42] [enrich] Google News URL aufgelöst (v1): https://www.diesachsen.de/unfall-und-verkehr/klinikum-in-leipzig-behandelt-brand
+[2026-03-27 18:03:43] [enrich] Volltext extrahiert: 2221 Zeichen von https://www.diesachsen.de/unfall-und-verkehr/klinikum-in-lei
+[2026-03-27 18:03:44] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar im Schweizer Skiort Crans-Montana, nicht in einem deutschen Krankenhaus. Das Klinikum St. Georg in Leipzig wird nur erwähnt, weil es Brandopfer zur Behandlung aufnimmt, nicht weil dort ein Brand stattgefunden hat.
+[2026-03-27 18:03:45] [enrich] --- Enriche [8/8]: MÜNSTER: Brand an Uniklinik - radiokiepenkerl.de
+[2026-03-27 18:03:46] [enrich] Google News URL aufgelöst (v1): https://www.radiokiepenkerl.de/artikel/muenster-brand-an-uniklinik-2608202
+[2026-03-27 18:03:46] [enrich] Volltext extrahiert: 393 Zeichen von https://www.radiokiepenkerl.de/artikel/muenster-brand-an-uni
+[2026-03-27 18:03:48] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Münster in Münster
+[2026-03-27 18:03:48] [enrich] Ergebnis: 3 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-03-27 18:03:48] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 18:03:48] [DEDUP] Starte Dedup für 307 Einträge
+[2026-03-27 18:03:48] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 18:03:48] [DEDUP] Auto-Merge (0.94): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Uniklinik Münster / Münster
+[2026-03-27 18:03:48] [DEDUP] Auto-Merge (0.95): Schön-Klinik Rendsburg / Rendsburg ↔ Schön-Klinik Rendsburg / Rendsburg
+[2026-03-27 18:03:48] [DEDUP] Paare verglichen: 2754
+[2026-03-27 18:03:48] [DEDUP] Auto-Merges: 2
+[2026-03-27 18:03:48] [DEDUP] Kandidaten (unsicher): 97
+[2026-03-27 18:03:48] [DEDUP] Cluster 2x: Schön-Klinik Rendsburg, Schön-Klinik Rendsburg
+[2026-03-27 18:03:48] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Uniklinik Münster
+[2026-03-27 18:03:48] [DEDUP] Ergebnis: 305 Einträge (war: 307, 2 zusammengeführt)
+[2026-03-27 18:03:49] [DEDUP] Kandidaten-Datei: 97 pending, 2 confirmed, 0 rejected
+[2026-03-27 18:03:49] [DEDUP] Gespeichert: 307 → 305 Einträge
