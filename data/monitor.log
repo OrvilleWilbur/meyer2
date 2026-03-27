@@ -9946,3 +9946,117 @@
 [2026-03-27 18:03:48] [DEDUP] Ergebnis: 305 Einträge (war: 307, 2 zusammengeführt)
 [2026-03-27 18:03:49] [DEDUP] Kandidaten-Datei: 97 pending, 2 confirmed, 0 rejected
 [2026-03-27 18:03:49] [DEDUP] Gespeichert: 307 → 305 Einträge
+[2026-03-27 19:11:12] === Monitor-Lauf gestartet ===
+[2026-03-27 19:11:13] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 19:11:14] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 19:11:14] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-03-27 19:11:14] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-27 19:11:15] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-27 19:11:15] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-27 19:11:16] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 19:11:16] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 19:11:17] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-03-27 19:11:17] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-27 19:11:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 19:11:18] 224 relevante Treffer in Feeds
+[2026-03-27 19:11:18] ✅ 12 NEUE Einträge gefunden:
+[2026-03-27 19:11:18]    13.06.2025 | in Krankenhaus |  | Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-27 19:11:18]    05.01.2024 | in Krankenhaus |  | Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten to
+[2026-03-27 19:11:18]    10.09.2019 | einem Krankenhaus |  | Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-27 19:11:18]    04.04.2025 | Augusta-Krankenhaus |  | Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-27 19:11:18]    30.06.2023 |  |  | Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-27 19:11:18]    03.04.2023 | Berliner Krankenhaus |  | Feuer und Schwerverletzte in Berliner Krankenhaus - faz.net
+[2026-03-27 19:11:18]    01.06.2025 | Marienkrankenhaus |  | Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-27 19:11:18]    05.01.2026 |  |  | "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-27 19:11:18]    08.11.2017 |  |  | Großalarm! - Feuer in der Uni-Klinik! - bild.de
+[2026-03-27 19:11:18]    25.09.2025 | Reha-Klinik führt zu Evakuierung |  | Bad Sülze: Brand in Reha-Klinik führt zu Evakuierung - bild.
+[2026-03-27 19:11:18]    12.08.2025 | in Klinik führt zu Evakuierung |  | Andernach: Feuer in Klinik führt zu Evakuierung - bild.de
+[2026-03-27 19:11:18]    27.08.2020 | psychiatrischer Klinik ausgebrochen |  | Feuer in psychiatrischer Klinik ausgebrochen - Zwei Statione
+[2026-03-27 19:11:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 19:11:18] === Monitor-Lauf beendet ===
+
+[2026-03-27 19:11:19] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 19:11:19] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 19:11:19] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 19:11:19] [enrich] 12 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 19:11:19] [enrich] --- Enriche [1/12]: Drei Einsätze der Feuerwehr Düsseldorf: Feuer in Krankenhaus
+[2026-03-27 19:11:19] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-in-kran
+[2026-03-27 19:11:21] [enrich] Volltext extrahiert: 2473 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-27 19:11:24] [enrich] Enrichment abgeschlossen: enriched — Marien-Hospital in Düsseldorf
+[2026-03-27 19:11:25] [enrich] --- Enriche [2/12]: Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten to
+[2026-03-27 19:11:25] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-pa
+[2026-03-27 19:11:26] [enrich] Volltext extrahiert: 2455 Zeichen von https://rp-online.de/panorama/deutschland/uelzen-brand-in-kr
+[2026-03-27 19:11:29] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-27 19:11:30] [enrich] --- Enriche [3/12]: Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in 
+[2026-03-27 19:11:30] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/feuer-in-marienhospital-duesseldorf-jede-woche
+[2026-03-27 19:11:31] [enrich] Volltext extrahiert: 968 Zeichen von https://rp-online.de/nrw/panorama/feuer-in-marienhospital-du
+[2026-03-27 19:11:34] [enrich] Enrichment abgeschlossen: enriched — Marienhospital in Düsseldorf
+[2026-03-27 19:11:35] [enrich] --- Enriche [4/12]: Einsatz im Düsseldorfer Norden: Feuer im Augusta-Krankenhaus
+[2026-03-27 19:11:35] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-rath-feuer-im
+[2026-03-27 19:11:36] [enrich] Volltext extrahiert: 2145 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-03-27 19:11:39] [enrich] Enrichment abgeschlossen: enriched — Augusta-Krankenhaus in Düsseldorf-Rath
+[2026-03-27 19:11:40] [enrich] --- Enriche [5/12]: Krankenhausbrand in Marl: Feuerwehr evakuiert 199 Patienten 
+[2026-03-27 19:11:40] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/marl-krankenhausbrand-fuehrt-zu-grosse
+[2026-03-27 19:11:40] [enrich] Volltext extrahiert: 2225 Zeichen von https://rp-online.de/panorama/deutschland/marl-krankenhausbr
+[2026-03-27 19:11:44] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Marl in Marl
+[2026-03-27 19:11:45] [enrich] --- Enriche [6/12]: Feuer und Schwerverletzte in Berliner Krankenhaus - faz.net
+[2026-03-27 19:11:45] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/feuer-und-schwerverletzte-in-
+[2026-03-27 19:11:46] [enrich] Volltext extrahiert: 1152 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/feuer-und
+[2026-03-27 19:11:48] [enrich] Enrichment abgeschlossen: enriched — Urban-Krankenhaus (Klinikum am Urban) in Berlin-Kreuzberg
+[2026-03-27 19:11:49] [enrich] --- Enriche [7/12]: Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand
+[2026-03-27 19:11:50] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote
+[2026-03-27 19:11:50] [enrich] Volltext extrahiert: 4246 Zeichen von https://rp-online.de/panorama/deutschland/hamburg-feuer-mari
+[2026-03-27 19:11:54] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-27 19:11:55] [enrich] --- Enriche [8/12]: "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-03-27 19:11:56] [enrich] Google News URL aufgelöst (v1): https://koeln.t-online.de/region/koeln/id_101068668/crans-montana-opfer-mit-schw
+[2026-03-27 19:11:57] [enrich] Volltext extrahiert: 4282 Zeichen von https://koeln.t-online.de/region/koeln/id_101068668/crans-mo
+[2026-03-27 19:11:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana). Deutsche Kliniken behandeln lediglich Brandopfer aus diesem ausländischen Brand. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus/einer deutschen Klinik.
+[2026-03-27 19:11:59] [enrich] --- Enriche [9/12]: Großalarm! - Feuer in der Uni-Klinik! - bild.de
+[2026-03-27 19:12:00] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/frankfurt/frankfurt-am-main/uniklinik-feuer-5379555
+[2026-03-27 19:12:00] [enrich] Volltext extrahiert: 2548 Zeichen von https://www.bild.de/regional/frankfurt/frankfurt-am-main/uni
+[2026-03-27 19:12:04] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Frankfurt (Uniklinik) in Frankfurt am Main
+[2026-03-27 19:12:05] [enrich] --- Enriche [10/12]: Bad Sülze: Brand in Reha-Klinik führt zu Evakuierung - bild.
+[2026-03-27 19:12:06] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/mecklenburg-vorpommern/bad-suelze-brand-in-reha-kli
+[2026-03-27 19:12:06] [enrich] Volltext extrahiert: 2397 Zeichen von https://www.bild.de/regional/mecklenburg-vorpommern/bad-suel
+[2026-03-27 19:12:09] [enrich] Enrichment abgeschlossen: enriched — Reha-Klinik Bad Sülze in Bad Sülze
+[2026-03-27 19:12:10] [enrich] --- Enriche [11/12]: Andernach: Feuer in Klinik führt zu Evakuierung - bild.de
+[2026-03-27 19:12:11] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/rheinland-pfalz/andernach-feuer-in-klinik-fuehrt-zu
+[2026-03-27 19:12:11] [enrich] Volltext extrahiert: 2363 Zeichen von https://www.bild.de/regional/rheinland-pfalz/andernach-feuer
+[2026-03-27 19:12:14] [enrich] Enrichment abgeschlossen: enriched — Rhein-Mosel-Fachklinik in Andernach
+[2026-03-27 19:12:15] [enrich] --- Enriche [12/12]: Feuer in psychiatrischer Klinik ausgebrochen - Zwei Statione
+[2026-03-27 19:12:16] [enrich] Google News URL aufgelöst (v1): https://www.hna.de/kassel/niederzwehren-ort83989/kassel-feuer-in-psychiatrischer
+[2026-03-27 19:12:16] [enrich] Volltext extrahiert: 2818 Zeichen von https://www.hna.de/kassel/niederzwehren-ort83989/kassel-feue
+[2026-03-27 19:12:20] [enrich] Enrichment abgeschlossen: enriched — Ludwig-Noll-Krankenhaus in Kassel, Stadtteil Niederzwehren
+[2026-03-27 19:12:20] [enrich] Ergebnis: 11 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-27 19:12:20] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 19:12:20] [DEDUP] Starte Dedup für 317 Einträge
+[2026-03-27 19:12:20] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 19:12:20] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (1.00): Augusta-Krankenhaus / Düsseldorf-Rath ↔ Augusta-Krankenhaus / Düsseldorf-Rath
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (0.98): Helios Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (1.00): Marienhospital / Düsseldorf ↔ Marienhospital / Düsseldorf
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (0.86): Krankenhaus Marl (Klinikum) / Marl ↔ Krankenhaus Marl / Marl
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (1.00): Marien-Hospital / Düsseldorf ↔ Marien-Hospital / Düsseldorf
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (1.00): Reha-Klinik Bad Sülze / Bad Sülze ↔ Reha-Klinik Bad Sülze / Bad Sülze
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (0.99): Universitätsklinik Frankfurt (Uni-Klinik / Frankfurt am Main ↔ Universitätsklinik Frankfurt (Uniklinik) / Frankfurt am Main
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (1.00): Rhein-Mosel-Fachklinik / Andernach ↔ Rhein-Mosel-Fachklinik / Andernach
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (0.87): Ludwig-Noll-Krankenhaus / Kassel, Niederzwehre ↔ Ludwig-Noll-Krankenhaus / Kassel, Stadtteil Ni
+[2026-03-27 19:12:21] [DEDUP] Auto-Merge (0.90): Urban-Krankenhaus / Berlin-Kreuzberg ↔ Urban-Krankenhaus (Klinikum am Urban) / Berlin-Kreuzberg
+[2026-03-27 19:12:21] [DEDUP] Paare verglichen: 2837
+[2026-03-27 19:12:21] [DEDUP] Auto-Merges: 11
+[2026-03-27 19:12:21] [DEDUP] Kandidaten (unsicher): 102
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Augusta-Krankenhaus, Augusta-Krankenhaus
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Marienhospital, Marienhospital
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Krankenhaus Marl (Klinikum), Krankenhaus Marl
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Marien-Hospital, Marien-Hospital
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Universitätsklinik Frankfurt (Uni-Klinik, Universitätsklinik Frankfurt (Uniklinik)
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Reha-Klinik Bad Sülze, Reha-Klinik Bad Sülze
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Rhein-Mosel-Fachklinik, Rhein-Mosel-Fachklinik
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Ludwig-Noll-Krankenhaus, Ludwig-Noll-Krankenhaus
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Urban-Krankenhaus, Urban-Krankenhaus (Klinikum am Urban)
+[2026-03-27 19:12:21] [DEDUP] Cluster 2x: Helios Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-03-27 19:12:21] [DEDUP] Ergebnis: 306 Einträge (war: 317, 11 zusammengeführt)
+[2026-03-27 19:12:21] [DEDUP] Kandidaten-Datei: 102 pending, 2 confirmed, 0 rejected
+[2026-03-27 19:12:21] [DEDUP] Gespeichert: 317 → 306 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T18:03:48.996673",
+  "generated_at": "2026-03-27T19:12:21.109011",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -430,6 +430,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.705,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.705
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
+        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
       }
     },
     {
@@ -1130,6 +1163,105 @@
         "",
         ""
       ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
+        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
+        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/hamburg-feuer-marienkrankenhaus-3-tote-und-55-verletzte_aid-128521083",
+        "titel": "Katastrophe in Hamburg: Drei Tote und 55 Verletzte bei Brand im Marienkrankenhaus - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.65,
       "details": {
         "datum": 0.0,
@@ -1288,6 +1420,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - Badische Neueste Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.615,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.3076923076923077,
+        "total": 0.615
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22-verletzte-A5YMON2UT5K6XNJMDWVUYDPO4E.html",
+        "titel": "Uelzen: Brand in Krankenhaus – mindestens fünf Tote, 22 Verletzte - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - rp-online.de"
       }
     },
     {
