@@ -9618,3 +9618,47 @@
 [2026-03-27 10:06:10] [DEDUP] Ergebnis: 294 Einträge (war: 294, 0 zusammengeführt)
 [2026-03-27 10:06:10] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-27 10:06:10] [DEDUP] Gespeichert: 294 → 294 Einträge
+[2026-03-27 11:06:17] === Monitor-Lauf gestartet ===
+[2026-03-27 11:06:18] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 11:06:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 11:06:19] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-03-27 11:06:19] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-27 11:06:20] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-27 11:06:20] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-27 11:06:20] Feed 'gn_brand_klinikum': 29 Einträge
+[2026-03-27 11:06:21] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 11:06:21] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-27 11:06:21] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-03-27 11:06:23] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 11:06:23] 207 relevante Treffer in Feeds
+[2026-03-27 11:06:23] ✅ 2 NEUE Einträge gefunden:
+[2026-03-27 11:06:23]    27.03.2026 | in Krankenhaus |  | Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - Sch
+[2026-03-27 11:06:23]    27.03.2026 | in Krankenhaus |  | Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - One
+[2026-03-27 11:06:23] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 11:06:23] === Monitor-Lauf beendet ===
+
+[2026-03-27 11:06:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 11:06:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 11:06:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 11:06:23] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 11:06:23] [enrich] --- Enriche [1/2]: Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - Sch
+[2026-03-27 11:06:24] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische.de/regional/bayern/mehr-als-100000-euro-schaden-bei-bra
+[2026-03-27 11:06:30] [enrich] Volltext extrahiert: 856 Zeichen von https://www.schwaebische.de/regional/bayern/mehr-als-100000-
+[2026-03-27 11:06:32] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-03-27 11:06:33] [enrich] --- Enriche [2/2]: Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - One
+[2026-03-27 11:06:34] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/mehr-100000-euro-schaden-brand-krankenhaus
+[2026-03-27 11:06:35] [enrich] Volltext extrahiert: 3218 Zeichen von https://www.onetz.de/deutschland-welt/mehr-100000-euro-schad
+[2026-03-27 11:06:37] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-03-27 11:06:37] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-27 11:06:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 11:06:37] [DEDUP] Starte Dedup für 296 Einträge
+[2026-03-27 11:06:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 11:06:38] [DEDUP] Auto-Merge (1.00): Krankenhaus Grafenau / Grafenau ↔ Krankenhaus Grafenau / Grafenau
+[2026-03-27 11:06:38] [DEDUP] Paare verglichen: 2476
+[2026-03-27 11:06:38] [DEDUP] Auto-Merges: 1
+[2026-03-27 11:06:38] [DEDUP] Kandidaten (unsicher): 88
+[2026-03-27 11:06:38] [DEDUP] Cluster 2x: Krankenhaus Grafenau, Krankenhaus Grafenau
+[2026-03-27 11:06:38] [DEDUP] Ergebnis: 295 Einträge (war: 296, 1 zusammengeführt)
+[2026-03-27 11:06:38] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
+[2026-03-27 11:06:38] [DEDUP] Gespeichert: 296 → 295 Einträge
