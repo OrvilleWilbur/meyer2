@@ -9546,3 +9546,45 @@
 [2026-03-27 07:34:56] [DEDUP] Ergebnis: 292 Einträge (war: 292, 0 zusammengeführt)
 [2026-03-27 07:34:56] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-27 07:34:56] [DEDUP] Gespeichert: 292 → 292 Einträge
+[2026-03-27 09:07:28] === Monitor-Lauf gestartet ===
+[2026-03-27 09:07:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 09:07:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 09:07:30] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-27 09:07:30] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-27 09:07:31] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-03-27 09:07:31] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-27 09:07:32] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-03-27 09:07:32] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 09:07:32] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-27 09:07:33] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-27 09:07:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 09:07:34] 214 relevante Treffer in Feeds
+[2026-03-27 09:07:34] ✅ 2 NEUE Einträge gefunden:
+[2026-03-27 09:07:34]    26.03.2026 | in Klinikum |  | Ermittlungen nach Brand in Klinikum in Marienheide - Radio B
+[2026-03-27 09:07:34]    25.01.2017 | Uniklinik |  | Größerer Einsatz der Feuerwehr an der Freiburger Uniklinik -
+[2026-03-27 09:07:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 09:07:34] === Monitor-Lauf beendet ===
+
+[2026-03-27 09:07:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 09:07:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 09:07:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 09:07:35] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 09:07:35] [enrich] --- Enriche [1/2]: Ermittlungen nach Brand in Klinikum in Marienheide - Radio B
+[2026-03-27 09:07:35] [enrich] Google News URL aufgelöst (v1): https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-klinikum-in-marienhe
+[2026-03-27 09:07:35] [enrich] Volltext extrahiert: 761 Zeichen von https://www.radioberg.de/artikel/ermittlungen-nach-brand-in-
+[2026-03-27 09:07:38] [enrich] Enrichment abgeschlossen: enriched — Klinikum für seelische Gesundheit Marienheide in Marienheide
+[2026-03-27 09:07:39] [enrich] --- Enriche [2/2]: Größerer Einsatz der Feuerwehr an der Freiburger Uniklinik -
+[2026-03-27 09:07:39] [enrich] Google News URL aufgelöst (v1): https://www.baden.fm/nachrichten/grosseinsatz-der-feuerwehr-an-freiburger-unikli
+[2026-03-27 09:07:41] [enrich] Volltext zu kurz/leer (97 Z.), verwende RSS-Snippet (457 Z.)
+[2026-03-27 09:07:44] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline über einen 'größeren Einsatz der Feuerwehr' an der Freiburger Uniklinik, ohne konkrete Informationen über einen Brand. Es ist unklar, ob es sich um einen Brand handelt oder um einen anderen Einsatzgrund. Der Artikel-Text selbst ist nicht vorhanden.
+[2026-03-27 09:07:44] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-27 09:07:44] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 09:07:44] [DEDUP] Starte Dedup für 294 Einträge
+[2026-03-27 09:07:44] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 09:07:44] [DEDUP] Paare verglichen: 2469
+[2026-03-27 09:07:44] [DEDUP] Auto-Merges: 0
+[2026-03-27 09:07:44] [DEDUP] Kandidaten (unsicher): 88
+[2026-03-27 09:07:44] [DEDUP] Ergebnis: 294 Einträge (war: 294, 0 zusammengeführt)
+[2026-03-27 09:07:44] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
+[2026-03-27 09:07:44] [DEDUP] Gespeichert: 294 → 294 Einträge
