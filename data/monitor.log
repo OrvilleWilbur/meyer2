@@ -10152,3 +10152,54 @@
 [2026-03-27 19:51:14] [DEDUP] Ergebnis: 311 Einträge (war: 316, 5 zusammengeführt)
 [2026-03-27 19:51:14] [DEDUP] Kandidaten-Datei: 111 pending, 2 confirmed, 0 rejected
 [2026-03-27 19:51:14] [DEDUP] Gespeichert: 316 → 311 Einträge
+[2026-03-27 20:55:07] === Monitor-Lauf gestartet ===
+[2026-03-27 20:55:08] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 20:55:09] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 20:55:09] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-27 20:55:10] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-27 20:55:10] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-03-27 20:55:10] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-27 20:55:11] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-27 20:55:11] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 20:55:12] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-27 20:55:12] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-27 20:55:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 20:55:13] 226 relevante Treffer in Feeds
+[2026-03-27 20:55:13] ✅ 3 NEUE Einträge gefunden:
+[2026-03-27 20:55:13]    25.10.2024 | Uniklinik Mainz |  | Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwi
+[2026-03-27 20:55:13]    22.09.2021 | in Krankenhaus |  | Feuer in Krankenhaus: Station geräumt – zwölf Verletzte - mo
+[2026-03-27 20:55:13]    17.07.2025 | Uni-Klinik |  | Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben 
+[2026-03-27 20:55:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 20:55:13] === Monitor-Lauf beendet ===
+
+[2026-03-27 20:55:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 20:55:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 20:55:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 20:55:14] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 20:55:14] [enrich] --- Enriche [1/3]: Feuer auf dem Gelände der Uniklinik Mainz: Starke Rauchentwi
+[2026-03-27 20:55:14] [enrich] Google News URL aufgelöst (v1): https://mainzund.de/feuer-auf-dem-gelaende-der-uniklinik-mainz-starke-rauchentwi
+[2026-03-27 20:55:15] [enrich] Volltext extrahiert: 5000 Zeichen von https://mainzund.de/feuer-auf-dem-gelaende-der-uniklinik-mai
+[2026-03-27 20:55:19] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz (Unimedizin) in Mainz
+[2026-03-27 20:55:20] [enrich] --- Enriche [2/3]: Feuer in Krankenhaus: Station geräumt – zwölf Verletzte - mo
+[2026-03-27 20:55:21] [enrich] Google News URL aufgelöst (v1): https://www.mopo.de/im-norden/schleswig-holstein/feuer-in-krankenhaus-station-ge
+[2026-03-27 20:55:22] [enrich] Volltext extrahiert: 698 Zeichen von https://www.mopo.de/im-norden/schleswig-holstein/feuer-in-kr
+[2026-03-27 20:55:25] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Schleswig-Holstein (UKSH) Lübeck in Lübeck
+[2026-03-27 20:55:26] [enrich] --- Enriche [3/3]: Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben 
+[2026-03-27 20:55:26] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-
+[2026-03-27 20:55:27] [enrich] Volltext extrahiert: 3648 Zeichen von https://www.derwesten.de/region/koeln-bombe-entschaerfung-ev
+[2026-03-27 20:55:29] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung der Uniklinik Köln wegen einer Bombenentschärfung, nicht wegen eines Brandes. Die Evakuierung erfolgt aus Sicherheitsgründen für einen Kampfmittelbeseitigungseinsatz im Umkreis, nicht aufgrund eines Brandes in der Klinik selbst.
+[2026-03-27 20:55:29] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-27 20:55:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 20:55:29] [DEDUP] Starte Dedup für 314 Einträge
+[2026-03-27 20:55:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 20:55:29] [DEDUP] Auto-Merge (1.00): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz (Unimedizin) / Mainz
+[2026-03-27 20:55:29] [DEDUP] Auto-Merge (0.82): Universitätsklinikum Lübeck / Lübeck ↔ Universitätsklinikum Schleswig-Holstein  / Lübeck
+[2026-03-27 20:55:29] [DEDUP] Paare verglichen: 2984
+[2026-03-27 20:55:29] [DEDUP] Auto-Merges: 2
+[2026-03-27 20:55:29] [DEDUP] Kandidaten (unsicher): 106
+[2026-03-27 20:55:29] [DEDUP] Cluster 2x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz (Unimedizin)
+[2026-03-27 20:55:29] [DEDUP] Cluster 2x: Universitätsklinikum Lübeck, Universitätsklinikum Schleswig-Holstein 
+[2026-03-27 20:55:29] [DEDUP] Ergebnis: 312 Einträge (war: 314, 2 zusammengeführt)
+[2026-03-27 20:55:29] [DEDUP] Kandidaten-Datei: 106 pending, 2 confirmed, 0 rejected
+[2026-03-27 20:55:29] [DEDUP] Gespeichert: 314 → 312 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T19:51:14.535170",
+  "generated_at": "2026-03-27T20:55:29.466205",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -206,39 +206,6 @@
         "",
         ""
       ],
-      "score": 0.745,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.14285714285714285,
-        "total": 0.745
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
-        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg-Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
-        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.742,
       "details": {
         "datum": 1.0,
@@ -331,39 +298,6 @@
         "status": "enriched",
         "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
         "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.717,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.375,
-        "bundesland": 1.0,
-        "brandort": 0.26666666666666666,
-        "total": 0.717
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
-        "ort": "Düsseldorf",
-        "datum": "16.04.2023",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
-        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinik Düsseldorf (UKD), Klinik für Urologie",
-        "ort": "Düsseldorf",
-        "datum": "17.04.2023",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.neue-duesseldorfer-online-zeitung.de/stadtnachrichten/artikel/brandereignis-in-einer-op-raeumlichkeit-der-uniklinik-duesseldorf-2528.html",
-        "titel": "Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseldorf - neue-duesseldorfer-online-zeitung.de"
       }
     },
     {
@@ -833,39 +767,6 @@
         "",
         ""
       ],
-      "score": 0.686,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.686
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg-Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
-        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.682,
       "details": {
         "datum": 0.3,
@@ -1262,72 +1163,6 @@
         "",
         ""
       ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg-Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
-        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus Hamburg",
-        "ort": "Hamburg-Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.zeit.de/gesellschaft/zeitgeschehen/2025-06/feuer-krankenhaus-hamburg-hohenfelde-brand-geriatrie",
-        "titel": "Hamburg: Drei Menschen bei Brand in Hamburger Krankenhaus getötet - zeit.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.65,
       "details": {
         "datum": 0.0,
@@ -1519,39 +1354,6 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.611,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.21428571428571427,
-        "total": 0.611
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.focus.de/panorama/welt/uelzen-in-niedersachsen-patientenzimmer-in-flammen-ein-toter-und-22-verletzte-bei-brand-in-klinik_id_259549747.html",
-        "titel": "Patienschützer wüten nach Klinik-Brand: „Möbelhäuser haben besseren Brandschutz“ - focus.de"
       }
     },
     {
@@ -2988,6 +2790,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Uni-Klinik",
+        "ort": "",
+        "datum": "17.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
+        "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - DerWesten"
+      },
+      "entry_b": {
+        "einrichtung": "Uni-Klinik",
+        "ort": "",
+        "datum": "17.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
+        "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - derwesten.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Pekinger Krankenhaus steigt",
         "ort": "",
         "datum": "19.04.2023",
@@ -3473,39 +3308,6 @@
         "",
         ""
       ],
-      "score": 0.523,
-      "details": {
-        "datum": 0.3,
-        "ort": 1.0,
-        "einrichtung": 0.09090909090909091,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.523
-      },
-      "entry_a": {
-        "einrichtung": "Rostocker Universitätsklinik",
-        "ort": "Rostock",
-        "datum": "09.09.2025",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
-        "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik und Poliklinik für Psychiatrie und Psychotherapie der Universitätsmedizin Rostock",
-        "ort": "Rostock",
-        "datum": "07.09.2025",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/26-jaehriger-patient-stirbt-bei-brand-in-rostocker-uniklinik-54474",
-        "titel": "Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in Rostocker Uniklinik - kma-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.5,
       "details": {
         "datum": 1.0,
@@ -3631,6 +3433,39 @@
         "status": "false_positive",
         "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
         "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - DerWesten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinikum",
+        "ort": "",
+        "datum": "18.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.lvz.de/lokales/leipzig/feuerwehreinsatz-in-leipzig-suedost-fehlalarm-am-uniklinikum-CYHWDUHCLNBRPNVLYO7ZPRSMYM.html",
+        "titel": "Feuerwehreinsatz in Leipzig-Südost: Fehlalarm am Uniklinikum - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Uni-Klinik",
+        "ort": "",
+        "datum": "17.07.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
+        "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - derwesten.de"
       }
     },
     {
