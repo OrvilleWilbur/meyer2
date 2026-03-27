@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T16:05:30.451984",
+  "generated_at": "2026-03-27T17:10:25.588059",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2608,6 +2608,72 @@
         "status": "false_positive",
         "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
         "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      },
+      "entry_b": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - nw.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - Neue Westfälische"
+      },
+      "entry_b": {
+        "einrichtung": "Reha-Klinik",
+        "ort": "",
+        "datum": "21.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
+        "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - nw.de"
       }
     },
     {

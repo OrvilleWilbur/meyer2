@@ -9803,3 +9803,66 @@
 [2026-03-27 16:05:30] [DEDUP] Ergebnis: 297 Einträge (war: 297, 0 zusammengeführt)
 [2026-03-27 16:05:30] [DEDUP] Kandidaten-Datei: 88 pending, 2 confirmed, 0 rejected
 [2026-03-27 16:05:30] [DEDUP] Gespeichert: 297 → 297 Einträge
+[2026-03-27 17:09:47] === Monitor-Lauf gestartet ===
+[2026-03-27 17:09:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-27 17:09:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-27 17:09:50] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-27 17:09:50] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-03-27 17:09:51] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-27 17:09:51] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-27 17:09:52] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-27 17:09:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-27 17:09:54] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-03-27 17:09:55] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-03-27 17:09:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-27 17:09:56] 216 relevante Treffer in Feeds
+[2026-03-27 17:09:56] ✅ 5 NEUE Einträge gefunden:
+[2026-03-27 17:09:56]    27.03.2026 | in Krankenhaus |  | Feuerwehreinsatz: Mehr als 100.000 Euro Schaden bei Brand in
+[2026-03-27 17:09:56]    25.08.2025 | Reha-Klinik |  | Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-27 17:09:56]    21.08.2025 | Reha-Klinik |  | Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-27 17:09:56]    15.02.2026 | Norder Klinik |  | Brand bei Norder Klinik - rheiderland.de
+[2026-03-27 17:09:56]    18.01.2023 |  |  | Mehrere Millionen Euro Schaden: Wer zahlt nach dem Brand im 
+[2026-03-27 17:09:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-27 17:09:56] === Monitor-Lauf beendet ===
+
+[2026-03-27 17:09:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-27 17:09:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-27 17:09:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-27 17:09:57] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-27 17:09:57] [enrich] --- Enriche [1/5]: Feuerwehreinsatz: Mehr als 100.000 Euro Schaden bei Brand in
+[2026-03-27 17:09:57] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/bayern/feuerwehreinsatz--mehr-als-100
+[2026-03-27 17:09:58] [enrich] Volltext extrahiert: 968 Zeichen von https://www.stern.de/gesellschaft/regional/bayern/feuerwehre
+[2026-03-27 17:10:00] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-03-27 17:10:01] [enrich] --- Enriche [2/5]: Wochenrückblick: Lidl Deutschland-Tour, Schlange im Kompost 
+[2026-03-27 17:10:01] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/minden/24160808_Wochenrueckblick-
+[2026-03-27 17:10:04] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/minden/241608
+[2026-03-27 17:10:08] [enrich] Enrichment abgeschlossen: enriched — Median-Klinik am Park in Bad Oeynhausen
+[2026-03-27 17:10:09] [enrich] --- Enriche [3/5]: Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhause
+[2026-03-27 17:10:09] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patienten
+[2026-03-27 17:10:12] [enrich] Volltext extrahiert: 1729 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhause
+[2026-03-27 17:10:14] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Bericht über einen Brand in einem Krankenhaus oder einer Klinik. Es handelt sich um eine Webseite eines Nachrichtenportals mit Abooptionen und Feedback-Formularen. Die erwähnten Inhalte beziehen sich auf Brandschutz in einer Disco und andere Lokalthemen, nicht auf einen Krankenhausbrand.
+[2026-03-27 17:10:15] [enrich] --- Enriche [4/5]: Brand bei Norder Klinik - rheiderland.de
+[2026-03-27 17:10:15] [enrich] Google News URL aufgelöst (v1): https://rheiderland.de/artikel/63382/brand-bei-norder-klinik
+[2026-03-27 17:10:17] [enrich] Volltext extrahiert: 1513 Zeichen von https://rheiderland.de/artikel/63382/brand-bei-norder-klinik
+[2026-03-27 17:10:19] [enrich] Enrichment abgeschlossen: enriched — Norder Klinik in Norden
+[2026-03-27 17:10:20] [enrich] --- Enriche [5/5]: Mehrere Millionen Euro Schaden: Wer zahlt nach dem Brand im 
+[2026-03-27 17:10:21] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_lippe/uebersicht/23461029_Mehrere-Millionen-Euro-S
+[2026-03-27 17:10:23] [enrich] Volltext extrahiert: 1705 Zeichen von https://www.nw.de/lokal/kreis_lippe/uebersicht/23461029_Mehr
+[2026-03-27 17:10:25] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Inhalt über einen Brand. Es handelt sich um eine Paywall-/Anmeldungsseite einer Nachrichtenwebsite ohne relevante Informationen zum eigentlichen Artikel.
+[2026-03-27 17:10:25] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-27 17:10:25] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-27 17:10:25] [DEDUP] Starte Dedup für 302 Einträge
+[2026-03-27 17:10:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-27 17:10:25] [DEDUP] Auto-Merge (1.00): Median-Klinik am Park / Bad Oeynhausen ↔ Median-Klinik am Park / Bad Oeynhausen
+[2026-03-27 17:10:25] [DEDUP] Auto-Merge (1.00): Krankenhaus Grafenau / Grafenau ↔ Krankenhaus Grafenau / Grafenau
+[2026-03-27 17:10:25] [DEDUP] Auto-Merge (1.00): Norder Klinik / Norden ↔ Norder Klinik / Norden
+[2026-03-27 17:10:25] [DEDUP] Paare verglichen: 2538
+[2026-03-27 17:10:25] [DEDUP] Auto-Merges: 3
+[2026-03-27 17:10:25] [DEDUP] Kandidaten (unsicher): 90
+[2026-03-27 17:10:25] [DEDUP] Cluster 2x: Median-Klinik am Park, Median-Klinik am Park
+[2026-03-27 17:10:25] [DEDUP] Cluster 2x: Norder Klinik, Norder Klinik
+[2026-03-27 17:10:25] [DEDUP] Cluster 2x: Krankenhaus Grafenau, Krankenhaus Grafenau
+[2026-03-27 17:10:25] [DEDUP] Ergebnis: 299 Einträge (war: 302, 3 zusammengeführt)
+[2026-03-27 17:10:25] [DEDUP] Kandidaten-Datei: 90 pending, 2 confirmed, 0 rejected
+[2026-03-27 17:10:25] [DEDUP] Gespeichert: 302 → 299 Einträge
