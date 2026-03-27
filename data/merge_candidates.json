@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T15:08:54.658164",
+  "generated_at": "2026-03-27T16:05:30.451984",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -364,39 +364,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Feuerwehr rückt zu Brand in Krankenhaus aus - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.71,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.71
-      },
-      "entry_a": {
-        "einrichtung": "Kliniken Maria Hilf",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
-        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Mönchengladbach (Name nicht spezifiziert)",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
-        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - SZ.de"
       }
     },
     {
