@@ -10561,3 +10561,85 @@
 [2026-03-28 06:11:04] [DEDUP] Ergebnis: 328 Einträge (war: 331, 3 zusammengeführt)
 [2026-03-28 06:11:04] [DEDUP] Kandidaten-Datei: 127 pending, 2 confirmed, 0 rejected
 [2026-03-28 06:11:04] [DEDUP] Gespeichert: 331 → 328 Einträge
+[2026-03-28 07:13:24] === Monitor-Lauf gestartet ===
+[2026-03-28 07:13:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 07:13:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 07:13:27] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-28 07:13:27] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-03-28 07:13:27] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-28 07:13:28] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-28 07:13:28] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 07:13:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 07:13:29] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 07:13:29] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-03-28 07:13:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 07:13:30] 202 relevante Treffer in Feeds
+[2026-03-28 07:13:30] ✅ 7 NEUE Einträge gefunden:
+[2026-03-28 07:13:30]    27.03.2026 | in Krankenhaus |  | Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - one
+[2026-03-28 07:13:30]    03.10.2025 | in Krankenhaus |  | Im Saarland: Verletzte bei Feuer in Krankenhaus - t-online.d
+[2026-03-28 07:13:30]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-28 07:13:30]    10.05.2025 |  |  | Feuer und Randale in Psychiatrie: Gefangene lösen SEK-Einsat
+[2026-03-28 07:13:30]    01.10.2025 | in Klinik |  | Brand in Klinik: Patient zündet Klopapier an - feuerwehrmaga
+[2026-03-28 07:13:30]    05.01.2024 | in Klinikum |  | Brand in Klinikum - feuerwehrmagazin.de
+[2026-03-28 07:13:30]    24.10.2024 | Uniklinik |  | Großeinsatz wegen Feuer auf Uniklinik-Gelände - allgemeine-z
+[2026-03-28 07:13:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 07:13:30] === Monitor-Lauf beendet ===
+
+[2026-03-28 07:13:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 07:13:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 07:13:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 07:13:30] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 07:13:30] [enrich] --- Enriche [1/7]: Mehr als 100.000 Euro Schaden bei Brand in Krankenhaus - one
+[2026-03-28 07:13:31] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/mehr-100000-euro-schaden-brand-krankenhaus
+[2026-03-28 07:13:32] [enrich] Volltext extrahiert: 3273 Zeichen von https://www.onetz.de/deutschland-welt/mehr-100000-euro-schad
+[2026-03-28 07:13:35] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-03-28 07:13:36] [enrich] --- Enriche [2/7]: Im Saarland: Verletzte bei Feuer in Krankenhaus - t-online.d
+[2026-03-28 07:13:37] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/ungluecke/id_100941370/saarbruecken
+[2026-03-28 07:13:37] [enrich] Volltext extrahiert: 3119 Zeichen von https://www.t-online.de/nachrichten/panorama/ungluecke/id_10
+[2026-03-28 07:13:40] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken (Name nicht spezifiziert) in Saarbrücken
+[2026-03-28 07:13:41] [enrich] --- Enriche [3/7]: Brand in Hamburger Klinik – drei Tote und über 50 Verletzte 
+[2026-03-28 07:13:41] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marie
+[2026-03-28 07:13:42] [enrich] Volltext extrahiert: 4404 Zeichen von https://www.t-online.de/nachrichten/panorama/id_100748170/ha
+[2026-03-28 07:13:46] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-03-28 07:13:47] [enrich] --- Enriche [4/7]: Feuer und Randale in Psychiatrie: Gefangene lösen SEK-Einsat
+[2026-03-28 07:13:47] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100716138/bedburg-
+[2026-03-28 07:13:48] [enrich] Volltext extrahiert: 4511 Zeichen von https://www.t-online.de/nachrichten/panorama/kriminalitaet/i
+[2026-03-28 07:13:53] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bedburg-Hau (forensische Psychiatrie) in Bedburg-Hau
+[2026-03-28 07:13:54] [enrich] --- Enriche [5/7]: Brand in Klinik: Patient zündet Klopapier an - feuerwehrmaga
+[2026-03-28 07:13:54] [enrich] Google News URL aufgelöst (v1): https://www.feuerwehrmagazin.de/nachrichten/brand-in-klinik-patient-zuendet-klop
+[2026-03-28 07:13:55] [enrich] Volltext extrahiert: 2524 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/brand-in-klinik-
+[2026-03-28 07:13:58] [enrich] Enrichment abgeschlossen: enriched — Klinikum Hanau in Hanau
+[2026-03-28 07:13:59] [enrich] --- Enriche [6/7]: Brand in Klinikum - feuerwehrmagazin.de
+[2026-03-28 07:14:00] [enrich] Google News URL aufgelöst (v1): https://www.feuerwehrmagazin.de/presseblog/brand-in-klinikum-125652
+[2026-03-28 07:14:00] [enrich] Volltext extrahiert: 2425 Zeichen von https://www.feuerwehrmagazin.de/presseblog/brand-in-klinikum
+[2026-03-28 07:14:03] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-28 07:14:04] [enrich] --- Enriche [7/7]: Großeinsatz wegen Feuer auf Uniklinik-Gelände - allgemeine-z
+[2026-03-28 07:14:04] [enrich] Google News URL aufgelöst (v1): https://www.allgemeine-zeitung.de/lokales/mainz/stadt-mainz/grosseinsatz-wegen-f
+[2026-03-28 07:14:08] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.allgemeine-zeitung.de/lokales/mainz/stadt-mainz/
+[2026-03-28 07:14:12] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-03-28 07:14:12] [enrich] Ergebnis: 7 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-28 07:14:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 07:14:13] [DEDUP] Starte Dedup für 335 Einträge
+[2026-03-28 07:14:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.96): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.96): LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau ↔ LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.90): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.91): Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken ↔ Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.81): Klinik Saarbrücken (Hauptgebäude) / Saarbrücken ↔ Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (1.00): Krankenhaus Grafenau / Grafenau ↔ Krankenhaus Grafenau / Grafenau
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (0.82): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-03-28 07:14:13] [DEDUP] Auto-Merge (1.00): Klinikum Hanau / Hanau ↔ Klinikum Hanau / Hanau
+[2026-03-28 07:14:13] [DEDUP] Paare verglichen: 3299
+[2026-03-28 07:14:13] [DEDUP] Auto-Merges: 8
+[2026-03-28 07:14:13] [DEDUP] Kandidaten (unsicher): 128
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-03-28 07:14:13] [DEDUP] Cluster 3x: Klinik Saarbrücken (Name nicht spezifizi, Klinik Saarbrücken (Hauptgebäude), Klinik Saarbrücken (Name nicht spezifizi
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: LVR-Klinik Bedburg-Hau (forensische Psyc, LVR-Klinik Bedburg-Hau (forensische Psyc
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: Klinikum Hanau, Klinikum Hanau
+[2026-03-28 07:14:13] [DEDUP] Cluster 2x: Krankenhaus Grafenau, Krankenhaus Grafenau
+[2026-03-28 07:14:13] [DEDUP] Ergebnis: 327 Einträge (war: 335, 8 zusammengeführt)
+[2026-03-28 07:14:13] [DEDUP] Kandidaten-Datei: 128 pending, 2 confirmed, 0 rejected
+[2026-03-28 07:14:13] [DEDUP] Gespeichert: 335 → 327 Einträge
