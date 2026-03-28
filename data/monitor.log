@@ -10808,3 +10808,48 @@
 [2026-03-28 09:52:50] [DEDUP] Ergebnis: 338 Einträge (war: 338, 0 zusammengeführt)
 [2026-03-28 09:52:50] [DEDUP] Kandidaten-Datei: 148 pending, 2 confirmed, 0 rejected
 [2026-03-28 09:52:50] [DEDUP] Gespeichert: 338 → 338 Einträge
+[2026-03-28 10:50:44] === Monitor-Lauf gestartet ===
+[2026-03-28 10:50:46] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 10:50:46] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 10:50:47] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-03-28 10:50:47] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-03-28 10:50:47] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-28 10:50:48] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-28 10:50:48] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 10:50:49] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 10:50:49] Feed 'gn_feuer_uniklinik': 22 Einträge
+[2026-03-28 10:50:49] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-03-28 10:50:51] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 10:50:51] 204 relevante Treffer in Feeds
+[2026-03-28 10:50:51] ✅ 2 NEUE Einträge gefunden:
+[2026-03-28 10:50:51]    18.03.2024 | Al-Schifa-Krankenhaus |  | Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.
+[2026-03-28 10:50:51]    19.03.2026 | im Krankenhaus |  | Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-03-28 10:50:51] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 10:50:51] === Monitor-Lauf beendet ===
+
+[2026-03-28 10:50:52] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 10:50:52] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 10:50:52] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 10:50:52] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 10:50:52] [enrich] --- Enriche [1/2]: Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.
+[2026-03-28 10:50:52] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schif
+[2026-03-28 10:50:53] [enrich] Artikel-Fetch fehlgeschlagen für https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schif: 410 Client Error: Gone for url: https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l
+[2026-03-28 10:50:53] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (487 Z.)
+[2026-03-28 10:50:55] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Evakuierung eines Krankenhauses im Ausland (Palästina/Israel) aus militärischen Gründen, nicht wegen eines Brandes in Deutschland
+[2026-03-28 10:50:56] [enrich] --- Enriche [2/2]: Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-03-28 10:50:57] [enrich] Google News URL aufgelöst (v1): https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-d
+[2026-03-28 10:50:57] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus
+[2026-03-28 10:51:01] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden (Standort Friedrichstadt) in Dresden
+[2026-03-28 10:51:02] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-28 10:51:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 10:51:02] [DEDUP] Starte Dedup für 340 Einträge
+[2026-03-28 10:51:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 10:51:02] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Dresden (Standort F / Dresden
+[2026-03-28 10:51:02] [DEDUP] Paare verglichen: 3586
+[2026-03-28 10:51:02] [DEDUP] Auto-Merges: 1
+[2026-03-28 10:51:02] [DEDUP] Kandidaten (unsicher): 150
+[2026-03-28 10:51:02] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Dresden (Standort F
+[2026-03-28 10:51:02] [DEDUP] Ergebnis: 339 Einträge (war: 340, 1 zusammengeführt)
+[2026-03-28 10:51:02] [DEDUP] Kandidaten-Datei: 150 pending, 2 confirmed, 0 rejected
+[2026-03-28 10:51:02] [DEDUP] Gespeichert: 340 → 339 Einträge

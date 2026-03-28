@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T09:52:50.407937",
+  "generated_at": "2026-03-28T10:51:02.463802",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4374,6 +4374,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
+        "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - BR"
+      },
+      "entry_b": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
+        "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Caritas-Krankenhaus St",
         "ort": "",
         "datum": "10.01.2023",
@@ -4720,6 +4753,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-und-umgebung-auf-110.html",
         "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus und Umgebung auf - Deutschlandfunk"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus und Umgebung",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-und-umgebung-auf-110.html",
+        "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus und Umgebung auf - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "18.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
+        "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.de"
       }
     },
     {
