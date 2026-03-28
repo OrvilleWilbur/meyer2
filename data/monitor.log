@@ -11112,3 +11112,49 @@
 [2026-03-28 18:59:28] [DEDUP] Ergebnis: 344 Einträge (war: 344, 0 zusammengeführt)
 [2026-03-28 18:59:28] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
 [2026-03-28 18:59:28] [DEDUP] Gespeichert: 344 → 344 Einträge
+[2026-03-28 19:44:12] === Monitor-Lauf gestartet ===
+[2026-03-28 19:44:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 19:44:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 19:44:18] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 19:44:19] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-28 19:44:19] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-28 19:44:20] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-28 19:44:20] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 19:44:21] Feed 'gn_klinikbrand': 93 Einträge
+[2026-03-28 19:44:21] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-03-28 19:44:21] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-28 19:44:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 19:44:22] 207 relevante Treffer in Feeds
+[2026-03-28 19:44:22] ✅ 2 NEUE Einträge gefunden:
+[2026-03-28 19:44:22]    23.10.2021 | Uniklinik |  | Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit
+[2026-03-28 19:44:22]    05.10.2022 | Uniklinik Düsseldorf |  | Uniklinik Düsseldorf: Akkus fangen Feuer, Etage evakuiert - 
+[2026-03-28 19:44:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 19:44:22] === Monitor-Lauf beendet ===
+
+[2026-03-28 19:44:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 19:44:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 19:44:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 19:44:23] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 19:44:23] [enrich] --- Enriche [1/2]: Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit
+[2026-03-28 19:44:23] [enrich] Google News URL aufgelöst (v1): https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feue
+[2026-03-28 19:44:24] [enrich] Volltext extrahiert: 1573 Zeichen von https://osthessen-news.de/n11656352/brand-auf-intensivstatio
+[2026-03-28 19:44:26] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen in Gießen
+[2026-03-28 19:44:27] [enrich] --- Enriche [2/2]: Uniklinik Düsseldorf: Akkus fangen Feuer, Etage evakuiert - 
+[2026-03-28 19:44:28] [enrich] Google News URL aufgelöst (v1): https://www.nrz.de/staedte/duesseldorf/article236600269/Uniklinik-Duesseldorf-Ak
+[2026-03-28 19:44:28] [enrich] Volltext extrahiert: 1312 Zeichen von https://www.nrz.de/staedte/duesseldorf/article236600269/Unik
+[2026-03-28 19:44:31] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Düsseldorf in Düsseldorf
+[2026-03-28 19:44:31] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-28 19:44:31] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 19:44:31] [DEDUP] Starte Dedup für 346 Einträge
+[2026-03-28 19:44:31] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 19:44:31] [DEDUP] Auto-Merge (0.88): Uniklinik Gießen / Gießen ↔ Universitätsklinikum Gießen / Gießen
+[2026-03-28 19:44:31] [DEDUP] Auto-Merge (0.96): Uniklinik Düsseldorf / Düsseldorf ↔ Uniklinik Düsseldorf / Düsseldorf
+[2026-03-28 19:44:31] [DEDUP] Paare verglichen: 3621
+[2026-03-28 19:44:31] [DEDUP] Auto-Merges: 2
+[2026-03-28 19:44:31] [DEDUP] Kandidaten (unsicher): 155
+[2026-03-28 19:44:31] [DEDUP] Cluster 2x: Uniklinik Gießen, Universitätsklinikum Gießen
+[2026-03-28 19:44:31] [DEDUP] Cluster 2x: Uniklinik Düsseldorf, Uniklinik Düsseldorf
+[2026-03-28 19:44:31] [DEDUP] Ergebnis: 344 Einträge (war: 346, 2 zusammengeführt)
+[2026-03-28 19:44:31] [DEDUP] Kandidaten-Datei: 155 pending, 2 confirmed, 0 rejected
+[2026-03-28 19:44:31] [DEDUP] Gespeichert: 346 → 344 Einträge
