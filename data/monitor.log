@@ -11006,3 +11006,42 @@
 [2026-03-28 15:46:33] [DEDUP] Ergebnis: 343 Einträge (war: 343, 0 zusammengeführt)
 [2026-03-28 15:46:33] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
 [2026-03-28 15:46:33] [DEDUP] Gespeichert: 343 → 343 Einträge
+[2026-03-28 16:50:10] === Monitor-Lauf gestartet ===
+[2026-03-28 16:50:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 16:50:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 16:50:12] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-28 16:50:12] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 16:50:13] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-28 16:50:13] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-28 16:50:13] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-28 16:50:14] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 16:50:14] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-03-28 16:50:15] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-28 16:50:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 16:50:16] 209 relevante Treffer in Feeds
+[2026-03-28 16:50:16] ✅ 1 NEUE Einträge gefunden:
+[2026-03-28 16:50:16]    10.08.2024 | LWL-Klinik | DO | FW-DO: Brand in der LWL-Klinik in DO-Aplerbeck Nächtliche Ev
+[2026-03-28 16:50:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 16:50:16] === Monitor-Lauf beendet ===
+
+[2026-03-28 16:50:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 16:50:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 16:50:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 16:50:17] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 16:50:17] [enrich] --- Enriche [1/1]: FW-DO: Brand in der LWL-Klinik in DO-Aplerbeck Nächtliche Ev
+[2026-03-28 16:50:17] [enrich] Google News URL aufgelöst (v1): https://www.presseportal.de/blaulicht/pm/115869/5840891
+[2026-03-28 16:50:17] [enrich] Volltext extrahiert: 1579 Zeichen von https://www.presseportal.de/blaulicht/pm/115869/5840891
+[2026-03-28 16:50:20] [enrich] Enrichment abgeschlossen: enriched — LWL-Klinik für psychische Erkrankungen in Dortmund
+[2026-03-28 16:50:20] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-28 16:50:20] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 16:50:20] [DEDUP] Starte Dedup für 344 Einträge
+[2026-03-28 16:50:20] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 16:50:21] [DEDUP] Auto-Merge (1.00): LWL-Klinik für psychische Erkrankungen / Dortmund ↔ LWL-Klinik für psychische Erkrankungen / Dortmund
+[2026-03-28 16:50:21] [DEDUP] Paare verglichen: 3616
+[2026-03-28 16:50:21] [DEDUP] Auto-Merges: 1
+[2026-03-28 16:50:21] [DEDUP] Kandidaten (unsicher): 154
+[2026-03-28 16:50:21] [DEDUP] Cluster 2x: LWL-Klinik für psychische Erkrankungen, LWL-Klinik für psychische Erkrankungen
+[2026-03-28 16:50:21] [DEDUP] Ergebnis: 343 Einträge (war: 344, 1 zusammengeführt)
+[2026-03-28 16:50:21] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
+[2026-03-28 16:50:21] [DEDUP] Gespeichert: 344 → 343 Einträge
