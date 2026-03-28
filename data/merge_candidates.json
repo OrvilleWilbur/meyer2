@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T11:40:47.031478",
+  "generated_at": "2026-03-28T13:18:56.483990",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4011,6 +4011,72 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - Ärzte Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - aerztezeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - Ärzte Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "07.01.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-nun-fuenf-Toten-Stiftung-Patientenschutz-fordert-Sprinkleranl-446043.html",
+        "titel": "Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert Nachbesserungen beim Brandschutz in Klin - aerztezeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "einer Klinik",
         "ort": "",
         "datum": "05.01.2024",
@@ -4308,6 +4374,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Sana Klinik",
+        "ort": "",
+        "datum": "30.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-cham/die-sana-klinik-in-cham-nach-der-bombe-was-sind-die-konsequenzen-aus-der-evakuierung-19607756",
+        "titel": "Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequenzen aus der Evakuierung? - Mittelbayerische Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Sana Klinik",
+        "ort": "",
+        "datum": "30.09.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-cham/die-sana-klinik-in-cham-nach-der-bombe-was-sind-die-konsequenzen-aus-der-evakuierung-19607756",
+        "titel": "Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequenzen aus der Evakuierung? - mittelbayerische.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "vor Klinik",
         "ort": "",
         "datum": "24.09.2025",
@@ -4324,6 +4423,39 @@
         "status": "false_positive",
         "link": "https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-bangkok/",
         "titel": "Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (Video) - wochenblitz.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "übt Klinik",
+        "ort": "",
+        "datum": "22.03.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sachsen-fernsehen.de/hochwasser-alarm-katastrophenschutz-uebt-klinik-evakuierung-1956244/",
+        "titel": "Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung - Sachsen Fernsehen"
+      },
+      "entry_b": {
+        "einrichtung": "übt Klinik",
+        "ort": "",
+        "datum": "22.03.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sachsen-fernsehen.de/hochwasser-alarm-katastrophenschutz-uebt-klinik-evakuierung-1956244/",
+        "titel": "Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung - sachsen-fernsehen.de"
       }
     },
     {

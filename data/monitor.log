@@ -10883,3 +10883,51 @@
 [2026-03-28 11:40:47] [DEDUP] Ergebnis: 339 Einträge (war: 339, 0 zusammengeführt)
 [2026-03-28 11:40:47] [DEDUP] Kandidaten-Datei: 150 pending, 2 confirmed, 0 rejected
 [2026-03-28 11:40:47] [DEDUP] Gespeichert: 339 → 339 Einträge
+[2026-03-28 13:18:36] === Monitor-Lauf gestartet ===
+[2026-03-28 13:18:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 13:18:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 13:18:39] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-28 13:18:39] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-28 13:18:40] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-28 13:18:40] Feed 'gn_brand_klinik': 51 Einträge
+[2026-03-28 13:18:40] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-28 13:18:41] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 13:18:41] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-28 13:18:42] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-28 13:18:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 13:18:43] 211 relevante Treffer in Feeds
+[2026-03-28 13:18:43] ✅ 3 NEUE Einträge gefunden:
+[2026-03-28 13:18:43]    07.01.2024 | in Krankenhaus |  | Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-28 13:18:43]    30.09.2025 | Sana Klinik |  | Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequ
+[2026-03-28 13:18:43]    22.03.2025 | übt Klinik |  | Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung 
+[2026-03-28 13:18:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 13:18:43] === Monitor-Lauf beendet ===
+
+[2026-03-28 13:18:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 13:18:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 13:18:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 13:18:43] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 13:18:43] [enrich] --- Enriche [1/3]: Nach Feuer in Krankenhaus: Stiftung Patientenschutz fordert 
+[2026-03-28 13:18:43] [enrich] Google News URL aufgelöst (v1): https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-28 13:18:44] [enrich] Kein Artikeltext extrahierbar für https://www.aerztezeitung.de/Wirtschaft/Nach-Brand-in-Uelzener-Krankenhaus-mit-n
+[2026-03-28 13:18:44] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (620 Z.)
+[2026-03-28 13:18:46] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt nur die Forderungen der Stiftung Patientenschutz nach Brandschutzverbesserungen als Reaktion auf einen Brand. Der konkrete Brand in einem deutschen Krankenhaus wird nicht beschrieben, sondern nur in der Überschrift erwähnt. Es fehlen konkrete Informationen zu Einrichtung, Ort, Datum und Ablauf des Brandes.
+[2026-03-28 13:18:47] [enrich] --- Enriche [2/3]: Die Sana Klinik in Cham nach der Bombe: Was sind die Konsequ
+[2026-03-28 13:18:47] [enrich] Google News URL aufgelöst (v1): https://www.mittelbayerische.de/lokales/landkreis-cham/die-sana-klinik-in-cham-n
+[2026-03-28 13:18:48] [enrich] Volltext extrahiert: 856 Zeichen von https://www.mittelbayerische.de/lokales/landkreis-cham/die-s
+[2026-03-28 13:18:48] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand
+[2026-03-28 13:18:49] [enrich] --- Enriche [3/3]: Hochwasser-Alarm: Katastrophenschutz übt Klinik-Evakuierung 
+[2026-03-28 13:18:50] [enrich] Google News URL aufgelöst (v1): https://www.sachsen-fernsehen.de/hochwasser-alarm-katastrophenschutz-uebt-klinik
+[2026-03-28 13:18:51] [enrich] Volltext extrahiert: 213 Zeichen von https://www.sachsen-fernsehen.de/hochwasser-alarm-katastroph
+[2026-03-28 13:18:55] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/Hochwasserübung, kein echter Brand in einem Krankenhaus. Die Evakuierung ist wegen Hochwasser geplant, nicht wegen eines Brandes.
+[2026-03-28 13:18:56] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-03-28 13:18:56] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 13:18:56] [DEDUP] Starte Dedup für 342 Einträge
+[2026-03-28 13:18:56] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 13:18:56] [DEDUP] Paare verglichen: 3609
+[2026-03-28 13:18:56] [DEDUP] Auto-Merges: 0
+[2026-03-28 13:18:56] [DEDUP] Kandidaten (unsicher): 154
+[2026-03-28 13:18:56] [DEDUP] Ergebnis: 342 Einträge (war: 342, 0 zusammengeführt)
+[2026-03-28 13:18:56] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
+[2026-03-28 13:18:56] [DEDUP] Gespeichert: 342 → 342 Einträge
