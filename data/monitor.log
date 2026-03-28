@@ -10931,3 +10931,48 @@
 [2026-03-28 13:18:56] [DEDUP] Ergebnis: 342 Einträge (war: 342, 0 zusammengeführt)
 [2026-03-28 13:18:56] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
 [2026-03-28 13:18:56] [DEDUP] Gespeichert: 342 → 342 Einträge
+[2026-03-28 14:50:33] === Monitor-Lauf gestartet ===
+[2026-03-28 14:50:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 14:50:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 14:50:36] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-28 14:50:37] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-03-28 14:50:37] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-28 14:50:38] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-28 14:50:38] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-28 14:50:39] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 14:50:39] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-28 14:50:40] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-28 14:50:41] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 14:50:41] 212 relevante Treffer in Feeds
+[2026-03-28 14:50:41] ✅ 2 NEUE Einträge gefunden:
+[2026-03-28 14:50:41]    08.11.2023 | Elisabeth-Krankenhaus ausgelöst haben könnte |  | Eutin: Was das Feuer am Elisabeth-Krankenhaus ausgelöst habe
+[2026-03-28 14:50:41]    01.01.2024 | Universitätsklinikum |  | Krankenhaus Neuruppin: Feuer im Universitätsklinikum - maz-o
+[2026-03-28 14:50:41] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 14:50:41] === Monitor-Lauf beendet ===
+
+[2026-03-28 14:50:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 14:50:41] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 14:50:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 14:50:41] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 14:50:41] [enrich] --- Enriche [1/2]: Eutin: Was das Feuer am Elisabeth-Krankenhaus ausgelöst habe
+[2026-03-28 14:50:42] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/eutin-ostholstein/artikel/eutin-das-koennte-ursache-f
+[2026-03-28 14:50:44] [enrich] Volltext extrahiert: 1777 Zeichen von https://www.shz.de/lokales/eutin-ostholstein/artikel/eutin-d
+[2026-03-28 14:50:46] [enrich] Enrichment abgeschlossen: enriched — Elisabeth-Krankenhaus in Eutin
+[2026-03-28 14:50:47] [enrich] --- Enriche [2/2]: Krankenhaus Neuruppin: Feuer im Universitätsklinikum - maz-o
+[2026-03-28 14:50:47] [enrich] Google News URL aufgelöst (v1): https://www.maz-online.de/lokales/ostprignitz-ruppin/neuruppin/krankenhaus-neuru
+[2026-03-28 14:50:48] [enrich] Artikel-Fetch fehlgeschlagen für https://www.maz-online.de/lokales/ostprignitz-ruppin/neuruppin/krankenhaus-neuru: 403 Client Error: Forbidden for url: https://www.maz-online.de/lokales/ostprignitz-ruppin/neuruppin/krankenhaus-neuruppin-feuer-im-universitaetsklinikum-JNARIBEBGBERXHXCEJBLJW2BDU.html
+[2026-03-28 14:50:48] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (569 Z.)
+[2026-03-28 14:50:49] [enrich] FALSE POSITIVE erkannt: Der Artikel-Link ist unvollständig und enthält keinen verwertbaren Textinhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN einem deutschen Krankenhaus beschrieben wird.
+[2026-03-28 14:50:49] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-28 14:50:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 14:50:49] [DEDUP] Starte Dedup für 344 Einträge
+[2026-03-28 14:50:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 14:50:50] [DEDUP] Auto-Merge (0.83): St.-Elisabeth-Krankenhaus / Eutin ↔ Elisabeth-Krankenhaus / Eutin
+[2026-03-28 14:50:50] [DEDUP] Paare verglichen: 3616
+[2026-03-28 14:50:50] [DEDUP] Auto-Merges: 1
+[2026-03-28 14:50:50] [DEDUP] Kandidaten (unsicher): 154
+[2026-03-28 14:50:50] [DEDUP] Cluster 2x: St.-Elisabeth-Krankenhaus, Elisabeth-Krankenhaus
+[2026-03-28 14:50:50] [DEDUP] Ergebnis: 343 Einträge (war: 344, 1 zusammengeführt)
+[2026-03-28 14:50:50] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
+[2026-03-28 14:50:50] [DEDUP] Gespeichert: 344 → 343 Einträge
