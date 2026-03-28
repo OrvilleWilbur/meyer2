@@ -10685,3 +10685,84 @@
 [2026-03-28 07:53:11] [DEDUP] Ergebnis: 329 Einträge (war: 329, 0 zusammengeführt)
 [2026-03-28 07:53:11] [DEDUP] Kandidaten-Datei: 121 pending, 2 confirmed, 0 rejected
 [2026-03-28 07:53:11] [DEDUP] Gespeichert: 329 → 329 Einträge
+[2026-03-28 08:57:21] === Monitor-Lauf gestartet ===
+[2026-03-28 08:57:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 08:57:23] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 08:57:23] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-28 08:57:24] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 08:57:24] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-28 08:57:24] Feed 'gn_brand_klinik': 19 Einträge
+[2026-03-28 08:57:25] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 08:57:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 08:57:26] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 08:57:26] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-28 08:57:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 08:57:27] 193 relevante Treffer in Feeds
+[2026-03-28 08:57:27] ✅ 9 NEUE Einträge gefunden:
+[2026-03-28 08:57:27]    05.01.2024 | einer Klinik |  | Niedersachsen - Vier Tote bei Brand in einer Klinik - deutsc
+[2026-03-28 08:57:27]    27.01.2026 | Helios Klinikum Pforzheim |  | Brand am Helios Klinikum Pforzheim: Schwurgericht verhandelt
+[2026-03-28 08:57:27]    30.01.2026 | Helios Klinikum |  | Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: 
+[2026-03-28 08:57:27]    29.01.2026 | Helios Klinikum |  | Der Prozessauftakt in Bildern: Tödlichen Brand am Helios Kli
+[2026-03-28 08:57:27]    02.07.2025 | Helios Klinikum Pforzheim |  | Brand am Helios Klinikum Pforzheim: So steht es um den Proze
+[2026-03-28 08:57:27]    30.12.2025 | Helios Klinikum Pforzheim |  | Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant 
+[2026-03-28 08:57:27]    03.05.2023 | Helios Klinikum Pforzheim |  | Fotos vom Tag danach: Ermittlungen zum Brand im Helios Klini
+[2026-03-28 08:57:27]    20.11.2023 | Al-Schifa-Krankenhaus entdeckt |  | Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krank
+[2026-03-28 08:57:27]    06.07.2025 | Mühlacker Klinik |  | Evakuierung von Patienten wegen eines Brandes: Feuerwehr übt
+[2026-03-28 08:57:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 08:57:27] === Monitor-Lauf beendet ===
+
+[2026-03-28 08:57:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 08:57:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 08:57:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 08:57:27] [enrich] 9 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 08:57:27] [enrich] --- Enriche [1/9]: Niedersachsen - Vier Tote bei Brand in einer Klinik - deutsc
+[2026-03-28 08:57:28] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/vier-tote-bei-brand-in-einer-klinik-106.html
+[2026-03-28 08:57:29] [enrich] Volltext extrahiert: 275 Zeichen von https://www.deutschlandfunk.de/vier-tote-bei-brand-in-einer-
+[2026-03-28 08:57:30] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt den Nahostkonflikt und hat keinen Bezug zu einem Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-03-28 08:57:31] [enrich] --- Enriche [2/9]: Brand am Helios Klinikum Pforzheim: Schwurgericht verhandelt
+[2026-03-28 08:57:32] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-Sch
+[2026-03-28 08:57:33] [enrich] Volltext extrahiert: 1262 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Kl
+[2026-03-28 08:57:35] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-28 08:57:36] [enrich] --- Enriche [3/9]: Prozess um tödlichen Brand im Helios Klinikum in Pforzheim: 
+[2026-03-28 08:57:36] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlichen-Brand-im-Helios-
+[2026-03-28 08:57:38] [enrich] Volltext extrahiert: 1285 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Prozess-um-toedlic
+[2026-03-28 08:57:40] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-28 08:57:41] [enrich] --- Enriche [4/9]: Der Prozessauftakt in Bildern: Tödlichen Brand am Helios Kli
+[2026-03-28 08:57:42] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/bildergalerie_fotos,-Der-Prozessauftakt-in-Bildern-Toedli
+[2026-03-28 08:57:42] [enrich] Volltext extrahiert: 388 Zeichen von https://www.pz-news.de/bildergalerie_fotos,-Der-Prozessaufta
+[2026-03-28 08:57:44] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift zu einem Prozessauftakt bezüglich eines Brandes am Helios Klinikum, aber keinen tatsächlichen Artikel mit Informationen zum Brand selbst. Es handelt sich um eine Paywall-Seite ohne Inhalte.
+[2026-03-28 08:57:45] [enrich] --- Enriche [5/9]: Brand am Helios Klinikum Pforzheim: So steht es um den Proze
+[2026-03-28 08:57:45] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-So-
+[2026-03-28 08:57:47] [enrich] Volltext extrahiert: 1249 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Kl
+[2026-03-28 08:57:48] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-28 08:57:49] [enrich] --- Enriche [6/9]: Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant 
+[2026-03-28 08:57:50] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pf
+[2026-03-28 08:57:51] [enrich] Volltext extrahiert: 997 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-i
+[2026-03-28 08:57:53] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-28 08:57:54] [enrich] --- Enriche [7/9]: Fotos vom Tag danach: Ermittlungen zum Brand im Helios Klini
+[2026-03-28 08:57:54] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/bildergalerie_fotos,-Fotos-vom-Tag-danach-Ermittlungen-zu
+[2026-03-28 08:57:56] [enrich] Volltext extrahiert: 332 Zeichen von https://www.pz-news.de/bildergalerie_fotos,-Fotos-vom-Tag-da
+[2026-03-28 08:57:59] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-03-28 08:58:00] [enrich] --- Enriche [8/9]: Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krank
+[2026-03-28 08:58:00] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenh
+[2026-03-28 08:58:01] [enrich] Volltext extrahiert: 275 Zeichen von https://www.deutschlandfunk.de/israelische-armee-tunnel-unte
+[2026-03-28 08:58:02] [enrich] FALSE POSITIVE erkannt: Artikel behandelt den Nahostkonflikt und hat keinen Bezug zu einem Brand in einem deutschen Krankenhaus oder einer Klinik
+[2026-03-28 08:58:03] [enrich] --- Enriche [9/9]: Evakuierung von Patienten wegen eines Brandes: Feuerwehr übt
+[2026-03-28 08:58:03] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/region_artikel,-Evakuierung-von-Patienten-wegen-eines-Bra
+[2026-03-28 08:58:05] [enrich] Volltext extrahiert: 1326 Zeichen von https://www.pz-news.de/region_artikel,-Evakuierung-von-Patie
+[2026-03-28 08:58:06] [enrich] FALSE POSITIVE erkannt: Brandschutzübung/Evakuerungsübung der Feuerwehr, kein echter Brand
+[2026-03-28 08:58:06] [enrich] Ergebnis: 5 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-03-28 08:58:06] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 08:58:06] [DEDUP] Starte Dedup für 338 Einträge
+[2026-03-28 08:58:06] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 08:58:07] [DEDUP] Auto-Merge (0.97): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-28 08:58:07] [DEDUP] Auto-Merge (0.86): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-28 08:58:07] [DEDUP] Auto-Merge (0.86): Helios Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-03-28 08:58:07] [DEDUP] Paare verglichen: 3560
+[2026-03-28 08:58:07] [DEDUP] Auto-Merges: 3
+[2026-03-28 08:58:07] [DEDUP] Kandidaten (unsicher): 147
+[2026-03-28 08:58:07] [DEDUP] Cluster 3x: Helios-Klinikum Pforzheim, Helios Klinikum Pforzheim, Helios Klinikum Pforzheim
+[2026-03-28 08:58:07] [DEDUP] Ergebnis: 336 Einträge (war: 338, 2 zusammengeführt)
+[2026-03-28 08:58:07] [DEDUP] Kandidaten-Datei: 147 pending, 2 confirmed, 0 rejected
+[2026-03-28 08:58:07] [DEDUP] Gespeichert: 338 → 336 Einträge
