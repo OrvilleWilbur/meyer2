@@ -10488,3 +10488,76 @@
 [2026-03-28 05:03:49] [DEDUP] Ergebnis: 324 Einträge (war: 324, 0 zusammengeführt)
 [2026-03-28 05:03:49] [DEDUP] Kandidaten-Datei: 117 pending, 2 confirmed, 0 rejected
 [2026-03-28 05:03:49] [DEDUP] Gespeichert: 324 → 324 Einträge
+[2026-03-28 06:10:22] === Monitor-Lauf gestartet ===
+[2026-03-28 06:10:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 06:10:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 06:10:25] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 06:10:26] Feed 'gn_feuer_krankenhaus': 38 Einträge
+[2026-03-28 06:10:26] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-28 06:10:27] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-28 06:10:27] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 06:10:28] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 06:10:28] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 06:10:29] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-03-28 06:10:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 06:10:30] 206 relevante Treffer in Feeds
+[2026-03-28 06:10:30] ✅ 7 NEUE Einträge gefunden:
+[2026-03-28 06:10:30]    02.06.2025 | Hamburger Klinik |  | Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-28 06:10:30]    06.01.2024 | tödlichem Klinikbrand |  | Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-28 06:10:30]    14.05.2025 |  |  | Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – I
+[2026-03-28 06:10:30]    07.12.2016 | in Klinik |  | Frau in Brand gesteckt: Sie stirbt in Klinik - merkur.de
+[2026-03-28 06:10:30]    28.10.2023 | im Krankenhaus |  | Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtunge
+[2026-03-28 06:10:30]    05.04.2017 | in Klinikum |  | Bombenfund in Klinikum - Evakuierung läuft - merkur.de
+[2026-03-28 06:10:30]    17.03.2011 | von Krankenhaus |  | 14 Patienten sterben nach Evakuierung von Krankenhaus - merk
+[2026-03-28 06:10:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 06:10:30] === Monitor-Lauf beendet ===
+
+[2026-03-28 06:10:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 06:10:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 06:10:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 06:10:30] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 06:10:30] [enrich] --- Enriche [1/7]: Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtig
+[2026-03-28 06:10:31] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-
+[2026-03-28 06:10:32] [enrich] Volltext extrahiert: 4318 Zeichen von https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-
+[2026-03-28 06:10:36] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg
+[2026-03-28 06:10:37] [enrich] --- Enriche [2/7]: Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäus
+[2026-03-28 06:10:37] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/patienten-kritik-klinik-brand-moebelhaeuser-ha
+[2026-03-28 06:10:38] [enrich] Volltext extrahiert: 3733 Zeichen von https://www.merkur.de/deutschland/patienten-kritik-klinik-br
+[2026-03-28 06:10:42] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-28 06:10:43] [enrich] --- Enriche [3/7]: Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – I
+[2026-03-28 06:10:44] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/nordrhein-westfalen/in-psychiatrie-in-nrw-geba
+[2026-03-28 06:10:45] [enrich] Volltext extrahiert: 3927 Zeichen von https://www.merkur.de/deutschland/nordrhein-westfalen/in-psy
+[2026-03-28 06:10:49] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bedburg-Hau (forensische Psychiatrie) in Bedburg-Hau
+[2026-03-28 06:10:50] [enrich] --- Enriche [4/7]: Frau in Brand gesteckt: Sie stirbt in Klinik - merkur.de
+[2026-03-28 06:10:51] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-brand-gesteckt-zr-707
+[2026-03-28 06:10:52] [enrich] Volltext extrahiert: 3496 Zeichen von https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-b
+[2026-03-28 06:10:53] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Anschlag auf eine Person auf offener Straße, bei dem sie angezündet wird. Die Frau wird danach in eine Spezialklinik gebracht, wo sie später an ihren Verbrennungen stirbt. Es handelt sich nicht um einen Brand IN einem Krankenhaus, sondern um die Behandlung eines Brandopfers in einer Klinik.
+[2026-03-28 06:10:54] [enrich] --- Enriche [5/7]: Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtunge
+[2026-03-28 06:10:55] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/news-erfurt-solingen-bombendrohung-schule-eins
+[2026-03-28 06:10:56] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.merkur.de/deutschland/news-erfurt-solingen-bombe
+[2026-03-28 06:10:57] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt Bombendrohungen gegen Schulen. Die Erwähnung des Krankenhauses bezieht sich nur auf die vorsorglich aufgenommenen drei Mädchen nach Kreislaufproblemen während einer Schulevakuierung - nicht auf einen Brand in einem Krankenhaus.
+[2026-03-28 06:10:58] [enrich] --- Enriche [6/7]: Bombenfund in Klinikum - Evakuierung läuft - merkur.de
+[2026-03-28 06:10:58] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik-mainkofen-evakuieru
+[2026-03-28 06:10:59] [enrich] Volltext extrahiert: 823 Zeichen von https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik
+[2026-03-28 06:11:00] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenfund/Bombenentschärfung, nicht wegen Brand
+[2026-03-28 06:11:01] [enrich] --- Enriche [7/7]: 14 Patienten sterben nach Evakuierung von Krankenhaus - merk
+[2026-03-28 06:11:01] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/welt/patienten-sterben-nach-evakuierung-krankenhaus-zr-116
+[2026-03-28 06:11:03] [enrich] Volltext extrahiert: 1141 Zeichen von https://www.merkur.de/welt/patienten-sterben-nach-evakuierun
+[2026-03-28 06:11:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung eines Krankenhauses in Japan nach einem Erdbeben/Tsunami, nicht einen Brand in einem deutschen Krankenhaus. Zudem liegt der Vorfall außerhalb Deutschlands.
+[2026-03-28 06:11:04] [enrich] Ergebnis: 3 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-03-28 06:11:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 06:11:04] [DEDUP] Starte Dedup für 331 Einträge
+[2026-03-28 06:11:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 06:11:04] [DEDUP] Auto-Merge (0.92): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg
+[2026-03-28 06:11:04] [DEDUP] Auto-Merge (0.98): LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau ↔ LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau
+[2026-03-28 06:11:04] [DEDUP] Auto-Merge (0.83): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-28 06:11:04] [DEDUP] Paare verglichen: 3290
+[2026-03-28 06:11:04] [DEDUP] Auto-Merges: 3
+[2026-03-28 06:11:04] [DEDUP] Kandidaten (unsicher): 127
+[2026-03-28 06:11:04] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-03-28 06:11:04] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-03-28 06:11:04] [DEDUP] Cluster 2x: LVR-Klinik Bedburg-Hau (forensische Psyc, LVR-Klinik Bedburg-Hau (forensische Psyc
+[2026-03-28 06:11:04] [DEDUP] Ergebnis: 328 Einträge (war: 331, 3 zusammengeführt)
+[2026-03-28 06:11:04] [DEDUP] Kandidaten-Datei: 127 pending, 2 confirmed, 0 rejected
+[2026-03-28 06:11:04] [DEDUP] Gespeichert: 331 → 328 Einträge

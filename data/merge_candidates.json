@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T05:03:49.947274",
+  "generated_at": "2026-03-28T06:11:04.571060",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -173,6 +173,39 @@
         "",
         ""
       ],
+      "score": 0.788,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.788
+      },
+      "entry_a": {
+        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
+        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "LVR-Klinik Bedburg-Hau (forensische Psychiatrie)",
+        "ort": "Bedburg-Hau",
+        "datum": "10.05.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/nordrhein-westfalen/in-psychiatrie-in-nrw-gebaeude-brennt-polizei-im-grosseinsatz-gefangene-randalieren-93725154.html",
+        "titel": "Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – Insassen stellen sich nach Polizei-Großeinsatz - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.787,
       "details": {
         "datum": 1.0,
@@ -232,6 +265,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.751,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.751
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-drei-tote-und-zahlreiche-verletzte-patienten-haben-um-93762865.html",
+        "titel": "Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtigen fest – wichtige Frage offen - merkur.de"
       }
     },
     {
@@ -645,6 +711,72 @@
         "total": 0.7
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-drei-tote-und-zahlreiche-verletzte-patienten-haben-um-93762865.html",
+        "titel": "Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtigen fest – wichtige Frage offen - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-drei-tote-und-zahlreiche-verletzte-patienten-haben-um-93762865.html",
+        "titel": "Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtigen fest – wichtige Frage offen - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
         "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
         "ort": "Hamburg",
         "datum": "01.06.2025",
@@ -661,6 +793,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/hilfe-gerufen-brand-drama-in-hamburger-klinik-drei-tote-und-zahlreiche-verletzte-patienten-haben-um-93762865.html",
+        "titel": "Tote bei Brand in Hamburger Klinik: Polizei nimmt Verdächtigen fest – wichtige Frage offen - merkur.de"
       }
     },
     {
@@ -925,6 +1090,39 @@
         "status": "enriched",
         "link": "https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik",
         "titel": "Feuer in Ameos Klinik - der reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.68,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.6,
+        "total": 0.68
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "06.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.merkur.de/deutschland/patienten-kritik-klinik-brand-moebelhaeuser-haben-besseren-brandschutz-uelzen-feuer-niedersachen-zr-92761157.html",
+        "titel": "Alarm nach tödlichem Klinikbrand in Uelzen: „Sogar Möbelhäuser haben besseren Brandschutz“ - merkur.de"
       }
     },
     {
@@ -3582,6 +3780,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "28.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/deutschland/news-erfurt-solingen-bombendrohung-schule-einsatz-polizei-motiv-hintergrund-zr-92595866.html",
+        "titel": "Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtungen: Drei Mädchen nach Evakuierung im Krankenhaus - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "28.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/deutschland/news-erfurt-solingen-bombendrohung-schule-einsatz-polizei-motiv-hintergrund-zr-92595866.html",
+        "titel": "Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtungen: Drei Mädchen nach Evakuierung im Krankenhaus - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "fliegenden Krankenhaus",
         "ort": "",
         "datum": "12.05.2024",
@@ -3598,6 +3829,105 @@
         "status": "false_positive",
         "link": "https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafah-flugzeug-gazastreifen-abu-dhabi-kinder",
         "titel": "Evakuierung aus Rafah: Im fliegenden Krankenhaus - zeit.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "07.12.2016",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-brand-gesteckt-zr-7073461.html",
+        "titel": "Frau in Brand gesteckt: Sie stirbt in Klinik - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "07.12.2016",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/deutschland/kiel-frau-auf-strasse-in-brand-gesteckt-zr-7073461.html",
+        "titel": "Frau in Brand gesteckt: Sie stirbt in Klinik - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinikum",
+        "ort": "",
+        "datum": "05.04.2017",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik-mainkofen-evakuierung-laeuft-zr-8103936.html",
+        "titel": "Bombenfund in Klinikum - Evakuierung läuft - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinikum",
+        "ort": "",
+        "datum": "05.04.2017",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/bayern/deggendorf-bombenfund-in-klinik-mainkofen-evakuierung-laeuft-zr-8103936.html",
+        "titel": "Bombenfund in Klinikum - Evakuierung läuft - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "von Krankenhaus",
+        "ort": "",
+        "datum": "17.03.2011",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/welt/patienten-sterben-nach-evakuierung-krankenhaus-zr-1164474.html",
+        "titel": "14 Patienten sterben nach Evakuierung von Krankenhaus - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "von Krankenhaus",
+        "ort": "",
+        "datum": "17.03.2011",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/welt/patienten-sterben-nach-evakuierung-krankenhaus-zr-1164474.html",
+        "titel": "14 Patienten sterben nach Evakuierung von Krankenhaus - merkur.de"
       }
     },
     {
