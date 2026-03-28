@@ -10382,3 +10382,66 @@
 [2026-03-27 23:46:09] [DEDUP] Ergebnis: 320 Einträge (war: 322, 2 zusammengeführt)
 [2026-03-27 23:46:09] [DEDUP] Kandidaten-Datei: 113 pending, 2 confirmed, 0 rejected
 [2026-03-27 23:46:09] [DEDUP] Gespeichert: 322 → 320 Einträge
+[2026-03-28 03:15:32] === Monitor-Lauf gestartet ===
+[2026-03-28 03:15:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 03:15:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 03:15:34] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-03-28 03:15:35] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 03:15:35] Feed 'gn_feuer_klinik': 31 Einträge
+[2026-03-28 03:15:36] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-28 03:15:36] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 03:15:36] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 03:15:37] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-28 03:15:37] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-28 03:15:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 03:15:38] 208 relevante Treffer in Feeds
+[2026-03-28 03:15:38] ✅ 5 NEUE Einträge gefunden:
+[2026-03-28 03:15:38]    26.03.2026 | im Krankenhaus |  | Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Kra
+[2026-03-28 03:15:38]    19.03.2026 | in Klinikum Friedrichstadt |  | Sachsen: Feuerwehr löscht Brand in Klinikum Friedrichstadt -
+[2026-03-28 03:15:38]    04.10.2016 | Uniklinik Bergmannsheil |  | Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - 
+[2026-03-28 03:15:38]    02.12.2025 | Gefängnis-Klinik |  | Der Tag: Feuer in Berliner Gefängnis-Klinik - Evakuierung - 
+[2026-03-28 03:15:38]    20.03.2023 | und Klinik von Evakuierung betroffen |  | Weltkriegsbombe in Berlin: Schulen und Klinik von Evakuierun
+[2026-03-28 03:15:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 03:15:38] === Monitor-Lauf beendet ===
+
+[2026-03-28 03:15:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 03:15:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 03:15:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 03:15:38] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 03:15:38] [enrich] --- Enriche [1/5]: Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Kra
+[2026-03-28 03:15:39] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Mensche
+[2026-03-28 03:15:39] [enrich] Volltext extrahiert: 4471 Zeichen von https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terra
+[2026-03-28 03:15:41] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand an einem Wohnhaus (Terrasse, Schuppen, Dachstuhl), nicht in einem Krankenhaus. Die drei Menschen werden NACH dem Brand ins Krankenhaus gebracht - dies ist eine Einlieferung von Brandopfern, kein Brand im Krankenhaus selbst.
+[2026-03-28 03:15:42] [enrich] --- Enriche [2/5]: Sachsen: Feuerwehr löscht Brand in Klinikum Friedrichstadt -
+[2026-03-28 03:15:42] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/sachsen/Feuerwehr-loescht-Brand-in-Klinikum-Fried
+[2026-03-28 03:15:43] [enrich] Volltext extrahiert: 4981 Zeichen von https://www.n-tv.de/regionales/sachsen/Feuerwehr-loescht-Bra
+[2026-03-28 03:15:46] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-03-28 03:15:47] [enrich] --- Enriche [3/5]: Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - 
+[2026-03-28 03:15:48] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-boch
+[2026-03-28 03:15:48] [enrich] Volltext extrahiert: 2287 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin
+[2026-03-28 03:15:52] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Bergmansheil Bochum in Bochum
+[2026-03-28 03:15:53] [enrich] --- Enriche [4/5]: Der Tag: Feuer in Berliner Gefängnis-Klinik - Evakuierung - 
+[2026-03-28 03:15:53] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/der_tag/Feuer-in-Berliner-Gefaengnis-Klinik-Evakuierung-id30
+[2026-03-28 03:15:53] [enrich] Volltext extrahiert: 1705 Zeichen von https://www.n-tv.de/der_tag/Feuer-in-Berliner-Gefaengnis-Kli
+[2026-03-28 03:15:56] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus der JVA Plötzensee in Berlin-Charlottenburg
+[2026-03-28 03:15:57] [enrich] --- Enriche [5/5]: Weltkriegsbombe in Berlin: Schulen und Klinik von Evakuierun
+[2026-03-28 03:15:57] [enrich] Google News URL aufgelöst (v1): https://berlin.t-online.de/region/berlin/id_100146684/berlin-evakuierung-wegen-w
+[2026-03-28 03:15:58] [enrich] Volltext extrahiert: 4139 Zeichen von https://berlin.t-online.de/region/berlin/id_100146684/berlin
+[2026-03-28 03:16:00] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Weltkriegsbombe), nicht wegen Brand. Der Artikel beschreibt eine Evakuierung aus Sicherheitsgründen bei einer Bombenentschärfung, nicht einen Brand in der Klinik.
+[2026-03-28 03:16:00] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-28 03:16:00] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 03:16:00] [DEDUP] Starte Dedup für 325 Einträge
+[2026-03-28 03:16:00] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 03:16:00] [DEDUP] Auto-Merge (0.97): Krankenhaus der JVA Plötzensee / Berlin-Charlottenbur ↔ Krankenhaus der JVA Plötzensee / Berlin-Charlottenbur
+[2026-03-28 03:16:00] [DEDUP] Auto-Merge (0.89): Uniklinik Bergmansheil Bochum / Bochum ↔ Uniklinik Bergmansheil Bochum / Bochum
+[2026-03-28 03:16:00] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-03-28 03:16:00] [DEDUP] Paare verglichen: 3186
+[2026-03-28 03:16:00] [DEDUP] Auto-Merges: 3
+[2026-03-28 03:16:00] [DEDUP] Kandidaten (unsicher): 118
+[2026-03-28 03:16:00] [DEDUP] Cluster 2x: Krankenhaus der JVA Plötzensee, Krankenhaus der JVA Plötzensee
+[2026-03-28 03:16:00] [DEDUP] Cluster 2x: Uniklinik Bergmansheil Bochum, Uniklinik Bergmansheil Bochum
+[2026-03-28 03:16:01] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-03-28 03:16:01] [DEDUP] Ergebnis: 322 Einträge (war: 325, 3 zusammengeführt)
+[2026-03-28 03:16:01] [DEDUP] Kandidaten-Datei: 118 pending, 2 confirmed, 0 rejected
+[2026-03-28 03:16:01] [DEDUP] Gespeichert: 325 → 322 Einträge
