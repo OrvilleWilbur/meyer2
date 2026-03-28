@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T20:49:23.233045",
+  "generated_at": "2026-03-28T21:44:13.307915",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3318,6 +3318,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - Express"
+      },
+      "entry_b": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - express.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Spezialklinik",
         "ort": "",
         "datum": "02.01.2026",
@@ -3598,6 +3631,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/feuer-elfjaehriger-und-grossmutter-nach-zimmerbrand-im-krankenhaus-dpa.urn-newsml-dpa-com-20090101-260131-930-624389",
         "titel": "Feuer - Elfjähriger und Großmutter nach Zimmerbrand im Krankenhaus - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - Express"
+      },
+      "entry_b": {
+        "einrichtung": "NRW-Klinik verlegt",
+        "ort": "",
+        "datum": "03.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw-klinik-verlegt-1180678",
+        "titel": "Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verlegt - express.de"
       }
     },
     {

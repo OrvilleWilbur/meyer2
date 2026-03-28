@@ -11221,3 +11221,40 @@
 [2026-03-28 20:49:23] [DEDUP] Ergebnis: 346 Einträge (war: 349, 3 zusammengeführt)
 [2026-03-28 20:49:23] [DEDUP] Kandidaten-Datei: 167 pending, 2 confirmed, 0 rejected
 [2026-03-28 20:49:23] [DEDUP] Gespeichert: 349 → 346 Einträge
+[2026-03-28 21:44:02] === Monitor-Lauf gestartet ===
+[2026-03-28 21:44:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 21:44:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 21:44:05] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 21:44:05] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 21:44:06] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-28 21:44:06] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-28 21:44:07] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-28 21:44:07] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 21:44:07] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-28 21:44:08] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-28 21:44:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 21:44:09] 202 relevante Treffer in Feeds
+[2026-03-28 21:44:09] ✅ 1 NEUE Einträge gefunden:
+[2026-03-28 21:44:09]    03.01.2026 | NRW-Klinik verlegt |  | Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-28 21:44:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 21:44:09] === Monitor-Lauf beendet ===
+
+[2026-03-28 21:44:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 21:44:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 21:44:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 21:44:10] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 21:44:10] [enrich] --- Enriche [1/1]: Feuer-Hölle von Crans-Montana: Brandopfer in NRW-Klinik verl
+[2026-03-28 21:44:10] [enrich] Google News URL aufgelöst (v1): https://www.express.de/panorama/feuer-hoelle-von-crans-montana-brandopfer-in-nrw
+[2026-03-28 21:44:11] [enrich] Volltext extrahiert: 4355 Zeichen von https://www.express.de/panorama/feuer-hoelle-von-crans-monta
+[2026-03-28 21:44:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in der Schweiz (Crans-Montana). Deutsche Kliniken nehmen lediglich Brandopfer zur Behandlung auf - es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus/einer Klinik.
+[2026-03-28 21:44:12] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-28 21:44:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 21:44:12] [DEDUP] Starte Dedup für 347 Einträge
+[2026-03-28 21:44:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 21:44:13] [DEDUP] Paare verglichen: 3775
+[2026-03-28 21:44:13] [DEDUP] Auto-Merges: 0
+[2026-03-28 21:44:13] [DEDUP] Kandidaten (unsicher): 169
+[2026-03-28 21:44:13] [DEDUP] Ergebnis: 347 Einträge (war: 347, 0 zusammengeführt)
+[2026-03-28 21:44:13] [DEDUP] Kandidaten-Datei: 169 pending, 2 confirmed, 0 rejected
+[2026-03-28 21:44:13] [DEDUP] Gespeichert: 347 → 347 Einträge
