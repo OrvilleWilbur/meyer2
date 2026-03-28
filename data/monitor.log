@@ -11045,3 +11045,40 @@
 [2026-03-28 16:50:21] [DEDUP] Ergebnis: 343 Einträge (war: 344, 1 zusammengeführt)
 [2026-03-28 16:50:21] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
 [2026-03-28 16:50:21] [DEDUP] Gespeichert: 344 → 343 Einträge
+[2026-03-28 17:45:45] === Monitor-Lauf gestartet ===
+[2026-03-28 17:45:46] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 17:45:47] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 17:45:48] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 17:45:48] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 17:45:49] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-28 17:45:49] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-28 17:45:50] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 17:45:50] Feed 'gn_klinikbrand': 93 Einträge
+[2026-03-28 17:45:51] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 17:45:51] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-03-28 17:45:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 17:45:52] 207 relevante Treffer in Feeds
+[2026-03-28 17:45:52] ✅ 1 NEUE Einträge gefunden:
+[2026-03-28 17:45:52]    08.08.2023 |  |  | Was tun bei einem Waldbrand? - malteser.de
+[2026-03-28 17:45:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 17:45:52] === Monitor-Lauf beendet ===
+
+[2026-03-28 17:45:53] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 17:45:53] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 17:45:53] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 17:45:53] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 17:45:53] [enrich] --- Enriche [1/1]: Was tun bei einem Waldbrand? - malteser.de
+[2026-03-28 17:45:53] [enrich] Google News URL aufgelöst (v1): https://www.malteser.de/aware/hilfreich/was-tun-bei-einem-waldbrand.html
+[2026-03-28 17:45:54] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.malteser.de/aware/hilfreich/was-tun-bei-einem-wa
+[2026-03-28 17:45:56] [enrich] FALSE POSITIVE erkannt: Artikel behandelt Waldbrände und deren Prävention, nicht Brände in Krankenhäusern oder Kliniken
+[2026-03-28 17:45:56] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-28 17:45:56] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 17:45:56] [DEDUP] Starte Dedup für 344 Einträge
+[2026-03-28 17:45:56] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 17:45:56] [DEDUP] Paare verglichen: 3618
+[2026-03-28 17:45:56] [DEDUP] Auto-Merges: 0
+[2026-03-28 17:45:56] [DEDUP] Kandidaten (unsicher): 154
+[2026-03-28 17:45:56] [DEDUP] Ergebnis: 344 Einträge (war: 344, 0 zusammengeführt)
+[2026-03-28 17:45:56] [DEDUP] Kandidaten-Datei: 154 pending, 2 confirmed, 0 rejected
+[2026-03-28 17:45:56] [DEDUP] Gespeichert: 344 → 344 Einträge
