@@ -11158,3 +11158,66 @@
 [2026-03-28 19:44:31] [DEDUP] Ergebnis: 344 Einträge (war: 346, 2 zusammengeführt)
 [2026-03-28 19:44:31] [DEDUP] Kandidaten-Datei: 155 pending, 2 confirmed, 0 rejected
 [2026-03-28 19:44:31] [DEDUP] Gespeichert: 346 → 344 Einträge
+[2026-03-28 20:48:44] === Monitor-Lauf gestartet ===
+[2026-03-28 20:48:45] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 20:48:46] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 20:48:47] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 20:48:47] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-28 20:48:48] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-28 20:48:48] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-28 20:48:48] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 20:48:49] Feed 'gn_klinikbrand': 93 Einträge
+[2026-03-28 20:48:49] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-03-28 20:48:50] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-28 20:48:51] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 20:48:51] 207 relevante Treffer in Feeds
+[2026-03-28 20:48:51] ✅ 5 NEUE Einträge gefunden:
+[2026-03-28 20:48:51]    02.01.2026 | Spezialklinik |  | Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in
+[2026-03-28 20:48:51]    29.01.2026 | in Krankenhaus |  | Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kennt
+[2026-03-28 20:48:51]    16.05.2025 | in Klinikum bald vor Gericht |  | Mann während Feuer ans Bett gefesselt: Tödlicher Brand in Kl
+[2026-03-28 20:48:51]    19.04.2024 | in Krankenhaus |  | Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-28 20:48:51]    06.09.2022 | Asklepios-Klinik |  | Evakuierung Asklepios-Klinik: Keine Verletzen nach Chlorgas-
+[2026-03-28 20:48:51] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 20:48:51] === Monitor-Lauf beendet ===
+
+[2026-03-28 20:48:51] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 20:48:51] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 20:48:51] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 20:48:51] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 20:48:51] [enrich] --- Enriche [1/5]: Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in
+[2026-03-28 20:48:52] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigsh
+[2026-03-28 20:48:55] [enrich] Volltext extrahiert: 3267 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/b
+[2026-03-28 20:48:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in deutschen Kliniken. Der Brand selbst fand nicht in einem deutschen Krankenhaus statt, sondern in einer Bar in der Schweiz. Die deutschen Kliniken sind nur Behandlungsorte für die Opfer, nicht Brandschauplätze.
+[2026-03-28 20:48:58] [enrich] --- Enriche [2/5]: Fixierter Mann stirbt nach Brand in Krankenhaus: Keine Kennt
+[2026-03-28 20:48:58] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/prozess-fixierter-man
+[2026-03-28 20:49:00] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/p
+[2026-03-28 20:49:04] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-28 20:49:05] [enrich] --- Enriche [3/5]: Mann während Feuer ans Bett gefesselt: Tödlicher Brand in Kl
+[2026-03-28 20:49:05] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/hauptverfahren-feuer-
+[2026-03-28 20:49:07] [enrich] Volltext extrahiert: 3259 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/h
+[2026-03-28 20:49:10] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-28 20:49:11] [enrich] --- Enriche [4/5]: Fixierter Patient starb bei Feuer in Krankenhaus: Anklage ge
+[2026-03-28 20:49:11] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/anklage-nach-feuer-in
+[2026-03-28 20:49:14] [enrich] Volltext extrahiert: 3373 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/a
+[2026-03-28 20:49:17] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-03-28 20:49:18] [enrich] --- Enriche [5/5]: Evakuierung Asklepios-Klinik: Keine Verletzen nach Chlorgas-
+[2026-03-28 20:49:18] [enrich] Google News URL aufgelöst (v1): https://www.insuedthueringen.de/inhalt.evakuierung-asklepios-klinik-keine-verlet
+[2026-03-28 20:49:20] [enrich] Volltext extrahiert: 1106 Zeichen von https://www.insuedthueringen.de/inhalt.evakuierung-asklepios
+[2026-03-28 20:49:22] [enrich] Enrichment abgeschlossen: enriched — Asklepios-Parkklinik in Bad Salzungen
+[2026-03-28 20:49:22] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-28 20:49:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 20:49:22] [DEDUP] Starte Dedup für 349 Einträge
+[2026-03-28 20:49:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 20:49:23] [DEDUP] Auto-Merge (1.00): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios-Klinikum Pforzheim / Pforzheim
+[2026-03-28 20:49:23] [DEDUP] Auto-Merge (1.00): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios-Klinikum Pforzheim / Pforzheim
+[2026-03-28 20:49:23] [DEDUP] Auto-Merge (1.00): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios-Klinikum Pforzheim / Pforzheim
+[2026-03-28 20:49:23] [DEDUP] Auto-Merge (1.00): Asklepios-Parkklinik / Bad Salzungen ↔ Asklepios-Parkklinik / Bad Salzungen
+[2026-03-28 20:49:23] [DEDUP] Paare verglichen: 3705
+[2026-03-28 20:49:23] [DEDUP] Auto-Merges: 4
+[2026-03-28 20:49:23] [DEDUP] Kandidaten (unsicher): 167
+[2026-03-28 20:49:23] [DEDUP] Cluster 3x: Helios-Klinikum Pforzheim, Helios-Klinikum Pforzheim, Helios-Klinikum Pforzheim
+[2026-03-28 20:49:23] [DEDUP] Cluster 2x: Asklepios-Parkklinik, Asklepios-Parkklinik
+[2026-03-28 20:49:23] [DEDUP] Ergebnis: 346 Einträge (war: 349, 3 zusammengeführt)
+[2026-03-28 20:49:23] [DEDUP] Kandidaten-Datei: 167 pending, 2 confirmed, 0 rejected
+[2026-03-28 20:49:23] [DEDUP] Gespeichert: 349 → 346 Einträge
