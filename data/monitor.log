@@ -10643,3 +10643,45 @@
 [2026-03-28 07:14:13] [DEDUP] Ergebnis: 327 Einträge (war: 335, 8 zusammengeführt)
 [2026-03-28 07:14:13] [DEDUP] Kandidaten-Datei: 128 pending, 2 confirmed, 0 rejected
 [2026-03-28 07:14:13] [DEDUP] Gespeichert: 335 → 327 Einträge
+[2026-03-28 07:52:57] === Monitor-Lauf gestartet ===
+[2026-03-28 07:52:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 07:53:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 07:53:00] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-28 07:53:01] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-03-28 07:53:01] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-03-28 07:53:01] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-28 07:53:02] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 07:53:02] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 07:53:03] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 07:53:03] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-03-28 07:53:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 07:53:04] 203 relevante Treffer in Feeds
+[2026-03-28 07:53:04] ✅ 2 NEUE Einträge gefunden:
+[2026-03-28 07:53:04]    02.01.2026 | Unfallkrankenhaus nimmt Opfer aus Crans |  | Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt 
+[2026-03-28 07:53:04]    02.02.2026 | löst Krankenhausevakuierung aus |  | Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus 
+[2026-03-28 07:53:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 07:53:04] === Monitor-Lauf beendet ===
+
+[2026-03-28 07:53:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 07:53:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 07:53:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 07:53:05] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 07:53:05] [enrich] --- Enriche [1/2]: Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt 
+[2026-03-28 07:53:05] [enrich] Google News URL aufgelöst (v1): https://www.berliner-zeitung.de/news/berliner-unfallkrankenhaus-nimmt-brandopfer
+[2026-03-28 07:53:06] [enrich] Volltext extrahiert: 1180 Zeichen von https://www.berliner-zeitung.de/news/berliner-unfallkrankenh
+[2026-03-28 07:53:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana). Das Berliner Unfallkrankenhaus nimmt lediglich Brandopfer zur Behandlung auf, es findet aber kein Brand im Krankenhaus selbst statt. Dies fällt nicht unter die Definition eines Krankenhausbrands in Deutschland.
+[2026-03-28 07:53:09] [enrich] --- Enriche [2/2]: Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus 
+[2026-03-28 07:53:09] [enrich] Google News URL aufgelöst (v1): https://www.lessentiel.lu/de/story/frankreich-weltkriegsgranate-in-rektum-loest-
+[2026-03-28 07:53:09] [enrich] Volltext extrahiert: 2383 Zeichen von https://www.lessentiel.lu/de/story/frankreich-weltkriegsgran
+[2026-03-28 07:53:11] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung eines französischen Krankenhauses wegen eines verdächtigen Gegenstandes (Weltkriegsgranate), nicht wegen eines Brandes. Zudem handelt es sich um ein Krankenhaus in Frankreich, nicht in Deutschland.
+[2026-03-28 07:53:11] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-28 07:53:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 07:53:11] [DEDUP] Starte Dedup für 329 Einträge
+[2026-03-28 07:53:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 07:53:11] [DEDUP] Paare verglichen: 3424
+[2026-03-28 07:53:11] [DEDUP] Auto-Merges: 0
+[2026-03-28 07:53:11] [DEDUP] Kandidaten (unsicher): 121
+[2026-03-28 07:53:11] [DEDUP] Ergebnis: 329 Einträge (war: 329, 0 zusammengeführt)
+[2026-03-28 07:53:11] [DEDUP] Kandidaten-Datei: 121 pending, 2 confirmed, 0 rejected
+[2026-03-28 07:53:11] [DEDUP] Gespeichert: 329 → 329 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T07:14:13.425809",
+  "generated_at": "2026-03-28T07:53:11.637833",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -74,39 +74,6 @@
         "",
         ""
       ],
-      "score": 0.796,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.796
-      },
-      "entry_a": {
-        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
-        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
-      },
-      "entry_b": {
-        "einrichtung": "LVR-Klinik Bedburg-Hau (forensische Psychiatrie)",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/kriminalitaet/id_100716138/bedburg-hau-sek-einsatz-in-psychiatrie-feuer-und-randale.html",
-        "titel": "Feuer und Randale in Psychiatrie: Gefangene lösen SEK-Einsatz aus - t-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.794,
       "details": {
         "datum": 1.0,
@@ -173,39 +140,6 @@
         "",
         ""
       ],
-      "score": 0.792,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 1.0,
-        "total": 0.792
-      },
-      "entry_a": {
-        "einrichtung": "Sonnenbergklinik",
-        "ort": "Saarbrücken",
-        "datum": "03.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
-        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
-        "ort": "Saarbrücken",
-        "datum": "03.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/ungluecke/id_100941370/saarbruecken-20-verletzte-bei-feuer-in-krankenhaus.html",
-        "titel": "Im Saarland: Verletzte bei Feuer in Krankenhaus - t-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.788,
       "details": {
         "datum": 1.0,
@@ -232,39 +166,6 @@
         "status": "enriched",
         "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
         "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.787,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.5,
-        "total": 0.787
-      },
-      "entry_a": {
-        "einrichtung": "Sonnenbergklinik",
-        "ort": "Saarbrücken",
-        "datum": "03.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
-        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Saarbrücken (Hauptgebäude)",
-        "ort": "Saarbrücken",
-        "datum": "03.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.krone.at/3917917",
-        "titel": "Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, viele Verletzte - krone.at"
       }
     },
     {
@@ -397,39 +298,6 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.718,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.5,
-        "total": 0.718
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
-        "ort": "Saarbrücken",
-        "datum": "04.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
-        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Saarbrücken (Hauptgebäude)",
-        "ort": "Saarbrücken",
-        "datum": "03.10.2025",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.krone.at/3917917",
-        "titel": "Rauchgasvergiftungen - Großbrand in Klinik: Evakuierung, viele Verletzte - krone.at"
       }
     },
     {
@@ -932,39 +800,6 @@
         "",
         ""
       ],
-      "score": 0.697,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.697
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
-        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - t-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.691,
       "details": {
         "datum": 1.0,
@@ -1196,39 +1031,6 @@
         "",
         ""
       ],
-      "score": 0.67,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.4,
-        "total": 0.67
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.feuerwehrmagazin.de/presseblog/brand-in-klinikum-125652",
-        "titel": "Brand in Klinikum - feuerwehrmagazin.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.667,
       "details": {
         "datum": 0.0,
@@ -1420,105 +1222,6 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - t-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - t-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.655,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.655
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_100748170/hamburg-brand-in-marienkrankenhaus-drei-tote-mehr-als-50-verletzte.html",
-        "titel": "Brand in Hamburger Klinik – drei Tote und über 50 Verletzte - t-online.de"
       }
     },
     {
@@ -2047,6 +1750,39 @@
         "status": "false_positive",
         "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
         "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "löst Krankenhausevakuierung aus",
+        "ort": "",
+        "datum": "02.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.lessentiel.lu/de/story/frankreich-weltkriegsgranate-in-rektum-loest-krankenhausevakuierung-aus-103498475",
+        "titel": "Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus - L'essentiel"
+      },
+      "entry_b": {
+        "einrichtung": "löst Krankenhausevakuierung aus",
+        "ort": "",
+        "datum": "02.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.lessentiel.lu/de/story/frankreich-weltkriegsgranate-in-rektum-loest-krankenhausevakuierung-aus-103498475",
+        "titel": "Weltkriegsgranate in Rektum löst Krankenhausevakuierung aus - lessentiel.lu"
       }
     },
     {
@@ -2905,6 +2641,39 @@
         "status": "false_positive",
         "link": "https://www.mz.de/lokal/halle-saale/brandkatastrophe-bar-schweiz-crans-montana-schwerstverletzte-bergmannstrost-4174542",
         "titel": "Nach Brandkatastrophe in Schweiz: Spezialklinik in Halle behandelt Opfer der Brandkatastrophe - mz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Opfer aus Crans",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.berliner-zeitung.de/news/berliner-unfallkrankenhaus-nimmt-brandopfer-aus-crans-montana-auf-li.10012440",
+        "titel": "Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt Opfer aus Crans-Montana auf - Berliner Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Opfer aus Crans",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.berliner-zeitung.de/news/berliner-unfallkrankenhaus-nimmt-brandopfer-aus-crans-montana-auf-li.10012440",
+        "titel": "Brand in Schweizer Skiort: Berliner Unfallkrankenhaus nimmt Opfer aus Crans-Montana auf - berliner-zeitung.de"
       }
     },
     {
