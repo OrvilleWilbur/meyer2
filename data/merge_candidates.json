@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T03:16:01.001722",
+  "generated_at": "2026-03-28T05:03:49.947274",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1552,39 +1552,6 @@
         "status": "enriched",
         "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
         "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.588,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.75,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.588
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - faz.net"
       }
     },
     {
@@ -3186,6 +3153,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Bethanien-Krankenhaus",
+        "ort": "",
+        "datum": "16.11.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moers-koennte-evakuierung-drohen-1213801",
+        "titel": "Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - Radio K.W."
+      },
+      "entry_b": {
+        "einrichtung": "Bethanien-Krankenhaus",
+        "ort": "",
+        "datum": "16.11.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moers-koennte-evakuierung-drohen-1213801",
+        "titel": "Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - radiokw.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Krankenhaus",
         "ort": "",
         "datum": "07.01.2024",
@@ -3763,39 +3763,6 @@
         "status": "enriched",
         "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
         "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.483,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.483
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-ueber-den-brand-wissen-a-1114706.html",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - faz.net"
       }
     },
     {

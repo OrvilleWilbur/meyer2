@@ -10445,3 +10445,46 @@
 [2026-03-28 03:16:01] [DEDUP] Ergebnis: 322 Einträge (war: 325, 3 zusammengeführt)
 [2026-03-28 03:16:01] [DEDUP] Kandidaten-Datei: 118 pending, 2 confirmed, 0 rejected
 [2026-03-28 03:16:01] [DEDUP] Gespeichert: 325 → 322 Einträge
+[2026-03-28 05:03:39] === Monitor-Lauf gestartet ===
+[2026-03-28 05:03:40] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-28 05:03:40] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-28 05:03:41] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-28 05:03:41] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-03-28 05:03:41] Feed 'gn_feuer_klinik': 31 Einträge
+[2026-03-28 05:03:42] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-28 05:03:42] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-28 05:03:43] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-28 05:03:43] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-28 05:03:43] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-03-28 05:03:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-28 05:03:44] 201 relevante Treffer in Feeds
+[2026-03-28 05:03:44] ✅ 2 NEUE Einträge gefunden:
+[2026-03-28 05:03:44]    17.02.2026 | im Klinikum Wahrendorff |  | Brand im Klinikum Wahrendorff in Köthenwald löst Großeinsatz
+[2026-03-28 05:03:44]    16.11.2025 | Bethanien-Krankenhaus |  | Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - r
+[2026-03-28 05:03:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-28 05:03:44] === Monitor-Lauf beendet ===
+
+[2026-03-28 05:03:45] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-28 05:03:45] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-28 05:03:45] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-28 05:03:45] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-28 05:03:45] [enrich] --- Enriche [1/2]: Brand im Klinikum Wahrendorff in Köthenwald löst Großeinsatz
+[2026-03-28 05:03:45] [enrich] Google News URL aufgelöst (v1): https://www.haz.de/lokales/umland/sehnde/brand-im-klinikum-wahrendorff-in-koethe
+[2026-03-28 05:03:45] [enrich] Artikel-Fetch fehlgeschlagen für https://www.haz.de/lokales/umland/sehnde/brand-im-klinikum-wahrendorff-in-koethe: 403 Client Error: Forbidden for url: https://www.haz.de/lokales/umland/sehnde/brand-im-klinikum-wahrendorff-in-koethenwald-loest-grosseinsatz-aus-elf-menschen-verletzt-PLQPEJ27HVHDDH76BQVWAFSV4Q.html
+[2026-03-28 05:03:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (598 Z.)
+[2026-03-28 05:03:46] [enrich] FALSE POSITIVE erkannt: Der Artikeltext ist nicht vollständig vorhanden - nur die Überschrift und eine defekte URL sind sichtbar. Eine vollständige Bewertung des Inhalts ist nicht möglich.
+[2026-03-28 05:03:47] [enrich] --- Enriche [2/2]: Bethanien-Krankenhaus in Moers könnte Evakuierung drohen - r
+[2026-03-28 05:03:48] [enrich] Google News URL aufgelöst (v1): https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moers-koennte-evakuierun
+[2026-03-28 05:03:48] [enrich] Volltext extrahiert: 738 Zeichen von https://www.radiokw.de/artikel/bethanien-krankenhaus-in-moer
+[2026-03-28 05:03:49] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Verdacht auf Kampfmittelaltlasten während Bauarbeiten, nicht wegen Brand
+[2026-03-28 05:03:49] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-28 05:03:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-28 05:03:49] [DEDUP] Starte Dedup für 324 Einträge
+[2026-03-28 05:03:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-28 05:03:49] [DEDUP] Paare verglichen: 3267
+[2026-03-28 05:03:49] [DEDUP] Auto-Merges: 0
+[2026-03-28 05:03:49] [DEDUP] Kandidaten (unsicher): 117
+[2026-03-28 05:03:49] [DEDUP] Ergebnis: 324 Einträge (war: 324, 0 zusammengeführt)
+[2026-03-28 05:03:49] [DEDUP] Kandidaten-Datei: 117 pending, 2 confirmed, 0 rejected
+[2026-03-28 05:03:49] [DEDUP] Gespeichert: 324 → 324 Einträge
