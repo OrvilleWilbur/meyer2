@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T23:46:36.715379",
+  "generated_at": "2026-03-29T03:34:58.510000",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1757,14 +1757,14 @@
         "",
         ""
       ],
-      "score": 0.661,
+      "score": 0.662,
       "details": {
         "datum": 0.0,
         "ort": 1.0,
         "einrichtung": 1.0,
         "bundesland": 1.0,
-        "brandort": 0.21428571428571427,
-        "total": 0.661
+        "brandort": 0.23076923076923078,
+        "total": 0.662
       },
       "entry_a": {
         "einrichtung": "Helios Klinikum Uelzen",
@@ -1778,11 +1778,11 @@
       "entry_b": {
         "einrichtung": "Helios Klinikum Uelzen",
         "ort": "Uelzen",
-        "datum": "04.01.2024",
+        "datum": "05.01.2024",
         "bundesland": "Niedersachsen",
         "status": "enriched",
-        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/vier-tote-nach-brand-im-helios-klinikum-uelzen-51308",
-        "titel": "Niedersachsen: Vier Tote nach Brand im Helios Klinikum Uelzen - kma-online.de"
+        "link": "https://www.welt.de/vermischtes/article249366216/Uelzen-Fuenf-Tote-und-viele-Verletzte-nach-Brand-in-Helios-Klinikum.html",
+        "titel": "Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios Klinikum - welt.de"
       }
     },
     {
@@ -3153,6 +3153,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Bielefelder Klinikum aus",
+        "ort": "",
+        "datum": "03.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46e8f3d2/kabeldiebe-loesen-brand-am-bielefelder-klinikum-aus.html",
+        "titel": "Kabeldiebe lösen Brand am Bielefelder Klinikum aus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Bielefelder Klinikum aus",
+        "ort": "",
+        "datum": "03.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46e8f3d2/kabeldiebe-loesen-brand-am-bielefelder-klinikum-aus.html",
+        "titel": "Kabeldiebe lösen Brand am Bielefelder Klinikum aus - welt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "26.03.2026",
@@ -4143,6 +4176,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "unbekannt",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "unbekannt",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - welt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "02.12.2025",
@@ -4159,6 +4225,39 @@
         "status": "false_positive",
         "link": "https://www.gn-online.de/niedersachsen/brand-auf-schiff-kapitaen-meyer-arbeiter-im-krankenhaus-594395.html",
         "titel": "Brand auf Schiff „Kapitän Meyer“ - Arbeiter im Krankenhaus - GN-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "nicht spezifiziert",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "unbekannt",
+        "datum": "19.12.2025",
+        "bundesland": "unbekannt",
+        "status": "partial",
+        "link": "https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheerender-klinik-brand-psychiatrie-statt-gefaengnis-so-urteilt-das-gericht-ueber-den-brandstifter-vom-marienkrankenhaus.html",
+        "titel": "Psychiatrie statt Gefängnis – so urteilt das Gericht über den Brandstifter vom Marienkrankenhaus - welt.de"
       }
     },
     {
@@ -5182,6 +5281,39 @@
         "status": "false_positive",
         "link": "https://www.zeit.de/politik/ausland/2024-05/evakuierung-rafah-flugzeug-gazastreifen-abu-dhabi-kinder",
         "titel": "Evakuierung aus Rafah: Im fliegenden Krankenhaus - zeit.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Stiftungsklinik Weißenhorn",
+        "ort": "",
+        "datum": "02.06.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hochwassergefahr-so-lief-die-evakuierung-der-stiftungsklinik-weissenhorn-id70947736.html",
+        "titel": "Hochwassergefahr: So lief die Evakuierung der Stiftungsklinik Weißenhorn - Augsburger Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Stiftungsklinik Weißenhorn",
+        "ort": "",
+        "datum": "02.06.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hochwassergefahr-so-lief-die-evakuierung-der-stiftungsklinik-weissenhorn-id70947736.html",
+        "titel": "Hochwassergefahr: So lief die Evakuierung der Stiftungsklinik Weißenhorn - augsburger-allgemeine.de"
       }
     },
     {

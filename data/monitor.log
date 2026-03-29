@@ -11327,3 +11327,72 @@
 [2026-03-28 23:46:36] [DEDUP] Ergebnis: 347 Einträge (war: 348, 1 zusammengeführt)
 [2026-03-28 23:46:36] [DEDUP] Kandidaten-Datei: 170 pending, 2 confirmed, 0 rejected
 [2026-03-28 23:46:36] [DEDUP] Gespeichert: 348 → 347 Einträge
+[2026-03-29 03:34:20] === Monitor-Lauf gestartet ===
+[2026-03-29 03:34:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-29 03:34:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-29 03:34:23] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-03-29 03:34:23] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-03-29 03:34:24] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-03-29 03:34:24] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-29 03:34:25] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-03-29 03:34:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-29 03:34:26] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-29 03:34:26] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-29 03:34:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-29 03:34:27] 204 relevante Treffer in Feeds
+[2026-03-29 03:34:27] ✅ 7 NEUE Einträge gefunden:
+[2026-03-29 03:34:27]    01.06.2025 |  |  | Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-29 03:34:27]    19.12.2025 | Marienkrankenhaus |  | Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-29 03:34:27]    07.04.2025 | im Krankenhaus |  | Großeinsatz der Feuerwehr in Hettstedt: Zwei Bewohner im Kra
+[2026-03-29 03:34:27]    31.05.2025 | einer Klinik |  | Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-29 03:34:27]    03.03.2026 | Bielefelder Klinikum aus |  | Kabeldiebe lösen Brand am Bielefelder Klinikum aus - welt.de
+[2026-03-29 03:34:27]    05.01.2024 | Helios Klinikum |  | Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios K
+[2026-03-29 03:34:27]    02.06.2024 | Stiftungsklinik Weißenhorn |  | Hochwassergefahr: So lief die Evakuierung der Stiftungsklini
+[2026-03-29 03:34:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-29 03:34:27] === Monitor-Lauf beendet ===
+
+[2026-03-29 03:34:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-29 03:34:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-29 03:34:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-29 03:34:28] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-29 03:34:28] [enrich] --- Enriche [1/7]: Krankenhaus-Brand mit drei Toten – „Es waren dramatische Zus
+[2026-03-29 03:34:28] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194958/hamburg-krankenhaus-brand-mit-dre
+[2026-03-29 03:34:29] [enrich] Volltext zu kurz/leer (126 Z.), verwende RSS-Snippet (527 Z.)
+[2026-03-29 03:34:31] [enrich] FALSE POSITIVE erkannt: Der Artikel ist nur eine Schlagzeile/Überschrift ohne Artikel-Inhalt. Es können keine Details zum Brand extrahiert werden, um zu verifizieren, ob es sich um einen Brand IN einem deutschen Krankenhaus handelt oder um einen anderen Kontext (z.B. Brandopfer im Krankenhaus behandelt).
+[2026-03-29 03:34:32] [enrich] --- Enriche [2/7]: Psychiatrie statt Gefängnis – so urteilt das Gericht über de
+[2026-03-29 03:34:32] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/hamburg/article6942cece92f621656f7918fe/verheeren
+[2026-03-29 03:34:33] [enrich] Volltext zu kurz/leer (108 Z.), verwende RSS-Snippet (607 Z.)
+[2026-03-29 03:34:35] [enrich] Enrichment abgeschlossen: partial — Marienkrankenhaus in 
+[2026-03-29 03:34:36] [enrich] --- Enriche [3/7]: Großeinsatz der Feuerwehr in Hettstedt: Zwei Bewohner im Kra
+[2026-03-29 03:34:36] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/feuer-wohnungsbrand
+[2026-03-29 03:34:39] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld
+[2026-03-29 03:34:40] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Mehrfamilienhaus/Wohnhaus in Hettstedt, nicht in einem Krankenhaus. Zwei Bewohner wurden nach dem Brand ins Krankenhaus gebracht, was aber kein Krankenhausbrand ist.
+[2026-03-29 03:34:41] [enrich] --- Enriche [4/7]: Brand in einer Klinik – Mindestens drei Patienten sterben - 
+[2026-03-29 03:34:41] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256194796/hamburg-brand-in-einer-klinik-min
+[2026-03-29 03:34:42] [enrich] Volltext zu kurz/leer (126 Z.), verwende RSS-Snippet (496 Z.)
+[2026-03-29 03:34:44] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne konkrete Informationen. Es ist unklar, ob es sich um einen Brand in einem deutschen Krankenhaus handelt, wo dieser stattfand, oder ob weitere Details verfügbar sind. Eine verlässliche Klassifizierung ist nicht möglich.
+[2026-03-29 03:34:45] [enrich] --- Enriche [5/7]: Kabeldiebe lösen Brand am Bielefelder Klinikum aus - welt.de
+[2026-03-29 03:34:45] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46e8f3d2/kabeldiebe-lo
+[2026-03-29 03:34:46] [enrich] Volltext extrahiert: 1613 Zeichen von https://www.welt.de/regionales/nrw/article69a6fcc1e2363d4e46
+[2026-03-29 03:34:47] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich auf einer Baustelle des Klinikums, nicht im Krankenhaus selbst. Der Brand war Folge eines Kabeldiebstahls auf dem Außengelände/der Baustelle.
+[2026-03-29 03:34:48] [enrich] --- Enriche [6/7]: Uelzen: Fünf Tote und viele Verletzte nach Brand in Helios K
+[2026-03-29 03:34:49] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/article249366216/Uelzen-Fuenf-Tote-und-viele-Ver
+[2026-03-29 03:34:50] [enrich] Volltext extrahiert: 4939 Zeichen von https://www.welt.de/vermischtes/article249366216/Uelzen-Fuen
+[2026-03-29 03:34:54] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-03-29 03:34:55] [enrich] --- Enriche [7/7]: Hochwassergefahr: So lief die Evakuierung der Stiftungsklini
+[2026-03-29 03:34:56] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hochwassergefahr-so-lie
+[2026-03-29 03:34:57] [enrich] Volltext extrahiert: 264 Zeichen von https://www.augsburger-allgemeine.de/neu-ulm/weissenhorn-hoc
+[2026-03-29 03:34:58] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Hochwassergefahr, nicht wegen Brand
+[2026-03-29 03:34:58] [enrich] Ergebnis: 1 enriched, 1 partial, 5 false_positive, 0 failed
+[2026-03-29 03:34:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-29 03:34:58] [DEDUP] Starte Dedup für 354 Einträge
+[2026-03-29 03:34:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-29 03:34:58] [DEDUP] Auto-Merge (0.95): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-03-29 03:34:58] [DEDUP] Paare verglichen: 3919
+[2026-03-29 03:34:58] [DEDUP] Auto-Merges: 1
+[2026-03-29 03:34:58] [DEDUP] Kandidaten (unsicher): 174
+[2026-03-29 03:34:58] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-03-29 03:34:58] [DEDUP] Ergebnis: 353 Einträge (war: 354, 1 zusammengeführt)
+[2026-03-29 03:34:58] [DEDUP] Kandidaten-Datei: 174 pending, 2 confirmed, 0 rejected
+[2026-03-29 03:34:58] [DEDUP] Gespeichert: 354 → 353 Einträge
