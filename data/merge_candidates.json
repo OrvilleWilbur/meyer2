@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T09:52:54.228158",
+  "generated_at": "2026-03-29T10:53:12.571694",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -166,39 +166,6 @@
         "status": "enriched",
         "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
         "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.787,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.06666666666666667,
-        "total": 0.787
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinikum Homburg (UKS)",
-        "ort": "Homburg",
-        "datum": "09.11.2024",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.saarbruecker-zeitung.de/blaulicht/brand-am-uniklinikum-homburg-polizei-geht-von-brandstiftung-aus_aid-120942859",
-        "titel": "Feuerwehr im Einsatz: Feuer am Uniklinikum Homburg: Polizei geht von Brandstiftung aus (mit Fotos) - Saarbrücker Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum des Saarlandes (Uniklinik Homburg), Gebäude 91",
-        "ort": "Homburg",
-        "datum": "09.11.2024",
-        "bundesland": "Saarland",
-        "status": "enriched",
-        "link": "https://www.rheinpfalz.de/lokal/zweibruecken_artikel,-brandstiftung-feuer-an-uniklinik-richtet-hohen-schaden-an-_arid,5711640.html",
-        "titel": "Brandstiftung? Feuer an Uniklinik richtet hohen Schaden an - Homburg - Die Rheinpfalz"
       }
     },
     {
