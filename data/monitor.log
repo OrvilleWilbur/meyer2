@@ -11465,3 +11465,40 @@
 [2026-03-29 07:19:43] [DEDUP] Ergebnis: 353 Einträge (war: 353, 0 zusammengeführt)
 [2026-03-29 07:19:43] [DEDUP] Kandidaten-Datei: 173 pending, 2 confirmed, 0 rejected
 [2026-03-29 07:19:43] [DEDUP] Gespeichert: 353 → 353 Einträge
+[2026-03-29 08:58:11] === Monitor-Lauf gestartet ===
+[2026-03-29 08:58:12] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-29 08:58:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-29 08:58:14] Feed 'gn_brand_krankenhaus': 41 Einträge
+[2026-03-29 08:58:14] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-29 08:58:15] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-29 08:58:15] Feed 'gn_brand_klinik': 49 Einträge
+[2026-03-29 08:58:15] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-03-29 08:58:16] Feed 'gn_klinikbrand': 99 Einträge
+[2026-03-29 08:58:16] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-03-29 08:58:17] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-03-29 08:58:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-29 08:58:18] 207 relevante Treffer in Feeds
+[2026-03-29 08:58:18] ✅ 1 NEUE Einträge gefunden:
+[2026-03-29 08:58:18]    11.11.2024 | Uniklinik richtet hohen Schaden an |  | Brandstiftung? Feuer an Uniklinik richtet hohen Schaden an -
+[2026-03-29 08:58:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-29 08:58:18] === Monitor-Lauf beendet ===
+
+[2026-03-29 08:58:18] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-29 08:58:18] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-29 08:58:18] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-29 08:58:18] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-29 08:58:18] [enrich] --- Enriche [1/1]: Brandstiftung? Feuer an Uniklinik richtet hohen Schaden an -
+[2026-03-29 08:58:19] [enrich] Google News URL aufgelöst (v1): https://www.rheinpfalz.de/lokal/zweibruecken_artikel,-brandstiftung-feuer-an-uni
+[2026-03-29 08:58:21] [enrich] Volltext extrahiert: 1656 Zeichen von https://www.rheinpfalz.de/lokal/zweibruecken_artikel,-brands
+[2026-03-29 08:58:24] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum des Saarlandes (Uniklinik Homburg), Gebäude 91 in Homburg
+[2026-03-29 08:58:24] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-29 08:58:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-29 08:58:24] [DEDUP] Starte Dedup für 354 Einträge
+[2026-03-29 08:58:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-29 08:58:25] [DEDUP] Paare verglichen: 3918
+[2026-03-29 08:58:25] [DEDUP] Auto-Merges: 0
+[2026-03-29 08:58:25] [DEDUP] Kandidaten (unsicher): 174
+[2026-03-29 08:58:25] [DEDUP] Ergebnis: 354 Einträge (war: 354, 0 zusammengeführt)
+[2026-03-29 08:58:25] [DEDUP] Kandidaten-Datei: 174 pending, 2 confirmed, 0 rejected
+[2026-03-29 08:58:25] [DEDUP] Gespeichert: 354 → 354 Einträge
