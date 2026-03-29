@@ -11648,3 +11648,73 @@
 [2026-03-29 13:19:36] [DEDUP] Ergebnis: 354 Einträge (war: 355, 1 zusammengeführt)
 [2026-03-29 13:19:36] [DEDUP] Kandidaten-Datei: 173 pending, 2 confirmed, 0 rejected
 [2026-03-29 13:19:36] [DEDUP] Gespeichert: 355 → 354 Einträge
+[2026-03-29 14:52:01] === Monitor-Lauf gestartet ===
+[2026-03-29 14:52:02] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-29 14:52:04] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-29 14:52:05] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-29 14:52:05] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-03-29 14:52:05] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-29 14:52:06] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-29 14:52:06] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-03-29 14:52:07] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-29 14:52:07] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-29 14:52:08] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-03-29 14:52:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-29 14:52:09] 208 relevante Treffer in Feeds
+[2026-03-29 14:52:09] ✅ 6 NEUE Einträge gefunden:
+[2026-03-29 14:52:09]    25.10.2021 | Uniklinik |  | Zigarettenkippe Ursache für Feuer an Uniklinik - giessener-a
+[2026-03-29 14:52:09]    25.03.2026 | Universitätsklinikums Münster |  | Brand im alten Kreißsaal des Universitätsklinikums Münster -
+[2026-03-29 14:52:09]    24.10.2021 | Uniklinik Gießen |  | Brand an der Uniklinik Gießen: Chirurgische Station gesperrt
+[2026-03-29 14:52:09]    26.10.2021 | Uniklinik |  | Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – P
+[2026-03-29 14:52:09]    17.06.2025 |  |  | Evakuierung: Klinik Königsfeld in acht Minuten geräumt - wp.
+[2026-03-29 14:52:09]    31.08.2023 | im Krankenhaus |  | Gebäude nach Explosion in der Altstadt von Salzwedel evakuie
+[2026-03-29 14:52:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-29 14:52:09] === Monitor-Lauf beendet ===
+
+[2026-03-29 14:52:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-29 14:52:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-29 14:52:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-29 14:52:10] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-29 14:52:10] [enrich] --- Enriche [1/6]: Zigarettenkippe Ursache für Feuer an Uniklinik - giessener-a
+[2026-03-29 14:52:11] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-a
+[2026-03-29 14:52:12] [enrich] Volltext extrahiert: 1859 Zeichen von https://www.giessener-allgemeine.de/giessen/zigarettenkippe-
+[2026-03-29 14:52:16] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen/Marburg (UKGM) in Gießen
+[2026-03-29 14:52:17] [enrich] --- Enriche [2/6]: Brand im alten Kreißsaal des Universitätsklinikums Münster -
+[2026-03-29 14:52:17] [enrich] Google News URL aufgelöst (v1): https://www.die-glocke.de/regionales/artikel/brand-im-alten-kreisssaal-des-unive
+[2026-03-29 14:52:20] [enrich] Volltext extrahiert: 1636 Zeichen von https://www.die-glocke.de/regionales/artikel/brand-im-alten-
+[2026-03-29 14:52:23] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (UKM) in Münster
+[2026-03-29 14:52:24] [enrich] --- Enriche [3/6]: Brand an der Uniklinik Gießen: Chirurgische Station gesperrt
+[2026-03-29 14:52:24] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-unikli
+[2026-03-29 14:52:25] [enrich] Volltext extrahiert: 3997 Zeichen von https://www.giessener-allgemeine.de/giessen/giessen-brand-in
+[2026-03-29 14:52:29] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen (Uniklinik Gießen) in Gießen
+[2026-03-29 14:52:30] [enrich] --- Enriche [4/6]: Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – P
+[2026-03-29 14:52:31] [enrich] Google News URL aufgelöst (v1): https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071
+[2026-03-29 14:52:32] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.giessener-allgemeine.de/giessen/feuer-in-kranken
+[2026-03-29 14:52:35] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Gießen (UKGM) in Gießen
+[2026-03-29 14:52:36] [enrich] --- Enriche [5/6]: Evakuierung: Klinik Königsfeld in acht Minuten geräumt - wp.
+[2026-03-29 14:52:37] [enrich] Google News URL aufgelöst (v1): https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/article409286294/evakuier
+[2026-03-29 14:52:37] [enrich] Volltext extrahiert: 2181 Zeichen von https://www.wp.de/lokales/ennepetal-gevelsberg-schwelm/artic
+[2026-03-29 14:52:38] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/Evakuierungsübung, keinen tatsächlichen Brand in einem Krankenhaus
+[2026-03-29 14:52:39] [enrich] --- Enriche [6/6]: Gebäude nach Explosion in der Altstadt von Salzwedel evakuie
+[2026-03-29 14:52:40] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/lokal/salzwedel/explosion-salzwedel-verpuffung-heizun
+[2026-03-29 14:52:40] [enrich] Volltext extrahiert: 1575 Zeichen von https://www.volksstimme.de/lokal/salzwedel/explosion-salzwed
+[2026-03-29 14:52:42] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Explosion in einem IT-Firmenegebäude in Salzwedel. Eine Person wird nach der Explosion ins Krankenhaus gebracht, aber der Brand/die Explosion findet NICHT im Krankenhaus statt, sondern in einem Bürogebäude. Das Krankenhaus wird nur im Kontext der medizinischen Versorgung eines Verletzten erwähnt.
+[2026-03-29 14:52:42] [enrich] Ergebnis: 4 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-03-29 14:52:42] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-29 14:52:42] [DEDUP] Starte Dedup für 360 Einträge
+[2026-03-29 14:52:42] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-29 14:52:42] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Universitätsklinikum Münster (UKM) / Münster
+[2026-03-29 14:52:42] [DEDUP] Auto-Merge (0.90): Uniklinik Gießen / Gießen ↔ Universitätsklinikum Gießen (Uniklinik G / Gießen
+[2026-03-29 14:52:42] [DEDUP] Auto-Merge (0.81): Uniklinik Gießen / Gießen ↔ Universitätsklinikum Gießen (UKGM) / Gießen
+[2026-03-29 14:52:42] [DEDUP] Auto-Merge (1.00): Universitätsklinikum Gießen/Marburg (UKG / Gießen ↔ Universitätsklinikum Gießen/Marburg (UKG / Gießen
+[2026-03-29 14:52:42] [DEDUP] Auto-Merge (0.88): Universitätsklinikum Gießen (Uniklinik G / Gießen ↔ Universitätsklinikum Gießen (UKGM) / Gießen
+[2026-03-29 14:52:43] [DEDUP] Paare verglichen: 3961
+[2026-03-29 14:52:43] [DEDUP] Auto-Merges: 5
+[2026-03-29 14:52:43] [DEDUP] Kandidaten (unsicher): 179
+[2026-03-29 14:52:43] [DEDUP] Cluster 3x: Uniklinik Gießen, Universitätsklinikum Gießen (Uniklinik G, Universitätsklinikum Gießen (UKGM)
+[2026-03-29 14:52:43] [DEDUP] Cluster 2x: Universitätsklinikum Gießen/Marburg (UKG, Universitätsklinikum Gießen/Marburg (UKG
+[2026-03-29 14:52:43] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Universitätsklinikum Münster (UKM)
+[2026-03-29 14:52:43] [DEDUP] Ergebnis: 356 Einträge (war: 360, 4 zusammengeführt)
+[2026-03-29 14:52:43] [DEDUP] Kandidaten-Datei: 179 pending, 2 confirmed, 0 rejected
+[2026-03-29 14:52:43] [DEDUP] Gespeichert: 360 → 356 Einträge

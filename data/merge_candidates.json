@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T13:19:36.336414",
+  "generated_at": "2026-03-29T14:52:43.017563",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -397,6 +397,72 @@
         "status": "enriched",
         "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
         "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - NWZonline"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.713,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.45454545454545453,
+        "total": 0.713
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (UKGM)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071390.html",
+        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - giessener-allgemeine.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.713,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.45454545454545453,
+        "total": 0.713
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - giessener-allgemeine.de"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (UKGM)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071390.html",
+        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - giessener-allgemeine.de"
       }
     },
     {
@@ -2417,6 +2483,72 @@
         "",
         ""
       ],
+      "score": 0.635,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.635
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (Uniklinik Gießen)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-uniklinik-feuer-patienten-verletzt-hoher-schaden-feuerwehr-polizei-zr-91070509.html",
+        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - giessener-allgemeine.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.635,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.635
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - giessener-allgemeine.de"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (Uniklinik Gießen)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-uniklinik-feuer-patienten-verletzt-hoher-schaden-feuerwehr-polizei-zr-91070509.html",
+        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - giessener-allgemeine.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -2542,6 +2674,39 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.586,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.586
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feuerwehr-rueckt-mit-grossaufgebot-aus.html",
+        "titel": "Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit Großaufgebot aus - Osthessen|News"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - giessener-allgemeine.de"
       }
     },
     {
@@ -5116,6 +5281,39 @@
         "status": "false_positive",
         "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
         "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "31.08.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksstimme.de/lokal/salzwedel/explosion-salzwedel-verpuffung-heizungsanlage-evakuierung-mann-krankenhaus-3681800",
+        "titel": "Gebäude nach Explosion in der Altstadt von Salzwedel evakuiert - Mann im Krankenhaus - Volksstimme"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "31.08.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksstimme.de/lokal/salzwedel/explosion-salzwedel-verpuffung-heizungsanlage-evakuierung-mann-krankenhaus-3681800",
+        "titel": "Gebäude nach Explosion in der Altstadt von Salzwedel evakuiert - Mann im Krankenhaus - volksstimme.de"
       }
     },
     {
