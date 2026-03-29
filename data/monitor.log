@@ -11914,3 +11914,40 @@
 [2026-03-29 20:49:38] [DEDUP] Ergebnis: 357 Einträge (war: 357, 0 zusammengeführt)
 [2026-03-29 20:49:38] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
 [2026-03-29 20:49:38] [DEDUP] Gespeichert: 357 → 357 Einträge
+[2026-03-29 21:46:42] === Monitor-Lauf gestartet ===
+[2026-03-29 21:46:44] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-29 21:46:45] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-29 21:46:45] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-03-29 21:46:45] Feed 'gn_feuer_krankenhaus': 27 Einträge
+[2026-03-29 21:46:46] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-29 21:46:46] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-29 21:46:46] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-03-29 21:46:47] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-29 21:46:47] Feed 'gn_feuer_uniklinik': 22 Einträge
+[2026-03-29 21:46:48] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-03-29 21:46:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-29 21:46:49] 190 relevante Treffer in Feeds
+[2026-03-29 21:46:49] ✅ 1 NEUE Einträge gefunden:
+[2026-03-29 21:46:49]    04.02.2026 | BG Klinik Ludwigshafen |  | Nach Silvester-Katastrophe in der Schweiz: Erste Brandopfer 
+[2026-03-29 21:46:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-29 21:46:49] === Monitor-Lauf beendet ===
+
+[2026-03-29 21:46:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-29 21:46:49] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-29 21:46:49] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-29 21:46:49] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-29 21:46:49] [enrich] --- Enriche [1/1]: Nach Silvester-Katastrophe in der Schweiz: Erste Brandopfer 
+[2026-03-29 21:46:50] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/crans-montana-brandop
+[2026-03-29 21:46:52] [enrich] Volltext extrahiert: 3509 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/c
+[2026-03-29 21:46:54] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Brandopfer aus einem Brand in Crans-Montana (Schweiz), die zur Behandlung in die BG Klinik Ludwigshafen aufgenommen wurden. Der Brand selbst fand NICHT im Krankenhaus statt, sondern in einer Bar in der Schweiz. Dies ist kein Krankenhausbrand in Deutschland.
+[2026-03-29 21:46:54] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-29 21:46:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-29 21:46:54] [DEDUP] Starte Dedup für 358 Einträge
+[2026-03-29 21:46:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-29 21:46:54] [DEDUP] Paare verglichen: 4036
+[2026-03-29 21:46:54] [DEDUP] Auto-Merges: 0
+[2026-03-29 21:46:54] [DEDUP] Kandidaten (unsicher): 175
+[2026-03-29 21:46:54] [DEDUP] Ergebnis: 358 Einträge (war: 358, 0 zusammengeführt)
+[2026-03-29 21:46:54] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
+[2026-03-29 21:46:54] [DEDUP] Gespeichert: 358 → 358 Einträge
