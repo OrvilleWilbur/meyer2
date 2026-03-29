@@ -11609,3 +11609,42 @@
 [2026-03-29 11:43:06] [DEDUP] Ergebnis: 354 Einträge (war: 354, 0 zusammengeführt)
 [2026-03-29 11:43:06] [DEDUP] Kandidaten-Datei: 173 pending, 2 confirmed, 0 rejected
 [2026-03-29 11:43:06] [DEDUP] Gespeichert: 354 → 354 Einträge
+[2026-03-29 13:19:25] === Monitor-Lauf gestartet ===
+[2026-03-29 13:19:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-29 13:19:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-29 13:19:27] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-03-29 13:19:28] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-03-29 13:19:28] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-03-29 13:19:29] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-29 13:19:29] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-03-29 13:19:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-29 13:19:30] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-29 13:19:30] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-03-29 13:19:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-29 13:19:31] 205 relevante Treffer in Feeds
+[2026-03-29 13:19:31] ✅ 1 NEUE Einträge gefunden:
+[2026-03-29 13:19:31]    10.09.2019 | in Krankenhaus |  | Brand in Krankenhaus: So hat ein Patient die Evakuierung des
+[2026-03-29 13:19:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-29 13:19:31] === Monitor-Lauf beendet ===
+
+[2026-03-29 13:19:32] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-29 13:19:32] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-29 13:19:32] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-29 13:19:32] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-29 13:19:32] [enrich] --- Enriche [1/1]: Brand in Krankenhaus: So hat ein Patient die Evakuierung des
+[2026-03-29 13:19:32] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/brand-in-duesseldorf-evak
+[2026-03-29 13:19:33] [enrich] Volltext extrahiert: 736 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/brand
+[2026-03-29 13:19:35] [enrich] Enrichment abgeschlossen: enriched — Marienhospital in Düsseldorf
+[2026-03-29 13:19:35] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-29 13:19:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-29 13:19:35] [DEDUP] Starte Dedup für 355 Einträge
+[2026-03-29 13:19:35] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-29 13:19:36] [DEDUP] Auto-Merge (0.86): Marienhospital / Düsseldorf ↔ Marienhospital / Düsseldorf
+[2026-03-29 13:19:36] [DEDUP] Paare verglichen: 3919
+[2026-03-29 13:19:36] [DEDUP] Auto-Merges: 1
+[2026-03-29 13:19:36] [DEDUP] Kandidaten (unsicher): 173
+[2026-03-29 13:19:36] [DEDUP] Cluster 2x: Marienhospital, Marienhospital
+[2026-03-29 13:19:36] [DEDUP] Ergebnis: 354 Einträge (war: 355, 1 zusammengeführt)
+[2026-03-29 13:19:36] [DEDUP] Kandidaten-Datei: 173 pending, 2 confirmed, 0 rejected
+[2026-03-29 13:19:36] [DEDUP] Gespeichert: 355 → 354 Einträge
