@@ -12175,3 +12175,40 @@
 [2026-03-30 11:18:42] [DEDUP] Ergebnis: 360 Einträge (war: 360, 0 zusammengeführt)
 [2026-03-30 11:18:42] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
 [2026-03-30 11:18:42] [DEDUP] Gespeichert: 360 → 360 Einträge
+[2026-03-30 14:01:33] === Monitor-Lauf gestartet ===
+[2026-03-30 14:01:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 14:01:35] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 14:01:35] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-30 14:01:36] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-03-30 14:01:36] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-03-30 14:01:37] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-30 14:01:37] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-30 14:01:38] Feed 'gn_klinikbrand': 91 Einträge
+[2026-03-30 14:01:38] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-03-30 14:01:39] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-30 14:01:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 14:01:40] 200 relevante Treffer in Feeds
+[2026-03-30 14:01:40] ✅ 1 NEUE Einträge gefunden:
+[2026-03-30 14:01:40]    13.12.2019 | Porzer Krankenhaus |  | Mittwoch Evakuierung Porzer Krankenhaus - Porz erleben
+[2026-03-30 14:01:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 14:01:40] === Monitor-Lauf beendet ===
+
+[2026-03-30 14:01:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 14:01:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 14:01:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 14:01:40] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 14:01:40] [enrich] --- Enriche [1/1]: Mittwoch Evakuierung Porzer Krankenhaus - Porz erleben
+[2026-03-30 14:01:40] [enrich] Google News URL aufgelöst (v1): https://porzerleben.de/porz/35790-mittwoch-evakuierung-porzer-krankenhaus
+[2026-03-30 14:01:41] [enrich] Volltext extrahiert: 1011 Zeichen von https://porzerleben.de/porz/35790-mittwoch-evakuierung-porze
+[2026-03-30 14:01:43] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Kampfmittelbeseitigungsdienst), nicht wegen Brand
+[2026-03-30 14:01:43] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-30 14:01:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 14:01:44] [DEDUP] Starte Dedup für 361 Einträge
+[2026-03-30 14:01:44] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 14:01:44] [DEDUP] Paare verglichen: 4053
+[2026-03-30 14:01:44] [DEDUP] Auto-Merges: 0
+[2026-03-30 14:01:44] [DEDUP] Kandidaten (unsicher): 175
+[2026-03-30 14:01:44] [DEDUP] Ergebnis: 361 Einträge (war: 361, 0 zusammengeführt)
+[2026-03-30 14:01:44] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
+[2026-03-30 14:01:44] [DEDUP] Gespeichert: 361 → 361 Einträge
