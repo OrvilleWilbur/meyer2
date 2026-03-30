@@ -12356,3 +12356,79 @@
 [2026-03-30 19:18:33] [DEDUP] Ergebnis: 361 Einträge (war: 362, 1 zusammengeführt)
 [2026-03-30 19:18:33] [DEDUP] Kandidaten-Datei: 174 pending, 2 confirmed, 0 rejected
 [2026-03-30 19:18:33] [DEDUP] Gespeichert: 362 → 361 Einträge
+[2026-03-30 21:01:34] === Monitor-Lauf gestartet ===
+[2026-03-30 21:01:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 21:01:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 21:01:36] Feed 'gn_brand_krankenhaus': 38 Einträge
+[2026-03-30 21:01:37] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-30 21:01:37] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-03-30 21:01:37] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-30 21:01:38] Feed 'gn_brand_klinikum': 30 Einträge
+[2026-03-30 21:01:38] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-30 21:01:39] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-30 21:01:39] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-30 21:01:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 21:01:40] 193 relevante Treffer in Feeds
+[2026-03-30 21:01:40] ✅ 7 NEUE Einträge gefunden:
+[2026-03-30 21:01:40]    08.12.2025 | im Krankenhaus |  | Brände - Acht Menschen nach Kellerbrand in Rostock im Kranke
+[2026-03-30 21:01:40]    04.02.2026 | BG Klinik Ludwigshafen |  | Nach Silvester-Katastrophe in der Schweiz: Erste Brandopfer 
+[2026-03-30 21:01:40]    30.09.2016 | Uniklinik Bergmannsheil |  | Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stun
+[2026-03-30 21:01:40]    10.09.2021 | Uniklinik Freiburg |  | Feuer in der Wäscherei der Uniklinik Freiburg - regenbogen.d
+[2026-03-30 21:01:40]    30.09.2016 | Bergmannsheil-Klinik |  | Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote 
+[2026-03-30 21:01:40]    30.09.2016 | Uniklinik Bochum |  | Feuer in Uniklinik Bochum: Zwei Tote bei Großbrand - spiegel
+[2026-03-30 21:01:40]    18.11.2023 | Schifa-Klinik |  | Israel-Gaza-Krieg: Berichte über Evakuierung von Schifa-Klin
+[2026-03-30 21:01:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 21:01:40] === Monitor-Lauf beendet ===
+
+[2026-03-30 21:01:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 21:01:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 21:01:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 21:01:43] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 21:01:43] [enrich] --- Enriche [1/7]: Brände - Acht Menschen nach Kellerbrand in Rostock im Kranke
+[2026-03-30 21:01:43] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-acht-menschen-nach-kellerbrand-in-r
+[2026-03-30 21:01:44] [enrich] Volltext extrahiert: 1316 Zeichen von https://www.sueddeutsche.de/panorama/braende-acht-menschen-n
+[2026-03-30 21:01:45] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Kellerbrand), nicht in einem Krankenhaus. Personen wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer Klinik/einem Krankenhaus statt.
+[2026-03-30 21:01:46] [enrich] --- Enriche [2/7]: Nach Silvester-Katastrophe in der Schweiz: Erste Brandopfer 
+[2026-03-30 21:01:47] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/crans-montana-brandop
+[2026-03-30 21:01:49] [enrich] Volltext extrahiert: 3509 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/c
+[2026-03-30 21:01:50] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in einer deutschen Klinik. Der Brand selbst fand nicht in der BG Klinik Ludwigshafen statt, sondern in einer Bar in der Schweiz. Dies fällt nicht unter die Definition eines Krankenhausbrandes in Deutschland.
+[2026-03-30 21:01:51] [enrich] --- Enriche [3/7]: Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stun
+[2026-03-30 21:01:52] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-
+[2026-03-30 21:01:53] [enrich] Volltext extrahiert: 3776 Zeichen von https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-be
+[2026-03-30 21:01:59] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil Bochum in Bochum
+[2026-03-30 21:02:00] [enrich] --- Enriche [4/7]: Feuer in der Wäscherei der Uniklinik Freiburg - regenbogen.d
+[2026-03-30 21:02:00] [enrich] Google News URL aufgelöst (v1): https://www.regenbogen.de/kategorie-nachricht/subaden-schwarzwald/20210910/freib
+[2026-03-30 21:02:01] [enrich] Volltext extrahiert: 247 Zeichen von https://www.regenbogen.de/kategorie-nachricht/subaden-schwar
+[2026-03-30 21:02:04] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Freiburg in Freiburg
+[2026-03-30 21:02:05] [enrich] --- Enriche [5/7]: Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote 
+[2026-03-30 21:02:05] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/bochum-mehrere-tote-bei-feuer-in-krankenhaus-a-1
+[2026-03-30 21:02:06] [enrich] Volltext extrahiert: 4558 Zeichen von https://www.spiegel.de/panorama/bochum-mehrere-tote-bei-feue
+[2026-03-30 21:02:11] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-03-30 21:02:12] [enrich] --- Enriche [6/7]: Feuer in Uniklinik Bochum: Zwei Tote bei Großbrand - spiegel
+[2026-03-30 21:02:12] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/video/feuer-in-uniklinik-bochum-zwei-tote-bei-grossbrand-
+[2026-03-30 21:02:13] [enrich] Volltext extrahiert: 548 Zeichen von https://www.spiegel.de/video/feuer-in-uniklinik-bochum-zwei-
+[2026-03-30 21:02:15] [enrich] Enrichment abgeschlossen: enriched — Bergmannsheil in Bochum
+[2026-03-30 21:02:16] [enrich] --- Enriche [7/7]: Israel-Gaza-Krieg: Berichte über Evakuierung von Schifa-Klin
+[2026-03-30 21:02:17] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/ausland/gaza-krieg-israel-ordnet-offenbar-evakuierung-von
+[2026-03-30 21:02:19] [enrich] Volltext extrahiert: 2990 Zeichen von https://www.spiegel.de/ausland/gaza-krieg-israel-ordnet-offe
+[2026-03-30 21:02:22] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Militäroperation und mögliche Evakuierung eines Krankenhauses im Gazastreifen, nicht einen Brand in einem deutschen Krankenhaus. Das Krankenhaus befindet sich zudem außerhalb Deutschlands (Gaza-Stadt) und es wird kein Brand erwähnt.
+[2026-03-30 21:02:22] [enrich] Ergebnis: 4 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-03-30 21:02:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 21:02:22] [DEDUP] Starte Dedup für 368 Einträge
+[2026-03-30 21:02:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.98): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil Bochu / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Bergmannsheil / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.91): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Bergmannsheil / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil / Bochum ↔ Bergmannsheil / Bochum
+[2026-03-30 21:02:22] [DEDUP] Auto-Merge (1.00): Universitätsklinikum Freiburg / Freiburg ↔ Universitätsklinikum Freiburg / Freiburg
+[2026-03-30 21:02:22] [DEDUP] Paare verglichen: 4218
+[2026-03-30 21:02:22] [DEDUP] Auto-Merges: 7
+[2026-03-30 21:02:22] [DEDUP] Kandidaten (unsicher): 180
+[2026-03-30 21:02:22] [DEDUP] Cluster 4x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-03-30 21:02:22] [DEDUP] Cluster 2x: Universitätsklinikum Freiburg, Universitätsklinikum Freiburg
+[2026-03-30 21:02:22] [DEDUP] Ergebnis: 364 Einträge (war: 368, 4 zusammengeführt)
+[2026-03-30 21:02:22] [DEDUP] Kandidaten-Datei: 180 pending, 2 confirmed, 0 rejected
+[2026-03-30 21:02:22] [DEDUP] Gespeichert: 368 → 364 Einträge
