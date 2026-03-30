@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T15:39:44.003250",
+  "generated_at": "2026-03-30T17:11:01.091159",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -133,39 +133,6 @@
         "status": "enriched",
         "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
         "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - tag24.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.788,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.09090909090909091,
-        "total": 0.788
-      },
-      "entry_a": {
-        "einrichtung": "LVR-Klinik Bedburg-Hau (forensische Psychiatrie)",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.merkur.de/deutschland/nordrhein-westfalen/in-psychiatrie-in-nrw-gebaeude-brennt-polizei-im-grosseinsatz-gefangene-randalieren-93725154.html",
-        "titel": "Gefangenen-Aufstand in Psychiatrie: Feuer und Barrikaden – Insassen stellen sich nach Polizei-Großeinsatz - Merkur"
-      },
-      "entry_b": {
-        "einrichtung": "Forensik Bedburg-Hau (LVR - Landschaftsverband Rheinland)",
-        "ort": "Bedburg-Hau",
-        "datum": "10.05.2025",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-in-Forensik-Taeter-stellen-sich.html",
-        "titel": "Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen sich - WELT"
       }
     },
     {
