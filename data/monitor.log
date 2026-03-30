@@ -12317,3 +12317,42 @@
 [2026-03-30 18:05:43] [DEDUP] Ergebnis: 361 Einträge (war: 361, 0 zusammengeführt)
 [2026-03-30 18:05:43] [DEDUP] Kandidaten-Datei: 174 pending, 2 confirmed, 0 rejected
 [2026-03-30 18:05:43] [DEDUP] Gespeichert: 361 → 361 Einträge
+[2026-03-30 19:18:19] === Monitor-Lauf gestartet ===
+[2026-03-30 19:18:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 19:18:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 19:18:22] Feed 'gn_brand_krankenhaus': 37 Einträge
+[2026-03-30 19:18:22] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-03-30 19:18:23] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-03-30 19:18:23] Feed 'gn_brand_klinik': 46 Einträge
+[2026-03-30 19:18:24] Feed 'gn_brand_klinikum': 30 Einträge
+[2026-03-30 19:18:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-30 19:18:25] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-30 19:18:26] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-03-30 19:18:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 19:18:27] 194 relevante Treffer in Feeds
+[2026-03-30 19:18:27] ✅ 1 NEUE Einträge gefunden:
+[2026-03-30 19:18:27]    19.10.2024 | LVR-Klinik |  | Bedburg-Hau: Brand in LVR-Klinik – Evakuierung und Verletzte
+[2026-03-30 19:18:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 19:18:27] === Monitor-Lauf beendet ===
+
+[2026-03-30 19:18:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 19:18:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 19:18:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 19:18:27] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 19:18:27] [enrich] --- Enriche [1/1]: Bedburg-Hau: Brand in LVR-Klinik – Evakuierung und Verletzte
+[2026-03-30 19:18:28] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/regional/nordrhein-westfalen/bedburg-hau-brand-in-lvr-klinik
+[2026-03-30 19:18:29] [enrich] Volltext extrahiert: 2595 Zeichen von https://www.bild.de/regional/nordrhein-westfalen/bedburg-hau
+[2026-03-30 19:18:32] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bedburg-Hau in Bedburg-Hau
+[2026-03-30 19:18:32] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-30 19:18:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 19:18:32] [DEDUP] Starte Dedup für 362 Einträge
+[2026-03-30 19:18:32] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 19:18:33] [DEDUP] Auto-Merge (1.00): LVR-Klinik Bedburg-Hau / Bedburg-Hau ↔ LVR-Klinik Bedburg-Hau / Bedburg-Hau
+[2026-03-30 19:18:33] [DEDUP] Paare verglichen: 4051
+[2026-03-30 19:18:33] [DEDUP] Auto-Merges: 1
+[2026-03-30 19:18:33] [DEDUP] Kandidaten (unsicher): 174
+[2026-03-30 19:18:33] [DEDUP] Cluster 2x: LVR-Klinik Bedburg-Hau, LVR-Klinik Bedburg-Hau
+[2026-03-30 19:18:33] [DEDUP] Ergebnis: 361 Einträge (war: 362, 1 zusammengeführt)
+[2026-03-30 19:18:33] [DEDUP] Kandidaten-Datei: 174 pending, 2 confirmed, 0 rejected
+[2026-03-30 19:18:33] [DEDUP] Gespeichert: 362 → 361 Einträge
