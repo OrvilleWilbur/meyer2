@@ -12462,3 +12462,40 @@
 [2026-03-30 21:57:07] [DEDUP] Ergebnis: 364 Einträge (war: 364, 0 zusammengeführt)
 [2026-03-30 21:57:07] [DEDUP] Kandidaten-Datei: 176 pending, 2 confirmed, 0 rejected
 [2026-03-30 21:57:07] [DEDUP] Gespeichert: 364 → 364 Einträge
+[2026-03-30 22:56:02] === Monitor-Lauf gestartet ===
+[2026-03-30 22:56:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 22:56:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 22:56:05] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-03-30 22:56:06] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-03-30 22:56:06] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-03-30 22:56:06] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-30 22:56:07] Feed 'gn_brand_klinikum': 30 Einträge
+[2026-03-30 22:56:08] Feed 'gn_klinikbrand': 88 Einträge
+[2026-03-30 22:56:08] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-03-30 22:56:08] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-30 22:56:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 22:56:09] 191 relevante Treffer in Feeds
+[2026-03-30 22:56:09] ✅ 1 NEUE Einträge gefunden:
+[2026-03-30 22:56:09]    30.03.2026 | am Klinikum Freising |  | Ein Busch gerät am Klinikum Freising in Brand – Polizei ermi
+[2026-03-30 22:56:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 22:56:09] === Monitor-Lauf beendet ===
+
+[2026-03-30 22:56:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 22:56:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 22:56:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 22:56:10] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 22:56:10] [enrich] --- Enriche [1/1]: Ein Busch gerät am Klinikum Freising in Brand – Polizei ermi
+[2026-03-30 22:56:10] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/lokales/freising/freising-ort28692/ein-busch-geraet-am-kli
+[2026-03-30 22:56:11] [enrich] Volltext extrahiert: 1413 Zeichen von https://www.merkur.de/lokales/freising/freising-ort28692/ein
+[2026-03-30 22:56:12] [enrich] FALSE POSITIVE erkannt: Brand eines Busches auf dem Klinikgelände, nicht in einem Gebäude des Krankenhauses selbst
+[2026-03-30 22:56:12] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-30 22:56:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 22:56:12] [DEDUP] Starte Dedup für 365 Einträge
+[2026-03-30 22:56:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 22:56:13] [DEDUP] Paare verglichen: 4241
+[2026-03-30 22:56:13] [DEDUP] Auto-Merges: 0
+[2026-03-30 22:56:13] [DEDUP] Kandidaten (unsicher): 176
+[2026-03-30 22:56:13] [DEDUP] Ergebnis: 365 Einträge (war: 365, 0 zusammengeführt)
+[2026-03-30 22:56:13] [DEDUP] Kandidaten-Datei: 176 pending, 2 confirmed, 0 rejected
+[2026-03-30 22:56:13] [DEDUP] Gespeichert: 365 → 365 Einträge
