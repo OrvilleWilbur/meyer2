@@ -12078,3 +12078,40 @@
 [2026-03-30 06:06:23] [DEDUP] Ergebnis: 359 Einträge (war: 359, 0 zusammengeführt)
 [2026-03-30 06:06:23] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
 [2026-03-30 06:06:23] [DEDUP] Gespeichert: 359 → 359 Einträge
+[2026-03-30 08:00:08] === Monitor-Lauf gestartet ===
+[2026-03-30 08:00:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 08:00:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 08:00:10] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-03-30 08:00:10] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-03-30 08:00:11] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-03-30 08:00:11] Feed 'gn_brand_klinik': 48 Einträge
+[2026-03-30 08:00:12] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-30 08:00:12] Feed 'gn_klinikbrand': 90 Einträge
+[2026-03-30 08:00:12] Feed 'gn_feuer_uniklinik': 26 Einträge
+[2026-03-30 08:00:13] Feed 'gn_evakuierung_klinik': 33 Einträge
+[2026-03-30 08:00:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 08:00:14] 190 relevante Treffer in Feeds
+[2026-03-30 08:00:14] ✅ 1 NEUE Einträge gefunden:
+[2026-03-30 08:00:14]    05.09.2025 | ins Krankenhaus |  | Kleinkind kommt nach Wohnhausbrand ins Krankenhaus - hessens
+[2026-03-30 08:00:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 08:00:14] === Monitor-Lauf beendet ===
+
+[2026-03-30 08:00:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 08:00:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 08:00:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 08:00:14] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 08:00:14] [enrich] --- Enriche [1/1]: Kleinkind kommt nach Wohnhausbrand ins Krankenhaus - hessens
+[2026-03-30 08:00:15] [enrich] Google News URL aufgelöst (v1): https://www.hessenschau.de/morgenticker/kleinkind-kommt-nach-brand-ins-krankenha
+[2026-03-30 08:00:18] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.hessenschau.de/morgenticker/kleinkind-kommt-nach
+[2026-03-30 08:00:20] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt, dass ein Kleinkind nach einem Wohnhausbrand ins Krankenhaus kommt. Der Brand ereignete sich nicht im Krankenhaus selbst, sondern in einem Wohnhaus. Das Krankenhaus wird nur als Behandlungsort erwähnt, nicht als Brandort.
+[2026-03-30 08:00:20] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-30 08:00:20] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 08:00:21] [DEDUP] Starte Dedup für 360 Einträge
+[2026-03-30 08:00:21] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 08:00:21] [DEDUP] Paare verglichen: 4052
+[2026-03-30 08:00:21] [DEDUP] Auto-Merges: 0
+[2026-03-30 08:00:21] [DEDUP] Kandidaten (unsicher): 175
+[2026-03-30 08:00:21] [DEDUP] Ergebnis: 360 Einträge (war: 360, 0 zusammengeführt)
+[2026-03-30 08:00:21] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
+[2026-03-30 08:00:21] [DEDUP] Gespeichert: 360 → 360 Einträge
