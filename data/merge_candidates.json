@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T21:02:22.616784",
+  "generated_at": "2026-03-30T21:57:07.144223",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -67,39 +67,6 @@
         "status": "enriched",
         "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
         "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.8,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.4,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.8
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-ueber-den-brand-wissen-a-1114706.html",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - spiegel.de"
       }
     },
     {
@@ -265,39 +232,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/panorama/bochum-mehrere-tote-bei-feuer-in-krankenhaus-a-1114653.html",
-        "titel": "Bochum: Brand in Bergmannsheil-Klinik, mindestens zwei Tote - spiegel.de"
       }
     },
     {
@@ -1024,39 +958,6 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Toedlicher-Brand-im-Helios-Klinikum-Pforzheim-Gericht-plant-umfangreiche-Beweisaufnahme-_arid,2311179.html",
         "titel": "Tödlicher Brand im Helios Klinikum Pforzheim: Gericht plant umfangreiche Beweisaufnahme - pz-news.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/feuer-in-uniklinik-bochum-zwei-tote-bei-grossbrand-video-1708845.html",
-        "titel": "Feuer in Uniklinik Bochum: Zwei Tote bei Großbrand - spiegel.de"
       }
     },
     {
@@ -5776,39 +5677,6 @@
         "status": "enriched",
         "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
         "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.483,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.483
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-ueber-den-brand-wissen-a-1114706.html",
-        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - spiegel.de"
       }
     },
     {
