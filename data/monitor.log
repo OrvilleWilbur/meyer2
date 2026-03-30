@@ -12212,3 +12212,48 @@
 [2026-03-30 14:01:44] [DEDUP] Ergebnis: 361 Einträge (war: 361, 0 zusammengeführt)
 [2026-03-30 14:01:44] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
 [2026-03-30 14:01:44] [DEDUP] Gespeichert: 361 → 361 Einträge
+[2026-03-30 15:39:24] === Monitor-Lauf gestartet ===
+[2026-03-30 15:39:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-30 15:39:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-30 15:39:28] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-03-30 15:39:28] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-03-30 15:39:29] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-03-30 15:39:29] Feed 'gn_brand_klinik': 47 Einträge
+[2026-03-30 15:39:30] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-30 15:39:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-30 15:39:31] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-03-30 15:39:31] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-03-30 15:39:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-30 15:39:32] 202 relevante Treffer in Feeds
+[2026-03-30 15:39:32] ✅ 2 NEUE Einträge gefunden:
+[2026-03-30 15:39:32]    15.02.2017 | Lindenberger Klinik |  | Ein Toter und sieben Verletzte bei Brand in Lindenberger Kli
+[2026-03-30 15:39:32]    10.05.2025 |  |  | Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen si
+[2026-03-30 15:39:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-30 15:39:32] === Monitor-Lauf beendet ===
+
+[2026-03-30 15:39:33] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-30 15:39:33] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-30 15:39:33] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-30 15:39:33] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-30 15:39:33] [enrich] --- Enriche [1/2]: Ein Toter und sieben Verletzte bei Brand in Lindenberger Kli
+[2026-03-30 15:39:34] [enrich] Google News URL aufgelöst (v1): https://www.hna.de/welt/ein-toter-und-mehrere-verletzte-bei-brand-in-krankenhaus
+[2026-03-30 15:39:35] [enrich] Volltext extrahiert: 2319 Zeichen von https://www.hna.de/welt/ein-toter-und-mehrere-verletzte-bei-
+[2026-03-30 15:39:38] [enrich] Enrichment abgeschlossen: enriched — Rotkreuzklinik Lindenberg in Lindenberg
+[2026-03-30 15:39:39] [enrich] --- Enriche [2/2]: Bedburg-Hau: Feuer und Störer in Forensik – Täter stellen si
+[2026-03-30 15:39:39] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/article256098192/Bedburg-Hau-Feuer-und-Stoerer-i
+[2026-03-30 15:39:40] [enrich] Volltext extrahiert: 1900 Zeichen von https://www.welt.de/vermischtes/article256098192/Bedburg-Hau
+[2026-03-30 15:39:43] [enrich] Enrichment abgeschlossen: enriched — Forensik Bedburg-Hau (LVR-Klinik) in Bedburg-Hau
+[2026-03-30 15:39:43] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-30 15:39:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-30 15:39:43] [DEDUP] Starte Dedup für 363 Einträge
+[2026-03-30 15:39:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-30 15:39:43] [DEDUP] Auto-Merge (0.85): LVR-Klinik Bedburg-Hau (forensische Psyc / Bedburg-Hau ↔ Forensik Bedburg-Hau (LVR-Klinik) / Bedburg-Hau
+[2026-03-30 15:39:43] [DEDUP] Auto-Merge (0.88): Forensik Bedburg-Hau (LVR - Landschaftsv / Bedburg-Hau ↔ Forensik Bedburg-Hau (LVR-Klinik) / Bedburg-Hau
+[2026-03-30 15:39:44] [DEDUP] Paare verglichen: 4057
+[2026-03-30 15:39:44] [DEDUP] Auto-Merges: 2
+[2026-03-30 15:39:44] [DEDUP] Kandidaten (unsicher): 175
+[2026-03-30 15:39:44] [DEDUP] Cluster 3x: LVR-Klinik Bedburg-Hau (forensische Psyc, Forensik Bedburg-Hau (LVR - Landschaftsv, Forensik Bedburg-Hau (LVR-Klinik)
+[2026-03-30 15:39:44] [DEDUP] Ergebnis: 361 Einträge (war: 363, 2 zusammengeführt)
+[2026-03-30 15:39:44] [DEDUP] Kandidaten-Datei: 175 pending, 2 confirmed, 0 rejected
+[2026-03-30 15:39:44] [DEDUP] Gespeichert: 363 → 361 Einträge
