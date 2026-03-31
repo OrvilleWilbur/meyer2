@@ -12987,3 +12987,49 @@
 [2026-03-31 20:56:52] [DEDUP] Ergebnis: 371 Einträge (war: 371, 0 zusammengeführt)
 [2026-03-31 20:56:52] [DEDUP] Kandidaten-Datei: 182 pending, 2 confirmed, 0 rejected
 [2026-03-31 20:56:52] [DEDUP] Gespeichert: 371 → 371 Einträge
+[2026-03-31 21:54:40] === Monitor-Lauf gestartet ===
+[2026-03-31 21:54:41] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 21:54:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 21:54:43] Feed 'gn_brand_krankenhaus': 45 Einträge
+[2026-03-31 21:54:43] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-03-31 21:54:43] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-03-31 21:54:44] Feed 'gn_brand_klinik': 42 Einträge
+[2026-03-31 21:54:44] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-31 21:54:44] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-31 21:54:45] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-31 21:54:45] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-03-31 21:54:46] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 21:54:46] 198 relevante Treffer in Feeds
+[2026-03-31 21:54:46] ✅ 2 NEUE Einträge gefunden:
+[2026-03-31 21:54:46]    15.02.2017 | Lindenberger Klinik |  | Ein Toter und sieben Verletzte bei Brand in Lindenberger Kli
+[2026-03-31 21:54:46]    13.03.2026 | Möchengladbacher Krankenhaus |  | In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-31 21:54:46] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 21:54:46] === Monitor-Lauf beendet ===
+
+[2026-03-31 21:54:47] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 21:54:47] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 21:54:47] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 21:54:47] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 21:54:47] [enrich] --- Enriche [1/2]: Ein Toter und sieben Verletzte bei Brand in Lindenberger Kli
+[2026-03-31 21:54:47] [enrich] Google News URL aufgelöst (v1): https://www.hna.de/welt/ein-toter-und-mehrere-verletzte-bei-brand-in-krankenhaus
+[2026-03-31 21:54:48] [enrich] Volltext extrahiert: 2319 Zeichen von https://www.hna.de/welt/ein-toter-und-mehrere-verletzte-bei-
+[2026-03-31 21:54:50] [enrich] Enrichment abgeschlossen: enriched — Rotkreuzklinik Lindenberg in Lindenberg
+[2026-03-31 21:54:51] [enrich] --- Enriche [2/2]: In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbache
+[2026-03-31 21:54:52] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-
+[2026-03-31 21:54:52] [enrich] Volltext extrahiert: 2166 Zeichen von https://rp-online.de/nrw/staedte/moenchengladbach/moenchengl
+[2026-03-31 21:55:01] [enrich] Enrichment abgeschlossen: enriched — Kliniken Maria Hilf in Mönchengladbach
+[2026-03-31 21:55:01] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-03-31 21:55:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 21:55:01] [DEDUP] Starte Dedup für 373 Einträge
+[2026-03-31 21:55:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 21:55:01] [DEDUP] Auto-Merge (1.00): Kliniken Maria Hilf / Mönchengladbach ↔ Kliniken Maria Hilf / Mönchengladbach
+[2026-03-31 21:55:01] [DEDUP] Auto-Merge (1.00): Rotkreuzklinik Lindenberg / Lindenberg ↔ Rotkreuzklinik Lindenberg / Lindenberg
+[2026-03-31 21:55:01] [DEDUP] Paare verglichen: 4362
+[2026-03-31 21:55:01] [DEDUP] Auto-Merges: 2
+[2026-03-31 21:55:01] [DEDUP] Kandidaten (unsicher): 184
+[2026-03-31 21:55:01] [DEDUP] Cluster 2x: Kliniken Maria Hilf, Kliniken Maria Hilf
+[2026-03-31 21:55:01] [DEDUP] Cluster 2x: Rotkreuzklinik Lindenberg, Rotkreuzklinik Lindenberg
+[2026-03-31 21:55:01] [DEDUP] Ergebnis: 371 Einträge (war: 373, 2 zusammengeführt)
+[2026-03-31 21:55:02] [DEDUP] Kandidaten-Datei: 184 pending, 2 confirmed, 0 rejected
+[2026-03-31 21:55:02] [DEDUP] Gespeichert: 373 → 371 Einträge
