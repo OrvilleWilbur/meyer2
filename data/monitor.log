@@ -12668,3 +12668,47 @@
 [2026-03-31 09:16:45] [DEDUP] Ergebnis: 368 Einträge (war: 368, 0 zusammengeführt)
 [2026-03-31 09:16:45] [DEDUP] Kandidaten-Datei: 178 pending, 2 confirmed, 0 rejected
 [2026-03-31 09:16:45] [DEDUP] Gespeichert: 368 → 368 Einträge
+[2026-03-31 10:15:04] === Monitor-Lauf gestartet ===
+[2026-03-31 10:15:05] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 10:15:06] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 10:15:06] Feed 'gn_brand_krankenhaus': 45 Einträge
+[2026-03-31 10:15:07] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-03-31 10:15:07] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-03-31 10:15:07] Feed 'gn_brand_klinik': 43 Einträge
+[2026-03-31 10:15:08] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-31 10:15:08] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-31 10:15:09] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-31 10:15:09] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-31 10:15:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 10:15:10] 200 relevante Treffer in Feeds
+[2026-03-31 10:15:10] ✅ 2 NEUE Einträge gefunden:
+[2026-03-31 10:15:10]    17.11.2025 | - Krankenhaus |  | Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl 
+[2026-03-31 10:15:10]    05.07.2025 | Ubbo-Emmius-Klinik nach Brand |  | Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Bran
+[2026-03-31 10:15:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 10:15:10] === Monitor-Lauf beendet ===
+
+[2026-03-31 10:15:11] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 10:15:11] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 10:15:11] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 10:15:11] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 10:15:11] [enrich] --- Enriche [1/2]: Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl 
+[2026-03-31 10:15:11] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-cha
+[2026-03-31 10:15:12] [enrich] Volltext extrahiert: 2179 Zeichen von https://www.sueddeutsche.de/panorama/kriminalitaet-krankenha
+[2026-03-31 10:15:15] [enrich] JSON-Parse-Fehler in Claude-Antwort: Extra data: line 16 column 4 (char 783)
+[2026-03-31 10:15:16] [enrich] --- Enriche [2/2]: Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Bran
+[2026-03-31 10:15:17] [enrich] Google News URL aufgelöst (v1): https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius
+[2026-03-31 10:15:18] [enrich] Volltext extrahiert: 3803 Zeichen von https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakui
+[2026-03-31 10:15:21] [enrich] Enrichment abgeschlossen: enriched — Ubbo-Emmius-Klinik in Aurich
+[2026-03-31 10:15:21] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 1 failed
+[2026-03-31 10:15:21] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 10:15:22] [DEDUP] Starte Dedup für 370 Einträge
+[2026-03-31 10:15:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 10:15:22] [DEDUP] Auto-Merge (1.00): Ubbo-Emmius-Klinik / Aurich ↔ Ubbo-Emmius-Klinik / Aurich
+[2026-03-31 10:15:22] [DEDUP] Paare verglichen: 4364
+[2026-03-31 10:15:22] [DEDUP] Auto-Merges: 1
+[2026-03-31 10:15:22] [DEDUP] Kandidaten (unsicher): 179
+[2026-03-31 10:15:22] [DEDUP] Cluster 2x: Ubbo-Emmius-Klinik, Ubbo-Emmius-Klinik
+[2026-03-31 10:15:22] [DEDUP] Ergebnis: 369 Einträge (war: 370, 1 zusammengeführt)
+[2026-03-31 10:15:22] [DEDUP] Kandidaten-Datei: 179 pending, 2 confirmed, 0 rejected
+[2026-03-31 10:15:22] [DEDUP] Gespeichert: 370 → 369 Einträge

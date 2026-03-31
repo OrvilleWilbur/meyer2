@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T09:16:45.630828",
+  "generated_at": "2026-03-31T10:15:22.499870",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -364,6 +364,39 @@
         "status": "enriched",
         "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
         "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - NWZonline"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Aurich",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/oldenburg_ostfriesland/aurich-evakuierung-nach-brand-in-klinik,klinik-122.html",
+        "titel": "Aurich: Evakuierung nach Brand in Klinik - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Ubbo-Emmius-Klinik",
+        "ort": "Aurich",
+        "datum": "05.07.2025",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
+        "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - nwzonline.de"
       }
     },
     {
