@@ -13033,3 +13033,40 @@
 [2026-03-31 21:55:01] [DEDUP] Ergebnis: 371 Einträge (war: 373, 2 zusammengeführt)
 [2026-03-31 21:55:02] [DEDUP] Kandidaten-Datei: 184 pending, 2 confirmed, 0 rejected
 [2026-03-31 21:55:02] [DEDUP] Gespeichert: 373 → 371 Einträge
+[2026-03-31 22:52:17] === Monitor-Lauf gestartet ===
+[2026-03-31 22:52:18] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 22:52:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 22:52:19] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-03-31 22:52:20] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-03-31 22:52:20] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-03-31 22:52:20] Feed 'gn_brand_klinik': 41 Einträge
+[2026-03-31 22:52:21] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-31 22:52:21] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-31 22:52:22] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-03-31 22:52:22] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-31 22:52:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 22:52:24] 195 relevante Treffer in Feeds
+[2026-03-31 22:52:24] ✅ 1 NEUE Einträge gefunden:
+[2026-03-31 22:52:24]    28.05.2025 | Sana-Klinik |  | Stromausfall: Maus sorgt für Evakuierung der Sana-Klinik - o
+[2026-03-31 22:52:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 22:52:24] === Monitor-Lauf beendet ===
+
+[2026-03-31 22:52:24] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 22:52:24] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 22:52:24] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 22:52:24] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 22:52:24] [enrich] --- Enriche [1/1]: Stromausfall: Maus sorgt für Evakuierung der Sana-Klinik - o
+[2026-03-31 22:52:24] [enrich] Google News URL aufgelöst (v1): https://www.oberberg-aktuell.de/news/krankenhaus-nach-stromausfall-evakuiert-a-1
+[2026-03-31 22:52:26] [enrich] Volltext extrahiert: 3840 Zeichen von https://www.oberberg-aktuell.de/news/krankenhaus-nach-stroma
+[2026-03-31 22:52:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt primär einen Stromausfall durch eine Maus im Traforaum, der zur Auslösung der Brandmeldeanlage führte. Es gab zwar eine 'Verrauchung' im Technikraum nach einer Überspannung, aber keinen eigentlichen Brand im Krankenhaus. Die Evakuierung war eine Vorsichtsmaßnahme wegen des Stromausfalls, nicht wegen eines Brandes.
+[2026-03-31 22:52:28] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-31 22:52:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 22:52:28] [DEDUP] Starte Dedup für 372 Einträge
+[2026-03-31 22:52:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 22:52:29] [DEDUP] Paare verglichen: 4374
+[2026-03-31 22:52:29] [DEDUP] Auto-Merges: 0
+[2026-03-31 22:52:29] [DEDUP] Kandidaten (unsicher): 183
+[2026-03-31 22:52:29] [DEDUP] Ergebnis: 372 Einträge (war: 372, 0 zusammengeführt)
+[2026-03-31 22:52:29] [DEDUP] Kandidaten-Datei: 183 pending, 2 confirmed, 0 rejected
+[2026-03-31 22:52:29] [DEDUP] Gespeichert: 372 → 372 Einträge
