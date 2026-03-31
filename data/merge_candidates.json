@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T03:28:55.478014",
+  "generated_at": "2026-03-31T05:53:52.605034",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3202,6 +3202,39 @@
         "status": "false_positive",
         "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/crans-montana-brandopfer-bg-klinik-ludwigshafen-100.html",
         "titel": "Nach Silvester-Katastrophe in der Schweiz: Erste Brandopfer in BG Klinik Ludwigshafen auf dem Weg der Besserung - swr.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "am Klinikum Freising",
+        "ort": "",
+        "datum": "30.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/lokales/freising/freising-ort28692/ein-busch-geraet-am-klinikum-freising-in-brand-polizei-ermittelt-94242595.html",
+        "titel": "Ein Busch gerät am Klinikum Freising in Brand – Polizei ermittelt - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "am Klinikum Freising",
+        "ort": "",
+        "datum": "30.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.merkur.de/lokales/freising/freising-ort28692/ein-busch-geraet-am-klinikum-freising-in-brand-polizei-ermittelt-94242595.html",
+        "titel": "Ein Busch gerät am Klinikum Freising in Brand – Polizei ermittelt - merkur.de"
       }
     },
     {

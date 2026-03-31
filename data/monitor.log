@@ -12559,3 +12559,45 @@
 [2026-03-31 03:28:55] [DEDUP] Ergebnis: 365 Einträge (war: 365, 0 zusammengeführt)
 [2026-03-31 03:28:55] [DEDUP] Kandidaten-Datei: 176 pending, 2 confirmed, 0 rejected
 [2026-03-31 03:28:55] [DEDUP] Gespeichert: 365 → 365 Einträge
+[2026-03-31 05:53:36] === Monitor-Lauf gestartet ===
+[2026-03-31 05:53:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 05:53:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 05:53:39] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-03-31 05:53:40] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-03-31 05:53:40] Feed 'gn_feuer_klinik': 33 Einträge
+[2026-03-31 05:53:41] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-31 05:53:41] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-31 05:53:42] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-31 05:53:42] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-31 05:53:42] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-03-31 05:53:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 05:53:43] 193 relevante Treffer in Feeds
+[2026-03-31 05:53:43] ✅ 2 NEUE Einträge gefunden:
+[2026-03-31 05:53:43]    30.03.2026 | am Klinikum Freising |  | Ein Busch gerät am Klinikum Freising in Brand – Polizei ermi
+[2026-03-31 05:53:43]    29.07.2024 |  |  | Klinikum Bremen-Ost: Brand in Lüftungsschacht sorgt für Groß
+[2026-03-31 05:53:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 05:53:43] === Monitor-Lauf beendet ===
+
+[2026-03-31 05:53:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 05:53:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 05:53:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 05:53:44] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 05:53:44] [enrich] --- Enriche [1/2]: Ein Busch gerät am Klinikum Freising in Brand – Polizei ermi
+[2026-03-31 05:53:45] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/lokales/freising/freising-ort28692/ein-busch-geraet-am-kli
+[2026-03-31 05:53:45] [enrich] Volltext extrahiert: 1413 Zeichen von https://www.merkur.de/lokales/freising/freising-ort28692/ein
+[2026-03-31 05:53:46] [enrich] FALSE POSITIVE erkannt: Brand betrifft nur einen Busch außerhalb des Gebäudes auf dem Klinikgelände, nicht im Krankenhaus selbst
+[2026-03-31 05:53:47] [enrich] --- Enriche [2/2]: Klinikum Bremen-Ost: Brand in Lüftungsschacht sorgt für Groß
+[2026-03-31 05:53:48] [enrich] Google News URL aufgelöst (v1): https://www.dk-online.de/lokales/bremen/artikel/klinikum-bremen-ost-brand-in-lue
+[2026-03-31 05:53:50] [enrich] Volltext extrahiert: 1745 Zeichen von https://www.dk-online.de/lokales/bremen/artikel/klinikum-bre
+[2026-03-31 05:53:52] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bremen-Ost in Bremen
+[2026-03-31 05:53:52] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-31 05:53:52] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 05:53:52] [DEDUP] Starte Dedup für 367 Einträge
+[2026-03-31 05:53:52] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 05:53:52] [DEDUP] Paare verglichen: 4278
+[2026-03-31 05:53:52] [DEDUP] Auto-Merges: 0
+[2026-03-31 05:53:52] [DEDUP] Kandidaten (unsicher): 177
+[2026-03-31 05:53:52] [DEDUP] Ergebnis: 367 Einträge (war: 367, 0 zusammengeführt)
+[2026-03-31 05:53:52] [DEDUP] Kandidaten-Datei: 177 pending, 2 confirmed, 0 rejected
+[2026-03-31 05:53:52] [DEDUP] Gespeichert: 367 → 367 Einträge
