@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T05:53:52.605034",
+  "generated_at": "2026-03-31T07:44:06.030175",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4291,6 +4291,39 @@
         "status": "false_positive",
         "link": "https://www.tag24.de/dresden/feuerwehreinsatz-dresden/abc-einsatz-in-klotzsche-evakuierung-nach-labor-vorfall-vier-personen-im-krankenhaus-3445383",
         "titel": "ABC-Einsatz in Klotzsche: Evakuierung nach Labor-Vorfall, vier Personen im Krankenhaus - tag24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "08.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/braende-acht-menschen-nach-kellerbrand-in-rostock-im-krankenhaus-dpa.urn-newsml-dpa-com-20090101-251208-930-397472",
+        "titel": "Brände - Acht Menschen nach Kellerbrand in Rostock im Krankenhaus - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "08.12.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/braende-acht-menschen-nach-kellerbrand-in-rostock-im-krankenhaus-dpa.urn-newsml-dpa-com-20090101-251208-930-397472",
+        "titel": "Brände - Acht Menschen nach Kellerbrand in Rostock im Krankenhaus - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {

@@ -12601,3 +12601,40 @@
 [2026-03-31 05:53:52] [DEDUP] Ergebnis: 367 Einträge (war: 367, 0 zusammengeführt)
 [2026-03-31 05:53:52] [DEDUP] Kandidaten-Datei: 177 pending, 2 confirmed, 0 rejected
 [2026-03-31 05:53:52] [DEDUP] Gespeichert: 367 → 367 Einträge
+[2026-03-31 07:43:56] === Monitor-Lauf gestartet ===
+[2026-03-31 07:43:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 07:43:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 07:43:58] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-03-31 07:43:58] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-03-31 07:43:59] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-03-31 07:43:59] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-31 07:44:00] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-31 07:44:00] Feed 'gn_klinikbrand': 100 Einträge
+[2026-03-31 07:44:00] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-31 07:44:01] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-03-31 07:44:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 07:44:02] 198 relevante Treffer in Feeds
+[2026-03-31 07:44:02] ✅ 1 NEUE Einträge gefunden:
+[2026-03-31 07:44:02]    08.12.2025 | im Krankenhaus |  | Brände - Acht Menschen nach Kellerbrand in Rostock im Kranke
+[2026-03-31 07:44:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 07:44:02] === Monitor-Lauf beendet ===
+
+[2026-03-31 07:44:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 07:44:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 07:44:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 07:44:03] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 07:44:03] [enrich] --- Enriche [1/1]: Brände - Acht Menschen nach Kellerbrand in Rostock im Kranke
+[2026-03-31 07:44:03] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-acht-menschen-nach-kellerbrand-in-r
+[2026-03-31 07:44:04] [enrich] Volltext extrahiert: 1316 Zeichen von https://www.sueddeutsche.de/panorama/braende-acht-menschen-n
+[2026-03-31 07:44:05] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Kellerbrand), nicht in einem Krankenhaus. Personen werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst findet nicht in einer medizinischen Einrichtung statt.
+[2026-03-31 07:44:05] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-31 07:44:05] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 07:44:05] [DEDUP] Starte Dedup für 368 Einträge
+[2026-03-31 07:44:05] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 07:44:06] [DEDUP] Paare verglichen: 4343
+[2026-03-31 07:44:06] [DEDUP] Auto-Merges: 0
+[2026-03-31 07:44:06] [DEDUP] Kandidaten (unsicher): 178
+[2026-03-31 07:44:06] [DEDUP] Ergebnis: 368 Einträge (war: 368, 0 zusammengeführt)
+[2026-03-31 07:44:06] [DEDUP] Kandidaten-Datei: 178 pending, 2 confirmed, 0 rejected
+[2026-03-31 07:44:06] [DEDUP] Gespeichert: 368 → 368 Einträge
