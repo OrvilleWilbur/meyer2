@@ -12883,3 +12883,47 @@
 [2026-03-31 17:13:16] [DEDUP] Ergebnis: 370 Einträge (war: 370, 0 zusammengeführt)
 [2026-03-31 17:13:16] [DEDUP] Kandidaten-Datei: 181 pending, 2 confirmed, 0 rejected
 [2026-03-31 17:13:16] [DEDUP] Gespeichert: 370 → 370 Einträge
+[2026-03-31 18:05:49] === Monitor-Lauf gestartet ===
+[2026-03-31 18:05:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 18:05:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 18:05:52] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-03-31 18:05:53] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-03-31 18:05:53] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-03-31 18:05:54] Feed 'gn_brand_klinik': 45 Einträge
+[2026-03-31 18:05:54] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-03-31 18:05:55] Feed 'gn_klinikbrand': 95 Einträge
+[2026-03-31 18:05:55] Feed 'gn_feuer_uniklinik': 23 Einträge
+[2026-03-31 18:05:56] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-03-31 18:05:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 18:05:57] 196 relevante Treffer in Feeds
+[2026-03-31 18:05:57] ✅ 2 NEUE Einträge gefunden:
+[2026-03-31 18:05:57]    17.11.2025 | - Krankenhaus |  | Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl 
+[2026-03-31 18:05:57]    18.10.2018 | Städtisches Klinikum |  | Neue Markenidentität und modernes Brand Design für Städtisch
+[2026-03-31 18:05:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 18:05:57] === Monitor-Lauf beendet ===
+
+[2026-03-31 18:05:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 18:05:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 18:05:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 18:05:57] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 18:05:57] [enrich] --- Enriche [1/2]: Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl 
+[2026-03-31 18:05:58] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-cha
+[2026-03-31 18:05:59] [enrich] Volltext extrahiert: 2179 Zeichen von https://www.sueddeutsche.de/panorama/kriminalitaet-krankenha
+[2026-03-31 18:06:01] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Charité in Berlin-Mitte
+[2026-03-31 18:06:02] [enrich] --- Enriche [2/2]: Neue Markenidentität und modernes Brand Design für Städtisch
+[2026-03-31 18:06:03] [enrich] Google News URL aufgelöst (v1): https://designbote.com/neue-markenidentitaet-und-modernes-brand-design-fuer-stae
+[2026-03-31 18:06:04] [enrich] Volltext extrahiert: 4314 Zeichen von https://designbote.com/neue-markenidentitaet-und-modernes-br
+[2026-03-31 18:06:06] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt ein Branding- und Designprojekt für das Städtische Klinikum München. 'Brand' bezieht sich hier auf Markenidentität und Corporate Design, nicht auf ein Feuer. Es gibt keinen Hinweis auf einen tatsächlichen Brand (Feuer) in einem Krankenhaus.
+[2026-03-31 18:06:06] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-31 18:06:06] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 18:06:06] [DEDUP] Starte Dedup für 372 Einträge
+[2026-03-31 18:06:06] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 18:06:06] [DEDUP] Auto-Merge (0.98): Uniklinik Charité / Berlin-Mitte ↔ Uniklinik Charité / Berlin-Mitte
+[2026-03-31 18:06:06] [DEDUP] Paare verglichen: 4361
+[2026-03-31 18:06:06] [DEDUP] Auto-Merges: 1
+[2026-03-31 18:06:06] [DEDUP] Kandidaten (unsicher): 185
+[2026-03-31 18:06:06] [DEDUP] Cluster 2x: Uniklinik Charité, Uniklinik Charité
+[2026-03-31 18:06:06] [DEDUP] Ergebnis: 371 Einträge (war: 372, 1 zusammengeführt)
+[2026-03-31 18:06:06] [DEDUP] Kandidaten-Datei: 185 pending, 2 confirmed, 0 rejected
+[2026-03-31 18:06:06] [DEDUP] Gespeichert: 372 → 371 Einträge
