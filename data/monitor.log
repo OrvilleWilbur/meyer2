@@ -12777,3 +12777,40 @@
 [2026-03-31 11:59:28] [DEDUP] Ergebnis: 369 Einträge (war: 369, 0 zusammengeführt)
 [2026-03-31 11:59:28] [DEDUP] Kandidaten-Datei: 181 pending, 2 confirmed, 0 rejected
 [2026-03-31 11:59:28] [DEDUP] Gespeichert: 369 → 369 Einträge
+[2026-03-31 14:01:36] === Monitor-Lauf gestartet ===
+[2026-03-31 14:01:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-03-31 14:01:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-03-31 14:01:38] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-03-31 14:01:39] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-03-31 14:01:39] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-03-31 14:01:39] Feed 'gn_brand_klinik': 44 Einträge
+[2026-03-31 14:01:40] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-03-31 14:01:40] Feed 'gn_klinikbrand': 91 Einträge
+[2026-03-31 14:01:41] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-03-31 14:01:41] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-03-31 14:01:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-03-31 14:01:42] 203 relevante Treffer in Feeds
+[2026-03-31 14:01:42] ✅ 1 NEUE Einträge gefunden:
+[2026-03-31 14:01:42]    30.01.2024 |  |  | Notfälle: Krankenhaus bereitet sich auf eine mögliche Evakui
+[2026-03-31 14:01:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-03-31 14:01:42] === Monitor-Lauf beendet ===
+
+[2026-03-31 14:01:42] [enrich] === Enrichment-Lauf gestartet ===
+[2026-03-31 14:01:42] [enrich] googlenewsdecoder v1: verfügbar
+[2026-03-31 14:01:42] [enrich] googlenewsdecoder v2: verfügbar
+[2026-03-31 14:01:42] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-03-31 14:01:42] [enrich] --- Enriche [1/1]: Notfälle: Krankenhaus bereitet sich auf eine mögliche Evakui
+[2026-03-31 14:01:43] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2024-01/29/krankenhaus-bereitet-sich-auf-eine-moegliche
+[2026-03-31 14:01:43] [enrich] Volltext extrahiert: 1780 Zeichen von https://www.zeit.de/news/2024-01/29/krankenhaus-bereitet-sic
+[2026-03-31 14:01:50] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (verdächtiger Gegenstand/möglicher Blindgänger aus WWII), nicht wegen Brand
+[2026-03-31 14:01:50] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-03-31 14:01:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-03-31 14:01:50] [DEDUP] Starte Dedup für 370 Einträge
+[2026-03-31 14:01:50] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-03-31 14:01:50] [DEDUP] Paare verglichen: 4354
+[2026-03-31 14:01:50] [DEDUP] Auto-Merges: 0
+[2026-03-31 14:01:50] [DEDUP] Kandidaten (unsicher): 181
+[2026-03-31 14:01:50] [DEDUP] Ergebnis: 370 Einträge (war: 370, 0 zusammengeführt)
+[2026-03-31 14:01:50] [DEDUP] Kandidaten-Datei: 181 pending, 2 confirmed, 0 rejected
+[2026-03-31 14:01:50] [DEDUP] Gespeichert: 370 → 370 Einträge
