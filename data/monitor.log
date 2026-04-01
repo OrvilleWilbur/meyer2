@@ -13490,3 +13490,47 @@
 [2026-04-01 18:03:00] [DEDUP] Ergebnis: 380 Einträge (war: 380, 0 zusammengeführt)
 [2026-04-01 18:03:00] [DEDUP] Kandidaten-Datei: 196 pending, 2 confirmed, 0 rejected
 [2026-04-01 18:03:00] [DEDUP] Gespeichert: 380 → 380 Einträge
+[2026-04-01 19:21:12] === Monitor-Lauf gestartet ===
+[2026-04-01 19:21:13] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 19:21:14] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 19:21:15] Feed 'gn_brand_krankenhaus': 42 Einträge
+[2026-04-01 19:21:15] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-04-01 19:21:16] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-01 19:21:16] Feed 'gn_brand_klinik': 41 Einträge
+[2026-04-01 19:21:17] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-01 19:21:17] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 19:21:18] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-01 19:21:18] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-04-01 19:21:19] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 19:21:19] 209 relevante Treffer in Feeds
+[2026-04-01 19:21:19] ✅ 2 NEUE Einträge gefunden:
+[2026-04-01 19:21:19]    26.03.2026 | im Krankenhaus |  | Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - Hit 
+[2026-04-01 19:21:19]    03.03.2026 | Bielefelder Klinikum aus |  | Nordrhein-Westfalen: Kabeldiebe lösen Brand am Bielefelder K
+[2026-04-01 19:21:19] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 19:21:19] === Monitor-Lauf beendet ===
+
+[2026-04-01 19:21:19] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 19:21:19] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 19:21:19] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 19:21:19] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 19:21:19] [enrich] --- Enriche [1/2]: Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - Hit 
+[2026-04-01 19:21:20] [enrich] Google News URL aufgelöst (v1): https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-kranken
+[2026-04-01 19:21:21] [enrich] Volltext extrahiert: 1487 Zeichen von https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei
+[2026-04-01 19:21:23] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in Reinhardshagen. Drei Bewohner wurden nach dem Brand vorsorglich ins Krankenhaus gebracht - das Feuer war aber nicht im Krankenhaus selbst, sondern in einem Privatwohnhaus.
+[2026-04-01 19:21:24] [enrich] --- Enriche [2/2]: Nordrhein-Westfalen: Kabeldiebe lösen Brand am Bielefelder K
+[2026-04-01 19:21:25] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/nordrhein-westfalen/Kabeldiebe-loesen-Brand-am-Bi
+[2026-04-01 19:21:25] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.n-tv.de/regionales/nordrhein-westfalen/Kabeldieb
+[2026-04-01 19:21:30] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bielefeld in Bielefeld
+[2026-04-01 19:21:30] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-01 19:21:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 19:21:30] [DEDUP] Starte Dedup für 382 Einträge
+[2026-04-01 19:21:30] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 19:21:30] [DEDUP] Auto-Merge (1.00): Klinikum Bielefeld / Bielefeld ↔ Klinikum Bielefeld / Bielefeld
+[2026-04-01 19:21:30] [DEDUP] Paare verglichen: 4556
+[2026-04-01 19:21:30] [DEDUP] Auto-Merges: 1
+[2026-04-01 19:21:30] [DEDUP] Kandidaten (unsicher): 200
+[2026-04-01 19:21:30] [DEDUP] Cluster 2x: Klinikum Bielefeld, Klinikum Bielefeld
+[2026-04-01 19:21:30] [DEDUP] Ergebnis: 381 Einträge (war: 382, 1 zusammengeführt)
+[2026-04-01 19:21:30] [DEDUP] Kandidaten-Datei: 200 pending, 2 confirmed, 0 rejected
+[2026-04-01 19:21:30] [DEDUP] Gespeichert: 382 → 381 Einträge
