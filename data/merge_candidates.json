@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T09:21:32.896465",
+  "generated_at": "2026-04-01T11:13:33.750435",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -173,6 +173,39 @@
         "",
         ""
       ],
+      "score": 0.766,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.4444444444444444,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.766
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.755,
       "details": {
         "datum": 0.3,
@@ -305,6 +338,39 @@
         "",
         ""
       ],
+      "score": 0.737,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.1111111111111111,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.737
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.725,
       "details": {
         "datum": 1.0,
@@ -404,6 +470,39 @@
         "",
         ""
       ],
+      "score": 0.713,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.23076923076923078,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.713
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -463,6 +562,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.709,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.18181818181818182,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.709
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
       }
     },
     {
@@ -1057,6 +1189,39 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.697,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.697
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
       }
     },
     {

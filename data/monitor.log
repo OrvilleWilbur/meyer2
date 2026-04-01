@@ -13269,3 +13269,40 @@
 [2026-04-01 09:21:32] [DEDUP] Ergebnis: 376 Einträge (war: 376, 0 zusammengeführt)
 [2026-04-01 09:21:32] [DEDUP] Kandidaten-Datei: 186 pending, 2 confirmed, 0 rejected
 [2026-04-01 09:21:32] [DEDUP] Gespeichert: 376 → 376 Einträge
+[2026-04-01 11:13:17] === Monitor-Lauf gestartet ===
+[2026-04-01 11:13:18] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 11:13:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 11:13:20] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-01 11:13:20] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-01 11:13:20] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-01 11:13:21] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-01 11:13:21] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-01 11:13:22] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 11:13:22] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-01 11:13:23] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-04-01 11:13:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 11:13:24] 205 relevante Treffer in Feeds
+[2026-04-01 11:13:24] ✅ 1 NEUE Einträge gefunden:
+[2026-04-01 11:13:24]    01.06.2025 | Hamburger Krankenhaus |  | Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.co
+[2026-04-01 11:13:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 11:13:24] === Monitor-Lauf beendet ===
+
+[2026-04-01 11:13:24] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 11:13:24] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 11:13:24] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 11:13:24] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 11:13:24] [enrich] --- Enriche [1/1]: Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.co
+[2026-04-01 11:13:24] [enrich] Google News URL aufgelöst (v1): https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/
+[2026-04-01 11:13:28] [enrich] Volltext extrahiert: 3804 Zeichen von https://fundscene.com/drei-tote-nach-brand-in-hamburger-kran
+[2026-04-01 11:13:33] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert) in Hamburg, Stadtteil Hohenfelde
+[2026-04-01 11:13:33] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-01 11:13:33] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 11:13:33] [DEDUP] Starte Dedup für 377 Einträge
+[2026-04-01 11:13:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 11:13:33] [DEDUP] Paare verglichen: 4465
+[2026-04-01 11:13:33] [DEDUP] Auto-Merges: 0
+[2026-04-01 11:13:33] [DEDUP] Kandidaten (unsicher): 191
+[2026-04-01 11:13:33] [DEDUP] Ergebnis: 377 Einträge (war: 377, 0 zusammengeführt)
+[2026-04-01 11:13:33] [DEDUP] Kandidaten-Datei: 191 pending, 2 confirmed, 0 rejected
+[2026-04-01 11:13:33] [DEDUP] Gespeichert: 377 → 377 Einträge
