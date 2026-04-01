@@ -13611,3 +13611,42 @@
 [2026-04-01 21:57:32] [DEDUP] Ergebnis: 384 Einträge (war: 384, 0 zusammengeführt)
 [2026-04-01 21:57:32] [DEDUP] Kandidaten-Datei: 205 pending, 2 confirmed, 0 rejected
 [2026-04-01 21:57:32] [DEDUP] Gespeichert: 384 → 384 Einträge
+[2026-04-01 22:57:28] === Monitor-Lauf gestartet ===
+[2026-04-01 22:57:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 22:57:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 22:57:30] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-01 22:57:30] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-01 22:57:31] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-01 22:57:31] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-01 22:57:32] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-01 22:57:33] Feed 'gn_klinikbrand': 83 Einträge
+[2026-04-01 22:57:33] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-01 22:57:34] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-04-01 22:57:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 22:57:35] 210 relevante Treffer in Feeds
+[2026-04-01 22:57:35] ✅ 1 NEUE Einträge gefunden:
+[2026-04-01 22:57:35]    22.09.2021 | Uniklinik |  | Brand in Uniklinik: Zwölf Menschen erleiden Rauchvergiftung 
+[2026-04-01 22:57:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 22:57:35] === Monitor-Lauf beendet ===
+
+[2026-04-01 22:57:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 22:57:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 22:57:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 22:57:36] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 22:57:36] [enrich] --- Enriche [1/1]: Brand in Uniklinik: Zwölf Menschen erleiden Rauchvergiftung 
+[2026-04-01 22:57:36] [enrich] Google News URL aufgelöst (v1): https://www.abendblatt.de/schleswig-holstein/article402411338/luebeck-uniklinik-
+[2026-04-01 22:57:36] [enrich] Volltext extrahiert: 415 Zeichen von https://www.abendblatt.de/schleswig-holstein/article40241133
+[2026-04-01 22:57:38] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Lübeck in Lübeck
+[2026-04-01 22:57:38] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-01 22:57:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 22:57:38] [DEDUP] Starte Dedup für 385 Einträge
+[2026-04-01 22:57:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 22:57:39] [DEDUP] Auto-Merge (0.84): Universitätsklinikum Lübeck / Lübeck ↔ Uniklinik Lübeck / Lübeck
+[2026-04-01 22:57:39] [DEDUP] Paare verglichen: 4600
+[2026-04-01 22:57:39] [DEDUP] Auto-Merges: 1
+[2026-04-01 22:57:39] [DEDUP] Kandidaten (unsicher): 205
+[2026-04-01 22:57:39] [DEDUP] Cluster 2x: Universitätsklinikum Lübeck, Uniklinik Lübeck
+[2026-04-01 22:57:39] [DEDUP] Ergebnis: 384 Einträge (war: 385, 1 zusammengeführt)
+[2026-04-01 22:57:39] [DEDUP] Kandidaten-Datei: 205 pending, 2 confirmed, 0 rejected
+[2026-04-01 22:57:39] [DEDUP] Gespeichert: 385 → 384 Einträge
