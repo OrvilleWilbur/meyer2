@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T12:01:02.108352",
+  "generated_at": "2026-04-01T14:04:39.981133",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -298,6 +298,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.749,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.749
+      },
+      "entry_a": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -2047,6 +2080,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Bezirk Mitte, Berlin (Name nicht spezifiziert)",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
+        "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -5826,6 +5892,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "20.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
+        "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "20.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
+        "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Uniklinik nun besser gewappnet",
         "ort": "",
         "datum": "27.08.2024",
@@ -6214,6 +6313,39 @@
       ],
       "score": 0.46,
       "details": {
+        "datum": 1.0,
+        "ort": 0.2,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin-Neukölln (Ortsteil Buckow)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
         "datum": 0.7,
         "ort": 0.0,
         "einrichtung": 1.0,
@@ -6304,6 +6436,39 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
         "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "19.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.openpr.de/news/1071766/Erfolgreiche-Evakuierung-des-Krankenhauses-Porz-am-Rhein-in-Koeln.html",
+        "titel": "Erfolgreiche Evakuierung des Krankenhauses Porz am Rhein in Köln - openPR.de"
+      },
+      "entry_b": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "20.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
+        "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
       }
     }
   ],
