@@ -13232,3 +13232,40 @@
 [2026-04-01 07:53:31] [DEDUP] Ergebnis: 375 Einträge (war: 375, 0 zusammengeführt)
 [2026-04-01 07:53:31] [DEDUP] Kandidaten-Datei: 185 pending, 2 confirmed, 0 rejected
 [2026-04-01 07:53:31] [DEDUP] Gespeichert: 375 → 375 Einträge
+[2026-04-01 09:21:19] === Monitor-Lauf gestartet ===
+[2026-04-01 09:21:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 09:21:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 09:21:23] Feed 'gn_brand_krankenhaus': 35 Einträge
+[2026-04-01 09:21:23] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-01 09:21:24] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-01 09:21:25] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-01 09:21:25] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-01 09:21:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 09:21:26] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-01 09:21:27] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-04-01 09:21:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 09:21:28] 205 relevante Treffer in Feeds
+[2026-04-01 09:21:28] ✅ 1 NEUE Einträge gefunden:
+[2026-04-01 09:21:28]    20.12.2019 | des Krankenhauses Porz |  | Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rh
+[2026-04-01 09:21:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 09:21:28] === Monitor-Lauf beendet ===
+
+[2026-04-01 09:21:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 09:21:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 09:21:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 09:21:29] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 09:21:29] [enrich] --- Enriche [1/1]: Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rh
+[2026-04-01 09:21:29] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenha
+[2026-04-01 09:21:30] [enrich] Volltext extrahiert: 2020 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/evaku
+[2026-04-01 09:21:32] [enrich] FALSE POSITIVE erkannt: Evakuierung aufgrund einer Bombenentschärfung, nicht aufgrund eines Brandes
+[2026-04-01 09:21:32] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-01 09:21:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 09:21:32] [DEDUP] Starte Dedup für 376 Einträge
+[2026-04-01 09:21:32] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 09:21:32] [DEDUP] Paare verglichen: 4460
+[2026-04-01 09:21:32] [DEDUP] Auto-Merges: 0
+[2026-04-01 09:21:32] [DEDUP] Kandidaten (unsicher): 186
+[2026-04-01 09:21:32] [DEDUP] Ergebnis: 376 Einträge (war: 376, 0 zusammengeführt)
+[2026-04-01 09:21:32] [DEDUP] Kandidaten-Datei: 186 pending, 2 confirmed, 0 rejected
+[2026-04-01 09:21:32] [DEDUP] Gespeichert: 376 → 376 Einträge

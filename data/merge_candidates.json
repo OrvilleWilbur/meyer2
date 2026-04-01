@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T07:53:31.309054",
+  "generated_at": "2026-04-01T09:21:32.896465",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -6106,6 +6106,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-108.html",
         "titel": "Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - deutschlandfunk.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "19.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.openpr.de/news/1071766/Erfolgreiche-Evakuierung-des-Krankenhauses-Porz-am-Rhein-in-Koeln.html",
+        "titel": "Erfolgreiche Evakuierung des Krankenhauses Porz am Rhein in Köln - openPR.de"
+      },
+      "entry_b": {
+        "einrichtung": "des Krankenhauses Porz",
+        "ort": "",
+        "datum": "20.12.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
+        "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma-online.de"
       }
     }
   ],
