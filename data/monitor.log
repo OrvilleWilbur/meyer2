@@ -13100,3 +13100,49 @@
 [2026-03-31 23:48:50] [DEDUP] Ergebnis: 372 Einträge (war: 372, 0 zusammengeführt)
 [2026-03-31 23:48:50] [DEDUP] Kandidaten-Datei: 183 pending, 2 confirmed, 0 rejected
 [2026-03-31 23:48:50] [DEDUP] Gespeichert: 372 → 372 Einträge
+[2026-04-01 03:44:29] === Monitor-Lauf gestartet ===
+[2026-04-01 03:44:30] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 03:44:31] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 03:44:31] Feed 'gn_brand_krankenhaus': 40 Einträge
+[2026-04-01 03:44:32] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-04-01 03:44:32] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-01 03:44:33] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-01 03:44:33] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-04-01 03:44:33] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 03:44:34] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-01 03:44:34] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-01 03:44:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 03:44:35] 198 relevante Treffer in Feeds
+[2026-04-01 03:44:35] ✅ 2 NEUE Einträge gefunden:
+[2026-04-01 03:44:35]    03.10.2025 | in Klinik |  | Brand in Klinik in Saarbrücken – Mindestens 20 Verletzte - n
+[2026-04-01 03:44:35]    19.03.2026 | in Klinikum |  | Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-04-01 03:44:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 03:44:35] === Monitor-Lauf beendet ===
+
+[2026-04-01 03:44:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 03:44:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 03:44:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 03:44:36] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 03:44:36] [enrich] --- Enriche [1/2]: Brand in Klinik in Saarbrücken – Mindestens 20 Verletzte - n
+[2026-04-01 03:44:36] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/panorama/artikel/saarbruecken-brand-in-klini
+[2026-04-01 03:44:37] [enrich] Volltext extrahiert: 1688 Zeichen von https://www.noz.de/deutschland-welt/panorama/artikel/saarbru
+[2026-04-01 03:44:39] [enrich] Enrichment abgeschlossen: enriched — Klinik Saarbrücken (Name nicht spezifiziert) in Saarbrücken
+[2026-04-01 03:44:40] [enrich] --- Enriche [2/2]: Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-04-01 03:44:40] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektro-brand-in-klinikum-
+[2026-04-01 03:44:41] [enrich] Volltext extrahiert: 3761 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektr
+[2026-04-01 03:44:45] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-04-01 03:44:45] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-01 03:44:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 03:44:45] [DEDUP] Starte Dedup für 374 Einträge
+[2026-04-01 03:44:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 03:44:45] [DEDUP] Auto-Merge (0.87): Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken ↔ Klinik Saarbrücken (Name nicht spezifizi / Saarbrücken
+[2026-04-01 03:44:45] [DEDUP] Auto-Merge (0.89): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-04-01 03:44:45] [DEDUP] Paare verglichen: 4377
+[2026-04-01 03:44:45] [DEDUP] Auto-Merges: 2
+[2026-04-01 03:44:45] [DEDUP] Kandidaten (unsicher): 184
+[2026-04-01 03:44:45] [DEDUP] Cluster 2x: Klinik Saarbrücken (Name nicht spezifizi, Klinik Saarbrücken (Name nicht spezifizi
+[2026-04-01 03:44:45] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-04-01 03:44:45] [DEDUP] Ergebnis: 372 Einträge (war: 374, 2 zusammengeführt)
+[2026-04-01 03:44:45] [DEDUP] Kandidaten-Datei: 184 pending, 2 confirmed, 0 rejected
+[2026-04-01 03:44:45] [DEDUP] Gespeichert: 374 → 372 Einträge

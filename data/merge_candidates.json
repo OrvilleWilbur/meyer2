@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T23:48:50.091334",
+  "generated_at": "2026-04-01T03:44:45.716125",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -199,6 +199,39 @@
         "status": "enriched",
         "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
         "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.754,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.754
+      },
+      "entry_a": {
+        "einrichtung": "Sonnenbergklinik",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
+        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.noz.de/deutschland-welt/panorama/artikel/saarbruecken-brand-in-klinik-mindestens-20-verletzte-49358511",
+        "titel": "Brand in Klinik in Saarbrücken – Mindestens 20 Verletzte - noz.de"
       }
     },
     {
