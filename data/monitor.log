@@ -13146,3 +13146,59 @@
 [2026-04-01 03:44:45] [DEDUP] Ergebnis: 372 Einträge (war: 374, 2 zusammengeführt)
 [2026-04-01 03:44:45] [DEDUP] Kandidaten-Datei: 184 pending, 2 confirmed, 0 rejected
 [2026-04-01 03:44:45] [DEDUP] Gespeichert: 374 → 372 Einträge
+[2026-04-01 06:03:22] === Monitor-Lauf gestartet ===
+[2026-04-01 06:03:23] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 06:03:23] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 06:03:24] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-01 06:03:24] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-04-01 06:03:25] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-01 06:03:25] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-01 06:03:25] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-01 06:03:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 06:03:26] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-01 06:03:27] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-04-01 06:03:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 06:03:28] 202 relevante Treffer in Feeds
+[2026-04-01 06:03:28] ✅ 4 NEUE Einträge gefunden:
+[2026-04-01 06:03:28]    19.03.2026 | in Klinikum |  | Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-04-01 06:03:28]    27.08.2024 | Uniklinik nun besser gewappnet |  | Brandgefahr: Uniklinik nun besser gewappnet - aachener-zeitu
+[2026-04-01 06:03:28]    30.01.2026 |  |  | Psychiatrie-Direktor über Evakuierung: „Das war eine tolle E
+[2026-04-01 06:03:28]    13.12.2019 | Porzer Krankenhaus |  | Mittwoch Evakuierung Porzer Krankenhaus - porzerleben.de
+[2026-04-01 06:03:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 06:03:28] === Monitor-Lauf beendet ===
+
+[2026-04-01 06:03:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 06:03:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 06:03:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 06:03:28] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 06:03:28] [enrich] --- Enriche [1/4]: Dresden: Elektro-Brand in Klinikum - Aufnahme von ambulanten
+[2026-04-01 06:03:29] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektro-brand-in-klinikum-
+[2026-04-01 06:03:29] [enrich] Volltext extrahiert: 3776 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/elektr
+[2026-04-01 06:03:33] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-04-01 06:03:34] [enrich] --- Enriche [2/4]: Brandgefahr: Uniklinik nun besser gewappnet - aachener-zeitu
+[2026-04-01 06:03:34] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-aachen/aachen/brandgefahr-uniklin
+[2026-04-01 06:03:34] [enrich] Artikel-Fetch fehlgeschlagen für https://www.aachener-zeitung.de/lokales/region-aachen/aachen/brandgefahr-uniklin: 403 Client Error: Forbidden for url: https://www.aachener-zeitung.de/lokales/region-aachen/aachen/brandgefahr-uniklinik-nun-besser-gewappnet/18179974.html
+[2026-04-01 06:03:34] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (494 Z.)
+[2026-04-01 06:03:35] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Brandschutzmaßnahmen und Brandschutzkonzepte an einer Uniklinik, nicht einen tatsächlichen Brand in einem Krankenhaus
+[2026-04-01 06:03:36] [enrich] --- Enriche [3/4]: Psychiatrie-Direktor über Evakuierung: „Das war eine tolle E
+[2026-04-01 06:03:37] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-aachen/aachen/psychiatrie-direkto
+[2026-04-01 06:03:37] [enrich] Artikel-Fetch fehlgeschlagen für https://www.aachener-zeitung.de/lokales/region-aachen/aachen/psychiatrie-direkto: 403 Client Error: Forbidden for url: https://www.aachener-zeitung.de/lokales/region-aachen/aachen/psychiatrie-direktor-ueber-evakuierung-das-war-eine-tolle-erfahrung/126775729.html
+[2026-04-01 06:03:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (592 Z.)
+[2026-04-01 06:03:39] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt eine Evakuierung, ohne dass ein Brand als Ursache erkennbar ist. Die Überschrift deutet auf eine Übung oder einen anderen Evakuierungsgrund hin, nicht auf einen Brand in der Einrichtung.
+[2026-04-01 06:03:40] [enrich] --- Enriche [4/4]: Mittwoch Evakuierung Porzer Krankenhaus - porzerleben.de
+[2026-04-01 06:03:40] [enrich] Google News URL aufgelöst (v1): https://porzerleben.de/porz/35790-mittwoch-evakuierung-porzer-krankenhaus
+[2026-04-01 06:03:42] [enrich] Volltext extrahiert: 1011 Zeichen von https://porzerleben.de/porz/35790-mittwoch-evakuierung-porze
+[2026-04-01 06:03:43] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Kampfmittelbeseitigung), nicht wegen Brand
+[2026-04-01 06:03:43] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-04-01 06:03:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 06:03:43] [DEDUP] Starte Dedup für 376 Einträge
+[2026-04-01 06:03:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 06:03:43] [DEDUP] Auto-Merge (0.89): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-04-01 06:03:43] [DEDUP] Paare verglichen: 4458
+[2026-04-01 06:03:43] [DEDUP] Auto-Merges: 1
+[2026-04-01 06:03:43] [DEDUP] Kandidaten (unsicher): 185
+[2026-04-01 06:03:43] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-04-01 06:03:43] [DEDUP] Ergebnis: 375 Einträge (war: 376, 1 zusammengeführt)
+[2026-04-01 06:03:43] [DEDUP] Kandidaten-Datei: 185 pending, 2 confirmed, 0 rejected
+[2026-04-01 06:03:43] [DEDUP] Gespeichert: 376 → 375 Einträge
