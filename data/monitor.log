@@ -13416,3 +13416,47 @@
 [2026-04-01 15:40:49] [DEDUP] Ergebnis: 379 Einträge (war: 379, 0 zusammengeführt)
 [2026-04-01 15:40:49] [DEDUP] Kandidaten-Datei: 193 pending, 2 confirmed, 0 rejected
 [2026-04-01 15:40:49] [DEDUP] Gespeichert: 379 → 379 Einträge
+[2026-04-01 17:10:24] === Monitor-Lauf gestartet ===
+[2026-04-01 17:10:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 17:10:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 17:10:26] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-01 17:10:27] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-04-01 17:10:27] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-01 17:10:27] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-01 17:10:28] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-04-01 17:10:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 17:10:29] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-01 17:10:30] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-04-01 17:10:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 17:10:31] 212 relevante Treffer in Feeds
+[2026-04-01 17:10:31] ✅ 2 NEUE Einträge gefunden:
+[2026-04-01 17:10:31]    26.03.2026 | im Krankenhaus |  | Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH
+[2026-04-01 17:10:31]    25.10.2023 | Uniklinikum Halle |  | Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufw
+[2026-04-01 17:10:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 17:10:31] === Monitor-Lauf beendet ===
+
+[2026-04-01 17:10:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 17:10:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 17:10:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 17:10:31] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 17:10:31] [enrich] --- Enriche [1/2]: Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH
+[2026-04-01 17:10:31] [enrich] Google News URL aufgelöst (v1): https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-kranken
+[2026-04-01 17:10:32] [enrich] Volltext extrahiert: 1487 Zeichen von https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei
+[2026-04-01 17:10:33] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus in Reinhardshagen. Drei Bewohner wurden vorsorglich mit Verdacht auf Rauchvergiftung ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-04-01 17:10:34] [enrich] --- Enriche [2/2]: Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufw
+[2026-04-01 17:10:35] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sicher
+[2026-04-01 17:10:35] [enrich] Volltext extrahiert: 1461 Zeichen von https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-hal
+[2026-04-01 17:10:37] [enrich] Enrichment abgeschlossen: enriched — Uniklinikum Halle in Halle (Saale)
+[2026-04-01 17:10:37] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-01 17:10:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 17:10:37] [DEDUP] Starte Dedup für 381 Einträge
+[2026-04-01 17:10:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 17:10:38] [DEDUP] Auto-Merge (0.95): Uniklinikum Halle / Halle (Saale) ↔ Uniklinikum Halle / Halle (Saale)
+[2026-04-01 17:10:38] [DEDUP] Paare verglichen: 4514
+[2026-04-01 17:10:38] [DEDUP] Auto-Merges: 1
+[2026-04-01 17:10:38] [DEDUP] Kandidaten (unsicher): 197
+[2026-04-01 17:10:38] [DEDUP] Cluster 2x: Uniklinikum Halle, Uniklinikum Halle
+[2026-04-01 17:10:38] [DEDUP] Ergebnis: 380 Einträge (war: 381, 1 zusammengeführt)
+[2026-04-01 17:10:38] [DEDUP] Kandidaten-Datei: 197 pending, 2 confirmed, 0 rejected
+[2026-04-01 17:10:38] [DEDUP] Gespeichert: 381 → 380 Einträge

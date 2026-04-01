@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T15:40:49.793358",
+  "generated_at": "2026-04-01T17:10:38.365890",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -34,6 +34,39 @@
         "status": "enriched",
         "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
         "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.8,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.8
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Halle (Saale)",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://dubisthalle.de/steckdosenbrand-in-der-uniklinik-halle-saale-keine-verletzten-op-betrieb-sichergestellt",
+        "titel": "Steckdosenbrand in der Uniklinik Halle (Saale): Keine Verletzten, OP-Betrieb sichergestellt - Du bist Halle"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinikum Halle",
+        "ort": "Halle (Saale)",
+        "datum": "25.10.2023",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
+        "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - mz.de"
       }
     },
     {
@@ -3318,6 +3351,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/hessen/braende--feuer-bricht-auf-terrasse-aus---drei-menschen-im-krankenhaus-37256176.html",
+        "titel": "Brände: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Bielefelder Klinikum aus",
         "ort": "",
         "datum": "03.03.2026",
@@ -3384,6 +3450,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Menschen-im-Krankenhaus-id30512927.html",
+        "titel": "Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "beim Klinikum Dortmund",
         "ort": "",
         "datum": "27.03.2026",
@@ -3400,6 +3499,39 @@
         "status": "false_positive",
         "link": "https://www.derwesten.de/staedte/dortmund/dortmund-klinikum-rauchwolke-id302027448.html",
         "titel": "Brand beim Klinikum Dortmund – Rauchwolke sorgt für große Alarmierung - derwesten.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Menschen-im-Krankenhaus-id30512927.html",
+        "titel": "Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - n-tv.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH"
       }
     },
     {
