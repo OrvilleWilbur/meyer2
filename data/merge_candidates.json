@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T19:21:30.833623",
+  "generated_at": "2026-04-01T21:00:55.515114",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3384,6 +3384,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/hessen/braende--feuer-bricht-auf-terrasse-aus---drei-menschen-im-krankenhaus-37256176.html",
+        "titel": "Brände: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Bielefelder Klinikum aus",
         "ort": "",
         "datum": "03.03.2026",
@@ -3516,6 +3549,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Menschen-im-Krankenhaus-id30512927.html",
+        "titel": "Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "beim Klinikum Dortmund",
         "ort": "",
         "datum": "27.03.2026",
@@ -3615,6 +3681,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/hessen/Feuer-bricht-auf-Terrasse-aus-drei-Menschen-im-Krankenhaus-id30512927.html",
+        "titel": "Hessen: Feuer bricht auf Terrasse aus - drei Menschen im Krankenhaus - n-tv.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "BG Klinik Ludwigshafen",
         "ort": "",
         "datum": "04.02.2026",
@@ -3697,6 +3796,72 @@
         "status": "false_positive",
         "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
         "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - Hit Radio FFH"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - FFH"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - Hit Radio FFH"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "26.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-krankenhaus-feuer-in-reinhardshagen.html",
+        "titel": "Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.de"
       }
     },
     {

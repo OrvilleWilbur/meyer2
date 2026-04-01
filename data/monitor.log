@@ -13534,3 +13534,50 @@
 [2026-04-01 19:21:30] [DEDUP] Ergebnis: 381 Einträge (war: 382, 1 zusammengeführt)
 [2026-04-01 19:21:30] [DEDUP] Kandidaten-Datei: 200 pending, 2 confirmed, 0 rejected
 [2026-04-01 19:21:30] [DEDUP] Gespeichert: 382 → 381 Einträge
+[2026-04-01 21:00:36] === Monitor-Lauf gestartet ===
+[2026-04-01 21:00:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 21:00:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 21:00:39] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-04-01 21:00:39] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-01 21:00:40] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-01 21:00:40] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-01 21:00:41] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-01 21:00:41] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-01 21:00:42] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-01 21:00:42] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-04-01 21:00:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 21:00:43] 212 relevante Treffer in Feeds
+[2026-04-01 21:00:43] ✅ 3 NEUE Einträge gefunden:
+[2026-04-01 21:00:43]    26.03.2026 | im Krankenhaus |  | Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.
+[2026-04-01 21:00:43]    31.12.2017 | Altonaer Krankenhaus |  | Feuer in Altonaer Krankenhaus: Polizei hat Ermittlungen aufg
+[2026-04-01 21:00:43]    30.01.2024 |  |  | Notfälle: Krankenhaus bereitet sich auf eine mögliche Evakui
+[2026-04-01 21:00:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 21:00:43] === Monitor-Lauf beendet ===
+
+[2026-04-01 21:00:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 21:00:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 21:00:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 21:00:43] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 21:00:43] [enrich] --- Enriche [1/3]: Drei Menschen im Krankenhaus: Feuer in Reinhardshagen - ffh.
+[2026-04-01 21:00:44] [enrich] Google News URL aufgelöst (v1): https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei-menschen-im-kranken
+[2026-04-01 21:00:45] [enrich] Volltext extrahiert: 1487 Zeichen von https://www.ffh.de/nachrichten/hessen/nordhessen/463830-drei
+[2026-04-01 21:00:47] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus in Reinhardshagen, nicht in einem Krankenhaus. Drei Bewohner wurden nach dem Brand vorsorglich ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-04-01 21:00:48] [enrich] --- Enriche [2/3]: Feuer in Altonaer Krankenhaus: Polizei hat Ermittlungen aufg
+[2026-04-01 21:00:48] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/hamburg/artikel/feuer-in-altonaer-krankenhau
+[2026-04-01 21:00:49] [enrich] Volltext extrahiert: 1570 Zeichen von https://www.shz.de/deutschland-welt/hamburg/artikel/feuer-in
+[2026-04-01 21:00:51] [enrich] Enrichment abgeschlossen: enriched — Altonaer Krankenhaus in Hamburg
+[2026-04-01 21:00:52] [enrich] --- Enriche [3/3]: Notfälle: Krankenhaus bereitet sich auf eine mögliche Evakui
+[2026-04-01 21:00:52] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2024-01/29/krankenhaus-bereitet-sich-auf-eine-moegliche
+[2026-04-01 21:00:53] [enrich] Volltext extrahiert: 1780 Zeichen von https://www.zeit.de/news/2024-01/29/krankenhaus-bereitet-sic
+[2026-04-01 21:00:54] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen möglicher Weltkriegsbombe (Blindgänger), nicht wegen Brand
+[2026-04-01 21:00:54] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-01 21:00:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 21:00:55] [DEDUP] Starte Dedup für 384 Einträge
+[2026-04-01 21:00:55] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 21:00:55] [DEDUP] Paare verglichen: 4599
+[2026-04-01 21:00:55] [DEDUP] Auto-Merges: 0
+[2026-04-01 21:00:55] [DEDUP] Kandidaten (unsicher): 205
+[2026-04-01 21:00:55] [DEDUP] Ergebnis: 384 Einträge (war: 384, 0 zusammengeführt)
+[2026-04-01 21:00:55] [DEDUP] Kandidaten-Datei: 205 pending, 2 confirmed, 0 rejected
+[2026-04-01 21:00:55] [DEDUP] Gespeichert: 384 → 384 Einträge
