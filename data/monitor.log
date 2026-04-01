@@ -13650,3 +13650,48 @@
 [2026-04-01 22:57:39] [DEDUP] Ergebnis: 384 Einträge (war: 385, 1 zusammengeführt)
 [2026-04-01 22:57:39] [DEDUP] Kandidaten-Datei: 205 pending, 2 confirmed, 0 rejected
 [2026-04-01 22:57:39] [DEDUP] Gespeichert: 385 → 384 Einträge
+[2026-04-01 23:49:49] === Monitor-Lauf gestartet ===
+[2026-04-01 23:49:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-01 23:49:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-01 23:49:51] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-01 23:49:52] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-01 23:49:52] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-04-01 23:49:52] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-01 23:49:53] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-01 23:49:53] Feed 'gn_klinikbrand': 99 Einträge
+[2026-04-01 23:49:54] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-04-01 23:49:54] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-04-01 23:49:55] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-01 23:49:55] 217 relevante Treffer in Feeds
+[2026-04-01 23:49:55] ✅ 2 NEUE Einträge gefunden:
+[2026-04-01 23:49:55]    17.04.2023 | Uniklinik erfordern umfangreiche Lüftungsmaßnahmen |  | Erstmeldung der Feuerwehr: Brand in einem Gebäude der Unikli
+[2026-04-01 23:49:55]    19.12.2019 |  |  | Krankenhaus-Evakuierung geglückt, Bombe entschärft - aachene
+[2026-04-01 23:49:55] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-01 23:49:55] === Monitor-Lauf beendet ===
+
+[2026-04-01 23:49:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-01 23:49:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-01 23:49:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-01 23:49:56] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-01 23:49:56] [enrich] --- Enriche [1/2]: Erstmeldung der Feuerwehr: Brand in einem Gebäude der Unikli
+[2026-04-01 23:49:56] [enrich] Google News URL aufgelöst (v1): https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-
+[2026-04-01 23:49:57] [enrich] Volltext extrahiert: 2343 Zeichen von https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in
+[2026-04-01 23:50:00] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Düsseldorf (Moorenstraße, Bilk) in Düsseldorf
+[2026-04-01 23:50:01] [enrich] --- Enriche [2/2]: Krankenhaus-Evakuierung geglückt, Bombe entschärft - aachene
+[2026-04-01 23:50:01] [enrich] Google News URL aufgelöst (v1): https://www.aachener-zeitung.de/lokales/region-dueren/dueren/krankenhaus-evakuie
+[2026-04-01 23:50:01] [enrich] Artikel-Fetch fehlgeschlagen für https://www.aachener-zeitung.de/lokales/region-dueren/dueren/krankenhaus-evakuie: 403 Client Error: Forbidden for url: https://www.aachener-zeitung.de/lokales/region-dueren/dueren/krankenhaus-evakuierung-gegluckt-bombe-entscharft/4065907.html
+[2026-04-01 23:50:01] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (519 Z.)
+[2026-04-01 23:50:02] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses wegen Bombenentschärfung, nicht wegen Brand
+[2026-04-01 23:50:02] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-01 23:50:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-01 23:50:02] [DEDUP] Starte Dedup für 386 Einträge
+[2026-04-01 23:50:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-01 23:50:02] [DEDUP] Auto-Merge (0.90): Universitätsklinik Moorenstraße / Unikli / Düsseldorf ↔ Universitätsklinik Düsseldorf (Moorenstr / Düsseldorf
+[2026-04-01 23:50:02] [DEDUP] Paare verglichen: 4607
+[2026-04-01 23:50:02] [DEDUP] Auto-Merges: 1
+[2026-04-01 23:50:02] [DEDUP] Kandidaten (unsicher): 206
+[2026-04-01 23:50:02] [DEDUP] Cluster 2x: Universitätsklinik Moorenstraße / Unikli, Universitätsklinik Düsseldorf (Moorenstr
+[2026-04-01 23:50:02] [DEDUP] Ergebnis: 385 Einträge (war: 386, 1 zusammengeführt)
+[2026-04-01 23:50:02] [DEDUP] Kandidaten-Datei: 206 pending, 2 confirmed, 0 rejected
+[2026-04-01 23:50:02] [DEDUP] Gespeichert: 386 → 385 Einträge

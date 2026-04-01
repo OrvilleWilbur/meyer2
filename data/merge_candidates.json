@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-01T22:57:39.378531",
+  "generated_at": "2026-04-01T23:50:02.867708",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -397,6 +397,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.722,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.375,
+        "bundesland": 1.0,
+        "brandort": 0.35714285714285715,
+        "total": 0.722
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Düsseldorf (UKD), Klinik für Urologie",
+        "ort": "Düsseldorf",
+        "datum": "17.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.neue-duesseldorfer-online-zeitung.de/stadtnachrichten/artikel/brandereignis-in-einer-op-raeumlichkeit-der-uniklinik-duesseldorf-2528.html",
+        "titel": "Brandereignis in einer OP-Räumlichkeit der Uniklinik Düsseldorf - Neue Düsseldorfer Online Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Düsseldorf (Moorenstraße, Bilk)",
+        "ort": "Düsseldorf",
+        "datum": "16.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
+        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - lokalkompass.de"
       }
     },
     {
