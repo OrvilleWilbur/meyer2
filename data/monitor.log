@@ -14210,3 +14210,47 @@
 [2026-04-02 20:53:54] [DEDUP] Ergebnis: 390 Einträge (war: 390, 0 zusammengeführt)
 [2026-04-02 20:53:54] [DEDUP] Kandidaten-Datei: 210 pending, 2 confirmed, 0 rejected
 [2026-04-02 20:53:54] [DEDUP] Gespeichert: 390 → 390 Einträge
+[2026-04-02 21:52:06] === Monitor-Lauf gestartet ===
+[2026-04-02 21:52:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 21:52:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 21:52:08] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-02 21:52:09] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-04-02 21:52:09] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-02 21:52:10] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-02 21:52:10] Feed 'gn_brand_klinikum': 45 Einträge
+[2026-04-02 21:52:11] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-02 21:52:11] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-02 21:52:12] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-02 21:52:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 21:52:13] 217 relevante Treffer in Feeds
+[2026-04-02 21:52:13] ✅ 2 NEUE Einträge gefunden:
+[2026-04-02 21:52:13]    25.03.2026 | Universitätsklinikum Münster |  | Brand am Universitätsklinikum Münster: Feuer gelöscht, keine
+[2026-04-02 21:52:13]    19.11.2023 | Schifa-Krankenhaus |  | Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung g
+[2026-04-02 21:52:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 21:52:13] === Monitor-Lauf beendet ===
+
+[2026-04-02 21:52:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 21:52:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 21:52:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 21:52:13] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 21:52:13] [enrich] --- Enriche [1/2]: Brand am Universitätsklinikum Münster: Feuer gelöscht, keine
+[2026-04-02 21:52:14] [enrich] Google News URL aufgelöst (v1): https://www.wn.de/muenster/brand-am-universitaetsklinikum-muenster-3520229
+[2026-04-02 21:52:15] [enrich] Volltext extrahiert: 2155 Zeichen von https://www.wn.de/muenster/brand-am-universitaetsklinikum-mu
+[2026-04-02 21:52:17] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (UKM) in Münster
+[2026-04-02 21:52:18] [enrich] --- Enriche [2/2]: Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung g
+[2026-04-02 21:52:19] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa-krankenhaus-komment
+[2026-04-02 21:52:19] [enrich] Volltext extrahiert: 1871 Zeichen von https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa
+[2026-04-02 21:52:21] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Konflikt und die Besetzung eines Krankenhauses in Gaza, nicht einen Brand in einem deutschen Krankenhaus. Zudem befindet sich Gaza außerhalb Deutschlands.
+[2026-04-02 21:52:21] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-02 21:52:21] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 21:52:21] [DEDUP] Starte Dedup für 392 Einträge
+[2026-04-02 21:52:21] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 21:52:21] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Universitätsklinikum Münster (UKM) / Münster
+[2026-04-02 21:52:21] [DEDUP] Paare verglichen: 4636
+[2026-04-02 21:52:21] [DEDUP] Auto-Merges: 1
+[2026-04-02 21:52:21] [DEDUP] Kandidaten (unsicher): 212
+[2026-04-02 21:52:21] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Universitätsklinikum Münster (UKM)
+[2026-04-02 21:52:21] [DEDUP] Ergebnis: 391 Einträge (war: 392, 1 zusammengeführt)
+[2026-04-02 21:52:21] [DEDUP] Kandidaten-Datei: 212 pending, 2 confirmed, 0 rejected
+[2026-04-02 21:52:21] [DEDUP] Gespeichert: 392 → 391 Einträge
