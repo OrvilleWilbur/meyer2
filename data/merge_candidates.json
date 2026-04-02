@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T22:50:46.986886",
+  "generated_at": "2026-04-02T23:49:55.400073",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -397,6 +397,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.733,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.3076923076923077,
+        "total": 0.733
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
+        "ort": "Leipzig, Stadtteil Probstheida",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
+        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Park-Klinikum Leipzig",
+        "ort": "Leipzig",
+        "datum": "17.12.2025",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-klinik-100.html",
+        "titel": "Brand in Park-Klinikum in Leipzig verläuft glimplich - mdr.de"
       }
     },
     {

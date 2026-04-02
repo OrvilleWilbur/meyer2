@@ -14293,3 +14293,49 @@
 [2026-04-02 22:50:46] [DEDUP] Ergebnis: 391 Einträge (war: 392, 1 zusammengeführt)
 [2026-04-02 22:50:46] [DEDUP] Kandidaten-Datei: 212 pending, 2 confirmed, 0 rejected
 [2026-04-02 22:50:47] [DEDUP] Gespeichert: 392 → 391 Einträge
+[2026-04-02 23:49:36] === Monitor-Lauf gestartet ===
+[2026-04-02 23:49:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 23:49:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 23:49:39] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-02 23:49:40] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-02 23:49:40] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-04-02 23:49:41] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-02 23:49:41] Feed 'gn_brand_klinikum': 44 Einträge
+[2026-04-02 23:49:42] Feed 'gn_klinikbrand': 99 Einträge
+[2026-04-02 23:49:42] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-02 23:49:42] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-02 23:49:43] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 23:49:43] 218 relevante Treffer in Feeds
+[2026-04-02 23:49:43] ✅ 2 NEUE Einträge gefunden:
+[2026-04-02 23:49:43]    11.02.2026 | in Klinik |  | Großeinsatz: Feuer in Klinik im Kreis Goslar - Patienten eva
+[2026-04-02 23:49:43]    17.12.2025 | Park-Klinikum |  | Brand in Park-Klinikum in Leipzig verläuft glimplich - mdr.d
+[2026-04-02 23:49:43] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 23:49:43] === Monitor-Lauf beendet ===
+
+[2026-04-02 23:49:45] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 23:49:45] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 23:49:45] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 23:49:45] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 23:49:45] [enrich] --- Enriche [1/2]: Großeinsatz: Feuer in Klinik im Kreis Goslar - Patienten eva
+[2026-04-02 23:49:45] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-02/11/feuer-in-klinik-im-kreis-goslar-patienten-ev
+[2026-04-02 23:49:46] [enrich] Volltext extrahiert: 1550 Zeichen von https://www.zeit.de/news/2026-02/11/feuer-in-klinik-im-kreis
+[2026-04-02 23:49:48] [enrich] Enrichment abgeschlossen: enriched — Klinik Dr. Fontheim (Klinik für Psychiatrie, Psychotherapie und Psychosomatik) in Liebenburg
+[2026-04-02 23:49:49] [enrich] --- Enriche [2/2]: Brand in Park-Klinikum in Leipzig verläuft glimplich - mdr.d
+[2026-04-02 23:49:49] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-k
+[2026-04-02 23:49:51] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipz
+[2026-04-02 23:49:54] [enrich] Enrichment abgeschlossen: enriched — Park-Klinikum Leipzig in Leipzig
+[2026-04-02 23:49:54] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-02 23:49:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 23:49:54] [DEDUP] Starte Dedup für 393 Einträge
+[2026-04-02 23:49:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 23:49:55] [DEDUP] Auto-Merge (0.94): Klinik Dr. Fontheim / Liebenburg ↔ Klinik Dr. Fontheim (Klinik für Psychiat / Liebenburg
+[2026-04-02 23:49:55] [DEDUP] Auto-Merge (0.91): Helios Park-Klinikum Leipzig / Leipzig ↔ Park-Klinikum Leipzig / Leipzig
+[2026-04-02 23:49:55] [DEDUP] Paare verglichen: 4637
+[2026-04-02 23:49:55] [DEDUP] Auto-Merges: 2
+[2026-04-02 23:49:55] [DEDUP] Kandidaten (unsicher): 213
+[2026-04-02 23:49:55] [DEDUP] Cluster 2x: Klinik Dr. Fontheim, Klinik Dr. Fontheim (Klinik für Psychiat
+[2026-04-02 23:49:55] [DEDUP] Cluster 2x: Helios Park-Klinikum Leipzig, Park-Klinikum Leipzig
+[2026-04-02 23:49:55] [DEDUP] Ergebnis: 391 Einträge (war: 393, 2 zusammengeführt)
+[2026-04-02 23:49:55] [DEDUP] Kandidaten-Datei: 213 pending, 2 confirmed, 0 rejected
+[2026-04-02 23:49:55] [DEDUP] Gespeichert: 393 → 391 Einträge
