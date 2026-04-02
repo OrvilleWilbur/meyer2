@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T11:09:06.083154",
+  "generated_at": "2026-04-02T11:57:11.787854",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -6634,6 +6634,39 @@
         "status": "false_positive",
         "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
         "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus entdeckt",
+        "ort": "",
+        "datum": "19.11.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israelische-armee-tunnel-unter-al-schifa-krankenhaus-entdeckt-evakuierung-der-klinik-dauert-an-100.html",
+        "titel": "Gaza-Krieg - Israelische Armee: Tunnel unter Al-Schifa-Krankenhaus entdeckt - Evakuierung der Klinik dauert an - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "19.11.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa-krankenhaus-kommentar-1.6305735",
+        "titel": "Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung garantieren - Meinung - SZ.de - SZ.de"
       }
     },
     {

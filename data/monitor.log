@@ -13915,3 +13915,40 @@
 [2026-04-02 11:09:06] [DEDUP] Ergebnis: 389 Einträge (war: 389, 0 zusammengeführt)
 [2026-04-02 11:09:06] [DEDUP] Kandidaten-Datei: 209 pending, 2 confirmed, 0 rejected
 [2026-04-02 11:09:06] [DEDUP] Gespeichert: 389 → 389 Einträge
+[2026-04-02 11:56:58] === Monitor-Lauf gestartet ===
+[2026-04-02 11:57:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 11:57:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 11:57:02] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-02 11:57:02] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-02 11:57:03] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-02 11:57:03] Feed 'gn_brand_klinik': 39 Einträge
+[2026-04-02 11:57:04] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-02 11:57:04] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-02 11:57:05] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-02 11:57:06] Feed 'gn_evakuierung_klinik': 55 Einträge
+[2026-04-02 11:57:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 11:57:07] 213 relevante Treffer in Feeds
+[2026-04-02 11:57:07] ✅ 1 NEUE Einträge gefunden:
+[2026-04-02 11:57:07]    19.11.2023 | Schifa-Krankenhaus |  | Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung g
+[2026-04-02 11:57:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 11:57:07] === Monitor-Lauf beendet ===
+
+[2026-04-02 11:57:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 11:57:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 11:57:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 11:57:07] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 11:57:07] [enrich] --- Enriche [1/1]: Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung g
+[2026-04-02 11:57:08] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa-krankenhaus-komment
+[2026-04-02 11:57:09] [enrich] Volltext extrahiert: 1871 Zeichen von https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa
+[2026-04-02 11:57:11] [enrich] FALSE POSITIVE erkannt: Artikel behandelt ein Krankenhaus in Gaza (Ausland), nicht in Deutschland. Thema ist politisch-militärische Situation und Evakuierung wegen Kriegsfolgen, nicht ein Brand in einem deutschen Krankenhaus.
+[2026-04-02 11:57:11] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-02 11:57:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 11:57:11] [DEDUP] Starte Dedup für 390 Einträge
+[2026-04-02 11:57:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 11:57:11] [DEDUP] Paare verglichen: 4621
+[2026-04-02 11:57:11] [DEDUP] Auto-Merges: 0
+[2026-04-02 11:57:11] [DEDUP] Kandidaten (unsicher): 210
+[2026-04-02 11:57:11] [DEDUP] Ergebnis: 390 Einträge (war: 390, 0 zusammengeführt)
+[2026-04-02 11:57:11] [DEDUP] Kandidaten-Datei: 210 pending, 2 confirmed, 0 rejected
+[2026-04-02 11:57:11] [DEDUP] Gespeichert: 390 → 390 Einträge
