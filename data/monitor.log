@@ -14021,3 +14021,42 @@
 [2026-04-02 15:15:24] [DEDUP] Ergebnis: 390 Einträge (war: 390, 0 zusammengeführt)
 [2026-04-02 15:15:24] [DEDUP] Kandidaten-Datei: 210 pending, 2 confirmed, 0 rejected
 [2026-04-02 15:15:24] [DEDUP] Gespeichert: 390 → 390 Einträge
+[2026-04-02 16:11:51] === Monitor-Lauf gestartet ===
+[2026-04-02 16:11:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 16:11:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 16:11:54] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-02 16:11:54] Feed 'gn_feuer_krankenhaus': 36 Einträge
+[2026-04-02 16:11:55] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-02 16:11:55] Feed 'gn_brand_klinik': 45 Einträge
+[2026-04-02 16:11:56] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-04-02 16:11:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-02 16:11:57] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-02 16:11:57] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-04-02 16:11:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 16:11:58] 215 relevante Treffer in Feeds
+[2026-04-02 16:11:58] ✅ 1 NEUE Einträge gefunden:
+[2026-04-02 16:11:58]    08.09.2025 | in Klinik |  | Patient (26) stirbt bei Feuer in Klinik - nordkurier.de
+[2026-04-02 16:11:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 16:11:58] === Monitor-Lauf beendet ===
+
+[2026-04-02 16:11:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 16:11:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 16:11:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 16:11:59] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 16:11:59] [enrich] --- Enriche [1/1]: Patient (26) stirbt bei Feuer in Klinik - nordkurier.de
+[2026-04-02 16:11:59] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/rostock/rostock-patient-stirbt-feuer-in-klini
+[2026-04-02 16:12:00] [enrich] Volltext extrahiert: 2832 Zeichen von https://www.nordkurier.de/regional/rostock/rostock-patient-s
+[2026-04-02 16:12:04] [enrich] Enrichment abgeschlossen: enriched — Psychiatrische Klinik der Universitätsmedizin Rostock in Rostock-Gehlsdorf
+[2026-04-02 16:12:04] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-02 16:12:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 16:12:04] [DEDUP] Starte Dedup für 391 Einträge
+[2026-04-02 16:12:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 16:12:05] [DEDUP] Auto-Merge (1.00): Psychiatrische Klinik der Universitätsme / Rostock-Gehlsdorf ↔ Psychiatrische Klinik der Universitätsme / Rostock-Gehlsdorf
+[2026-04-02 16:12:05] [DEDUP] Paare verglichen: 4625
+[2026-04-02 16:12:05] [DEDUP] Auto-Merges: 1
+[2026-04-02 16:12:05] [DEDUP] Kandidaten (unsicher): 212
+[2026-04-02 16:12:05] [DEDUP] Cluster 2x: Psychiatrische Klinik der Universitätsme, Psychiatrische Klinik der Universitätsme
+[2026-04-02 16:12:05] [DEDUP] Ergebnis: 390 Einträge (war: 391, 1 zusammengeführt)
+[2026-04-02 16:12:05] [DEDUP] Kandidaten-Datei: 212 pending, 2 confirmed, 0 rejected
+[2026-04-02 16:12:05] [DEDUP] Gespeichert: 391 → 390 Einträge
