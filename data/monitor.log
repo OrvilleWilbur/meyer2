@@ -13952,3 +13952,42 @@
 [2026-04-02 11:57:11] [DEDUP] Ergebnis: 390 Einträge (war: 390, 0 zusammengeführt)
 [2026-04-02 11:57:11] [DEDUP] Kandidaten-Datei: 210 pending, 2 confirmed, 0 rejected
 [2026-04-02 11:57:11] [DEDUP] Gespeichert: 390 → 390 Einträge
+[2026-04-02 13:56:19] === Monitor-Lauf gestartet ===
+[2026-04-02 13:56:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 13:56:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 13:56:23] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-02 13:56:23] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-02 13:56:24] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-02 13:56:24] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-02 13:56:25] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-02 13:56:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-02 13:56:26] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-02 13:56:27] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-04-02 13:56:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 13:56:28] 220 relevante Treffer in Feeds
+[2026-04-02 13:56:28] ✅ 1 NEUE Einträge gefunden:
+[2026-04-02 13:56:28]    25.03.2026 | Universitätsklinikum Münster |  | Brand am Universitätsklinikum Münster: Feuer gelöscht, keine
+[2026-04-02 13:56:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 13:56:28] === Monitor-Lauf beendet ===
+
+[2026-04-02 13:56:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 13:56:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 13:56:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 13:56:30] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 13:56:30] [enrich] --- Enriche [1/1]: Brand am Universitätsklinikum Münster: Feuer gelöscht, keine
+[2026-04-02 13:56:31] [enrich] Google News URL aufgelöst (v1): https://www.wn.de/muenster/brand-am-universitaetsklinikum-muenster-3520229
+[2026-04-02 13:56:32] [enrich] Volltext extrahiert: 2155 Zeichen von https://www.wn.de/muenster/brand-am-universitaetsklinikum-mu
+[2026-04-02 13:56:36] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (UKM) in Münster
+[2026-04-02 13:56:36] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-02 13:56:36] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 13:56:36] [DEDUP] Starte Dedup für 391 Einträge
+[2026-04-02 13:56:36] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 13:56:37] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Universitätsklinikum Münster (UKM) / Münster
+[2026-04-02 13:56:37] [DEDUP] Paare verglichen: 4626
+[2026-04-02 13:56:37] [DEDUP] Auto-Merges: 1
+[2026-04-02 13:56:37] [DEDUP] Kandidaten (unsicher): 210
+[2026-04-02 13:56:37] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Universitätsklinikum Münster (UKM)
+[2026-04-02 13:56:37] [DEDUP] Ergebnis: 390 Einträge (war: 391, 1 zusammengeführt)
+[2026-04-02 13:56:37] [DEDUP] Kandidaten-Datei: 210 pending, 2 confirmed, 0 rejected
+[2026-04-02 13:56:37] [DEDUP] Gespeichert: 391 → 390 Einträge
