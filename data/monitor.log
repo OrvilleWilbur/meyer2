@@ -13695,3 +13695,40 @@
 [2026-04-01 23:50:02] [DEDUP] Ergebnis: 385 Einträge (war: 386, 1 zusammengeführt)
 [2026-04-01 23:50:02] [DEDUP] Kandidaten-Datei: 206 pending, 2 confirmed, 0 rejected
 [2026-04-01 23:50:02] [DEDUP] Gespeichert: 386 → 385 Einträge
+[2026-04-02 03:25:14] === Monitor-Lauf gestartet ===
+[2026-04-02 03:25:16] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 03:25:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 03:25:18] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-02 03:25:19] Feed 'gn_feuer_krankenhaus': 43 Einträge
+[2026-04-02 03:25:19] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-02 03:25:20] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-02 03:25:20] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-04-02 03:25:21] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-02 03:25:21] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-02 03:25:21] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-04-02 03:25:23] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 03:25:23] 211 relevante Treffer in Feeds
+[2026-04-02 03:25:23] ✅ 1 NEUE Einträge gefunden:
+[2026-04-02 03:25:23]    20.03.2022 | Uniklinik festgenommen |  | Explosion auf Teneriffa: Frau nach Feuer in Uniklinik festge
+[2026-04-02 03:25:23] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 03:25:23] === Monitor-Lauf beendet ===
+
+[2026-04-02 03:25:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 03:25:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 03:25:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 03:25:23] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 03:25:23] [enrich] --- Enriche [1/1]: Explosion auf Teneriffa: Frau nach Feuer in Uniklinik festge
+[2026-04-02 03:25:23] [enrich] Google News URL aufgelöst (v1): https://www.teneriffa-news.com/news/teneriffa/explosion-auf-teneriffa-frau-nach-
+[2026-04-02 03:25:24] [enrich] Volltext extrahiert: 2707 Zeichen von https://www.teneriffa-news.com/news/teneriffa/explosion-auf-
+[2026-04-02 03:25:26] [enrich] FALSE POSITIVE erkannt: Brand fand auf Teneriffa (Spanien) statt, nicht in Deutschland. Nur Brände in deutschen Krankenhäusern sollen erfasst werden.
+[2026-04-02 03:25:26] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-02 03:25:26] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 03:25:26] [DEDUP] Starte Dedup für 386 Einträge
+[2026-04-02 03:25:26] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 03:25:27] [DEDUP] Paare verglichen: 4607
+[2026-04-02 03:25:27] [DEDUP] Auto-Merges: 0
+[2026-04-02 03:25:27] [DEDUP] Kandidaten (unsicher): 206
+[2026-04-02 03:25:27] [DEDUP] Ergebnis: 386 Einträge (war: 386, 0 zusammengeführt)
+[2026-04-02 03:25:27] [DEDUP] Kandidaten-Datei: 206 pending, 2 confirmed, 0 rejected
+[2026-04-02 03:25:27] [DEDUP] Gespeichert: 386 → 386 Einträge
