@@ -13843,3 +13843,45 @@
 [2026-04-02 09:14:13] [DEDUP] Ergebnis: 387 Einträge (war: 389, 2 zusammengeführt)
 [2026-04-02 09:14:13] [DEDUP] Kandidaten-Datei: 208 pending, 2 confirmed, 0 rejected
 [2026-04-02 09:14:13] [DEDUP] Gespeichert: 389 → 387 Einträge
+[2026-04-02 10:10:53] === Monitor-Lauf gestartet ===
+[2026-04-02 10:10:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 10:10:55] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 10:10:56] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-02 10:10:57] Feed 'gn_feuer_krankenhaus': 41 Einträge
+[2026-04-02 10:10:57] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-02 10:10:57] Feed 'gn_brand_klinik': 39 Einträge
+[2026-04-02 10:10:58] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-02 10:10:58] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-02 10:10:59] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-04-02 10:11:00] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-02 10:11:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 10:11:01] 210 relevante Treffer in Feeds
+[2026-04-02 10:11:01] ✅ 2 NEUE Einträge gefunden:
+[2026-04-02 10:11:01]    08.09.2025 | in Klinik |  | Patient (26) stirbt bei Feuer in Klinik - Nordkurier
+[2026-04-02 10:11:01]    03.04.2023 | Berliner Klinik |  | 48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerver
+[2026-04-02 10:11:01] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 10:11:01] === Monitor-Lauf beendet ===
+
+[2026-04-02 10:11:01] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 10:11:01] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 10:11:01] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 10:11:01] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 10:11:01] [enrich] --- Enriche [1/2]: Patient (26) stirbt bei Feuer in Klinik - Nordkurier
+[2026-04-02 10:11:02] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/rostock/rostock-patient-stirbt-feuer-in-klini
+[2026-04-02 10:11:03] [enrich] Volltext extrahiert: 2832 Zeichen von https://www.nordkurier.de/regional/rostock/rostock-patient-s
+[2026-04-02 10:11:07] [enrich] Enrichment abgeschlossen: enriched — Psychiatrische Klinik der Universitätsmedizin Rostock in Rostock-Gehlsdorf
+[2026-04-02 10:11:08] [enrich] --- Enriche [2/2]: 48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerver
+[2026-04-02 10:11:08] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwer
+[2026-04-02 10:11:09] [enrich] Volltext extrahiert: 2245 Zeichen von https://rp-online.de/panorama/deutschland/vivantes-klinikum-
+[2026-04-02 10:11:12] [enrich] Enrichment abgeschlossen: enriched — Vivantes Klinikum Am Urban in Berlin-Kreuzberg
+[2026-04-02 10:11:12] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-02 10:11:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 10:11:12] [DEDUP] Starte Dedup für 389 Einträge
+[2026-04-02 10:11:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 10:11:13] [DEDUP] Paare verglichen: 4612
+[2026-04-02 10:11:13] [DEDUP] Auto-Merges: 0
+[2026-04-02 10:11:13] [DEDUP] Kandidaten (unsicher): 209
+[2026-04-02 10:11:13] [DEDUP] Ergebnis: 389 Einträge (war: 389, 0 zusammengeführt)
+[2026-04-02 10:11:13] [DEDUP] Kandidaten-Datei: 209 pending, 2 confirmed, 0 rejected
+[2026-04-02 10:11:13] [DEDUP] Gespeichert: 389 → 389 Einträge

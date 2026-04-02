@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T09:14:13.188028",
+  "generated_at": "2026-04-02T10:11:13.072344",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -282,22 +282,22 @@
         "total": 0.75
       },
       "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
+        "einrichtung": "Urban-Krankenhaus",
+        "ort": "Berlin-Kreuzberg",
+        "datum": "03.04.2023",
+        "bundesland": "Berlin",
         "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
+        "link": "https://www.morgenpost.de/berlin/polizeibericht/article238059661/urban-krankenhaus-berlin-kreuzberg-brand-feuerwehr.html",
+        "titel": "Feuer im Urban-Krankenhaus: Tatverdächtiger gefasst - Berliner Morgenpost"
       },
       "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
+        "einrichtung": "Vivantes Klinikum Am Urban",
+        "ort": "Berlin-Kreuzberg",
+        "datum": "03.04.2023",
+        "bundesland": "Berlin",
         "status": "enriched",
-        "link": "https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-bergmannsheil_bid-18279021",
-        "titel": "Fotos: Großbrand in Bochumer Uniklinik - rp-online.de"
+        "link": "https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwerverletzte-bei-feuer-in-berliner-klinik_aid-87883855",
+        "titel": "48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerverletzte bei Feuer in Berliner Klinik - RP Online"
       }
     },
     {
@@ -1321,6 +1321,39 @@
         "status": "enriched",
         "link": "https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik",
         "titel": "Feuer in Ameos Klinik - der reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.68,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.68
+      },
+      "entry_a": {
+        "einrichtung": "Klinik und Poliklinik für Psychiatrie und Psychotherapie der Universitätsmedizin Rostock",
+        "ort": "Rostock",
+        "datum": "07.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/26-jaehriger-patient-stirbt-bei-brand-in-rostocker-uniklinik-54474",
+        "titel": "Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in Rostocker Uniklinik - kma Online"
+      },
+      "entry_b": {
+        "einrichtung": "Psychiatrische Klinik der Universitätsmedizin Rostock",
+        "ort": "Rostock-Gehlsdorf",
+        "datum": "08.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/rostock/rostock-patient-stirbt-feuer-in-klinik-3903240",
+        "titel": "Patient (26) stirbt bei Feuer in Klinik - Nordkurier"
       }
     },
     {
@@ -2674,6 +2707,39 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.607,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.125,
+        "total": 0.607
+      },
+      "entry_a": {
+        "einrichtung": "Rostocker Universitätsklinik",
+        "ort": "Rostock",
+        "datum": "09.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
+        "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Psychiatrische Klinik der Universitätsmedizin Rostock",
+        "ort": "Rostock-Gehlsdorf",
+        "datum": "08.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/rostock/rostock-patient-stirbt-feuer-in-klinik-3903240",
+        "titel": "Patient (26) stirbt bei Feuer in Klinik - Nordkurier"
       }
     },
     {
@@ -6832,39 +6898,6 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
         "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.452,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.452
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-bergmannsheil_bid-18279021",
-        "titel": "Fotos: Großbrand in Bochumer Uniklinik - rp-online.de"
       }
     }
   ],
