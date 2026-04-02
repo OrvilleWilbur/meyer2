@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T07:40:33.292232",
+  "generated_at": "2026-04-02T09:14:13.188028",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -265,6 +265,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bochum",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
+        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Bergmannsheil",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-bergmannsheil_bid-18279021",
+        "titel": "Fotos: Großbrand in Bochumer Uniklinik - rp-online.de"
       }
     },
     {
@@ -6799,6 +6832,39 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
         "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.452,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.452
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmansheil Bochum",
+        "ort": "Bochum",
+        "datum": "05.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
+        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Bergmannsheil",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-bergmannsheil_bid-18279021",
+        "titel": "Fotos: Großbrand in Bochumer Uniklinik - rp-online.de"
       }
     }
   ],

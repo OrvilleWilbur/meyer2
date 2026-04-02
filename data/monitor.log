@@ -13792,3 +13792,54 @@
 [2026-04-02 07:40:33] [DEDUP] Ergebnis: 386 Einträge (war: 386, 0 zusammengeführt)
 [2026-04-02 07:40:33] [DEDUP] Kandidaten-Datei: 206 pending, 2 confirmed, 0 rejected
 [2026-04-02 07:40:33] [DEDUP] Gespeichert: 386 → 386 Einträge
+[2026-04-02 09:13:51] === Monitor-Lauf gestartet ===
+[2026-04-02 09:13:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-02 09:13:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-02 09:13:53] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-02 09:13:54] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-02 09:13:54] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-02 09:13:54] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-02 09:13:55] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-02 09:13:55] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-02 09:13:56] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-04-02 09:13:56] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-02 09:13:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-02 09:13:57] 215 relevante Treffer in Feeds
+[2026-04-02 09:13:57] ✅ 3 NEUE Einträge gefunden:
+[2026-04-02 09:13:57]    02.06.2021 | im Krankenhaus |  | Feuer im Gefängnis in Kempten - drei Insassen im Krankenhaus
+[2026-04-02 09:13:57]    26.04.2022 | Essener Krankenhaus gerettet |  | Brand in der Uniklink: 50 Patienten aus Essener Krankenhaus 
+[2026-04-02 09:13:57]    30.09.2016 | Uniklinik |  | Fotos: Großbrand in Bochumer Uniklinik - rp-online.de
+[2026-04-02 09:13:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-02 09:13:57] === Monitor-Lauf beendet ===
+
+[2026-04-02 09:13:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-02 09:13:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-02 09:13:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-02 09:13:57] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-02 09:13:57] [enrich] --- Enriche [1/3]: Feuer im Gefängnis in Kempten - drei Insassen im Krankenhaus
+[2026-04-02 09:13:58] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/feuer-im-gefaengnis-in-kempten-drei-leicht-verletzte
+[2026-04-02 09:13:58] [enrich] Volltext extrahiert: 1670 Zeichen von https://www.rnd.de/panorama/feuer-im-gefaengnis-in-kempten-d
+[2026-04-02 09:14:00] [enrich] FALSE POSITIVE erkannt: Brand in einer Justizvollzugsanstalt (Gefängnis), nicht in einem Krankenhaus. Personen wurden nach dem Brand ins Krankenhaus gebracht, dies ist aber kein Krankenhausbrand.
+[2026-04-02 09:14:01] [enrich] --- Enriche [2/3]: Brand in der Uniklink: 50 Patienten aus Essener Krankenhaus 
+[2026-04-02 09:14:01] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/essen-brand-in-universitaetsklinikum-50-patien
+[2026-04-02 09:14:02] [enrich] Volltext extrahiert: 1228 Zeichen von https://rp-online.de/nrw/panorama/essen-brand-in-universitae
+[2026-04-02 09:14:05] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Essen (Uniklinik Essen) in Essen
+[2026-04-02 09:14:06] [enrich] --- Enriche [3/3]: Fotos: Großbrand in Bochumer Uniklinik - rp-online.de
+[2026-04-02 09:14:06] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-universitaetsklinikum-
+[2026-04-02 09:14:06] [enrich] Volltext extrahiert: 3353 Zeichen von https://rp-online.de/nrw/panorama/grossbrand-in-bochum-im-un
+[2026-04-02 09:14:12] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-04-02 09:14:12] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-02 09:14:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-02 09:14:12] [DEDUP] Starte Dedup für 389 Einträge
+[2026-04-02 09:14:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-02 09:14:13] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-04-02 09:14:13] [DEDUP] Auto-Merge (0.93): Essener Universitätsklinikum (Uniklinik  / Essen ↔ Universitätsklinikum Essen (Uniklinik Es / Essen
+[2026-04-02 09:14:13] [DEDUP] Paare verglichen: 4612
+[2026-04-02 09:14:13] [DEDUP] Auto-Merges: 2
+[2026-04-02 09:14:13] [DEDUP] Kandidaten (unsicher): 208
+[2026-04-02 09:14:13] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-04-02 09:14:13] [DEDUP] Cluster 2x: Essener Universitätsklinikum (Uniklinik , Universitätsklinikum Essen (Uniklinik Es
+[2026-04-02 09:14:13] [DEDUP] Ergebnis: 387 Einträge (war: 389, 2 zusammengeführt)
+[2026-04-02 09:14:13] [DEDUP] Kandidaten-Datei: 208 pending, 2 confirmed, 0 rejected
+[2026-04-02 09:14:13] [DEDUP] Gespeichert: 389 → 387 Einträge
