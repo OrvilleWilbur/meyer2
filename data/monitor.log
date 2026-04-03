@@ -14501,3 +14501,41 @@
 [2026-04-03 09:09:54] [DEDUP] Ergebnis: 397 Einträge (war: 397, 0 zusammengeführt)
 [2026-04-03 09:09:54] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
 [2026-04-03 09:09:54] [DEDUP] Gespeichert: 397 → 397 Einträge
+[2026-04-03 10:02:18] === Monitor-Lauf gestartet ===
+[2026-04-03 10:02:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 10:02:20] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 10:02:21] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-03 10:02:21] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-03 10:02:22] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-03 10:02:22] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-03 10:02:22] Feed 'gn_brand_klinikum': 44 Einträge
+[2026-04-03 10:02:23] Feed 'gn_klinikbrand': 93 Einträge
+[2026-04-03 10:02:23] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-03 10:02:24] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 10:02:25] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 10:02:25] 229 relevante Treffer in Feeds
+[2026-04-03 10:02:25] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 10:02:25]    03.04.2026 | im Krankenhaus |  | Einsatz in Aachen: Brand in Mehrfamilienhaus – sieben Mensch
+[2026-04-03 10:02:25] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 10:02:25] === Monitor-Lauf beendet ===
+
+[2026-04-03 10:02:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 10:02:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 10:02:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 10:02:26] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 10:02:26] [enrich] --- Enriche [1/1]: Einsatz in Aachen: Brand in Mehrfamilienhaus – sieben Mensch
+[2026-04-03 10:02:26] [enrich] Google News URL aufgelöst (v1): https://lomazoma.com/einsatz-in-aachen-brand-in-mehrfamilienhaus-sieben-menschen
+[2026-04-03 10:02:26] [enrich] Artikel-Fetch fehlgeschlagen für https://lomazoma.com/einsatz-in-aachen-brand-in-mehrfamilienhaus-sieben-menschen: 403 Client Error: Forbidden for url: https://lomazoma.com/einsatz-in-aachen-brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/
+[2026-04-03 10:02:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (511 Z.)
+[2026-04-03 10:02:28] [enrich] FALSE POSITIVE erkannt: Brand in Mehrfamilienhaus, nicht in einem Krankenhaus. Personen werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst ereignet sich nicht in einer Klinik/einem Krankenhaus.
+[2026-04-03 10:02:28] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-03 10:02:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 10:02:28] [DEDUP] Starte Dedup für 398 Einträge
+[2026-04-03 10:02:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 10:02:29] [DEDUP] Paare verglichen: 4790
+[2026-04-03 10:02:29] [DEDUP] Auto-Merges: 0
+[2026-04-03 10:02:29] [DEDUP] Kandidaten (unsicher): 223
+[2026-04-03 10:02:29] [DEDUP] Ergebnis: 398 Einträge (war: 398, 0 zusammengeführt)
+[2026-04-03 10:02:29] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
+[2026-04-03 10:02:29] [DEDUP] Gespeichert: 398 → 398 Einträge
