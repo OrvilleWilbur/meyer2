@@ -14961,3 +14961,42 @@
 [2026-04-03 22:53:05] [DEDUP] Ergebnis: 406 Einträge (war: 406, 0 zusammengeführt)
 [2026-04-03 22:53:05] [DEDUP] Kandidaten-Datei: 228 pending, 2 confirmed, 0 rejected
 [2026-04-03 22:53:05] [DEDUP] Gespeichert: 406 → 406 Einträge
+[2026-04-03 23:48:30] === Monitor-Lauf gestartet ===
+[2026-04-03 23:48:31] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 23:48:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 23:48:33] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-03 23:48:33] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-03 23:48:34] Feed 'gn_feuer_klinik': 36 Einträge
+[2026-04-03 23:48:34] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-03 23:48:35] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-04-03 23:48:35] Feed 'gn_klinikbrand': 99 Einträge
+[2026-04-03 23:48:35] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-03 23:48:36] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 23:48:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 23:48:37] 219 relevante Treffer in Feeds
+[2026-04-03 23:48:37] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 23:48:37]    03.04.2023 | Berliner Klinik |  | 48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerver
+[2026-04-03 23:48:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 23:48:37] === Monitor-Lauf beendet ===
+
+[2026-04-03 23:48:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 23:48:37] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 23:48:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 23:48:37] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 23:48:37] [enrich] --- Enriche [1/1]: 48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerver
+[2026-04-03 23:48:37] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwer
+[2026-04-03 23:48:38] [enrich] Volltext extrahiert: 2245 Zeichen von https://rp-online.de/panorama/deutschland/vivantes-klinikum-
+[2026-04-03 23:48:42] [enrich] Enrichment abgeschlossen: enriched — Vivantes Klinikum Am Urban in Berlin-Kreuzberg
+[2026-04-03 23:48:42] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-03 23:48:42] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 23:48:42] [DEDUP] Starte Dedup für 407 Einträge
+[2026-04-03 23:48:42] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 23:48:42] [DEDUP] Auto-Merge (0.98): Vivantes Klinikum Am Urban / Berlin-Kreuzberg ↔ Vivantes Klinikum Am Urban / Berlin-Kreuzberg
+[2026-04-03 23:48:42] [DEDUP] Paare verglichen: 4915
+[2026-04-03 23:48:42] [DEDUP] Auto-Merges: 1
+[2026-04-03 23:48:42] [DEDUP] Kandidaten (unsicher): 229
+[2026-04-03 23:48:42] [DEDUP] Cluster 2x: Vivantes Klinikum Am Urban, Vivantes Klinikum Am Urban
+[2026-04-03 23:48:42] [DEDUP] Ergebnis: 406 Einträge (war: 407, 1 zusammengeführt)
+[2026-04-03 23:48:42] [DEDUP] Kandidaten-Datei: 229 pending, 2 confirmed, 0 rejected
+[2026-04-03 23:48:42] [DEDUP] Gespeichert: 407 → 406 Einträge
