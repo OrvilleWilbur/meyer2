@@ -14576,3 +14576,40 @@
 [2026-04-03 11:03:15] [DEDUP] Ergebnis: 399 Einträge (war: 399, 0 zusammengeführt)
 [2026-04-03 11:03:15] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
 [2026-04-03 11:03:15] [DEDUP] Gespeichert: 399 → 399 Einträge
+[2026-04-03 11:52:17] === Monitor-Lauf gestartet ===
+[2026-04-03 11:52:18] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 11:52:19] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 11:52:19] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-03 11:52:19] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-03 11:52:20] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-03 11:52:20] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-03 11:52:21] Feed 'gn_brand_klinikum': 44 Einträge
+[2026-04-03 11:52:21] Feed 'gn_klinikbrand': 97 Einträge
+[2026-04-03 11:52:21] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-03 11:52:22] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 11:52:23] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 11:52:23] 234 relevante Treffer in Feeds
+[2026-04-03 11:52:23] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 11:52:23]    11.01.2019 |  |  | Evakuierung: Klinik in Bad Saulgau nach Gasalarm geräumt - S
+[2026-04-03 11:52:23] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 11:52:23] === Monitor-Lauf beendet ===
+
+[2026-04-03 11:52:24] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 11:52:24] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 11:52:24] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 11:52:24] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 11:52:24] [enrich] --- Enriche [1/1]: Evakuierung: Klinik in Bad Saulgau nach Gasalarm geräumt - S
+[2026-04-03 11:52:24] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische.de/regional/sigmaringen/bad-saulgau/klinik-nach-gasalar
+[2026-04-03 11:52:26] [enrich] Volltext extrahiert: 3893 Zeichen von https://www.schwaebische.de/regional/sigmaringen/bad-saulgau
+[2026-04-03 11:52:27] [enrich] FALSE POSITIVE erkannt: Gasalarm durch Chlordampf beim Umfüllen von Reinigungsmitteln, kein Brand
+[2026-04-03 11:52:27] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-03 11:52:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 11:52:27] [DEDUP] Starte Dedup für 400 Einträge
+[2026-04-03 11:52:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 11:52:27] [DEDUP] Paare verglichen: 4793
+[2026-04-03 11:52:27] [DEDUP] Auto-Merges: 0
+[2026-04-03 11:52:27] [DEDUP] Kandidaten (unsicher): 223
+[2026-04-03 11:52:27] [DEDUP] Ergebnis: 400 Einträge (war: 400, 0 zusammengeführt)
+[2026-04-03 11:52:27] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
+[2026-04-03 11:52:27] [DEDUP] Gespeichert: 400 → 400 Einträge
