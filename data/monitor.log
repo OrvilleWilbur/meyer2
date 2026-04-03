@@ -14613,3 +14613,40 @@
 [2026-04-03 11:52:27] [DEDUP] Ergebnis: 400 Einträge (war: 400, 0 zusammengeführt)
 [2026-04-03 11:52:27] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
 [2026-04-03 11:52:27] [DEDUP] Gespeichert: 400 → 400 Einträge
+[2026-04-03 13:37:53] === Monitor-Lauf gestartet ===
+[2026-04-03 13:37:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 13:37:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 13:37:55] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-03 13:37:55] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-03 13:37:56] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-03 13:37:56] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-03 13:37:56] Feed 'gn_brand_klinikum': 45 Einträge
+[2026-04-03 13:37:57] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-03 13:37:57] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-03 13:37:58] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 13:37:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 13:37:59] 234 relevante Treffer in Feeds
+[2026-04-03 13:37:59] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 13:37:59]    02.04.2026 | von Krankenhaus |  | Kreis Ravensburg: Balkonbrand in Nähe von Krankenhaus - Feue
+[2026-04-03 13:37:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 13:37:59] === Monitor-Lauf beendet ===
+
+[2026-04-03 13:37:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 13:37:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 13:37:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 13:37:59] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 13:37:59] [enrich] --- Enriche [1/1]: Kreis Ravensburg: Balkonbrand in Nähe von Krankenhaus - Feue
+[2026-04-03 13:38:00] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/kreis-ravensburg--
+[2026-04-03 13:38:00] [enrich] Volltext extrahiert: 1393 Zeichen von https://www.stern.de/gesellschaft/regional/baden-wuerttember
+[2026-04-03 13:38:02] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohngebäude in der Nähe einer Klinik, nicht im Krankenhaus/der Klinik selbst. Die Klinik war nicht betroffen.
+[2026-04-03 13:38:02] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-03 13:38:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 13:38:02] [DEDUP] Starte Dedup für 401 Einträge
+[2026-04-03 13:38:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 13:38:02] [DEDUP] Paare verglichen: 4817
+[2026-04-03 13:38:02] [DEDUP] Auto-Merges: 0
+[2026-04-03 13:38:02] [DEDUP] Kandidaten (unsicher): 223
+[2026-04-03 13:38:02] [DEDUP] Ergebnis: 401 Einträge (war: 401, 0 zusammengeführt)
+[2026-04-03 13:38:02] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
+[2026-04-03 13:38:02] [DEDUP] Gespeichert: 401 → 401 Einträge
