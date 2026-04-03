@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T23:49:55.400073",
+  "generated_at": "2026-04-03T03:27:25.512321",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -404,39 +404,6 @@
         "",
         ""
       ],
-      "score": 0.733,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.3076923076923077,
-        "total": 0.733
-      },
-      "entry_a": {
-        "einrichtung": "Helios-Klinik (Helios-Klinikum)",
-        "ort": "Leipzig, Stadtteil Probstheida",
-        "datum": "17.12.2025",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.lvz.de/lokales/leipzig/brand-im-leipziger-helios-klinik-patienten-in-sicherheit-gebracht-YZ3RMAUUGJGTXH7EDZSCR74ZYM.html",
-        "titel": "Brand im Leipziger Helios-Klinik – Patienten in Sicherheit gebracht - LVZ - Leipziger Volkszeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Park-Klinikum Leipzig",
-        "ort": "Leipzig",
-        "datum": "17.12.2025",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen/leipzig/leipzig-leipzig-land/brand-park-klinik-100.html",
-        "titel": "Brand in Park-Klinikum in Leipzig verläuft glimplich - mdr.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.725,
       "details": {
         "datum": 1.0,
@@ -826,6 +793,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "unbekannt",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "partial",
+        "link": "https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html",
+        "titel": "Saunabereich der Chiemgau-Klinik brennt vollständig aus - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "Marquartstein",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "enriched",
+        "link": "https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemgau-klinik-brennt-vollstaendig-aus",
+        "titel": "Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik brennt vollständig aus - DIE ZEIT"
       }
     },
     {
@@ -6271,6 +6271,39 @@
         "status": "false_positive",
         "link": "https://www.merkur.de/deutschland/news-erfurt-solingen-bombendrohung-schule-einsatz-polizei-motiv-hintergrund-zr-92595866.html",
         "titel": "Bombendrohungen mit „Hamas-Bezug“ gegen etliche Einrichtungen: Drei Mädchen nach Evakuierung im Krankenhaus - merkur.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - wochenblatt.cc"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenblatt"
       }
     },
     {

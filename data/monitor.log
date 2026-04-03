@@ -14339,3 +14339,58 @@
 [2026-04-02 23:49:55] [DEDUP] Ergebnis: 391 Einträge (war: 393, 2 zusammengeführt)
 [2026-04-02 23:49:55] [DEDUP] Kandidaten-Datei: 213 pending, 2 confirmed, 0 rejected
 [2026-04-02 23:49:55] [DEDUP] Gespeichert: 393 → 391 Einträge
+[2026-04-03 03:26:59] === Monitor-Lauf gestartet ===
+[2026-04-03 03:27:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 03:27:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 03:27:03] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-03 03:27:03] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-03 03:27:03] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-03 03:27:04] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-03 03:27:04] Feed 'gn_brand_klinikum': 45 Einträge
+[2026-04-03 03:27:05] Feed 'gn_klinikbrand': 85 Einträge
+[2026-04-03 03:27:05] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-03 03:27:06] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-04-03 03:27:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 03:27:07] 227 relevante Treffer in Feeds
+[2026-04-03 03:27:07] ✅ 4 NEUE Einträge gefunden:
+[2026-04-03 03:27:07]    18.02.2026 | Chiemgau-Klinik brennt vollständig aus |  | Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik bre
+[2026-04-03 03:27:07]    19.08.2025 | im Klinikum Hollabrunn |  | Geruch bis in 2. Stock - Brand bei Arbeiten im Klinikum Holl
+[2026-04-03 03:27:07]    11.01.2019 |  |  | Evakuierung: Klinik in Bad Saulgau nach Gasalarm geräumt - S
+[2026-04-03 03:27:07]    16.10.2023 | im Krankenhaus zwingt zur Evakuierung |  | Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenbl
+[2026-04-03 03:27:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 03:27:07] === Monitor-Lauf beendet ===
+
+[2026-04-03 03:27:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 03:27:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 03:27:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 03:27:08] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 03:27:08] [enrich] --- Enriche [1/4]: Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik bre
+[2026-04-03 03:27:09] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemgau-klinik-brennt-voll
+[2026-04-03 03:27:09] [enrich] Volltext extrahiert: 1803 Zeichen von https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemga
+[2026-04-03 03:27:12] [enrich] Enrichment abgeschlossen: enriched — Chiemgau-Klinik in Marquartstein
+[2026-04-03 03:27:13] [enrich] --- Enriche [2/4]: Geruch bis in 2. Stock - Brand bei Arbeiten im Klinikum Holl
+[2026-04-03 03:27:14] [enrich] Google News URL aufgelöst (v1): https://www.noen.at/hollabrunn/geruch-bis-in-2-stock-brandverdacht-im-hollabrunn
+[2026-04-03 03:27:14] [enrich] Artikel-Fetch fehlgeschlagen für https://www.noen.at/hollabrunn/geruch-bis-in-2-stock-brandverdacht-im-hollabrunn: 403 Client Error: Forbidden for url: https://www.noen.at/hollabrunn/geruch-bis-in-2-stock-brandverdacht-im-hollabrunner-spital-stationen-evakuiert-486556818
+[2026-04-03 03:27:14] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (634 Z.)
+[2026-04-03 03:27:15] [enrich] FALSE POSITIVE erkannt: Klinikum Hollabrunn befindet sich in Österreich (Niederösterreich), nicht in Deutschland
+[2026-04-03 03:27:16] [enrich] --- Enriche [3/4]: Evakuierung: Klinik in Bad Saulgau nach Gasalarm geräumt - S
+[2026-04-03 03:27:16] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische.de/regional/sigmaringen/bad-saulgau/klinik-nach-gasalar
+[2026-04-03 03:27:18] [enrich] Volltext extrahiert: 3893 Zeichen von https://www.schwaebische.de/regional/sigmaringen/bad-saulgau
+[2026-04-03 03:27:20] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Gasalarm (Chlordampf beim Umfüllen von Reinigungsmittel), nicht wegen Brand
+[2026-04-03 03:27:21] [enrich] --- Enriche [4/4]: Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenbl
+[2026-04-03 03:27:21] [enrich] Google News URL aufgelöst (v1): https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/
+[2026-04-03 03:27:23] [enrich] Volltext extrahiert: 2422 Zeichen von https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur
+[2026-04-03 03:27:24] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung aufgrund eines Kurzschlusses (elektrisches Problem), nicht aufgrund eines Brandes. Zudem handelt es sich um ein Krankenhaus in Paraguay (Coronel Oviedo), nicht in Deutschland.
+[2026-04-03 03:27:24] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-04-03 03:27:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 03:27:25] [DEDUP] Starte Dedup für 395 Einträge
+[2026-04-03 03:27:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 03:27:25] [DEDUP] Auto-Merge (0.97): Chiemgau-Klinik / Marquartstein ↔ Chiemgau-Klinik / Marquartstein
+[2026-04-03 03:27:25] [DEDUP] Paare verglichen: 4673
+[2026-04-03 03:27:25] [DEDUP] Auto-Merges: 1
+[2026-04-03 03:27:25] [DEDUP] Kandidaten (unsicher): 214
+[2026-04-03 03:27:25] [DEDUP] Cluster 2x: Chiemgau-Klinik, Chiemgau-Klinik
+[2026-04-03 03:27:25] [DEDUP] Ergebnis: 394 Einträge (war: 395, 1 zusammengeführt)
+[2026-04-03 03:27:25] [DEDUP] Kandidaten-Datei: 214 pending, 2 confirmed, 0 rejected
+[2026-04-03 03:27:25] [DEDUP] Gespeichert: 395 → 394 Einträge
