@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T17:52:39.538484",
+  "generated_at": "2026-04-03T19:05:05.314202",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -793,39 +793,6 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 1.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Chiemgau-Klinik",
-        "ort": "unbekannt",
-        "datum": "18.02.2026",
-        "bundesland": "Bayern",
-        "status": "partial",
-        "link": "https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html",
-        "titel": "Saunabereich der Chiemgau-Klinik brennt vollständig aus - onetz.de"
-      },
-      "entry_b": {
-        "einrichtung": "Chiemgau-Klinik",
-        "ort": "Marquartstein",
-        "datum": "18.02.2026",
-        "bundesland": "Bayern",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemgau-klinik-brennt-vollstaendig-aus",
-        "titel": "Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik brennt vollständig aus - zeit.de"
       }
     },
     {
@@ -6238,6 +6205,39 @@
         "status": "false_positive",
         "link": "https://www.wochenblitz.com/evakuierung-50-meter-tiefes-erdloch-vor-klinik-in-bangkok/",
         "titel": "Evakuierung! 50 Meter tiefes Erdloch vor Klinik in Bangkok (Video) - wochenblitz.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "letzten Krankenhauses",
+        "ort": "",
+        "datum": "04.01.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-israelische-armee-ruft-zu-evakuierung-des-letzten-krankenhauses-im-norden-gazas-auf-a-b1c8c953-003b-4bac-b216-b2d34f9c4151",
+        "titel": "Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses im Norden auf - Spiegel"
+      },
+      "entry_b": {
+        "einrichtung": "letzten Krankenhauses",
+        "ort": "",
+        "datum": "04.01.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-israelische-armee-ruft-zu-evakuierung-des-letzten-krankenhauses-im-norden-gazas-auf-a-b1c8c953-003b-4bac-b216-b2d34f9c4151",
+        "titel": "Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses im Norden auf - spiegel.de"
       }
     },
     {

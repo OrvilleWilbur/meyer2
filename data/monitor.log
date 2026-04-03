@@ -14797,3 +14797,40 @@
 [2026-04-03 17:52:39] [DEDUP] Ergebnis: 404 Einträge (war: 405, 1 zusammengeführt)
 [2026-04-03 17:52:39] [DEDUP] Kandidaten-Datei: 227 pending, 2 confirmed, 0 rejected
 [2026-04-03 17:52:39] [DEDUP] Gespeichert: 405 → 404 Einträge
+[2026-04-03 19:04:50] === Monitor-Lauf gestartet ===
+[2026-04-03 19:04:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 19:04:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 19:04:53] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-03 19:04:54] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-03 19:04:55] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-04-03 19:04:55] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-03 19:04:56] Feed 'gn_brand_klinikum': 44 Einträge
+[2026-04-03 19:04:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-03 19:04:57] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-03 19:04:57] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-04-03 19:04:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 19:04:59] 234 relevante Treffer in Feeds
+[2026-04-03 19:04:59] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 19:04:59]    04.01.2025 | letzten Krankenhauses |  | Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses i
+[2026-04-03 19:04:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 19:04:59] === Monitor-Lauf beendet ===
+
+[2026-04-03 19:04:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 19:04:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 19:04:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 19:04:59] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 19:04:59] [enrich] --- Enriche [1/1]: Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses i
+[2026-04-03 19:05:00] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/ausland/israel-gaza-krieg-israelische-armee-ruft-zu-evaku
+[2026-04-03 19:05:02] [enrich] Volltext extrahiert: 4359 Zeichen von https://www.spiegel.de/ausland/israel-gaza-krieg-israelische
+[2026-04-03 19:05:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung eines Krankenhauses in Gaza aufgrund militärischer Operationen und Schusswechsel, nicht aufgrund eines Brandes. Zudem handelt es sich um ein Krankenhaus außerhalb Deutschlands (Gazastreifen).
+[2026-04-03 19:05:04] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-03 19:05:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 19:05:04] [DEDUP] Starte Dedup für 405 Einträge
+[2026-04-03 19:05:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 19:05:05] [DEDUP] Paare verglichen: 4831
+[2026-04-03 19:05:05] [DEDUP] Auto-Merges: 0
+[2026-04-03 19:05:05] [DEDUP] Kandidaten (unsicher): 227
+[2026-04-03 19:05:05] [DEDUP] Ergebnis: 405 Einträge (war: 405, 0 zusammengeführt)
+[2026-04-03 19:05:05] [DEDUP] Kandidaten-Datei: 227 pending, 2 confirmed, 0 rejected
+[2026-04-03 19:05:05] [DEDUP] Gespeichert: 405 → 405 Einträge
