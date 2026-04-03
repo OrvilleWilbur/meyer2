@@ -14394,3 +14394,50 @@
 [2026-04-03 03:27:25] [DEDUP] Ergebnis: 394 Einträge (war: 395, 1 zusammengeführt)
 [2026-04-03 03:27:25] [DEDUP] Kandidaten-Datei: 214 pending, 2 confirmed, 0 rejected
 [2026-04-03 03:27:25] [DEDUP] Gespeichert: 395 → 394 Einträge
+[2026-04-03 05:49:18] === Monitor-Lauf gestartet ===
+[2026-04-03 05:49:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 05:49:20] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 05:49:21] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-03 05:49:21] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-03 05:49:21] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-03 05:49:22] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-03 05:49:22] Feed 'gn_brand_klinikum': 44 Einträge
+[2026-04-03 05:49:23] Feed 'gn_klinikbrand': 93 Einträge
+[2026-04-03 05:49:23] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-03 05:49:23] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-04-03 05:49:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 05:49:24] 227 relevante Treffer in Feeds
+[2026-04-03 05:49:24] ✅ 3 NEUE Einträge gefunden:
+[2026-04-03 05:49:24]    06.01.2026 | im Krankenhaus |  | Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - De
+[2026-04-03 05:49:24]    05.01.2026 | Helios-Klinikum |  | Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum:
+[2026-04-03 05:49:24]    04.01.2025 | letzten Krankenhauses |  | Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses i
+[2026-04-03 05:49:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 05:49:24] === Monitor-Lauf beendet ===
+
+[2026-04-03 05:49:25] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 05:49:25] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 05:49:25] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 05:49:25] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 05:49:25] [enrich] --- Enriche [1/3]: Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - De
+[2026-04-03 05:49:25] [enrich] Google News URL aufgelöst (v1): https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus-oft-ein-spiel-mit-d
+[2026-04-03 05:49:26] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus
+[2026-04-03 05:49:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Brandschutzübungen, Brandschutzkonzepte und ein Simulationsprojekt für Notfalltraining. Es wird kein konkreter Brand IN einem deutschen Krankenhaus dokumentiert, sondern allgemein über Brandschutzmaßnahmen und Prävention berichtet.
+[2026-04-03 05:49:29] [enrich] --- Enriche [2/3]: Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum:
+[2026-04-03 05:49:30] [enrich] Google News URL aufgelöst (v1): https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall
+[2026-04-03 05:49:32] [enrich] Volltext extrahiert: 942 Zeichen von https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheim
+[2026-04-03 05:49:34] [enrich] Enrichment abgeschlossen: enriched — Helios-Klinikum Pforzheim in Pforzheim
+[2026-04-03 05:49:35] [enrich] --- Enriche [3/3]: Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses i
+[2026-04-03 05:49:35] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/ausland/israel-gaza-krieg-israelische-armee-ruft-zu-evaku
+[2026-04-03 05:49:36] [enrich] Volltext extrahiert: 4359 Zeichen von https://www.spiegel.de/ausland/israel-gaza-krieg-israelische
+[2026-04-03 05:49:38] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Evakuierungsaufforderung und militärische Konflikte im Gazastreifen (Ausland), nicht einen Brand in einem deutschen Krankenhaus
+[2026-04-03 05:49:38] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-03 05:49:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 05:49:38] [DEDUP] Starte Dedup für 397 Einträge
+[2026-04-03 05:49:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 05:49:39] [DEDUP] Paare verglichen: 4767
+[2026-04-03 05:49:39] [DEDUP] Auto-Merges: 0
+[2026-04-03 05:49:39] [DEDUP] Kandidaten (unsicher): 223
+[2026-04-03 05:49:39] [DEDUP] Ergebnis: 397 Einträge (war: 397, 0 zusammengeführt)
+[2026-04-03 05:49:39] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
+[2026-04-03 05:49:39] [DEDUP] Gespeichert: 397 → 397 Einträge
