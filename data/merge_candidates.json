@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T19:52:44.561913",
+  "generated_at": "2026-04-03T20:52:56.237611",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5182,6 +5182,39 @@
         "status": "false_positive",
         "link": "https://www.swr.de/swraktuell/rheinland-pfalz/ludwigshafen/bg-klinik-in-ludwigshafen-behandelt-brandopfer-aus-der-schweiz-100.html",
         "titel": "Furchtbare Brandkatastrophe in der Schweiz: Spezialklinik in Ludwigshafen nimmt zwei Opfer auf - swr.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "06.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus-oft-ein-spiel-mit-dem-feuer-0c4660c6-b9f5-499a-a3d9-1b03c4679485",
+        "titel": "Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - Deutsches Ärzteblatt"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "06.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus-oft-ein-spiel-mit-dem-feuer-0c4660c6-b9f5-499a-a3d9-1b03c4679485",
+        "titel": "Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - aerzteblatt.de"
       }
     },
     {
