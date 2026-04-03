@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T16:56:48.022710",
+  "generated_at": "2026-04-03T17:52:39.538484",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -793,6 +793,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "unbekannt",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "partial",
+        "link": "https://www.onetz.de/deutschland-welt/saunabereich-chiemgau-klinik-brennt-vollstaendig-id5301430.html",
+        "titel": "Saunabereich der Chiemgau-Klinik brennt vollständig aus - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Chiemgau-Klinik",
+        "ort": "Marquartstein",
+        "datum": "18.02.2026",
+        "bundesland": "Bayern",
+        "status": "enriched",
+        "link": "https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemgau-klinik-brennt-vollstaendig-aus",
+        "titel": "Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik brennt vollständig aus - zeit.de"
       }
     },
     {

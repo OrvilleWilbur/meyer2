@@ -14758,3 +14758,42 @@
 [2026-04-03 16:56:48] [DEDUP] Ergebnis: 404 Einträge (war: 404, 0 zusammengeführt)
 [2026-04-03 16:56:48] [DEDUP] Kandidaten-Datei: 226 pending, 2 confirmed, 0 rejected
 [2026-04-03 16:56:48] [DEDUP] Gespeichert: 404 → 404 Einträge
+[2026-04-03 17:52:27] === Monitor-Lauf gestartet ===
+[2026-04-03 17:52:28] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 17:52:29] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 17:52:29] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-03 17:52:30] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-03 17:52:30] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-03 17:52:31] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-03 17:52:31] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-04-03 17:52:31] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-03 17:52:32] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-03 17:52:32] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 17:52:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 17:52:34] 226 relevante Treffer in Feeds
+[2026-04-03 17:52:34] ✅ 1 NEUE Einträge gefunden:
+[2026-04-03 17:52:34]    18.02.2026 | Chiemgau-Klinik brennt vollständig aus |  | Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik bre
+[2026-04-03 17:52:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 17:52:34] === Monitor-Lauf beendet ===
+
+[2026-04-03 17:52:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 17:52:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 17:52:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 17:52:35] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 17:52:35] [enrich] --- Enriche [1/1]: Feuer in Marquartstein: Saunabereich der Chiemgau-Klinik bre
+[2026-04-03 17:52:35] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemgau-klinik-brennt-voll
+[2026-04-03 17:52:36] [enrich] Volltext extrahiert: 1803 Zeichen von https://www.zeit.de/news/2026-02/18/saunabereich-der-chiemga
+[2026-04-03 17:52:38] [enrich] Enrichment abgeschlossen: enriched — Chiemgau-Klinik in Marquartstein
+[2026-04-03 17:52:38] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-03 17:52:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 17:52:39] [DEDUP] Starte Dedup für 405 Einträge
+[2026-04-03 17:52:39] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 17:52:39] [DEDUP] Auto-Merge (0.97): Chiemgau-Klinik / Marquartstein ↔ Chiemgau-Klinik / Marquartstein
+[2026-04-03 17:52:39] [DEDUP] Paare verglichen: 4828
+[2026-04-03 17:52:39] [DEDUP] Auto-Merges: 1
+[2026-04-03 17:52:39] [DEDUP] Kandidaten (unsicher): 227
+[2026-04-03 17:52:39] [DEDUP] Cluster 2x: Chiemgau-Klinik, Chiemgau-Klinik
+[2026-04-03 17:52:39] [DEDUP] Ergebnis: 404 Einträge (war: 405, 1 zusammengeführt)
+[2026-04-03 17:52:39] [DEDUP] Kandidaten-Datei: 227 pending, 2 confirmed, 0 rejected
+[2026-04-03 17:52:39] [DEDUP] Gespeichert: 405 → 404 Einträge
