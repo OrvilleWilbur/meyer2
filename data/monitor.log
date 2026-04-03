@@ -14650,3 +14650,51 @@
 [2026-04-03 13:38:02] [DEDUP] Ergebnis: 401 Einträge (war: 401, 0 zusammengeführt)
 [2026-04-03 13:38:02] [DEDUP] Kandidaten-Datei: 223 pending, 2 confirmed, 0 rejected
 [2026-04-03 13:38:02] [DEDUP] Gespeichert: 401 → 401 Einträge
+[2026-04-03 15:01:05] === Monitor-Lauf gestartet ===
+[2026-04-03 15:01:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-03 15:01:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-03 15:01:07] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-03 15:01:08] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-03 15:01:08] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-03 15:01:09] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-03 15:01:09] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-04-03 15:01:09] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-03 15:01:10] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-03 15:01:10] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-03 15:01:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-03 15:01:12] 226 relevante Treffer in Feeds
+[2026-04-03 15:01:12] ✅ 3 NEUE Einträge gefunden:
+[2026-04-03 15:01:12]    30.10.2024 | die Klinik |  | So bereitet sich die Klinik auf die Evakuierung vor - ivz-ak
+[2026-04-03 15:01:12]    26.03.2007 |  |  | Trier: Klinik-Evakuierung verlief reibungslos - Skverlag
+[2026-04-03 15:01:12]    12.10.2007 | im Krankenhaus |  | Die Katastrophe im Krankenhaus: Evakuierung - Skverlag
+[2026-04-03 15:01:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-03 15:01:12] === Monitor-Lauf beendet ===
+
+[2026-04-03 15:01:12] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-03 15:01:12] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-03 15:01:12] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-03 15:01:12] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-03 15:01:12] [enrich] --- Enriche [1/3]: So bereitet sich die Klinik auf die Evakuierung vor - ivz-ak
+[2026-04-03 15:01:12] [enrich] Google News URL aufgelöst (v1): https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-e
+[2026-04-03 15:01:13] [enrich] Kein Artikeltext extrahierbar für https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-e
+[2026-04-03 15:01:13] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (460 Z.)
+[2026-04-03 15:01:15] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierungsvorbereitung einer Klinik, nicht einen tatsächlichen Brand. Es handelt sich um Brandschutzmaßnahmen oder eine Übung, nicht um einen realen Krankenhausbrand.
+[2026-04-03 15:01:16] [enrich] --- Enriche [2/3]: Trier: Klinik-Evakuierung verlief reibungslos - Skverlag
+[2026-04-03 15:01:16] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuier
+[2026-04-03 15:01:17] [enrich] Volltext extrahiert: 1764 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/t
+[2026-04-03 15:01:18] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses wegen Bombenentschärfung (Blindgänger aus WWII), nicht wegen eines Brandes
+[2026-04-03 15:01:19] [enrich] --- Enriche [3/3]: Die Katastrophe im Krankenhaus: Evakuierung - Skverlag
+[2026-04-03 15:01:20] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-kr
+[2026-04-03 15:01:20] [enrich] Volltext extrahiert: 589 Zeichen von https://www.skverlag.de/rettungsdienst/meldung/newsartikel/d
+[2026-04-03 15:01:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keine konkreten Brände, sondern behandelt allgemein das Thema Evakuierungen in Krankenhäusern, Brandschutzübungen und rechtliche Grundlagen. Es wird kein spezifischer Brand in einem deutschen Krankenhaus beschrieben.
+[2026-04-03 15:01:22] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-04-03 15:01:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-03 15:01:22] [DEDUP] Starte Dedup für 404 Einträge
+[2026-04-03 15:01:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-03 15:01:23] [DEDUP] Paare verglichen: 4824
+[2026-04-03 15:01:23] [DEDUP] Auto-Merges: 0
+[2026-04-03 15:01:23] [DEDUP] Kandidaten (unsicher): 226
+[2026-04-03 15:01:23] [DEDUP] Ergebnis: 404 Einträge (war: 404, 0 zusammengeführt)
+[2026-04-03 15:01:23] [DEDUP] Kandidaten-Datei: 226 pending, 2 confirmed, 0 rejected
+[2026-04-03 15:01:23] [DEDUP] Gespeichert: 404 → 404 Einträge

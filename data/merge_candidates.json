@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T13:38:02.699590",
+  "generated_at": "2026-04-03T15:01:23.190724",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5925,6 +5925,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "die Klinik",
+        "ort": "",
+        "datum": "30.10.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-evakuierung-vor",
+        "titel": "So bereitet sich die Klinik auf die Evakuierung vor - IVZ-Aktuell"
+      },
+      "entry_b": {
+        "einrichtung": "die Klinik",
+        "ort": "",
+        "datum": "30.10.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-evakuierung-vor",
+        "titel": "So bereitet sich die Klinik auf die Evakuierung vor - ivz-aktuell.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "ins Krankenhaus gebracht",
         "ort": "",
         "datum": "29.08.2025",
@@ -6898,6 +6931,72 @@
         "status": "false_positive",
         "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
         "titel": "Die Katastrophe im Krankenhaus: Evakuierung - skverlag.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - SK-Verlag"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - Skverlag"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - skverlag.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "12.10.2007",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
+        "titel": "Die Katastrophe im Krankenhaus: Evakuierung - Skverlag"
       }
     },
     {
