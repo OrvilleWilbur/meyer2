@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T08:58:19.825605",
+  "generated_at": "2026-04-04T09:54:14.722123",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -232,6 +232,39 @@
         "status": "enriched",
         "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
         "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.755,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.755
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "07.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/im-klinikum-idar-oberstein-hat-daemmmaterial-gebrannt_arid-4109249.html",
+        "titel": "Feuerwehr ist zur Stelle: Im Klinikum Idar-Oberstein hat Dämmmaterial gebrannt - Nahe-Zeitung - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "09.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
+        "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - rhein-zeitung.de"
       }
     },
     {

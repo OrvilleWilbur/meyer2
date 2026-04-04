@@ -15201,3 +15201,47 @@
 [2026-04-04 08:58:19] [DEDUP] Ergebnis: 409 Einträge (war: 409, 0 zusammengeführt)
 [2026-04-04 08:58:19] [DEDUP] Kandidaten-Datei: 233 pending, 2 confirmed, 0 rejected
 [2026-04-04 08:58:19] [DEDUP] Gespeichert: 409 → 409 Einträge
+[2026-04-04 09:53:58] === Monitor-Lauf gestartet ===
+[2026-04-04 09:54:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 09:54:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 09:54:01] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-04 09:54:01] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-04-04 09:54:02] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-04 09:54:02] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-04 09:54:03] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-04 09:54:03] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-04 09:54:03] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-04 09:54:04] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-04 09:54:05] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 09:54:05] 221 relevante Treffer in Feeds
+[2026-04-04 09:54:05] ✅ 2 NEUE Einträge gefunden:
+[2026-04-04 09:54:05]    01.01.2026 | in Krankenhaus Brandverletzungen |  | 41. Todesopfer von Crans-Montana: Schweizer (18) erliegt in 
+[2026-04-04 09:54:05]    09.03.2026 | im Klinikum Idar |  | Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Mi
+[2026-04-04 09:54:05] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 09:54:05] === Monitor-Lauf beendet ===
+
+[2026-04-04 09:54:06] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 09:54:06] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 09:54:06] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 09:54:06] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 09:54:06] [enrich] --- Enriche [1/2]: 41. Todesopfer von Crans-Montana: Schweizer (18) erliegt in 
+[2026-04-04 09:54:06] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/explosion-in-bar-in-schweizer-luxus-skiort-vi
+[2026-04-04 09:54:07] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.focus.de/panorama/welt/explosion-in-bar-in-schwe
+[2026-04-04 09:54:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar (Le Constellation) in Crans-Montana, Schweiz. Die erwähnten Krankenhäuser (in Zürich und Belgien) sind nur Behandlungsorte für Brandopfer, nicht der Brandort selbst. Der Brand fand nicht in Deutschland statt.
+[2026-04-04 09:54:09] [enrich] --- Enriche [2/2]: Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Mi
+[2026-04-04 09:54:10] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberste
+[2026-04-04 09:54:11] [enrich] Volltext extrahiert: 981 Zeichen von https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-k
+[2026-04-04 09:54:14] [enrich] Enrichment abgeschlossen: enriched — Klinikum Idar-Oberstein in Idar-Oberstein
+[2026-04-04 09:54:14] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-04 09:54:14] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 09:54:14] [DEDUP] Starte Dedup für 411 Einträge
+[2026-04-04 09:54:14] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 09:54:14] [DEDUP] Auto-Merge (1.00): Klinikum Idar-Oberstein / Idar-Oberstein ↔ Klinikum Idar-Oberstein / Idar-Oberstein
+[2026-04-04 09:54:14] [DEDUP] Paare verglichen: 5095
+[2026-04-04 09:54:14] [DEDUP] Auto-Merges: 1
+[2026-04-04 09:54:14] [DEDUP] Kandidaten (unsicher): 234
+[2026-04-04 09:54:14] [DEDUP] Cluster 2x: Klinikum Idar-Oberstein, Klinikum Idar-Oberstein
+[2026-04-04 09:54:14] [DEDUP] Ergebnis: 410 Einträge (war: 411, 1 zusammengeführt)
+[2026-04-04 09:54:14] [DEDUP] Kandidaten-Datei: 234 pending, 2 confirmed, 0 rejected
+[2026-04-04 09:54:14] [DEDUP] Gespeichert: 411 → 410 Einträge
