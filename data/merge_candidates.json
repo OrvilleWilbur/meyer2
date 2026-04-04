@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T23:48:42.580260",
+  "generated_at": "2026-04-04T03:15:11.916268",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -298,39 +298,6 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwerverletzte-bei-feuer-in-berliner-klinik_aid-87883855",
         "titel": "48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerverletzte bei Feuer in Berliner Klinik - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Urban-Krankenhaus",
-        "ort": "Berlin-Kreuzberg",
-        "datum": "03.04.2023",
-        "bundesland": "Berlin",
-        "status": "enriched",
-        "link": "https://www.morgenpost.de/berlin/polizeibericht/article238059661/urban-krankenhaus-berlin-kreuzberg-brand-feuerwehr.html",
-        "titel": "Feuer im Urban-Krankenhaus: Tatverdächtiger gefasst - Berliner Morgenpost"
-      },
-      "entry_b": {
-        "einrichtung": "Vivantes Klinikum Am Urban",
-        "ort": "Berlin-Kreuzberg",
-        "datum": "03.04.2023",
-        "bundesland": "Berlin",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwerverletzte-bei-feuer-in-berliner-klinik_aid-87883855",
-        "titel": "48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerverletzte bei Feuer in Berliner Klinik - rp-online.de"
       }
     },
     {

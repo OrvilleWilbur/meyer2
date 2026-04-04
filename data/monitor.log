@@ -15000,3 +15000,40 @@
 [2026-04-03 23:48:42] [DEDUP] Ergebnis: 406 Einträge (war: 407, 1 zusammengeführt)
 [2026-04-03 23:48:42] [DEDUP] Kandidaten-Datei: 229 pending, 2 confirmed, 0 rejected
 [2026-04-03 23:48:42] [DEDUP] Gespeichert: 407 → 406 Einträge
+[2026-04-04 03:14:58] === Monitor-Lauf gestartet ===
+[2026-04-04 03:14:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 03:15:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 03:15:01] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-04 03:15:01] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-04 03:15:02] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-04 03:15:02] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-04 03:15:03] Feed 'gn_brand_klinikum': 0 Einträge
+[2026-04-04 03:15:05] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-04 03:15:05] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-04 03:15:06] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-04 03:15:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 03:15:07] 183 relevante Treffer in Feeds
+[2026-04-04 03:15:07] ✅ 1 NEUE Einträge gefunden:
+[2026-04-04 03:15:07]    01.12.2024 | ins Krankenhaus |  | Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhau
+[2026-04-04 03:15:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 03:15:07] === Monitor-Lauf beendet ===
+
+[2026-04-04 03:15:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 03:15:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 03:15:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 03:15:08] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 03:15:08] [enrich] --- Enriche [1/1]: Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhau
+[2026-04-04 03:15:08] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-
+[2026-04-04 03:15:10] [enrich] Volltext extrahiert: 1774 Zeichen von https://www.schwaebische.de/regional/zollernalb/balingen/bra
+[2026-04-04 03:15:11] [enrich] FALSE POSITIVE erkannt: Brand in einer Garage (Druckluftkompressor), nicht in einem Krankenhaus. Die ältere Frau wurde nach dem Brand vorsorglich ins Krankenhaus gebracht, was kein Krankenhausbrand darstellt.
+[2026-04-04 03:15:11] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-04 03:15:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 03:15:11] [DEDUP] Starte Dedup für 407 Einträge
+[2026-04-04 03:15:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 03:15:11] [DEDUP] Paare verglichen: 4921
+[2026-04-04 03:15:11] [DEDUP] Auto-Merges: 0
+[2026-04-04 03:15:11] [DEDUP] Kandidaten (unsicher): 228
+[2026-04-04 03:15:11] [DEDUP] Ergebnis: 407 Einträge (war: 407, 0 zusammengeführt)
+[2026-04-04 03:15:11] [DEDUP] Kandidaten-Datei: 228 pending, 2 confirmed, 0 rejected
+[2026-04-04 03:15:11] [DEDUP] Gespeichert: 407 → 407 Einträge
