@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T07:16:17.252618",
+  "generated_at": "2026-04-04T07:56:38.512677",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5248,6 +5248,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/braende-feuer-vor-synagoge-verdaechtiger-in-klinik-untergebracht-dpa.urn-newsml-dpa-com-20090101-260114-930-542280",
         "titel": "Feuer vor Synagoge: Verdächtiger in Klinik untergebracht - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "psychiatrischer Klinik",
+        "ort": "",
+        "datum": "14.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mittelhessen.de/lokales/kreis-giessen/giessen/brand-vor-synagoge-verdaechtiger-in-psychiatrischer-klinik-5312381",
+        "titel": "Brand vor Synagoge: Verdächtiger in psychiatrischer Klinik - Mittelhessen"
+      },
+      "entry_b": {
+        "einrichtung": "psychiatrischer Klinik",
+        "ort": "",
+        "datum": "14.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mittelhessen.de/lokales/kreis-giessen/giessen/brand-vor-synagoge-verdaechtiger-in-psychiatrischer-klinik-5312381",
+        "titel": "Brand vor Synagoge: Verdächtiger in psychiatrischer Klinik - mittelhessen.de"
       }
     },
     {
