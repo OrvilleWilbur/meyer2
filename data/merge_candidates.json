@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T03:15:11.916268",
+  "generated_at": "2026-04-04T05:02:19.558990",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -404,6 +404,72 @@
         "",
         ""
       ],
+      "score": 0.735,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.06666666666666667,
+        "total": 0.735
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum)",
+        "ort": "Berlin, Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
+        "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.728,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.2727272727272727,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.728
+      },
+      "entry_a": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum)",
+        "ort": "Berlin, Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
+        "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.725,
       "details": {
         "datum": 1.0,
@@ -727,6 +793,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
         "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.701,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.08333333333333333,
+        "total": 0.701
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Bezirk Mitte, Berlin (Name nicht spezifiziert)",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
+        "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum)",
+        "ort": "Berlin, Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
+        "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
       }
     },
     {
@@ -7261,6 +7360,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa-krankenhaus-kommentar-1.6305735",
         "titel": "Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung garantieren - Meinung - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.499,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.2,
+        "einrichtung": 0.1111111111111111,
+        "bundesland": 1.0,
+        "brandort": 0.23076923076923078,
+        "total": 0.499
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin-Neukölln (Ortsteil Buckow)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum)",
+        "ort": "Berlin, Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
+        "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
       }
     },
     {

@@ -15037,3 +15037,40 @@
 [2026-04-04 03:15:11] [DEDUP] Ergebnis: 407 Einträge (war: 407, 0 zusammengeführt)
 [2026-04-04 03:15:11] [DEDUP] Kandidaten-Datei: 228 pending, 2 confirmed, 0 rejected
 [2026-04-04 03:15:11] [DEDUP] Gespeichert: 407 → 407 Einträge
+[2026-04-04 05:02:06] === Monitor-Lauf gestartet ===
+[2026-04-04 05:02:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 05:02:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 05:02:09] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-04 05:02:09] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-04 05:02:10] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-04 05:02:10] Feed 'gn_brand_klinik': 35 Einträge
+[2026-04-04 05:02:11] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-04-04 05:02:11] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-04 05:02:12] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-04-04 05:02:12] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-04 05:02:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 05:02:13] 220 relevante Treffer in Feeds
+[2026-04-04 05:02:13] ✅ 1 NEUE Einträge gefunden:
+[2026-04-04 05:02:13]    11.11.2025 | Berliner Kliniken |  | Berlin & Brandenburg: Detonation und Feuer an Krebszentren v
+[2026-04-04 05:02:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 05:02:13] === Monitor-Lauf beendet ===
+
+[2026-04-04 05:02:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 05:02:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 05:02:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 05:02:14] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 05:02:14] [enrich] --- Enriche [1/1]: Berlin & Brandenburg: Detonation und Feuer an Krebszentren v
+[2026-04-04 05:02:14] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Kr
+[2026-04-04 05:02:15] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.n-tv.de/regionales/berlin-und-brandenburg/Detona
+[2026-04-04 05:02:18] [enrich] Enrichment abgeschlossen: enriched — Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum) in Berlin, Mitte
+[2026-04-04 05:02:18] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-04 05:02:18] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 05:02:19] [DEDUP] Starte Dedup für 408 Einträge
+[2026-04-04 05:02:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 05:02:19] [DEDUP] Paare verglichen: 4926
+[2026-04-04 05:02:19] [DEDUP] Auto-Merges: 0
+[2026-04-04 05:02:19] [DEDUP] Kandidaten (unsicher): 232
+[2026-04-04 05:02:19] [DEDUP] Ergebnis: 408 Einträge (war: 408, 0 zusammengeführt)
+[2026-04-04 05:02:19] [DEDUP] Kandidaten-Datei: 232 pending, 2 confirmed, 0 rejected
+[2026-04-04 05:02:19] [DEDUP] Gespeichert: 408 → 408 Einträge
