@@ -15582,3 +15582,40 @@
 [2026-04-04 20:49:39] [DEDUP] Ergebnis: 413 Einträge (war: 413, 0 zusammengeführt)
 [2026-04-04 20:49:39] [DEDUP] Kandidaten-Datei: 239 pending, 2 confirmed, 0 rejected
 [2026-04-04 20:49:39] [DEDUP] Gespeichert: 413 → 413 Einträge
+[2026-04-04 21:46:06] === Monitor-Lauf gestartet ===
+[2026-04-04 21:46:08] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 21:46:09] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 21:46:10] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-04 21:46:10] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-04 21:46:10] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-04-04 21:46:11] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-04 21:46:11] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-04 21:46:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-04 21:46:13] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-04 21:46:13] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-04-04 21:46:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 21:46:15] 215 relevante Treffer in Feeds
+[2026-04-04 21:46:15] ✅ 1 NEUE Einträge gefunden:
+[2026-04-04 21:46:15]    01.06.2025 | Hamburger Klinik |  | Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitu
+[2026-04-04 21:46:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 21:46:15] === Monitor-Lauf beendet ===
+
+[2026-04-04 21:46:15] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 21:46:15] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 21:46:15] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 21:46:15] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 21:46:15] [enrich] --- Enriche [1/1]: Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitu
+[2026-04-04 21:46:16] [enrich] Google News URL aufgelöst (v1): https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik
+[2026-04-04 21:46:22] [enrich] Volltext zu kurz/leer (172 Z.), verwende RSS-Snippet (419 Z.)
+[2026-04-04 21:46:23] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Textinhalt. Eine verlässliche Einordnung ist nicht möglich, da unklar ist, ob es sich um einen Brand IN einer Klinik oder um einen anderen Kontext handelt.
+[2026-04-04 21:46:23] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-04 21:46:23] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 21:46:23] [DEDUP] Starte Dedup für 414 Einträge
+[2026-04-04 21:46:23] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 21:46:24] [DEDUP] Paare verglichen: 5300
+[2026-04-04 21:46:24] [DEDUP] Auto-Merges: 0
+[2026-04-04 21:46:24] [DEDUP] Kandidaten (unsicher): 241
+[2026-04-04 21:46:24] [DEDUP] Ergebnis: 414 Einträge (war: 414, 0 zusammengeführt)
+[2026-04-04 21:46:24] [DEDUP] Kandidaten-Datei: 241 pending, 2 confirmed, 0 rejected
+[2026-04-04 21:46:24] [DEDUP] Gespeichert: 414 → 414 Einträge

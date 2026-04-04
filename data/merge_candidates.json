@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T20:49:39.712939",
+  "generated_at": "2026-04-04T21:46:24.237820",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5793,6 +5793,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
+        "titel": "Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Wald-Klinikum Gera",
         "ort": "",
         "datum": "07.07.2025",
@@ -5908,6 +5941,39 @@
         "status": "false_positive",
         "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
         "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - derwesten.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
+        "titel": "Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitung"
       }
     },
     {
