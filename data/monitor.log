@@ -15349,3 +15349,40 @@
 [2026-04-04 13:19:58] [DEDUP] Ergebnis: 411 Einträge (war: 411, 0 zusammengeführt)
 [2026-04-04 13:19:58] [DEDUP] Kandidaten-Datei: 234 pending, 2 confirmed, 0 rejected
 [2026-04-04 13:19:58] [DEDUP] Gespeichert: 411 → 411 Einträge
+[2026-04-04 14:51:00] === Monitor-Lauf gestartet ===
+[2026-04-04 14:51:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 14:51:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 14:51:02] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-04 14:51:02] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-04 14:51:03] Feed 'gn_feuer_klinik': 32 Einträge
+[2026-04-04 14:51:03] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-04 14:51:04] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-04-04 14:51:04] Feed 'gn_klinikbrand': 91 Einträge
+[2026-04-04 14:51:04] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-04 14:51:05] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-04 14:51:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 14:51:06] 208 relevante Treffer in Feeds
+[2026-04-04 14:51:06] ✅ 1 NEUE Einträge gefunden:
+[2026-04-04 14:51:06]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfe
+[2026-04-04 14:51:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 14:51:06] === Monitor-Lauf beendet ===
+
+[2026-04-04 14:51:06] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 14:51:06] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 14:51:06] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 14:51:06] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 14:51:06] [enrich] --- Enriche [1/1]: Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfe
+[2026-04-04 14:51:07] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-
+[2026-04-04 14:51:07] [enrich] Volltext extrahiert: 3399 Zeichen von https://www.sueddeutsche.de/panorama/brand-auf-silvesterpart
+[2026-04-04 14:51:09] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in der Schweiz (Crans-Montana). Das Unfallkrankenhaus Berlin wird nur erwähnt, weil Brandopfer dort zur Behandlung aufgenommen werden sollen. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus.
+[2026-04-04 14:51:09] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-04 14:51:09] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 14:51:09] [DEDUP] Starte Dedup für 412 Einträge
+[2026-04-04 14:51:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 14:51:09] [DEDUP] Paare verglichen: 5264
+[2026-04-04 14:51:09] [DEDUP] Auto-Merges: 0
+[2026-04-04 14:51:09] [DEDUP] Kandidaten (unsicher): 238
+[2026-04-04 14:51:09] [DEDUP] Ergebnis: 412 Einträge (war: 412, 0 zusammengeführt)
+[2026-04-04 14:51:09] [DEDUP] Kandidaten-Datei: 238 pending, 2 confirmed, 0 rejected
+[2026-04-04 14:51:09] [DEDUP] Gespeichert: 412 → 412 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T13:19:58.542208",
+  "generated_at": "2026-04-04T14:51:09.688912",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4506,6 +4506,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "NRW-Klinik verlegt",
         "ort": "",
         "datum": "03.01.2026",
@@ -4819,6 +4852,39 @@
         "status": "false_positive",
         "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
         "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -5232,6 +5298,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik untergebracht",
         "ort": "",
         "datum": "14.01.2026",
@@ -5314,6 +5413,39 @@
         "status": "false_positive",
         "link": "https://www.news5.de/news/news/read/40154",
         "titel": "Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus gebracht - NEWS5.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
