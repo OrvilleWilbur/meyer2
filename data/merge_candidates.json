@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T19:44:52.934266",
+  "generated_at": "2026-04-04T20:49:39.712939",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -6238,6 +6238,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/feuer-in-duesseldorf-brand-in-mehrfamilienhaus-drei-menschen-im-krankenhaus_aid-122427107",
         "titel": "Einsatz in Düsseldorf: 775 Feuerwehreinsätze an Weihnachten – drei Menschen im Krankenhaus - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - Schwäbische.de"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - schwaebische.de"
       }
     },
     {
