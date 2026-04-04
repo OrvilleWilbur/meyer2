@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T10:52:43.439913",
+  "generated_at": "2026-04-04T11:42:48.086721",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5281,6 +5281,39 @@
         "status": "false_positive",
         "link": "https://www.mittelhessen.de/lokales/kreis-giessen/giessen/brand-vor-synagoge-verdaechtiger-in-psychiatrischer-klinik-5312381",
         "titel": "Brand vor Synagoge: Verdächtiger in psychiatrischer Klinik - mittelhessen.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus gebracht",
+        "ort": "",
+        "datum": "05.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news5.de/news/news/read/40154",
+        "titel": "Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus gebracht - NEWS5"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus gebracht",
+        "ort": "",
+        "datum": "05.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news5.de/news/news/read/40154",
+        "titel": "Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus gebracht - NEWS5.de"
       }
     },
     {

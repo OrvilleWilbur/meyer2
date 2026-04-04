@@ -15275,3 +15275,47 @@
 [2026-04-04 10:52:43] [DEDUP] Ergebnis: 410 Einträge (war: 410, 0 zusammengeführt)
 [2026-04-04 10:52:43] [DEDUP] Kandidaten-Datei: 233 pending, 2 confirmed, 0 rejected
 [2026-04-04 10:52:43] [DEDUP] Gespeichert: 410 → 410 Einträge
+[2026-04-04 11:42:33] === Monitor-Lauf gestartet ===
+[2026-04-04 11:42:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 11:42:35] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 11:42:35] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-04 11:42:35] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-04-04 11:42:36] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-04 11:42:36] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-04 11:42:37] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-04 11:42:37] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-04 11:42:38] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-04 11:42:38] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-04-04 11:42:39] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 11:42:39] 222 relevante Treffer in Feeds
+[2026-04-04 11:42:39] ✅ 2 NEUE Einträge gefunden:
+[2026-04-04 11:42:39]    28.01.2026 | Jüdischem Krankenhaus womöglich politisch motiviert |  | Feuer in Jüdischem Krankenhaus womöglich politisch motiviert
+[2026-04-04 11:42:39]    05.01.2026 | ins Krankenhaus gebracht |  | Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus geb
+[2026-04-04 11:42:39] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 11:42:39] === Monitor-Lauf beendet ===
+
+[2026-04-04 11:42:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 11:42:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 11:42:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 11:42:40] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 11:42:40] [enrich] --- Enriche [1/2]: Feuer in Jüdischem Krankenhaus womöglich politisch motiviert
+[2026-04-04 11:42:40] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/politik/inland/feuer-in-juedischem-krankenhaus-womoe
+[2026-04-04 11:42:40] [enrich] Volltext extrahiert: 1933 Zeichen von https://www.faz.net/aktuell/politik/inland/feuer-in-juedisch
+[2026-04-04 11:42:44] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus Berlin in Berlin
+[2026-04-04 11:42:45] [enrich] --- Enriche [2/2]: Evakuierung nach Brand: Mehrere Menschen ins Krankenhaus geb
+[2026-04-04 11:42:45] [enrich] Google News URL aufgelöst (v1): https://www.news5.de/news/news/read/40154
+[2026-04-04 11:42:46] [enrich] Volltext extrahiert: 1355 Zeichen von https://www.news5.de/news/news/read/40154
+[2026-04-04 11:42:47] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnung eines Wohnblocks, nicht in einem Krankenhaus. Verletzte wurden nachträglich in Krankenhäuser gebracht, aber der Brand selbst fand nicht in einer Klinik statt.
+[2026-04-04 11:42:47] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-04 11:42:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 11:42:47] [DEDUP] Starte Dedup für 412 Einträge
+[2026-04-04 11:42:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 11:42:47] [DEDUP] Auto-Merge (0.96): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus Berlin / Berlin
+[2026-04-04 11:42:48] [DEDUP] Paare verglichen: 5180
+[2026-04-04 11:42:48] [DEDUP] Auto-Merges: 1
+[2026-04-04 11:42:48] [DEDUP] Kandidaten (unsicher): 234
+[2026-04-04 11:42:48] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus Berlin
+[2026-04-04 11:42:48] [DEDUP] Ergebnis: 411 Einträge (war: 412, 1 zusammengeführt)
+[2026-04-04 11:42:48] [DEDUP] Kandidaten-Datei: 234 pending, 2 confirmed, 0 rejected
+[2026-04-04 11:42:48] [DEDUP] Gespeichert: 412 → 411 Einträge
