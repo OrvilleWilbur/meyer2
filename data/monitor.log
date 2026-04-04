@@ -15386,3 +15386,42 @@
 [2026-04-04 14:51:09] [DEDUP] Ergebnis: 412 Einträge (war: 412, 0 zusammengeführt)
 [2026-04-04 14:51:09] [DEDUP] Kandidaten-Datei: 238 pending, 2 confirmed, 0 rejected
 [2026-04-04 14:51:09] [DEDUP] Gespeichert: 412 → 412 Einträge
+[2026-04-04 15:46:37] === Monitor-Lauf gestartet ===
+[2026-04-04 15:46:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-04 15:46:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-04 15:46:39] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-04 15:46:39] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-04 15:46:39] Feed 'gn_feuer_klinik': 32 Einträge
+[2026-04-04 15:46:40] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-04 15:46:40] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-04 15:46:41] Feed 'gn_klinikbrand': 91 Einträge
+[2026-04-04 15:46:41] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-04 15:46:41] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-04-04 15:46:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-04 15:46:42] 211 relevante Treffer in Feeds
+[2026-04-04 15:46:42] ✅ 1 NEUE Einträge gefunden:
+[2026-04-04 15:46:42]    02.12.2025 | JVA-Krankenhaus Plötzensee |  | Brände - Feuer in JVA-Krankenhaus Plötzensee - Zwei Verletzt
+[2026-04-04 15:46:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-04 15:46:42] === Monitor-Lauf beendet ===
+
+[2026-04-04 15:46:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-04 15:46:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-04 15:46:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-04 15:46:43] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-04 15:46:43] [enrich] --- Enriche [1/1]: Brände - Feuer in JVA-Krankenhaus Plötzensee - Zwei Verletzt
+[2026-04-04 15:46:43] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-jva-krankenhaus-ploetzense
+[2026-04-04 15:46:44] [enrich] Volltext extrahiert: 1371 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-jva-kr
+[2026-04-04 15:46:47] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus der JVA Plötzensee (Justizvollzugsanstalt) in Berlin-Charlottenburg
+[2026-04-04 15:46:47] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-04 15:46:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-04 15:46:47] [DEDUP] Starte Dedup für 413 Einträge
+[2026-04-04 15:46:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-04 15:46:47] [DEDUP] Auto-Merge (0.95): Krankenhaus der JVA Plötzensee / Berlin-Charlottenbur ↔ Krankenhaus der JVA Plötzensee (Justizvo / Berlin-Charlottenbur
+[2026-04-04 15:46:48] [DEDUP] Paare verglichen: 5271
+[2026-04-04 15:46:48] [DEDUP] Auto-Merges: 1
+[2026-04-04 15:46:48] [DEDUP] Kandidaten (unsicher): 238
+[2026-04-04 15:46:48] [DEDUP] Cluster 2x: Krankenhaus der JVA Plötzensee, Krankenhaus der JVA Plötzensee (Justizvo
+[2026-04-04 15:46:48] [DEDUP] Ergebnis: 412 Einträge (war: 413, 1 zusammengeführt)
+[2026-04-04 15:46:48] [DEDUP] Kandidaten-Datei: 238 pending, 2 confirmed, 0 rejected
+[2026-04-04 15:46:48] [DEDUP] Gespeichert: 413 → 412 Einträge
