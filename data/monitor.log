@@ -15970,3 +15970,42 @@
 [2026-04-05 13:21:10] [DEDUP] Ergebnis: 418 Einträge (war: 419, 1 zusammengeführt)
 [2026-04-05 13:21:10] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
 [2026-04-05 13:21:10] [DEDUP] Gespeichert: 419 → 418 Einträge
+[2026-04-05 14:53:14] === Monitor-Lauf gestartet ===
+[2026-04-05 14:53:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-05 14:53:16] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-05 14:53:16] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-04-05 14:53:17] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-05 14:53:17] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-04-05 14:53:17] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-05 14:53:18] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-05 14:53:18] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-05 14:53:19] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-05 14:53:19] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-05 14:53:20] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-05 14:53:20] 217 relevante Treffer in Feeds
+[2026-04-05 14:53:21] ✅ 1 NEUE Einträge gefunden:
+[2026-04-05 14:53:21]    05.01.2024 | in Krankenhaus |  | Uelzen: Feuer in Krankenhaus: Vier Menschen sterben, viele V
+[2026-04-05 14:53:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-05 14:53:21] === Monitor-Lauf beendet ===
+
+[2026-04-05 14:53:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-05 14:53:21] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-05 14:53:21] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-05 14:53:21] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-05 14:53:21] [enrich] --- Enriche [1/1]: Uelzen: Feuer in Krankenhaus: Vier Menschen sterben, viele V
+[2026-04-05 14:53:22] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2024-01/05/klinikbrand-mit-vier-toten-schuetzer-fordern
+[2026-04-05 14:53:23] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.zeit.de/news/2024-01/05/klinikbrand-mit-vier-tot
+[2026-04-05 14:53:29] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-04-05 14:53:29] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-05 14:53:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-05 14:53:29] [DEDUP] Starte Dedup für 419 Einträge
+[2026-04-05 14:53:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-05 14:53:29] [DEDUP] Auto-Merge (0.95): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-04-05 14:53:29] [DEDUP] Paare verglichen: 5350
+[2026-04-05 14:53:29] [DEDUP] Auto-Merges: 1
+[2026-04-05 14:53:29] [DEDUP] Kandidaten (unsicher): 247
+[2026-04-05 14:53:29] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-04-05 14:53:29] [DEDUP] Ergebnis: 418 Einträge (war: 419, 1 zusammengeführt)
+[2026-04-05 14:53:29] [DEDUP] Kandidaten-Datei: 247 pending, 2 confirmed, 0 rejected
+[2026-04-05 14:53:29] [DEDUP] Gespeichert: 419 → 418 Einträge
