@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T23:45:28.533102",
+  "generated_at": "2026-04-05T03:36:50.002503",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -6436,6 +6436,72 @@
         "status": "false_positive",
         "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
         "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - schwaebische.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - Schwäbische.de"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - Schwäbische Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - schwaebische.de"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "01.12.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-frau-muss-ins-krankenhaus-3122582",
+        "titel": "Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhaus - Schwäbische Zeitung"
       }
     },
     {

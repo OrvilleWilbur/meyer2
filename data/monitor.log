@@ -15686,3 +15686,47 @@
 [2026-04-04 23:45:28] [DEDUP] Ergebnis: 415 Einträge (war: 415, 0 zusammengeführt)
 [2026-04-04 23:45:28] [DEDUP] Kandidaten-Datei: 244 pending, 2 confirmed, 0 rejected
 [2026-04-04 23:45:28] [DEDUP] Gespeichert: 415 → 415 Einträge
+[2026-04-05 03:36:34] === Monitor-Lauf gestartet ===
+[2026-04-05 03:36:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-05 03:36:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-05 03:36:36] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-05 03:36:37] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-05 03:36:37] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-05 03:36:37] Feed 'gn_brand_klinik': 36 Einträge
+[2026-04-05 03:36:38] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-05 03:36:38] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-05 03:36:39] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-05 03:36:39] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-04-05 03:36:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-05 03:36:40] 207 relevante Treffer in Feeds
+[2026-04-05 03:36:40] ✅ 2 NEUE Einträge gefunden:
+[2026-04-05 03:36:40]    28.01.2026 | Jüdischen Krankenhaus |  | Berlin: Brand im Jüdischen Krankenhaus - kein antisemitische
+[2026-04-05 03:36:40]    01.12.2024 | ins Krankenhaus |  | Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhau
+[2026-04-05 03:36:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-05 03:36:40] === Monitor-Lauf beendet ===
+
+[2026-04-05 03:36:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-05 03:36:41] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-05 03:36:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-05 03:36:41] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-05 03:36:41] [enrich] --- Enriche [1/2]: Berlin: Brand im Jüdischen Krankenhaus - kein antisemitische
+[2026-04-05 03:36:41] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/berlin-brand-im-juedischen-krankenhaus-kein
+[2026-04-05 03:36:41] [enrich] Volltext extrahiert: 579 Zeichen von https://www.sueddeutsche.de/panorama/berlin-brand-im-juedisc
+[2026-04-05 03:36:43] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus in Berlin
+[2026-04-05 03:36:44] [enrich] --- Enriche [2/2]: Brand in Garage: Ältere Frau muss vorsorglich ins Krankenhau
+[2026-04-05 03:36:45] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische.de/regional/zollernalb/balingen/brand-in-garage-altere-
+[2026-04-05 03:36:46] [enrich] Volltext extrahiert: 1774 Zeichen von https://www.schwaebische.de/regional/zollernalb/balingen/bra
+[2026-04-05 03:36:49] [enrich] FALSE POSITIVE erkannt: Brand in einer privaten Garage (Druckluftkompressor), nicht in einem Krankenhaus. Eine ältere Frau wurde nach dem Brand vorsorglich ins Krankenhaus gebracht, aber dies ist nur die Behandlung/Einlieferung eines Brandopfers, nicht ein Brand im Krankenhaus selbst.
+[2026-04-05 03:36:49] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-05 03:36:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-05 03:36:49] [DEDUP] Starte Dedup für 417 Einträge
+[2026-04-05 03:36:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-05 03:36:49] [DEDUP] Auto-Merge (0.90): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus / Berlin
+[2026-04-05 03:36:49] [DEDUP] Paare verglichen: 5340
+[2026-04-05 03:36:49] [DEDUP] Auto-Merges: 1
+[2026-04-05 03:36:49] [DEDUP] Kandidaten (unsicher): 246
+[2026-04-05 03:36:49] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus
+[2026-04-05 03:36:49] [DEDUP] Ergebnis: 416 Einträge (war: 417, 1 zusammengeführt)
+[2026-04-05 03:36:50] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
+[2026-04-05 03:36:50] [DEDUP] Gespeichert: 417 → 416 Einträge
