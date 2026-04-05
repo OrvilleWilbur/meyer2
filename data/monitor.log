@@ -15931,3 +15931,42 @@
 [2026-04-05 11:44:38] [DEDUP] Ergebnis: 418 Einträge (war: 418, 0 zusammengeführt)
 [2026-04-05 11:44:38] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
 [2026-04-05 11:44:38] [DEDUP] Gespeichert: 418 → 418 Einträge
+[2026-04-05 13:20:53] === Monitor-Lauf gestartet ===
+[2026-04-05 13:20:55] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-05 13:20:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-05 13:20:57] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-04-05 13:20:57] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-05 13:20:58] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-04-05 13:20:58] Feed 'gn_brand_klinik': 51 Einträge
+[2026-04-05 13:20:59] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-05 13:21:00] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-05 13:21:00] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-05 13:21:01] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-04-05 13:21:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-05 13:21:02] 217 relevante Treffer in Feeds
+[2026-04-05 13:21:02] ✅ 1 NEUE Einträge gefunden:
+[2026-04-05 13:21:02]    19.04.2024 | Haarer Klinikum |  | Brand im Haarer Klinikum: Suchtstation wird evakuiert - merk
+[2026-04-05 13:21:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-05 13:21:02] === Monitor-Lauf beendet ===
+
+[2026-04-05 13:21:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-05 13:21:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-05 13:21:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-05 13:21:04] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-05 13:21:04] [enrich] --- Enriche [1/1]: Brand im Haarer Klinikum: Suchtstation wird evakuiert - merk
+[2026-04-05 13:21:05] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/lokales/muenchen-lk/haar-ort104496/brand-im-haarer-kliniku
+[2026-04-05 13:21:06] [enrich] Volltext extrahiert: 1166 Zeichen von https://www.merkur.de/lokales/muenchen-lk/haar-ort104496/bra
+[2026-04-05 13:21:09] [enrich] Enrichment abgeschlossen: enriched — kbo-Klinikum Haar in Haar
+[2026-04-05 13:21:09] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-05 13:21:09] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-05 13:21:09] [DEDUP] Starte Dedup für 419 Einträge
+[2026-04-05 13:21:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-05 13:21:10] [DEDUP] Auto-Merge (0.90): kbo-Klinikum in Haar / Haar ↔ kbo-Klinikum Haar / Haar
+[2026-04-05 13:21:10] [DEDUP] Paare verglichen: 5349
+[2026-04-05 13:21:10] [DEDUP] Auto-Merges: 1
+[2026-04-05 13:21:10] [DEDUP] Kandidaten (unsicher): 246
+[2026-04-05 13:21:10] [DEDUP] Cluster 2x: kbo-Klinikum in Haar, kbo-Klinikum Haar
+[2026-04-05 13:21:10] [DEDUP] Ergebnis: 418 Einträge (war: 419, 1 zusammengeführt)
+[2026-04-05 13:21:10] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
+[2026-04-05 13:21:10] [DEDUP] Gespeichert: 419 → 418 Einträge
