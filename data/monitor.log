@@ -16219,3 +16219,40 @@
 [2026-04-05 21:46:24] [DEDUP] Ergebnis: 418 Einträge (war: 418, 0 zusammengeführt)
 [2026-04-05 21:46:24] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
 [2026-04-05 21:46:24] [DEDUP] Gespeichert: 418 → 418 Einträge
+[2026-04-05 22:50:29] === Monitor-Lauf gestartet ===
+[2026-04-05 22:50:30] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-05 22:50:31] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-05 22:50:32] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-05 22:50:32] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-05 22:50:33] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-05 22:50:33] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-05 22:50:34] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-05 22:50:34] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-05 22:50:34] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-05 22:50:35] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-05 22:50:36] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-05 22:50:36] 212 relevante Treffer in Feeds
+[2026-04-05 22:50:36] ✅ 1 NEUE Einträge gefunden:
+[2026-04-05 22:50:36]    20.07.2018 | im Klinikum Wels sorgt für größeren Einsatz |  | Brand im Klinikum Wels sorgt für größeren Einsatz der Feuerw
+[2026-04-05 22:50:36] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-05 22:50:36] === Monitor-Lauf beendet ===
+
+[2026-04-05 22:50:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-05 22:50:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-05 22:50:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-05 22:50:36] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-05 22:50:36] [enrich] --- Enriche [1/1]: Brand im Klinikum Wels sorgt für größeren Einsatz der Feuerw
+[2026-04-05 22:50:36] [enrich] Google News URL aufgelöst (v1): https://www.laumat.at/bilderstrecke,brand-im-klinikum-wels-sorgt-fuer-groesseren
+[2026-04-05 22:50:38] [enrich] Volltext extrahiert: 831 Zeichen von https://www.laumat.at/bilderstrecke,brand-im-klinikum-wels-s
+[2026-04-05 22:50:39] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Bericht über einen Brand. Es handelt sich um eine Mitteilung zur rechtlichen Rahmenbedingung und Informationsverfügbarkeit eines Nachrichtenportals.
+[2026-04-05 22:50:39] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-05 22:50:39] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-05 22:50:39] [DEDUP] Starte Dedup für 419 Einträge
+[2026-04-05 22:50:39] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-05 22:50:40] [DEDUP] Paare verglichen: 5348
+[2026-04-05 22:50:40] [DEDUP] Auto-Merges: 0
+[2026-04-05 22:50:40] [DEDUP] Kandidaten (unsicher): 246
+[2026-04-05 22:50:40] [DEDUP] Ergebnis: 419 Einträge (war: 419, 0 zusammengeführt)
+[2026-04-05 22:50:40] [DEDUP] Kandidaten-Datei: 246 pending, 2 confirmed, 0 rejected
+[2026-04-05 22:50:40] [DEDUP] Gespeichert: 419 → 419 Einträge
