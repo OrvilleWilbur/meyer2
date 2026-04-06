@@ -16434,3 +16434,40 @@
 [2026-04-06 09:40:59] [DEDUP] Ergebnis: 421 Einträge (war: 421, 0 zusammengeführt)
 [2026-04-06 09:40:59] [DEDUP] Kandidaten-Datei: 247 pending, 2 confirmed, 0 rejected
 [2026-04-06 09:40:59] [DEDUP] Gespeichert: 421 → 421 Einträge
+[2026-04-06 11:12:04] === Monitor-Lauf gestartet ===
+[2026-04-06 11:12:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-06 11:12:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-06 11:12:08] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-06 11:12:08] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-06 11:12:08] Feed 'gn_feuer_klinik': 27 Einträge
+[2026-04-06 11:12:09] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-06 11:12:09] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-06 11:12:10] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-06 11:12:10] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-06 11:12:11] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-04-06 11:12:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-06 11:12:12] 189 relevante Treffer in Feeds
+[2026-04-06 11:12:12] ✅ 1 NEUE Einträge gefunden:
+[2026-04-06 11:12:12]    01.06.2025 | Hamburger Klinik |  | Tote und Verletzte bei einem Feuer in einer Hamburger Klinik
+[2026-04-06 11:12:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-06 11:12:12] === Monitor-Lauf beendet ===
+
+[2026-04-06 11:12:12] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-06 11:12:12] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-06 11:12:12] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-06 11:12:12] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-06 11:12:12] [enrich] --- Enriche [1/1]: Tote und Verletzte bei einem Feuer in einer Hamburger Klinik
+[2026-04-06 11:12:13] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/video/video-1472184.html
+[2026-04-06 11:12:15] [enrich] Volltext extrahiert: 295 Zeichen von https://www.tagesschau.de/video/video-1472184.html
+[2026-04-06 11:12:16] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keine spezifischen Informationen über einen Brand in einer Hamburger Klinik. Es handelt sich nur um eine Überschrift und Metadaten ohne Artikelinhalt. Ohne den eigentlichen Artikeltext können keine verlässlichen Daten extrahiert werden.
+[2026-04-06 11:12:16] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-06 11:12:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-06 11:12:16] [DEDUP] Starte Dedup für 422 Einträge
+[2026-04-06 11:12:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-06 11:12:17] [DEDUP] Paare verglichen: 5385
+[2026-04-06 11:12:17] [DEDUP] Auto-Merges: 0
+[2026-04-06 11:12:17] [DEDUP] Kandidaten (unsicher): 251
+[2026-04-06 11:12:17] [DEDUP] Ergebnis: 422 Einträge (war: 422, 0 zusammengeführt)
+[2026-04-06 11:12:17] [DEDUP] Kandidaten-Datei: 251 pending, 2 confirmed, 0 rejected
+[2026-04-06 11:12:17] [DEDUP] Gespeichert: 422 → 422 Einträge
