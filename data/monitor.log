@@ -16637,3 +16637,42 @@
 [2026-04-06 17:05:29] [DEDUP] Ergebnis: 423 Einträge (war: 423, 0 zusammengeführt)
 [2026-04-06 17:05:29] [DEDUP] Kandidaten-Datei: 251 pending, 2 confirmed, 0 rejected
 [2026-04-06 17:05:29] [DEDUP] Gespeichert: 423 → 423 Einträge
+[2026-04-06 18:03:42] === Monitor-Lauf gestartet ===
+[2026-04-06 18:03:44] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-06 18:03:45] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-06 18:03:45] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-06 18:03:46] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-06 18:03:46] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-06 18:03:47] Feed 'gn_brand_klinik': 54 Einträge
+[2026-04-06 18:03:47] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-04-06 18:03:48] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-06 18:03:48] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-06 18:03:49] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-06 18:03:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-06 18:03:50] 199 relevante Treffer in Feeds
+[2026-04-06 18:03:50] ✅ 1 NEUE Einträge gefunden:
+[2026-04-06 18:03:50]    05.01.2024 | in Krankenhaus |  | Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus
+[2026-04-06 18:03:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-06 18:03:50] === Monitor-Lauf beendet ===
+
+[2026-04-06 18:03:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-06 18:03:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-06 18:03:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-06 18:03:50] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-06 18:03:50] [enrich] --- Enriche [1/1]: Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus
+[2026-04-06 18:03:51] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach-brand-in-krankenhau
+[2026-04-06 18:03:51] [enrich] Volltext extrahiert: 4185 Zeichen von https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach
+[2026-04-06 18:03:55] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen in Uelzen
+[2026-04-06 18:03:55] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-06 18:03:55] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-06 18:03:55] [DEDUP] Starte Dedup für 424 Einträge
+[2026-04-06 18:03:55] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-06 18:03:56] [DEDUP] Auto-Merge (1.00): Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen / Uelzen
+[2026-04-06 18:03:56] [DEDUP] Paare verglichen: 5406
+[2026-04-06 18:03:56] [DEDUP] Auto-Merges: 1
+[2026-04-06 18:03:56] [DEDUP] Kandidaten (unsicher): 252
+[2026-04-06 18:03:56] [DEDUP] Cluster 2x: Klinikum Uelzen, Klinikum Uelzen
+[2026-04-06 18:03:56] [DEDUP] Ergebnis: 423 Einträge (war: 424, 1 zusammengeführt)
+[2026-04-06 18:03:56] [DEDUP] Kandidaten-Datei: 252 pending, 2 confirmed, 0 rejected
+[2026-04-06 18:03:56] [DEDUP] Gespeichert: 424 → 423 Einträge
