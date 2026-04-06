@@ -16360,3 +16360,47 @@
 [2026-04-06 06:06:35] [DEDUP] Ergebnis: 420 Einträge (war: 421, 1 zusammengeführt)
 [2026-04-06 06:06:35] [DEDUP] Kandidaten-Datei: 248 pending, 2 confirmed, 0 rejected
 [2026-04-06 06:06:35] [DEDUP] Gespeichert: 421 → 420 Einträge
+[2026-04-06 08:00:57] === Monitor-Lauf gestartet ===
+[2026-04-06 08:00:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-06 08:00:59] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-06 08:01:00] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-06 08:01:00] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-06 08:01:01] Feed 'gn_feuer_klinik': 34 Einträge
+[2026-04-06 08:01:01] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-06 08:01:01] Feed 'gn_brand_klinikum': 28 Einträge
+[2026-04-06 08:01:02] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-06 08:01:02] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-06 08:01:03] Feed 'gn_evakuierung_klinik': 34 Einträge
+[2026-04-06 08:01:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-06 08:01:04] 187 relevante Treffer in Feeds
+[2026-04-06 08:01:04] ✅ 2 NEUE Einträge gefunden:
+[2026-04-06 08:01:04]    04.01.2023 | in Klinik |  | Lagerraum in Gotha in Brand: Schwerverletzter in Klinik - Vo
+[2026-04-06 08:01:04]    04.10.2025 | Sonnenberg-Klinikum |  | Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs Verletz
+[2026-04-06 08:01:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-06 08:01:04] === Monitor-Lauf beendet ===
+
+[2026-04-06 08:01:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-06 08:01:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-06 08:01:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-06 08:01:04] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-06 08:01:04] [enrich] --- Enriche [1/2]: Lagerraum in Gotha in Brand: Schwerverletzter in Klinik - Vo
+[2026-04-06 08:01:05] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/deutschland-und-welt/deutschland/lagerraum-in-gotha-i
+[2026-04-06 08:01:05] [enrich] Volltext extrahiert: 924 Zeichen von https://www.volksstimme.de/deutschland-und-welt/deutschland/
+[2026-04-06 08:01:11] [enrich] FALSE POSITIVE erkannt: Brand in einem Lagerraum (nicht in einem Krankenhaus). Die Erwähnung der Klinik bezieht sich nur auf die Behandlung des Verletzten nach dem Brand, nicht auf einen Brand im Krankenhaus selbst.
+[2026-04-06 08:01:12] [enrich] --- Enriche [2/2]: Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs Verletz
+[2026-04-06 08:01:12] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenberg-klinikum-in-saarb
+[2026-04-06 08:01:12] [enrich] Volltext extrahiert: 3438 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenbe
+[2026-04-06 08:01:16] [enrich] Enrichment abgeschlossen: enriched — Sonnenberg-Klinikum (SHG-Kliniken Sonnenberg) in Saarbrücken
+[2026-04-06 08:01:16] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-06 08:01:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-06 08:01:16] [DEDUP] Starte Dedup für 422 Einträge
+[2026-04-06 08:01:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-06 08:01:17] [DEDUP] Auto-Merge (0.91): Sonnenbergklinik / Saarbrücken ↔ Sonnenberg-Klinikum (SHG-Kliniken Sonnen / Saarbrücken
+[2026-04-06 08:01:17] [DEDUP] Paare verglichen: 5358
+[2026-04-06 08:01:17] [DEDUP] Auto-Merges: 1
+[2026-04-06 08:01:17] [DEDUP] Kandidaten (unsicher): 248
+[2026-04-06 08:01:17] [DEDUP] Cluster 2x: Sonnenbergklinik, Sonnenberg-Klinikum (SHG-Kliniken Sonnen
+[2026-04-06 08:01:17] [DEDUP] Ergebnis: 421 Einträge (war: 422, 1 zusammengeführt)
+[2026-04-06 08:01:17] [DEDUP] Kandidaten-Datei: 248 pending, 2 confirmed, 0 rejected
+[2026-04-06 08:01:17] [DEDUP] Gespeichert: 422 → 421 Einträge
