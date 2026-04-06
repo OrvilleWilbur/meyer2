@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T22:55:45.732285",
+  "generated_at": "2026-04-06T23:51:26.687126",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -7129,6 +7129,39 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
         "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "04.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksstimme.de/deutschland-und-welt/deutschland/lagerraum-in-gotha-in-brand-schwerverletzter-in-klinik-3516575",
+        "titel": "Lagerraum in Gotha in Brand: Schwerverletzter in Klinik - Volksstimme"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "04.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksstimme.de/deutschland-und-welt/deutschland/lagerraum-in-gotha-in-brand-schwerverletzter-in-klinik-3516575",
+        "titel": "Lagerraum in Gotha in Brand: Schwerverletzter in Klinik - volksstimme.de"
       }
     },
     {
