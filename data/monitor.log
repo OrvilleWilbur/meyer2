@@ -16919,3 +16919,45 @@
 [2026-04-07 05:55:37] [DEDUP] Ergebnis: 427 Einträge (war: 427, 0 zusammengeführt)
 [2026-04-07 05:55:37] [DEDUP] Kandidaten-Datei: 252 pending, 2 confirmed, 0 rejected
 [2026-04-07 05:55:37] [DEDUP] Gespeichert: 427 → 427 Einträge
+[2026-04-07 07:49:16] === Monitor-Lauf gestartet ===
+[2026-04-07 07:49:16] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-07 07:49:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-07 07:49:18] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-07 07:49:18] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-07 07:49:18] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-04-07 07:49:19] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-07 07:49:19] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-04-07 07:49:20] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-07 07:49:20] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-07 07:49:21] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-04-07 07:49:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-07 07:49:22] 217 relevante Treffer in Feeds
+[2026-04-07 07:49:22] ✅ 2 NEUE Einträge gefunden:
+[2026-04-07 07:49:22]    17.12.2017 | Neunkircher Krankenhaus |  | Bett in Neunkircher Krankenhaus in Flammen: Im Fliedner-Kran
+[2026-04-07 07:49:22]    05.04.2026 | im Krankenhaus |  | Sachsen-Anhalt: 20-Jähriger läuft in Osterfeuer und stirbt i
+[2026-04-07 07:49:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-07 07:49:22] === Monitor-Lauf beendet ===
+
+[2026-04-07 07:49:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-07 07:49:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-07 07:49:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-07 07:49:23] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-07 07:49:23] [enrich] --- Enriche [1/2]: Bett in Neunkircher Krankenhaus in Flammen: Im Fliedner-Kran
+[2026-04-07 07:49:23] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/neunkirchen/im-fliedner-krankenhaus
+[2026-04-07 07:49:24] [enrich] Volltext extrahiert: 1479 Zeichen von https://www.saarbruecker-zeitung.de/saarland/neunkirchen/im-
+[2026-04-07 07:49:27] [enrich] Enrichment abgeschlossen: enriched — Fliedner-Krankenhaus in Neunkirchen
+[2026-04-07 07:49:28] [enrich] --- Enriche [2/2]: Sachsen-Anhalt: 20-Jähriger läuft in Osterfeuer und stirbt i
+[2026-04-07 07:49:28] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/sachsen-anhalt/20-Jaehriger-laeuft-in-Osterfeuer-
+[2026-04-07 07:49:28] [enrich] Volltext extrahiert: 4633 Zeichen von https://www.n-tv.de/regionales/sachsen-anhalt/20-Jaehriger-l
+[2026-04-07 07:49:30] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand (Osterfeuer), bei dem eine Person Verbrennungen erlitt und später im Krankenhaus starb. Dies ist kein Brand IN einem Krankenhaus, sondern ein Brandopfer, das nach dem Brand (Osterfeuer) zur Behandlung ins Krankenhaus gebracht wurde.
+[2026-04-07 07:49:30] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-07 07:49:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-07 07:49:30] [DEDUP] Starte Dedup für 429 Einträge
+[2026-04-07 07:49:30] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-07 07:49:31] [DEDUP] Paare verglichen: 5463
+[2026-04-07 07:49:31] [DEDUP] Auto-Merges: 0
+[2026-04-07 07:49:31] [DEDUP] Kandidaten (unsicher): 253
+[2026-04-07 07:49:31] [DEDUP] Ergebnis: 429 Einträge (war: 429, 0 zusammengeführt)
+[2026-04-07 07:49:31] [DEDUP] Kandidaten-Datei: 253 pending, 2 confirmed, 0 rejected
+[2026-04-07 07:49:31] [DEDUP] Gespeichert: 429 → 429 Einträge

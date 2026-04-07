@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T05:55:37.791569",
+  "generated_at": "2026-04-07T07:49:31.228731",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -6964,6 +6964,39 @@
         "status": "false_positive",
         "link": "https://www.spiegel.de/ausland/israel-gaza-krieg-israelische-armee-ruft-zu-evakuierung-des-letzten-krankenhauses-im-norden-gazas-auf-a-b1c8c953-003b-4bac-b216-b2d34f9c4151",
         "titel": "Gaza: Israel ruft zu Evakuierung des letzten Krankenhauses im Norden auf - spiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/regionales/sachsen-anhalt/article69d22dde80914f7611253320/20-jaehriger-laeuft-in-osterfeuer-und-stirbt-im-krankenhaus.html",
+        "titel": "20-Jähriger läuft in Osterfeuer und stirbt im Krankenhaus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen-anhalt/20-Jaehriger-laeuft-in-Osterfeuer-und-stirbt-im-Krankenhaus-id30683562.html",
+        "titel": "Sachsen-Anhalt: 20-Jähriger läuft in Osterfeuer und stirbt im Krankenhaus - nTV"
       }
     },
     {
