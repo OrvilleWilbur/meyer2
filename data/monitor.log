@@ -17178,3 +17178,41 @@
 [2026-04-07 18:09:34] [DEDUP] Ergebnis: 430 Einträge (war: 430, 0 zusammengeführt)
 [2026-04-07 18:09:34] [DEDUP] Kandidaten-Datei: 253 pending, 2 confirmed, 0 rejected
 [2026-04-07 18:09:34] [DEDUP] Gespeichert: 430 → 430 Einträge
+[2026-04-07 19:21:26] === Monitor-Lauf gestartet ===
+[2026-04-07 19:21:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-07 19:21:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-07 19:21:28] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-07 19:21:28] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-07 19:21:29] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-04-07 19:21:29] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-07 19:21:29] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-04-07 19:21:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-07 19:21:30] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-07 19:21:31] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-07 19:21:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-07 19:21:32] 199 relevante Treffer in Feeds
+[2026-04-07 19:21:32] ✅ 1 NEUE Einträge gefunden:
+[2026-04-07 19:21:32]    01.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik – 3 Patienten tot! - B.Z. – Die St
+[2026-04-07 19:21:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-07 19:21:32] === Monitor-Lauf beendet ===
+
+[2026-04-07 19:21:33] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-07 19:21:33] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-07 19:21:33] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-07 19:21:33] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-07 19:21:33] [enrich] --- Enriche [1/1]: Brand in Hamburger Klinik – 3 Patienten tot! - B.Z. – Die St
+[2026-04-07 19:21:33] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-04-07 19:21:33] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus
+[2026-04-07 19:21:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (420 Z.)
+[2026-04-07 19:21:35] [enrich] FALSE POSITIVE erkannt: Der bereitgestellte Text enthält nur eine Schlagzeile und einen Link ohne Artikelinhalt. Eine Überprüfung der tatsächlichen Brandursache, des genauen Brandorts und der Umstände ist nicht möglich. Die Schlagzeile allein reicht nicht aus, um zu verifizieren, ob es sich um einen Brand IN einer Klinik handelt oder um einen anderen Vorfall (z.B. Patienten, die nach einem externen Brand eingeliefert wurden).
+[2026-04-07 19:21:35] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-07 19:21:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-07 19:21:35] [DEDUP] Starte Dedup für 431 Einträge
+[2026-04-07 19:21:35] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-07 19:21:36] [DEDUP] Paare verglichen: 5493
+[2026-04-07 19:21:36] [DEDUP] Auto-Merges: 0
+[2026-04-07 19:21:36] [DEDUP] Kandidaten (unsicher): 258
+[2026-04-07 19:21:36] [DEDUP] Ergebnis: 431 Einträge (war: 431, 0 zusammengeführt)
+[2026-04-07 19:21:36] [DEDUP] Kandidaten-Datei: 258 pending, 2 confirmed, 0 rejected
+[2026-04-07 19:21:36] [DEDUP] Gespeichert: 431 → 431 Einträge
