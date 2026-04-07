@@ -17081,3 +17081,40 @@
 [2026-04-07 14:00:51] [DEDUP] Ergebnis: 429 Einträge (war: 429, 0 zusammengeführt)
 [2026-04-07 14:00:51] [DEDUP] Kandidaten-Datei: 253 pending, 2 confirmed, 0 rejected
 [2026-04-07 14:00:51] [DEDUP] Gespeichert: 429 → 429 Einträge
+[2026-04-07 15:41:56] === Monitor-Lauf gestartet ===
+[2026-04-07 15:41:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-07 15:41:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-07 15:41:59] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-07 15:41:59] Feed 'gn_feuer_krankenhaus': 43 Einträge
+[2026-04-07 15:42:00] Feed 'gn_feuer_klinik': 32 Einträge
+[2026-04-07 15:42:00] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-07 15:42:01] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-07 15:42:02] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-07 15:42:02] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-04-07 15:42:03] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-07 15:42:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-07 15:42:04] 196 relevante Treffer in Feeds
+[2026-04-07 15:42:04] ✅ 1 NEUE Einträge gefunden:
+[2026-04-07 15:42:04]    03.02.2015 | Uniklinik |  | Frankfurter Uniklinik: Zigarette verursachte Brand - FAZ
+[2026-04-07 15:42:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-07 15:42:04] === Monitor-Lauf beendet ===
+
+[2026-04-07 15:42:06] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-07 15:42:06] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-07 15:42:06] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-07 15:42:06] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-07 15:42:06] [enrich] --- Enriche [1/1]: Frankfurter Uniklinik: Zigarette verursachte Brand - FAZ
+[2026-04-07 15:42:07] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/rhein-main/frankfurter-uniklinik-zigarette-verursach
+[2026-04-07 15:42:08] [enrich] Volltext extrahiert: 1594 Zeichen von https://www.faz.net/aktuell/rhein-main/frankfurter-uniklinik
+[2026-04-07 15:42:11] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Frankfurt in Frankfurt am Main
+[2026-04-07 15:42:11] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-07 15:42:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-07 15:42:11] [DEDUP] Starte Dedup für 430 Einträge
+[2026-04-07 15:42:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-07 15:42:12] [DEDUP] Paare verglichen: 5463
+[2026-04-07 15:42:12] [DEDUP] Auto-Merges: 0
+[2026-04-07 15:42:12] [DEDUP] Kandidaten (unsicher): 253
+[2026-04-07 15:42:12] [DEDUP] Ergebnis: 430 Einträge (war: 430, 0 zusammengeführt)
+[2026-04-07 15:42:12] [DEDUP] Kandidaten-Datei: 253 pending, 2 confirmed, 0 rejected
+[2026-04-07 15:42:12] [DEDUP] Gespeichert: 430 → 430 Einträge
