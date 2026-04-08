@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T15:43:21.534484",
+  "generated_at": "2026-04-08T17:20:14.828594",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5925,6 +5925,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Wald-Klinikum Gera",
         "ort": "",
         "datum": "07.07.2025",
@@ -6194,6 +6227,39 @@
         "datum": "01.06.2025",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
         "titel": "Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitung"
       },
@@ -6294,6 +6360,39 @@
         "bundesland": "",
         "status": "false_positive",
         "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
+        "titel": "Drei Tote bei Brand in Hamburger Klinik - Heidenheimer Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
         "titel": "Drei Tote bei Brand in Hamburger Klinik - hz.de"
       },
       "entry_b": {
@@ -6359,6 +6458,39 @@
         "datum": "01.06.2025",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/drei-tote-bei-brand-in-hamburger-klinik",
+        "titel": "Drei Tote bei Brand in Hamburger Klinik - hz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.tagesschau.de/video/video-1472184.html",
         "titel": "Tote und Verletzte bei einem Feuer in einer Hamburger Klinik - tagesschau.de"
       },
@@ -6370,6 +6502,72 @@
         "status": "false_positive",
         "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
         "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - B.Z. – Die Stimme Berlins"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesschau.de/video/video-1472184.html",
+        "titel": "Tote und Verletzte bei einem Feuer in einer Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Klinik",
+        "ort": "",
+        "datum": "01.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – 3 Patienten tot! - bz-berlin.de"
       }
     },
     {
