@@ -17405,3 +17405,40 @@
 [2026-04-08 05:56:46] [DEDUP] Ergebnis: 431 Einträge (war: 431, 0 zusammengeführt)
 [2026-04-08 05:56:46] [DEDUP] Kandidaten-Datei: 258 pending, 2 confirmed, 0 rejected
 [2026-04-08 05:56:46] [DEDUP] Gespeichert: 431 → 431 Einträge
+[2026-04-08 07:52:10] === Monitor-Lauf gestartet ===
+[2026-04-08 07:52:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-08 07:52:12] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-08 07:52:12] Feed 'gn_brand_krankenhaus': 34 Einträge
+[2026-04-08 07:52:13] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-04-08 07:52:13] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-08 07:52:13] Feed 'gn_brand_klinik': 45 Einträge
+[2026-04-08 07:52:14] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-08 07:52:14] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-08 07:52:15] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-04-08 07:52:15] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-04-08 07:52:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-08 07:52:16] 197 relevante Treffer in Feeds
+[2026-04-08 07:52:16] ✅ 1 NEUE Einträge gefunden:
+[2026-04-08 07:52:16]    22.11.2016 |  |  | Klinik-Evakuierung - Rettung mit Problemen - Starnberg - SZ.
+[2026-04-08 07:52:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-08 07:52:16] === Monitor-Lauf beendet ===
+
+[2026-04-08 07:52:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-08 07:52:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-08 07:52:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-08 07:52:17] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-08 07:52:17] [enrich] --- Enriche [1/1]: Klinik-Evakuierung - Rettung mit Problemen - Starnberg - SZ.
+[2026-04-08 07:52:17] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettung-mit-problemen-1.3
+[2026-04-08 07:52:18] [enrich] Volltext extrahiert: 4582 Zeichen von https://www.sueddeutsche.de/muenchen/starnberg/gauting-rettu
+[2026-04-08 07:52:19] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung (Feuerschutz-Übung), keine echten Brand in der Asklepios-Klinik Gauting. Es handelt sich um eine inszenierte Evakuierungsübung zur Überprüfung von Brandschutzmaßnahmen.
+[2026-04-08 07:52:19] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-08 07:52:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-08 07:52:19] [DEDUP] Starte Dedup für 432 Einträge
+[2026-04-08 07:52:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-08 07:52:20] [DEDUP] Paare verglichen: 5497
+[2026-04-08 07:52:20] [DEDUP] Auto-Merges: 0
+[2026-04-08 07:52:20] [DEDUP] Kandidaten (unsicher): 258
+[2026-04-08 07:52:20] [DEDUP] Ergebnis: 432 Einträge (war: 432, 0 zusammengeführt)
+[2026-04-08 07:52:20] [DEDUP] Kandidaten-Datei: 258 pending, 2 confirmed, 0 rejected
+[2026-04-08 07:52:20] [DEDUP] Gespeichert: 432 → 432 Einträge
