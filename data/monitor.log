@@ -17748,3 +17748,40 @@
 [2026-04-08 21:01:11] [DEDUP] Ergebnis: 437 Einträge (war: 437, 0 zusammengeführt)
 [2026-04-08 21:01:11] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
 [2026-04-08 21:01:11] [DEDUP] Gespeichert: 437 → 437 Einträge
+[2026-04-08 21:59:12] === Monitor-Lauf gestartet ===
+[2026-04-08 21:59:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-08 21:59:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-08 21:59:17] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-08 21:59:18] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-08 21:59:18] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-08 21:59:19] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-08 21:59:19] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-08 21:59:20] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-08 21:59:20] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-08 21:59:21] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-08 21:59:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-08 21:59:21] 202 relevante Treffer in Feeds
+[2026-04-08 21:59:21] ✅ 1 NEUE Einträge gefunden:
+[2026-04-08 21:59:21]    17.10.2022 | LWL-Klinik Krankenhaus |  | LWL-Klinik Krankenhaus in Bochum: Brand in Patientenzimmer -
+[2026-04-08 21:59:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-08 21:59:21] === Monitor-Lauf beendet ===
+
+[2026-04-08 21:59:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-08 21:59:22] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-08 21:59:22] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-08 21:59:22] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-08 21:59:22] [enrich] --- Enriche [1/1]: LWL-Klinik Krankenhaus in Bochum: Brand in Patientenzimmer -
+[2026-04-08 21:59:22] [enrich] Google News URL aufgelöst (v1): https://www.ruhrnachrichten.de/regionales/krankenhaus-bochum-brand-feuerwehr-lwl
+[2026-04-08 21:59:24] [enrich] Volltext extrahiert: 2007 Zeichen von https://www.ruhrnachrichten.de/regionales/krankenhaus-bochum
+[2026-04-08 21:59:27] [enrich] Enrichment abgeschlossen: enriched — LWL-Klinik für Psychiatrie Bochum in Bochum
+[2026-04-08 21:59:27] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-08 21:59:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-08 21:59:27] [DEDUP] Starte Dedup für 438 Einträge
+[2026-04-08 21:59:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-08 21:59:28] [DEDUP] Paare verglichen: 5632
+[2026-04-08 21:59:28] [DEDUP] Auto-Merges: 0
+[2026-04-08 21:59:28] [DEDUP] Kandidaten (unsicher): 265
+[2026-04-08 21:59:28] [DEDUP] Ergebnis: 438 Einträge (war: 438, 0 zusammengeführt)
+[2026-04-08 21:59:28] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
+[2026-04-08 21:59:28] [DEDUP] Gespeichert: 438 → 438 Einträge
