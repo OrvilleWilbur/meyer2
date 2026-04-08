@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T17:20:14.828594",
+  "generated_at": "2026-04-08T19:39:52.237796",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2476,6 +2476,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.8,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Frankfurt",
+        "ort": "Frankfurt am Main",
+        "datum": "03.02.2015",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/rhein-main/frankfurter-uniklinik-zigarette-verursachte-brand-13406681.html",
+        "titel": "Frankfurter Uniklinik: Zigarette verursachte Brand - FAZ"
+      },
+      "entry_b": {
+        "einrichtung": "Frankfurter Uniklinikum",
+        "ort": "Frankfurt",
+        "datum": "02.02.2015",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.op-online.de/region/frankfurt/brand-uniklinik-frankfurt-intensivstation-evakuiert-4696808.html",
+        "titel": "Brand in Uniklinik Frankfurt: Intensivstation evakuiert - op-online.de"
       }
     },
     {

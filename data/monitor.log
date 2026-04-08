@@ -17660,3 +17660,61 @@
 [2026-04-08 17:20:14] [DEDUP] Ergebnis: 436 Einträge (war: 436, 0 zusammengeführt)
 [2026-04-08 17:20:14] [DEDUP] Kandidaten-Datei: 264 pending, 2 confirmed, 0 rejected
 [2026-04-08 17:20:14] [DEDUP] Gespeichert: 436 → 436 Einträge
+[2026-04-08 19:39:18] === Monitor-Lauf gestartet ===
+[2026-04-08 19:39:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-08 19:39:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-08 19:39:21] Feed 'gn_brand_krankenhaus': 45 Einträge
+[2026-04-08 19:39:22] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-08 19:39:22] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-04-08 19:39:23] Feed 'gn_brand_klinik': 39 Einträge
+[2026-04-08 19:39:25] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-08 19:39:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-08 19:39:27] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-04-08 19:39:27] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-04-08 19:39:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-08 19:39:28] 200 relevante Treffer in Feeds
+[2026-04-08 19:39:28] ✅ 4 NEUE Einträge gefunden:
+[2026-04-08 19:39:28]    17.12.2017 | Neunkircher Krankenhaus |  | Bett in Neunkircher Krankenhaus in Flammen: Im Fliedner-Kran
+[2026-04-08 19:39:28]    02.01.2022 | Pfälzer Klinik um sich |  | An Katastrophe vorbeigeschrammt: Feuer greift rasend schnell
+[2026-04-08 19:39:28]    13.01.2026 | am Klinikum Sonnenberg |  | Keine Verletzten: Brand am Klinikum Sonnenberg – Feuerwehr m
+[2026-04-08 19:39:28]    02.02.2015 | Uniklinik Frankfurt |  | Brand in Uniklinik Frankfurt: Intensivstation evakuiert - op
+[2026-04-08 19:39:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-08 19:39:28] === Monitor-Lauf beendet ===
+
+[2026-04-08 19:39:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-08 19:39:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-08 19:39:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-08 19:39:29] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-08 19:39:29] [enrich] --- Enriche [1/4]: Bett in Neunkircher Krankenhaus in Flammen: Im Fliedner-Kran
+[2026-04-08 19:39:30] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/neunkirchen/im-fliedner-krankenhaus
+[2026-04-08 19:39:31] [enrich] Volltext extrahiert: 1479 Zeichen von https://www.saarbruecker-zeitung.de/saarland/neunkirchen/im-
+[2026-04-08 19:39:34] [enrich] Enrichment abgeschlossen: enriched — Fliedner-Krankenhaus in Neunkirchen
+[2026-04-08 19:39:35] [enrich] --- Enriche [2/4]: An Katastrophe vorbeigeschrammt: Feuer greift rasend schnell
+[2026-04-08 19:39:35] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/rheinland-pfalz/fe
+[2026-04-08 19:39:36] [enrich] Volltext extrahiert: 3064 Zeichen von https://www.saarbruecker-zeitung.de/saarland/blickzumnachbar
+[2026-04-08 19:39:40] [enrich] Enrichment abgeschlossen: enriched — Südpfalz-Klinikum Kandel in Kandel
+[2026-04-08 19:39:41] [enrich] --- Enriche [3/4]: Keine Verletzten: Brand am Klinikum Sonnenberg – Feuerwehr m
+[2026-04-08 19:39:42] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/saarbruecken-brand-am-klinikum-son
+[2026-04-08 19:39:43] [enrich] Volltext extrahiert: 1903 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/saarbruecken-b
+[2026-04-08 19:39:46] [enrich] Enrichment abgeschlossen: enriched — Klinikum Sonnenberg in Saarbrücken
+[2026-04-08 19:39:47] [enrich] --- Enriche [4/4]: Brand in Uniklinik Frankfurt: Intensivstation evakuiert - op
+[2026-04-08 19:39:47] [enrich] Google News URL aufgelöst (v1): https://www.op-online.de/region/frankfurt/brand-uniklinik-frankfurt-intensivstat
+[2026-04-08 19:39:49] [enrich] Volltext extrahiert: 1264 Zeichen von https://www.op-online.de/region/frankfurt/brand-uniklinik-fr
+[2026-04-08 19:39:51] [enrich] Enrichment abgeschlossen: enriched — Frankfurter Uniklinikum in Frankfurt
+[2026-04-08 19:39:51] [enrich] Ergebnis: 4 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-08 19:39:51] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-08 19:39:51] [DEDUP] Starte Dedup für 440 Einträge
+[2026-04-08 19:39:51] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-08 19:39:52] [DEDUP] Auto-Merge (0.97): Südpfalz-Klinikum Kandel / Kandel ↔ Südpfalz-Klinikum Kandel / Kandel
+[2026-04-08 19:39:52] [DEDUP] Auto-Merge (0.98): Klinikum Sonnenberg / Saarbrücken ↔ Klinikum Sonnenberg / Saarbrücken
+[2026-04-08 19:39:52] [DEDUP] Auto-Merge (0.97): Fliedner-Krankenhaus / Neunkirchen ↔ Fliedner-Krankenhaus / Neunkirchen
+[2026-04-08 19:39:52] [DEDUP] Paare verglichen: 5634
+[2026-04-08 19:39:52] [DEDUP] Auto-Merges: 3
+[2026-04-08 19:39:52] [DEDUP] Kandidaten (unsicher): 265
+[2026-04-08 19:39:52] [DEDUP] Cluster 2x: Südpfalz-Klinikum Kandel, Südpfalz-Klinikum Kandel
+[2026-04-08 19:39:52] [DEDUP] Cluster 2x: Klinikum Sonnenberg, Klinikum Sonnenberg
+[2026-04-08 19:39:52] [DEDUP] Cluster 2x: Fliedner-Krankenhaus, Fliedner-Krankenhaus
+[2026-04-08 19:39:52] [DEDUP] Ergebnis: 437 Einträge (war: 440, 3 zusammengeführt)
+[2026-04-08 19:39:52] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
+[2026-04-08 19:39:52] [DEDUP] Gespeichert: 440 → 437 Einträge
