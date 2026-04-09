@@ -17875,3 +17875,42 @@
 [2026-04-09 03:27:48] [DEDUP] Ergebnis: 438 Einträge (war: 438, 0 zusammengeführt)
 [2026-04-09 03:27:48] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
 [2026-04-09 03:27:48] [DEDUP] Gespeichert: 438 → 438 Einträge
+[2026-04-09 05:57:05] === Monitor-Lauf gestartet ===
+[2026-04-09 05:57:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-09 05:57:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-09 05:57:08] Feed 'gn_brand_krankenhaus': 39 Einträge
+[2026-04-09 05:57:08] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-09 05:57:08] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-04-09 05:57:09] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-09 05:57:09] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-09 05:57:10] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-09 05:57:10] Feed 'gn_feuer_uniklinik': 27 Einträge
+[2026-04-09 05:57:11] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-09 05:57:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-09 05:57:12] 197 relevante Treffer in Feeds
+[2026-04-09 05:57:12] ✅ 1 NEUE Einträge gefunden:
+[2026-04-09 05:57:12]    01.10.2025 | im Klinikum Hanau |  | Brand im Klinikum Hanau: Patient zündet Klopapierrollen an -
+[2026-04-09 05:57:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-09 05:57:12] === Monitor-Lauf beendet ===
+
+[2026-04-09 05:57:12] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-09 05:57:12] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-09 05:57:12] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-09 05:57:12] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-09 05:57:12] [enrich] --- Enriche [1/1]: Brand im Klinikum Hanau: Patient zündet Klopapierrollen an -
+[2026-04-09 05:57:13] [enrich] Google News URL aufgelöst (v1): https://vorsprung-online.de/mkk/hanau/276-hanau/274698-brand-im-klinikum-hanau-p
+[2026-04-09 05:57:15] [enrich] Volltext extrahiert: 525 Zeichen von https://vorsprung-online.de/mkk/hanau/276-hanau/274698-brand
+[2026-04-09 05:57:17] [enrich] Enrichment abgeschlossen: enriched — Klinikum Hanau in Hanau
+[2026-04-09 05:57:17] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-09 05:57:17] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-09 05:57:17] [DEDUP] Starte Dedup für 439 Einträge
+[2026-04-09 05:57:17] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-09 05:57:18] [DEDUP] Auto-Merge (0.91): Klinikum Hanau / Hanau ↔ Klinikum Hanau / Hanau
+[2026-04-09 05:57:18] [DEDUP] Paare verglichen: 5633
+[2026-04-09 05:57:18] [DEDUP] Auto-Merges: 1
+[2026-04-09 05:57:18] [DEDUP] Kandidaten (unsicher): 265
+[2026-04-09 05:57:18] [DEDUP] Cluster 2x: Klinikum Hanau, Klinikum Hanau
+[2026-04-09 05:57:18] [DEDUP] Ergebnis: 438 Einträge (war: 439, 1 zusammengeführt)
+[2026-04-09 05:57:18] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
+[2026-04-09 05:57:18] [DEDUP] Gespeichert: 439 → 438 Einträge
