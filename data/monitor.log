@@ -18505,3 +18505,40 @@
 [2026-04-10 11:59:01] [DEDUP] Ergebnis: 443 Einträge (war: 443, 0 zusammengeführt)
 [2026-04-10 11:59:01] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-10 11:59:01] [DEDUP] Gespeichert: 443 → 443 Einträge
+[2026-04-10 13:48:39] === Monitor-Lauf gestartet ===
+[2026-04-10 13:48:41] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-10 13:48:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-10 13:48:43] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-04-10 13:48:43] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-10 13:48:44] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-10 13:48:44] Feed 'gn_brand_klinik': 53 Einträge
+[2026-04-10 13:48:45] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-10 13:48:45] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-10 13:48:45] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-10 13:48:46] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-10 13:48:47] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-10 13:48:47] 210 relevante Treffer in Feeds
+[2026-04-10 13:48:47] ✅ 1 NEUE Einträge gefunden:
+[2026-04-10 13:48:47]    31.12.2022 | ins Krankenhaus transportiert |  | Blaulicht: Feuer auf Balkon in Bitburg: Mehrere Personen ins
+[2026-04-10 13:48:47] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-10 13:48:47] === Monitor-Lauf beendet ===
+
+[2026-04-10 13:48:48] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-10 13:48:48] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-10 13:48:48] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-10 13:48:48] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-10 13:48:48] [enrich] --- Enriche [1/1]: Blaulicht: Feuer auf Balkon in Bitburg: Mehrere Personen ins
+[2026-04-10 13:48:48] [enrich] Google News URL aufgelöst (v1): https://www.volksfreund.de/blaulicht/bitburg-feuer-auf-balkon-mehrere-personen-i
+[2026-04-10 13:48:49] [enrich] Volltext extrahiert: 1129 Zeichen von https://www.volksfreund.de/blaulicht/bitburg-feuer-auf-balko
+[2026-04-10 13:48:50] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Balkonbrand), nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer Klinik statt.
+[2026-04-10 13:48:50] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-10 13:48:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-10 13:48:51] [DEDUP] Starte Dedup für 444 Einträge
+[2026-04-10 13:48:51] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-10 13:48:51] [DEDUP] Paare verglichen: 5778
+[2026-04-10 13:48:51] [DEDUP] Auto-Merges: 0
+[2026-04-10 13:48:51] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-10 13:48:51] [DEDUP] Ergebnis: 444 Einträge (war: 444, 0 zusammengeführt)
+[2026-04-10 13:48:51] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-10 13:48:51] [DEDUP] Gespeichert: 444 → 444 Einträge
