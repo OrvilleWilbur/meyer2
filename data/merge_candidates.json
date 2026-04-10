@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T09:38:23.630924",
+  "generated_at": "2026-04-10T11:11:36.083906",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3686,6 +3686,39 @@
         "datum": "16.03.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/mindestens-zehn-tote-bei-klinikbrand-in-indien_arid-4111451.html",
+        "titel": "Feuer auf Intensivstation: Mindestens zehn Tote bei Klinikbrand in Indien - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
       },
@@ -3753,6 +3786,39 @@
         "bundesland": "",
         "status": "false_positive",
         "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - Yahoo Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/mindestens-zehn-tote-bei-klinikbrand-in-indien_arid-4111451.html",
+        "titel": "Feuer auf Intensivstation: Mindestens zehn Tote bei Klinikbrand in Indien - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
       },
       "entry_b": {
@@ -3763,6 +3829,72 @@
         "status": "false_positive",
         "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
         "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/mindestens-zehn-tote-klinikbrand-indien-082001774.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - de.nachrichten.yahoo.com"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/mindestens-zehn-tote-bei-klinikbrand-in-indien_arid-4111451.html",
+        "titel": "Feuer auf Intensivstation: Mindestens zehn Tote bei Klinikbrand in Indien - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/mindestens-zehn-tote-klinikbrand-indien-id5322184.html",
+        "titel": "Mindestens zehn Tote bei Klinikbrand in Indien - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "bei Klinikbrand",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/mindestens-zehn-tote-bei-klinikbrand-in-indien_arid-4111451.html",
+        "titel": "Feuer auf Intensivstation: Mindestens zehn Tote bei Klinikbrand in Indien - Panorama - Rhein-Zeitung"
       }
     },
     {
