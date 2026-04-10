@@ -18334,3 +18334,40 @@
 [2026-04-10 03:40:45] [DEDUP] Ergebnis: 440 Einträge (war: 441, 1 zusammengeführt)
 [2026-04-10 03:40:45] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
 [2026-04-10 03:40:45] [DEDUP] Gespeichert: 441 → 440 Einträge
+[2026-04-10 06:06:40] === Monitor-Lauf gestartet ===
+[2026-04-10 06:06:41] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-10 06:06:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-10 06:06:43] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-10 06:06:43] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-10 06:06:43] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-10 06:06:44] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-10 06:06:44] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-10 06:06:45] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-10 06:06:45] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-04-10 06:06:45] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-10 06:06:46] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-10 06:06:46] 211 relevante Treffer in Feeds
+[2026-04-10 06:06:46] ✅ 1 NEUE Einträge gefunden:
+[2026-04-10 06:06:46]    28.09.2022 | aus Klinik |  | Hildesheimer Johanniter und Feuerwehren üben Evakuierung aus
+[2026-04-10 06:06:46] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-10 06:06:46] === Monitor-Lauf beendet ===
+
+[2026-04-10 06:06:47] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-10 06:06:47] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-10 06:06:47] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-10 06:06:47] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-10 06:06:47] [enrich] --- Enriche [1/1]: Hildesheimer Johanniter und Feuerwehren üben Evakuierung aus
+[2026-04-10 06:06:47] [enrich] Google News URL aufgelöst (v1): https://www.johanniter.de/presse/nachricht/hildesheimer-johanniter-und-feuerwehr
+[2026-04-10 06:06:48] [enrich] Volltext extrahiert: 1545 Zeichen von https://www.johanniter.de/presse/nachricht/hildesheimer-joha
+[2026-04-10 06:06:49] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/Evakuierungsübung, kein tatsächlicher Brand in einem Krankenhaus
+[2026-04-10 06:06:49] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-10 06:06:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-10 06:06:49] [DEDUP] Starte Dedup für 441 Einträge
+[2026-04-10 06:06:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-10 06:06:49] [DEDUP] Paare verglichen: 5633
+[2026-04-10 06:06:49] [DEDUP] Auto-Merges: 0
+[2026-04-10 06:06:49] [DEDUP] Kandidaten (unsicher): 265
+[2026-04-10 06:06:49] [DEDUP] Ergebnis: 441 Einträge (war: 441, 0 zusammengeführt)
+[2026-04-10 06:06:49] [DEDUP] Kandidaten-Datei: 265 pending, 2 confirmed, 0 rejected
+[2026-04-10 06:06:49] [DEDUP] Gespeichert: 441 → 441 Einträge
