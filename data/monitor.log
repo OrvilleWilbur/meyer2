@@ -18839,3 +18839,40 @@
 [2026-04-10 22:56:04] [DEDUP] Ergebnis: 448 Einträge (war: 448, 0 zusammengeführt)
 [2026-04-10 22:56:04] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-10 22:56:04] [DEDUP] Gespeichert: 448 → 448 Einträge
+[2026-04-10 23:51:00] === Monitor-Lauf gestartet ===
+[2026-04-10 23:51:02] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-10 23:51:03] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-10 23:51:03] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-10 23:51:04] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-10 23:51:04] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-10 23:51:05] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-10 23:51:05] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-10 23:51:06] Feed 'gn_klinikbrand': 78 Einträge
+[2026-04-10 23:51:06] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-04-10 23:51:06] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-04-10 23:51:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-10 23:51:07] 216 relevante Treffer in Feeds
+[2026-04-10 23:51:07] ✅ 1 NEUE Einträge gefunden:
+[2026-04-10 23:51:07]    26.04.2019 | LVR-Klinik |  | LVR-Klinik in Köln-Merheim: Fliegerbombe im Boden vermutet –
+[2026-04-10 23:51:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-10 23:51:07] === Monitor-Lauf beendet ===
+
+[2026-04-10 23:51:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-10 23:51:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-10 23:51:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-10 23:51:08] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-10 23:51:08] [enrich] --- Enriche [1/1]: LVR-Klinik in Köln-Merheim: Fliegerbombe im Boden vermutet –
+[2026-04-10 23:51:09] [enrich] Google News URL aufgelöst (v1): https://de.nachrichten.yahoo.com/lvr-klinik-k%C3%B6ln-merheim-fliegerbombe-19405
+[2026-04-10 23:51:09] [enrich] Volltext extrahiert: 860 Zeichen von https://de.nachrichten.yahoo.com/lvr-klinik-k%C3%B6ln-merhei
+[2026-04-10 23:51:10] [enrich] FALSE POSITIVE erkannt: Der Artikel ist eine Datenschutzerklärung von Yahoo und enthält keinerlei Informationen über einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-04-10 23:51:10] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-10 23:51:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-10 23:51:10] [DEDUP] Starte Dedup für 449 Einträge
+[2026-04-10 23:51:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-10 23:51:11] [DEDUP] Paare verglichen: 5973
+[2026-04-10 23:51:11] [DEDUP] Auto-Merges: 0
+[2026-04-10 23:51:11] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-10 23:51:11] [DEDUP] Ergebnis: 449 Einträge (war: 449, 0 zusammengeführt)
+[2026-04-10 23:51:11] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-10 23:51:11] [DEDUP] Gespeichert: 449 → 449 Einträge
