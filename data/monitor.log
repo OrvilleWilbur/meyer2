@@ -19347,3 +19347,40 @@
 [2026-04-11 19:48:44] [DEDUP] Ergebnis: 451 Einträge (war: 451, 0 zusammengeführt)
 [2026-04-11 19:48:44] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-11 19:48:44] [DEDUP] Gespeichert: 451 → 451 Einträge
+[2026-04-11 20:50:14] === Monitor-Lauf gestartet ===
+[2026-04-11 20:50:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-11 20:50:16] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-11 20:50:17] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-11 20:50:17] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-11 20:50:17] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-11 20:50:18] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-11 20:50:18] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-11 20:50:19] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-11 20:50:19] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-04-11 20:50:20] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-04-11 20:50:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-11 20:50:21] 203 relevante Treffer in Feeds
+[2026-04-11 20:50:21] ✅ 1 NEUE Einträge gefunden:
+[2026-04-11 20:50:21]    04.11.2025 | in Klinik gebracht |  | Rauchvergiftung nach Brand: Bewohner in Klinik gebracht - Mi
+[2026-04-11 20:50:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-11 20:50:21] === Monitor-Lauf beendet ===
+
+[2026-04-11 20:50:21] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-11 20:50:21] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-11 20:50:21] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-11 20:50:21] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-11 20:50:21] [enrich] --- Enriche [1/1]: Rauchvergiftung nach Brand: Bewohner in Klinik gebracht - Mi
+[2026-04-11 20:50:22] [enrich] Google News URL aufgelöst (v1): https://www.mittelhessen.de/lokales/kreis-limburg-weilburg/hadamar/rauchvergiftu
+[2026-04-11 20:50:23] [enrich] Volltext extrahiert: 2840 Zeichen von https://www.mittelhessen.de/lokales/kreis-limburg-weilburg/h
+[2026-04-11 20:50:25] [enrich] FALSE POSITIVE erkannt: Brand in einem Zweifamilienhaus (Wohngebäude) in Hadamar, nicht in einem Krankenhaus/einer Klinik. Ein Bewohner mit Rauchvergiftung wurde zur Behandlung in eine Klinik gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-04-11 20:50:25] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-11 20:50:25] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-11 20:50:25] [DEDUP] Starte Dedup für 452 Einträge
+[2026-04-11 20:50:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-11 20:50:26] [DEDUP] Paare verglichen: 5998
+[2026-04-11 20:50:26] [DEDUP] Auto-Merges: 0
+[2026-04-11 20:50:26] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-11 20:50:26] [DEDUP] Ergebnis: 452 Einträge (war: 452, 0 zusammengeführt)
+[2026-04-11 20:50:26] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-11 20:50:26] [DEDUP] Gespeichert: 452 → 452 Einträge
