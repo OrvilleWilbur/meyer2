@@ -18943,3 +18943,47 @@
 [2026-04-11 05:39:17] [DEDUP] Ergebnis: 450 Einträge (war: 450, 0 zusammengeführt)
 [2026-04-11 05:39:17] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-11 05:39:17] [DEDUP] Gespeichert: 450 → 450 Einträge
+[2026-04-11 07:16:10] === Monitor-Lauf gestartet ===
+[2026-04-11 07:16:10] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-11 07:16:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-11 07:16:12] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-04-11 07:16:12] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-11 07:16:12] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-11 07:16:13] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-11 07:16:13] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-11 07:16:13] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-11 07:16:14] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-11 07:16:14] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-11 07:16:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-11 07:16:15] 203 relevante Treffer in Feeds
+[2026-04-11 07:16:15] ✅ 2 NEUE Einträge gefunden:
+[2026-04-11 07:16:15]    10.04.2026 |  |  | D: Brand im Patientenzimmer → Krankenhauspersonal verhindert
+[2026-04-11 07:16:15]    08.09.2025 | Uniklinik |  | Junger Mann stirbt bei Brand in Uniklinik - wismar.fm
+[2026-04-11 07:16:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-11 07:16:15] === Monitor-Lauf beendet ===
+
+[2026-04-11 07:16:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-11 07:16:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-11 07:16:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-11 07:16:16] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-11 07:16:16] [enrich] --- Enriche [1/2]: D: Brand im Patientenzimmer → Krankenhauspersonal verhindert
+[2026-04-11 07:16:16] [enrich] Google News URL aufgelöst (v1): https://www.fireworld.at/2026/04/10/d-brand-im-patientenzimmer-%E2%86%92-kranken
+[2026-04-11 07:16:18] [enrich] Volltext extrahiert: 1405 Zeichen von https://www.fireworld.at/2026/04/10/d-brand-im-patientenzimm
+[2026-04-11 07:16:21] [enrich] Enrichment abgeschlossen: enriched — Evangelische Kliniken in Gelsenkirchen
+[2026-04-11 07:16:22] [enrich] --- Enriche [2/2]: Junger Mann stirbt bei Brand in Uniklinik - wismar.fm
+[2026-04-11 07:16:22] [enrich] Google News URL aufgelöst (v1): https://www.wismar.fm/junger-mann-stirbt-bei-brand-in-uniklinik/
+[2026-04-11 07:16:23] [enrich] Volltext extrahiert: 2431 Zeichen von https://www.wismar.fm/junger-mann-stirbt-bei-brand-in-unikli
+[2026-04-11 07:16:25] [enrich] Enrichment abgeschlossen: enriched — Universitätsmedizin Rostock in Rostock-Gehlsdorf
+[2026-04-11 07:16:25] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-11 07:16:25] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-11 07:16:25] [DEDUP] Starte Dedup für 452 Einträge
+[2026-04-11 07:16:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-11 07:16:26] [DEDUP] Auto-Merge (0.90): Psychiatrische Klinik der Universitätsme / Rostock-Gehlsdorf ↔ Universitätsmedizin Rostock / Rostock-Gehlsdorf
+[2026-04-11 07:16:26] [DEDUP] Paare verglichen: 5982
+[2026-04-11 07:16:26] [DEDUP] Auto-Merges: 1
+[2026-04-11 07:16:26] [DEDUP] Kandidaten (unsicher): 280
+[2026-04-11 07:16:26] [DEDUP] Cluster 2x: Psychiatrische Klinik der Universitätsme, Universitätsmedizin Rostock
+[2026-04-11 07:16:26] [DEDUP] Ergebnis: 451 Einträge (war: 452, 1 zusammengeführt)
+[2026-04-11 07:16:26] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
+[2026-04-11 07:16:26] [DEDUP] Gespeichert: 452 → 451 Einträge
