@@ -19444,3 +19444,40 @@
 [2026-04-11 22:51:36] [DEDUP] Ergebnis: 452 Einträge (war: 452, 0 zusammengeführt)
 [2026-04-11 22:51:36] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-11 22:51:36] [DEDUP] Gespeichert: 452 → 452 Einträge
+[2026-04-11 23:49:47] === Monitor-Lauf gestartet ===
+[2026-04-11 23:49:49] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-11 23:49:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-11 23:49:50] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-11 23:49:50] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-11 23:49:51] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-11 23:49:51] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-11 23:49:52] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-11 23:49:52] Feed 'gn_klinikbrand': 77 Einträge
+[2026-04-11 23:49:53] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-11 23:49:53] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-04-11 23:49:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-11 23:49:54] 204 relevante Treffer in Feeds
+[2026-04-11 23:49:54] ✅ 1 NEUE Einträge gefunden:
+[2026-04-11 23:49:54]    15.07.2021 | Ehranger Krankenhaus |  | Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Min
+[2026-04-11 23:49:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-11 23:49:54] === Monitor-Lauf beendet ===
+
+[2026-04-11 23:49:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-11 23:49:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-11 23:49:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-11 23:49:55] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-11 23:49:55] [enrich] --- Enriche [1/1]: Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Min
+[2026-04-11 23:49:55] [enrich] Google News URL aufgelöst (v1): https://www.volksfreund.de/region/trier-trierer-land/evakuierung-in-trier-ehrang
+[2026-04-11 23:49:56] [enrich] Volltext extrahiert: 2479 Zeichen von https://www.volksfreund.de/region/trier-trierer-land/evakuie
+[2026-04-11 23:49:57] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Hochwasser, nicht wegen Brand
+[2026-04-11 23:49:57] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-11 23:49:57] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-11 23:49:57] [DEDUP] Starte Dedup für 453 Einträge
+[2026-04-11 23:49:57] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-11 23:49:58] [DEDUP] Paare verglichen: 6001
+[2026-04-11 23:49:58] [DEDUP] Auto-Merges: 0
+[2026-04-11 23:49:58] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-11 23:49:58] [DEDUP] Ergebnis: 453 Einträge (war: 453, 0 zusammengeführt)
+[2026-04-11 23:49:58] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-11 23:49:58] [DEDUP] Gespeichert: 453 → 453 Einträge
