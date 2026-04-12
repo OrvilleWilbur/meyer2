@@ -19938,3 +19938,52 @@
 [2026-04-12 20:52:37] [DEDUP] Ergebnis: 454 Einträge (war: 454, 0 zusammengeführt)
 [2026-04-12 20:52:37] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-12 20:52:37] [DEDUP] Gespeichert: 454 → 454 Einträge
+[2026-04-12 21:49:56] === Monitor-Lauf gestartet ===
+[2026-04-12 21:49:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-12 21:49:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-12 21:49:59] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-12 21:49:59] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-12 21:50:00] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-04-12 21:50:00] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-12 21:50:00] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-12 21:50:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-12 21:50:01] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-12 21:50:01] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-12 21:50:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-12 21:50:03] 205 relevante Treffer in Feeds
+[2026-04-12 21:50:03] ✅ 3 NEUE Einträge gefunden:
+[2026-04-12 21:50:03]    05.03.2026 | Moerser Krankenhaus |  | Feuerwehr im Einsatz: Brand in Moerser Krankenhaus - Extra-T
+[2026-04-12 21:50:03]    01.10.2016 | Bochumer Klinikbrand |  | Bochumer Klinikbrand: Patientin legte wohl Feuer - Kurier
+[2026-04-12 21:50:03]    12.04.2026 | in Klinik |  | Feuer in Mehrfamilienhaus: Säugling muss nach Brand zur Beob
+[2026-04-12 21:50:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-12 21:50:03] === Monitor-Lauf beendet ===
+
+[2026-04-12 21:50:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-12 21:50:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-12 21:50:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-12 21:50:04] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-12 21:50:04] [enrich] --- Enriche [1/3]: Feuerwehr im Einsatz: Brand in Moerser Krankenhaus - Extra-T
+[2026-04-12 21:50:04] [enrich] Google News URL aufgelöst (v1): https://www.extra-tipp-am-sonntag.de/moers-niederrhein/feuerwehr-im-einsatz-bran
+[2026-04-12 21:50:05] [enrich] Volltext extrahiert: 1080 Zeichen von https://www.extra-tipp-am-sonntag.de/moers-niederrhein/feuer
+[2026-04-12 21:50:08] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bethanien in Moers
+[2026-04-12 21:50:09] [enrich] --- Enriche [2/3]: Bochumer Klinikbrand: Patientin legte wohl Feuer - Kurier
+[2026-04-12 21:50:10] [enrich] Google News URL aufgelöst (v1): https://kurier.at/chronik/weltchronik/bochumer-klinikbrand-patientin-legte-wohl-
+[2026-04-12 21:50:10] [enrich] Volltext extrahiert: 3558 Zeichen von https://kurier.at/chronik/weltchronik/bochumer-klinikbrand-p
+[2026-04-12 21:50:15] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-04-12 21:50:16] [enrich] --- Enriche [3/3]: Feuer in Mehrfamilienhaus: Säugling muss nach Brand zur Beob
+[2026-04-12 21:50:16] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-in-mehrfamil
+[2026-04-12 21:50:16] [enrich] Volltext extrahiert: 1381 Zeichen von https://www.stern.de/gesellschaft/regional/baden-wuerttember
+[2026-04-12 21:50:18] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (nicht in einer Klinik). Säugling wird nur nach dem Brand zur Beobachtung in eine Klinik gebracht - dies ist eine Einlieferung nach einem externen Brand, kein Brand innerhalb des Krankenhauses.
+[2026-04-12 21:50:18] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-12 21:50:18] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-12 21:50:18] [DEDUP] Starte Dedup für 457 Einträge
+[2026-04-12 21:50:18] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-12 21:50:18] [DEDUP] Auto-Merge (0.91): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-04-12 21:50:18] [DEDUP] Paare verglichen: 6043
+[2026-04-12 21:50:18] [DEDUP] Auto-Merges: 1
+[2026-04-12 21:50:18] [DEDUP] Kandidaten (unsicher): 279
+[2026-04-12 21:50:18] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-04-12 21:50:18] [DEDUP] Ergebnis: 456 Einträge (war: 457, 1 zusammengeführt)
+[2026-04-12 21:50:18] [DEDUP] Kandidaten-Datei: 279 pending, 2 confirmed, 0 rejected
+[2026-04-12 21:50:18] [DEDUP] Gespeichert: 457 → 456 Einträge
