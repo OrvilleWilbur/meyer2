@@ -19721,3 +19721,40 @@
 [2026-04-12 13:33:58] [DEDUP] Ergebnis: 453 Einträge (war: 453, 0 zusammengeführt)
 [2026-04-12 13:33:58] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-12 13:33:58] [DEDUP] Gespeichert: 453 → 453 Einträge
+[2026-04-12 14:57:05] === Monitor-Lauf gestartet ===
+[2026-04-12 14:57:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-12 14:57:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-12 14:57:08] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-12 14:57:08] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-12 14:57:09] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-12 14:57:10] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-12 14:57:10] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-04-12 14:57:11] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-12 14:57:11] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-12 14:57:12] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-12 14:57:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-12 14:57:13] 197 relevante Treffer in Feeds
+[2026-04-12 14:57:13] ✅ 1 NEUE Einträge gefunden:
+[2026-04-12 14:57:13]    23.02.2026 | Pfalzklinikum Dahn |  | Pfalzklinikum Dahn: Nachtbrand führt zur Massenevakuierung d
+[2026-04-12 14:57:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-12 14:57:13] === Monitor-Lauf beendet ===
+
+[2026-04-12 14:57:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-12 14:57:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-12 14:57:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-12 14:57:13] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-12 14:57:13] [enrich] --- Enriche [1/1]: Pfalzklinikum Dahn: Nachtbrand führt zur Massenevakuierung d
+[2026-04-12 14:57:14] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/dahn-brand-im-pfalz
+[2026-04-12 14:57:16] [enrich] Volltext extrahiert: 3495 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern
+[2026-04-12 14:57:19] [enrich] Enrichment abgeschlossen: enriched — Pfalzklinikum, Teilhabezentrum in Dahn
+[2026-04-12 14:57:19] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-12 14:57:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-12 14:57:19] [DEDUP] Starte Dedup für 454 Einträge
+[2026-04-12 14:57:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-12 14:57:19] [DEDUP] Paare verglichen: 6003
+[2026-04-12 14:57:19] [DEDUP] Auto-Merges: 0
+[2026-04-12 14:57:19] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-12 14:57:19] [DEDUP] Ergebnis: 454 Einträge (war: 454, 0 zusammengeführt)
+[2026-04-12 14:57:19] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-12 14:57:19] [DEDUP] Gespeichert: 454 → 454 Einträge
