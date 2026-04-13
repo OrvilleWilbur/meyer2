@@ -20107,3 +20107,40 @@
 [2026-04-13 06:26:21] [DEDUP] Ergebnis: 456 Einträge (war: 456, 0 zusammengeführt)
 [2026-04-13 06:26:21] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-13 06:26:21] [DEDUP] Gespeichert: 456 → 456 Einträge
+[2026-04-13 09:11:03] === Monitor-Lauf gestartet ===
+[2026-04-13 09:11:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-13 09:11:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-13 09:11:05] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-04-13 09:11:06] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-13 09:11:06] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-04-13 09:11:07] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-13 09:11:07] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-13 09:11:08] Feed 'gn_klinikbrand': 87 Einträge
+[2026-04-13 09:11:08] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-13 09:11:08] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-13 09:11:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-13 09:11:10] 202 relevante Treffer in Feeds
+[2026-04-13 09:11:10] ✅ 1 NEUE Einträge gefunden:
+[2026-04-13 09:11:10]    31.01.2023 | ins Krankenhaus |  | Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - V
+[2026-04-13 09:11:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-13 09:11:10] === Monitor-Lauf beendet ===
+
+[2026-04-13 09:11:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-13 09:11:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-13 09:11:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-13 09:11:10] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-13 09:11:10] [enrich] --- Enriche [1/1]: Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - V
+[2026-04-13 09:11:11] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/deutschland-und-welt/deutschland/einfamilienhaus-in-b
+[2026-04-13 09:11:11] [enrich] Volltext extrahiert: 1209 Zeichen von https://www.volksstimme.de/deutschland-und-welt/deutschland/
+[2026-04-13 09:11:13] [enrich] FALSE POSITIVE erkannt: Brand in Einfamilienhaus, nicht in Krankenhaus. Person wird nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-04-13 09:11:13] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-13 09:11:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-13 09:11:13] [DEDUP] Starte Dedup für 457 Einträge
+[2026-04-13 09:11:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-13 09:11:14] [DEDUP] Paare verglichen: 6051
+[2026-04-13 09:11:14] [DEDUP] Auto-Merges: 0
+[2026-04-13 09:11:14] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-13 09:11:14] [DEDUP] Ergebnis: 457 Einträge (war: 457, 0 zusammengeführt)
+[2026-04-13 09:11:14] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-13 09:11:14] [DEDUP] Gespeichert: 457 → 457 Einträge
