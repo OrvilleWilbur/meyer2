@@ -20662,3 +20662,40 @@
 [2026-04-14 15:37:58] [DEDUP] Ergebnis: 458 Einträge (war: 458, 0 zusammengeführt)
 [2026-04-14 15:37:58] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-14 15:37:58] [DEDUP] Gespeichert: 458 → 458 Einträge
+[2026-04-14 17:21:35] === Monitor-Lauf gestartet ===
+[2026-04-14 17:21:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-14 17:21:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-14 17:21:39] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-14 17:21:40] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-14 17:21:40] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-14 17:21:41] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-14 17:21:41] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-14 17:21:42] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-14 17:21:42] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-14 17:21:43] Feed 'gn_evakuierung_klinik': 28 Einträge
+[2026-04-14 17:21:45] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-14 17:21:45] 204 relevante Treffer in Feeds
+[2026-04-14 17:21:45] ✅ 1 NEUE Einträge gefunden:
+[2026-04-14 17:21:45]    07.01.2026 |  |  | Nach Brandkatastrophe in Crans Montana: Klinikum Nürnberg be
+[2026-04-14 17:21:45] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-14 17:21:45] === Monitor-Lauf beendet ===
+
+[2026-04-14 17:21:46] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-14 17:21:46] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-14 17:21:46] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-14 17:21:46] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-14 17:21:46] [enrich] --- Enriche [1/1]: Nach Brandkatastrophe in Crans Montana: Klinikum Nürnberg be
+[2026-04-14 17:21:46] [enrich] Google News URL aufgelöst (v1): https://www.nordbayern.de/nuernberg/nach-brandkatastrophe-in-crans-montana-nurnb
+[2026-04-14 17:21:47] [enrich] Volltext extrahiert: 3971 Zeichen von https://www.nordbayern.de/nuernberg/nach-brandkatastrophe-in
+[2026-04-14 17:21:49] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung eines Brandopfers aus einem Brand in der Schweiz (Crans Montana) im Nürnberger Klinikum. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Aufnahme und Versorgung eines ausländischen Brandopfers in einer Klinik.
+[2026-04-14 17:21:49] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-14 17:21:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-14 17:21:49] [DEDUP] Starte Dedup für 459 Einträge
+[2026-04-14 17:21:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-14 17:21:50] [DEDUP] Paare verglichen: 6173
+[2026-04-14 17:21:50] [DEDUP] Auto-Merges: 0
+[2026-04-14 17:21:50] [DEDUP] Kandidaten (unsicher): 278
+[2026-04-14 17:21:50] [DEDUP] Ergebnis: 459 Einträge (war: 459, 0 zusammengeführt)
+[2026-04-14 17:21:50] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
+[2026-04-14 17:21:50] [DEDUP] Gespeichert: 459 → 459 Einträge
