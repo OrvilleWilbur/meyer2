@@ -21066,3 +21066,40 @@
 [2026-04-15 14:04:55] [DEDUP] Ergebnis: 460 Einträge (war: 460, 0 zusammengeführt)
 [2026-04-15 14:04:55] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
 [2026-04-15 14:04:55] [DEDUP] Gespeichert: 460 → 460 Einträge
+[2026-04-15 15:36:25] === Monitor-Lauf gestartet ===
+[2026-04-15 15:36:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-15 15:36:28] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-15 15:36:28] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-15 15:36:29] Feed 'gn_feuer_krankenhaus': 41 Einträge
+[2026-04-15 15:36:30] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-15 15:36:30] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-15 15:36:31] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-15 15:36:32] Feed 'gn_klinikbrand': 87 Einträge
+[2026-04-15 15:36:32] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-15 15:36:33] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-15 15:36:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-15 15:36:34] 207 relevante Treffer in Feeds
+[2026-04-15 15:36:34] ✅ 1 NEUE Einträge gefunden:
+[2026-04-15 15:36:34]    19.12.2025 | ins Krankenhaus gebracht |  | Einsatz in Schalksmühle - Brand in Wohnhaus - zwei Menschen 
+[2026-04-15 15:36:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-15 15:36:34] === Monitor-Lauf beendet ===
+
+[2026-04-15 15:36:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-15 15:36:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-15 15:36:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-15 15:36:35] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-15 15:36:35] [enrich] --- Enriche [1/1]: Einsatz in Schalksmühle - Brand in Wohnhaus - zwei Menschen 
+[2026-04-15 15:36:36] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/einsatz-in-schalksmuehle-brand-in-wohnhaus-
+[2026-04-15 15:36:36] [enrich] Volltext extrahiert: 2053 Zeichen von https://www.sueddeutsche.de/panorama/einsatz-in-schalksmuehl
+[2026-04-15 15:36:38] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus in Schalksmühle, nicht in einem Krankenhaus. Zwei Personen wurden nach dem Brand wegen Verdacht auf Rauchgasvergiftung ins Krankenhaus gebracht, aber das Feuer selbst ereignete sich in einem Privatwohnhaus.
+[2026-04-15 15:36:38] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-15 15:36:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-15 15:36:38] [DEDUP] Starte Dedup für 461 Einträge
+[2026-04-15 15:36:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-15 15:36:38] [DEDUP] Paare verglichen: 6354
+[2026-04-15 15:36:38] [DEDUP] Auto-Merges: 0
+[2026-04-15 15:36:38] [DEDUP] Kandidaten (unsicher): 280
+[2026-04-15 15:36:38] [DEDUP] Ergebnis: 461 Einträge (war: 461, 0 zusammengeführt)
+[2026-04-15 15:36:38] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
+[2026-04-15 15:36:39] [DEDUP] Gespeichert: 461 → 461 Einträge
