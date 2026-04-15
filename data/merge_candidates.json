@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T22:04:19.134337",
+  "generated_at": "2026-04-15T23:01:48.443195",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -5743,6 +5743,39 @@
         "status": "false_positive",
         "link": "https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus-oft-ein-spiel-mit-dem-feuer-0c4660c6-b9f5-499a-a3d9-1b03c4679485",
         "titel": "Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - aerzteblatt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ein Krankenhaus",
+        "ort": "",
+        "datum": "06.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.facebook.com/SWRAktuell/videos/-das-feuer-ist-am-vormittag-im-erdgeschoss-des-hauses-ausgebrochen-beide-mensche/1958747478386947/",
+        "titel": "SWR Aktuell. . 🏠 Das Feuer ist am Vormittag im Erdgeschoss des Hauses ausgebrochen. Beide Menschen, die in dem Haus wohnen, kamen in ein Krankenhaus. 🚒 Das Haus ist unbewohnbar. Noch ist unklar, warum"
+      },
+      "entry_b": {
+        "einrichtung": "ein Krankenhaus",
+        "ort": "",
+        "datum": "06.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.facebook.com/SWRAktuell/videos/-das-feuer-ist-am-vormittag-im-erdgeschoss-des-hauses-ausgebrochen-beide-mensche/1958747478386947/",
+        "titel": "SWR Aktuell. . 🏠 Das Feuer ist am Vormittag im Erdgeschoss des Hauses ausgebrochen. Beide Menschen, die in dem Haus wohnen, kamen in ein Krankenhaus. 🚒 Das Haus ist unbewohnbar. Noch ist unklar, warum"
       }
     },
     {

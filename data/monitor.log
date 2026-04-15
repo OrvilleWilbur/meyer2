@@ -21244,3 +21244,40 @@
 [2026-04-15 22:04:19] [DEDUP] Ergebnis: 463 Einträge (war: 464, 1 zusammengeführt)
 [2026-04-15 22:04:19] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
 [2026-04-15 22:04:19] [DEDUP] Gespeichert: 464 → 463 Einträge
+[2026-04-15 23:01:38] === Monitor-Lauf gestartet ===
+[2026-04-15 23:01:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-15 23:01:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-15 23:01:40] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-15 23:01:40] Feed 'gn_feuer_krankenhaus': 41 Einträge
+[2026-04-15 23:01:40] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-15 23:01:41] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-15 23:01:41] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-15 23:01:42] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-15 23:01:42] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-04-15 23:01:43] Feed 'gn_evakuierung_klinik': 26 Einträge
+[2026-04-15 23:01:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-15 23:01:44] 195 relevante Treffer in Feeds
+[2026-04-15 23:01:44] ✅ 1 NEUE Einträge gefunden:
+[2026-04-15 23:01:44]    06.01.2026 | ein Krankenhaus |  | SWR Aktuell. . 🏠 Das Feuer ist am Vormittag im Erdgeschoss d
+[2026-04-15 23:01:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-15 23:01:44] === Monitor-Lauf beendet ===
+
+[2026-04-15 23:01:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-15 23:01:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-15 23:01:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-15 23:01:44] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-15 23:01:44] [enrich] --- Enriche [1/1]: SWR Aktuell. . 🏠 Das Feuer ist am Vormittag im Erdgeschoss d
+[2026-04-15 23:01:45] [enrich] Google News URL aufgelöst (v1): https://www.facebook.com/SWRAktuell/videos/-das-feuer-ist-am-vormittag-im-erdges
+[2026-04-15 23:01:46] [enrich] Volltext zu kurz/leer (153 Z.), verwende RSS-Snippet (701 Z.)
+[2026-04-15 23:01:47] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand, bei dem Bewohner zur Behandlung ins Krankenhaus gebracht wurden. Es handelt sich nicht um einen Brand IN einem Krankenhaus/einer Klinik.
+[2026-04-15 23:01:47] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-15 23:01:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-15 23:01:47] [DEDUP] Starte Dedup für 464 Einträge
+[2026-04-15 23:01:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-15 23:01:48] [DEDUP] Paare verglichen: 6447
+[2026-04-15 23:01:48] [DEDUP] Auto-Merges: 0
+[2026-04-15 23:01:48] [DEDUP] Kandidaten (unsicher): 281
+[2026-04-15 23:01:48] [DEDUP] Ergebnis: 464 Einträge (war: 464, 0 zusammengeführt)
+[2026-04-15 23:01:48] [DEDUP] Kandidaten-Datei: 281 pending, 2 confirmed, 0 rejected
+[2026-04-15 23:01:48] [DEDUP] Gespeichert: 464 → 464 Einträge
