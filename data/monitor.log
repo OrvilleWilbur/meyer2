@@ -21205,3 +21205,42 @@
 [2026-04-15 21:05:58] [DEDUP] Ergebnis: 463 Einträge (war: 463, 0 zusammengeführt)
 [2026-04-15 21:05:58] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
 [2026-04-15 21:05:58] [DEDUP] Gespeichert: 463 → 463 Einträge
+[2026-04-15 22:04:05] === Monitor-Lauf gestartet ===
+[2026-04-15 22:04:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-15 22:04:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-15 22:04:08] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-15 22:04:09] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-04-15 22:04:09] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-15 22:04:10] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-15 22:04:10] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-15 22:04:11] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-15 22:04:12] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-15 22:04:12] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-15 22:04:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-15 22:04:13] 202 relevante Treffer in Feeds
+[2026-04-15 22:04:13] ✅ 1 NEUE Einträge gefunden:
+[2026-04-15 22:04:13]    13.06.2025 | in Krankenhaus |  | Drei Einsätze der Feuerwehr Düsseldorf Feuer in Krankenhaus,
+[2026-04-15 22:04:13] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-15 22:04:13] === Monitor-Lauf beendet ===
+
+[2026-04-15 22:04:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-15 22:04:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-15 22:04:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-15 22:04:14] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-15 22:04:14] [enrich] --- Enriche [1/1]: Drei Einsätze der Feuerwehr Düsseldorf Feuer in Krankenhaus,
+[2026-04-15 22:04:14] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-in-kran
+[2026-04-15 22:04:15] [enrich] Volltext extrahiert: 2514 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-04-15 22:04:18] [enrich] Enrichment abgeschlossen: enriched — Marien-Hospital in Düsseldorf
+[2026-04-15 22:04:18] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-15 22:04:18] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-15 22:04:18] [DEDUP] Starte Dedup für 464 Einträge
+[2026-04-15 22:04:18] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-15 22:04:19] [DEDUP] Auto-Merge (1.00): Marien-Hospital / Düsseldorf ↔ Marien-Hospital / Düsseldorf
+[2026-04-15 22:04:19] [DEDUP] Paare verglichen: 6356
+[2026-04-15 22:04:19] [DEDUP] Auto-Merges: 1
+[2026-04-15 22:04:19] [DEDUP] Kandidaten (unsicher): 280
+[2026-04-15 22:04:19] [DEDUP] Cluster 2x: Marien-Hospital, Marien-Hospital
+[2026-04-15 22:04:19] [DEDUP] Ergebnis: 463 Einträge (war: 464, 1 zusammengeführt)
+[2026-04-15 22:04:19] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
+[2026-04-15 22:04:19] [DEDUP] Gespeichert: 464 → 463 Einträge
