@@ -20849,3 +20849,40 @@
 [2026-04-14 23:58:49] [DEDUP] Ergebnis: 459 Einträge (war: 459, 0 zusammengeführt)
 [2026-04-14 23:58:49] [DEDUP] Kandidaten-Datei: 278 pending, 2 confirmed, 0 rejected
 [2026-04-14 23:58:49] [DEDUP] Gespeichert: 459 → 459 Einträge
+[2026-04-15 03:39:14] === Monitor-Lauf gestartet ===
+[2026-04-15 03:39:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-15 03:39:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-15 03:39:17] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-15 03:39:18] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-04-15 03:39:18] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-15 03:39:18] Feed 'gn_brand_klinik': 45 Einträge
+[2026-04-15 03:39:19] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-15 03:39:19] Feed 'gn_klinikbrand': 79 Einträge
+[2026-04-15 03:39:20] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-04-15 03:39:20] Feed 'gn_evakuierung_klinik': 32 Einträge
+[2026-04-15 03:39:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-15 03:39:21] 201 relevante Treffer in Feeds
+[2026-04-15 03:39:21] ✅ 1 NEUE Einträge gefunden:
+[2026-04-15 03:39:21]    22.02.2026 | im Krankenhaus |  | Feuer: Küchenbrand im Vogtlandkreis – drei Menschen im Krank
+[2026-04-15 03:39:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-15 03:39:21] === Monitor-Lauf beendet ===
+
+[2026-04-15 03:39:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-15 03:39:22] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-15 03:39:22] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-15 03:39:22] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-15 03:39:22] [enrich] --- Enriche [1/1]: Feuer: Küchenbrand im Vogtlandkreis – drei Menschen im Krank
+[2026-04-15 03:39:22] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-02/22/kuechenbrand-im-vogtlandkreis-drei-menschen-
+[2026-04-15 03:39:23] [enrich] Volltext extrahiert: 1524 Zeichen von https://www.zeit.de/news/2026-02/22/kuechenbrand-im-vogtland
+[2026-04-15 03:39:24] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (Wohnungsbrand), nicht in einem Krankenhaus. Verletzte werden danach ins Krankenhaus gebracht, aber das Feuer brach in einer privaten Wohnung aus.
+[2026-04-15 03:39:24] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-15 03:39:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-15 03:39:25] [DEDUP] Starte Dedup für 460 Einträge
+[2026-04-15 03:39:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-15 03:39:25] [DEDUP] Paare verglichen: 6275
+[2026-04-15 03:39:25] [DEDUP] Auto-Merges: 0
+[2026-04-15 03:39:25] [DEDUP] Kandidaten (unsicher): 280
+[2026-04-15 03:39:25] [DEDUP] Ergebnis: 460 Einträge (war: 460, 0 zusammengeführt)
+[2026-04-15 03:39:25] [DEDUP] Kandidaten-Datei: 280 pending, 2 confirmed, 0 rejected
+[2026-04-15 03:39:25] [DEDUP] Gespeichert: 460 → 460 Einträge

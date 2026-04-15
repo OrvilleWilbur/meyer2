@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T23:58:49.262595",
+  "generated_at": "2026-04-15T03:39:25.650020",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3353,6 +3353,39 @@
       "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-02/22/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus",
+        "titel": "Feuer: Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
         "datum": "02.02.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -3499,6 +3532,39 @@
         "status": "false_positive",
         "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-49886635",
         "titel": "Feuer in Klinik im Kreis Goslar - Patienten evakuiert - noz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-02/22/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus",
+        "titel": "Feuer: Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - DIE ZEIT"
       }
     },
     {
