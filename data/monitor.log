@@ -21537,3 +21537,40 @@
 [2026-04-16 15:54:07] [DEDUP] Ergebnis: 465 Einträge (war: 465, 0 zusammengeführt)
 [2026-04-16 15:54:07] [DEDUP] Kandidaten-Datei: 281 pending, 2 confirmed, 0 rejected
 [2026-04-16 15:54:07] [DEDUP] Gespeichert: 465 → 465 Einträge
+[2026-04-16 17:42:24] === Monitor-Lauf gestartet ===
+[2026-04-16 17:42:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-16 17:42:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-16 17:42:26] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-16 17:42:26] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-04-16 17:42:26] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-16 17:42:27] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-16 17:42:27] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-04-16 17:42:28] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-16 17:42:28] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-16 17:42:28] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-16 17:42:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-16 17:42:29] 203 relevante Treffer in Feeds
+[2026-04-16 17:42:29] ✅ 1 NEUE Einträge gefunden:
+[2026-04-16 17:42:29]    04.04.2026 |  |  | Krankenhausbett steht lichterloh in Flammen – Patientin (†64
+[2026-04-16 17:42:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-16 17:42:29] === Monitor-Lauf beendet ===
+
+[2026-04-16 17:42:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-16 17:42:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-16 17:42:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-16 17:42:30] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-16 17:42:30] [enrich] --- Enriche [1/1]: Krankenhausbett steht lichterloh in Flammen – Patientin (†64
+[2026-04-16 17:42:31] [enrich] Google News URL aufgelöst (v1): https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-
+[2026-04-16 17:42:31] [enrich] Volltext extrahiert: 2099 Zeichen von https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-k
+[2026-04-16 17:42:34] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Emil von Behring in Berlin, Stadtteil Zehlendorf
+[2026-04-16 17:42:34] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-16 17:42:34] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-16 17:42:34] [DEDUP] Starte Dedup für 466 Einträge
+[2026-04-16 17:42:34] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-16 17:42:35] [DEDUP] Paare verglichen: 6529
+[2026-04-16 17:42:35] [DEDUP] Auto-Merges: 0
+[2026-04-16 17:42:35] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-16 17:42:35] [DEDUP] Ergebnis: 466 Einträge (war: 466, 0 zusammengeführt)
+[2026-04-16 17:42:35] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-16 17:42:35] [DEDUP] Gespeichert: 466 → 466 Einträge

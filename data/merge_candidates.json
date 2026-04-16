@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T15:54:07.830317",
+  "generated_at": "2026-04-16T17:42:35.541324",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1519,6 +1519,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.697,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.697
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Zehlendorf",
+        "ort": "Berlin",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jaehrige-patientin-stirbt-EQ7JW5N7BNAWTM6OKXIAMEAZMQ.html",
+        "titel": "Feuer in Berliner Krankenhaus: Bett in Flammen – 64-jährige Patientin stirbt - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin, Stadtteil Zehlendorf",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-patientin-stirbt-in-brennendem-krankenhausbett-94249217.html",
+        "titel": "Krankenhausbett steht lichterloh in Flammen – Patientin (†64) tot - Rosenheim24"
       }
     },
     {
