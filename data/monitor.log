@@ -21671,3 +21671,40 @@
 [2026-04-16 21:58:25] [DEDUP] Ergebnis: 467 Einträge (war: 467, 0 zusammengeführt)
 [2026-04-16 21:58:25] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-16 21:58:25] [DEDUP] Gespeichert: 467 → 467 Einträge
+[2026-04-16 23:01:41] === Monitor-Lauf gestartet ===
+[2026-04-16 23:01:42] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-16 23:01:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-16 23:01:43] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-16 23:01:44] Feed 'gn_feuer_krankenhaus': 38 Einträge
+[2026-04-16 23:01:44] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-16 23:01:45] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-16 23:01:45] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-16 23:01:46] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-16 23:01:46] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-16 23:01:47] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-16 23:01:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-16 23:01:48] 202 relevante Treffer in Feeds
+[2026-04-16 23:01:48] ✅ 1 NEUE Einträge gefunden:
+[2026-04-16 23:01:48]    12.03.2025 | am Klinikum Garmisch |  | Brand am Klinikum Garmisch-Partenkirchen - Keine Verletzten,
+[2026-04-16 23:01:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-16 23:01:48] === Monitor-Lauf beendet ===
+
+[2026-04-16 23:01:48] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-16 23:01:48] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-16 23:01:48] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-16 23:01:48] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-16 23:01:48] [enrich] --- Enriche [1/1]: Brand am Klinikum Garmisch-Partenkirchen - Keine Verletzten,
+[2026-04-16 23:01:49] [enrich] Google News URL aufgelöst (v1): https://radio-oberland.de/news/2025-03-12-brand-gap
+[2026-04-16 23:01:49] [enrich] Volltext extrahiert: 1712 Zeichen von https://radio-oberland.de/news/2025-03-12-brand-gap
+[2026-04-16 23:01:52] [enrich] Enrichment abgeschlossen: enriched — Klinikum Garmisch-Partenkirchen in Garmisch-Partenkirchen
+[2026-04-16 23:01:52] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-16 23:01:52] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-16 23:01:52] [DEDUP] Starte Dedup für 468 Einträge
+[2026-04-16 23:01:52] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-16 23:01:53] [DEDUP] Paare verglichen: 6552
+[2026-04-16 23:01:53] [DEDUP] Auto-Merges: 0
+[2026-04-16 23:01:53] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-16 23:01:53] [DEDUP] Ergebnis: 468 Einträge (war: 468, 0 zusammengeführt)
+[2026-04-16 23:01:53] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-16 23:01:53] [DEDUP] Gespeichert: 468 → 468 Einträge
