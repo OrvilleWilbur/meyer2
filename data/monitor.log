@@ -21574,3 +21574,40 @@
 [2026-04-16 17:42:35] [DEDUP] Ergebnis: 466 Einträge (war: 466, 0 zusammengeführt)
 [2026-04-16 17:42:35] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-16 17:42:35] [DEDUP] Gespeichert: 466 → 466 Einträge
+[2026-04-16 19:37:22] === Monitor-Lauf gestartet ===
+[2026-04-16 19:37:23] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-16 19:37:24] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-16 19:37:25] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-16 19:37:25] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-16 19:37:25] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-16 19:37:26] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-16 19:37:26] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-16 19:37:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-16 19:37:27] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-16 19:37:28] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-16 19:37:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-16 19:37:29] 205 relevante Treffer in Feeds
+[2026-04-16 19:37:29] ✅ 1 NEUE Einträge gefunden:
+[2026-04-16 19:37:29]    09.11.2025 | im Krankenhaus |  | Brand an der Playa de Palma: Zwei Personen im Krankenhaus - 
+[2026-04-16 19:37:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-16 19:37:29] === Monitor-Lauf beendet ===
+
+[2026-04-16 19:37:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-16 19:37:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-16 19:37:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-16 19:37:30] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-16 19:37:30] [enrich] --- Enriche [1/1]: Brand an der Playa de Palma: Zwei Personen im Krankenhaus - 
+[2026-04-16 19:37:30] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2025/11/09/brand-an-der-playa-palma-1235
+[2026-04-16 19:37:31] [enrich] Volltext extrahiert: 3003 Zeichen von https://www.mallorcazeitung.es/panorama/2025/11/09/brand-an-
+[2026-04-16 19:37:33] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus auf Mallorca (Spanien), nicht in Deutschland. Personen wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt.
+[2026-04-16 19:37:33] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-16 19:37:33] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-16 19:37:33] [DEDUP] Starte Dedup für 467 Einträge
+[2026-04-16 19:37:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-16 19:37:34] [DEDUP] Paare verglichen: 6552
+[2026-04-16 19:37:34] [DEDUP] Auto-Merges: 0
+[2026-04-16 19:37:34] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-16 19:37:34] [DEDUP] Ergebnis: 467 Einträge (war: 467, 0 zusammengeführt)
+[2026-04-16 19:37:34] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-16 19:37:34] [DEDUP] Gespeichert: 467 → 467 Einträge
