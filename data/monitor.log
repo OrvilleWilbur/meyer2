@@ -21410,3 +21410,40 @@
 [2026-04-16 08:02:21] [DEDUP] Ergebnis: 464 Einträge (war: 464, 0 zusammengeführt)
 [2026-04-16 08:02:21] [DEDUP] Kandidaten-Datei: 281 pending, 2 confirmed, 0 rejected
 [2026-04-16 08:02:21] [DEDUP] Gespeichert: 464 → 464 Einträge
+[2026-04-16 09:47:51] === Monitor-Lauf gestartet ===
+[2026-04-16 09:47:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-16 09:47:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-16 09:47:53] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-16 09:47:54] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-04-16 09:47:54] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-16 09:47:54] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-16 09:47:55] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-16 09:47:55] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-16 09:47:56] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-16 09:47:56] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-16 09:47:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-16 09:47:57] 198 relevante Treffer in Feeds
+[2026-04-16 09:47:57] ✅ 1 NEUE Einträge gefunden:
+[2026-04-16 09:47:57]    08.12.2025 | in Klinik |  | Feuer zerstört Asylunterkunft – Verdächtiger in Klinik - Ant
+[2026-04-16 09:47:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-16 09:47:57] === Monitor-Lauf beendet ===
+
+[2026-04-16 09:47:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-16 09:47:58] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-16 09:47:58] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-16 09:47:58] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-16 09:47:58] [enrich] --- Enriche [1/1]: Feuer zerstört Asylunterkunft – Verdächtiger in Klinik - Ant
+[2026-04-16 09:47:58] [enrich] Google News URL aufgelöst (v1): https://www.antenne.de/nachrichten/bayern/feuer-zerstoert-asylunterkunft-verdaec
+[2026-04-16 09:48:00] [enrich] Volltext extrahiert: 3541 Zeichen von https://www.antenne.de/nachrichten/bayern/feuer-zerstoert-as
+[2026-04-16 09:48:02] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einem städtischen Wohnheim (Asylunterkunft) in Wangen, nicht in einem Krankenhaus oder einer Klinik. Der Verdächtige wurde nach seiner Festnahme wegen seines psychischen Zustands in eine Fachklinik gebracht, aber das ist Nachfolgebehandlung, nicht der Brandort.
+[2026-04-16 09:48:02] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-16 09:48:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-16 09:48:02] [DEDUP] Starte Dedup für 465 Einträge
+[2026-04-16 09:48:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-16 09:48:03] [DEDUP] Paare verglichen: 6528
+[2026-04-16 09:48:03] [DEDUP] Auto-Merges: 0
+[2026-04-16 09:48:03] [DEDUP] Kandidaten (unsicher): 281
+[2026-04-16 09:48:03] [DEDUP] Ergebnis: 465 Einträge (war: 465, 0 zusammengeführt)
+[2026-04-16 09:48:03] [DEDUP] Kandidaten-Datei: 281 pending, 2 confirmed, 0 rejected
+[2026-04-16 09:48:03] [DEDUP] Gespeichert: 465 → 465 Einträge
