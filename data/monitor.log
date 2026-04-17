@@ -21895,3 +21895,45 @@
 [2026-04-17 11:12:30] [DEDUP] Ergebnis: 469 Einträge (war: 469, 0 zusammengeführt)
 [2026-04-17 11:12:30] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-17 11:12:30] [DEDUP] Gespeichert: 469 → 469 Einträge
+[2026-04-17 12:02:43] === Monitor-Lauf gestartet ===
+[2026-04-17 12:02:44] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-17 12:02:45] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-17 12:02:45] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-04-17 12:02:46] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-17 12:02:46] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-17 12:02:46] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-17 12:02:47] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-17 12:02:47] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-17 12:02:48] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-17 12:02:48] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-17 12:02:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-17 12:02:49] 199 relevante Treffer in Feeds
+[2026-04-17 12:02:49] ✅ 2 NEUE Einträge gefunden:
+[2026-04-17 12:02:49]    11.04.2026 | im Krankenhaus |  | Brand in Horn-Lehe: Hausbesitzer mit Rauchgasvergiftung im K
+[2026-04-17 12:02:49]    03.02.2026 | BG-Klinik |  | Feuer-Katastrophe: BG-Klinik: Zwei Brandopfer aus der Schwei
+[2026-04-17 12:02:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-17 12:02:49] === Monitor-Lauf beendet ===
+
+[2026-04-17 12:02:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-17 12:02:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-17 12:02:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-17 12:02:50] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-17 12:02:50] [enrich] --- Enriche [1/2]: Brand in Horn-Lehe: Hausbesitzer mit Rauchgasvergiftung im K
+[2026-04-17 12:02:50] [enrich] Google News URL aufgelöst (v1): https://www.butenunbinnen.de/nachrichten/dachgeschoss-brand-bremen-horn-lehe-100
+[2026-04-17 12:02:51] [enrich] Volltext extrahiert: 919 Zeichen von https://www.butenunbinnen.de/nachrichten/dachgeschoss-brand-
+[2026-04-17 12:02:53] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Dachstuhlbrand in einem Wohnhaus in Horn-Lehe (Bremen), nicht einen Brand in einem Krankenhaus. Der Hausbesitzer wurde nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber das ist kein Krankenhausbrand.
+[2026-04-17 12:02:54] [enrich] --- Enriche [2/2]: Feuer-Katastrophe: BG-Klinik: Zwei Brandopfer aus der Schwei
+[2026-04-17 12:02:54] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-02/03/bg-klinik-zwei-brandopfer-aus-der-schweiz-au
+[2026-04-17 12:02:55] [enrich] Volltext extrahiert: 3383 Zeichen von https://www.zeit.de/news/2026-02/03/bg-klinik-zwei-brandopfe
+[2026-04-17 12:02:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in einer deutschen Klinik. Der Brand selbst fand nicht in einem deutschen Krankenhaus statt, sondern in einer Bar in der Schweiz. Die BG-Klinik Ludwigshafen wird nur als Behandlungsort der Verletzten erwähnt, nicht als Brandschauplatz.
+[2026-04-17 12:02:57] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-17 12:02:57] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-17 12:02:57] [DEDUP] Starte Dedup für 471 Einträge
+[2026-04-17 12:02:57] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-17 12:02:57] [DEDUP] Paare verglichen: 6691
+[2026-04-17 12:02:57] [DEDUP] Auto-Merges: 0
+[2026-04-17 12:02:57] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-17 12:02:57] [DEDUP] Ergebnis: 471 Einträge (war: 471, 0 zusammengeführt)
+[2026-04-17 12:02:57] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-17 12:02:57] [DEDUP] Gespeichert: 471 → 471 Einträge
