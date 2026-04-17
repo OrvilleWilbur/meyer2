@@ -22126,3 +22126,42 @@
 [2026-04-17 19:21:10] [DEDUP] Ergebnis: 471 Einträge (war: 471, 0 zusammengeführt)
 [2026-04-17 19:21:10] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-17 19:21:10] [DEDUP] Gespeichert: 471 → 471 Einträge
+[2026-04-17 21:02:48] === Monitor-Lauf gestartet ===
+[2026-04-17 21:02:49] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-17 21:02:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-17 21:02:50] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-17 21:02:50] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-17 21:02:50] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-17 21:02:51] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-17 21:02:51] Feed 'gn_brand_klinikum': 31 Einträge
+[2026-04-17 21:02:52] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-17 21:02:52] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-17 21:02:53] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-17 21:02:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-17 21:02:54] 201 relevante Treffer in Feeds
+[2026-04-17 21:02:54] ✅ 1 NEUE Einträge gefunden:
+[2026-04-17 21:02:54]    11.11.2025 |  |  | Berlin: Brand an der Charité und Böllerexplosion bei Vivante
+[2026-04-17 21:02:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-17 21:02:54] === Monitor-Lauf beendet ===
+
+[2026-04-17 21:02:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-17 21:02:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-17 21:02:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-17 21:02:54] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-17 21:02:54] [enrich] --- Enriche [1/1]: Berlin: Brand an der Charité und Böllerexplosion bei Vivante
+[2026-04-17 21:02:54] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/berlin-brand-an-der-chari
+[2026-04-17 21:02:56] [enrich] Volltext extrahiert: 3595 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/berli
+[2026-04-17 21:02:59] [enrich] Enrichment abgeschlossen: enriched — Charité Campus Mitte - Krebszentrum in Berlin
+[2026-04-17 21:02:59] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-17 21:02:59] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-17 21:02:59] [DEDUP] Starte Dedup für 472 Einträge
+[2026-04-17 21:02:59] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-17 21:03:00] [DEDUP] Auto-Merge (0.85): Charité - Universitätsmedizin Berlin, Ca / Berlin, Mitte ↔ Charité Campus Mitte - Krebszentrum / Berlin
+[2026-04-17 21:03:00] [DEDUP] Paare verglichen: 6697
+[2026-04-17 21:03:00] [DEDUP] Auto-Merges: 1
+[2026-04-17 21:03:00] [DEDUP] Kandidaten (unsicher): 286
+[2026-04-17 21:03:00] [DEDUP] Cluster 2x: Charité - Universitätsmedizin Berlin, Ca, Charité Campus Mitte - Krebszentrum
+[2026-04-17 21:03:00] [DEDUP] Ergebnis: 471 Einträge (war: 472, 1 zusammengeführt)
+[2026-04-17 21:03:00] [DEDUP] Kandidaten-Datei: 286 pending, 2 confirmed, 0 rejected
+[2026-04-17 21:03:00] [DEDUP] Gespeichert: 472 → 471 Einträge

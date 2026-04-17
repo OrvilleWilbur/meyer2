@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T19:21:10.257843",
+  "generated_at": "2026-04-17T21:03:00.256734",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -470,6 +470,39 @@
         "",
         ""
       ],
+      "score": 0.726,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.09090909090909091,
+        "bundesland": 1.0,
+        "brandort": 0.0625,
+        "total": 0.726
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Bezirk Mitte, Berlin (Name nicht spezifiziert)",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
+        "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité Campus Mitte - Krebszentrum",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/berlin-brand-an-der-charite-und-boellerexplosion-bei-vivantes-54810",
+        "titel": "Berlin: Brand an der Charité und Böllerexplosion bei Vivantes - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.725,
       "details": {
         "datum": 1.0,
@@ -727,6 +760,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
         "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.708,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.06666666666666667,
+        "total": 0.708
+      },
+      "entry_a": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité Campus Mitte - Krebszentrum",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/berlin-brand-an-der-charite-und-boellerexplosion-bei-vivantes-54810",
+        "titel": "Berlin: Brand an der Charité und Böllerexplosion bei Vivantes - kma Online"
       }
     },
     {
@@ -1486,6 +1552,39 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.699,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.05263157894736842,
+        "total": 0.699
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité Campus Mitte - Krebszentrum",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/berlin-brand-an-der-charite-und-boellerexplosion-bei-vivantes-54810",
+        "titel": "Berlin: Brand an der Charité und Böllerexplosion bei Vivantes - kma Online"
       }
     },
     {
@@ -2377,6 +2476,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.664,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.17647058823529413,
+        "total": 0.664
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin-Neukölln (Ortsteil Buckow)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Charité Campus Mitte - Krebszentrum",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/berlin-brand-an-der-charite-und-boellerexplosion-bei-vivantes-54810",
+        "titel": "Berlin: Brand an der Charité und Böllerexplosion bei Vivantes - kma Online"
       }
     },
     {
