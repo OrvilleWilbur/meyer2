@@ -21798,3 +21798,40 @@
 [2026-04-17 06:13:47] [DEDUP] Ergebnis: 468 Einträge (war: 468, 0 zusammengeführt)
 [2026-04-17 06:13:47] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-17 06:13:47] [DEDUP] Gespeichert: 468 → 468 Einträge
+[2026-04-17 08:03:36] === Monitor-Lauf gestartet ===
+[2026-04-17 08:03:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-17 08:03:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-17 08:03:38] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-17 08:03:39] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-17 08:03:39] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-04-17 08:03:39] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-17 08:03:40] Feed 'gn_brand_klinikum': 29 Einträge
+[2026-04-17 08:03:40] Feed 'gn_klinikbrand': 83 Einträge
+[2026-04-17 08:03:41] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-04-17 08:03:41] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-17 08:03:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-17 08:03:42] 190 relevante Treffer in Feeds
+[2026-04-17 08:03:42] ✅ 1 NEUE Einträge gefunden:
+[2026-04-17 08:03:42]    08.08.2024 | ins Krankenhaus |  | Feuer auf der Ostsee: Besatzungsmitglieder der Barkasse müss
+[2026-04-17 08:03:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-17 08:03:42] === Monitor-Lauf beendet ===
+
+[2026-04-17 08:03:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-17 08:03:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-17 08:03:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-17 08:03:43] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-17 08:03:43] [enrich] --- Enriche [1/1]: Feuer auf der Ostsee: Besatzungsmitglieder der Barkasse müss
+[2026-04-17 08:03:43] [enrich] Google News URL aufgelöst (v1): https://www.nord24.de/nachrichten/feuer-auf-der-ostsee-besatzungsmitglieder-der-
+[2026-04-17 08:03:44] [enrich] Volltext extrahiert: 1880 Zeichen von https://www.nord24.de/nachrichten/feuer-auf-der-ostsee-besat
+[2026-04-17 08:03:46] [enrich] FALSE POSITIVE erkannt: Brand auf einem Marineschiff (Barkasse) auf der Ostsee, nicht in einem Krankenhaus. Die Besatzungsmitglieder wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-04-17 08:03:46] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-17 08:03:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-17 08:03:46] [DEDUP] Starte Dedup für 469 Einträge
+[2026-04-17 08:03:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-17 08:03:46] [DEDUP] Paare verglichen: 6554
+[2026-04-17 08:03:46] [DEDUP] Auto-Merges: 0
+[2026-04-17 08:03:46] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-17 08:03:46] [DEDUP] Ergebnis: 469 Einträge (war: 469, 0 zusammengeführt)
+[2026-04-17 08:03:46] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-17 08:03:46] [DEDUP] Gespeichert: 469 → 469 Einträge
