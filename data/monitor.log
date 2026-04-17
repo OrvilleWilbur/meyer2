@@ -22027,3 +22027,42 @@
 [2026-04-17 16:13:43] [DEDUP] Ergebnis: 471 Einträge (war: 471, 0 zusammengeführt)
 [2026-04-17 16:13:43] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-17 16:13:43] [DEDUP] Gespeichert: 471 → 471 Einträge
+[2026-04-17 17:06:57] === Monitor-Lauf gestartet ===
+[2026-04-17 17:06:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-17 17:07:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-17 17:07:01] Feed 'gn_brand_krankenhaus': 41 Einträge
+[2026-04-17 17:07:02] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-17 17:07:03] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-17 17:07:03] Feed 'gn_brand_klinik': 42 Einträge
+[2026-04-17 17:07:04] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-04-17 17:07:05] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-17 17:07:05] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-17 17:07:06] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-17 17:07:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-17 17:07:07] 203 relevante Treffer in Feeds
+[2026-04-17 17:07:07] ✅ 1 NEUE Einträge gefunden:
+[2026-04-17 17:07:07]    27.03.2026 | in Krankenhaus |  | Feuerwehreinsatz: Mehr als 100.000 Euro Schaden bei Brand in
+[2026-04-17 17:07:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-17 17:07:07] === Monitor-Lauf beendet ===
+
+[2026-04-17 17:07:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-17 17:07:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-17 17:07:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-17 17:07:07] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-17 17:07:07] [enrich] --- Enriche [1/1]: Feuerwehreinsatz: Mehr als 100.000 Euro Schaden bei Brand in
+[2026-04-17 17:07:08] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-03/27/mehr-als-100-000-euro-schaden-bei-brand-in-k
+[2026-04-17 17:07:10] [enrich] Volltext extrahiert: 1222 Zeichen von https://www.zeit.de/news/2026-03/27/mehr-als-100-000-euro-sc
+[2026-04-17 17:07:12] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-04-17 17:07:12] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-17 17:07:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-17 17:07:13] [DEDUP] Starte Dedup für 472 Einträge
+[2026-04-17 17:07:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-17 17:07:13] [DEDUP] Auto-Merge (1.00): Krankenhaus Grafenau / Grafenau ↔ Krankenhaus Grafenau / Grafenau
+[2026-04-17 17:07:13] [DEDUP] Paare verglichen: 6695
+[2026-04-17 17:07:13] [DEDUP] Auto-Merges: 1
+[2026-04-17 17:07:13] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-17 17:07:13] [DEDUP] Cluster 2x: Krankenhaus Grafenau, Krankenhaus Grafenau
+[2026-04-17 17:07:13] [DEDUP] Ergebnis: 471 Einträge (war: 472, 1 zusammengeführt)
+[2026-04-17 17:07:13] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-17 17:07:13] [DEDUP] Gespeichert: 472 → 471 Einträge
