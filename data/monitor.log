@@ -22262,3 +22262,45 @@
 [2026-04-17 23:54:57] [DEDUP] Ergebnis: 472 Einträge (war: 472, 0 zusammengeführt)
 [2026-04-17 23:54:57] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-17 23:54:57] [DEDUP] Gespeichert: 472 → 472 Einträge
+[2026-04-18 03:29:36] === Monitor-Lauf gestartet ===
+[2026-04-18 03:29:36] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-18 03:29:37] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-18 03:29:38] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-18 03:29:38] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-18 03:29:39] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-04-18 03:29:39] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-18 03:29:39] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-18 03:29:40] Feed 'gn_klinikbrand': 93 Einträge
+[2026-04-18 03:29:40] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-04-18 03:29:41] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-04-18 03:29:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-18 03:29:42] 203 relevante Treffer in Feeds
+[2026-04-18 03:29:42] ✅ 2 NEUE Einträge gefunden:
+[2026-04-18 03:29:42]    14.06.2025 | am Krankenhaus |  | Brand am Krankenhaus in Saarlouis – Feuerwehr mit 13 Wagen i
+[2026-04-18 03:29:42]    06.11.2025 | im Krankenhaus |  | Feuer bricht in der Nacht in Baldingen aus: Mann stirbt im K
+[2026-04-18 03:29:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-18 03:29:42] === Monitor-Lauf beendet ===
+
+[2026-04-18 03:29:42] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-18 03:29:42] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-18 03:29:42] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-18 03:29:42] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-18 03:29:42] [enrich] --- Enriche [1/2]: Brand am Krankenhaus in Saarlouis – Feuerwehr mit 13 Wagen i
+[2026-04-18 03:29:43] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/brand-an-klinik-saarlouis-feuerweh
+[2026-04-18 03:29:43] [enrich] Volltext extrahiert: 882 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/brand-an-klini
+[2026-04-18 03:29:45] [enrich] Enrichment abgeschlossen: enriched — Marienhaus-Klinik St. Elisabeth in Saarlouis
+[2026-04-18 03:29:46] [enrich] --- Enriche [2/2]: Feuer bricht in der Nacht in Baldingen aus: Mann stirbt im K
+[2026-04-18 03:29:47] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/noerdlingen/mann-stirbt-nach-brand-in-noerd
+[2026-04-18 03:29:47] [enrich] Volltext extrahiert: 258 Zeichen von https://www.augsburger-allgemeine.de/noerdlingen/mann-stirbt
+[2026-04-18 03:29:49] [enrich] FALSE POSITIVE erkannt: Das Feuer brach in einer Wohnung in Baldingen aus, nicht in einem Krankenhaus. Der Mann wurde nach dem Brand ins Krankenhaus gebracht, wo er starb - das ist eine Behandlung nach einem Wohnungsbrand, kein Krankenhausbrand.
+[2026-04-18 03:29:49] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-18 03:29:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-18 03:29:49] [DEDUP] Starte Dedup für 474 Einträge
+[2026-04-18 03:29:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-18 03:29:49] [DEDUP] Paare verglichen: 6715
+[2026-04-18 03:29:49] [DEDUP] Auto-Merges: 0
+[2026-04-18 03:29:49] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-18 03:29:49] [DEDUP] Ergebnis: 474 Einträge (war: 474, 0 zusammengeführt)
+[2026-04-18 03:29:49] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-18 03:29:49] [DEDUP] Gespeichert: 474 → 474 Einträge
