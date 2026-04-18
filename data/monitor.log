@@ -22410,3 +22410,40 @@
 [2026-04-18 09:04:42] [DEDUP] Ergebnis: 475 Einträge (war: 475, 0 zusammengeführt)
 [2026-04-18 09:04:42] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-18 09:04:42] [DEDUP] Gespeichert: 475 → 475 Einträge
+[2026-04-18 10:01:06] === Monitor-Lauf gestartet ===
+[2026-04-18 10:01:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-18 10:01:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-18 10:01:09] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-18 10:01:09] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-04-18 10:01:09] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-04-18 10:01:10] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-18 10:01:10] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-18 10:01:11] Feed 'gn_klinikbrand': 97 Einträge
+[2026-04-18 10:01:11] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-18 10:01:11] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-18 10:01:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-18 10:01:12] 215 relevante Treffer in Feeds
+[2026-04-18 10:01:12] ✅ 1 NEUE Einträge gefunden:
+[2026-04-18 10:01:12]    23.04.2024 | im Krankenhaus ihren Verletzungen |  | Nach Brand in Klein Bennebek: Schwer verletzte Frau erliegt 
+[2026-04-18 10:01:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-18 10:01:12] === Monitor-Lauf beendet ===
+
+[2026-04-18 10:01:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-18 10:01:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-18 10:01:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-18 10:01:13] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-18 10:01:13] [enrich] --- Enriche [1/1]: Nach Brand in Klein Bennebek: Schwer verletzte Frau erliegt 
+[2026-04-18 10:01:13] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/kropp-stapelholm/artikel/nach-brand-in-klein-bennebek
+[2026-04-18 10:01:15] [enrich] Volltext extrahiert: 1788 Zeichen von https://www.shz.de/lokales/kropp-stapelholm/artikel/nach-bra
+[2026-04-18 10:01:16] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Wohnhaus in Klein Bennebek. Eine Frau wird nach dem Brand ins Krankenhaus gebracht und erliegt dort ihren Verletzungen - dies ist keine Brandursache IM Krankenhaus, sondern eine Behandlung/Einlieferung nach einem Wohnungsbrand.
+[2026-04-18 10:01:16] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-18 10:01:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-18 10:01:16] [DEDUP] Starte Dedup für 476 Einträge
+[2026-04-18 10:01:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-18 10:01:17] [DEDUP] Paare verglichen: 6723
+[2026-04-18 10:01:17] [DEDUP] Auto-Merges: 0
+[2026-04-18 10:01:17] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-18 10:01:17] [DEDUP] Ergebnis: 476 Einträge (war: 476, 0 zusammengeführt)
+[2026-04-18 10:01:17] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-18 10:01:17] [DEDUP] Gespeichert: 476 → 476 Einträge
