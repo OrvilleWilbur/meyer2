@@ -22514,3 +22514,49 @@
 [2026-04-18 11:48:46] [DEDUP] Ergebnis: 477 Einträge (war: 477, 0 zusammengeführt)
 [2026-04-18 11:48:46] [DEDUP] Kandidaten-Datei: 285 pending, 2 confirmed, 0 rejected
 [2026-04-18 11:48:46] [DEDUP] Gespeichert: 477 → 477 Einträge
+[2026-04-18 13:35:09] === Monitor-Lauf gestartet ===
+[2026-04-18 13:35:10] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-18 13:35:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-18 13:35:12] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-18 13:35:12] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-18 13:35:13] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-04-18 13:35:13] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-18 13:35:14] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-18 13:35:14] Feed 'gn_klinikbrand': 71 Einträge
+[2026-04-18 13:35:15] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-18 13:35:15] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-18 13:35:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-18 13:35:16] 215 relevante Treffer in Feeds
+[2026-04-18 13:35:16] ✅ 2 NEUE Einträge gefunden:
+[2026-04-18 13:35:16]    12.09.2019 | Marienhospital Polizei ermittelt gegen 83 |  | Feuer in Düsseldorfer Marienhospital Polizei ermittelt gegen
+[2026-04-18 13:35:16]    19.03.2026 | in Klinikum Friedrichstadt |  | Feuerwehr löscht Brand in Klinikum Friedrichstadt - Die Sach
+[2026-04-18 13:35:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-18 13:35:16] === Monitor-Lauf beendet ===
+
+[2026-04-18 13:35:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-18 13:35:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-18 13:35:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-18 13:35:17] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-18 13:35:17] [enrich] --- Enriche [1/2]: Feuer in Düsseldorfer Marienhospital Polizei ermittelt gegen
+[2026-04-18 13:35:17] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-brand-im-mari
+[2026-04-18 13:35:17] [enrich] Volltext extrahiert: 2461 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-04-18 13:35:21] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf
+[2026-04-18 13:35:22] [enrich] --- Enriche [2/2]: Feuerwehr löscht Brand in Klinikum Friedrichstadt - Die Sach
+[2026-04-18 13:35:22] [enrich] Google News URL aufgelöst (v1): https://www.diesachsen.de/unfall-und-verkehr/feuerwehr-loescht-brand-in-klinikum
+[2026-04-18 13:35:23] [enrich] Volltext extrahiert: 1970 Zeichen von https://www.diesachsen.de/unfall-und-verkehr/feuerwehr-loesc
+[2026-04-18 13:35:26] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-04-18 13:35:26] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-18 13:35:26] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-18 13:35:26] [DEDUP] Starte Dedup für 479 Einträge
+[2026-04-18 13:35:26] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-18 13:35:26] [DEDUP] Auto-Merge (0.81): Marienhospital / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-04-18 13:35:26] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-04-18 13:35:26] [DEDUP] Paare verglichen: 6830
+[2026-04-18 13:35:26] [DEDUP] Auto-Merges: 2
+[2026-04-18 13:35:26] [DEDUP] Kandidaten (unsicher): 285
+[2026-04-18 13:35:26] [DEDUP] Cluster 2x: Marienhospital, Marienhospital Düsseldorf
+[2026-04-18 13:35:26] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-04-18 13:35:26] [DEDUP] Ergebnis: 477 Einträge (war: 479, 2 zusammengeführt)
+[2026-04-18 13:35:26] [DEDUP] Kandidaten-Datei: 285 pending, 2 confirmed, 0 rejected
+[2026-04-18 13:35:27] [DEDUP] Gespeichert: 479 → 477 Einträge
