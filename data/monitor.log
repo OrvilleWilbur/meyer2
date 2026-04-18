@@ -22304,3 +22304,40 @@
 [2026-04-18 03:29:49] [DEDUP] Ergebnis: 474 Einträge (war: 474, 0 zusammengeführt)
 [2026-04-18 03:29:49] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-18 03:29:49] [DEDUP] Gespeichert: 474 → 474 Einträge
+[2026-04-18 05:49:53] === Monitor-Lauf gestartet ===
+[2026-04-18 05:49:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-18 05:49:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-18 05:49:56] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-18 05:49:56] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-04-18 05:49:57] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-04-18 05:49:57] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-18 05:49:57] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-18 05:49:58] Feed 'gn_klinikbrand': 87 Einträge
+[2026-04-18 05:49:58] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-04-18 05:49:58] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-18 05:50:00] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-18 05:50:00] 205 relevante Treffer in Feeds
+[2026-04-18 05:50:00] ✅ 1 NEUE Einträge gefunden:
+[2026-04-18 05:50:00]    17.05.2024 | Johanna-Etienne-Krankenhaus |  | Feuer im Patientenzimmer: Erneuter Brand im Neusser Johanna-
+[2026-04-18 05:50:00] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-18 05:50:00] === Monitor-Lauf beendet ===
+
+[2026-04-18 05:50:00] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-18 05:50:00] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-18 05:50:00] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-18 05:50:00] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-18 05:50:00] [enrich] --- Enriche [1/1]: Feuer im Patientenzimmer: Erneuter Brand im Neusser Johanna-
+[2026-04-18 05:50:00] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/neuss/neuss-erneuter-brand-im-johanna-etienne-k
+[2026-04-18 05:50:01] [enrich] Volltext extrahiert: 2653 Zeichen von https://rp-online.de/nrw/staedte/neuss/neuss-erneuter-brand-
+[2026-04-18 05:50:04] [enrich] Enrichment abgeschlossen: enriched — Johanna-Etienne-Krankenhaus in Neuss
+[2026-04-18 05:50:04] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-18 05:50:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-18 05:50:04] [DEDUP] Starte Dedup für 475 Einträge
+[2026-04-18 05:50:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-18 05:50:05] [DEDUP] Paare verglichen: 6715
+[2026-04-18 05:50:05] [DEDUP] Auto-Merges: 0
+[2026-04-18 05:50:05] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-18 05:50:05] [DEDUP] Ergebnis: 475 Einträge (war: 475, 0 zusammengeführt)
+[2026-04-18 05:50:05] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-18 05:50:05] [DEDUP] Gespeichert: 475 → 475 Einträge
