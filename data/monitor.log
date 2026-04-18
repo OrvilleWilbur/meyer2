@@ -22341,3 +22341,42 @@
 [2026-04-18 05:50:05] [DEDUP] Ergebnis: 475 Einträge (war: 475, 0 zusammengeführt)
 [2026-04-18 05:50:05] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
 [2026-04-18 05:50:05] [DEDUP] Gespeichert: 475 → 475 Einträge
+[2026-04-18 07:34:16] === Monitor-Lauf gestartet ===
+[2026-04-18 07:34:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-18 07:34:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-18 07:34:19] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-18 07:34:19] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-04-18 07:34:19] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-04-18 07:34:20] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-18 07:34:20] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-18 07:34:21] Feed 'gn_klinikbrand': 87 Einträge
+[2026-04-18 07:34:21] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-04-18 07:34:21] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-18 07:34:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-18 07:34:22] 215 relevante Treffer in Feeds
+[2026-04-18 07:34:22] ✅ 1 NEUE Einträge gefunden:
+[2026-04-18 07:34:22]    12.09.2019 | Marienhospital |  | Feuer in Düsseldorfer Marienhospital: Polizei ermittelt gege
+[2026-04-18 07:34:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-18 07:34:22] === Monitor-Lauf beendet ===
+
+[2026-04-18 07:34:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-18 07:34:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-18 07:34:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-18 07:34:23] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-18 07:34:23] [enrich] --- Enriche [1/1]: Feuer in Düsseldorfer Marienhospital: Polizei ermittelt gege
+[2026-04-18 07:34:23] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-brand-im-mari
+[2026-04-18 07:34:24] [enrich] Volltext extrahiert: 2461 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-04-18 07:34:27] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf
+[2026-04-18 07:34:27] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-18 07:34:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-18 07:34:27] [DEDUP] Starte Dedup für 476 Einträge
+[2026-04-18 07:34:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-18 07:34:28] [DEDUP] Auto-Merge (0.82): Marienhospital / Düsseldorf ↔ Marienhospital Düsseldorf / Düsseldorf
+[2026-04-18 07:34:28] [DEDUP] Paare verglichen: 6716
+[2026-04-18 07:34:28] [DEDUP] Auto-Merges: 1
+[2026-04-18 07:34:28] [DEDUP] Kandidaten (unsicher): 282
+[2026-04-18 07:34:28] [DEDUP] Cluster 2x: Marienhospital, Marienhospital Düsseldorf
+[2026-04-18 07:34:28] [DEDUP] Ergebnis: 475 Einträge (war: 476, 1 zusammengeführt)
+[2026-04-18 07:34:28] [DEDUP] Kandidaten-Datei: 282 pending, 2 confirmed, 0 rejected
+[2026-04-18 07:34:28] [DEDUP] Gespeichert: 476 → 475 Einträge
