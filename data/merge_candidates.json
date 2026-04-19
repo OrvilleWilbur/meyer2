@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T03:49:17.998956",
+  "generated_at": "2026-04-19T06:07:29.633946",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3400,39 +3400,6 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.577,
-      "details": {
-        "datum": 0.3,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.07142857142857142,
-        "total": 0.577
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
-        "ort": "Gießen",
-        "datum": "25.10.2021",
-        "bundesland": "Hessen",
-        "status": "enriched",
-        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
-        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Gießen",
-        "ort": "Gießen",
-        "datum": "23.10.2021",
-        "bundesland": "Hessen",
-        "status": "enriched",
-        "link": "https://www.n-tv.de/der_tag/Feuer-auf-Patientenzimmer-der-Uniklinik-Giessen-ausgebrochen-article22883378.html",
-        "titel": "Der Tag: Feuer auf Patientenzimmer der Uniklinik Gießen ausgebrochen - nTV"
       }
     },
     {
