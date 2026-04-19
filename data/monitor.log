@@ -23248,3 +23248,40 @@
 [2026-04-19 17:53:02] [DEDUP] Ergebnis: 480 Einträge (war: 480, 0 zusammengeführt)
 [2026-04-19 17:53:02] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
 [2026-04-19 17:53:02] [DEDUP] Gespeichert: 480 → 480 Einträge
+[2026-04-19 19:08:04] === Monitor-Lauf gestartet ===
+[2026-04-19 19:08:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-19 19:08:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-19 19:08:08] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-19 19:08:08] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-04-19 19:08:09] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-04-19 19:08:09] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-19 19:08:09] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-19 19:08:10] Feed 'gn_klinikbrand': 71 Einträge
+[2026-04-19 19:08:10] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-19 19:08:11] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-19 19:08:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-19 19:08:12] 215 relevante Treffer in Feeds
+[2026-04-19 19:08:12] ✅ 1 NEUE Einträge gefunden:
+[2026-04-19 19:08:12]    02.10.2025 | im Krankenhaus |  | Einsatz in Leverkusen: Brand in Bürrig – zwei Menschen im Kr
+[2026-04-19 19:08:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-19 19:08:12] === Monitor-Lauf beendet ===
+
+[2026-04-19 19:08:12] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-19 19:08:12] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-19 19:08:12] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-19 19:08:12] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-19 19:08:12] [enrich] --- Enriche [1/1]: Einsatz in Leverkusen: Brand in Bürrig – zwei Menschen im Kr
+[2026-04-19 19:08:13] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/leverkusen/brand-in-leverkusen-zwei-menschen-im
+[2026-04-19 19:08:13] [enrich] Volltext extrahiert: 200 Zeichen von https://rp-online.de/nrw/staedte/leverkusen/brand-in-leverku
+[2026-04-19 19:08:14] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen Olympia-Bürgerentscheid und hat keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik.
+[2026-04-19 19:08:14] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-19 19:08:14] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-19 19:08:15] [DEDUP] Starte Dedup für 481 Einträge
+[2026-04-19 19:08:15] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-19 19:08:15] [DEDUP] Paare verglichen: 6988
+[2026-04-19 19:08:15] [DEDUP] Auto-Merges: 0
+[2026-04-19 19:08:15] [DEDUP] Kandidaten (unsicher): 290
+[2026-04-19 19:08:15] [DEDUP] Ergebnis: 481 Einträge (war: 481, 0 zusammengeführt)
+[2026-04-19 19:08:15] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
+[2026-04-19 19:08:15] [DEDUP] Gespeichert: 481 → 481 Einträge
