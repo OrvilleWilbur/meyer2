@@ -23211,3 +23211,40 @@
 [2026-04-19 16:57:54] [DEDUP] Ergebnis: 479 Einträge (war: 479, 0 zusammengeführt)
 [2026-04-19 16:57:54] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
 [2026-04-19 16:57:54] [DEDUP] Gespeichert: 479 → 479 Einträge
+[2026-04-19 17:52:51] === Monitor-Lauf gestartet ===
+[2026-04-19 17:52:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-19 17:52:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-19 17:52:54] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-19 17:52:54] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-04-19 17:52:55] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-19 17:52:55] Feed 'gn_brand_klinik': 42 Einträge
+[2026-04-19 17:52:55] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-19 17:52:56] Feed 'gn_klinikbrand': 85 Einträge
+[2026-04-19 17:52:56] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-19 17:52:57] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-19 17:52:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-19 17:52:58] 208 relevante Treffer in Feeds
+[2026-04-19 17:52:58] ✅ 1 NEUE Einträge gefunden:
+[2026-04-19 17:52:58]    19.04.2026 |  |  | D: Brand im ehemaligen Krankenhaus → hoher Sachschaden in Zw
+[2026-04-19 17:52:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-19 17:52:58] === Monitor-Lauf beendet ===
+
+[2026-04-19 17:52:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-19 17:52:58] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-19 17:52:58] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-19 17:52:58] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-19 17:52:58] [enrich] --- Enriche [1/1]: D: Brand im ehemaligen Krankenhaus → hoher Sachschaden in Zw
+[2026-04-19 17:52:58] [enrich] Google News URL aufgelöst (v1): https://www.fireworld.at/2026/04/19/d-brand-im-ehemaligen-krankenhaus-%E2%86%92-
+[2026-04-19 17:53:00] [enrich] Volltext extrahiert: 1256 Zeichen von https://www.fireworld.at/2026/04/19/d-brand-im-ehemaligen-kr
+[2026-04-19 17:53:01] [enrich] FALSE POSITIVE erkannt: Brand in einem ehemaligen (nicht mehr betriebenen) Krankenhaus. Das Gebäude war zum Zeitpunkt des Brandes nicht mehr als Krankenhaus in Betrieb und diente nicht der Patientenversorgung.
+[2026-04-19 17:53:01] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-19 17:53:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-19 17:53:01] [DEDUP] Starte Dedup für 480 Einträge
+[2026-04-19 17:53:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-19 17:53:02] [DEDUP] Paare verglichen: 6970
+[2026-04-19 17:53:02] [DEDUP] Auto-Merges: 0
+[2026-04-19 17:53:02] [DEDUP] Kandidaten (unsicher): 290
+[2026-04-19 17:53:02] [DEDUP] Ergebnis: 480 Einträge (war: 480, 0 zusammengeführt)
+[2026-04-19 17:53:02] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
+[2026-04-19 17:53:02] [DEDUP] Gespeichert: 480 → 480 Einträge
