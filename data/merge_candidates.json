@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T23:50:54.492028",
+  "generated_at": "2026-04-19T03:49:17.998956",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -133,6 +133,39 @@
         "status": "enriched",
         "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
         "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - tag24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.792,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.792
+      },
+      "entry_a": {
+        "einrichtung": "Sonnenbergklinik",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/saarbruecken--brand-in-klinik---mindestens-20-verletzte-36104128.html",
+        "titel": "Saarbrücken: Brand in Klinik – mindestens 20 Verletzte - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Sonnenbergstraße",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand-in-saarbruecker-klinik-feuer-verursacht-millionenschaden_a676206",
+        "titel": "Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursacht Millionenschaden - Saarland - Wochenblatt Reporter"
       }
     },
     {
@@ -2384,6 +2417,39 @@
         "",
         ""
       ],
+      "score": 0.66,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.66
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "04.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
+        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Sonnenbergstraße",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand-in-saarbruecker-klinik-feuer-verursacht-millionenschaden_a676206",
+        "titel": "Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursacht Millionenschaden - Saarland - Wochenblatt Reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.655,
       "details": {
         "datum": 1.0,
@@ -3334,6 +3400,39 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.577,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.07142857142857142,
+        "total": 0.577
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/der_tag/Feuer-auf-Patientenzimmer-der-Uniklinik-Giessen-ausgebrochen-article22883378.html",
+        "titel": "Der Tag: Feuer auf Patientenzimmer der Uniklinik Gießen ausgebrochen - nTV"
       }
     },
     {

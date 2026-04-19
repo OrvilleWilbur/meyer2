@@ -22860,3 +22860,47 @@
 [2026-04-18 23:50:54] [DEDUP] Ergebnis: 477 Einträge (war: 477, 0 zusammengeführt)
 [2026-04-18 23:50:54] [DEDUP] Kandidaten-Datei: 285 pending, 2 confirmed, 0 rejected
 [2026-04-18 23:50:54] [DEDUP] Gespeichert: 477 → 477 Einträge
+[2026-04-19 03:48:59] === Monitor-Lauf gestartet ===
+[2026-04-19 03:49:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-19 03:49:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-19 03:49:03] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-04-19 03:49:03] Feed 'gn_feuer_krankenhaus': 58 Einträge
+[2026-04-19 03:49:03] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-04-19 03:49:04] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-19 03:49:04] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-19 03:49:05] Feed 'gn_klinikbrand': 81 Einträge
+[2026-04-19 03:49:05] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-19 03:49:05] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-19 03:49:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-19 03:49:07] 224 relevante Treffer in Feeds
+[2026-04-19 03:49:07] ✅ 2 NEUE Einträge gefunden:
+[2026-04-19 03:49:07]    04.10.2025 | Saarbrücker Klinik |  | Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursac
+[2026-04-19 03:49:07]    23.10.2021 | Uniklinik Gießen ausgebrochen |  | Der Tag: Feuer auf Patientenzimmer der Uniklinik Gießen ausg
+[2026-04-19 03:49:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-19 03:49:07] === Monitor-Lauf beendet ===
+
+[2026-04-19 03:49:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-19 03:49:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-19 03:49:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-19 03:49:07] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-19 03:49:07] [enrich] --- Enriche [1/2]: Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursac
+[2026-04-19 03:49:07] [enrich] Google News URL aufgelöst (v1): https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand
+[2026-04-19 03:49:09] [enrich] Volltext extrahiert: 3697 Zeichen von https://www.wochenblatt-reporter.de/saarland/c-blaulicht/gro
+[2026-04-19 03:49:13] [enrich] Enrichment abgeschlossen: enriched — Klinik Sonnenbergstraße in Saarbrücken
+[2026-04-19 03:49:14] [enrich] --- Enriche [2/2]: Der Tag: Feuer auf Patientenzimmer der Uniklinik Gießen ausg
+[2026-04-19 03:49:14] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/der_tag/Feuer-auf-Patientenzimmer-der-Uniklinik-Giessen-ausg
+[2026-04-19 03:49:14] [enrich] Volltext extrahiert: 1779 Zeichen von https://www.n-tv.de/der_tag/Feuer-auf-Patientenzimmer-der-Un
+[2026-04-19 03:49:17] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Gießen in Gießen
+[2026-04-19 03:49:17] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-19 03:49:17] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-19 03:49:17] [DEDUP] Starte Dedup für 479 Einträge
+[2026-04-19 03:49:17] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-19 03:49:17] [DEDUP] Auto-Merge (0.96): Uniklinik Gießen / Gießen ↔ Uniklinik Gießen / Gießen
+[2026-04-19 03:49:17] [DEDUP] Paare verglichen: 6832
+[2026-04-19 03:49:17] [DEDUP] Auto-Merges: 1
+[2026-04-19 03:49:17] [DEDUP] Kandidaten (unsicher): 288
+[2026-04-19 03:49:17] [DEDUP] Cluster 2x: Uniklinik Gießen, Uniklinik Gießen
+[2026-04-19 03:49:17] [DEDUP] Ergebnis: 478 Einträge (war: 479, 1 zusammengeführt)
+[2026-04-19 03:49:18] [DEDUP] Kandidaten-Datei: 288 pending, 2 confirmed, 0 rejected
+[2026-04-19 03:49:18] [DEDUP] Gespeichert: 479 → 478 Einträge
