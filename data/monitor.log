@@ -22964,3 +22964,40 @@
 [2026-04-19 07:45:29] [DEDUP] Ergebnis: 478 Einträge (war: 478, 0 zusammengeführt)
 [2026-04-19 07:45:29] [DEDUP] Kandidaten-Datei: 287 pending, 2 confirmed, 0 rejected
 [2026-04-19 07:45:29] [DEDUP] Gespeichert: 478 → 478 Einträge
+[2026-04-19 09:06:22] === Monitor-Lauf gestartet ===
+[2026-04-19 09:06:23] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-19 09:06:24] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-19 09:06:24] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-04-19 09:06:25] Feed 'gn_feuer_krankenhaus': 60 Einträge
+[2026-04-19 09:06:25] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-04-19 09:06:26] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-19 09:06:26] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-19 09:06:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-19 09:06:27] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-19 09:06:27] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-19 09:06:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-19 09:06:28] 215 relevante Treffer in Feeds
+[2026-04-19 09:06:28] ✅ 1 NEUE Einträge gefunden:
+[2026-04-19 09:06:28]    22.02.2026 | im Krankenhaus |  | Brandalarm im Krankenhaus in Wetzlar: Feuerwehr und Polizei 
+[2026-04-19 09:06:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-19 09:06:28] === Monitor-Lauf beendet ===
+
+[2026-04-19 09:06:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-19 09:06:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-19 09:06:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-19 09:06:29] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-19 09:06:29] [enrich] --- Enriche [1/1]: Brandalarm im Krankenhaus in Wetzlar: Feuerwehr und Polizei 
+[2026-04-19 09:06:29] [enrich] Google News URL aufgelöst (v1): https://www.hessenschau.de/panorama/brandalarm-im-krankenhaus-in-wetzlar-feuerwe
+[2026-04-19 09:06:31] [enrich] Volltext extrahiert: 1627 Zeichen von https://www.hessenschau.de/panorama/brandalarm-im-krankenhau
+[2026-04-19 09:06:33] [enrich] FALSE POSITIVE erkannt: Brandmeldeanlage löste Alarm aus, es wurde kein offenes Feuer gefunden. Die Ursache war ein Defekt in der Lüftungsanlage, nicht ein tatsächlicher Brand. Dies fällt unter Brandschutzübung/Fehlalarm, nicht unter einen echten Krankenhausbrand.
+[2026-04-19 09:06:33] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-19 09:06:33] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-19 09:06:33] [DEDUP] Starte Dedup für 479 Einträge
+[2026-04-19 09:06:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-19 09:06:34] [DEDUP] Paare verglichen: 6936
+[2026-04-19 09:06:34] [DEDUP] Auto-Merges: 0
+[2026-04-19 09:06:34] [DEDUP] Kandidaten (unsicher): 290
+[2026-04-19 09:06:34] [DEDUP] Ergebnis: 479 Einträge (war: 479, 0 zusammengeführt)
+[2026-04-19 09:06:34] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
+[2026-04-19 09:06:34] [DEDUP] Gespeichert: 479 → 479 Einträge
