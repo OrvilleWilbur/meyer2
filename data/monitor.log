@@ -23285,3 +23285,42 @@
 [2026-04-19 19:08:15] [DEDUP] Ergebnis: 481 Einträge (war: 481, 0 zusammengeführt)
 [2026-04-19 19:08:15] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
 [2026-04-19 19:08:15] [DEDUP] Gespeichert: 481 → 481 Einträge
+[2026-04-19 19:52:33] === Monitor-Lauf gestartet ===
+[2026-04-19 19:52:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-19 19:52:35] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-19 19:52:36] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-19 19:52:36] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-04-19 19:52:36] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-04-19 19:52:37] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-19 19:52:37] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-19 19:52:38] Feed 'gn_klinikbrand': 71 Einträge
+[2026-04-19 19:52:38] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-19 19:52:39] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-19 19:52:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-19 19:52:40] 215 relevante Treffer in Feeds
+[2026-04-19 19:52:40] ✅ 1 NEUE Einträge gefunden:
+[2026-04-19 19:52:40]    11.11.2025 | an Kliniken |  | Detonation und Feuer an Kliniken – politisch motiviert? - RT
+[2026-04-19 19:52:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-19 19:52:40] === Monitor-Lauf beendet ===
+
+[2026-04-19 19:52:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-19 19:52:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-19 19:52:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-19 19:52:40] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-19 19:52:40] [enrich] --- Enriche [1/1]: Detonation und Feuer an Kliniken – politisch motiviert? - RT
+[2026-04-19 19:52:40] [enrich] Google News URL aufgelöst (v1): https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.ht
+[2026-04-19 19:52:41] [enrich] Volltext extrahiert: 4106 Zeichen von https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-
+[2026-04-19 19:52:45] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Vivantes Berlin-Neukölln in Berlin
+[2026-04-19 19:52:45] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-19 19:52:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-19 19:52:45] [DEDUP] Starte Dedup für 482 Einträge
+[2026-04-19 19:52:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-19 19:52:46] [DEDUP] Auto-Merge (0.95): Krankenhaus Vivantes Berlin-Neukölln / Berlin-Neukölln (Ort ↔ Krankenhaus Vivantes Berlin-Neukölln / Berlin
+[2026-04-19 19:52:46] [DEDUP] Paare verglichen: 6994
+[2026-04-19 19:52:46] [DEDUP] Auto-Merges: 1
+[2026-04-19 19:52:46] [DEDUP] Kandidaten (unsicher): 294
+[2026-04-19 19:52:46] [DEDUP] Cluster 2x: Krankenhaus Vivantes Berlin-Neukölln, Krankenhaus Vivantes Berlin-Neukölln
+[2026-04-19 19:52:46] [DEDUP] Ergebnis: 481 Einträge (war: 482, 1 zusammengeführt)
+[2026-04-19 19:52:46] [DEDUP] Kandidaten-Datei: 294 pending, 2 confirmed, 0 rejected
+[2026-04-19 19:52:46] [DEDUP] Gespeichert: 482 → 481 Einträge

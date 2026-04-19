@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T19:08:15.729329",
+  "generated_at": "2026-04-19T19:52:46.691004",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -272,6 +272,39 @@
         "",
         ""
       ],
+      "score": 0.751,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.751
+      },
+      "entry_a": {
+        "einrichtung": "Charité (Uniklinik Berlin-Mitte) und Vivantes Klinikum Berlin-Neukölln",
+        "ort": "Berlin (Mitte und Neukölln)",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
+        "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.75,
       "details": {
         "datum": 1.0,
@@ -298,6 +331,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Bezirk Mitte, Berlin (Name nicht spezifiziert)",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/nach-brand-und-sachschaeden-an-berliner-kliniken--staatsschutz-ermittelt-36332952.html",
+        "titel": "Nach Brand und Sachschäden an Berliner Kliniken: Staatsschutz ermittelt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL"
       }
     },
     {
@@ -1625,6 +1691,39 @@
         "",
         ""
       ],
+      "score": 0.69,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.1111111111111111,
+        "bundesland": 1.0,
+        "brandort": 0.15384615384615385,
+        "total": 0.69
+      },
+      "entry_a": {
+        "einrichtung": "Charité - Universitätsmedizin Berlin, Campus Charité Mitte (Krebszentrum)",
+        "ort": "Berlin, Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
+        "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.682,
       "details": {
         "datum": 0.3,
@@ -2575,6 +2674,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.655,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.655
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Charité",
+        "ort": "Berlin-Mitte",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
+        "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Vivantes Berlin-Neukölln",
+        "ort": "Berlin",
+        "datum": "11.11.2025",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/detonation-und-feuer-an-kliniken-in-berlin-id30006828.html",
+        "titel": "Detonation und Feuer an Kliniken – politisch motiviert? - RTL"
       }
     },
     {
