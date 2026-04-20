@@ -23699,3 +23699,50 @@
 [2026-04-20 17:18:51] [DEDUP] Ergebnis: 485 Einträge (war: 486, 1 zusammengeführt)
 [2026-04-20 17:18:51] [DEDUP] Kandidaten-Datei: 294 pending, 2 confirmed, 0 rejected
 [2026-04-20 17:18:51] [DEDUP] Gespeichert: 486 → 485 Einträge
+[2026-04-20 19:32:27] === Monitor-Lauf gestartet ===
+[2026-04-20 19:32:28] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-20 19:32:29] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-20 19:32:29] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-20 19:32:30] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-20 19:32:30] Feed 'gn_feuer_klinik': 59 Einträge
+[2026-04-20 19:32:31] Feed 'gn_brand_klinik': 58 Einträge
+[2026-04-20 19:32:31] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-20 19:32:32] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-20 19:32:32] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-20 19:32:32] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-20 19:32:33] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-20 19:32:33] 221 relevante Treffer in Feeds
+[2026-04-20 19:32:33] ✅ 3 NEUE Einträge gefunden:
+[2026-04-20 19:32:33]    23.05.2022 | schwimmendes Krankenhaus zurück |  | Die Marine bekommt ihr abgebranntes schwimmendes Krankenhaus
+[2026-04-20 19:32:33]    12.04.2026 | in Klinik |  | Feuer in Mehrfamilienhaus - Säugling muss nach Brand zur Beo
+[2026-04-20 19:32:33]    28.11.2025 | Schön-Klinik Rendsburg |  | Feuer in Schön-Klinik Rendsburg: 21 Patienten nachts in Sich
+[2026-04-20 19:32:33] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-20 19:32:33] === Monitor-Lauf beendet ===
+
+[2026-04-20 19:32:34] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-20 19:32:34] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-20 19:32:34] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-20 19:32:34] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-20 19:32:34] [enrich] --- Enriche [1/3]: Die Marine bekommt ihr abgebranntes schwimmendes Krankenhaus
+[2026-04-20 19:32:35] [enrich] Google News URL aufgelöst (v1): https://augengeradeaus.net/2022/05/die-marine-bekommt-ihr-abgebranntes-schwimmen
+[2026-04-20 19:32:36] [enrich] Volltext extrahiert: 3602 Zeichen von https://augengeradeaus.net/2022/05/die-marine-bekommt-ihr-ab
+[2026-04-20 19:32:40] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand an einem Marineschiff (Kriegsschiff), nicht an einem Krankenhaus oder einer Klinik in Deutschland. Das 'schwimmende Krankenhaus' ist eine militärische Ausrüstung auf einem Kriegsschiff, keine stationäre medizinische Einrichtung. Der Brand ereignete sich 2015 bei der Lagerung an Land während einer Werftüberholung, nicht in einem Krankenhaus/einer Klinik.
+[2026-04-20 19:32:41] [enrich] --- Enriche [2/3]: Feuer in Mehrfamilienhaus - Säugling muss nach Brand zur Beo
+[2026-04-20 19:32:42] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/feuer-in-mehrfamilienhaus-saeugling-muss-na
+[2026-04-20 19:32:42] [enrich] Volltext extrahiert: 1701 Zeichen von https://www.sueddeutsche.de/panorama/feuer-in-mehrfamilienha
+[2026-04-20 19:32:44] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (Wohngebäude), nicht in einem Krankenhaus. Ein Säugling wurde nach dem Brand zur Beobachtung in eine Klinik gebracht, aber der Brand selbst fand nicht in der Klinik statt.
+[2026-04-20 19:32:45] [enrich] --- Enriche [3/3]: Feuer in Schön-Klinik Rendsburg: 21 Patienten nachts in Sich
+[2026-04-20 19:32:45] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/rendsburg/artikel/naechtlicher-feuerwehreinsatz-brand
+[2026-04-20 19:32:47] [enrich] Volltext extrahiert: 1713 Zeichen von https://www.shz.de/lokales/rendsburg/artikel/naechtlicher-fe
+[2026-04-20 19:32:49] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik Rendsburg in Rendsburg
+[2026-04-20 19:32:49] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-20 19:32:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-20 19:32:49] [DEDUP] Starte Dedup für 488 Einträge
+[2026-04-20 19:32:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-20 19:32:50] [DEDUP] Paare verglichen: 7245
+[2026-04-20 19:32:50] [DEDUP] Auto-Merges: 0
+[2026-04-20 19:32:50] [DEDUP] Kandidaten (unsicher): 295
+[2026-04-20 19:32:50] [DEDUP] Ergebnis: 488 Einträge (war: 488, 0 zusammengeführt)
+[2026-04-20 19:32:50] [DEDUP] Kandidaten-Datei: 295 pending, 2 confirmed, 0 rejected
+[2026-04-20 19:32:50] [DEDUP] Gespeichert: 488 → 488 Einträge

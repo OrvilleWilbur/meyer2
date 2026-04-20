@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T17:18:51.114454",
+  "generated_at": "2026-04-20T19:32:50.461448",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -8053,6 +8053,39 @@
         "status": "false_positive",
         "link": "https://www.n-tv.de/regionales/sachsen-anhalt/20-Jaehriger-laeuft-in-Osterfeuer-und-stirbt-im-Krankenhaus-id30683562.html",
         "titel": "Sachsen-Anhalt: 20-Jähriger läuft in Osterfeuer und stirbt im Krankenhaus - nTV"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "12.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-in-mehrfamilienhaus--saeugling-muss-nach-brand-zur-beobachtung-in-klinik-37302046.html",
+        "titel": "Feuer in Mehrfamilienhaus: Säugling muss nach Brand zur Beobachtung in Klinik - stern.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "12.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/feuer-in-mehrfamilienhaus-saeugling-muss-nach-brand-zur-beobachtung-in-klinik-dpa.urn-newsml-dpa-com-20090101-260412-930-936234",
+        "titel": "Feuer in Mehrfamilienhaus - Säugling muss nach Brand zur Beobachtung in Klinik - Panorama - SZ.de - SZ.de"
       }
     },
     {
