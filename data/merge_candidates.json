@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T14:10:14.421675",
+  "generated_at": "2026-04-20T15:43:09.666845",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3650,6 +3650,39 @@
       "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Krankenhaus-id30386382.html",
+        "titel": "Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - nTV"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
         "datum": "10.03.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -3829,6 +3862,39 @@
         "status": "false_positive",
         "link": "https://www.diesachsen.de/unfall-und-verkehr/feuer-in-oelsnitz-sieben-menschen-im-krankenhaus-3106013",
         "titel": "Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - Die Sachsen News"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Krankenhaus-id30386382.html",
+        "titel": "Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - nTV"
       }
     },
     {
@@ -4192,6 +4258,39 @@
         "status": "false_positive",
         "link": "https://www.diesachsen.de/unfall-und-verkehr/feuer-in-oelsnitz-sieben-menschen-im-krankenhaus-3106013",
         "titel": "Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - Die Sachsen News"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/muenchen/wohnungsbrand-muenchen-fuenf-menschen-krankenhaus-id5303090.html",
+        "titel": "Wohnungsbrand in München – Fünf Menschen im Krankenhaus - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Krankenhaus-id30386382.html",
+        "titel": "Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - nTV"
       }
     },
     {
@@ -4918,6 +5017,39 @@
         "status": "false_positive",
         "link": "https://www.hessenschau.de/panorama/brandalarm-im-krankenhaus-in-wetzlar-feuerwehr-und-polizei-finden-kein-feuer-v1,klinikum_wetzlar-100.html",
         "titel": "Brandalarm im Krankenhaus in Wetzlar: Feuerwehr und Polizei finden kein Feuer - hessenschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.diesachsen.de/unfall-und-verkehr/feuer-in-oelsnitz-sieben-menschen-im-krankenhaus-3106013",
+        "titel": "Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - Die Sachsen News"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Krankenhaus-id30386382.html",
+        "titel": "Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - nTV"
       }
     },
     {

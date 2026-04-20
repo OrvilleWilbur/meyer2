@@ -23618,3 +23618,40 @@
 [2026-04-20 14:10:14] [DEDUP] Ergebnis: 483 Einträge (war: 483, 0 zusammengeführt)
 [2026-04-20 14:10:14] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
 [2026-04-20 14:10:14] [DEDUP] Gespeichert: 483 → 483 Einträge
+[2026-04-20 15:42:54] === Monitor-Lauf gestartet ===
+[2026-04-20 15:42:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-20 15:42:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-20 15:42:58] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-20 15:42:59] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-20 15:42:59] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-20 15:43:00] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-20 15:43:01] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-20 15:43:02] Feed 'gn_klinikbrand': 88 Einträge
+[2026-04-20 15:43:02] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-20 15:43:03] Feed 'gn_evakuierung_klinik': 34 Einträge
+[2026-04-20 15:43:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-20 15:43:04] 209 relevante Treffer in Feeds
+[2026-04-20 15:43:04] ✅ 1 NEUE Einträge gefunden:
+[2026-04-20 15:43:04]    20.02.2026 | im Krankenhaus |  | Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus 
+[2026-04-20 15:43:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-20 15:43:04] === Monitor-Lauf beendet ===
+
+[2026-04-20 15:43:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-20 15:43:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-20 15:43:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-20 15:43:05] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-20 15:43:05] [enrich] --- Enriche [1/1]: Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus 
+[2026-04-20 15:43:06] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Kran
+[2026-04-20 15:43:07] [enrich] Volltext extrahiert: 4601 Zeichen von https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sie
+[2026-04-20 15:43:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Wohnhaus (Mehrfamilienhaus, Küche einer Wohnung), nicht in einem Krankenhaus. Die sieben Personen wurden nach dem Brand zur Beobachtung ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-04-20 15:43:08] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-20 15:43:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-20 15:43:09] [DEDUP] Starte Dedup für 484 Einträge
+[2026-04-20 15:43:09] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-20 15:43:09] [DEDUP] Paare verglichen: 7166
+[2026-04-20 15:43:09] [DEDUP] Auto-Merges: 0
+[2026-04-20 15:43:09] [DEDUP] Kandidaten (unsicher): 294
+[2026-04-20 15:43:09] [DEDUP] Ergebnis: 484 Einträge (war: 484, 0 zusammengeführt)
+[2026-04-20 15:43:09] [DEDUP] Kandidaten-Datei: 294 pending, 2 confirmed, 0 rejected
+[2026-04-20 15:43:09] [DEDUP] Gespeichert: 484 → 484 Einträge
