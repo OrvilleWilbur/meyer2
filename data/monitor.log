@@ -23655,3 +23655,47 @@
 [2026-04-20 15:43:09] [DEDUP] Ergebnis: 484 Einträge (war: 484, 0 zusammengeführt)
 [2026-04-20 15:43:09] [DEDUP] Kandidaten-Datei: 294 pending, 2 confirmed, 0 rejected
 [2026-04-20 15:43:09] [DEDUP] Gespeichert: 484 → 484 Einträge
+[2026-04-20 17:18:33] === Monitor-Lauf gestartet ===
+[2026-04-20 17:18:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-20 17:18:35] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-20 17:18:36] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-20 17:18:36] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-04-20 17:18:37] Feed 'gn_feuer_klinik': 53 Einträge
+[2026-04-20 17:18:37] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-20 17:18:37] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-20 17:18:38] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-20 17:18:38] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-20 17:18:39] Feed 'gn_evakuierung_klinik': 34 Einträge
+[2026-04-20 17:18:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-20 17:18:40] 217 relevante Treffer in Feeds
+[2026-04-20 17:18:40] ✅ 2 NEUE Einträge gefunden:
+[2026-04-20 17:18:40]    20.04.2026 | verlassenem Krankenhaus |  | Rheinland-Pfalz: Verdächtige nach Brand in verlassenem Krank
+[2026-04-20 17:18:40]    12.03.2026 | in Klinik leicht verletzt |  | Rheinland-Pfalz & Saarland: Pflegekraft bei Feuer in Klinik 
+[2026-04-20 17:18:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-20 17:18:40] === Monitor-Lauf beendet ===
+
+[2026-04-20 17:18:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-20 17:18:41] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-20 17:18:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-20 17:18:41] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-20 17:18:41] [enrich] --- Enriche [1/2]: Rheinland-Pfalz: Verdächtige nach Brand in verlassenem Krank
+[2026-04-20 17:18:41] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr-millionenschaden-be
+[2026-04-20 17:18:42] [enrich] Volltext extrahiert: 2607 Zeichen von https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr
+[2026-04-20 17:18:44] [enrich] FALSE POSITIVE erkannt: Das Krankenhaus ist nicht mehr in Betrieb (verlassenes/ehemaliges Gebäude). Ein Brand in einem stillgelegten, nicht mehr als Krankenhaus genutzten Gebäude fällt nicht unter die Definition eines Krankenhausbrandes.
+[2026-04-20 17:18:45] [enrich] --- Enriche [2/2]: Rheinland-Pfalz & Saarland: Pflegekraft bei Feuer in Klinik 
+[2026-04-20 17:18:45] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/Pflegekraft-bei-Feue
+[2026-04-20 17:18:46] [enrich] Volltext extrahiert: 4739 Zeichen von https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/
+[2026-04-20 17:18:50] [enrich] Enrichment abgeschlossen: enriched — Psychiatrisches Krankenhaus Neunkirchen in Neunkirchen
+[2026-04-20 17:18:50] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-20 17:18:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-20 17:18:50] [DEDUP] Starte Dedup für 486 Einträge
+[2026-04-20 17:18:50] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-20 17:18:51] [DEDUP] Auto-Merge (1.00): Psychiatrisches Krankenhaus Neunkirchen / Neunkirchen ↔ Psychiatrisches Krankenhaus Neunkirchen / Neunkirchen
+[2026-04-20 17:18:51] [DEDUP] Paare verglichen: 7204
+[2026-04-20 17:18:51] [DEDUP] Auto-Merges: 1
+[2026-04-20 17:18:51] [DEDUP] Kandidaten (unsicher): 294
+[2026-04-20 17:18:51] [DEDUP] Cluster 2x: Psychiatrisches Krankenhaus Neunkirchen, Psychiatrisches Krankenhaus Neunkirchen
+[2026-04-20 17:18:51] [DEDUP] Ergebnis: 485 Einträge (war: 486, 1 zusammengeführt)
+[2026-04-20 17:18:51] [DEDUP] Kandidaten-Datei: 294 pending, 2 confirmed, 0 rejected
+[2026-04-20 17:18:51] [DEDUP] Gespeichert: 486 → 485 Einträge
