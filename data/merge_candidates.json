@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T23:52:29.082921",
+  "generated_at": "2026-04-20T03:51:19.765414",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2615,6 +2615,72 @@
         "",
         ""
       ],
+      "score": 0.652,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.652
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.652,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.652
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.65,
       "details": {
         "datum": 0.0,
@@ -3235,6 +3301,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.638,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.1111111111111111,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.638
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
       }
     },
     {
@@ -3400,6 +3499,72 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.565,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.565
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.565,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.565
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Hamburg",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
       }
     },
     {

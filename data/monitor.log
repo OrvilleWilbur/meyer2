@@ -23444,3 +23444,43 @@
 [2026-04-19 23:52:29] [DEDUP] Ergebnis: 481 Einträge (war: 481, 0 zusammengeführt)
 [2026-04-19 23:52:29] [DEDUP] Kandidaten-Datei: 290 pending, 2 confirmed, 0 rejected
 [2026-04-19 23:52:29] [DEDUP] Gespeichert: 481 → 481 Einträge
+[2026-04-20 03:51:10] === Monitor-Lauf gestartet ===
+[2026-04-20 03:51:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-20 03:51:12] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-20 03:51:12] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-20 03:51:13] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-04-20 03:51:13] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-20 03:51:13] Feed 'gn_brand_klinik': 51 Einträge
+[2026-04-20 03:51:14] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-20 03:51:14] Feed 'gn_klinikbrand': 91 Einträge
+[2026-04-20 03:51:14] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-20 03:51:15] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-04-20 03:51:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-20 03:51:16] 204 relevante Treffer in Feeds
+[2026-04-20 03:51:16] ✅ 1 NEUE Einträge gefunden:
+[2026-04-20 03:51:16]    02.06.2025 |  |  | Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdäch
+[2026-04-20 03:51:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-20 03:51:16] === Monitor-Lauf beendet ===
+
+[2026-04-20 03:51:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-20 03:51:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-20 03:51:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-20 03:51:16] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-20 03:51:16] [enrich] --- Enriche [1/1]: Klinikbrand in Hamburg: Jetzt wohl vier Todesopfer – Verdäch
+[2026-04-20 03:51:17] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-ve
+[2026-04-20 03:51:17] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-ve: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html
+[2026-04-20 03:51:17] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (590 Z.)
+[2026-04-20 03:51:19] [enrich] Enrichment abgeschlossen: partial — Klinik Hamburg in Hamburg
+[2026-04-20 03:51:19] [enrich] Ergebnis: 0 enriched, 1 partial, 0 false_positive, 0 failed
+[2026-04-20 03:51:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-20 03:51:19] [DEDUP] Starte Dedup für 482 Einträge
+[2026-04-20 03:51:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-20 03:51:19] [DEDUP] Auto-Merge (0.81): Klinik Hamburg (Name nicht vollständig a / Hamburg ↔ Klinik Hamburg / Hamburg
+[2026-04-20 03:51:19] [DEDUP] Paare verglichen: 6994
+[2026-04-20 03:51:19] [DEDUP] Auto-Merges: 1
+[2026-04-20 03:51:19] [DEDUP] Kandidaten (unsicher): 295
+[2026-04-20 03:51:19] [DEDUP] Cluster 2x: Klinik Hamburg (Name nicht vollständig a, Klinik Hamburg
+[2026-04-20 03:51:19] [DEDUP] Ergebnis: 481 Einträge (war: 482, 1 zusammengeführt)
+[2026-04-20 03:51:19] [DEDUP] Kandidaten-Datei: 295 pending, 2 confirmed, 0 rejected
+[2026-04-20 03:51:19] [DEDUP] Gespeichert: 482 → 481 Einträge
