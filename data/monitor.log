@@ -23783,3 +23783,40 @@
 [2026-04-20 21:01:08] [DEDUP] Ergebnis: 489 Einträge (war: 489, 0 zusammengeführt)
 [2026-04-20 21:01:08] [DEDUP] Kandidaten-Datei: 299 pending, 2 confirmed, 0 rejected
 [2026-04-20 21:01:08] [DEDUP] Gespeichert: 489 → 489 Einträge
+[2026-04-20 22:02:01] === Monitor-Lauf gestartet ===
+[2026-04-20 22:02:02] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-20 22:02:04] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-20 22:02:05] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-20 22:02:05] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-20 22:02:06] Feed 'gn_feuer_klinik': 58 Einträge
+[2026-04-20 22:02:07] Feed 'gn_brand_klinik': 57 Einträge
+[2026-04-20 22:02:07] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-20 22:02:08] Feed 'gn_klinikbrand': 89 Einträge
+[2026-04-20 22:02:08] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-20 22:02:09] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-04-20 22:02:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-20 22:02:10] 225 relevante Treffer in Feeds
+[2026-04-20 22:02:10] ✅ 1 NEUE Einträge gefunden:
+[2026-04-20 22:02:10]    12.02.2026 | in Klinik ausgebrochen |  | Niedersachsen & Bremen: Feuer in Klinik ausgebrochen - keine
+[2026-04-20 22:02:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-20 22:02:10] === Monitor-Lauf beendet ===
+
+[2026-04-20 22:02:11] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-20 22:02:11] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-20 22:02:11] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-20 22:02:11] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-20 22:02:11] [enrich] --- Enriche [1/1]: Niedersachsen & Bremen: Feuer in Klinik ausgebrochen - keine
+[2026-04-20 22:02:11] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feuer-in-Klinik-ausgebro
+[2026-04-20 22:02:12] [enrich] Volltext extrahiert: 4812 Zeichen von https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feue
+[2026-04-20 22:02:16] [enrich] Enrichment abgeschlossen: enriched — Klinik für Psychiatrie, Psychotherapie und Psychosomatik Liebenburg in Liebenburg
+[2026-04-20 22:02:16] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-20 22:02:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-20 22:02:16] [DEDUP] Starte Dedup für 490 Einträge
+[2026-04-20 22:02:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-20 22:02:17] [DEDUP] Paare verglichen: 7357
+[2026-04-20 22:02:17] [DEDUP] Auto-Merges: 0
+[2026-04-20 22:02:17] [DEDUP] Kandidaten (unsicher): 300
+[2026-04-20 22:02:17] [DEDUP] Ergebnis: 490 Einträge (war: 490, 0 zusammengeführt)
+[2026-04-20 22:02:17] [DEDUP] Kandidaten-Datei: 300 pending, 2 confirmed, 0 rejected
+[2026-04-20 22:02:17] [DEDUP] Gespeichert: 490 → 490 Einträge

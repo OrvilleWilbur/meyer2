@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T21:01:08.356026",
+  "generated_at": "2026-04-20T22:02:17.560491",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3235,6 +3235,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.638,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.1111111111111111,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.638
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Dr. Fontheim",
+        "ort": "Liebenburg",
+        "datum": "11.02.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.mz.de/panorama/feuer-in-klinik-im-kreis-goslar-patienten-evakuiert-4197760",
+        "titel": "Großeinsatz: Feuer in Klinik im Kreis Goslar - Patienten evakuiert - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik für Psychiatrie, Psychotherapie und Psychosomatik Liebenburg",
+        "ort": "Liebenburg",
+        "datum": "12.02.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feuer-in-Klinik-ausgebrochen-keine-Verletzten-id30353999.html",
+        "titel": "Niedersachsen & Bremen: Feuer in Klinik ausgebrochen - keine Verletzten - NTV"
       }
     },
     {
