@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T19:32:50.461448",
+  "generated_at": "2026-04-20T21:01:08.356026",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3518,6 +3518,39 @@
       "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.diesachsen.de/unfall-und-verkehr/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus-3106463",
+        "titel": "Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - Die Sachsen News"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
         "datum": "02.02.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -3796,6 +3829,39 @@
         "status": "false_positive",
         "link": "https://www.hessenschau.de/panorama/brandalarm-im-krankenhaus-in-wetzlar-feuerwehr-und-polizei-finden-kein-feuer-v1,klinikum_wetzlar-100.html",
         "titel": "Brandalarm im Krankenhaus in Wetzlar: Feuerwehr und Polizei finden kein Feuer - hessenschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/mann-stirbt-nach-brand-in-hannover-im-krankenhaus-49929039",
+        "titel": "Mann stirbt nach Brand in Hannover im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.diesachsen.de/unfall-und-verkehr/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus-3106463",
+        "titel": "Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - Die Sachsen News"
       }
     },
     {
@@ -5036,6 +5102,39 @@
       "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-02/22/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus",
+        "titel": "Feuer: Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - DIE ZEIT"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.diesachsen.de/unfall-und-verkehr/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus-3106463",
+        "titel": "Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - Die Sachsen News"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
         "datum": "20.02.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -5050,6 +5149,39 @@
         "status": "false_positive",
         "link": "https://www.n-tv.de/regionales/sachsen/Feuer-in-Oelsnitz-Sieben-Menschen-im-Krankenhaus-id30386382.html",
         "titel": "Sachsen: Feuer in Oelsnitz - Sieben Menschen im Krankenhaus - nTV"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hessenschau.de/panorama/brandalarm-im-krankenhaus-in-wetzlar-feuerwehr-und-polizei-finden-kein-feuer-v1,klinikum_wetzlar-100.html",
+        "titel": "Brandalarm im Krankenhaus in Wetzlar: Feuerwehr und Polizei finden kein Feuer - hessenschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.02.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.diesachsen.de/unfall-und-verkehr/kuechenbrand-im-vogtlandkreis-drei-menschen-im-krankenhaus-3106463",
+        "titel": "Küchenbrand im Vogtlandkreis – drei Menschen im Krankenhaus - Die Sachsen News"
       }
     },
     {
