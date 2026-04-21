@@ -23880,3 +23880,40 @@
 [2026-04-20 23:57:45] [DEDUP] Ergebnis: 490 Einträge (war: 490, 0 zusammengeführt)
 [2026-04-20 23:57:45] [DEDUP] Kandidaten-Datei: 300 pending, 2 confirmed, 0 rejected
 [2026-04-20 23:57:45] [DEDUP] Gespeichert: 490 → 490 Einträge
+[2026-04-21 03:44:44] === Monitor-Lauf gestartet ===
+[2026-04-21 03:44:45] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-21 03:44:46] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-21 03:44:47] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-04-21 03:44:47] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-21 03:44:47] Feed 'gn_feuer_klinik': 56 Einträge
+[2026-04-21 03:44:48] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-21 03:44:48] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-21 03:44:48] Feed 'gn_klinikbrand': 75 Einträge
+[2026-04-21 03:44:49] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-21 03:44:49] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-21 03:44:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-21 03:44:50] 219 relevante Treffer in Feeds
+[2026-04-21 03:44:50] ✅ 1 NEUE Einträge gefunden:
+[2026-04-21 03:44:50]    06.08.2025 | im Krankenhaus Hettstedt |  | Mit Video: Feueralarm im Krankenhaus Hettstedt - 63 Menschen
+[2026-04-21 03:44:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-21 03:44:50] === Monitor-Lauf beendet ===
+
+[2026-04-21 03:44:51] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-21 03:44:51] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-21 03:44:51] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-21 03:44:51] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-21 03:44:51] [enrich] --- Enriche [1/1]: Mit Video: Feueralarm im Krankenhaus Hettstedt - 63 Menschen
+[2026-04-21 03:44:51] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/lokal/hettstedt/brand-feuer-krankenhaus-psychiatrie-feuerwehr-
+[2026-04-21 03:44:53] [enrich] Volltext extrahiert: 1477 Zeichen von https://www.mz.de/lokal/hettstedt/brand-feuer-krankenhaus-ps
+[2026-04-21 03:44:55] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Hettstedt in Hettstedt
+[2026-04-21 03:44:55] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-21 03:44:55] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-21 03:44:55] [DEDUP] Starte Dedup für 491 Einträge
+[2026-04-21 03:44:55] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-21 03:44:56] [DEDUP] Paare verglichen: 7357
+[2026-04-21 03:44:56] [DEDUP] Auto-Merges: 0
+[2026-04-21 03:44:56] [DEDUP] Kandidaten (unsicher): 300
+[2026-04-21 03:44:56] [DEDUP] Ergebnis: 491 Einträge (war: 491, 0 zusammengeführt)
+[2026-04-21 03:44:56] [DEDUP] Kandidaten-Datei: 300 pending, 2 confirmed, 0 rejected
+[2026-04-21 03:44:56] [DEDUP] Gespeichert: 491 → 491 Einträge
