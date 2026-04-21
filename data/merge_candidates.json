@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T11:32:57.283824",
+  "generated_at": "2026-04-21T14:07:58.240206",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -9736,6 +9736,105 @@
         "status": "false_positive",
         "link": "https://www.derwesten.de/region/koeln-bombe-entschaerfung-evakuierung-uniklinik-id301700349.html",
         "titel": "Nächste Mega-Evakuierung in Köln – Bombe liegt direkt neben der Uni-Klinik - derwesten.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "03.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://lomazoma.com/einsatz-in-aachen-brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/",
+        "titel": "Einsatz in Aachen: Brand in Mehrfamilienhaus – sieben Menschen im Krankenhaus - lomazoma.com"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/ar-AA2041PE",
+        "titel": "Brand in Mehrfamilienhaus - sieben Menschen im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/regionales/sachsen-anhalt/article69d22dde80914f7611253320/20-jaehriger-laeuft-in-osterfeuer-und-stirbt-im-krankenhaus.html",
+        "titel": "20-Jähriger läuft in Osterfeuer und stirbt im Krankenhaus - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/ar-AA2041PE",
+        "titel": "Brand in Mehrfamilienhaus - sieben Menschen im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/sachsen-anhalt/20-Jaehriger-laeuft-in-Osterfeuer-und-stirbt-im-Krankenhaus-id30683562.html",
+        "titel": "Sachsen-Anhalt: 20-Jähriger läuft in Osterfeuer und stirbt im Krankenhaus - nTV"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/ar-AA2041PE",
+        "titel": "Brand in Mehrfamilienhaus - sieben Menschen im Krankenhaus - MSN"
       }
     },
     {
