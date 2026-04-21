@@ -23917,3 +23917,39 @@
 [2026-04-21 03:44:56] [DEDUP] Ergebnis: 491 Einträge (war: 491, 0 zusammengeführt)
 [2026-04-21 03:44:56] [DEDUP] Kandidaten-Datei: 300 pending, 2 confirmed, 0 rejected
 [2026-04-21 03:44:56] [DEDUP] Gespeichert: 491 → 491 Einträge
+[2026-04-21 06:13:06] === Monitor-Lauf gestartet ===
+[2026-04-21 06:13:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-21 06:13:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-21 06:13:09] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-21 06:13:10] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-21 06:13:10] Feed 'gn_feuer_klinik': 53 Einträge
+[2026-04-21 06:13:11] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-21 06:13:11] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-21 06:13:12] Feed 'gn_klinikbrand': 69 Einträge
+[2026-04-21 06:13:13] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-21 06:13:13] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-21 06:13:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-21 06:13:14] 222 relevante Treffer in Feeds
+[2026-04-21 06:13:14] ✅ 1 NEUE Einträge gefunden:
+[2026-04-21 06:13:14]    21.04.2026 |  |  | SW 2000 wechselt Standort: Feuerwehr stärkt Wasserförderung
+[2026-04-21 06:13:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-21 06:13:14] === Monitor-Lauf beendet ===
+
+[2026-04-21 06:13:15] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-21 06:13:15] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-21 06:13:15] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-21 06:13:15] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-21 06:13:15] [enrich] --- Enriche [1/1]: SW 2000 wechselt Standort: Feuerwehr stärkt Wasserförderung
+[2026-04-21 06:13:16] [enrich] Volltext extrahiert: 2758 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/news/sw-2000-wec
+[2026-04-21 06:13:19] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt die Umpositionierung eines Feuerwehr-Schlauchwagens. Es gibt keinen Brand in einem Krankenhaus oder einer Klinik. Der Text erwähnt 'Brände' nur im allgemeinen Kontext der Feuerwehrausrüstung.
+[2026-04-21 06:13:19] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-21 06:13:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-21 06:13:19] [DEDUP] Starte Dedup für 492 Einträge
+[2026-04-21 06:13:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-21 06:13:20] [DEDUP] Paare verglichen: 7396
+[2026-04-21 06:13:20] [DEDUP] Auto-Merges: 0
+[2026-04-21 06:13:20] [DEDUP] Kandidaten (unsicher): 300
+[2026-04-21 06:13:20] [DEDUP] Ergebnis: 492 Einträge (war: 492, 0 zusammengeführt)
+[2026-04-21 06:13:20] [DEDUP] Kandidaten-Datei: 300 pending, 2 confirmed, 0 rejected
+[2026-04-21 06:13:20] [DEDUP] Gespeichert: 492 → 492 Einträge
