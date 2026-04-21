@@ -24215,3 +24215,40 @@
 [2026-04-21 19:36:44] [DEDUP] Ergebnis: 495 Einträge (war: 495, 0 zusammengeführt)
 [2026-04-21 19:36:44] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
 [2026-04-21 19:36:44] [DEDUP] Gespeichert: 495 → 495 Einträge
+[2026-04-21 21:04:28] === Monitor-Lauf gestartet ===
+[2026-04-21 21:04:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-21 21:04:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-21 21:04:30] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-21 21:04:30] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-04-21 21:04:31] Feed 'gn_feuer_klinik': 52 Einträge
+[2026-04-21 21:04:31] Feed 'gn_brand_klinik': 50 Einträge
+[2026-04-21 21:04:32] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-21 21:04:32] Feed 'gn_klinikbrand': 94 Einträge
+[2026-04-21 21:04:33] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-21 21:04:33] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-21 21:04:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-21 21:04:34] 216 relevante Treffer in Feeds
+[2026-04-21 21:04:34] ✅ 1 NEUE Einträge gefunden:
+[2026-04-21 21:04:34]    07.01.2025 | im Krankenhaus |  | 86-jähriger Mann stirbt nach Brand bei Gardelegen im Kranken
+[2026-04-21 21:04:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-21 21:04:34] === Monitor-Lauf beendet ===
+
+[2026-04-21 21:04:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-21 21:04:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-21 21:04:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-21 21:04:35] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-21 21:04:35] [enrich] --- Enriche [1/1]: 86-jähriger Mann stirbt nach Brand bei Gardelegen im Kranken
+[2026-04-21 21:04:35] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/mitteldeutschland/blaulicht/feuer-flammen-brand-ackendorf-gest
+[2026-04-21 21:04:36] [enrich] Volltext extrahiert: 1038 Zeichen von https://www.mz.de/mitteldeutschland/blaulicht/feuer-flammen-
+[2026-04-21 21:04:37] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnung (Vierseitenhof in Ackendorf), nicht in einem Krankenhaus. Der 86-jährige Mann wurde nach dem Brand zur Behandlung ins Krankenhaus gebracht und starb dort, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-04-21 21:04:37] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-21 21:04:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-21 21:04:37] [DEDUP] Starte Dedup für 496 Einträge
+[2026-04-21 21:04:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-21 21:04:38] [DEDUP] Paare verglichen: 7530
+[2026-04-21 21:04:38] [DEDUP] Auto-Merges: 0
+[2026-04-21 21:04:38] [DEDUP] Kandidaten (unsicher): 303
+[2026-04-21 21:04:38] [DEDUP] Ergebnis: 496 Einträge (war: 496, 0 zusammengeführt)
+[2026-04-21 21:04:38] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
+[2026-04-21 21:04:38] [DEDUP] Gespeichert: 496 → 496 Einträge
