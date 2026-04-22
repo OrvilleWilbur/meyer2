@@ -24387,3 +24387,42 @@
 [2026-04-22 03:41:46] [DEDUP] Ergebnis: 498 Einträge (war: 498, 0 zusammengeführt)
 [2026-04-22 03:41:46] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
 [2026-04-22 03:41:46] [DEDUP] Gespeichert: 498 → 498 Einträge
+[2026-04-22 06:09:31] === Monitor-Lauf gestartet ===
+[2026-04-22 06:09:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 06:09:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 06:09:34] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-22 06:09:34] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-22 06:09:35] Feed 'gn_feuer_klinik': 51 Einträge
+[2026-04-22 06:09:35] Feed 'gn_brand_klinik': 51 Einträge
+[2026-04-22 06:09:35] Feed 'gn_brand_klinikum': 31 Einträge
+[2026-04-22 06:09:36] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-22 06:09:36] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-22 06:09:37] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-22 06:09:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 06:09:38] 208 relevante Treffer in Feeds
+[2026-04-22 06:09:38] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 06:09:38]    05.05.2017 | Püttlinger Klinik |  | Zwei Patientinnen sterben bei Brand in Püttlinger Klinik - S
+[2026-04-22 06:09:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 06:09:38] === Monitor-Lauf beendet ===
+
+[2026-04-22 06:09:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 06:09:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 06:09:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 06:09:38] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 06:09:38] [enrich] --- Enriche [1/1]: Zwei Patientinnen sterben bei Brand in Püttlinger Klinik - S
+[2026-04-22 06:09:39] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/saarbruecken/puettlingen/zwei-patie
+[2026-04-22 06:09:39] [enrich] Volltext extrahiert: 2207 Zeichen von https://www.saarbruecker-zeitung.de/saarland/saarbruecken/pu
+[2026-04-22 06:09:43] [enrich] Enrichment abgeschlossen: enriched — Knappschaftsklinik Püttlingen in Püttlingen
+[2026-04-22 06:09:43] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-22 06:09:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 06:09:43] [DEDUP] Starte Dedup für 499 Einträge
+[2026-04-22 06:09:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 06:09:44] [DEDUP] Auto-Merge (0.96): Knappschaftsklinik Püttlingen / Püttlingen ↔ Knappschaftsklinik Püttlingen / Püttlingen
+[2026-04-22 06:09:44] [DEDUP] Paare verglichen: 7575
+[2026-04-22 06:09:44] [DEDUP] Auto-Merges: 1
+[2026-04-22 06:09:44] [DEDUP] Kandidaten (unsicher): 303
+[2026-04-22 06:09:44] [DEDUP] Cluster 2x: Knappschaftsklinik Püttlingen, Knappschaftsklinik Püttlingen
+[2026-04-22 06:09:44] [DEDUP] Ergebnis: 498 Einträge (war: 499, 1 zusammengeführt)
+[2026-04-22 06:09:44] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
+[2026-04-22 06:09:44] [DEDUP] Gespeichert: 499 → 498 Einträge
