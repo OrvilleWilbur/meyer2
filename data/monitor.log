@@ -24349,3 +24349,41 @@
 [2026-04-21 23:50:52] [DEDUP] Ergebnis: 497 Einträge (war: 497, 0 zusammengeführt)
 [2026-04-21 23:50:52] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
 [2026-04-21 23:50:52] [DEDUP] Gespeichert: 497 → 497 Einträge
+[2026-04-22 03:41:31] === Monitor-Lauf gestartet ===
+[2026-04-22 03:41:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 03:41:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 03:41:35] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-22 03:41:35] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-22 03:41:36] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-22 03:41:37] Feed 'gn_brand_klinik': 52 Einträge
+[2026-04-22 03:41:37] Feed 'gn_brand_klinikum': 31 Einträge
+[2026-04-22 03:41:38] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-22 03:41:38] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-22 03:41:39] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-22 03:41:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 03:41:40] 213 relevante Treffer in Feeds
+[2026-04-22 03:41:40] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 03:41:40]    19.06.2025 |  |  | Großalarm: Freiwillige Feuerwehr Dreierwalde übt den Ernstfa
+[2026-04-22 03:41:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 03:41:40] === Monitor-Lauf beendet ===
+
+[2026-04-22 03:41:42] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 03:41:42] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 03:41:42] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 03:41:42] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 03:41:42] [enrich] --- Enriche [1/1]: Großalarm: Freiwillige Feuerwehr Dreierwalde übt den Ernstfa
+[2026-04-22 03:41:42] [enrich] Google News URL aufgelöst (v1): https://www.lokalkompass.de/marl/c-blaulicht/grossalarm-freiwillige-feuerwehr-dr
+[2026-04-22 03:41:44] [enrich] Artikel-Fetch fehlgeschlagen für https://www.lokalkompass.de/marl/c-blaulicht/grossalarm-freiwillige-feuerwehr-dr: 404 Client Error: Not Found for url: https://wvw-anzeigenblaetter.de/marl/c-blaulicht/grossalarm-freiwillige-feuerwehr-dreierwalde-uebt-den-ernstfall-in-der-lwl-forensik_a2061047
+[2026-04-22 03:41:44] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (609 Z.)
+[2026-04-22 03:41:45] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung, kein echter Brand in einem Krankenhaus
+[2026-04-22 03:41:45] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-22 03:41:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 03:41:45] [DEDUP] Starte Dedup für 498 Einträge
+[2026-04-22 03:41:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 03:41:46] [DEDUP] Paare verglichen: 7574
+[2026-04-22 03:41:46] [DEDUP] Auto-Merges: 0
+[2026-04-22 03:41:46] [DEDUP] Kandidaten (unsicher): 303
+[2026-04-22 03:41:46] [DEDUP] Ergebnis: 498 Einträge (war: 498, 0 zusammengeführt)
+[2026-04-22 03:41:46] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
+[2026-04-22 03:41:46] [DEDUP] Gespeichert: 498 → 498 Einträge
