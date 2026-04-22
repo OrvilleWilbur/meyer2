@@ -24672,3 +24672,42 @@
 [2026-04-22 18:12:53] [DEDUP] Ergebnis: 503 Einträge (war: 503, 0 zusammengeführt)
 [2026-04-22 18:12:53] [DEDUP] Kandidaten-Datei: 305 pending, 2 confirmed, 0 rejected
 [2026-04-22 18:12:53] [DEDUP] Gespeichert: 503 → 503 Einträge
+[2026-04-22 19:37:42] === Monitor-Lauf gestartet ===
+[2026-04-22 19:37:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 19:37:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 19:37:44] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-04-22 19:37:45] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-22 19:37:45] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-22 19:37:46] Feed 'gn_brand_klinik': 51 Einträge
+[2026-04-22 19:37:46] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-22 19:37:47] Feed 'gn_klinikbrand': 99 Einträge
+[2026-04-22 19:37:47] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-22 19:37:48] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-04-22 19:37:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 19:37:49] 216 relevante Treffer in Feeds
+[2026-04-22 19:37:49] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 19:37:49]    30.09.2016 | Bochumer Krankenhaus |  | Tragödie in Bochumer Krankenhaus: Feuer womöglich von Patien
+[2026-04-22 19:37:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 19:37:49] === Monitor-Lauf beendet ===
+
+[2026-04-22 19:37:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 19:37:49] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 19:37:49] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 19:37:49] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 19:37:49] [enrich] --- Enriche [1/1]: Tragödie in Bochumer Krankenhaus: Feuer womöglich von Patien
+[2026-04-22 19:37:50] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Feuer-womoeglich-von-Patientin-gelegt-article187654
+[2026-04-22 19:37:50] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.n-tv.de/panorama/Feuer-womoeglich-von-Patientin-
+[2026-04-22 19:37:55] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-04-22 19:37:55] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-22 19:37:55] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 19:37:56] [DEDUP] Starte Dedup für 504 Einträge
+[2026-04-22 19:37:56] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 19:37:56] [DEDUP] Auto-Merge (0.92): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-04-22 19:37:56] [DEDUP] Paare verglichen: 7683
+[2026-04-22 19:37:56] [DEDUP] Auto-Merges: 1
+[2026-04-22 19:37:56] [DEDUP] Kandidaten (unsicher): 306
+[2026-04-22 19:37:56] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-04-22 19:37:56] [DEDUP] Ergebnis: 503 Einträge (war: 504, 1 zusammengeführt)
+[2026-04-22 19:37:56] [DEDUP] Kandidaten-Datei: 306 pending, 2 confirmed, 0 rejected
+[2026-04-22 19:37:56] [DEDUP] Gespeichert: 504 → 503 Einträge
