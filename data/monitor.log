@@ -24567,3 +24567,41 @@
 [2026-04-22 14:07:59] [DEDUP] Ergebnis: 501 Einträge (war: 501, 0 zusammengeführt)
 [2026-04-22 14:07:59] [DEDUP] Kandidaten-Datei: 305 pending, 2 confirmed, 0 rejected
 [2026-04-22 14:07:59] [DEDUP] Gespeichert: 501 → 501 Einträge
+[2026-04-22 15:39:42] === Monitor-Lauf gestartet ===
+[2026-04-22 15:39:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 15:39:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 15:39:44] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-22 15:39:44] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-22 15:39:45] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-22 15:39:45] Feed 'gn_brand_klinik': 42 Einträge
+[2026-04-22 15:39:45] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-22 15:39:46] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-22 15:39:46] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-22 15:39:47] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-22 15:39:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 15:39:48] 212 relevante Treffer in Feeds
+[2026-04-22 15:39:48] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 15:39:48]    06.04.2026 | von Krankenhaus |  | Balkonbrand in Nähe von Krankenhaus - Feuer gelöscht - MSN
+[2026-04-22 15:39:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 15:39:48] === Monitor-Lauf beendet ===
+
+[2026-04-22 15:39:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 15:39:49] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 15:39:49] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 15:39:49] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 15:39:49] [enrich] --- Enriche [1/1]: Balkonbrand in Nähe von Krankenhaus - Feuer gelöscht - MSN
+[2026-04-22 15:39:49] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/wohnungsbrand-in-n%C3%A4he-von-kra
+[2026-04-22 15:39:49] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/wohnungsbrand-in-n%C3%A4he-von-kra
+[2026-04-22 15:39:49] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (506 Z.)
+[2026-04-22 15:39:50] [enrich] FALSE POSITIVE erkannt: Brand in der Nähe eines Krankenhauses, aber nicht im Krankenhaus selbst (Balkonbrand)
+[2026-04-22 15:39:50] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-22 15:39:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 15:39:50] [DEDUP] Starte Dedup für 502 Einträge
+[2026-04-22 15:39:50] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 15:39:51] [DEDUP] Paare verglichen: 7675
+[2026-04-22 15:39:51] [DEDUP] Auto-Merges: 0
+[2026-04-22 15:39:51] [DEDUP] Kandidaten (unsicher): 305
+[2026-04-22 15:39:51] [DEDUP] Ergebnis: 502 Einträge (war: 502, 0 zusammengeführt)
+[2026-04-22 15:39:51] [DEDUP] Kandidaten-Datei: 305 pending, 2 confirmed, 0 rejected
+[2026-04-22 15:39:51] [DEDUP] Gespeichert: 502 → 502 Einträge
