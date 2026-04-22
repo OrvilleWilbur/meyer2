@@ -24463,3 +24463,40 @@
 [2026-04-22 08:05:02] [DEDUP] Ergebnis: 499 Einträge (war: 499, 0 zusammengeführt)
 [2026-04-22 08:05:02] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
 [2026-04-22 08:05:02] [DEDUP] Gespeichert: 499 → 499 Einträge
+[2026-04-22 09:50:54] === Monitor-Lauf gestartet ===
+[2026-04-22 09:50:55] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 09:50:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 09:50:56] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-22 09:50:57] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-22 09:50:57] Feed 'gn_feuer_klinik': 52 Einträge
+[2026-04-22 09:50:57] Feed 'gn_brand_klinik': 51 Einträge
+[2026-04-22 09:50:58] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-22 09:50:58] Feed 'gn_klinikbrand': 86 Einträge
+[2026-04-22 09:50:59] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-04-22 09:50:59] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-22 09:51:00] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 09:51:00] 217 relevante Treffer in Feeds
+[2026-04-22 09:51:00] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 09:51:00]    21.04.2026 | Schweizer Klinik |  | Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe
+[2026-04-22 09:51:00] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 09:51:00] === Monitor-Lauf beendet ===
+
+[2026-04-22 09:51:01] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 09:51:01] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 09:51:01] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 09:51:01] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 09:51:01] [enrich] --- Enriche [1/1]: Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe
+[2026-04-22 09:51:02] [enrich] Google News URL aufgelöst (v1): https://de.nachrichten.yahoo.com/brand-crans-montana-meloni-erhebt-145128275.htm
+[2026-04-22 09:51:02] [enrich] Volltext extrahiert: 860 Zeichen von https://de.nachrichten.yahoo.com/brand-crans-montana-meloni-
+[2026-04-22 09:51:03] [enrich] FALSE POSITIVE erkannt: Der Artikel ist eine Datenschutzerklärung von Yahoo und enthält keinerlei Informationen über einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-04-22 09:51:03] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-22 09:51:03] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 09:51:03] [DEDUP] Starte Dedup für 500 Einträge
+[2026-04-22 09:51:03] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 09:51:04] [DEDUP] Paare verglichen: 7629
+[2026-04-22 09:51:04] [DEDUP] Auto-Merges: 0
+[2026-04-22 09:51:04] [DEDUP] Kandidaten (unsicher): 303
+[2026-04-22 09:51:04] [DEDUP] Ergebnis: 500 Einträge (war: 500, 0 zusammengeführt)
+[2026-04-22 09:51:04] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
+[2026-04-22 09:51:04] [DEDUP] Gespeichert: 500 → 500 Einträge
