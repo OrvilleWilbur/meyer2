@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T22:03:43.140687",
+  "generated_at": "2026-04-22T23:05:56.273777",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -9901,6 +9901,39 @@
         "status": "false_positive",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/ar-AA2041PE",
         "titel": "Brand in Mehrfamilienhaus - sieben Menschen im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "02.10.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/leverkusen/brand-in-leverkusen-zwei-menschen-im-krankenhaus_aid-136128501",
+        "titel": "Einsatz in Leverkusen: Brand in Bürrig – zwei Menschen im Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "03.10.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-b%C3%BCrrig-zwei-menschen-im-krankenhaus/ar-AA1NJ3Bq",
+        "titel": "Brand in Bürrig – zwei Menschen im Krankenhaus - MSN"
       }
     },
     {
