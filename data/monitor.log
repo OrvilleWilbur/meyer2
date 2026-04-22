@@ -24530,3 +24530,40 @@
 [2026-04-22 11:21:10] [DEDUP] Ergebnis: 500 Einträge (war: 500, 0 zusammengeführt)
 [2026-04-22 11:21:10] [DEDUP] Kandidaten-Datei: 303 pending, 2 confirmed, 0 rejected
 [2026-04-22 11:21:10] [DEDUP] Gespeichert: 500 → 500 Einträge
+[2026-04-22 14:07:46] === Monitor-Lauf gestartet ===
+[2026-04-22 14:07:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-22 14:07:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-22 14:07:48] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-22 14:07:49] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-04-22 14:07:49] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-22 14:07:50] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-22 14:07:50] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-04-22 14:07:51] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-22 14:07:51] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-04-22 14:07:51] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-04-22 14:07:53] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-22 14:07:53] 210 relevante Treffer in Feeds
+[2026-04-22 14:07:53] ✅ 1 NEUE Einträge gefunden:
+[2026-04-22 14:07:53]    04.01.2025 | im Krankenhaus |  | Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstor
+[2026-04-22 14:07:53] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-22 14:07:53] === Monitor-Lauf beendet ===
+
+[2026-04-22 14:07:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-22 14:07:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-22 14:07:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-22 14:07:54] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-22 14:07:54] [enrich] --- Enriche [1/1]: Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstor
+[2026-04-22 14:07:54] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenha
+[2026-04-22 14:07:55] [enrich] Volltext extrahiert: 2111 Zeichen von https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide
+[2026-04-22 14:07:58] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Uelzen in Uelzen
+[2026-04-22 14:07:58] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-22 14:07:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-22 14:07:58] [DEDUP] Starte Dedup für 501 Einträge
+[2026-04-22 14:07:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-22 14:07:59] [DEDUP] Paare verglichen: 7631
+[2026-04-22 14:07:59] [DEDUP] Auto-Merges: 0
+[2026-04-22 14:07:59] [DEDUP] Kandidaten (unsicher): 305
+[2026-04-22 14:07:59] [DEDUP] Ergebnis: 501 Einträge (war: 501, 0 zusammengeführt)
+[2026-04-22 14:07:59] [DEDUP] Kandidaten-Datei: 305 pending, 2 confirmed, 0 rejected
+[2026-04-22 14:07:59] [DEDUP] Gespeichert: 501 → 501 Einträge
