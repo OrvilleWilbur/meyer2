@@ -25201,3 +25201,41 @@
 [2026-04-23 22:00:41] [DEDUP] Ergebnis: 508 Einträge (war: 508, 0 zusammengeführt)
 [2026-04-23 22:00:41] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-23 22:00:41] [DEDUP] Gespeichert: 508 → 508 Einträge
+[2026-04-23 23:06:02] === Monitor-Lauf gestartet ===
+[2026-04-23 23:06:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-23 23:06:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-23 23:06:05] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-23 23:06:05] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-23 23:06:06] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-04-23 23:06:06] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-23 23:06:07] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-04-23 23:06:07] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-23 23:06:08] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-04-23 23:06:08] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-23 23:06:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-23 23:06:09] 215 relevante Treffer in Feeds
+[2026-04-23 23:06:09] ✅ 1 NEUE Einträge gefunden:
+[2026-04-23 23:06:09]    21.04.2026 | in Klinik drei Verdächtige gefasst |  | Nach Brand in Klinik drei Verdächtige gefasst - MSN
+[2026-04-23 23:06:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-23 23:06:09] === Monitor-Lauf beendet ===
+
+[2026-04-23 23:06:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-23 23:06:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-23 23:06:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-23 23:06:10] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-23 23:06:10] [enrich] --- Enriche [1/1]: Nach Brand in Klinik drei Verdächtige gefasst - MSN
+[2026-04-23 23:06:10] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/nach-brand-in-klinik-drei-verd%C3%
+[2026-04-23 23:06:10] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/nach-brand-in-klinik-drei-verd%C3%
+[2026-04-23 23:06:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (450 Z.)
+[2026-04-23 23:06:13] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne detaillierte Informationen. Es ist unklar, ob tatsächlich ein Brand IN einer Klinik stattgefunden hat oder ob es sich um einen anderen Vorfall handelt. Die Überschrift allein reicht nicht aus, um einen Krankenhausbrand zu verifizieren. Zudem fehlen alle relevanten Details (Ort, Datum, Einrichtung, Branddetails).
+[2026-04-23 23:06:13] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-23 23:06:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-23 23:06:13] [DEDUP] Starte Dedup für 509 Einträge
+[2026-04-23 23:06:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-23 23:06:14] [DEDUP] Paare verglichen: 7934
+[2026-04-23 23:06:14] [DEDUP] Auto-Merges: 0
+[2026-04-23 23:06:14] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-23 23:06:14] [DEDUP] Ergebnis: 509 Einträge (war: 509, 0 zusammengeführt)
+[2026-04-23 23:06:14] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-23 23:06:14] [DEDUP] Gespeichert: 509 → 509 Einträge
