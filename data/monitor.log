@@ -24915,3 +24915,41 @@
 [2026-04-23 06:16:54] [DEDUP] Ergebnis: 506 Einträge (war: 506, 0 zusammengeführt)
 [2026-04-23 06:16:54] [DEDUP] Kandidaten-Datei: 307 pending, 2 confirmed, 0 rejected
 [2026-04-23 06:16:54] [DEDUP] Gespeichert: 506 → 506 Einträge
+[2026-04-23 08:12:11] === Monitor-Lauf gestartet ===
+[2026-04-23 08:12:12] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-23 08:12:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-23 08:12:13] Feed 'gn_brand_krankenhaus': 41 Einträge
+[2026-04-23 08:12:14] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-23 08:12:14] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-04-23 08:12:14] Feed 'gn_brand_klinik': 49 Einträge
+[2026-04-23 08:12:15] Feed 'gn_brand_klinikum': 28 Einträge
+[2026-04-23 08:12:15] Feed 'gn_klinikbrand': 88 Einträge
+[2026-04-23 08:12:16] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-23 08:12:16] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-23 08:12:17] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-23 08:12:17] 206 relevante Treffer in Feeds
+[2026-04-23 08:12:17] ✅ 1 NEUE Einträge gefunden:
+[2026-04-23 08:12:17]    19.04.2026 | verlassenem Krankenhaus |  | Millionenschaden bei Brand in verlassenem Krankenhaus - MSN
+[2026-04-23 08:12:17] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-23 08:12:17] === Monitor-Lauf beendet ===
+
+[2026-04-23 08:12:19] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-23 08:12:19] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-23 08:12:19] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-23 08:12:19] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-23 08:12:19] [enrich] --- Enriche [1/1]: Millionenschaden bei Brand in verlassenem Krankenhaus - MSN
+[2026-04-23 08:12:20] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verl
+[2026-04-23 08:12:20] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verl
+[2026-04-23 08:12:20] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (472 Z.)
+[2026-04-23 08:12:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem verlassenen (nicht mehr in Betrieb befindlichen) Krankenhaus. Dies ist kein aktiver Krankenhausbrand im Sinne einer Einrichtung, in der Patienten behandelt werden. Zudem ist nur eine Überschrift ohne Artikelinhalt vorhanden, die keine hinreichenden Informationen für eine sachliche Bewertung liefert.
+[2026-04-23 08:12:22] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-23 08:12:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-23 08:12:22] [DEDUP] Starte Dedup für 507 Einträge
+[2026-04-23 08:12:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-23 08:12:23] [DEDUP] Paare verglichen: 7837
+[2026-04-23 08:12:23] [DEDUP] Auto-Merges: 0
+[2026-04-23 08:12:23] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-23 08:12:23] [DEDUP] Ergebnis: 507 Einträge (war: 507, 0 zusammengeführt)
+[2026-04-23 08:12:23] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-23 08:12:23] [DEDUP] Gespeichert: 507 → 507 Einträge

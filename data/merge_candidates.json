@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T06:16:54.250124",
+  "generated_at": "2026-04-23T08:12:23.107787",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -9934,6 +9934,39 @@
         "status": "false_positive",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-sieben-menschen-im-krankenhaus/ar-AA2041PE",
         "titel": "Brand in Mehrfamilienhaus - sieben Menschen im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "20.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr-millionenschaden-bei-brand-in-verlassenem-krankenhaus-in-zweibruecken-100.html",
+        "titel": "Rheinland-Pfalz: Verdächtige nach Brand in verlassenem Krankenhaus in Zweibrücken festgenommen - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verlassenem-krankenhaus/ar-AA21eB9d",
+        "titel": "Millionenschaden bei Brand in verlassenem Krankenhaus - MSN"
       }
     },
     {
