@@ -25013,3 +25013,41 @@
 [2026-04-23 11:35:45] [DEDUP] Ergebnis: 507 Einträge (war: 507, 0 zusammengeführt)
 [2026-04-23 11:35:45] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-23 11:35:45] [DEDUP] Gespeichert: 507 → 507 Einträge
+[2026-04-23 14:09:27] === Monitor-Lauf gestartet ===
+[2026-04-23 14:09:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-23 14:09:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-23 14:09:30] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-23 14:09:31] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-04-23 14:09:31] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-23 14:09:32] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-23 14:09:32] Feed 'gn_brand_klinikum': 25 Einträge
+[2026-04-23 14:09:33] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-23 14:09:33] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-04-23 14:09:34] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-23 14:09:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-23 14:09:35] 208 relevante Treffer in Feeds
+[2026-04-23 14:09:35] ✅ 1 NEUE Einträge gefunden:
+[2026-04-23 14:09:35]    21.04.2026 | in Klinik gebracht |  | Brand in Hochhaus - 20 Personen in Klinik gebracht - MSN
+[2026-04-23 14:09:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-23 14:09:35] === Monitor-Lauf beendet ===
+
+[2026-04-23 14:09:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-23 14:09:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-23 14:09:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-23 14:09:35] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-23 14:09:35] [enrich] --- Enriche [1/1]: Brand in Hochhaus - 20 Personen in Klinik gebracht - MSN
+[2026-04-23 14:09:36] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/brand-in-hochhaus-20-personen-in-
+[2026-04-23 14:09:36] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/brand-in-hochhaus-20-personen-in-
+[2026-04-23 14:09:36] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (459 Z.)
+[2026-04-23 14:09:37] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Hochhaus, bei dem Personen zur Behandlung in eine Klinik gebracht wurden. Dies ist kein Brand IN einem Krankenhaus/einer Klinik, sondern ein Wohnungsbrand mit anschließender medizinischer Versorgung der Opfer.
+[2026-04-23 14:09:37] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-23 14:09:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-23 14:09:38] [DEDUP] Starte Dedup für 508 Einträge
+[2026-04-23 14:09:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-23 14:09:38] [DEDUP] Paare verglichen: 7885
+[2026-04-23 14:09:38] [DEDUP] Auto-Merges: 0
+[2026-04-23 14:09:38] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-23 14:09:38] [DEDUP] Ergebnis: 508 Einträge (war: 508, 0 zusammengeführt)
+[2026-04-23 14:09:38] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-23 14:09:38] [DEDUP] Gespeichert: 508 → 508 Einträge
