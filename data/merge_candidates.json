@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T15:36:41.044454",
+  "generated_at": "2026-04-24T17:12:36.719239",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -232,6 +232,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.76,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.6666666666666666,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.76
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin, Stadtteil Zehlendorf",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-patientin-stirbt-in-brennendem-krankenhausbett-94249217.html",
+        "titel": "Krankenhausbett steht lichterloh in Flammen – Patientin (†64) tot - Rosenheim24"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin-Zehlendorf",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
+        "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
       }
     },
     {
@@ -2476,6 +2509,39 @@
         "status": "enriched",
         "link": "https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand-in-saarbruecker-klinik-feuer-verursacht-millionenschaden_a676206",
         "titel": "Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursacht Millionenschaden - Saarland - Wochenblatt Reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.657,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.657
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Zehlendorf",
+        "ort": "Berlin",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jaehrige-patientin-stirbt-EQ7JW5N7BNAWTM6OKXIAMEAZMQ.html",
+        "titel": "Feuer in Berliner Krankenhaus: Bett in Flammen – 64-jährige Patientin stirbt - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin-Zehlendorf",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
+        "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
       }
     },
     {

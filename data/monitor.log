@@ -25493,3 +25493,46 @@
 [2026-04-24 15:36:41] [DEDUP] Ergebnis: 511 Einträge (war: 511, 0 zusammengeführt)
 [2026-04-24 15:36:41] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-24 15:36:41] [DEDUP] Gespeichert: 511 → 511 Einträge
+[2026-04-24 17:12:21] === Monitor-Lauf gestartet ===
+[2026-04-24 17:12:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 17:12:24] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 17:12:24] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-24 17:12:25] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-24 17:12:25] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-04-24 17:12:25] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-24 17:12:26] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-24 17:12:26] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-24 17:12:27] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-04-24 17:12:27] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-24 17:12:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 17:12:28] 209 relevante Treffer in Feeds
+[2026-04-24 17:12:28] ✅ 2 NEUE Einträge gefunden:
+[2026-04-24 17:12:28]    04.04.2026 | Berliner Klinik |  | Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik
+[2026-04-24 17:12:28]    15.04.2026 | in Klinik |  | Säugling muss nach Brand zur Beobachtung in Klinik - MSN
+[2026-04-24 17:12:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 17:12:28] === Monitor-Lauf beendet ===
+
+[2026-04-24 17:12:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 17:12:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 17:12:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 17:12:29] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 17:12:29] [enrich] --- Enriche [1/2]: Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik
+[2026-04-24 17:12:29] [enrich] Google News URL aufgelöst (v1): https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-6
+[2026-04-24 17:12:30] [enrich] Volltext extrahiert: 1646 Zeichen von https://www.morgenpost.de/berlin/article411637721/nach-brand
+[2026-04-24 17:12:32] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Emil von Behring in Berlin-Zehlendorf
+[2026-04-24 17:12:33] [enrich] --- Enriche [2/2]: Säugling muss nach Brand zur Beobachtung in Klinik - MSN
+[2026-04-24 17:12:34] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/s%C3%A4ugling-muss-nach-brand-zur
+[2026-04-24 17:12:34] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/s%C3%A4ugling-muss-nach-brand-zur
+[2026-04-24 17:12:34] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (471 Z.)
+[2026-04-24 17:12:35] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand, bei dem ein Säugling zur Beobachtung ins Krankenhaus gebracht wird. Dies ist keine Brand IN einem Krankenhaus, sondern ein Brand außerhalb, nach dem das Opfer zur medizinischen Behandlung in eine Klinik eingeliefert wird.
+[2026-04-24 17:12:35] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-24 17:12:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 17:12:35] [DEDUP] Starte Dedup für 513 Einträge
+[2026-04-24 17:12:35] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 17:12:36] [DEDUP] Paare verglichen: 7990
+[2026-04-24 17:12:36] [DEDUP] Auto-Merges: 0
+[2026-04-24 17:12:36] [DEDUP] Kandidaten (unsicher): 310
+[2026-04-24 17:12:36] [DEDUP] Ergebnis: 513 Einträge (war: 513, 0 zusammengeführt)
+[2026-04-24 17:12:36] [DEDUP] Kandidaten-Datei: 310 pending, 2 confirmed, 0 rejected
+[2026-04-24 17:12:36] [DEDUP] Gespeichert: 513 → 513 Einträge
