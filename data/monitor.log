@@ -25366,3 +25366,40 @@
 [2026-04-24 09:09:09] [DEDUP] Ergebnis: 510 Einträge (war: 510, 0 zusammengeführt)
 [2026-04-24 09:09:09] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-24 09:09:09] [DEDUP] Gespeichert: 510 → 510 Einträge
+[2026-04-24 10:44:04] === Monitor-Lauf gestartet ===
+[2026-04-24 10:44:05] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 10:44:06] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 10:44:06] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-24 10:44:07] Feed 'gn_feuer_krankenhaus': 37 Einträge
+[2026-04-24 10:44:07] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-24 10:44:07] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-24 10:44:08] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-24 10:44:08] Feed 'gn_klinikbrand': 86 Einträge
+[2026-04-24 10:44:09] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-24 10:44:09] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-24 10:44:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 10:44:10] 205 relevante Treffer in Feeds
+[2026-04-24 10:44:10] ✅ 1 NEUE Einträge gefunden:
+[2026-04-24 10:44:10]    28.02.2019 |  |  | Krankenhaus in Viersen: Brand im AKH — Feuerwehr im Großeins
+[2026-04-24 10:44:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 10:44:10] === Monitor-Lauf beendet ===
+
+[2026-04-24 10:44:11] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 10:44:11] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 10:44:11] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 10:44:11] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 10:44:11] [enrich] --- Enriche [1/1]: Krankenhaus in Viersen: Brand im AKH — Feuerwehr im Großeins
+[2026-04-24 10:44:12] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/viersen/brand-im-krankenhaus-in-viersen-feuerwe
+[2026-04-24 10:44:13] [enrich] Volltext extrahiert: 822 Zeichen von https://rp-online.de/nrw/staedte/viersen/brand-im-krankenhau
+[2026-04-24 10:44:16] [enrich] Enrichment abgeschlossen: enriched — Allgemeines Krankenhaus (AKH) Viersen in Viersen
+[2026-04-24 10:44:16] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-24 10:44:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 10:44:16] [DEDUP] Starte Dedup für 511 Einträge
+[2026-04-24 10:44:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 10:44:16] [DEDUP] Paare verglichen: 7938
+[2026-04-24 10:44:16] [DEDUP] Auto-Merges: 0
+[2026-04-24 10:44:16] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-24 10:44:16] [DEDUP] Ergebnis: 511 Einträge (war: 511, 0 zusammengeführt)
+[2026-04-24 10:44:16] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-24 10:44:16] [DEDUP] Gespeichert: 511 → 511 Einträge
