@@ -25635,3 +25635,40 @@
 [2026-04-24 20:00:14] [DEDUP] Ergebnis: 513 Einträge (war: 513, 0 zusammengeführt)
 [2026-04-24 20:00:14] [DEDUP] Kandidaten-Datei: 310 pending, 2 confirmed, 0 rejected
 [2026-04-24 20:00:14] [DEDUP] Gespeichert: 513 → 513 Einträge
+[2026-04-24 21:05:31] === Monitor-Lauf gestartet ===
+[2026-04-24 21:05:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 21:05:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 21:05:34] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-24 21:05:34] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-24 21:05:34] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-24 21:05:35] Feed 'gn_brand_klinik': 46 Einträge
+[2026-04-24 21:05:35] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-24 21:05:36] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-24 21:05:36] Feed 'gn_feuer_uniklinik': 23 Einträge
+[2026-04-24 21:05:36] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-24 21:05:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 21:05:37] 209 relevante Treffer in Feeds
+[2026-04-24 21:05:37] ✅ 1 NEUE Einträge gefunden:
+[2026-04-24 21:05:37]    13.09.2019 | Erneuter Krankenhaus |  | Erneuter Krankenhaus-Brand in NRW: Feuer in Klinik in Bergis
+[2026-04-24 21:05:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 21:05:37] === Monitor-Lauf beendet ===
+
+[2026-04-24 21:05:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 21:05:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 21:05:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 21:05:38] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 21:05:38] [enrich] --- Enriche [1/1]: Erneuter Krankenhaus-Brand in NRW: Feuer in Klinik in Bergis
+[2026-04-24 21:05:39] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/panorama/bergisch-gladbach-brand-in-marien-krankenhaus-
+[2026-04-24 21:05:39] [enrich] Volltext extrahiert: 1586 Zeichen von https://rp-online.de/nrw/panorama/bergisch-gladbach-brand-in
+[2026-04-24 21:05:43] [enrich] Enrichment abgeschlossen: enriched — Marien-Krankenhaus Bergisch Gladbach in Bergisch Gladbach
+[2026-04-24 21:05:43] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-24 21:05:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 21:05:43] [DEDUP] Starte Dedup für 514 Einträge
+[2026-04-24 21:05:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 21:05:44] [DEDUP] Paare verglichen: 7991
+[2026-04-24 21:05:44] [DEDUP] Auto-Merges: 0
+[2026-04-24 21:05:44] [DEDUP] Kandidaten (unsicher): 310
+[2026-04-24 21:05:44] [DEDUP] Ergebnis: 514 Einträge (war: 514, 0 zusammengeführt)
+[2026-04-24 21:05:44] [DEDUP] Kandidaten-Datei: 310 pending, 2 confirmed, 0 rejected
+[2026-04-24 21:05:44] [DEDUP] Gespeichert: 514 → 514 Einträge
