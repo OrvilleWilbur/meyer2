@@ -25329,3 +25329,40 @@
 [2026-04-24 06:20:00] [DEDUP] Ergebnis: 509 Einträge (war: 509, 0 zusammengeführt)
 [2026-04-24 06:20:00] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-24 06:20:00] [DEDUP] Gespeichert: 509 → 509 Einträge
+[2026-04-24 09:08:57] === Monitor-Lauf gestartet ===
+[2026-04-24 09:08:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 09:08:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 09:08:59] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-24 09:08:59] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-04-24 09:08:59] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-24 09:09:00] Feed 'gn_brand_klinik': 47 Einträge
+[2026-04-24 09:09:00] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-24 09:09:01] Feed 'gn_klinikbrand': 87 Einträge
+[2026-04-24 09:09:01] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-04-24 09:09:01] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-24 09:09:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 09:09:03] 211 relevante Treffer in Feeds
+[2026-04-24 09:09:03] ✅ 1 NEUE Einträge gefunden:
+[2026-04-24 09:09:03]    21.06.2024 |  |  | Feuer in Kölner U-Bahn-Station - Ursache gefunden - Goslarsc
+[2026-04-24 09:09:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 09:09:03] === Monitor-Lauf beendet ===
+
+[2026-04-24 09:09:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 09:09:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 09:09:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 09:09:03] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 09:09:03] [enrich] --- Enriche [1/1]: Feuer in Kölner U-Bahn-Station - Ursache gefunden - Goslarsc
+[2026-04-24 09:09:04] [enrich] Google News URL aufgelöst (v1): https://www.goslarsche.de/Nachrichten/Feuer-in-Koelner-U-Bahn-Station-Ursache-ge
+[2026-04-24 09:09:05] [enrich] Volltext extrahiert: 446 Zeichen von https://www.goslarsche.de/Nachrichten/Feuer-in-Koelner-U-Bah
+[2026-04-24 09:09:08] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einer U-Bahn-Station, nicht in einem Krankenhaus. Die Erwähnung des Krankenhauses bezieht sich nur auf die Behandlung von Brandopfern, nicht auf einen Brand im Krankenhaus selbst.
+[2026-04-24 09:09:08] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-24 09:09:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 09:09:08] [DEDUP] Starte Dedup für 510 Einträge
+[2026-04-24 09:09:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 09:09:09] [DEDUP] Paare verglichen: 7938
+[2026-04-24 09:09:09] [DEDUP] Auto-Merges: 0
+[2026-04-24 09:09:09] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-24 09:09:09] [DEDUP] Ergebnis: 510 Einträge (war: 510, 0 zusammengeführt)
+[2026-04-24 09:09:09] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-24 09:09:09] [DEDUP] Gespeichert: 510 → 510 Einträge
