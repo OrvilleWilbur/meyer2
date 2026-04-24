@@ -25536,3 +25536,42 @@
 [2026-04-24 17:12:36] [DEDUP] Ergebnis: 513 Einträge (war: 513, 0 zusammengeführt)
 [2026-04-24 17:12:36] [DEDUP] Kandidaten-Datei: 310 pending, 2 confirmed, 0 rejected
 [2026-04-24 17:12:36] [DEDUP] Gespeichert: 513 → 513 Einträge
+[2026-04-24 17:58:28] === Monitor-Lauf gestartet ===
+[2026-04-24 17:58:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 17:58:31] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 17:58:31] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-24 17:58:32] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-24 17:58:33] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-24 17:58:33] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-24 17:58:34] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-04-24 17:58:35] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-24 17:58:35] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-04-24 17:58:36] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-04-24 17:58:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 17:58:37] 210 relevante Treffer in Feeds
+[2026-04-24 17:58:37] ✅ 1 NEUE Einträge gefunden:
+[2026-04-24 17:58:37]    11.02.2026 | in Klinik |  | Niedersachsen & Bremen: Feuer in Klinik im Kreis Goslar - Pa
+[2026-04-24 17:58:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 17:58:37] === Monitor-Lauf beendet ===
+
+[2026-04-24 17:58:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 17:58:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 17:58:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 17:58:38] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 17:58:38] [enrich] --- Enriche [1/1]: Niedersachsen & Bremen: Feuer in Klinik im Kreis Goslar - Pa
+[2026-04-24 17:58:38] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feuer-in-Klinik-im-Kreis
+[2026-04-24 17:58:40] [enrich] Volltext extrahiert: 4464 Zeichen von https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feue
+[2026-04-24 17:58:46] [enrich] Enrichment abgeschlossen: enriched — Klinik Dr. Fontheim in Liebenburg
+[2026-04-24 17:58:46] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-04-24 17:58:46] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 17:58:46] [DEDUP] Starte Dedup für 514 Einträge
+[2026-04-24 17:58:46] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 17:58:47] [DEDUP] Auto-Merge (0.99): Klinik Dr. Fontheim / Liebenburg ↔ Klinik Dr. Fontheim / Liebenburg
+[2026-04-24 17:58:47] [DEDUP] Paare verglichen: 7995
+[2026-04-24 17:58:47] [DEDUP] Auto-Merges: 1
+[2026-04-24 17:58:47] [DEDUP] Kandidaten (unsicher): 311
+[2026-04-24 17:58:47] [DEDUP] Cluster 2x: Klinik Dr. Fontheim, Klinik Dr. Fontheim
+[2026-04-24 17:58:47] [DEDUP] Ergebnis: 513 Einträge (war: 514, 1 zusammengeführt)
+[2026-04-24 17:58:47] [DEDUP] Kandidaten-Datei: 311 pending, 2 confirmed, 0 rejected
+[2026-04-24 17:58:47] [DEDUP] Gespeichert: 514 → 513 Einträge
