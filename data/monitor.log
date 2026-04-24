@@ -25748,3 +25748,41 @@
 [2026-04-24 22:57:52] [DEDUP] Ergebnis: 514 Einträge (war: 516, 2 zusammengeführt)
 [2026-04-24 22:57:52] [DEDUP] Kandidaten-Datei: 310 pending, 2 confirmed, 0 rejected
 [2026-04-24 22:57:52] [DEDUP] Gespeichert: 516 → 514 Einträge
+[2026-04-24 23:54:37] === Monitor-Lauf gestartet ===
+[2026-04-24 23:54:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-24 23:54:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-24 23:54:40] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-24 23:54:40] Feed 'gn_feuer_krankenhaus': 40 Einträge
+[2026-04-24 23:54:40] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-24 23:54:41] Feed 'gn_brand_klinik': 41 Einträge
+[2026-04-24 23:54:41] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-04-24 23:54:42] Feed 'gn_klinikbrand': 95 Einträge
+[2026-04-24 23:54:42] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-04-24 23:54:43] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-24 23:54:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-24 23:54:44] 205 relevante Treffer in Feeds
+[2026-04-24 23:54:44] ✅ 1 NEUE Einträge gefunden:
+[2026-04-24 23:54:44]    27.09.2024 | ehemaligen Krankenhaus Pirna |  | Feuer im ehemaligen Krankenhaus Pirna - Sächsische Zeitung
+[2026-04-24 23:54:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-24 23:54:44] === Monitor-Lauf beendet ===
+
+[2026-04-24 23:54:45] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-24 23:54:45] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-24 23:54:45] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-24 23:54:45] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-24 23:54:45] [enrich] --- Enriche [1/1]: Feuer im ehemaligen Krankenhaus Pirna - Sächsische Zeitung
+[2026-04-24 23:54:45] [enrich] Google News URL aufgelöst (v1): https://www.saechsische.de/lokales/saechsische-schweiz-osterzgebirge/pirna/feuer
+[2026-04-24 23:54:46] [enrich] Artikel-Fetch fehlgeschlagen für https://www.saechsische.de/lokales/saechsische-schweiz-osterzgebirge/pirna/feuer: 403 Client Error: Forbidden for url: https://www.saechsische.de/lokales/saechsische-schweiz-osterzgebirge/pirna/feuer-im-ehemaligen-krankenhaus-pirna-7MJ3ZLMADIQ3A2OVXT7EUXS4NA.html
+[2026-04-24 23:54:46] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (559 Z.)
+[2026-04-24 23:54:47] [enrich] FALSE POSITIVE erkannt: Das Gebäude wird als 'ehemaliges Krankenhaus' bezeichnet, d.h. es ist nicht mehr in Betrieb als Krankenhaus und wird daher nicht als aktives Krankenhaus gewertet
+[2026-04-24 23:54:47] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-24 23:54:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-24 23:54:47] [DEDUP] Starte Dedup für 515 Einträge
+[2026-04-24 23:54:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-24 23:54:48] [DEDUP] Paare verglichen: 8044
+[2026-04-24 23:54:48] [DEDUP] Auto-Merges: 0
+[2026-04-24 23:54:48] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-24 23:54:48] [DEDUP] Ergebnis: 515 Einträge (war: 515, 0 zusammengeführt)
+[2026-04-24 23:54:48] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-24 23:54:48] [DEDUP] Gespeichert: 515 → 515 Einträge
