@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T23:54:48.163597",
+  "generated_at": "2026-04-25T03:31:43.340360",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -628,6 +628,72 @@
         "status": "enriched",
         "link": "https://www.nwzonline.de/ostfriesland/feuer-in-aurich-evakuierung-in-ubbo-emmius-klinik-nach-brand-mehr-als-180-einsatzkraefte-vor-ort_a_4,2,1218623617.html",
         "titel": "Feuer in Aurich: Evakuierung in Ubbo-Emmius-Klinik nach Brand – mehr als 180 Einsatzkräfte vor Ort - NWZonline"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.715,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.715
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (UKGM)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071390.html",
+        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - Gießener Allgemeine Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.715,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.715
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen (UKGM)",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/feuer-in-krankenzimmer-am-ukgm-91071390.html",
+        "titel": "Uniklinik-Brand in Gießen: „Flammen schlugen aus Zimmer“ – Polizei ermittelt gegen 79-Jährige - Gießener Allgemeine Zeitung"
       }
     },
     {
@@ -3407,6 +3473,72 @@
         "",
         ""
       ],
+      "score": 0.593,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.593
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-uniklinik-feuer-patienten-verletzt-hoher-schaden-feuerwehr-polizei-zr-91070509.html",
+        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - Gießener Allgemeine Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.593,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.593
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/giessen-brand-intensivstation-uniklinik-feuer-patienten-verletzt-hoher-schaden-feuerwehr-polizei-zr-91070509.html",
+        "titel": "Brand an der Uniklinik Gießen: Chirurgische Station gesperrt – 15 Menschen atmen Rauch ein - Gießener Allgemeine Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.588,
       "details": {
         "datum": 0.0,
@@ -3466,6 +3598,39 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.586,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.586
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "23.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://osthessen-news.de/n11656352/brand-auf-intensivstation-der-uniklinik-feuerwehr-rueckt-mit-grossaufgebot-aus.html",
+        "titel": "Brand auf Intensivstation der Uniklinik: Feuerwehr rückt mit Großaufgebot aus - Osthessen|News"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine Zeitung"
       }
     },
     {
