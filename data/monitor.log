@@ -25885,3 +25885,40 @@
 [2026-04-25 05:57:55] [DEDUP] Ergebnis: 518 Einträge (war: 518, 0 zusammengeführt)
 [2026-04-25 05:57:55] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-25 05:57:55] [DEDUP] Gespeichert: 518 → 518 Einträge
+[2026-04-25 07:44:34] === Monitor-Lauf gestartet ===
+[2026-04-25 07:44:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-25 07:44:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-25 07:44:37] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-04-25 07:44:38] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-25 07:44:38] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-04-25 07:44:39] Feed 'gn_brand_klinik': 48 Einträge
+[2026-04-25 07:44:39] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-04-25 07:44:40] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-25 07:44:41] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-04-25 07:44:41] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-04-25 07:44:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-25 07:44:42] 214 relevante Treffer in Feeds
+[2026-04-25 07:44:42] ✅ 1 NEUE Einträge gefunden:
+[2026-04-25 07:44:42]    12.04.2026 | wichtigsten Krankenhaus von Santiago de Cuba |  | Offizielle Presse bestätigt Stromausfall und Evakuierung im 
+[2026-04-25 07:44:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-25 07:44:42] === Monitor-Lauf beendet ===
+
+[2026-04-25 07:44:43] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-25 07:44:43] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-25 07:44:43] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-25 07:44:43] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-25 07:44:43] [enrich] --- Enriche [1/1]: Offizielle Presse bestätigt Stromausfall und Evakuierung im 
+[2026-04-25 07:44:43] [enrich] Google News URL aufgelöst (v1): https://de.cibercuba.com/noticias/2026-04-12-u1-e208512-s27061-nid325674-prensa-
+[2026-04-25 07:44:44] [enrich] Volltext extrahiert: 5000 Zeichen von https://de.cibercuba.com/noticias/2026-04-12-u1-e208512-s270
+[2026-04-25 07:44:46] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Stromausfall und eine elektrische Überlastung in einem Krankenhaus in Santiago de Cuba. Obwohl ein unabhängiger Journalist von einem möglichen Brand berichtet, bestätigt die offizielle Mitteilung keinen Brand, sondern einen Stromausfall mit Evakuierung. Zudem befindet sich das Krankenhaus in Kuba, nicht in Deutschland.
+[2026-04-25 07:44:47] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-25 07:44:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-25 07:44:47] [DEDUP] Starte Dedup für 519 Einträge
+[2026-04-25 07:44:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-25 07:44:47] [DEDUP] Paare verglichen: 8156
+[2026-04-25 07:44:47] [DEDUP] Auto-Merges: 0
+[2026-04-25 07:44:47] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-25 07:44:47] [DEDUP] Ergebnis: 519 Einträge (war: 519, 0 zusammengeführt)
+[2026-04-25 07:44:47] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-25 07:44:47] [DEDUP] Gespeichert: 519 → 519 Einträge
