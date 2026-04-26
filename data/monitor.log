@@ -26638,3 +26638,60 @@
 [2026-04-26 15:01:02] [DEDUP] Ergebnis: 523 Einträge (war: 523, 0 zusammengeführt)
 [2026-04-26 15:01:02] [DEDUP] Kandidaten-Datei: 314 pending, 2 confirmed, 0 rejected
 [2026-04-26 15:01:02] [DEDUP] Gespeichert: 523 → 523 Einträge
+[2026-04-26 15:56:39] === Monitor-Lauf gestartet ===
+[2026-04-26 15:56:40] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-26 15:56:42] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-26 15:56:42] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-04-26 15:56:43] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-04-26 15:56:43] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-26 15:56:44] Feed 'gn_brand_klinik': 42 Einträge
+[2026-04-26 15:56:44] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-04-26 15:56:45] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-26 15:56:45] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-04-26 15:56:45] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-04-26 15:56:47] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-26 15:56:47] 212 relevante Treffer in Feeds
+[2026-04-26 15:56:47] ✅ 4 NEUE Einträge gefunden:
+[2026-04-26 15:56:47]    19.04.2026 |  |  | Polizei-News Zweibrücken, 19.04.26: Brand im ehemaligen Kran
+[2026-04-26 15:56:47]    12.03.2026 | in Krankenhaus |  | Brände: Qualmender U-Bahn-Waggon - Fahrer in Krankenhaus - z
+[2026-04-26 15:56:47]    05.01.2024 | in Krankenhaus |  | Uelzen: Feuer in Krankenhaus: Fünf Menschen sterben - zeit.d
+[2026-04-26 15:56:47]    07.09.2025 | Uniklinik |  | Ursache unklar: Junger Mann stirbt bei Brand in Uniklinik - 
+[2026-04-26 15:56:47] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-26 15:56:47] === Monitor-Lauf beendet ===
+
+[2026-04-26 15:56:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-26 15:56:49] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-26 15:56:49] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-26 15:56:49] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-26 15:56:49] [enrich] --- Enriche [1/4]: Polizei-News Zweibrücken, 19.04.26: Brand im ehemaligen Kran
+[2026-04-26 15:56:49] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/polizei-news-zweibr%C3%BCcken-19-
+[2026-04-26 15:56:49] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/polizei-news-zweibr%C3%BCcken-19-
+[2026-04-26 15:56:49] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (594 Z.)
+[2026-04-26 15:56:51] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einem ehemaligen (nicht mehr aktiven) Krankenhaus. Es handelt sich nicht um einen Brand in einer betriebenen medizinischen Einrichtung.
+[2026-04-26 15:56:52] [enrich] --- Enriche [2/4]: Brände: Qualmender U-Bahn-Waggon - Fahrer in Krankenhaus - z
+[2026-04-26 15:56:52] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-03/12/qualmender-u-bahn-waggon-fahrer-in-krankenha
+[2026-04-26 15:56:54] [enrich] Volltext extrahiert: 1814 Zeichen von https://www.zeit.de/news/2026-03/12/qualmender-u-bahn-waggon
+[2026-04-26 15:56:56] [enrich] FALSE POSITIVE erkannt: Brand in U-Bahnwaggon, nicht in einem Krankenhaus. Der U-Bahnfahrer wurde nach dem Brand zur medizinischen Behandlung ins Krankenhaus gebracht, aber der Brand selbst ereignete sich in der U-Bahn.
+[2026-04-26 15:56:57] [enrich] --- Enriche [3/4]: Uelzen: Feuer in Krankenhaus: Fünf Menschen sterben - zeit.d
+[2026-04-26 15:56:57] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2024-01/05/weiterer-patient-stirbt-nach-brand-in-klinik
+[2026-04-26 15:56:59] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.zeit.de/news/2024-01/05/weiterer-patient-stirbt-
+[2026-04-26 15:57:05] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-04-26 15:57:06] [enrich] --- Enriche [4/4]: Ursache unklar: Junger Mann stirbt bei Brand in Uniklinik - 
+[2026-04-26 15:57:06] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2025-09/07/junger-mann-stirbt-bei-brand-in-uniklinik
+[2026-04-26 15:57:07] [enrich] Volltext extrahiert: 2098 Zeichen von https://www.zeit.de/news/2025-09/07/junger-mann-stirbt-bei-b
+[2026-04-26 15:57:10] [enrich] Enrichment abgeschlossen: enriched — Universitätsmedizin Rostock in Rostock-Gehlsdorf
+[2026-04-26 15:57:10] [enrich] Ergebnis: 2 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-26 15:57:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-26 15:57:10] [DEDUP] Starte Dedup für 527 Einträge
+[2026-04-26 15:57:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-26 15:57:10] [DEDUP] Auto-Merge (0.86): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-04-26 15:57:11] [DEDUP] Auto-Merge (0.85): Klinik und Poliklinik für Psychiatrie un / Rostock ↔ Universitätsmedizin Rostock / Rostock-Gehlsdorf
+[2026-04-26 15:57:11] [DEDUP] Paare verglichen: 8543
+[2026-04-26 15:57:11] [DEDUP] Auto-Merges: 2
+[2026-04-26 15:57:11] [DEDUP] Kandidaten (unsicher): 317
+[2026-04-26 15:57:11] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-04-26 15:57:11] [DEDUP] Cluster 2x: Klinik und Poliklinik für Psychiatrie un, Universitätsmedizin Rostock
+[2026-04-26 15:57:11] [DEDUP] Ergebnis: 525 Einträge (war: 527, 2 zusammengeführt)
+[2026-04-26 15:57:11] [DEDUP] Kandidaten-Datei: 317 pending, 2 confirmed, 0 rejected
+[2026-04-26 15:57:11] [DEDUP] Gespeichert: 527 → 525 Einträge
