@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T15:57:11.209126",
+  "generated_at": "2026-04-26T17:01:28.923838",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -232,39 +232,6 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.766,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.06666666666666667,
-        "total": 0.766
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
-        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2024-01/05/weiterer-patient-stirbt-nach-brand-in-klinik",
-        "titel": "Uelzen: Feuer in Krankenhaus: Fünf Menschen sterben - zeit.de"
       }
     },
     {
@@ -2476,39 +2443,6 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.661,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.21428571428571427,
-        "total": 0.661
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2024-01/05/weiterer-patient-stirbt-nach-brand-in-klinik",
-        "titel": "Uelzen: Feuer in Krankenhaus: Fünf Menschen sterben - zeit.de"
       }
     },
     {
@@ -6354,6 +6288,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Stuttgarter Klinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans-montana-in-stuttgarter-klinik.html",
+        "titel": "Brandopfer von Crans-Montana in Stuttgarter Klinik - T-Online"
+      },
+      "entry_b": {
+        "einrichtung": "Stuttgarter Klinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans-montana-in-stuttgarter-klinik.html",
+        "titel": "Brandopfer von Crans-Montana: Schweizer in Stuttgarter Klinik - T-Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Spezialkliniken",
         "ort": "",
         "datum": "05.01.2026",
@@ -9802,6 +9769,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik-in-halle-nimmt-verletzte-person-aus-crans-montana-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491328",
         "titel": "Brandkatastrophe - Klinik in Halle nimmt verletzte Person aus Crans-Montana auf - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "- Klinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik-in-halle-nimmt-verletzte-person-aus-crans-montana-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491328",
+        "titel": "Brandkatastrophe - Klinik in Halle nimmt verletzte Person aus Crans-Montana auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Stuttgarter Klinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans-montana-in-stuttgarter-klinik.html",
+        "titel": "Brandopfer von Crans-Montana: Schweizer in Stuttgarter Klinik - T-Online"
       }
     },
     {
