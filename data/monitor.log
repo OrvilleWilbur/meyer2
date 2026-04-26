@@ -26469,3 +26469,45 @@
 [2026-04-26 08:37:38] [DEDUP] Ergebnis: 520 Einträge (war: 520, 0 zusammengeführt)
 [2026-04-26 08:37:38] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-26 08:37:38] [DEDUP] Gespeichert: 520 → 520 Einträge
+[2026-04-26 10:05:31] === Monitor-Lauf gestartet ===
+[2026-04-26 10:05:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-26 10:05:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-26 10:05:34] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-26 10:05:34] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-26 10:05:35] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-04-26 10:05:35] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-26 10:05:35] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-04-26 10:05:36] Feed 'gn_klinikbrand': 98 Einträge
+[2026-04-26 10:05:36] Feed 'gn_feuer_uniklinik': 29 Einträge
+[2026-04-26 10:05:36] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-04-26 10:05:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-26 10:05:37] 210 relevante Treffer in Feeds
+[2026-04-26 10:05:37] ✅ 2 NEUE Einträge gefunden:
+[2026-04-26 10:05:37]    26.04.2026 | im Krankenhaus |  | In Grafenau Brand im Krankenhaus - Onetz
+[2026-04-26 10:05:37]    08.01.2021 | in Krankenhaus löst Großeinsatz aus |  | Feuer in Viersen: Brand in Krankenhaus löst Großeinsatz aus 
+[2026-04-26 10:05:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-26 10:05:37] === Monitor-Lauf beendet ===
+
+[2026-04-26 10:05:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-26 10:05:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-26 10:05:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-26 10:05:40] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-26 10:05:40] [enrich] --- Enriche [1/2]: In Grafenau Brand im Krankenhaus - Onetz
+[2026-04-26 10:05:40] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/grafenau-brand-krankenhaus-id5352926.html
+[2026-04-26 10:05:41] [enrich] Volltext extrahiert: 3244 Zeichen von https://www.onetz.de/deutschland-welt/grafenau-brand-kranken
+[2026-04-26 10:05:43] [enrich] FALSE POSITIVE erkannt: Der Artikel ist nicht vollständig verfügbar. Es wird nur erwähnt, dass der Artikel 'aus rechtlichen oder anderweitigen Gründen nicht mehr im Onetz zur Verfügung' steht. Der eigentliche Inhalt zum Brand ist nicht lesbar. Ohne den vollständigen Artikel kann nicht überprüft werden, ob es sich um einen Brand in einem Krankenhaus handelt.
+[2026-04-26 10:05:44] [enrich] --- Enriche [2/2]: Feuer in Viersen: Brand in Krankenhaus löst Großeinsatz aus 
+[2026-04-26 10:05:44] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/viersen/grosseinsatz-von-feuerwehr-und-rettungs
+[2026-04-26 10:05:45] [enrich] Volltext extrahiert: 2778 Zeichen von https://rp-online.de/nrw/staedte/viersen/grosseinsatz-von-fe
+[2026-04-26 10:05:49] [enrich] Enrichment abgeschlossen: enriched — St.-Irmgardis-Krankenhaus in Viersen-Süchteln
+[2026-04-26 10:05:49] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-26 10:05:49] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-26 10:05:49] [DEDUP] Starte Dedup für 522 Einträge
+[2026-04-26 10:05:49] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-26 10:05:49] [DEDUP] Paare verglichen: 8319
+[2026-04-26 10:05:49] [DEDUP] Auto-Merges: 0
+[2026-04-26 10:05:49] [DEDUP] Kandidaten (unsicher): 308
+[2026-04-26 10:05:49] [DEDUP] Ergebnis: 522 Einträge (war: 522, 0 zusammengeführt)
+[2026-04-26 10:05:49] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
+[2026-04-26 10:05:49] [DEDUP] Gespeichert: 522 → 522 Einträge
