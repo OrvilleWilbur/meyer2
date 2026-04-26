@@ -26571,3 +26571,40 @@
 [2026-04-26 11:55:02] [DEDUP] Ergebnis: 522 Einträge (war: 522, 0 zusammengeführt)
 [2026-04-26 11:55:02] [DEDUP] Kandidaten-Datei: 308 pending, 2 confirmed, 0 rejected
 [2026-04-26 11:55:02] [DEDUP] Gespeichert: 522 → 522 Einträge
+[2026-04-26 13:40:18] === Monitor-Lauf gestartet ===
+[2026-04-26 13:40:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-26 13:40:20] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-26 13:40:21] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-04-26 13:40:21] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-26 13:40:21] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-26 13:40:22] Feed 'gn_brand_klinik': 44 Einträge
+[2026-04-26 13:40:22] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-04-26 13:40:23] Feed 'gn_klinikbrand': 99 Einträge
+[2026-04-26 13:40:23] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-26 13:40:24] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-04-26 13:40:25] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-26 13:40:25] 214 relevante Treffer in Feeds
+[2026-04-26 13:40:25] ✅ 1 NEUE Einträge gefunden:
+[2026-04-26 13:40:25]    26.03.2026 | im Krankenhaus |  | Brand in Viersener Innenstadt: Hausbewohner nach Feuer im Kr
+[2026-04-26 13:40:25] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-26 13:40:25] === Monitor-Lauf beendet ===
+
+[2026-04-26 13:40:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-26 13:40:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-26 13:40:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-26 13:40:26] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-26 13:40:26] [enrich] --- Enriche [1/1]: Brand in Viersener Innenstadt: Hausbewohner nach Feuer im Kr
+[2026-04-26 13:40:26] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/viersen/viersen-hausbewohner-nach-feuer-im-kran
+[2026-04-26 13:40:27] [enrich] Volltext extrahiert: 2509 Zeichen von https://rp-online.de/nrw/staedte/viersen/viersen-hausbewohne
+[2026-04-26 13:40:28] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Keller eines Mehrfamilienhauses in der Viersener Innenstadt), nicht in einem Krankenhaus. Ein verletzter Bewohner wurde nach dem Brand ins Krankenhaus gebracht, aber das Krankenhaus war nicht Brandort.
+[2026-04-26 13:40:28] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-26 13:40:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-26 13:40:28] [DEDUP] Starte Dedup für 523 Einträge
+[2026-04-26 13:40:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-26 13:40:29] [DEDUP] Paare verglichen: 8399
+[2026-04-26 13:40:29] [DEDUP] Auto-Merges: 0
+[2026-04-26 13:40:29] [DEDUP] Kandidaten (unsicher): 314
+[2026-04-26 13:40:29] [DEDUP] Ergebnis: 523 Einträge (war: 523, 0 zusammengeführt)
+[2026-04-26 13:40:29] [DEDUP] Kandidaten-Datei: 314 pending, 2 confirmed, 0 rejected
+[2026-04-26 13:40:29] [DEDUP] Gespeichert: 523 → 523 Einträge
