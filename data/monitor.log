@@ -26918,3 +26918,40 @@
 [2026-04-26 22:58:18] [DEDUP] Ergebnis: 527 Einträge (war: 527, 0 zusammengeführt)
 [2026-04-26 22:58:18] [DEDUP] Kandidaten-Datei: 317 pending, 2 confirmed, 0 rejected
 [2026-04-26 22:58:18] [DEDUP] Gespeichert: 527 → 527 Einträge
+[2026-04-27 05:43:50] === Monitor-Lauf gestartet ===
+[2026-04-27 05:43:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-27 05:43:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-27 05:43:52] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-04-27 05:43:52] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-27 05:43:53] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-04-27 05:43:53] Feed 'gn_brand_klinik': 40 Einträge
+[2026-04-27 05:43:54] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-04-27 05:43:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-27 05:43:54] Feed 'gn_feuer_uniklinik': 25 Einträge
+[2026-04-27 05:43:55] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-04-27 05:43:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-27 05:43:56] 207 relevante Treffer in Feeds
+[2026-04-27 05:43:56] ✅ 1 NEUE Einträge gefunden:
+[2026-04-27 05:43:56]    05.01.2026 |  |  | "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-04-27 05:43:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-27 05:43:56] === Monitor-Lauf beendet ===
+
+[2026-04-27 05:43:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-27 05:43:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-27 05:43:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-27 05:43:56] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-27 05:43:56] [enrich] --- Enriche [1/1]: "Schwerste Verbrennungen": Brandopfer von Crans-Montana ausg
+[2026-04-27 05:43:56] [enrich] Google News URL aufgelöst (v1): https://koeln.t-online.de/region/koeln/id_101068668/crans-montana-opfer-mit-schw
+[2026-04-27 05:43:57] [enrich] Volltext extrahiert: 4303 Zeichen von https://koeln.t-online.de/region/koeln/id_101068668/crans-mo
+[2026-04-27 05:44:01] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in deutschen Kliniken. Der Brand selbst fand nicht in einem deutschen Krankenhaus statt, sondern in einer Bar in der Schweiz. Die deutschen Kliniken sind nur Behandlungsorte für die Opfer, nicht Brandschauplätze.
+[2026-04-27 05:44:01] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-04-27 05:44:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-27 05:44:01] [DEDUP] Starte Dedup für 528 Einträge
+[2026-04-27 05:44:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-27 05:44:02] [DEDUP] Paare verglichen: 8742
+[2026-04-27 05:44:02] [DEDUP] Auto-Merges: 0
+[2026-04-27 05:44:02] [DEDUP] Kandidaten (unsicher): 317
+[2026-04-27 05:44:02] [DEDUP] Ergebnis: 528 Einträge (war: 528, 0 zusammengeführt)
+[2026-04-27 05:44:02] [DEDUP] Kandidaten-Datei: 317 pending, 2 confirmed, 0 rejected
+[2026-04-27 05:44:02] [DEDUP] Gespeichert: 528 → 528 Einträge
