@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T05:44:02.352666",
+  "generated_at": "2026-04-28T05:49:09.113883",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -8581,6 +8581,39 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-berlin-neuk%C3%B6lln-eine-person-mit-schweren-verletzungen-im-krankenhaus/ar-AA21onkF",
         "titel": "Brand in Berlin-Neukölln: Eine Person mit schweren Verletzungen im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Schweizer Klinik",
+        "ort": "",
+        "datum": "21.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/brand-crans-montana-meloni-erhebt-145128275.html",
+        "titel": "Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe gegen Schweizer Klinik - Yahoo Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "Schweizer Klinik",
+        "ort": "",
+        "datum": "21.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/nach-brand-von-crans-montana-meloni-erhebt-schwere-vorw%C3%BCrfe-gegen-schweizer-klinik/ar-AA21oE1S",
+        "titel": "Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe gegen Schweizer Klinik - MSN"
       }
     },
     {

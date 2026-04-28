@@ -26955,3 +26955,54 @@
 [2026-04-27 05:44:02] [DEDUP] Ergebnis: 528 Einträge (war: 528, 0 zusammengeführt)
 [2026-04-27 05:44:02] [DEDUP] Kandidaten-Datei: 317 pending, 2 confirmed, 0 rejected
 [2026-04-27 05:44:02] [DEDUP] Gespeichert: 528 → 528 Einträge
+[2026-04-28 05:48:51] === Monitor-Lauf gestartet ===
+[2026-04-28 05:48:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-28 05:48:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-28 05:48:53] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-04-28 05:48:54] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-04-28 05:48:54] Feed 'gn_feuer_klinik': 35 Einträge
+[2026-04-28 05:48:54] Feed 'gn_brand_klinik': 43 Einträge
+[2026-04-28 05:48:55] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-04-28 05:48:55] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-28 05:48:56] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-04-28 05:48:56] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-04-28 05:48:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-28 05:48:57] 213 relevante Treffer in Feeds
+[2026-04-28 05:48:57] ✅ 3 NEUE Einträge gefunden:
+[2026-04-28 05:48:57]    07.04.2026 | Alexianer-Krankenhaus |  | Polizeifahndung Aachen, 07.04.26: Brand im Alexianer-Kranken
+[2026-04-28 05:48:57]    21.04.2026 | Schweizer Klinik |  | Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe
+[2026-04-28 05:48:57]    19.03.2026 | Städtischen Klinikum Fried |  | FW Dresden: Brand in einer Elektroanlage im Städtischen Klin
+[2026-04-28 05:48:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-28 05:48:57] === Monitor-Lauf beendet ===
+
+[2026-04-28 05:48:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-28 05:48:58] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-28 05:48:58] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-28 05:48:58] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-28 05:48:58] [enrich] --- Enriche [1/3]: Polizeifahndung Aachen, 07.04.26: Brand im Alexianer-Kranken
+[2026-04-28 05:48:58] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/polizeifahndung-aachen-07-04-26-b
+[2026-04-28 05:48:58] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/polizeifahndung-aachen-07-04-26-b
+[2026-04-28 05:48:58] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (646 Z.)
+[2026-04-28 05:49:00] [enrich] Enrichment abgeschlossen: partial — Alexianer-Krankenhaus in Aachen
+[2026-04-28 05:49:01] [enrich] --- Enriche [2/3]: Nach Brand von Crans-Montana: Meloni erhebt schwere Vorwürfe
+[2026-04-28 05:49:01] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/nach-brand-von-crans-montana-melo
+[2026-04-28 05:49:02] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/nach-brand-von-crans-montana-melo
+[2026-04-28 05:49:02] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (590 Z.)
+[2026-04-28 05:49:03] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen Brand in Crans-Montana (Schweiz), nicht in Deutschland. Zudem werden Brandopfer nur in einer Klinik behandelt, der Brand selbst fand nicht in der Klinik statt.
+[2026-04-28 05:49:04] [enrich] --- Enriche [3/3]: FW Dresden: Brand in einer Elektroanlage im Städtischen Klin
+[2026-04-28 05:49:04] [enrich] Google News URL aufgelöst (v1): https://www.meidresden.de/?view=article&id=21793:fw-dresden-brand-in-einer-elekt
+[2026-04-28 05:49:05] [enrich] Volltext extrahiert: 1625 Zeichen von https://www.meidresden.de/?view=article&id=21793:fw-dresden-
+[2026-04-28 05:49:08] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-04-28 05:49:08] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-04-28 05:49:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-28 05:49:08] [DEDUP] Starte Dedup für 531 Einträge
+[2026-04-28 05:49:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-28 05:49:09] [DEDUP] Auto-Merge (0.91): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-04-28 05:49:09] [DEDUP] Paare verglichen: 8808
+[2026-04-28 05:49:09] [DEDUP] Auto-Merges: 1
+[2026-04-28 05:49:09] [DEDUP] Kandidaten (unsicher): 318
+[2026-04-28 05:49:09] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-04-28 05:49:09] [DEDUP] Ergebnis: 530 Einträge (war: 531, 1 zusammengeführt)
+[2026-04-28 05:49:09] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
+[2026-04-28 05:49:09] [DEDUP] Gespeichert: 531 → 530 Einträge
