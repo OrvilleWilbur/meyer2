@@ -27006,3 +27006,46 @@
 [2026-04-28 05:49:09] [DEDUP] Ergebnis: 530 Einträge (war: 531, 1 zusammengeführt)
 [2026-04-28 05:49:09] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
 [2026-04-28 05:49:09] [DEDUP] Gespeichert: 531 → 530 Einträge
+[2026-04-29 05:44:13] === Monitor-Lauf gestartet ===
+[2026-04-29 05:44:14] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-29 05:44:15] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-29 05:44:15] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-04-29 05:44:16] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-04-29 05:44:16] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-04-29 05:44:17] Feed 'gn_brand_klinik': 41 Einträge
+[2026-04-29 05:44:17] Feed 'gn_brand_klinikum': 31 Einträge
+[2026-04-29 05:44:18] Feed 'gn_klinikbrand': 100 Einträge
+[2026-04-29 05:44:18] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-04-29 05:44:18] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-04-29 05:44:19] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-29 05:44:19] 203 relevante Treffer in Feeds
+[2026-04-29 05:44:19] ✅ 2 NEUE Einträge gefunden:
+[2026-04-29 05:44:19]    04.08.2020 | im Krankenhaus |  | Feuer in Zelle ausgebrochen - Häftling schwer verletzt im Kr
+[2026-04-29 05:44:19]    28.04.2026 | in Klinik |  | Mindestens 20 Verletzte bei Brand in Klinik in Saarbrücken -
+[2026-04-29 05:44:19] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-29 05:44:19] === Monitor-Lauf beendet ===
+
+[2026-04-29 05:44:20] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-29 05:44:20] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-29 05:44:20] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-29 05:44:20] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-29 05:44:20] [enrich] --- Enriche [1/2]: Feuer in Zelle ausgebrochen - Häftling schwer verletzt im Kr
+[2026-04-29 05:44:20] [enrich] Google News URL aufgelöst (v1): https://www.fnp.de/frankfurt/jva-frankfurt-preungesheim-brand-feuer-in-zelle-hae
+[2026-04-29 05:44:21] [enrich] Volltext extrahiert: 1946 Zeichen von https://www.fnp.de/frankfurt/jva-frankfurt-preungesheim-bran
+[2026-04-29 05:44:24] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einer Justizvollzugsanstalt (JVA Frankfurt-Preungesheim), nicht in einem Krankenhaus. Der Häftling wurde nach dem Brand ins Krankenhaus gebracht, was nicht unter die Definition eines Krankenhausbrands fällt.
+[2026-04-29 05:44:25] [enrich] --- Enriche [2/2]: Mindestens 20 Verletzte bei Brand in Klinik in Saarbrücken -
+[2026-04-29 05:44:25] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/mindestens-20-verletzte-bei-brand-
+[2026-04-29 05:44:25] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/mindestens-20-verletzte-bei-brand-
+[2026-04-29 05:44:25] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (565 Z.)
+[2026-04-29 05:44:27] [enrich] Enrichment abgeschlossen: partial — Klinik in Saarbrücken in Saarbrücken
+[2026-04-29 05:44:27] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-04-29 05:44:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-29 05:44:27] [DEDUP] Starte Dedup für 532 Einträge
+[2026-04-29 05:44:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-29 05:44:28] [DEDUP] Paare verglichen: 8808
+[2026-04-29 05:44:28] [DEDUP] Auto-Merges: 0
+[2026-04-29 05:44:28] [DEDUP] Kandidaten (unsicher): 318
+[2026-04-29 05:44:28] [DEDUP] Ergebnis: 532 Einträge (war: 532, 0 zusammengeführt)
+[2026-04-29 05:44:28] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
+[2026-04-29 05:44:28] [DEDUP] Gespeichert: 532 → 532 Einträge
