@@ -27049,3 +27049,45 @@
 [2026-04-29 05:44:28] [DEDUP] Ergebnis: 532 Einträge (war: 532, 0 zusammengeführt)
 [2026-04-29 05:44:28] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
 [2026-04-29 05:44:28] [DEDUP] Gespeichert: 532 → 532 Einträge
+[2026-04-30 05:48:23] === Monitor-Lauf gestartet ===
+[2026-04-30 05:48:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-04-30 05:48:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-04-30 05:48:25] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-04-30 05:48:25] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-04-30 05:48:26] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-04-30 05:48:26] Feed 'gn_brand_klinik': 39 Einträge
+[2026-04-30 05:48:27] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-04-30 05:48:27] Feed 'gn_klinikbrand': 94 Einträge
+[2026-04-30 05:48:27] Feed 'gn_feuer_uniklinik': 26 Einträge
+[2026-04-30 05:48:28] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-04-30 05:48:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-04-30 05:48:29] 206 relevante Treffer in Feeds
+[2026-04-30 05:48:29] ✅ 2 NEUE Einträge gefunden:
+[2026-04-30 05:48:29]    16.11.2023 | von Krankenhaus |  | Haiti: Bandengewalt zwingt zur Evakuierung von Krankenhaus -
+[2026-04-30 05:48:29]    21.04.2026 | gegen Klinik |  | Bombendrohung gegen Klinik in Bad Bodenteich – Fehlalarm nac
+[2026-04-30 05:48:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-04-30 05:48:29] === Monitor-Lauf beendet ===
+
+[2026-04-30 05:48:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-04-30 05:48:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-04-30 05:48:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-04-30 05:48:30] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-04-30 05:48:30] [enrich] --- Enriche [1/2]: Haiti: Bandengewalt zwingt zur Evakuierung von Krankenhaus -
+[2026-04-30 05:48:30] [enrich] Google News URL aufgelöst (v1): https://latina-press.com/news/319586-haiti-bandengewalt-zwingt-zur-evakuierung-v
+[2026-04-30 05:48:32] [enrich] Volltext extrahiert: 2308 Zeichen von https://latina-press.com/news/319586-haiti-bandengewalt-zwin
+[2026-04-30 05:48:33] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung eines Krankenhauses in Haiti aufgrund von Bandengewalt und Schießereien, nicht aufgrund eines Brandes im Krankenhaus selbst. Zudem handelt es sich um ein Krankenhaus außerhalb Deutschlands.
+[2026-04-30 05:48:34] [enrich] --- Enriche [2/2]: Bombendrohung gegen Klinik in Bad Bodenteich – Fehlalarm nac
+[2026-04-30 05:48:35] [enrich] Google News URL aufgelöst (v1): https://digitaldaily.de/bombendrohung-gegen-klinik-in-bad-bodenteich-fehlalarm-n
+[2026-04-30 05:48:36] [enrich] Volltext extrahiert: 3980 Zeichen von https://digitaldaily.de/bombendrohung-gegen-klinik-in-bad-bo
+[2026-04-30 05:48:37] [enrich] FALSE POSITIVE erkannt: Die Evakuierung der Klinik in Bad Bodenteich war Folge einer Bombendrohung, nicht eines Brandes. Das Artikel beschreibt einen Polizeieinsatz wegen Sprengstoffverdacht, nicht einen Brand in der Klinik.
+[2026-04-30 05:48:37] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-04-30 05:48:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-04-30 05:48:37] [DEDUP] Starte Dedup für 534 Einträge
+[2026-04-30 05:48:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-04-30 05:48:38] [DEDUP] Paare verglichen: 8880
+[2026-04-30 05:48:38] [DEDUP] Auto-Merges: 0
+[2026-04-30 05:48:38] [DEDUP] Kandidaten (unsicher): 318
+[2026-04-30 05:48:38] [DEDUP] Ergebnis: 534 Einträge (war: 534, 0 zusammengeführt)
+[2026-04-30 05:48:38] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
+[2026-04-30 05:48:38] [DEDUP] Gespeichert: 534 → 534 Einträge
