@@ -27091,3 +27091,81 @@
 [2026-04-30 05:48:38] [DEDUP] Ergebnis: 534 Einträge (war: 534, 0 zusammengeführt)
 [2026-04-30 05:48:38] [DEDUP] Kandidaten-Datei: 318 pending, 2 confirmed, 0 rejected
 [2026-04-30 05:48:38] [DEDUP] Gespeichert: 534 → 534 Einträge
+[2026-05-01 05:58:15] === Monitor-Lauf gestartet ===
+[2026-05-01 05:58:16] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-01 05:58:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-01 05:58:17] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-05-01 05:58:18] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-05-01 05:58:18] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-01 05:58:19] Feed 'gn_brand_klinik': 38 Einträge
+[2026-05-01 05:58:19] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-05-01 05:58:19] Feed 'gn_klinikbrand': 97 Einträge
+[2026-05-01 05:58:20] Feed 'gn_feuer_uniklinik': 21 Einträge
+[2026-05-01 05:58:20] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-05-01 05:58:21] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-01 05:58:21] 208 relevante Treffer in Feeds
+[2026-05-01 05:58:21] ✅ 8 NEUE Einträge gefunden:
+[2026-05-01 05:58:21]    28.04.2026 |  |  | Kita-Brand + Neues Krankenhaus + Geflüchtete sollen zahlen -
+[2026-05-01 05:58:21]    16.02.2026 | im Krankenhaus |  | Fußgängerin in Brand-Erbisdorf von Auto erfasst - 18-Jährige
+[2026-05-01 05:58:21]    04.10.2016 | Bochumer Klinikbrand aus |  | Selbstmörderin löste Bochumer Klinikbrand aus - T-Online
+[2026-05-01 05:58:21]    30.04.2026 | im Krankenhaus |  | Feuer in Geschäftshaus – Person mit Rauchvergiftung im Krank
+[2026-05-01 05:58:21]    30.04.2026 | jüdischen Krankenhaus |  | Feuer im jüdischen Krankenhaus – Verwirrung um mögliches Tat
+[2026-05-01 05:58:21]    28.04.2026 |  |  | Feuer bricht in Psychiatrie aus – Ursache ist unklar - MSN
+[2026-05-01 05:58:21]    11.04.2026 | im Klinikum |  | Polizei-News Lüneburg, 11.04.26: Brand in Uelzener Innenstad
+[2026-05-01 05:58:21]    15.07.2021 |  |  | Evakuierung im Katastrophenfall: Was müssen Heime und Klinik
+[2026-05-01 05:58:21] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-01 05:58:21] === Monitor-Lauf beendet ===
+
+[2026-05-01 05:58:24] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-01 05:58:24] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-01 05:58:24] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-01 05:58:24] [enrich] 8 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-01 05:58:24] [enrich] --- Enriche [1/8]: Kita-Brand + Neues Krankenhaus + Geflüchtete sollen zahlen -
+[2026-05-01 05:58:24] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/kita-brand-neues-krankenhaus-gefl
+[2026-05-01 05:58:24] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/kita-brand-neues-krankenhaus-gefl
+[2026-05-01 05:58:24] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (565 Z.)
+[2026-05-01 05:58:26] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt mehrere unabhängige Themen (Kita-Brand, neues Krankenhaus, Geflüchtetenpolitik), aber es wird kein Brand IN einem Krankenhaus/einer Klinik beschrieben. Der Link ist zudem unvollständig und der Artikel selbst nicht lesbar.
+[2026-05-01 05:58:27] [enrich] --- Enriche [2/8]: Fußgängerin in Brand-Erbisdorf von Auto erfasst - 18-Jährige
+[2026-05-01 05:58:27] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/fu%C3%9Fg%C3%A4ngerin-in-brand-er
+[2026-05-01 05:58:27] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/fu%C3%9Fg%C3%A4ngerin-in-brand-er
+[2026-05-01 05:58:27] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (589 Z.)
+[2026-05-01 05:58:28] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Verkehrsunfall, bei dem eine Fußgängerin von einem Auto erfasst wird. Die Person stirbt später im Krankenhaus, aber es geht nicht um einen Brand im Krankenhaus selbst.
+[2026-05-01 05:58:29] [enrich] --- Enriche [3/8]: Selbstmörderin löste Bochumer Klinikbrand aus - T-Online
+[2026-05-01 05:58:29] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bo
+[2026-05-01 05:58:30] [enrich] Volltext extrahiert: 3287 Zeichen von https://www.t-online.de/nachrichten/panorama/id_79175430/kra
+[2026-05-01 05:58:34] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Bergmannsheil in Bochum
+[2026-05-01 05:58:35] [enrich] --- Enriche [4/8]: Feuer in Geschäftshaus – Person mit Rauchvergiftung im Krank
+[2026-05-01 05:58:35] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-gesch%C3%A4ftshaus-perso
+[2026-05-01 05:58:35] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-gesch%C3%A4ftshaus-perso
+[2026-05-01 05:58:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (555 Z.)
+[2026-05-01 05:58:36] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Geschäftshaus, nicht in einem Krankenhaus. Eine Person mit Rauchvergiftung wird zur Behandlung ins Krankenhaus gebracht, aber das Krankenhaus ist nicht der Brandort.
+[2026-05-01 05:58:37] [enrich] --- Enriche [5/8]: Feuer im jüdischen Krankenhaus – Verwirrung um mögliches Tat
+[2026-05-01 05:58:37] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-im-j%C3%BCdischen-krankenha
+[2026-05-01 05:58:37] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-im-j%C3%BCdischen-krankenha
+[2026-05-01 05:58:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (572 Z.)
+[2026-05-01 05:58:38] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur einen Link-Header ohne eigentlichen Artikelinhalt. Es kann nicht überprüft werden, ob ein tatsächlicher Brand in einem deutschen Krankenhaus beschrieben wird.
+[2026-05-01 05:58:39] [enrich] --- Enriche [6/8]: Feuer bricht in Psychiatrie aus – Ursache ist unklar - MSN
+[2026-05-01 05:58:40] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/gesundheit/other/feuer-bricht-in-psychiatrie-aus-ursac
+[2026-05-01 05:58:40] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/gesundheit/other/feuer-bricht-in-psychiatrie-aus-ursac
+[2026-05-01 05:58:40] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (559 Z.)
+[2026-05-01 05:58:41] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne aussagekräftigen Inhalt. Es kann nicht überprüft werden, ob es sich um einen Brand IN einem deutschen Krankenhaus handelt oder um einen anderen Kontext (z.B. Brandschutzübung, Brand in Nähe eines Krankenhauses, ausländisches Krankenhaus). Die URL enthält keine verwertbaren Informationen.
+[2026-05-01 05:58:42] [enrich] --- Enriche [7/8]: Polizei-News Lüneburg, 11.04.26: Brand in Uelzener Innenstad
+[2026-05-01 05:58:43] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/polizei-news-l%C3%BCneburg-110426
+[2026-05-01 05:58:43] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/polizei-news-l%C3%BCneburg-110426
+[2026-05-01 05:58:43] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (624 Z.)
+[2026-05-01 05:58:44] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Uelzener Innenstadt in Wohnungen. Die Erwähnung 'zwei Personen im Klinikum' bezieht sich auf die Einlieferung von Brandopfern zur Behandlung, nicht auf einen Brand im Krankenhaus selbst.
+[2026-05-01 05:58:45] [enrich] --- Enriche [8/8]: Evakuierung im Katastrophenfall: Was müssen Heime und Klinik
+[2026-05-01 05:58:45] [enrich] Google News URL aufgelöst (v1): https://www.rechtsdepesche.de/evakuierung-heim-klinik-katastrophenfall/
+[2026-05-01 05:58:46] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rechtsdepesche.de/evakuierung-heim-klinik-katast
+[2026-05-01 05:58:48] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt Evakuierungskonzepte bei Hochwasser und anderen Katastrophen, nicht bei Bränden. Es geht um die Flutkatastrophe von 2021 und präventive Maßnahmen für Kliniken und Heime bei Naturkatastrophen, nicht um einen Brand in einem Krankenhaus.
+[2026-05-01 05:58:48] [enrich] Ergebnis: 1 enriched, 0 partial, 7 false_positive, 0 failed
+[2026-05-01 05:58:48] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-01 05:58:48] [DEDUP] Starte Dedup für 542 Einträge
+[2026-05-01 05:58:48] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-01 05:58:49] [DEDUP] Paare verglichen: 9311
+[2026-05-01 05:58:49] [DEDUP] Auto-Merges: 0
+[2026-05-01 05:58:49] [DEDUP] Kandidaten (unsicher): 321
+[2026-05-01 05:58:49] [DEDUP] Ergebnis: 542 Einträge (war: 542, 0 zusammengeführt)
+[2026-05-01 05:58:49] [DEDUP] Kandidaten-Datei: 321 pending, 2 confirmed, 0 rejected
+[2026-05-01 05:58:49] [DEDUP] Gespeichert: 542 → 542 Einträge
