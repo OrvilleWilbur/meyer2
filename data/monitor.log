@@ -27169,3 +27169,64 @@
 [2026-05-01 05:58:49] [DEDUP] Ergebnis: 542 Einträge (war: 542, 0 zusammengeführt)
 [2026-05-01 05:58:49] [DEDUP] Kandidaten-Datei: 321 pending, 2 confirmed, 0 rejected
 [2026-05-01 05:58:49] [DEDUP] Gespeichert: 542 → 542 Einträge
+[2026-05-02 05:27:48] === Monitor-Lauf gestartet ===
+[2026-05-02 05:27:49] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-02 05:27:50] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-02 05:27:50] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-05-02 05:27:51] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-05-02 05:27:51] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-02 05:27:52] Feed 'gn_brand_klinik': 42 Einträge
+[2026-05-02 05:27:52] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-05-02 05:27:53] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-02 05:27:53] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-05-02 05:27:53] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-05-02 05:27:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-02 05:27:54] 210 relevante Treffer in Feeds
+[2026-05-02 05:27:54] ✅ 5 NEUE Einträge gefunden:
+[2026-05-02 05:27:54]    13.03.2026 | in Krankenhaus aus |  | Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-05-02 05:27:54]    19.02.2026 | auf Krankenhaus |  | Lokalzeit MordOrte: Feuer-Attacke auf Krankenhaus - hier ans
+[2026-05-02 05:27:54]    24.10.2021 | Uniklinik |  | Gießen: Feuer in der Chirurgie der Uniklinik - RTL.de
+[2026-05-02 05:27:54]    27.12.2017 | Uniklinik |  | Bettenlager beschleunigt Feuer in Uniklinik - stuttgarter-ze
+[2026-05-02 05:27:54]    03.01.2019 | Universitätsklinikum Krems |  | Brandstiftung: Feuer im Universitätsklinikum Krems wurde gel
+[2026-05-02 05:27:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-02 05:27:54] === Monitor-Lauf beendet ===
+
+[2026-05-02 05:27:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-02 05:27:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-02 05:27:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-02 05:27:55] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-02 05:27:55] [enrich] --- Enriche [1/5]: Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus 
+[2026-05-02 05:27:55] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand
+[2026-05-02 05:27:56] [enrich] Volltext extrahiert: 1427 Zeichen von https://www.sueddeutsche.de/panorama/station-evakuiert-feuer
+[2026-05-02 05:27:59] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus in Mönchengladbach (Name nicht spezifiziert) in Mönchengladbach
+[2026-05-02 05:28:00] [enrich] --- Enriche [2/5]: Lokalzeit MordOrte: Feuer-Attacke auf Krankenhaus - hier ans
+[2026-05-02 05:28:00] [enrich] Google News URL aufgelöst (v1): https://www.ardmediathek.de/video/lokalzeit-mordorte/feuer-attacke-auf-krankenha
+[2026-05-02 05:28:01] [enrich] Volltext extrahiert: 1041 Zeichen von https://www.ardmediathek.de/video/lokalzeit-mordorte/feuer-a
+[2026-05-02 05:28:04] [enrich] Enrichment abgeschlossen: enriched — Luisenhospital in Aachen
+[2026-05-02 05:28:05] [enrich] --- Enriche [3/5]: Gießen: Feuer in der Chirurgie der Uniklinik - RTL.de
+[2026-05-02 05:28:05] [enrich] Google News URL aufgelöst (v1): https://www.rtl.de/cms/giessen-feuer-in-der-chirurgie-der-uniklinik-4853289.html
+[2026-05-02 05:28:07] [enrich] Volltext extrahiert: 2487 Zeichen von https://www.rtl.de/cms/giessen-feuer-in-der-chirurgie-der-un
+[2026-05-02 05:28:10] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Gießen in Gießen
+[2026-05-02 05:28:11] [enrich] --- Enriche [4/5]: Bettenlager beschleunigt Feuer in Uniklinik - stuttgarter-ze
+[2026-05-02 05:28:11] [enrich] Google News URL aufgelöst (v1): https://www.stuttgarter-zeitung.de/gallery.klinik-grossfeuer-bettenlager-beschle
+[2026-05-02 05:28:12] [enrich] Volltext extrahiert: 1440 Zeichen von https://www.stuttgarter-zeitung.de/gallery.klinik-grossfeuer
+[2026-05-02 05:28:15] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bochum in Bochum
+[2026-05-02 05:28:16] [enrich] --- Enriche [5/5]: Brandstiftung: Feuer im Universitätsklinikum Krems wurde gel
+[2026-05-02 05:28:16] [enrich] Google News URL aufgelöst (v1): https://www.kleinezeitung.at/artikel/5554742/Brandstiftung_Feuer-im-Universitaet
+[2026-05-02 05:28:18] [enrich] Volltext extrahiert: 1119 Zeichen von https://www.kleinezeitung.at/artikel/5554742/Brandstiftung_F
+[2026-05-02 05:28:19] [enrich] FALSE POSITIVE erkannt: Brand im Universitätsklinikum Krems - Krems liegt in Österreich, nicht in Deutschland
+[2026-05-02 05:28:19] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-05-02 05:28:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-02 05:28:19] [DEDUP] Starte Dedup für 547 Einträge
+[2026-05-02 05:28:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-02 05:28:20] [DEDUP] Auto-Merge (1.00): Krankenhaus in Mönchengladbach (Name nic / Mönchengladbach ↔ Krankenhaus in Mönchengladbach (Name nic / Mönchengladbach
+[2026-05-02 05:28:20] [DEDUP] Auto-Merge (0.88): Uniklinik Gießen / Gießen ↔ Uniklinik Gießen / Gießen
+[2026-05-02 05:28:20] [DEDUP] Paare verglichen: 9331
+[2026-05-02 05:28:20] [DEDUP] Auto-Merges: 2
+[2026-05-02 05:28:20] [DEDUP] Kandidaten (unsicher): 324
+[2026-05-02 05:28:20] [DEDUP] Cluster 2x: Uniklinik Gießen, Uniklinik Gießen
+[2026-05-02 05:28:20] [DEDUP] Cluster 2x: Krankenhaus in Mönchengladbach (Name nic, Krankenhaus in Mönchengladbach (Name nic
+[2026-05-02 05:28:20] [DEDUP] Ergebnis: 545 Einträge (war: 547, 2 zusammengeführt)
+[2026-05-02 05:28:20] [DEDUP] Kandidaten-Datei: 324 pending, 2 confirmed, 0 rejected
+[2026-05-02 05:28:20] [DEDUP] Gespeichert: 547 → 545 Einträge

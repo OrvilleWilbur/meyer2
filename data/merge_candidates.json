@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T05:58:49.295284",
+  "generated_at": "2026-05-02T05:28:20.399248",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -331,6 +331,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "unbekannt",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de"
       }
     },
     {
@@ -760,6 +793,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.71,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.71
+      },
+      "entry_a": {
+        "einrichtung": "Kliniken Maria Hilf",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
+        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
+        "ort": "Mönchengladbach",
+        "datum": "13.03.2026",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
+        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de"
       }
     },
     {
@@ -1585,6 +1651,39 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.699,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.699
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
+        "ort": "Gießen",
+        "datum": "25.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
+        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Gießen",
+        "ort": "Gießen",
+        "datum": "24.10.2021",
+        "bundesland": "Hessen",
+        "status": "enriched",
+        "link": "https://www.rtl.de/cms/giessen-feuer-in-der-chirurgie-der-uniklinik-4853289.html",
+        "titel": "Gießen: Feuer in der Chirurgie der Uniklinik - RTL.de"
       }
     },
     {
