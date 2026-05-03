@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-02T05:28:20.399248",
+  "generated_at": "2026-05-03T05:48:49.324831",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -331,39 +331,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 1.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "unbekannt",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
-        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
-        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de"
       }
     },
     {
@@ -793,39 +760,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.71,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.71
-      },
-      "entry_a": {
-        "einrichtung": "Kliniken Maria Hilf",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://rp-online.de/nrw/staedte/moenchengladbach/moenchengladbach-naechtlicher-feuerwehreinsatz-im-krankenhaus_aid-145240593",
-        "titel": "In der Nacht zu Freitag: Feuerwehreinsatz in Möchengladbacher Krankenhaus - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus in Mönchengladbach (Name nicht spezifiziert)",
-        "ort": "Mönchengladbach",
-        "datum": "13.03.2026",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
-        "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de"
       }
     },
     {
@@ -1651,39 +1585,6 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.699,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.1111111111111111,
-        "total": 0.699
-      },
-      "entry_a": {
-        "einrichtung": "Universitätsklinikum Gießen/Marburg (UKGM)",
-        "ort": "Gießen",
-        "datum": "25.10.2021",
-        "bundesland": "Hessen",
-        "status": "enriched",
-        "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
-        "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
-      },
-      "entry_b": {
-        "einrichtung": "Uniklinik Gießen",
-        "ort": "Gießen",
-        "datum": "24.10.2021",
-        "bundesland": "Hessen",
-        "status": "enriched",
-        "link": "https://www.rtl.de/cms/giessen-feuer-in-der-chirurgie-der-uniklinik-4853289.html",
-        "titel": "Gießen: Feuer in der Chirurgie der Uniklinik - RTL.de"
       }
     },
     {
@@ -8763,6 +8664,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verlassenem-krankenhaus/ar-AA21eB9d",
+        "titel": "Millionenschaden bei Brand in verlassenem Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/millionenschaden-bei-brand-in-verlassenem-krankenhaus_aid-147032293",
+        "titel": "Polizei sucht nach Ursache: Millionenschaden bei Brand in verlassenem Krankenhaus - Saarbrücker Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "übt Klinik",
         "ort": "",
         "datum": "22.03.2025",
@@ -10495,6 +10429,39 @@
         "status": "false_positive",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verlassenem-krankenhaus/ar-AA21eB9d",
         "titel": "Millionenschaden bei Brand in verlassenem Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "20.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr-millionenschaden-bei-brand-in-verlassenem-krankenhaus-in-zweibruecken-100.html",
+        "titel": "Rheinland-Pfalz: Verdächtige nach Brand in verlassenem Krankenhaus in Zweibrücken festgenommen - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/millionenschaden-bei-brand-in-verlassenem-krankenhaus_aid-147032293",
+        "titel": "Polizei sucht nach Ursache: Millionenschaden bei Brand in verlassenem Krankenhaus - Saarbrücker Zeitung"
       }
     },
     {

@@ -27230,3 +27230,53 @@
 [2026-05-02 05:28:20] [DEDUP] Ergebnis: 545 Einträge (war: 547, 2 zusammengeführt)
 [2026-05-02 05:28:20] [DEDUP] Kandidaten-Datei: 324 pending, 2 confirmed, 0 rejected
 [2026-05-02 05:28:20] [DEDUP] Gespeichert: 547 → 545 Einträge
+[2026-05-03 05:48:32] === Monitor-Lauf gestartet ===
+[2026-05-03 05:48:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-03 05:48:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-03 05:48:34] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-05-03 05:48:34] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-05-03 05:48:35] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-05-03 05:48:35] Feed 'gn_brand_klinik': 43 Einträge
+[2026-05-03 05:48:36] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-05-03 05:48:36] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-03 05:48:36] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-05-03 05:48:37] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-05-03 05:48:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-03 05:48:38] 219 relevante Treffer in Feeds
+[2026-05-03 05:48:38] ✅ 3 NEUE Einträge gefunden:
+[2026-05-03 05:48:38]    19.04.2026 | verlassenem Krankenhaus |  | Polizei sucht nach Ursache: Millionenschaden bei Brand in ve
+[2026-05-03 05:48:38]    05.03.2026 |  |  | Krankenhaus Bethanien Moers: Feuer in Patientenzimmer ausgeb
+[2026-05-03 05:48:38]    19.08.2022 | am Krankenhaus |  | Bombendrohung in Bremerhaven: Evakuierung am Krankenhaus - P
+[2026-05-03 05:48:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-03 05:48:38] === Monitor-Lauf beendet ===
+
+[2026-05-03 05:48:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-03 05:48:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-03 05:48:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-03 05:48:38] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-03 05:48:38] [enrich] --- Enriche [1/3]: Polizei sucht nach Ursache: Millionenschaden bei Brand in ve
+[2026-05-03 05:48:38] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/millionenschaden-b
+[2026-05-03 05:48:39] [enrich] Volltext extrahiert: 1284 Zeichen von https://www.saarbruecker-zeitung.de/saarland/blickzumnachbar
+[2026-05-03 05:48:40] [enrich] FALSE POSITIVE erkannt: Das Krankenhaus war zum Zeitpunkt des Brandes nicht mehr in Betrieb und verlassen. Es handelt sich um den Brand in einem ehemaligen, leerstehenden Gebäude, nicht um einen Brand in einem aktiven Krankenhaus/einer Klinik mit Patienten oder Betriebsbetrieb.
+[2026-05-03 05:48:41] [enrich] --- Enriche [2/3]: Krankenhaus Bethanien Moers: Feuer in Patientenzimmer ausgeb
+[2026-05-03 05:48:42] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moers/krankenhaus-bethanien-moers-feuer-in-pati
+[2026-05-03 05:48:42] [enrich] Volltext extrahiert: 1332 Zeichen von https://rp-online.de/nrw/staedte/moers/krankenhaus-bethanien
+[2026-05-03 05:48:45] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bethanien in Moers
+[2026-05-03 05:48:46] [enrich] --- Enriche [3/3]: Bombendrohung in Bremerhaven: Evakuierung am Krankenhaus - P
+[2026-05-03 05:48:46] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/bombendrohung-in-bremerhaven-evakuierung-am-krankenh
+[2026-05-03 05:48:47] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/bombendrohung-in-bremerhaven-evakuierung-am-krankenh: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/bombendrohung-in-bremerhaven-evakuierung-am-krankenhaus-polizei-gibt-entwarnung-UDS7TXYWB4DSVHOCJMKP46H3KU.html
+[2026-05-03 05:48:47] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (592 Z.)
+[2026-05-03 05:48:48] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombendrohung, nicht wegen Brand
+[2026-05-03 05:48:48] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-05-03 05:48:48] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-03 05:48:48] [DEDUP] Starte Dedup für 548 Einträge
+[2026-05-03 05:48:48] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-03 05:48:49] [DEDUP] Auto-Merge (1.00): Krankenhaus Bethanien / Moers ↔ Krankenhaus Bethanien / Moers
+[2026-05-03 05:48:49] [DEDUP] Paare verglichen: 9396
+[2026-05-03 05:48:49] [DEDUP] Auto-Merges: 1
+[2026-05-03 05:48:49] [DEDUP] Kandidaten (unsicher): 323
+[2026-05-03 05:48:49] [DEDUP] Cluster 2x: Krankenhaus Bethanien, Krankenhaus Bethanien
+[2026-05-03 05:48:49] [DEDUP] Ergebnis: 547 Einträge (war: 548, 1 zusammengeführt)
+[2026-05-03 05:48:49] [DEDUP] Kandidaten-Datei: 323 pending, 2 confirmed, 0 rejected
+[2026-05-03 05:48:49] [DEDUP] Gespeichert: 548 → 547 Einträge
