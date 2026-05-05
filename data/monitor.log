@@ -27325,3 +27325,62 @@
 [2026-05-04 05:54:13] [DEDUP] Ergebnis: 548 Einträge (war: 549, 1 zusammengeführt)
 [2026-05-04 05:54:13] [DEDUP] Kandidaten-Datei: 323 pending, 2 confirmed, 0 rejected
 [2026-05-04 05:54:13] [DEDUP] Gespeichert: 549 → 548 Einträge
+[2026-05-05 05:32:46] === Monitor-Lauf gestartet ===
+[2026-05-05 05:32:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-05 05:32:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-05 05:32:48] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-05-05 05:32:49] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-05-05 05:32:49] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-05-05 05:32:49] Feed 'gn_brand_klinik': 43 Einträge
+[2026-05-05 05:32:50] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-05-05 05:32:50] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-05 05:32:50] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-05-05 05:32:51] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-05-05 05:32:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-05 05:32:52] 218 relevante Treffer in Feeds
+[2026-05-05 05:32:52] ✅ 5 NEUE Einträge gefunden:
+[2026-05-05 05:32:52]    19.04.2015 | Karlsruher Krankenhaus |  | Nach der Operation verwirrt?: Patient legt Feuer in Karlsruh
+[2026-05-05 05:32:52]    27.04.2012 | bei Klinikbrand |  | 81 Jahre alter Patient stirbt bei Klinikbrand - Merkur
+[2026-05-05 05:32:52]    26.04.2026 | in Klinik gebracht |  | Polizei-News Mesekenhagen (LK VG), 26.04.26: Erneuter Brand 
+[2026-05-05 05:32:52]    01.05.2026 | Helios-Klinikum aus |  | Feuer bricht in Patientenzimmer im Erfurter Helios-Klinikum 
+[2026-05-05 05:32:52]    11.01.2020 | zuerst Krankenhaus |  | Vier Fliegerbomben vermutet: Mega-Evakuierung in Dortmund - 
+[2026-05-05 05:32:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-05 05:32:52] === Monitor-Lauf beendet ===
+
+[2026-05-05 05:32:53] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-05 05:32:53] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-05 05:32:53] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-05 05:32:53] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-05 05:32:53] [enrich] --- Enriche [1/5]: Nach der Operation verwirrt?: Patient legt Feuer in Karlsruh
+[2026-05-05 05:32:53] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Patient-legt-Feuer-in-Karlsruher-Krankenhaus-articl
+[2026-05-05 05:32:53] [enrich] Volltext extrahiert: 2293 Zeichen von https://www.n-tv.de/panorama/Patient-legt-Feuer-in-Karlsruhe
+[2026-05-05 05:32:56] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Karlsruhe in Karlsruhe
+[2026-05-05 05:32:57] [enrich] --- Enriche [2/5]: 81 Jahre alter Patient stirbt bei Klinikbrand - Merkur
+[2026-05-05 05:32:57] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/jahre-alter-patient-stirbt-klinikbrand-zr-2295
+[2026-05-05 05:32:58] [enrich] Volltext extrahiert: 1991 Zeichen von https://www.merkur.de/deutschland/jahre-alter-patient-stirbt
+[2026-05-05 05:33:01] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Lünen in Lünen
+[2026-05-05 05:33:02] [enrich] --- Enriche [3/5]: Polizei-News Mesekenhagen (LK VG), 26.04.26: Erneuter Brand 
+[2026-05-05 05:33:02] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/welt/polizei-news-mesekenhagen-lk-vg-26-04
+[2026-05-05 05:33:03] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/welt/polizei-news-mesekenhagen-lk-vg-26-04
+[2026-05-05 05:33:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (635 Z.)
+[2026-05-05 05:33:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand im Brooker Wald (Waldbrand), nicht in einem Krankenhaus. Die Person wurde nach dem Brand wegen Widerstands in eine Klinik gebracht - dies ist eine Einlieferung nach einem Vorfall außerhalb einer medizinischen Einrichtung, kein Brand IN einem Krankenhaus.
+[2026-05-05 05:33:05] [enrich] --- Enriche [4/5]: Feuer bricht in Patientenzimmer im Erfurter Helios-Klinikum 
+[2026-05-05 05:33:06] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-bricht-in-patientenzimmer-i
+[2026-05-05 05:33:06] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-bricht-in-patientenzimmer-i
+[2026-05-05 05:33:06] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (512 Z.)
+[2026-05-05 05:33:08] [enrich] Enrichment abgeschlossen: partial — Helios-Klinikum Erfurt in Erfurt
+[2026-05-05 05:33:09] [enrich] --- Enriche [5/5]: Vier Fliegerbomben vermutet: Mega-Evakuierung in Dortmund - 
+[2026-05-05 05:33:09] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/dortmund-fliegerbomben-evakuierung-innenstadt-
+[2026-05-05 05:33:10] [enrich] Volltext extrahiert: 2686 Zeichen von https://www.merkur.de/deutschland/dortmund-fliegerbomben-eva
+[2026-05-05 05:33:11] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Fliegerbomben-Verdacht), nicht wegen eines Brandes. Patienten wurden verlegt, aber es gab keinen Brand in den Krankenhäusern.
+[2026-05-05 05:33:11] [enrich] Ergebnis: 2 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-05-05 05:33:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-05 05:33:11] [DEDUP] Starte Dedup für 553 Einträge
+[2026-05-05 05:33:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-05 05:33:12] [DEDUP] Paare verglichen: 9463
+[2026-05-05 05:33:12] [DEDUP] Auto-Merges: 0
+[2026-05-05 05:33:12] [DEDUP] Kandidaten (unsicher): 323
+[2026-05-05 05:33:12] [DEDUP] Ergebnis: 553 Einträge (war: 553, 0 zusammengeführt)
+[2026-05-05 05:33:12] [DEDUP] Kandidaten-Datei: 323 pending, 2 confirmed, 0 rejected
+[2026-05-05 05:33:12] [DEDUP] Gespeichert: 553 → 553 Einträge
