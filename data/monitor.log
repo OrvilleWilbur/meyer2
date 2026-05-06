@@ -27384,3 +27384,46 @@
 [2026-05-05 05:33:12] [DEDUP] Ergebnis: 553 Einträge (war: 553, 0 zusammengeführt)
 [2026-05-05 05:33:12] [DEDUP] Kandidaten-Datei: 323 pending, 2 confirmed, 0 rejected
 [2026-05-05 05:33:12] [DEDUP] Gespeichert: 553 → 553 Einträge
+[2026-05-06 05:47:32] === Monitor-Lauf gestartet ===
+[2026-05-06 05:47:34] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-06 05:47:35] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-06 05:47:36] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-05-06 05:47:36] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-05-06 05:47:37] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-05-06 05:47:37] Feed 'gn_brand_klinik': 44 Einträge
+[2026-05-06 05:47:38] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-05-06 05:47:38] Feed 'gn_klinikbrand': 88 Einträge
+[2026-05-06 05:47:39] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-05-06 05:47:39] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-05-06 05:47:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-06 05:47:40] 224 relevante Treffer in Feeds
+[2026-05-06 05:47:40] ✅ 2 NEUE Einträge gefunden:
+[2026-05-06 05:47:40]    04.12.2025 | im Krankenhaus |  | Brand in Parchimer Wohnhaus: 15 evakuiert, 3 im Krankenhaus 
+[2026-05-06 05:47:40]    28.04.2026 | in Klinik |  | Moped an Keller fängt Feuer: Retter im Großeinsatz, eine Per
+[2026-05-06 05:47:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-06 05:47:40] === Monitor-Lauf beendet ===
+
+[2026-05-06 05:47:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-06 05:47:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-06 05:47:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-06 05:47:40] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-06 05:47:40] [enrich] --- Enriche [1/2]: Brand in Parchimer Wohnhaus: 15 evakuiert, 3 im Krankenhaus 
+[2026-05-06 05:47:41] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/parchim/brand-in-parchim-mehrere-verletzte-ha
+[2026-05-06 05:47:42] [enrich] Volltext extrahiert: 1672 Zeichen von https://www.nordkurier.de/regional/parchim/brand-in-parchim-
+[2026-05-06 05:47:44] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnblock/Mehrfamilienhaus, nicht in einem Krankenhaus. Patienten wurden nach dem Brand zur Behandlung in eine Klinik gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-05-06 05:47:45] [enrich] --- Enriche [2/2]: Moped an Keller fängt Feuer: Retter im Großeinsatz, eine Per
+[2026-05-06 05:47:45] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/moped-an-keller-f%C3%A4ngt-feuer-
+[2026-05-06 05:47:45] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/moped-an-keller-f%C3%A4ngt-feuer-
+[2026-05-06 05:47:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (564 Z.)
+[2026-05-06 05:47:47] [enrich] FALSE POSITIVE erkannt: Brand eines Mopeds im Keller eines Gebäudes, nicht im Krankenhaus selbst. Die Person wird nach dem Brand in eine Klinik gebracht, was eine Behandlung von Brandverletzungen darstellt, nicht einen Brand im Krankenhaus.
+[2026-05-06 05:47:47] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-05-06 05:47:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-06 05:47:47] [DEDUP] Starte Dedup für 555 Einträge
+[2026-05-06 05:47:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-06 05:47:48] [DEDUP] Paare verglichen: 9616
+[2026-05-06 05:47:48] [DEDUP] Auto-Merges: 0
+[2026-05-06 05:47:48] [DEDUP] Kandidaten (unsicher): 325
+[2026-05-06 05:47:48] [DEDUP] Ergebnis: 555 Einträge (war: 555, 0 zusammengeführt)
+[2026-05-06 05:47:48] [DEDUP] Kandidaten-Datei: 325 pending, 2 confirmed, 0 rejected
+[2026-05-06 05:47:48] [DEDUP] Gespeichert: 555 → 555 Einträge
