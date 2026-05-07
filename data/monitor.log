@@ -27427,3 +27427,53 @@
 [2026-05-06 05:47:48] [DEDUP] Ergebnis: 555 Einträge (war: 555, 0 zusammengeführt)
 [2026-05-06 05:47:48] [DEDUP] Kandidaten-Datei: 325 pending, 2 confirmed, 0 rejected
 [2026-05-06 05:47:48] [DEDUP] Gespeichert: 555 → 555 Einträge
+[2026-05-07 05:51:18] === Monitor-Lauf gestartet ===
+[2026-05-07 05:51:19] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-07 05:51:20] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-07 05:51:20] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-05-07 05:51:21] Feed 'gn_feuer_krankenhaus': 39 Einträge
+[2026-05-07 05:51:21] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-05-07 05:51:22] Feed 'gn_brand_klinik': 35 Einträge
+[2026-05-07 05:51:22] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-05-07 05:51:23] Feed 'gn_klinikbrand': 98 Einträge
+[2026-05-07 05:51:23] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-05-07 05:51:23] Feed 'gn_evakuierung_klinik': 58 Einträge
+[2026-05-07 05:51:24] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-07 05:51:24] 241 relevante Treffer in Feeds
+[2026-05-07 05:51:24] ✅ 3 NEUE Einträge gefunden:
+[2026-05-07 05:51:24]    19.12.2025 | ins Krankenhaus gebracht |  | Einsatz in Schalksmühle - Brand in Wohnhaus - zwei Menschen 
+[2026-05-07 05:51:24]    20.04.2026 | Zweibrücker Krankenhaus |  | Millionenschaden nach Brand in Zweibrücker Krankenhaus - SOL
+[2026-05-07 05:51:24]    30.09.2016 | Bochumer Krankenhaus |  | Brand in Patientenzimmer ausgebrochen - Feuer in Bochumer Kr
+[2026-05-07 05:51:24] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-07 05:51:24] === Monitor-Lauf beendet ===
+
+[2026-05-07 05:51:25] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-07 05:51:25] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-07 05:51:25] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-07 05:51:25] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-07 05:51:25] [enrich] --- Enriche [1/3]: Einsatz in Schalksmühle - Brand in Wohnhaus - zwei Menschen 
+[2026-05-07 05:51:25] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/einsatz-in-schalksmuehle-brand-in-wohnhaus-
+[2026-05-07 05:51:26] [enrich] Volltext extrahiert: 2053 Zeichen von https://www.sueddeutsche.de/panorama/einsatz-in-schalksmuehl
+[2026-05-07 05:51:28] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus, nicht in einem Krankenhaus. Zwei Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, dies ist jedoch kein Brand IN einer medizinischen Einrichtung.
+[2026-05-07 05:51:29] [enrich] --- Enriche [2/3]: Millionenschaden nach Brand in Zweibrücker Krankenhaus - SOL
+[2026-05-07 05:51:29] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/grossregion/rheinland-pfalz/millionenschaden-nach-brand-in-zw
+[2026-05-07 05:51:29] [enrich] Artikel-Fetch fehlgeschlagen für https://www.sol.de/grossregion/rheinland-pfalz/millionenschaden-nach-brand-in-zw: 403 Client Error: Forbidden for url: https://www.sol.de/grossregion/rheinland-pfalz/millionenschaden-nach-brand-in-zweibruecker-krankenhaus-re-2,696032.html
+[2026-05-07 05:51:29] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (494 Z.)
+[2026-05-07 05:51:31] [enrich] Enrichment abgeschlossen: partial — Krankenhaus Zweibrücken in Zweibrücken
+[2026-05-07 05:51:32] [enrich] --- Enriche [3/3]: Brand in Patientenzimmer ausgebrochen - Feuer in Bochumer Kr
+[2026-05-07 05:51:33] [enrich] Google News URL aufgelöst (v1): https://www.bild.de/news/inland/breaking-news/breaking-06-feuer-bochum-48069556.
+[2026-05-07 05:51:33] [enrich] Volltext extrahiert: 4183 Zeichen von https://www.bild.de/news/inland/breaking-news/breaking-06-fe
+[2026-05-07 05:51:37] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-05-07 05:51:37] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-05-07 05:51:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-07 05:51:37] [DEDUP] Starte Dedup für 558 Einträge
+[2026-05-07 05:51:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-07 05:51:38] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-05-07 05:51:38] [DEDUP] Paare verglichen: 9710
+[2026-05-07 05:51:38] [DEDUP] Auto-Merges: 1
+[2026-05-07 05:51:38] [DEDUP] Kandidaten (unsicher): 330
+[2026-05-07 05:51:38] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-05-07 05:51:38] [DEDUP] Ergebnis: 557 Einträge (war: 558, 1 zusammengeführt)
+[2026-05-07 05:51:38] [DEDUP] Kandidaten-Datei: 330 pending, 2 confirmed, 0 rejected
+[2026-05-07 05:51:38] [DEDUP] Gespeichert: 558 → 557 Einträge
