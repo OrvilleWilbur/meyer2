@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T05:51:38.524294",
+  "generated_at": "2026-05-08T05:21:57.857266",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -173,6 +173,39 @@
         "",
         ""
       ],
+      "score": 0.785,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.785
+      },
+      "entry_a": {
+        "einrichtung": "Rostocker Universitätsklinik",
+        "ort": "Rostock",
+        "datum": "09.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
+        "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Rostock",
+        "ort": "Rostock",
+        "datum": "08.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/der_tag/Feuer-in-Rostocker-Uniklinik-26-Jaehriger-tot-article26017436.html",
+        "titel": "Der Tag: Feuer in Rostocker Uniklinik - 26-Jähriger tot - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -331,39 +364,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.bild.de/news/inland/breaking-news/breaking-06-feuer-bochum-48069556.bild.html",
-        "titel": "Brand in Patientenzimmer ausgebrochen - Feuer in Bochumer Krankenhaus – 2 Tote! - BILD"
       }
     },
     {
@@ -1823,6 +1823,39 @@
         "",
         ""
       ],
+      "score": 0.676,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.06666666666666667,
+        "total": 0.676
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
+        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/uelzen--vier-tote-nach-krankenhausbrand-in-niedersachsen-34339702.html",
+        "titel": "Vier Tote nach Brand in Krankenhaus in Uelzen - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.675,
       "details": {
         "datum": 1.0,
@@ -2120,6 +2153,39 @@
         "",
         ""
       ],
+      "score": 0.67,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.67
+      },
+      "entry_a": {
+        "einrichtung": "Klinik und Poliklinik für Psychiatrie und Psychotherapie der Universitätsmedizin Rostock",
+        "ort": "Rostock",
+        "datum": "07.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/26-jaehriger-patient-stirbt-bei-brand-in-rostocker-uniklinik-54474",
+        "titel": "Ermittlungen laufen: 26-jähriger Patient stirbt bei Brand in Rostocker Uniklinik - kma Online"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinik Rostock",
+        "ort": "Rostock",
+        "datum": "08.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/der_tag/Feuer-in-Rostocker-Uniklinik-26-Jaehriger-tot-article26017436.html",
+        "titel": "Der Tag: Feuer in Rostocker Uniklinik - 26-Jähriger tot - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.667,
       "details": {
         "datum": 0.0,
@@ -2542,6 +2608,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.661,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.21428571428571427,
+        "total": 0.661
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.stern.de/panorama/uelzen--vier-tote-nach-krankenhausbrand-in-niedersachsen-34339702.html",
+        "titel": "Vier Tote nach Brand in Krankenhaus in Uelzen - STERN.de"
       }
     },
     {
@@ -5727,6 +5826,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "NRW-Klinik verlegt",
         "ort": "",
         "datum": "03.01.2026",
@@ -6073,6 +6205,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
         "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
       }
     },
     {
@@ -6552,6 +6717,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik untergebracht",
         "ort": "",
         "datum": "14.01.2026",
@@ -6684,6 +6882,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Spezialklinik",
         "ort": "",
         "datum": "02.01.2026",
@@ -6733,6 +6964,39 @@
         "status": "false_positive",
         "link": "https://www.aerzteblatt.de/archiv/brandschutz-im-krankenhaus-oft-ein-spiel-mit-dem-feuer-0c4660c6-b9f5-499a-a3d9-1b03c4679485",
         "titel": "Brandschutz im Krankenhaus: Oft ein Spiel mit dem Feuer - aerzteblatt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
       }
     },
     {
@@ -9710,39 +9974,6 @@
         "",
         ""
       ],
-      "score": 0.535,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.5,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.535
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
-        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.bild.de/news/inland/breaking-news/breaking-06-feuer-bochum-48069556.bild.html",
-        "titel": "Brand in Patientenzimmer ausgebrochen - Feuer in Bochumer Krankenhaus – 2 Tote! - BILD"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.525,
       "details": {
         "datum": 0.0,
@@ -10726,39 +10957,6 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.46,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.375,
-        "total": 0.46
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.bild.de/news/inland/breaking-news/breaking-06-feuer-bochum-48069556.bild.html",
-        "titel": "Brand in Patientenzimmer ausgebrochen - Feuer in Bochumer Krankenhaus – 2 Tote! - BILD"
       }
     },
     {
