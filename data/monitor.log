@@ -27550,3 +27550,63 @@
 [2026-05-08 05:21:57] [DEDUP] Ergebnis: 561 Einträge (war: 564, 3 zusammengeführt)
 [2026-05-08 05:21:57] [DEDUP] Kandidaten-Datei: 336 pending, 2 confirmed, 0 rejected
 [2026-05-08 05:21:57] [DEDUP] Gespeichert: 564 → 561 Einträge
+[2026-05-09 05:38:51] === Monitor-Lauf gestartet ===
+[2026-05-09 05:38:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-09 05:38:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-09 05:38:54] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-05-09 05:38:54] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-05-09 05:38:54] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-05-09 05:38:55] Feed 'gn_brand_klinik': 47 Einträge
+[2026-05-09 05:38:55] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-05-09 05:38:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-09 05:38:56] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-05-09 05:38:56] Feed 'gn_evakuierung_klinik': 55 Einträge
+[2026-05-09 05:38:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-09 05:38:57] 221 relevante Treffer in Feeds
+[2026-05-09 05:38:57] ✅ 5 NEUE Einträge gefunden:
+[2026-05-09 05:38:57]    04.04.2026 |  |  | Krankenhausbett in Flammen: 64-jährige Patientin stirbt - RN
+[2026-05-09 05:38:57]    05.01.2024 | in Krankenhaus |  | Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in 
+[2026-05-09 05:38:57]    22.09.2022 | Schwarzwald-Baar-Klinikum |  | Villingen-Schwenningen: Brand im Schwarzwald-Baar-Klinikum -
+[2026-05-09 05:38:57]    17.11.2018 | im Klinikum |  | Konstanz: Brand im Klinikum: Toter war 80 Jahre alter Patien
+[2026-05-09 05:38:57]    04.10.2025 | bei Krankenhausbrand |  | 20 Menschen bei Krankenhausbrand in Deutschland verletzt - s
+[2026-05-09 05:38:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-09 05:38:57] === Monitor-Lauf beendet ===
+
+[2026-05-09 05:38:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-09 05:38:58] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-09 05:38:58] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-09 05:38:58] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-09 05:38:58] [enrich] --- Enriche [1/5]: Krankenhausbett in Flammen: 64-jährige Patientin stirbt - RN
+[2026-05-09 05:38:58] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jae
+[2026-05-09 05:38:59] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jae: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jaehrige-patientin-stirbt-EQ7JW5N7BNAWTM6OKXIAMEAZMQ.html
+[2026-05-09 05:38:59] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (523 Z.)
+[2026-05-09 05:39:00] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne vollständigen Inhalt. Es kann nicht überprüft werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder ob eine Patientin nach einem Brand anderswo ins Krankenhaus gebracht wurde.
+[2026-05-09 05:39:01] [enrich] --- Enriche [2/5]: Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in 
+[2026-05-09 05:39:02] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Krankenhaus-in-Uelzen-artic
+[2026-05-09 05:39:02] [enrich] Volltext extrahiert: 2632 Zeichen von https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Kranken
+[2026-05-09 05:39:05] [enrich] Enrichment abgeschlossen: enriched — Klinik Uelzen in Uelzen
+[2026-05-09 05:39:06] [enrich] --- Enriche [3/5]: Villingen-Schwenningen: Brand im Schwarzwald-Baar-Klinikum -
+[2026-05-09 05:39:06] [enrich] Google News URL aufgelöst (v1): https://www.regiotrends.de/de/polizeiberichte/index.news.489590.brand-im-schwarz
+[2026-05-09 05:39:07] [enrich] Volltext extrahiert: 1066 Zeichen von https://www.regiotrends.de/de/polizeiberichte/index.news.489
+[2026-05-09 05:39:10] [enrich] Enrichment abgeschlossen: enriched — Schwarzwald-Baar-Klinikum in Villingen-Schwenningen
+[2026-05-09 05:39:11] [enrich] --- Enriche [4/5]: Konstanz: Brand im Klinikum: Toter war 80 Jahre alter Patien
+[2026-05-09 05:39:11] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/panorama/Konstanz-Brand-im-Klinikum-Toter-w
+[2026-05-09 05:39:12] [enrich] Volltext extrahiert: 229 Zeichen von https://www.augsburger-allgemeine.de/panorama/Konstanz-Brand
+[2026-05-09 05:39:14] [enrich] Enrichment abgeschlossen: enriched — Klinikum Konstanz in Konstanz
+[2026-05-09 05:39:15] [enrich] --- Enriche [5/5]: 20 Menschen bei Krankenhausbrand in Deutschland verletzt - s
+[2026-05-09 05:39:15] [enrich] Google News URL aufgelöst (v1): https://www.saba.ye/de/news3564793.htm
+[2026-05-09 05:39:18] [enrich] Volltext zu kurz/leer (112 Z.), verwende RSS-Snippet (355 Z.)
+[2026-05-09 05:39:19] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne Kontext oder Inhalt. Es können keine spezifischen Informationen zum Brand (Einrichtung, Ort, Datum, Ursache, Hergang) extrahiert werden. Eine sachliche Überprüfung, ob es sich um einen echten Krankenhausbrand handelt, ist nicht möglich.
+[2026-05-09 05:39:19] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-05-09 05:39:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-09 05:39:19] [DEDUP] Starte Dedup für 566 Einträge
+[2026-05-09 05:39:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-09 05:39:20] [DEDUP] Auto-Merge (0.97): Klinikum Uelzen / Uelzen ↔ Klinik Uelzen / Uelzen
+[2026-05-09 05:39:20] [DEDUP] Paare verglichen: 9925
+[2026-05-09 05:39:20] [DEDUP] Auto-Merges: 1
+[2026-05-09 05:39:20] [DEDUP] Kandidaten (unsicher): 337
+[2026-05-09 05:39:20] [DEDUP] Cluster 2x: Klinikum Uelzen, Klinik Uelzen
+[2026-05-09 05:39:20] [DEDUP] Ergebnis: 565 Einträge (war: 566, 1 zusammengeführt)
+[2026-05-09 05:39:20] [DEDUP] Kandidaten-Datei: 337 pending, 2 confirmed, 0 rejected
+[2026-05-09 05:39:20] [DEDUP] Gespeichert: 566 → 565 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T05:21:57.857266",
+  "generated_at": "2026-05-09T05:39:20.877958",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -463,6 +463,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.74,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.74
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Konstanz",
+        "ort": "Konstanz",
+        "datum": "18.11.2018",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/baden-wuerttemberg_artikel,-Ein-Toter-und-14-Verletzte-nach-Brand-in-Klinikum-Konstanz-_arid,1263054.html",
+        "titel": "Ein Toter und 14 Verletzte nach Brand in Klinikum Konstanz - Baden-Württemberg - Pforzheimer-Zeitung - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Konstanz",
+        "ort": "Konstanz",
+        "datum": "16.11.2018",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.augsburger-allgemeine.de/panorama/Konstanz-Brand-im-Klinikum-Toter-war-80-Jahre-alter-Patient-id52716636.html",
+        "titel": "Konstanz: Brand im Klinikum: Toter war 80 Jahre alter Patient - Augsburger Allgemeine"
       }
     },
     {
@@ -1734,6 +1767,39 @@
         "total": 0.693
       },
       "entry_a": {
+        "einrichtung": "Krankenhaus Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
+        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Krankenhaus-in-Uelzen-article24640351.html",
+        "titel": "Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in Uelzen - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.693,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.693
+      },
+      "entry_a": {
         "einrichtung": "Klinik Zweibrücken",
         "ort": "Zweibrücken",
         "datum": "21.04.2026",
@@ -1816,39 +1882,6 @@
         "status": "enriched",
         "link": "https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik",
         "titel": "Feuer in Ameos Klinik - der reporter"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.676,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.06666666666666667,
-        "total": 0.676
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
-        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/uelzen--vier-tote-nach-krankenhausbrand-in-niedersachsen-34339702.html",
-        "titel": "Vier Tote nach Brand in Krankenhaus in Uelzen - STERN.de"
       }
     },
     {
@@ -2608,39 +2641,6 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.661,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.21428571428571427,
-        "total": 0.661
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.stern.de/panorama/uelzen--vier-tote-nach-krankenhausbrand-in-niedersachsen-34339702.html",
-        "titel": "Vier Tote nach Brand in Krankenhaus in Uelzen - STERN.de"
       }
     },
     {
@@ -3532,6 +3532,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feuer-in-Klinik-ausgebrochen-keine-Verletzten-id30353999.html",
         "titel": "Niedersachsen & Bremen: Feuer in Klinik ausgebrochen - keine Verletzten - NTV"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.63,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.6,
+        "total": 0.63
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Krankenhaus-in-Uelzen-article24640351.html",
+        "titel": "Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in Uelzen - Ntv"
       }
     },
     {
