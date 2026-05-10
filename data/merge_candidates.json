@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-09T05:39:20.877958",
+  "generated_at": "2026-05-10T05:55:00.386793",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -397,6 +397,39 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/vivantes-klinikum-am-urban-vier-schwerverletzte-bei-feuer-in-berliner-klinik_aid-87883855",
         "titel": "48-Jähriger wegen Brandstiftung festgenommen: Vier Schwerverletzte bei Feuer in Berliner Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Urban-Krankenhaus",
+        "ort": "Berlin-Kreuzberg",
+        "datum": "03.04.2023",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.morgenpost.de/berlin/polizeibericht/article238059661/urban-krankenhaus-berlin-kreuzberg-brand-feuerwehr.html",
+        "titel": "Feuer im Urban-Krankenhaus: Tatverdächtiger gefasst - Berliner Morgenpost"
+      },
+      "entry_b": {
+        "einrichtung": "Vivantes-Klinikum am Urban",
+        "ort": "Berlin-Kreuzberg",
+        "datum": "03.04.2023",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.berliner-kurier.de/kriminalitaet/feuer-drama-in-klinik-am-urban-frau-sitzt-in-fahrstuhl-fest-lebensgefahr-li.334389",
+        "titel": "Feuer-Drama in Klinik am Urban: Frau sitzt in Fahrstuhl fest – Lebensgefahr! - Berliner Kurier"
       }
     },
     {
@@ -925,6 +958,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.705,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.705
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin-Zehlendorf",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
+        "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
+      },
+      "entry_b": {
+        "einrichtung": "Berliner Spital (genaue Bezeichnung unbekannt)",
+        "ort": "Berlin",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
+        "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
       }
     },
     {
@@ -1750,39 +1816,6 @@
         "status": "enriched",
         "link": "https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-patientin-stirbt-in-brennendem-krankenhausbett-94249217.html",
         "titel": "Krankenhausbett steht lichterloh in Flammen – Patientin (†64) tot - Rosenheim24"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.693,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.693
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
-        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Krankenhaus-in-Uelzen-article24640351.html",
-        "titel": "Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in Uelzen - Ntv"
       }
     },
     {
@@ -2681,6 +2714,39 @@
         "",
         ""
       ],
+      "score": 0.66,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.66
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Zehlendorf",
+        "ort": "Berlin",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rnd.de/panorama/feuer-in-berliner-krankenhaus-bett-in-flammen-64-jaehrige-patientin-stirbt-EQ7JW5N7BNAWTM6OKXIAMEAZMQ.html",
+        "titel": "Feuer in Berliner Krankenhaus: Bett in Flammen – 64-jährige Patientin stirbt - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Berliner Spital (genaue Bezeichnung unbekannt)",
+        "ort": "Berlin",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
+        "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.657,
       "details": {
         "datum": 0.7,
@@ -3539,39 +3605,6 @@
         "",
         ""
       ],
-      "score": 0.63,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.6,
-        "total": 0.63
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Uelzen",
-        "ort": "Uelzen",
-        "datum": "05.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.n-tv.de/panorama/Vier-Tote-nach-Feuer-in-Krankenhaus-in-Uelzen-article24640351.html",
-        "titel": "Brandursache unklar: Vier Tote nach Feuer in Krankenhaus in Uelzen - Ntv"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -3697,6 +3730,39 @@
         "status": "enriched",
         "link": "https://www.giessener-allgemeine.de/giessen/zigarettenkippe-ursache-fuer-feuer-an-uniklinik-91074716.html",
         "titel": "Zigarettenkippe Ursache für Feuer an Uniklinik - Gießener Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.565,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.565
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Emil von Behring",
+        "ort": "Berlin, Stadtteil Zehlendorf",
+        "datum": "03.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-patientin-stirbt-in-brennendem-krankenhausbett-94249217.html",
+        "titel": "Krankenhausbett steht lichterloh in Flammen – Patientin (†64) tot - Rosenheim24"
+      },
+      "entry_b": {
+        "einrichtung": "Berliner Spital (genaue Bezeichnung unbekannt)",
+        "ort": "Berlin",
+        "datum": "04.04.2026",
+        "bundesland": "Berlin",
+        "status": "enriched",
+        "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
+        "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
       }
     },
     {

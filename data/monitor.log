@@ -27610,3 +27610,71 @@
 [2026-05-09 05:39:20] [DEDUP] Ergebnis: 565 Einträge (war: 566, 1 zusammengeführt)
 [2026-05-09 05:39:20] [DEDUP] Kandidaten-Datei: 337 pending, 2 confirmed, 0 rejected
 [2026-05-09 05:39:20] [DEDUP] Gespeichert: 566 → 565 Einträge
+[2026-05-10 05:54:25] === Monitor-Lauf gestartet ===
+[2026-05-10 05:54:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-10 05:54:28] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-10 05:54:28] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-05-10 05:54:28] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-05-10 05:54:29] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-05-10 05:54:29] Feed 'gn_brand_klinik': 47 Einträge
+[2026-05-10 05:54:29] Feed 'gn_brand_klinikum': 43 Einträge
+[2026-05-10 05:54:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-10 05:54:30] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-05-10 05:54:31] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-05-10 05:54:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-10 05:54:32] 221 relevante Treffer in Feeds
+[2026-05-10 05:54:32] ✅ 6 NEUE Einträge gefunden:
+[2026-05-10 05:54:32]    09.05.2026 | Hamburger Krankenhaus |  | Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt 
+[2026-05-10 05:54:32]    09.05.2026 | Hamburger Krankenhaus |  | Feuer in Hamburger Krankenhaus: Eine Person leicht verletzt 
+[2026-05-10 05:54:32]    09.05.2026 | Hamburger Krankenhaus |  | Brände: Feuer in Hamburger Krankenhaus: Eine Person leicht v
+[2026-05-10 05:54:32]    02.04.2023 | in Klinik |  | Feuer-Drama in Klinik am Urban: Frau sitzt in Fahrstuhl fest
+[2026-05-10 05:54:32]    04.04.2026 | in Klinik |  | Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrenn
+[2026-05-10 05:54:32]    09.05.2026 | und Klinik betroffen |  | Große Evakuierung am Montag: Bombe in Köln: Schulen, Kitas u
+[2026-05-10 05:54:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-10 05:54:32] === Monitor-Lauf beendet ===
+
+[2026-05-10 05:54:33] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-10 05:54:33] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-10 05:54:33] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-10 05:54:33] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-10 05:54:33] [enrich] --- Enriche [1/6]: Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt 
+[2026-05-10 05:54:33] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/schleswig-holstein/artikel/feuer-in-hamburge
+[2026-05-10 05:54:34] [enrich] Volltext extrahiert: 1859 Zeichen von https://www.shz.de/deutschland-welt/schleswig-holstein/artik
+[2026-05-10 05:54:37] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-05-10 05:54:38] [enrich] --- Enriche [2/6]: Feuer in Hamburger Krankenhaus: Eine Person leicht verletzt 
+[2026-05-10 05:54:38] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mi
+[2026-05-10 05:54:38] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mi
+[2026-05-10 05:54:38] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (494 Z.)
+[2026-05-10 05:54:39] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Textinhalt. Es können keine verlässlichen Informationen zum Brand extrahiert werden (Einrichtungsname, Ort, Datum, Brandort, etc. fehlen vollständig).
+[2026-05-10 05:54:40] [enrich] --- Enriche [3/6]: Brände: Feuer in Hamburger Krankenhaus: Eine Person leicht v
+[2026-05-10 05:54:41] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/braende--f
+[2026-05-10 05:54:42] [enrich] Volltext extrahiert: 1469 Zeichen von https://www.stern.de/gesellschaft/regional/hamburg-schleswig
+[2026-05-10 05:54:45] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-05-10 05:54:46] [enrich] --- Enriche [4/6]: Feuer-Drama in Klinik am Urban: Frau sitzt in Fahrstuhl fest
+[2026-05-10 05:54:46] [enrich] Google News URL aufgelöst (v1): https://www.berliner-kurier.de/kriminalitaet/feuer-drama-in-klinik-am-urban-frau
+[2026-05-10 05:54:46] [enrich] Volltext extrahiert: 3911 Zeichen von https://www.berliner-kurier.de/kriminalitaet/feuer-drama-in-
+[2026-05-10 05:54:51] [enrich] Enrichment abgeschlossen: enriched — Vivantes-Klinikum am Urban in Berlin-Kreuzberg
+[2026-05-10 05:54:52] [enrich] --- Enriche [5/6]: Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrenn
+[2026-05-10 05:54:52] [enrich] Google News URL aufgelöst (v1): https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-12017
+[2026-05-10 05:54:52] [enrich] Volltext extrahiert: 833 Zeichen von https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-
+[2026-05-10 05:54:56] [enrich] Enrichment abgeschlossen: enriched — Berliner Spital (genaue Bezeichnung unbekannt) in Berlin
+[2026-05-10 05:54:57] [enrich] --- Enriche [6/6]: Große Evakuierung am Montag: Bombe in Köln: Schulen, Kitas u
+[2026-05-10 05:54:57] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/gro%C3%9Fe-evakuierung-am-montag-
+[2026-05-10 05:54:57] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/gro%C3%9Fe-evakuierung-am-montag-
+[2026-05-10 05:54:57] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (586 Z.)
+[2026-05-10 05:54:59] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand. Die Klinik war betroffen von der Evakuierungsmaßnahme, aber es handelt sich nicht um einen Brand in der Einrichtung.
+[2026-05-10 05:54:59] [enrich] Ergebnis: 4 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-05-10 05:54:59] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-10 05:54:59] [DEDUP] Starte Dedup für 571 Einträge
+[2026-05-10 05:54:59] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-10 05:55:00] [DEDUP] Auto-Merge (0.95): Vivantes Klinikum Am Urban / Berlin-Kreuzberg ↔ Vivantes-Klinikum am Urban / Berlin-Kreuzberg
+[2026-05-10 05:55:00] [DEDUP] Auto-Merge (1.00): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg
+[2026-05-10 05:55:00] [DEDUP] Paare verglichen: 10013
+[2026-05-10 05:55:00] [DEDUP] Auto-Merges: 2
+[2026-05-10 05:55:00] [DEDUP] Kandidaten (unsicher): 339
+[2026-05-10 05:55:00] [DEDUP] Cluster 2x: Vivantes Klinikum Am Urban, Vivantes-Klinikum am Urban
+[2026-05-10 05:55:00] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-05-10 05:55:00] [DEDUP] Ergebnis: 569 Einträge (war: 571, 2 zusammengeführt)
+[2026-05-10 05:55:00] [DEDUP] Kandidaten-Datei: 339 pending, 2 confirmed, 0 rejected
+[2026-05-10 05:55:00] [DEDUP] Gespeichert: 571 → 569 Einträge
