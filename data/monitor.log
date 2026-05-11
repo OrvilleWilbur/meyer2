@@ -27678,3 +27678,62 @@
 [2026-05-10 05:55:00] [DEDUP] Ergebnis: 569 Einträge (war: 571, 2 zusammengeführt)
 [2026-05-10 05:55:00] [DEDUP] Kandidaten-Datei: 339 pending, 2 confirmed, 0 rejected
 [2026-05-10 05:55:00] [DEDUP] Gespeichert: 571 → 569 Einträge
+[2026-05-11 06:26:46] === Monitor-Lauf gestartet ===
+[2026-05-11 06:26:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-11 06:26:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-11 06:26:48] Feed 'gn_brand_krankenhaus': 42 Einträge
+[2026-05-11 06:26:49] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-05-11 06:26:49] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-11 06:26:50] Feed 'gn_brand_klinik': 45 Einträge
+[2026-05-11 06:26:50] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-05-11 06:26:51] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-11 06:26:51] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-05-11 06:26:51] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-05-11 06:26:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-11 06:26:52] 202 relevante Treffer in Feeds
+[2026-05-11 06:26:52] ✅ 5 NEUE Einträge gefunden:
+[2026-05-11 06:26:52]    07.12.2017 |  |  | Klinik schult Kinder im Umgang mit Feuer - Hamburger Abendbl
+[2026-05-11 06:26:52]    09.05.2026 | LVR-Klinik unbenutzbar |  | Nach Brand: Station in LVR-Klinik unbenutzbar - Radio Bonn /
+[2026-05-11 06:26:52]    22.09.2022 | Schwarzwald-Baar-Klinikum |  | Villingen-Schwenningen: Brand im Schwarzwald-Baar-Klinikum -
+[2026-05-11 06:26:52]    10.05.2026 | von Krankenhaus |  | Weltkriegsbombe in Köln: Evakuierung von Krankenhaus in Lind
+[2026-05-11 06:26:52]    18.11.2023 | Al-Shifa-Klinik ermöglichen |  | Israel will sichere Evakuierung aus Al-Shifa-Klinik ermöglic
+[2026-05-11 06:26:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-11 06:26:52] === Monitor-Lauf beendet ===
+
+[2026-05-11 06:26:53] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-11 06:26:53] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-11 06:26:53] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-11 06:26:53] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-11 06:26:53] [enrich] --- Enriche [1/5]: Klinik schult Kinder im Umgang mit Feuer - Hamburger Abendbl
+[2026-05-11 06:26:54] [enrich] Google News URL aufgelöst (v1): https://www.abendblatt.de/hamburg/harburg/article212755251/Klinik-schult-Kinder-
+[2026-05-11 06:26:54] [enrich] Volltext extrahiert: 456 Zeichen von https://www.abendblatt.de/hamburg/harburg/article212755251/K
+[2026-05-11 06:26:56] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Brandschutzschulung/Prävention für Kinder in einer Klinik, keinen tatsächlichen Brand in einem Krankenhaus
+[2026-05-11 06:26:57] [enrich] --- Enriche [2/5]: Nach Brand: Station in LVR-Klinik unbenutzbar - Radio Bonn /
+[2026-05-11 06:26:57] [enrich] Google News URL aufgelöst (v1): https://www.radiobonn.de/artikel/nach-brand-station-in-lvr-klinik-unbenutzbar-18
+[2026-05-11 06:26:57] [enrich] Volltext extrahiert: 574 Zeichen von https://www.radiobonn.de/artikel/nach-brand-station-in-lvr-k
+[2026-05-11 06:27:00] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bonn am Kaiser-Karl-Ring in Bonn
+[2026-05-11 06:27:01] [enrich] --- Enriche [3/5]: Villingen-Schwenningen: Brand im Schwarzwald-Baar-Klinikum -
+[2026-05-11 06:27:02] [enrich] Google News URL aufgelöst (v1): https://www.regiotrends.de/de/polizeiberichte/index.news.489590.brand-im-schwarz
+[2026-05-11 06:27:03] [enrich] Volltext extrahiert: 1066 Zeichen von https://www.regiotrends.de/de/polizeiberichte/index.news.489
+[2026-05-11 06:27:06] [enrich] Enrichment abgeschlossen: enriched — Schwarzwald-Baar-Klinikum in Villingen-Schwenningen
+[2026-05-11 06:27:07] [enrich] --- Enriche [4/5]: Weltkriegsbombe in Köln: Evakuierung von Krankenhaus in Lind
+[2026-05-11 06:27:07] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/weltkriegsbombe-in-koeln-evakuierung-vo
+[2026-05-11 06:27:08] [enrich] Volltext extrahiert: 3059 Zeichen von https://www.faz.net/aktuell/gesellschaft/weltkriegsbombe-in-
+[2026-05-11 06:27:09] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand
+[2026-05-11 06:27:10] [enrich] --- Enriche [5/5]: Israel will sichere Evakuierung aus Al-Shifa-Klinik ermöglic
+[2026-05-11 06:27:10] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/politik/Israel-will-sichere-Evakuierung-aus-Al-Shifa-Klinik-
+[2026-05-11 06:27:11] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.n-tv.de/politik/Israel-will-sichere-Evakuierung-
+[2026-05-11 06:27:13] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt militärische Operationen und Evakuierungen im Al-Shifa-Krankenhaus in Gaza, nicht einen Brand in einem deutschen Krankenhaus. Zudem handelt es sich um ein Krankenhaus im Ausland (Gaza/Palästina), nicht in Deutschland.
+[2026-05-11 06:27:13] [enrich] Ergebnis: 2 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-05-11 06:27:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-11 06:27:13] [DEDUP] Starte Dedup für 574 Einträge
+[2026-05-11 06:27:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-11 06:27:14] [DEDUP] Auto-Merge (1.00): Schwarzwald-Baar-Klinikum / Villingen-Schwenning ↔ Schwarzwald-Baar-Klinikum / Villingen-Schwenning
+[2026-05-11 06:27:14] [DEDUP] Paare verglichen: 10071
+[2026-05-11 06:27:14] [DEDUP] Auto-Merges: 1
+[2026-05-11 06:27:14] [DEDUP] Kandidaten (unsicher): 338
+[2026-05-11 06:27:14] [DEDUP] Cluster 2x: Schwarzwald-Baar-Klinikum, Schwarzwald-Baar-Klinikum
+[2026-05-11 06:27:14] [DEDUP] Ergebnis: 573 Einträge (war: 574, 1 zusammengeführt)
+[2026-05-11 06:27:14] [DEDUP] Kandidaten-Datei: 338 pending, 2 confirmed, 0 rejected
+[2026-05-11 06:27:14] [DEDUP] Gespeichert: 574 → 573 Einträge
