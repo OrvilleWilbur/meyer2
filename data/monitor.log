@@ -27737,3 +27737,58 @@
 [2026-05-11 06:27:14] [DEDUP] Ergebnis: 573 Einträge (war: 574, 1 zusammengeführt)
 [2026-05-11 06:27:14] [DEDUP] Kandidaten-Datei: 338 pending, 2 confirmed, 0 rejected
 [2026-05-11 06:27:14] [DEDUP] Gespeichert: 574 → 573 Einträge
+[2026-05-12 05:56:12] === Monitor-Lauf gestartet ===
+[2026-05-12 05:56:13] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-12 05:56:14] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-12 05:56:15] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-05-12 05:56:15] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-05-12 05:56:15] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-05-12 05:56:16] Feed 'gn_brand_klinik': 46 Einträge
+[2026-05-12 05:56:16] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-05-12 05:56:17] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-12 05:56:17] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-05-12 05:56:18] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-05-12 05:56:19] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-12 05:56:19] 209 relevante Treffer in Feeds
+[2026-05-12 05:56:19] ✅ 4 NEUE Einträge gefunden:
+[2026-05-12 05:56:19]    09.05.2026 | Hamburger Krankenhaus |  | Brände - Feuer in Hamburger Krankenhaus: Eine Person leicht 
+[2026-05-12 05:56:19]    11.05.2026 |  |  | Klinik, Schulen, Kitas: Bombenfund in Köln löst riesige Evak
+[2026-05-12 05:56:19]    11.05.2026 |  |  | Evakuierung um 9 Uhr gestartet: Krankenhaus, Schulen und Kit
+[2026-05-12 05:56:19]    11.05.2026 |  |  | 10-Zentner-Bombe bei Bauarbeiten in Köln gefunden – Krankenh
+[2026-05-12 05:56:19] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-12 05:56:19] === Monitor-Lauf beendet ===
+
+[2026-05-12 05:56:19] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-12 05:56:19] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-12 05:56:19] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-12 05:56:19] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-12 05:56:19] [enrich] --- Enriche [1/4]: Brände - Feuer in Hamburger Krankenhaus: Eine Person leicht 
+[2026-05-12 05:56:19] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-hamburger-krankenhaus-eine
+[2026-05-12 05:56:20] [enrich] Volltext extrahiert: 1544 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-hambur
+[2026-05-12 05:56:23] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-05-12 05:56:24] [enrich] --- Enriche [2/4]: Klinik, Schulen, Kitas: Bombenfund in Köln löst riesige Evak
+[2026-05-12 05:56:25] [enrich] Google News URL aufgelöst (v1): https://newstime.joyn.de/themen/panorama/krankenhaus-schulen-kitas-grosse-evakui
+[2026-05-12 05:56:27] [enrich] Volltext extrahiert: 3941 Zeichen von https://newstime.joyn.de/themen/panorama/krankenhaus-schulen
+[2026-05-12 05:56:29] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Blindgänger aus WWII), nicht wegen Brand
+[2026-05-12 05:56:30] [enrich] --- Enriche [3/4]: Evakuierung um 9 Uhr gestartet: Krankenhaus, Schulen und Kit
+[2026-05-12 05:56:30] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/blindg%C3%A4nger-in-k%C3%B6ln-lin
+[2026-05-12 05:56:30] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/blindg%C3%A4nger-in-k%C3%B6ln-lin
+[2026-05-12 05:56:30] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (616 Z.)
+[2026-05-12 05:56:34] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand
+[2026-05-12 05:56:35] [enrich] --- Enriche [4/4]: 10-Zentner-Bombe bei Bauarbeiten in Köln gefunden – Krankenh
+[2026-05-12 05:56:35] [enrich] Google News URL aufgelöst (v1): https://www.fnp.de/deutschland/bombenfund-in-deutscher-grossstadt-evakuierung-ta
+[2026-05-12 05:56:36] [enrich] Volltext extrahiert: 1570 Zeichen von https://www.fnp.de/deutschland/bombenfund-in-deutscher-gross
+[2026-05-12 05:56:37] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses aufgrund von Bombenfund und Entschärfung, nicht aufgrund eines Brandes in der Einrichtung
+[2026-05-12 05:56:37] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-05-12 05:56:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-12 05:56:38] [DEDUP] Starte Dedup für 577 Einträge
+[2026-05-12 05:56:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-12 05:56:39] [DEDUP] Auto-Merge (0.97): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg
+[2026-05-12 05:56:39] [DEDUP] Paare verglichen: 10209
+[2026-05-12 05:56:39] [DEDUP] Auto-Merges: 1
+[2026-05-12 05:56:39] [DEDUP] Kandidaten (unsicher): 338
+[2026-05-12 05:56:39] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-05-12 05:56:39] [DEDUP] Ergebnis: 576 Einträge (war: 577, 1 zusammengeführt)
+[2026-05-12 05:56:39] [DEDUP] Kandidaten-Datei: 338 pending, 2 confirmed, 0 rejected
+[2026-05-12 05:56:39] [DEDUP] Gespeichert: 577 → 576 Einträge
