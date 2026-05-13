@@ -27792,3 +27792,78 @@
 [2026-05-12 05:56:39] [DEDUP] Ergebnis: 576 Einträge (war: 577, 1 zusammengeführt)
 [2026-05-12 05:56:39] [DEDUP] Kandidaten-Datei: 338 pending, 2 confirmed, 0 rejected
 [2026-05-12 05:56:39] [DEDUP] Gespeichert: 577 → 576 Einträge
+[2026-05-13 06:15:47] === Monitor-Lauf gestartet ===
+[2026-05-13 06:15:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-13 06:15:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-13 06:15:49] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-05-13 06:15:49] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-05-13 06:15:49] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-05-13 06:15:50] Feed 'gn_brand_klinik': 47 Einträge
+[2026-05-13 06:15:50] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-05-13 06:15:51] Feed 'gn_klinikbrand': 93 Einträge
+[2026-05-13 06:15:51] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-05-13 06:15:51] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-05-13 06:15:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-13 06:15:52] 214 relevante Treffer in Feeds
+[2026-05-13 06:15:52] ✅ 7 NEUE Einträge gefunden:
+[2026-05-13 06:15:52]    22.03.2026 | im Krankenhaus |  | Brand in Stephansposching: Wohnhaus unbewohnbar, Familie im 
+[2026-05-13 06:15:52]    12.09.2019 | Marienhospital |  | Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte 
+[2026-05-13 06:15:52]    10.05.2026 | Hamburger Krankenhaus |  | Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt 
+[2026-05-13 06:15:52]    09.05.2026 | Hamburger Krankenhaus |  | Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-05-13 06:15:52]    10.09.2019 | bei Krankenhausbrand |  | Feuer in Düsseldorfer Klinik: Patient stirbt bei Krankenhaus
+[2026-05-13 06:15:52]    29.11.2023 | LVR-Klinik Bonn |  | Sieben Verletzte bei Feuer in LVR-Klinik Bonn - Radio Bonn /
+[2026-05-13 06:15:52]    11.05.2026 |  |  | Bombenfund in Köln: Evakuierung hat begonnen – Klinik und Ki
+[2026-05-13 06:15:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-13 06:15:52] === Monitor-Lauf beendet ===
+
+[2026-05-13 06:15:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-13 06:15:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-13 06:15:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-13 06:15:54] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-13 06:15:54] [enrich] --- Enriche [1/7]: Brand in Stephansposching: Wohnhaus unbewohnbar, Familie im 
+[2026-05-13 06:15:54] [enrich] Google News URL aufgelöst (v1): https://presse-augsburg.de/brand-in-stephansposching-wohnhaus-unbewohnbar-famili
+[2026-05-13 06:15:56] [enrich] Volltext extrahiert: 2316 Zeichen von https://presse-augsburg.de/brand-in-stephansposching-wohnhau
+[2026-05-13 06:15:57] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus, nicht in einem Krankenhaus. Familienmitglieder wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber das Feuer selbst war in einem Einfamilienhaus.
+[2026-05-13 06:15:58] [enrich] --- Enriche [2/7]: Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte 
+[2026-05-13 06:15:58] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ei
+[2026-05-13 06:15:59] [enrich] Volltext extrahiert: 5000 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-bra
+[2026-05-13 06:16:05] [enrich] Enrichment abgeschlossen: enriched — Marienhospital Düsseldorf in Düsseldorf-Pempelfort
+[2026-05-13 06:16:06] [enrich] --- Enriche [3/7]: Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt 
+[2026-05-13 06:16:06] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mit
+[2026-05-13 06:16:06] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mit
+[2026-05-13 06:16:06] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (493 Z.)
+[2026-05-13 06:16:08] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne Inhalt. Es können keine verlässlichen Informationen über einen tatsächlichen Brand in einem deutschen Krankenhaus extrahiert werden. Die URL deutet auf einen Nachrichtenartikel hin, aber der eigentliche Textinhalt ist nicht vorhanden.
+[2026-05-13 06:16:09] [enrich] --- Enriche [4/7]: Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-05-13 06:16:09] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-hamburger-krankenhaus-mita
+[2026-05-13 06:16:09] [enrich] Volltext extrahiert: 1544 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-hambur
+[2026-05-13 06:16:12] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-05-13 06:16:13] [enrich] --- Enriche [5/7]: Feuer in Düsseldorfer Klinik: Patient stirbt bei Krankenhaus
+[2026-05-13 06:16:13] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Patient-stirbt-bei-Krankenhausbrand-article21262531
+[2026-05-13 06:16:14] [enrich] Volltext extrahiert: 3685 Zeichen von https://www.n-tv.de/panorama/Patient-stirbt-bei-Krankenhausb
+[2026-05-13 06:16:17] [enrich] Enrichment abgeschlossen: enriched — Marien Hospital in Düsseldorf
+[2026-05-13 06:16:18] [enrich] --- Enriche [6/7]: Sieben Verletzte bei Feuer in LVR-Klinik Bonn - Radio Bonn /
+[2026-05-13 06:16:19] [enrich] Google News URL aufgelöst (v1): https://www.radiobonn.de/artikel/sieben-verletzte-bei-feuer-in-lvr-klinik-bonn-1
+[2026-05-13 06:16:19] [enrich] Volltext extrahiert: 733 Zeichen von https://www.radiobonn.de/artikel/sieben-verletzte-bei-feuer-
+[2026-05-13 06:16:22] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik am Kaiser-Karl-Ring in Bonn
+[2026-05-13 06:16:23] [enrich] --- Enriche [7/7]: Bombenfund in Köln: Evakuierung hat begonnen – Klinik und Ki
+[2026-05-13 06:16:23] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/bombenfund-in-k%C3%B6ln-evakuieru
+[2026-05-13 06:16:23] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/bombenfund-in-k%C3%B6ln-evakuieru
+[2026-05-13 06:16:23] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (574 Z.)
+[2026-05-13 06:16:24] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenfund, nicht wegen Brand in einer Klinik
+[2026-05-13 06:16:24] [enrich] Ergebnis: 4 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-05-13 06:16:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-13 06:16:24] [DEDUP] Starte Dedup für 583 Einträge
+[2026-05-13 06:16:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-13 06:16:25] [DEDUP] Auto-Merge (0.96): Marienhospital / Düsseldorf ↔ Marien Hospital / Düsseldorf
+[2026-05-13 06:16:25] [DEDUP] Auto-Merge (0.97): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg
+[2026-05-13 06:16:25] [DEDUP] Auto-Merge (0.92): LVR-Klinik Bonn am Kaiser-Karl-Ring / Bonn ↔ LVR-Klinik am Kaiser-Karl-Ring / Bonn
+[2026-05-13 06:16:25] [DEDUP] Paare verglichen: 10407
+[2026-05-13 06:16:25] [DEDUP] Auto-Merges: 3
+[2026-05-13 06:16:25] [DEDUP] Kandidaten (unsicher): 341
+[2026-05-13 06:16:25] [DEDUP] Cluster 2x: Marienhospital, Marien Hospital
+[2026-05-13 06:16:25] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-05-13 06:16:25] [DEDUP] Cluster 2x: LVR-Klinik Bonn am Kaiser-Karl-Ring, LVR-Klinik am Kaiser-Karl-Ring
+[2026-05-13 06:16:25] [DEDUP] Ergebnis: 580 Einträge (war: 583, 3 zusammengeführt)
+[2026-05-13 06:16:25] [DEDUP] Kandidaten-Datei: 341 pending, 2 confirmed, 0 rejected
+[2026-05-13 06:16:25] [DEDUP] Gespeichert: 583 → 580 Einträge

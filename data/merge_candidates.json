@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T05:56:39.021477",
+  "generated_at": "2026-05-13T06:16:25.742804",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3532,6 +3532,72 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.645,
+      "details": {
+        "datum": 0.3,
+        "ort": 0.85,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.645
+      },
+      "entry_a": {
+        "einrichtung": "Marienhospital",
+        "ort": "Düsseldorf",
+        "datum": "10.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/panorama/feuer-in-marienhospital-duesseldorf-jede-woche-brennt-es-in-einem-krankenhaus-in-deutschland_aid-45733721",
+        "titel": "Feuer in Marienhospital Düsseldorf: Jede Woche brennt es in einem Krankenhaus in Deutschland - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Marienhospital Düsseldorf",
+        "ort": "Düsseldorf-Pempelfort",
+        "datum": "12.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
+        "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.645,
+      "details": {
+        "datum": 0.3,
+        "ort": 0.85,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.645
+      },
+      "entry_a": {
+        "einrichtung": "Marienhospital Düsseldorf",
+        "ort": "Düsseldorf-Pempelfort",
+        "datum": "12.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
+        "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Marien Hospital",
+        "ort": "Düsseldorf",
+        "datum": "10.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Patient-stirbt-bei-Krankenhausbrand-article21262531.html",
+        "titel": "Feuer in Düsseldorfer Klinik: Patient stirbt bei Krankenhausbrand - Ntv"
       }
     },
     {
@@ -11155,6 +11221,39 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
         "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Krankenhaus",
+        "ort": "",
+        "datum": "09.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mitarbeiter-leicht-verletzt/ar-AA22LsVt",
+        "titel": "Feuer in Hamburger Krankenhaus: Eine Person leicht verletzt - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Krankenhaus",
+        "ort": "",
+        "datum": "10.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mitarbeiter-leicht-verletzt/ar-AA22LsVt",
+        "titel": "Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt - MSN"
       }
     }
   ],
