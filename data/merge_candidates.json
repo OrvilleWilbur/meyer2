@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T06:16:25.742804",
+  "generated_at": "2026-05-14T06:14:01.777498",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3565,39 +3565,6 @@
         "status": "enriched",
         "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
         "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.645,
-      "details": {
-        "datum": 0.3,
-        "ort": 0.85,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.645
-      },
-      "entry_a": {
-        "einrichtung": "Marienhospital Düsseldorf",
-        "ort": "Düsseldorf-Pempelfort",
-        "datum": "12.09.2019",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
-        "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Marien Hospital",
-        "ort": "Düsseldorf",
-        "datum": "10.09.2019",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.n-tv.de/panorama/Patient-stirbt-bei-Krankenhausbrand-article21262531.html",
-        "titel": "Feuer in Düsseldorfer Klinik: Patient stirbt bei Krankenhausbrand - Ntv"
       }
     },
     {

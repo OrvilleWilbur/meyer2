@@ -27867,3 +27867,40 @@
 [2026-05-13 06:16:25] [DEDUP] Ergebnis: 580 Einträge (war: 583, 3 zusammengeführt)
 [2026-05-13 06:16:25] [DEDUP] Kandidaten-Datei: 341 pending, 2 confirmed, 0 rejected
 [2026-05-13 06:16:25] [DEDUP] Gespeichert: 583 → 580 Einträge
+[2026-05-14 06:13:50] === Monitor-Lauf gestartet ===
+[2026-05-14 06:13:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-14 06:13:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-14 06:13:52] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-05-14 06:13:53] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-05-14 06:13:53] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-05-14 06:13:53] Feed 'gn_brand_klinik': 46 Einträge
+[2026-05-14 06:13:54] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-05-14 06:13:55] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-14 06:13:55] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-05-14 06:13:55] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-05-14 06:13:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-14 06:13:56] 197 relevante Treffer in Feeds
+[2026-05-14 06:13:56] ✅ 1 NEUE Einträge gefunden:
+[2026-05-14 06:13:56]    09.07.2024 | LVR-Klinik |  | Nach Brand in Bonner LVR-Klinik: Unterbringung in der Psychi
+[2026-05-14 06:13:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-14 06:13:56] === Monitor-Lauf beendet ===
+
+[2026-05-14 06:13:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-14 06:13:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-14 06:13:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-14 06:13:57] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-14 06:13:57] [enrich] --- Enriche [1/1]: Nach Brand in Bonner LVR-Klinik: Unterbringung in der Psychi
+[2026-05-14 06:13:57] [enrich] Google News URL aufgelöst (v1): https://www.radiobonn.de/artikel/nach-brand-in-bonner-lvr-klinik-unterbringung-i
+[2026-05-14 06:13:57] [enrich] Volltext extrahiert: 675 Zeichen von https://www.radiobonn.de/artikel/nach-brand-in-bonner-lvr-kl
+[2026-05-14 06:14:00] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bonn in Bonn
+[2026-05-14 06:14:00] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-05-14 06:14:00] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-14 06:14:00] [DEDUP] Starte Dedup für 581 Einträge
+[2026-05-14 06:14:00] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-14 06:14:01] [DEDUP] Paare verglichen: 10410
+[2026-05-14 06:14:01] [DEDUP] Auto-Merges: 0
+[2026-05-14 06:14:01] [DEDUP] Kandidaten (unsicher): 340
+[2026-05-14 06:14:01] [DEDUP] Ergebnis: 581 Einträge (war: 581, 0 zusammengeführt)
+[2026-05-14 06:14:01] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
+[2026-05-14 06:14:01] [DEDUP] Gespeichert: 581 → 581 Einträge
