@@ -27904,3 +27904,54 @@
 [2026-05-14 06:14:01] [DEDUP] Ergebnis: 581 Einträge (war: 581, 0 zusammengeführt)
 [2026-05-14 06:14:01] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
 [2026-05-14 06:14:01] [DEDUP] Gespeichert: 581 → 581 Einträge
+[2026-05-15 06:21:50] === Monitor-Lauf gestartet ===
+[2026-05-15 06:21:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-15 06:21:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-15 06:21:52] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-05-15 06:21:53] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-05-15 06:21:53] Feed 'gn_feuer_klinik': 34 Einträge
+[2026-05-15 06:21:53] Feed 'gn_brand_klinik': 39 Einträge
+[2026-05-15 06:21:54] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-05-15 06:21:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-15 06:21:55] Feed 'gn_feuer_uniklinik': 28 Einträge
+[2026-05-15 06:21:55] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-05-15 06:21:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-15 06:21:56] 189 relevante Treffer in Feeds
+[2026-05-15 06:21:56] ✅ 3 NEUE Einträge gefunden:
+[2026-05-15 06:21:56]    07.04.2026 | Alexianer-Krankenhaus |  | Feuer im Alexianer-Krankenhaus - Antenne AC
+[2026-05-15 06:21:56]    05.05.2026 | im Krankenhaus |  | Gebäudebrand in Leck: Bewohner mit Rauchgasvergiftung im Kra
+[2026-05-15 06:21:56]    26.04.2022 | Uniklinik Essen und an Tankstelle |  | Feuer in Uniklinik Essen und an Tankstelle - Radio Essen
+[2026-05-15 06:21:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-15 06:21:56] === Monitor-Lauf beendet ===
+
+[2026-05-15 06:21:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-15 06:21:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-15 06:21:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-15 06:21:57] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-15 06:21:57] [enrich] --- Enriche [1/3]: Feuer im Alexianer-Krankenhaus - Antenne AC
+[2026-05-15 06:21:57] [enrich] Google News URL aufgelöst (v1): https://www.antenneac.de/artikel/feuer-im-alexianer-krankenhaus-2617660
+[2026-05-15 06:21:58] [enrich] Volltext extrahiert: 785 Zeichen von https://www.antenneac.de/artikel/feuer-im-alexianer-krankenh
+[2026-05-15 06:22:01] [enrich] Enrichment abgeschlossen: enriched — Alexianerkrankenhaus in Aachen
+[2026-05-15 06:22:02] [enrich] --- Enriche [2/3]: Gebäudebrand in Leck: Bewohner mit Rauchgasvergiftung im Kra
+[2026-05-15 06:22:02] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/lokales/niebuell-leck/artikel/feuer-in-leck-bewohner-mit-rauc
+[2026-05-15 06:22:03] [enrich] Volltext extrahiert: 1826 Zeichen von https://www.shz.de/lokales/niebuell-leck/artikel/feuer-in-le
+[2026-05-15 06:22:04] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnblock, nicht in einem Krankenhaus. Bewohner wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-05-15 06:22:05] [enrich] --- Enriche [3/3]: Feuer in Uniklinik Essen und an Tankstelle - Radio Essen
+[2026-05-15 06:22:05] [enrich] Google News URL aufgelöst (v1): https://www.radioessen.de/artikel/feuer-in-uniklinik-essen-und-an-tankstelle-129
+[2026-05-15 06:22:06] [enrich] Volltext extrahiert: 794 Zeichen von https://www.radioessen.de/artikel/feuer-in-uniklinik-essen-u
+[2026-05-15 06:22:08] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Essen in Essen
+[2026-05-15 06:22:08] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-05-15 06:22:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-15 06:22:08] [DEDUP] Starte Dedup für 584 Einträge
+[2026-05-15 06:22:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-15 06:22:09] [DEDUP] Auto-Merge (0.95): Alexianer-Krankenhaus / Aachen ↔ Alexianerkrankenhaus / Aachen
+[2026-05-15 06:22:09] [DEDUP] Auto-Merge (0.90): Essener Universitätsklinikum (Uniklinik  / Essen ↔ Uniklinik Essen / Essen
+[2026-05-15 06:22:09] [DEDUP] Paare verglichen: 10469
+[2026-05-15 06:22:09] [DEDUP] Auto-Merges: 2
+[2026-05-15 06:22:09] [DEDUP] Kandidaten (unsicher): 340
+[2026-05-15 06:22:09] [DEDUP] Cluster 2x: Essener Universitätsklinikum (Uniklinik , Uniklinik Essen
+[2026-05-15 06:22:09] [DEDUP] Cluster 2x: Alexianer-Krankenhaus, Alexianerkrankenhaus
+[2026-05-15 06:22:09] [DEDUP] Ergebnis: 582 Einträge (war: 584, 2 zusammengeführt)
+[2026-05-15 06:22:09] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
+[2026-05-15 06:22:09] [DEDUP] Gespeichert: 584 → 582 Einträge
