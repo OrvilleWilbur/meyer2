@@ -27955,3 +27955,53 @@
 [2026-05-15 06:22:09] [DEDUP] Ergebnis: 582 Einträge (war: 584, 2 zusammengeführt)
 [2026-05-15 06:22:09] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
 [2026-05-15 06:22:09] [DEDUP] Gespeichert: 584 → 582 Einträge
+[2026-05-16 05:44:31] === Monitor-Lauf gestartet ===
+[2026-05-16 05:44:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-16 05:44:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-16 05:44:34] Feed 'gn_brand_krankenhaus': 46 Einträge
+[2026-05-16 05:44:34] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-05-16 05:44:35] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-05-16 05:44:35] Feed 'gn_brand_klinik': 41 Einträge
+[2026-05-16 05:44:35] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-05-16 05:44:36] Feed 'gn_klinikbrand': 88 Einträge
+[2026-05-16 05:44:36] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-05-16 05:44:37] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-05-16 05:44:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-16 05:44:38] 192 relevante Treffer in Feeds
+[2026-05-16 05:44:38] ✅ 3 NEUE Einträge gefunden:
+[2026-05-16 05:44:38]    15.05.2026 | in Klinik gelegt haben |  | 82-Jähriger soll Brand in Klinik gelegt haben - Onetz
+[2026-05-16 05:44:38]    15.05.2026 | in Klinik gelegt haben |  | 82-jähriger soll Brand in Klinik gelegt haben - MSN
+[2026-05-16 05:44:38]    15.05.2026 | im Klinikum Bayreuth |  | Brand in Patientenzimmer im Klinikum Bayreuth - Onetz
+[2026-05-16 05:44:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-16 05:44:38] === Monitor-Lauf beendet ===
+
+[2026-05-16 05:44:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-16 05:44:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-16 05:44:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-16 05:44:38] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-16 05:44:38] [enrich] --- Enriche [1/3]: 82-Jähriger soll Brand in Klinik gelegt haben - Onetz
+[2026-05-16 05:44:38] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/bayreuth/82-jaehriger-brand-klinik-gelegt-
+[2026-05-16 05:44:40] [enrich] Volltext extrahiert: 3263 Zeichen von https://www.onetz.de/deutschland-welt/bayreuth/82-jaehriger-
+[2026-05-16 05:44:43] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bayreuth in Bayreuth
+[2026-05-16 05:44:44] [enrich] --- Enriche [2/3]: 82-jähriger soll Brand in Klinik gelegt haben - MSN
+[2026-05-16 05:44:45] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/82-j%C3%A4hriger-soll-brand-in-kl
+[2026-05-16 05:44:45] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/82-j%C3%A4hriger-soll-brand-in-kl
+[2026-05-16 05:44:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (453 Z.)
+[2026-05-16 05:44:46] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne Inhalt. Es kann nicht verifiziert werden, ob tatsächlich ein Brand in einer deutschen Klinik stattgefunden hat oder ob es sich um einen Verdacht/eine Anklage handelt. Ohne aussagekräftigen Artikeltext können keine verlässlichen Informationen extrahiert werden.
+[2026-05-16 05:44:47] [enrich] --- Enriche [3/3]: Brand in Patientenzimmer im Klinikum Bayreuth - Onetz
+[2026-05-16 05:44:48] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/oberpfalz/bayreuth/brand-patientenzimmer-klinikum-bayreuth-
+[2026-05-16 05:44:49] [enrich] Volltext extrahiert: 3906 Zeichen von https://www.onetz.de/oberpfalz/bayreuth/brand-patientenzimme
+[2026-05-16 05:44:53] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bayreuth in Bayreuth
+[2026-05-16 05:44:53] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-05-16 05:44:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-16 05:44:53] [DEDUP] Starte Dedup für 585 Einträge
+[2026-05-16 05:44:53] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-16 05:44:54] [DEDUP] Auto-Merge (1.00): Klinikum Bayreuth / Bayreuth ↔ Klinikum Bayreuth / Bayreuth
+[2026-05-16 05:44:54] [DEDUP] Paare verglichen: 10512
+[2026-05-16 05:44:54] [DEDUP] Auto-Merges: 1
+[2026-05-16 05:44:54] [DEDUP] Kandidaten (unsicher): 340
+[2026-05-16 05:44:54] [DEDUP] Cluster 2x: Klinikum Bayreuth, Klinikum Bayreuth
+[2026-05-16 05:44:54] [DEDUP] Ergebnis: 584 Einträge (war: 585, 1 zusammengeführt)
+[2026-05-16 05:44:54] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
+[2026-05-16 05:44:54] [DEDUP] Gespeichert: 585 → 584 Einträge
