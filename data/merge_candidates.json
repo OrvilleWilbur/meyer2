@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T05:44:54.838765",
+  "generated_at": "2026-05-17T06:11:54.958515",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -9373,6 +9373,72 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
         "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma Online"
+      },
+      "entry_b": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef: Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "Caritas-Krankenhaus St",
+        "ort": "",
+        "datum": "10.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfund-regensburger-klinik-probt-ernstfall-49120",
+        "titel": "Caritas-Krankenhaus St. Josef Evakuierung nach Bombenfund – Regensburger Klinik probt Ernstfall - kma Online"
       }
     },
     {

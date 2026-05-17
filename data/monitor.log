@@ -28005,3 +28005,55 @@
 [2026-05-16 05:44:54] [DEDUP] Ergebnis: 584 Einträge (war: 585, 1 zusammengeführt)
 [2026-05-16 05:44:54] [DEDUP] Kandidaten-Datei: 340 pending, 2 confirmed, 0 rejected
 [2026-05-16 05:44:54] [DEDUP] Gespeichert: 585 → 584 Einträge
+[2026-05-17 06:11:27] === Monitor-Lauf gestartet ===
+[2026-05-17 06:11:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-17 06:11:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-17 06:11:31] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-05-17 06:11:31] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-05-17 06:11:32] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-05-17 06:11:32] Feed 'gn_brand_klinik': 42 Einträge
+[2026-05-17 06:11:33] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-05-17 06:11:33] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-17 06:11:34] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-05-17 06:11:35] Feed 'gn_evakuierung_klinik': 32 Einträge
+[2026-05-17 06:11:36] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-17 06:11:36] 187 relevante Treffer in Feeds
+[2026-05-17 06:11:36] ✅ 4 NEUE Einträge gefunden:
+[2026-05-17 06:11:36]    02.04.2021 |  |  | Krankenhaus gerät in Brand – Chirurgen ziehen Herz-OP trotzd
+[2026-05-17 06:11:36]    16.05.2026 | ins Krankenhaus transportiert |  | D: Brand in Wohnung in Dresden → drei Personen ins Krankenha
+[2026-05-17 06:11:36]    25.03.2026 |  |  | Gesamte Feuerwehr gefordert: Brände in Trafostation und Müll
+[2026-05-17 06:11:36]    10.01.2023 | Caritas-Krankenhaus St |  | Caritas-Krankenhaus St. Josef Evakuierung nach Bombenfund – 
+[2026-05-17 06:11:36] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-17 06:11:36] === Monitor-Lauf beendet ===
+
+[2026-05-17 06:11:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-17 06:11:37] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-17 06:11:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-17 06:11:37] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-17 06:11:37] [enrich] --- Enriche [1/4]: Krankenhaus gerät in Brand – Chirurgen ziehen Herz-OP trotzd
+[2026-05-17 06:11:37] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/weltgeschehen/russland--chirurgen-operieren-waehre
+[2026-05-17 06:11:39] [enrich] Volltext extrahiert: 2244 Zeichen von https://www.stern.de/panorama/weltgeschehen/russland--chirur
+[2026-05-17 06:11:40] [enrich] FALSE POSITIVE erkannt: Der Brand fand in einem Krankenhaus in Blagoveshchensk, Russland statt. Dieser Assistent ist jedoch ausschließlich für Brände in deutschen Krankenhäusern und Kliniken zuständig.
+[2026-05-17 06:11:41] [enrich] --- Enriche [2/4]: D: Brand in Wohnung in Dresden → drei Personen ins Krankenha
+[2026-05-17 06:11:42] [enrich] Google News URL aufgelöst (v1): https://www.fireworld.at/2026/05/16/d-brand-in-wohnung-in-dresden-%E2%86%92-drei
+[2026-05-17 06:11:43] [enrich] Volltext extrahiert: 1370 Zeichen von https://www.fireworld.at/2026/05/16/d-brand-in-wohnung-in-dr
+[2026-05-17 06:11:45] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnung in einem Mehrfamilienhaus in Dresden, nicht in einem Krankenhaus. Drei Personen wurden nach dem Brand ins Krankenhaus transportiert, aber der Brand selbst fand nicht in einer Klinik/einem Krankenhaus statt.
+[2026-05-17 06:11:46] [enrich] --- Enriche [3/4]: Gesamte Feuerwehr gefordert: Brände in Trafostation und Müll
+[2026-05-17 06:11:46] [enrich] Google News URL aufgelöst (v1): https://www.ikz-online.de/lokales/iserlohn/article411553841/brand-in-schalthaus-
+[2026-05-17 06:11:47] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ikz-online.de/lokales/iserlohn/article411553841/
+[2026-05-17 06:11:49] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Brände in einer Trafostation und einem Müllheizkraftwerk, nicht in einem Krankenhaus. Die Krankenhäuser waren nur vom Stromausfall betroffen und schalteten ihre Notstromversorgung ein. Es handelt sich nicht um einen Brand im Krankenhaus selbst.
+[2026-05-17 06:11:50] [enrich] --- Enriche [4/4]: Caritas-Krankenhaus St. Josef Evakuierung nach Bombenfund – 
+[2026-05-17 06:11:51] [enrich] Google News URL aufgelöst (v1): https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-nach-bombenfu
+[2026-05-17 06:11:52] [enrich] Volltext extrahiert: 3907 Zeichen von https://www.kma-online.de/aktuelles/klinik-news/detail/evaku
+[2026-05-17 06:11:53] [enrich] FALSE POSITIVE erkannt: Evakuierungsübung wegen Bombenfund, kein Brand in der Klinik
+[2026-05-17 06:11:53] [enrich] Ergebnis: 0 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-05-17 06:11:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-17 06:11:54] [DEDUP] Starte Dedup für 588 Einträge
+[2026-05-17 06:11:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-17 06:11:54] [DEDUP] Paare verglichen: 10671
+[2026-05-17 06:11:54] [DEDUP] Auto-Merges: 0
+[2026-05-17 06:11:54] [DEDUP] Kandidaten (unsicher): 342
+[2026-05-17 06:11:54] [DEDUP] Ergebnis: 588 Einträge (war: 588, 0 zusammengeführt)
+[2026-05-17 06:11:54] [DEDUP] Kandidaten-Datei: 342 pending, 2 confirmed, 0 rejected
+[2026-05-17 06:11:54] [DEDUP] Gespeichert: 588 → 588 Einträge
