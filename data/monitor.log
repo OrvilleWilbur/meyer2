@@ -28057,3 +28057,58 @@
 [2026-05-17 06:11:54] [DEDUP] Ergebnis: 588 Einträge (war: 588, 0 zusammengeführt)
 [2026-05-17 06:11:54] [DEDUP] Kandidaten-Datei: 342 pending, 2 confirmed, 0 rejected
 [2026-05-17 06:11:54] [DEDUP] Gespeichert: 588 → 588 Einträge
+[2026-05-18 06:42:20] === Monitor-Lauf gestartet ===
+[2026-05-18 06:42:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-18 06:42:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-18 06:42:23] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-05-18 06:42:23] Feed 'gn_feuer_krankenhaus': 40 Einträge
+[2026-05-18 06:42:24] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-05-18 06:42:24] Feed 'gn_brand_klinik': 44 Einträge
+[2026-05-18 06:42:25] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-05-18 06:42:25] Feed 'gn_klinikbrand': 79 Einträge
+[2026-05-18 06:42:25] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-05-18 06:42:26] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-05-18 06:42:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-18 06:42:27] 201 relevante Treffer in Feeds
+[2026-05-18 06:42:27] ✅ 4 NEUE Einträge gefunden:
+[2026-05-18 06:42:27]    05.01.2024 | in Krankenhaus |  | Inzwischen fünf Tote nach Brand in Krankenhaus in Uelzen – v
+[2026-05-18 06:42:27]    24.04.2024 | im Krankenhaus |  | Abstellkammer im Dachgeschoss brannte: Erzieherin nach Feuer
+[2026-05-18 06:42:27]    29.05.2005 | Münchner Krankenhaus |  | 71-Jährige löste Brand selbst aus: Patient stirbt bei Feuer 
+[2026-05-18 06:42:27]    02.01.2026 |  |  | Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-05-18 06:42:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-18 06:42:27] === Monitor-Lauf beendet ===
+
+[2026-05-18 06:42:28] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-18 06:42:28] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-18 06:42:28] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-18 06:42:28] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-18 06:42:28] [enrich] --- Enriche [1/4]: Inzwischen fünf Tote nach Brand in Krankenhaus in Uelzen – v
+[2026-05-18 06:42:28] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22
+[2026-05-18 06:42:29] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/uelzen-brand-in-krankenhaus-mindestens-fuenf-tote-22-verletzte-A5YMON2UT5K6XNJMDWVUYDPO4E.html
+[2026-05-18 06:42:29] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (540 Z.)
+[2026-05-18 06:42:32] [enrich] Enrichment abgeschlossen: partial — Krankenhaus Uelzen in Uelzen
+[2026-05-18 06:42:33] [enrich] --- Enriche [2/4]: Abstellkammer im Dachgeschoss brannte: Erzieherin nach Feuer
+[2026-05-18 06:42:33] [enrich] Google News URL aufgelöst (v1): https://ga.de/region/siebengebirge/kreis-neuwied/brand-in-kita-in-asbach-erziehe
+[2026-05-18 06:42:34] [enrich] Volltext extrahiert: 1825 Zeichen von https://ga.de/region/siebengebirge/kreis-neuwied/brand-in-ki
+[2026-05-18 06:42:38] [enrich] FALSE POSITIVE erkannt: Brand in einer Kindertagesstätte, nicht in einem Krankenhaus. Eine Erzieherin wurde nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand in der Kita statt.
+[2026-05-18 06:42:39] [enrich] --- Enriche [3/4]: 71-Jährige löste Brand selbst aus: Patient stirbt bei Feuer 
+[2026-05-18 06:42:39] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/patient-stirbt-bei-feuer-in-muenchner-
+[2026-05-18 06:42:40] [enrich] Volltext extrahiert: 1297 Zeichen von https://rp-online.de/panorama/deutschland/patient-stirbt-bei
+[2026-05-18 06:42:42] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-18 06:42:43] [enrich] --- Enriche [4/4]: Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-05-18 06:42:44] [enrich] Google News URL aufgelöst (v1): https://leipzig.t-online.de/region/leipzig/id_101065766/klinikum-in-leipzig-beha
+[2026-05-18 06:42:45] [enrich] Volltext extrahiert: 2649 Zeichen von https://leipzig.t-online.de/region/leipzig/id_101065766/klin
+[2026-05-18 06:42:47] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-18 06:42:47] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 2 failed
+[2026-05-18 06:42:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-18 06:42:47] [DEDUP] Starte Dedup für 592 Einträge
+[2026-05-18 06:42:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-18 06:42:48] [DEDUP] Auto-Merge (0.86): Krankenhaus Uelzen / Uelzen ↔ Krankenhaus Uelzen / Uelzen
+[2026-05-18 06:42:48] [DEDUP] Paare verglichen: 10790
+[2026-05-18 06:42:48] [DEDUP] Auto-Merges: 1
+[2026-05-18 06:42:48] [DEDUP] Kandidaten (unsicher): 344
+[2026-05-18 06:42:48] [DEDUP] Cluster 2x: Krankenhaus Uelzen, Krankenhaus Uelzen
+[2026-05-18 06:42:48] [DEDUP] Ergebnis: 591 Einträge (war: 592, 1 zusammengeführt)
+[2026-05-18 06:42:48] [DEDUP] Kandidaten-Datei: 344 pending, 2 confirmed, 0 rejected
+[2026-05-18 06:42:48] [DEDUP] Gespeichert: 592 → 591 Einträge
