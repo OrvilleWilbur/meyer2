@@ -28112,3 +28112,58 @@
 [2026-05-18 06:42:48] [DEDUP] Ergebnis: 591 Einträge (war: 592, 1 zusammengeführt)
 [2026-05-18 06:42:48] [DEDUP] Kandidaten-Datei: 344 pending, 2 confirmed, 0 rejected
 [2026-05-18 06:42:48] [DEDUP] Gespeichert: 592 → 591 Einträge
+[2026-05-19 06:37:48] === Monitor-Lauf gestartet ===
+[2026-05-19 06:37:49] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-19 06:37:50] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-19 06:37:50] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-05-19 06:37:50] Feed 'gn_feuer_krankenhaus': 44 Einträge
+[2026-05-19 06:37:51] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-05-19 06:37:51] Feed 'gn_brand_klinik': 39 Einträge
+[2026-05-19 06:37:52] Feed 'gn_brand_klinikum': 30 Einträge
+[2026-05-19 06:37:52] Feed 'gn_klinikbrand': 81 Einträge
+[2026-05-19 06:37:53] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-05-19 06:37:53] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-05-19 06:37:54] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-19 06:37:54] 189 relevante Treffer in Feeds
+[2026-05-19 06:37:54] ✅ 3 NEUE Einträge gefunden:
+[2026-05-19 06:37:54]    02.01.2026 | BG Klinik behandelt Schwerverletzte aus Crans |  | Feuer im Schweizer Skiort: Tübinger BG Klinik behandelt Schw
+[2026-05-19 06:37:54]    21.04.2026 | in Klinik gebracht |  | Brand in Hochhaus - 20 Personen in Klinik gebracht - noz.de
+[2026-05-19 06:37:54]    14.05.2026 | Helios Krankenhaus nicht evakuiert |  | Pforzheimer Bombenfund: Deshalb wird das Helios Krankenhaus 
+[2026-05-19 06:37:54] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-19 06:37:54] === Monitor-Lauf beendet ===
+
+[2026-05-19 06:37:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-19 06:37:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-19 06:37:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-19 06:37:55] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-19 06:37:55] [enrich] --- Enriche [1/5]: 71-Jährige löste Brand selbst aus: Patient stirbt bei Feuer 
+[2026-05-19 06:37:55] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/patient-stirbt-bei-feuer-in-muenchner-
+[2026-05-19 06:37:56] [enrich] Volltext extrahiert: 1297 Zeichen von https://rp-online.de/panorama/deutschland/patient-stirbt-bei
+[2026-05-19 06:37:59] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bogenhausen in München
+[2026-05-19 06:38:00] [enrich] --- Enriche [2/5]: Klinikum in Leipzig behandelt Brandopfer aus Crans-Montana -
+[2026-05-19 06:38:00] [enrich] Google News URL aufgelöst (v1): https://leipzig.t-online.de/region/leipzig/id_101065766/klinikum-in-leipzig-beha
+[2026-05-19 06:38:01] [enrich] Volltext extrahiert: 2676 Zeichen von https://leipzig.t-online.de/region/leipzig/id_101065766/klin
+[2026-05-19 06:38:03] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Schweizer Skiort (Crans-Montana), nicht in einem deutschen Krankenhaus. Das Klinikum St. Georg in Leipzig wird nur erwähnt, weil es Brandopfer aus dem Ausland zur Behandlung aufnimmt - dies fällt nicht unter die Definition eines Krankenhausbrands.
+[2026-05-19 06:38:04] [enrich] --- Enriche [3/5]: Feuer im Schweizer Skiort: Tübinger BG Klinik behandelt Schw
+[2026-05-19 06:38:04] [enrich] Google News URL aufgelöst (v1): https://www.swp.de/lokales/tuebingen/feuer-im-schweizer-skiort-tuebinger-bg-klin
+[2026-05-19 06:38:06] [enrich] Volltext extrahiert: 391 Zeichen von https://www.swp.de/lokales/tuebingen/feuer-im-schweizer-skio
+[2026-05-19 06:38:07] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brand in der Schweiz (Crans-Montana), nicht in Deutschland. Die deutsche Klinik wird nur erwähnt, weil dort Brandopfer behandelt werden, nicht weil dort ein Brand stattgefunden hat.
+[2026-05-19 06:38:08] [enrich] --- Enriche [4/5]: Brand in Hochhaus - 20 Personen in Klinik gebracht - noz.de
+[2026-05-19 06:38:09] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/brand-in-hochhau
+[2026-05-19 06:38:10] [enrich] Volltext extrahiert: 2046 Zeichen von https://www.noz.de/deutschland-welt/nordrhein-westfalen/arti
+[2026-05-19 06:38:11] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Mehrfamilienhaus in Meckenheim), nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Beobachtung ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-05-19 06:38:12] [enrich] --- Enriche [5/5]: Pforzheimer Bombenfund: Deshalb wird das Helios Krankenhaus 
+[2026-05-19 06:38:13] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Pforzheimer-Bombenfund-Deshalb-wird-da
+[2026-05-19 06:38:14] [enrich] Volltext extrahiert: 1869 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Pforzheimer-Bomben
+[2026-05-19 06:38:15] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand. Der Artikel behandelt einen Bombenfund und die Evakuierungsmaßnahmen, nicht einen Brand in einem Krankenhaus.
+[2026-05-19 06:38:15] [enrich] Ergebnis: 1 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-05-19 06:38:15] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-19 06:38:15] [DEDUP] Starte Dedup für 594 Einträge
+[2026-05-19 06:38:15] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-19 06:38:16] [DEDUP] Paare verglichen: 11031
+[2026-05-19 06:38:16] [DEDUP] Auto-Merges: 0
+[2026-05-19 06:38:16] [DEDUP] Kandidaten (unsicher): 344
+[2026-05-19 06:38:16] [DEDUP] Ergebnis: 594 Einträge (war: 594, 0 zusammengeführt)
+[2026-05-19 06:38:16] [DEDUP] Kandidaten-Datei: 344 pending, 2 confirmed, 0 rejected
+[2026-05-19 06:38:16] [DEDUP] Gespeichert: 594 → 594 Einträge
