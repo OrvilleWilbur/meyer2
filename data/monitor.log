@@ -28167,3 +28167,53 @@
 [2026-05-19 06:38:16] [DEDUP] Ergebnis: 594 Einträge (war: 594, 0 zusammengeführt)
 [2026-05-19 06:38:16] [DEDUP] Kandidaten-Datei: 344 pending, 2 confirmed, 0 rejected
 [2026-05-19 06:38:16] [DEDUP] Gespeichert: 594 → 594 Einträge
+[2026-05-20 06:37:46] === Monitor-Lauf gestartet ===
+[2026-05-20 06:37:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-20 06:37:47] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-20 06:37:48] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-05-20 06:37:48] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-05-20 06:37:49] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-05-20 06:37:49] Feed 'gn_brand_klinik': 41 Einträge
+[2026-05-20 06:37:50] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-05-20 06:37:50] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-20 06:37:50] Feed 'gn_feuer_uniklinik': 26 Einträge
+[2026-05-20 06:37:51] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-05-20 06:37:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-20 06:37:52] 185 relevante Treffer in Feeds
+[2026-05-20 06:37:52] ✅ 3 NEUE Einträge gefunden:
+[2026-05-20 06:37:52]    19.05.2026 | evangelischen Krankenhaus |  | Feuer im ehemaligen evangelischen Krankenhaus - MSN
+[2026-05-20 06:37:52]    04.10.2025 | Sonnenberg-Klinikum |  | Brand: Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs 
+[2026-05-20 06:37:52]    03.03.2026 | im Klinikum Braunschweig |  | Feuer im Klinikum Braunschweig: Polizei nennt die Brandursac
+[2026-05-20 06:37:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-20 06:37:52] === Monitor-Lauf beendet ===
+
+[2026-05-20 06:37:52] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-20 06:37:52] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-20 06:37:52] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-20 06:37:52] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-20 06:37:52] [enrich] --- Enriche [1/3]: Feuer im ehemaligen evangelischen Krankenhaus - MSN
+[2026-05-20 06:37:53] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-im-ehemaligen-evangelischen
+[2026-05-20 06:37:53] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-im-ehemaligen-evangelischen
+[2026-05-20 06:37:53] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (444 Z.)
+[2026-05-20 06:37:54] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem 'ehemaligen' Krankenhaus. Da die Einrichtung nicht mehr als aktives Krankenhaus in Betrieb ist, handelt es sich nicht um einen Brand in einem operativen Krankenhaus/einer Klinik. Zudem sind keine ausreichenden Informationen im bereitgestellten Text vorhanden, um den Brand genauer zu dokumentieren.
+[2026-05-20 06:37:55] [enrich] --- Enriche [2/3]: Brand: Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs 
+[2026-05-20 06:37:56] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenberg-klinikum-in-saarb
+[2026-05-20 06:37:56] [enrich] Volltext extrahiert: 3438 Zeichen von https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenbe
+[2026-05-20 06:38:00] [enrich] Enrichment abgeschlossen: enriched — Sonnenberg-Klinikum (SHG-Kliniken Sonnenberg) in Saarbrücken
+[2026-05-20 06:38:01] [enrich] --- Enriche [3/3]: Feuer im Klinikum Braunschweig: Polizei nennt die Brandursac
+[2026-05-20 06:38:02] [enrich] Google News URL aufgelöst (v1): https://www.braunschweiger-zeitung.de/niedersachsen/braunschweig/article41135476
+[2026-05-20 06:38:02] [enrich] Volltext extrahiert: 515 Zeichen von https://www.braunschweiger-zeitung.de/niedersachsen/braunsch
+[2026-05-20 06:38:04] [enrich] Enrichment abgeschlossen: enriched — Klinikum Braunschweig in Braunschweig
+[2026-05-20 06:38:04] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-05-20 06:38:04] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-20 06:38:04] [DEDUP] Starte Dedup für 597 Einträge
+[2026-05-20 06:38:04] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-20 06:38:05] [DEDUP] Auto-Merge (0.92): Sonnenbergklinik / Saarbrücken ↔ Sonnenberg-Klinikum (SHG-Kliniken Sonnen / Saarbrücken
+[2026-05-20 06:38:05] [DEDUP] Paare verglichen: 11094
+[2026-05-20 06:38:05] [DEDUP] Auto-Merges: 1
+[2026-05-20 06:38:05] [DEDUP] Kandidaten (unsicher): 347
+[2026-05-20 06:38:05] [DEDUP] Cluster 2x: Sonnenbergklinik, Sonnenberg-Klinikum (SHG-Kliniken Sonnen
+[2026-05-20 06:38:05] [DEDUP] Ergebnis: 596 Einträge (war: 597, 1 zusammengeführt)
+[2026-05-20 06:38:05] [DEDUP] Kandidaten-Datei: 347 pending, 2 confirmed, 0 rejected
+[2026-05-20 06:38:05] [DEDUP] Gespeichert: 597 → 596 Einträge

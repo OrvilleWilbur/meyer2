@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T06:38:16.719575",
+  "generated_at": "2026-05-20T06:38:05.644034",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -206,6 +206,39 @@
         "",
         ""
       ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik in Braunschweig (Name nicht genannt)",
+        "ort": "Braunschweig",
+        "datum": "03.03.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.noz.de/deutschland-welt/niedersachsen/artikel/brand-in-braunschweiger-klinik-patientin-tot-50110250",
+        "titel": "Patientin will rauchen und stirbt in Braunschweiger Klinik - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Braunschweig",
+        "ort": "Braunschweig",
+        "datum": "03.03.2026",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.braunschweiger-zeitung.de/niedersachsen/braunschweig/article411354762/brand-im-braunschweiger-klinikum-dutzende-rettungskraefte-sind-vor-ort.html",
+        "titel": "Feuer im Klinikum Braunschweig: Polizei nennt die Brandursache - Braunschweiger Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -298,6 +331,39 @@
         "status": "enriched",
         "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
         "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.758,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.758
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Sonnenbergstraße",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand-in-saarbruecker-klinik-feuer-verursacht-millionenschaden_a676206",
+        "titel": "Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursacht Millionenschaden - Saarland - Wochenblatt Reporter"
+      },
+      "entry_b": {
+        "einrichtung": "Sonnenberg-Klinikum (SHG-Kliniken Sonnenberg)",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenberg-klinikum-in-saarbruecken-evakuiert-sechs-verletzte_aid-136175059",
+        "titel": "Brand: Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs Verletzte - Saarbrücker Zeitung"
       }
     },
     {
@@ -2707,6 +2773,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.658,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.658
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "04.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
+        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
+      },
+      "entry_b": {
+        "einrichtung": "Sonnenberg-Klinikum (SHG-Kliniken Sonnenberg)",
+        "ort": "Saarbrücken",
+        "datum": "03.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.saarbruecker-zeitung.de/blaulicht/brand-sonnenberg-klinikum-in-saarbruecken-evakuiert-sechs-verletzte_aid-136175059",
+        "titel": "Brand: Sonnenberg-Klinikum in Saarbrücken evakuiert – sechs Verletzte - Saarbrücker Zeitung"
       }
     },
     {
