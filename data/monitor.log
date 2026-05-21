@@ -28217,3 +28217,52 @@
 [2026-05-20 06:38:05] [DEDUP] Ergebnis: 596 Einträge (war: 597, 1 zusammengeführt)
 [2026-05-20 06:38:05] [DEDUP] Kandidaten-Datei: 347 pending, 2 confirmed, 0 rejected
 [2026-05-20 06:38:05] [DEDUP] Gespeichert: 597 → 596 Einträge
+[2026-05-21 06:39:55] === Monitor-Lauf gestartet ===
+[2026-05-21 06:39:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-21 06:39:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-21 06:39:58] Feed 'gn_brand_krankenhaus': 44 Einträge
+[2026-05-21 06:39:58] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-05-21 06:39:59] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-21 06:39:59] Feed 'gn_brand_klinik': 40 Einträge
+[2026-05-21 06:39:59] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-05-21 06:40:00] Feed 'gn_klinikbrand': 90 Einträge
+[2026-05-21 06:40:00] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-05-21 06:40:01] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-05-21 06:40:02] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-21 06:40:02] 201 relevante Treffer in Feeds
+[2026-05-21 06:40:02] ✅ 3 NEUE Einträge gefunden:
+[2026-05-21 06:40:02]    04.06.2025 | im Krankenhaus |  | Köln | Brand in Hochhaus-Keller: Mann mit Rauchgasvergiftung
+[2026-05-21 06:40:02]    19.05.2026 | ins Krankenhaus |  | Brand in Wohngruppe – fünf Personen kommen ins Krankenhaus -
+[2026-05-21 06:40:02]    04.10.2025 | bei Krankenhausbrand |  | 20 Menschen bei Krankenhausbrand in Deutschland verletzt - و
+[2026-05-21 06:40:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-21 06:40:02] === Monitor-Lauf beendet ===
+
+[2026-05-21 06:40:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-21 06:40:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-21 06:40:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-21 06:40:03] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-21 06:40:03] [enrich] --- Enriche [1/3]: Köln | Brand in Hochhaus-Keller: Mann mit Rauchgasvergiftung
+[2026-05-21 06:40:03] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/k%C3%B6ln-brand-in-hochhaus-kelle
+[2026-05-21 06:40:03] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/k%C3%B6ln-brand-in-hochhaus-kelle
+[2026-05-21 06:40:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (561 Z.)
+[2026-05-21 06:40:05] [enrich] FALSE POSITIVE erkannt: Brand in Hochhaus-Keller (kein Krankenhaus), Person wird danach ins Krankenhaus gebracht
+[2026-05-21 06:40:06] [enrich] --- Enriche [2/3]: Brand in Wohngruppe – fünf Personen kommen ins Krankenhaus -
+[2026-05-21 06:40:06] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/brand-in-wohngruppe-f%C3%BCnf-per
+[2026-05-21 06:40:06] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/brand-in-wohngruppe-f%C3%BCnf-per
+[2026-05-21 06:40:06] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (498 Z.)
+[2026-05-21 06:40:07] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Wohngruppe, nicht in einem Krankenhaus. Personen werden nach dem Brand ins Krankenhaus gebracht, aber das Krankenhaus ist nicht der Brandort.
+[2026-05-21 06:40:08] [enrich] --- Enriche [3/3]: 20 Menschen bei Krankenhausbrand in Deutschland verletzt - و
+[2026-05-21 06:40:09] [enrich] Google News URL aufgelöst (v1): https://www.saba.ye/de/news3564793.htm
+[2026-05-21 06:40:12] [enrich] Volltext zu kurz/leer (112 Z.), verwende RSS-Snippet (359 Z.)
+[2026-05-21 06:40:13] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne detaillierte Informationen zum Brand. Es können keine spezifischen Daten wie Einrichtungsname, Ort, Datum oder Brandort extrahiert werden. Eine Verifizierung, ob es sich um einen tatsächlichen Brand in einem deutschen Krankenhaus handelt, ist nicht möglich.
+[2026-05-21 06:40:13] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-05-21 06:40:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-21 06:40:13] [DEDUP] Starte Dedup für 599 Einträge
+[2026-05-21 06:40:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-21 06:40:14] [DEDUP] Paare verglichen: 11201
+[2026-05-21 06:40:14] [DEDUP] Auto-Merges: 0
+[2026-05-21 06:40:14] [DEDUP] Kandidaten (unsicher): 346
+[2026-05-21 06:40:14] [DEDUP] Ergebnis: 599 Einträge (war: 599, 0 zusammengeführt)
+[2026-05-21 06:40:14] [DEDUP] Kandidaten-Datei: 346 pending, 2 confirmed, 0 rejected
+[2026-05-21 06:40:14] [DEDUP] Gespeichert: 599 → 599 Einträge
