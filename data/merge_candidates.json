@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T06:40:14.519752",
+  "generated_at": "2026-05-22T06:38:11.325038",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -364,6 +364,39 @@
         "status": "enriched",
         "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
         "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.755,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.755
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "07.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/im-klinikum-idar-oberstein-hat-daemmmaterial-gebrannt_arid-4109249.html",
+        "titel": "Feuerwehr ist zur Stelle: Im Klinikum Idar-Oberstein hat Dämmmaterial gebrannt - Nahe-Zeitung - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "09.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
+        "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Rhein-Zeitung"
       }
     },
     {
@@ -3631,6 +3664,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/niedersachsen-und-bremen/Feuer-in-Klinik-ausgebrochen-keine-Verletzten-id30353999.html",
         "titel": "Niedersachsen & Bremen: Feuer in Klinik ausgebrochen - keine Verletzten - NTV"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.627,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.627
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Rostock",
+        "ort": "Rostock",
+        "datum": "08.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/der_tag/Feuer-in-Rostocker-Uniklinik-26-Jaehriger-tot-article26017436.html",
+        "titel": "Der Tag: Feuer in Rostocker Uniklinik - 26-Jähriger tot - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsmedizin Rostock",
+        "ort": "Rostock-Gehlsdorf",
+        "datum": "07.09.2025",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/mecklenburg-vorpommern/junger-mann-stirbt-bei-brand-in-uniklinik-3902847",
+        "titel": "Junger Mann stirbt bei Brand in Uniklinik - Nordkurier"
       }
     },
     {
@@ -10198,6 +10264,72 @@
         "status": "false_positive",
         "link": "https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html",
         "titel": "Die Katastrophe im Krankenhaus: Evakuierung - Skverlag"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik gelegt haben",
+        "ort": "",
+        "datum": "15.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/82-j%C3%A4hriger-soll-brand-in-klinik-gelegt-haben/ar-AA23hp7y",
+        "titel": "82-jähriger soll Brand in Klinik gelegt haben - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik gelegt haben",
+        "ort": "",
+        "datum": "15.05.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.stern.de/gesellschaft/regional/bayern/klinikum-bayreuth--82-jaehriger-soll-brand-in-klinik-gelegt-haben-37400746.html",
+        "titel": "Klinikum Bayreuth: 82-Jähriger soll Brand in Klinik gelegt haben - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "19.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-wohngruppe-f%C3%BCnf-personen-kommen-ins-krankenhaus/ar-AA23xuIC",
+        "titel": "Brand in Wohngruppe – fünf Personen kommen ins Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "19.05.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-eine-person-kommt-verletzt-ins-krankenhaus/ar-AA23zZmE",
+        "titel": "Brand im Laborbereich der Uni Essen: Eine Person kommt verletzt ins Krankenhaus - MSN"
       }
     },
     {

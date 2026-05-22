@@ -28266,3 +28266,83 @@
 [2026-05-21 06:40:14] [DEDUP] Ergebnis: 599 Einträge (war: 599, 0 zusammengeführt)
 [2026-05-21 06:40:14] [DEDUP] Kandidaten-Datei: 346 pending, 2 confirmed, 0 rejected
 [2026-05-21 06:40:14] [DEDUP] Gespeichert: 599 → 599 Einträge
+[2026-05-22 06:37:29] === Monitor-Lauf gestartet ===
+[2026-05-22 06:37:30] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-22 06:37:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-22 06:37:31] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-05-22 06:37:31] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-05-22 06:37:32] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-22 06:37:32] Feed 'gn_brand_klinik': 46 Einträge
+[2026-05-22 06:37:33] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-05-22 06:37:33] Feed 'gn_klinikbrand': 85 Einträge
+[2026-05-22 06:37:34] Feed 'gn_feuer_uniklinik': 42 Einträge
+[2026-05-22 06:37:34] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-05-22 06:37:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-22 06:37:35] 222 relevante Treffer in Feeds
+[2026-05-22 06:37:35] ✅ 8 NEUE Einträge gefunden:
+[2026-05-22 06:37:35]    19.05.2026 | ins Krankenhaus |  | Brand im Laborbereich der Uni Essen: Eine Person kommt verle
+[2026-05-22 06:37:35]    30.05.2023 | in Krankenhaus |  | Drei Patienten sterben bei Feuer in Krankenhaus – Polizei er
+[2026-05-22 06:37:35]    30.03.2018 | Berliner Krankenhaus gestorben |  | Neun Tote: Weiteres Brandopfer in Berliner Krankenhaus gesto
+[2026-05-22 06:37:35]    20.05.2026 | in Klinik nach Brand |  | Sechs Menschen in Klinik nach Brand in Mehrfamilienhaus - MS
+[2026-05-22 06:37:35]    15.05.2026 | in Klinik gelegt haben |  | Klinikum Bayreuth: 82-Jähriger soll Brand in Klinik gelegt h
+[2026-05-22 06:37:35]    09.03.2026 | im Klinikum Idar |  | Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Mi
+[2026-05-22 06:37:35]    25.03.2026 | Universitätsklinikums Münster |  | Feuerwehr im Einsatz Brand im alten Kreißsaal des Universitä
+[2026-05-22 06:37:35]    07.09.2025 | Uniklinik |  | Junger Mann stirbt bei Brand in Uniklinik - Nordkurier
+[2026-05-22 06:37:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-22 06:37:35] === Monitor-Lauf beendet ===
+
+[2026-05-22 06:37:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-22 06:37:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-22 06:37:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-22 06:37:35] [enrich] 8 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-22 06:37:35] [enrich] --- Enriche [1/8]: Brand im Laborbereich der Uni Essen: Eine Person kommt verle
+[2026-05-22 06:37:36] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-
+[2026-05-22 06:37:36] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-
+[2026-05-22 06:37:36] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (565 Z.)
+[2026-05-22 06:37:37] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-22 06:37:38] [enrich] --- Enriche [2/8]: Drei Patienten sterben bei Feuer in Krankenhaus – Polizei er
+[2026-05-22 06:37:39] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/weltgeschehen/oesterreich--drei-tote-bei-brand-in-
+[2026-05-22 06:37:39] [enrich] Volltext extrahiert: 2140 Zeichen von https://www.stern.de/panorama/weltgeschehen/oesterreich--dre
+[2026-05-22 06:37:41] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-22 06:37:42] [enrich] --- Enriche [3/8]: Neun Tote: Weiteres Brandopfer in Berliner Krankenhaus gesto
+[2026-05-22 06:37:42] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/weiteres-brandopfer-in-berliner-kranke
+[2026-05-22 06:37:42] [enrich] Volltext extrahiert: 1416 Zeichen von https://rp-online.de/panorama/deutschland/weiteres-brandopfe
+[2026-05-22 06:37:45] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Wohnhaus in Berlin. Die Erwähnung der Charité bezieht sich nur auf die Behandlung von Brandopfern, nicht auf einen Brand im Krankenhaus selbst.
+[2026-05-22 06:37:46] [enrich] --- Enriche [4/8]: Sechs Menschen in Klinik nach Brand in Mehrfamilienhaus - MS
+[2026-05-22 06:37:46] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/sechs-menschen-in-klinik-nach-bra
+[2026-05-22 06:37:46] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/sechs-menschen-in-klinik-nach-bra
+[2026-05-22 06:37:46] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (562 Z.)
+[2026-05-22 06:37:48] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-22 06:37:49] [enrich] --- Enriche [5/8]: Klinikum Bayreuth: 82-Jähriger soll Brand in Klinik gelegt h
+[2026-05-22 06:37:49] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/bayern/klinikum-bayreuth--82-jaehrige
+[2026-05-22 06:37:49] [enrich] Volltext extrahiert: 1211 Zeichen von https://www.stern.de/gesellschaft/regional/bayern/klinikum-b
+[2026-05-22 06:37:51] [enrich] Claude API Fehler: 529 Server Error: <none> for url: https://api.anthropic.com/v1/messages
+[2026-05-22 06:37:52] [enrich] --- Enriche [6/8]: Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Mi
+[2026-05-22 06:37:53] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberste
+[2026-05-22 06:37:54] [enrich] Volltext extrahiert: 981 Zeichen von https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-k
+[2026-05-22 06:37:57] [enrich] Enrichment abgeschlossen: enriched — Klinikum Idar-Oberstein in Idar-Oberstein
+[2026-05-22 06:37:58] [enrich] --- Enriche [7/8]: Feuerwehr im Einsatz Brand im alten Kreißsaal des Universitä
+[2026-05-22 06:37:59] [enrich] Google News URL aufgelöst (v1): https://www.die-glocke.de/regionales/artikel/brand-im-alten-kreisssaal-des-unive
+[2026-05-22 06:38:02] [enrich] Volltext extrahiert: 1713 Zeichen von https://www.die-glocke.de/regionales/artikel/brand-im-alten-
+[2026-05-22 06:38:05] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Münster (UKM) in Münster
+[2026-05-22 06:38:06] [enrich] --- Enriche [8/8]: Junger Mann stirbt bei Brand in Uniklinik - Nordkurier
+[2026-05-22 06:38:06] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/mecklenburg-vorpommern/junger-mann-stirbt-bei
+[2026-05-22 06:38:07] [enrich] Volltext extrahiert: 1653 Zeichen von https://www.nordkurier.de/regional/mecklenburg-vorpommern/ju
+[2026-05-22 06:38:10] [enrich] Enrichment abgeschlossen: enriched — Universitätsmedizin Rostock in Rostock-Gehlsdorf
+[2026-05-22 06:38:10] [enrich] Ergebnis: 3 enriched, 0 partial, 1 false_positive, 4 failed
+[2026-05-22 06:38:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-22 06:38:10] [DEDUP] Starte Dedup für 607 Einträge
+[2026-05-22 06:38:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-22 06:38:10] [DEDUP] Auto-Merge (0.85): Universitätsklinikum Münster (Uniklinik  / Münster ↔ Universitätsklinikum Münster (UKM) / Münster
+[2026-05-22 06:38:11] [DEDUP] Auto-Merge (0.85): Klinik und Poliklinik für Psychiatrie un / Rostock ↔ Universitätsmedizin Rostock / Rostock-Gehlsdorf
+[2026-05-22 06:38:11] [DEDUP] Auto-Merge (1.00): Klinikum Idar-Oberstein / Idar-Oberstein ↔ Klinikum Idar-Oberstein / Idar-Oberstein
+[2026-05-22 06:38:11] [DEDUP] Paare verglichen: 11394
+[2026-05-22 06:38:11] [DEDUP] Auto-Merges: 3
+[2026-05-22 06:38:11] [DEDUP] Kandidaten (unsicher): 350
+[2026-05-22 06:38:11] [DEDUP] Cluster 2x: Klinik und Poliklinik für Psychiatrie un, Universitätsmedizin Rostock
+[2026-05-22 06:38:11] [DEDUP] Cluster 2x: Universitätsklinikum Münster (Uniklinik , Universitätsklinikum Münster (UKM)
+[2026-05-22 06:38:11] [DEDUP] Cluster 2x: Klinikum Idar-Oberstein, Klinikum Idar-Oberstein
+[2026-05-22 06:38:11] [DEDUP] Ergebnis: 604 Einträge (war: 607, 3 zusammengeführt)
+[2026-05-22 06:38:11] [DEDUP] Kandidaten-Datei: 350 pending, 2 confirmed, 0 rejected
+[2026-05-22 06:38:11] [DEDUP] Gespeichert: 607 → 604 Einträge
