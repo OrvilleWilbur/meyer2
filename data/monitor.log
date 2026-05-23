@@ -28346,3 +28346,96 @@
 [2026-05-22 06:38:11] [DEDUP] Ergebnis: 604 Einträge (war: 607, 3 zusammengeführt)
 [2026-05-22 06:38:11] [DEDUP] Kandidaten-Datei: 350 pending, 2 confirmed, 0 rejected
 [2026-05-22 06:38:11] [DEDUP] Gespeichert: 607 → 604 Einträge
+[2026-05-23 05:56:46] === Monitor-Lauf gestartet ===
+[2026-05-23 05:56:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-23 05:56:47] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-23 05:56:48] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-05-23 05:56:48] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-05-23 05:56:48] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-05-23 05:56:49] Feed 'gn_brand_klinik': 45 Einträge
+[2026-05-23 05:56:49] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-05-23 05:56:50] Feed 'gn_klinikbrand': 100 Einträge
+[2026-05-23 05:56:50] Feed 'gn_feuer_uniklinik': 42 Einträge
+[2026-05-23 05:56:51] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-05-23 05:56:51] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-23 05:56:51] 208 relevante Treffer in Feeds
+[2026-05-23 05:56:52] ✅ 7 NEUE Einträge gefunden:
+[2026-05-23 05:56:52]    19.04.2026 | verlassenem Krankenhaus |  | Nach mutmaßlicher Brandstiftung in verlassenem Krankenhaus: 
+[2026-05-23 05:56:52]    09.05.2026 | Hamburger Krankenhaus |  | Brände: Feuer in Hamburger Krankenhaus: Mitarbeiter leicht v
+[2026-05-23 05:56:52]    20.05.2026 |  |  | Geldautomaten-Ärger + Klinik-Umzug + Brand-Bilanz - MSN
+[2026-05-23 05:56:52]    16.05.2026 | in Klinik geflogen |  | Drei Verletzte nach Brand in Lokal: Mann mit Hubschrauber in
+[2026-05-23 05:56:52]    11.05.2026 | Elisabeth Krankenhaus |  | Evakuierung am St. Elisabeth Krankenhaus in Hohenlind - tage
+[2026-05-23 05:56:52]    04.06.2025 | Eduardus-Krankenhauses |  | „Trinke Kölsch, wenn es vorbei ist“: So lief die Evakuierung
+[2026-05-23 05:56:52]    12.11.2024 | am Krankenhaus |  | Blindgänger-Alarm am Krankenhaus: Klinik in Hamburg droht Ev
+[2026-05-23 05:56:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-23 05:56:52] === Monitor-Lauf beendet ===
+
+[2026-05-23 05:56:52] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-23 05:56:52] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-23 05:56:52] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-23 05:56:52] [enrich] 11 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-23 05:56:52] [enrich] --- Enriche [1/11]: Brand im Laborbereich der Uni Essen: Eine Person kommt verle
+[2026-05-23 05:56:52] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-
+[2026-05-23 05:56:52] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-
+[2026-05-23 05:56:52] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (565 Z.)
+[2026-05-23 05:56:54] [enrich] FALSE POSITIVE erkannt: Der Brand ereignet sich im Laborbereich der Universität Essen, nicht in einem Krankenhaus. Eine verletzte Person wird danach ins Krankenhaus gebracht, was kein Krankenhausbrand darstellt.
+[2026-05-23 05:56:55] [enrich] --- Enriche [2/11]: Drei Patienten sterben bei Feuer in Krankenhaus – Polizei er
+[2026-05-23 05:56:55] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/weltgeschehen/oesterreich--drei-tote-bei-brand-in-
+[2026-05-23 05:56:56] [enrich] Volltext extrahiert: 2140 Zeichen von https://www.stern.de/panorama/weltgeschehen/oesterreich--dre
+[2026-05-23 05:56:57] [enrich] FALSE POSITIVE erkannt: Der Brand fand in Österreich (Mödling, Niederösterreich) statt, nicht in Deutschland. Die Datenbank ist auf Brände in deutschen Krankenhäusern und Kliniken beschränkt.
+[2026-05-23 05:56:58] [enrich] --- Enriche [3/11]: Sechs Menschen in Klinik nach Brand in Mehrfamilienhaus - MS
+[2026-05-23 05:56:59] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/sechs-menschen-in-klinik-nach-bra
+[2026-05-23 05:56:59] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/sechs-menschen-in-klinik-nach-bra
+[2026-05-23 05:56:59] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (562 Z.)
+[2026-05-23 05:57:00] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Mehrfamilienhaus, nicht in einem Krankenhaus. Die Klinik wird nur im Kontext der medizinischen Versorgung von Brandopfern erwähnt, nicht als Brandort.
+[2026-05-23 05:57:01] [enrich] --- Enriche [4/11]: Klinikum Bayreuth: 82-Jähriger soll Brand in Klinik gelegt h
+[2026-05-23 05:57:02] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/bayern/klinikum-bayreuth--82-jaehrige
+[2026-05-23 05:57:03] [enrich] Volltext extrahiert: 1211 Zeichen von https://www.stern.de/gesellschaft/regional/bayern/klinikum-b
+[2026-05-23 05:57:05] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bayreuth in Bayreuth
+[2026-05-23 05:57:06] [enrich] --- Enriche [5/11]: Nach mutmaßlicher Brandstiftung in verlassenem Krankenhaus: 
+[2026-05-23 05:57:07] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/polizei-nimmt-tatve
+[2026-05-23 05:57:08] [enrich] Volltext extrahiert: 3849 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern
+[2026-05-23 05:57:12] [enrich] Enrichment abgeschlossen: enriched — Ehemaliges evangelisches Krankenhaus Zweibrücken in Zweibrücken
+[2026-05-23 05:57:13] [enrich] --- Enriche [6/11]: Brände: Feuer in Hamburger Krankenhaus: Mitarbeiter leicht v
+[2026-05-23 05:57:13] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/hamburg-schleswig-holstein/braende--f
+[2026-05-23 05:57:14] [enrich] Volltext extrahiert: 1469 Zeichen von https://www.stern.de/gesellschaft/regional/hamburg-schleswig
+[2026-05-23 05:57:17] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-05-23 05:57:18] [enrich] --- Enriche [7/11]: Geldautomaten-Ärger + Klinik-Umzug + Brand-Bilanz - MSN
+[2026-05-23 05:57:18] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/finanzen/top-stories/geldautomaten-%C3%A4rger-klinik-um
+[2026-05-23 05:57:18] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/finanzen/top-stories/geldautomaten-%C3%A4rger-klinik-um
+[2026-05-23 05:57:18] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-05-23 05:57:20] [enrich] FALSE POSITIVE erkannt: Der Artikel ist nur eine Überschrift/Linksammlung mit den Themen 'Geldautomaten-Ärger', 'Klinik-Umzug' und 'Brand-Bilanz'. Es wird kein konkreter Brand in einem Krankenhaus beschrieben, sondern nur generische Themen aufgelistet. Der eigentliche Artikelinhalt ist nicht vorhanden.
+[2026-05-23 05:57:21] [enrich] --- Enriche [8/11]: Drei Verletzte nach Brand in Lokal: Mann mit Hubschrauber in
+[2026-05-23 05:57:21] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/drei-verletzte-nach-brand-in-loka
+[2026-05-23 05:57:21] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/drei-verletzte-nach-brand-in-loka
+[2026-05-23 05:57:21] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (559 Z.)
+[2026-05-23 05:57:23] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Lokal (nicht in einem Krankenhaus). Ein Verletzter wird nach dem Brand mit dem Hubschrauber in eine Klinik geflogen - dies ist eine Einlieferung zur Behandlung, kein Brand im Krankenhaus selbst.
+[2026-05-23 05:57:24] [enrich] --- Enriche [9/11]: Evakuierung am St. Elisabeth Krankenhaus in Hohenlind - tage
+[2026-05-23 05:57:24] [enrich] Google News URL aufgelöst (v1): https://www.tagesschau.de/inland/regional/nordrheinwestfalen/wdr-evakuierung-am-
+[2026-05-23 05:57:25] [enrich] Volltext extrahiert: 203 Zeichen von https://www.tagesschau.de/inland/regional/nordrheinwestfalen
+[2026-05-23 05:57:27] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung am St. Elisabeth Krankenhaus, nennt aber keine Brandursache. Das Wort 'Brand' kommt im Titel nicht vor, und es ist unklar, ob überhaupt ein Brand der Grund für die Evakuierung war. Es könnte sich um eine Evakuierung aus anderen Gründen (z.B. Bombenentschärfung, Hochwasser, technische Störung) handeln.
+[2026-05-23 05:57:28] [enrich] --- Enriche [10/11]: „Trinke Kölsch, wenn es vorbei ist“: So lief die Evakuierung
+[2026-05-23 05:57:28] [enrich] Google News URL aufgelöst (v1): https://www.ksta.de/koeln/koelner-krankenhaus-evakuiert-trinke-koelsch-wenn-es-v
+[2026-05-23 05:57:29] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ksta.de/koeln/koelner-krankenhaus-evakuiert-trin
+[2026-05-23 05:57:30] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Weltkriegsbomben), nicht wegen Brand
+[2026-05-23 05:57:31] [enrich] --- Enriche [11/11]: Blindgänger-Alarm am Krankenhaus: Klinik in Hamburg droht Ev
+[2026-05-23 05:57:31] [enrich] Google News URL aufgelöst (v1): https://hamburg.t-online.de/region/hamburg/id_100332536/hamburg-moeglicher-blind
+[2026-05-23 05:57:32] [enrich] Volltext extrahiert: 3353 Zeichen von https://hamburg.t-online.de/region/hamburg/id_100332536/hamb
+[2026-05-23 05:57:34] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen verdächtigem Bombenfund (Blindgänger aus WWII), nicht wegen Brand
+[2026-05-23 05:57:34] [enrich] Ergebnis: 3 enriched, 0 partial, 8 false_positive, 0 failed
+[2026-05-23 05:57:34] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-23 05:57:34] [DEDUP] Starte Dedup für 611 Einträge
+[2026-05-23 05:57:34] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-23 05:57:35] [DEDUP] Auto-Merge (0.81): Krankenhaus Zweibrücken / Zweibrücken ↔ Ehemaliges evangelisches Krankenhaus Zwe / Zweibrücken
+[2026-05-23 05:57:35] [DEDUP] Auto-Merge (0.97): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg
+[2026-05-23 05:57:35] [DEDUP] Auto-Merge (1.00): Klinikum Bayreuth / Bayreuth ↔ Klinikum Bayreuth / Bayreuth
+[2026-05-23 05:57:35] [DEDUP] Paare verglichen: 11549
+[2026-05-23 05:57:35] [DEDUP] Auto-Merges: 3
+[2026-05-23 05:57:35] [DEDUP] Kandidaten (unsicher): 348
+[2026-05-23 05:57:35] [DEDUP] Cluster 2x: Krankenhaus Zweibrücken, Ehemaliges evangelisches Krankenhaus Zwe
+[2026-05-23 05:57:35] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-05-23 05:57:35] [DEDUP] Cluster 2x: Klinikum Bayreuth, Klinikum Bayreuth
+[2026-05-23 05:57:35] [DEDUP] Ergebnis: 608 Einträge (war: 611, 3 zusammengeführt)
+[2026-05-23 05:57:35] [DEDUP] Kandidaten-Datei: 348 pending, 2 confirmed, 0 rejected
+[2026-05-23 05:57:35] [DEDUP] Gespeichert: 611 → 608 Einträge
