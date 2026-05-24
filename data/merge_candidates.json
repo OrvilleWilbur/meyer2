@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T05:57:35.354965",
+  "generated_at": "2026-05-24T06:26:03.676478",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1823,39 +1823,6 @@
         "",
         ""
       ],
-      "score": 0.693,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.693
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Zweibrücken",
-        "ort": "Zweibrücken",
-        "datum": "21.04.2026",
-        "bundesland": "Rheinland-Pfalz",
-        "status": "partial",
-        "link": "https://www.msn.com/de-de/nachrichten/panorama/klinik-brand-in-zweibr%C3%BCcken-verd%C3%A4chtige-festgenommen/ar-AA21kBmE?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1&bundles=feat-es2020-t",
-        "titel": "Klinik-Brand in Zweibrücken: Verdächtige festgenommen - MSN"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Zweibrücken",
-        "ort": "Zweibrücken",
-        "datum": "20.04.2026",
-        "bundesland": "Rheinland-Pfalz",
-        "status": "partial",
-        "link": "https://www.sol.de/grossregion/rheinland-pfalz/millionenschaden-nach-brand-in-zweibruecker-krankenhaus-re-2,696032.html",
-        "titel": "Millionenschaden nach Brand in Zweibrücker Krankenhaus - SOL.DE"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.691,
       "details": {
         "datum": 1.0,
@@ -1882,6 +1849,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/panorama/weltgeschehen/staatsschutz-in-berlin-ermittelt-nach-brand-an-klinik-der-charit%C3%A9-36334852.html",
         "titel": "Brand und Explosion an Kliniken in Berlin: Staatsschutz ermittelt - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.688,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.688
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "06.08.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mz.de/lokal/hettstedt/brand-feuer-krankenhaus-psychiatrie-feuerwehr-4093671",
+        "titel": "Mit Video: Feueralarm im Krankenhaus Hettstedt - 63 Menschen in Sicherheit gebracht - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Helios-Klinik Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "05.08.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/brand-krankenhaus-hettstedt-ermittlungen-brandstiftung-100.html",
+        "titel": "Zweiter Brand in Hettstedter Psychiatrie: Polizei ermittelt wegen Brandstiftung - MDR"
       }
     },
     {
