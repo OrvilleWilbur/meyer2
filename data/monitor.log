@@ -28482,3 +28482,41 @@
 [2026-05-24 06:26:03] [DEDUP] Ergebnis: 610 Einträge (war: 610, 0 zusammengeführt)
 [2026-05-24 06:26:03] [DEDUP] Kandidaten-Datei: 348 pending, 2 confirmed, 0 rejected
 [2026-05-24 06:26:03] [DEDUP] Gespeichert: 610 → 610 Einträge
+[2026-05-25 07:00:01] === Monitor-Lauf gestartet ===
+[2026-05-25 07:00:02] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-25 07:00:03] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-25 07:00:04] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-05-25 07:00:04] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-05-25 07:00:04] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-05-25 07:00:05] Feed 'gn_brand_klinik': 45 Einträge
+[2026-05-25 07:00:05] Feed 'gn_brand_klinikum': 31 Einträge
+[2026-05-25 07:00:06] Feed 'gn_klinikbrand': 76 Einträge
+[2026-05-25 07:00:06] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-05-25 07:00:06] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-05-25 07:00:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-25 07:00:07] 205 relevante Treffer in Feeds
+[2026-05-25 07:00:08] ✅ 1 NEUE Einträge gefunden:
+[2026-05-25 07:00:08]    02.06.2025 | Hamburger Klinik |  | Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verd
+[2026-05-25 07:00:08] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-25 07:00:08] === Monitor-Lauf beendet ===
+
+[2026-05-25 07:00:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-25 07:00:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-25 07:00:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-25 07:00:08] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-25 07:00:08] [enrich] --- Enriche [1/1]: Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verd
+[2026-05-25 07:00:09] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-ve
+[2026-05-25 07:00:09] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-ve: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html
+[2026-05-25 07:00:09] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (586 Z.)
+[2026-05-25 07:00:11] [enrich] Enrichment abgeschlossen: partial — Klinik in Hamburg (Name nicht spezifiziert) in Hamburg
+[2026-05-25 07:00:11] [enrich] Ergebnis: 0 enriched, 1 partial, 0 false_positive, 0 failed
+[2026-05-25 07:00:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-25 07:00:11] [DEDUP] Starte Dedup für 611 Einträge
+[2026-05-25 07:00:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-25 07:00:12] [DEDUP] Paare verglichen: 11578
+[2026-05-25 07:00:12] [DEDUP] Auto-Merges: 0
+[2026-05-25 07:00:12] [DEDUP] Kandidaten (unsicher): 354
+[2026-05-25 07:00:12] [DEDUP] Ergebnis: 611 Einträge (war: 611, 0 zusammengeführt)
+[2026-05-25 07:00:12] [DEDUP] Kandidaten-Datei: 354 pending, 2 confirmed, 0 rejected
+[2026-05-25 07:00:12] [DEDUP] Gespeichert: 611 → 611 Einträge
