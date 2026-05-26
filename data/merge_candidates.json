@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T07:00:12.445677",
+  "generated_at": "2026-05-26T06:36:07.005765",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -133,6 +133,39 @@
         "status": "enriched",
         "link": "https://www.tag24.de/leipzig/feuerwehreinsatz-leipzig/brand-in-leipziger-krankenhaus-mehrere-patienten-muessen-verlegt-werden-3450097",
         "titel": "Brand in Leipziger Krankenhaus: Mehrere Patienten müssen verlegt werden - tag24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.792,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.792
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
       }
     },
     {
@@ -668,6 +701,72 @@
         "",
         ""
       ],
+      "score": 0.731,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.731
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.73,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.1,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.73
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.728,
       "details": {
         "datum": 1.0,
@@ -932,6 +1031,39 @@
         "",
         ""
       ],
+      "score": 0.71,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.71
+      },
+      "entry_a": {
+        "einrichtung": "St.-Elisabeth-Krankenhaus",
+        "ort": "Eutin",
+        "datum": "07.11.2023",
+        "bundesland": "Schleswig-Holstein",
+        "status": "enriched",
+        "link": "https://www.shz.de/lokales/eutin-ostholstein/artikel/eutin-feuer-im-neubau-des-elisabeth-krankenhauses-45883088",
+        "titel": "Eutin: Feuer im Neubau am St.-Elisabeth-Krankenhaus - shz.de"
+      },
+      "entry_b": {
+        "einrichtung": "Sankt Elisabeth Krankenhaus (SEK)",
+        "ort": "Eutin",
+        "datum": "08.11.2023",
+        "bundesland": "Schleswig-Holstein",
+        "status": "partial",
+        "link": "https://www.ln-online.de/lokales/ostholstein/eutin-zwei-feuer-im-sankt-elisabeth-krankenhaus-sek-kripo-ermittelt-UWRYGB5JVBEC3LGY4FWMI7YFM4.html",
+        "titel": "Eutin: Zwei Feuer im Sankt Elisabeth Krankenhaus (SEK) - Kripo ermittelt - Lübecker Nachrichten"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.709,
       "details": {
         "datum": 1.0,
@@ -1173,6 +1305,39 @@
         "total": 0.7
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
         "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
         "ort": "Hamburg",
         "datum": "01.06.2025",
@@ -1189,6 +1354,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
       }
     },
     {
@@ -3697,6 +3895,39 @@
         "status": "enriched",
         "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
         "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.641,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.125,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.641
+      },
+      "entry_a": {
+        "einrichtung": "Klinik in Hamburg (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Marienkrankenhaus Hamburg",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-mehrere-verletzte-id300668845.html",
+        "titel": "Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletzte! - moin.de"
       }
     },
     {
@@ -11188,6 +11419,39 @@
         "status": "enriched",
         "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
         "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.483,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.483
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Hanau",
+        "ort": "Hanau",
+        "datum": "03.05.2026",
+        "bundesland": "Hessen",
+        "status": "partial",
+        "link": "https://www.msn.com/de-de/gesundheit/other/gro%C3%9Feinsatz-bei-brand-im-klinikum-hanau-patient-aus-verrauchtem-zimmer-gerettet/ar-AA1NDEZC?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "titel": "Großeinsatz bei Brand im Klinikum Hanau: Patient aus verrauchtem Zimmer gerettet - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "Hanauer Klinikum",
+        "ort": "Hanau",
+        "datum": "25.05.2026",
+        "bundesland": "Hessen",
+        "status": "partial",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/klorollen-angez%C3%BCndet-brand-in-hanauer-klinikum/ar-AA1NE8LW?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "titel": "Klorollen angezündet? - Brand in Hanauer Klinikum - MSN"
       }
     },
     {

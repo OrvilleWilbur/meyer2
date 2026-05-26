@@ -28520,3 +28520,65 @@
 [2026-05-25 07:00:12] [DEDUP] Ergebnis: 611 Einträge (war: 611, 0 zusammengeführt)
 [2026-05-25 07:00:12] [DEDUP] Kandidaten-Datei: 354 pending, 2 confirmed, 0 rejected
 [2026-05-25 07:00:12] [DEDUP] Gespeichert: 611 → 611 Einträge
+[2026-05-26 06:35:36] === Monitor-Lauf gestartet ===
+[2026-05-26 06:35:38] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-26 06:35:39] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-26 06:35:40] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-05-26 06:35:40] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-05-26 06:35:40] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-05-26 06:35:41] Feed 'gn_brand_klinik': 45 Einträge
+[2026-05-26 06:35:41] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-05-26 06:35:42] Feed 'gn_klinikbrand': 85 Einträge
+[2026-05-26 06:35:42] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-05-26 06:35:43] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-05-26 06:35:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-26 06:35:44] 222 relevante Treffer in Feeds
+[2026-05-26 06:35:44] ✅ 5 NEUE Einträge gefunden:
+[2026-05-26 06:35:44]    23.05.2026 |  |  | Krankenhaus Prüm: Brand zerstört Stromverteilung - MSN
+[2026-05-26 06:35:44]    08.11.2023 |  |  | Eutin: Zwei Feuer im Sankt Elisabeth Krankenhaus (SEK) - Kri
+[2026-05-26 06:35:44]    01.06.2025 |  |  | Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletz
+[2026-05-26 06:35:44]    24.07.2019 | Palmas Klinik Son Espases geht glimpflich aus |  | Feuer in der Psychiatrie in Palmas Klinik Son Espases geht g
+[2026-05-26 06:35:44]    25.05.2026 | Hanauer Klinikum |  | Klorollen angezündet? - Brand in Hanauer Klinikum - MSN
+[2026-05-26 06:35:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-26 06:35:44] === Monitor-Lauf beendet ===
+
+[2026-05-26 06:35:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-26 06:35:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-26 06:35:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-26 06:35:44] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-26 06:35:44] [enrich] --- Enriche [1/5]: Krankenhaus Prüm: Brand zerstört Stromverteilung - MSN
+[2026-05-26 06:35:45] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/krankenhaus-pr%C3%BCm-brand-zerst
+[2026-05-26 06:35:45] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/krankenhaus-pr%C3%BCm-brand-zerst
+[2026-05-26 06:35:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (471 Z.)
+[2026-05-26 06:35:47] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Inhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN dem Krankenhaus Prüm stattgefunden hat oder ob es sich um einen Brand an einer externen Stromverteilung handelt. Zudem fehlen alle notwendigen Informationen zur Verifizierung.
+[2026-05-26 06:35:48] [enrich] --- Enriche [2/5]: Eutin: Zwei Feuer im Sankt Elisabeth Krankenhaus (SEK) - Kri
+[2026-05-26 06:35:48] [enrich] Google News URL aufgelöst (v1): https://www.ln-online.de/lokales/ostholstein/eutin-zwei-feuer-im-sankt-elisabeth
+[2026-05-26 06:35:49] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ln-online.de/lokales/ostholstein/eutin-zwei-feuer-im-sankt-elisabeth: 403 Client Error: Forbidden for url: https://www.ln-online.de/lokales/ostholstein/eutin-zwei-feuer-im-sankt-elisabeth-krankenhaus-sek-kripo-ermittelt-UWRYGB5JVBEC3LGY4FWMI7YFM4.html
+[2026-05-26 06:35:49] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (596 Z.)
+[2026-05-26 06:35:52] [enrich] Enrichment abgeschlossen: partial — Sankt Elisabeth Krankenhaus (SEK) in Eutin
+[2026-05-26 06:35:53] [enrich] --- Enriche [3/5]: Hamburg: Feuer im Krankenhaus! Drei Tote und mehrere Verletz
+[2026-05-26 06:35:53] [enrich] Google News URL aufgelöst (v1): https://www.moin.de/norddeutschland/hamburg-feuer-im-krankenhaus-drei-tote-und-m
+[2026-05-26 06:35:54] [enrich] Volltext extrahiert: 2663 Zeichen von https://www.moin.de/norddeutschland/hamburg-feuer-im-kranken
+[2026-05-26 06:35:58] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus Hamburg in Hamburg
+[2026-05-26 06:35:59] [enrich] --- Enriche [4/5]: Feuer in der Psychiatrie in Palmas Klinik Son Espases geht g
+[2026-05-26 06:36:00] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/aktuelles/2019/07/24/feuer-in-der-psychiatrie-in-
+[2026-05-26 06:36:01] [enrich] Volltext extrahiert: 2589 Zeichen von https://www.mallorcazeitung.es/aktuelles/2019/07/24/feuer-in
+[2026-05-26 06:36:02] [enrich] FALSE POSITIVE erkannt: Brand befindet sich in Palma de Mallorca auf den Balearischen Inseln (Spanien), nicht in Deutschland
+[2026-05-26 06:36:03] [enrich] --- Enriche [5/5]: Klorollen angezündet? - Brand in Hanauer Klinikum - MSN
+[2026-05-26 06:36:03] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/panorama/klorollen-angez%C3%BCndet-brand-in
+[2026-05-26 06:36:04] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/panorama/klorollen-angez%C3%BCndet-brand-in
+[2026-05-26 06:36:04] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-05-26 06:36:05] [enrich] Enrichment abgeschlossen: partial — Hanauer Klinikum in Hanau
+[2026-05-26 06:36:05] [enrich] Ergebnis: 1 enriched, 2 partial, 2 false_positive, 0 failed
+[2026-05-26 06:36:05] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-26 06:36:06] [DEDUP] Starte Dedup für 616 Einträge
+[2026-05-26 06:36:06] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-26 06:36:06] [DEDUP] Auto-Merge (0.86): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus Hamburg / Hamburg
+[2026-05-26 06:36:06] [DEDUP] Paare verglichen: 11650
+[2026-05-26 06:36:07] [DEDUP] Auto-Merges: 1
+[2026-05-26 06:36:07] [DEDUP] Kandidaten (unsicher): 362
+[2026-05-26 06:36:07] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus Hamburg
+[2026-05-26 06:36:07] [DEDUP] Ergebnis: 615 Einträge (war: 616, 1 zusammengeführt)
+[2026-05-26 06:36:07] [DEDUP] Kandidaten-Datei: 362 pending, 2 confirmed, 0 rejected
+[2026-05-26 06:36:07] [DEDUP] Gespeichert: 616 → 615 Einträge
