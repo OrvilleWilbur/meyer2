@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T06:42:09.102873",
+  "generated_at": "2026-05-29T06:44:15.740894",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -10462,6 +10462,39 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/other/brand-im-laborbereich-der-uni-essen-eine-person-kommt-verletzt-ins-krankenhaus/ar-AA23zZmE",
         "titel": "Brand im Laborbereich der Uni Essen: Eine Person kommt verletzt ins Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "27.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-in-moers-so-laeuft-die-evakuierung-20-fotos_bid-148964257",
+        "titel": "Bombenentschärfung in Moers: So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "27.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/so-l%C3%A4uft-die-evakuierung-rund-ums-krankenhaus-bethanien-20-fotos/ss-AA24cFDC",
+        "titel": "So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - MSN"
       }
     },
     {

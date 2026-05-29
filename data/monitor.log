@@ -28684,3 +28684,74 @@
 [2026-05-28 06:42:09] [DEDUP] Ergebnis: 622 Einträge (war: 622, 0 zusammengeführt)
 [2026-05-28 06:42:09] [DEDUP] Kandidaten-Datei: 357 pending, 2 confirmed, 0 rejected
 [2026-05-28 06:42:09] [DEDUP] Gespeichert: 622 → 622 Einträge
+[2026-05-29 06:43:46] === Monitor-Lauf gestartet ===
+[2026-05-29 06:43:47] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-29 06:43:48] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-29 06:43:48] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-05-29 06:43:49] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-05-29 06:43:49] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-05-29 06:43:49] Feed 'gn_brand_klinik': 43 Einträge
+[2026-05-29 06:43:50] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-05-29 06:43:50] Feed 'gn_klinikbrand': 92 Einträge
+[2026-05-29 06:43:51] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-05-29 06:43:51] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-05-29 06:43:52] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-29 06:43:52] 215 relevante Treffer in Feeds
+[2026-05-29 06:43:52] ✅ 7 NEUE Einträge gefunden:
+[2026-05-29 06:43:52]    09.12.2023 | in Krankenhaus bei Rom |  | Brand in Krankenhaus bei Rom: Mindestens drei Tote – 200 Men
+[2026-05-29 06:43:52]    03.06.2024 | DRK-Krankenhaus vermuten |  | Ratzeburg: Helium-Wolke lässt Feuer am DRK-Krankenhaus vermu
+[2026-05-29 06:43:52]    28.08.2025 |  |  | Geesthacht: Feuer in der Notaufnahme - Lübecker Nachrichten
+[2026-05-29 06:43:52]    28.05.2026 | von Krankenhaus und Pflegeeinrichtung |  | Bombensprengung in Moers: DRK-Ehrenamt unterstützt bei Evaku
+[2026-05-29 06:43:52]    27.05.2026 | ums Krankenhaus Bethanien |  | So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20
+[2026-05-29 06:43:52]    28.05.2026 | nach Krankenhaus |  | Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Ma
+[2026-05-29 06:43:52]    08.12.2021 | Jüdisches Krankenhaus |  | Jüdisches Krankenhaus in Berlin wird evakuiert - Jüdische Al
+[2026-05-29 06:43:52] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-29 06:43:52] === Monitor-Lauf beendet ===
+
+[2026-05-29 06:43:53] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-29 06:43:53] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-29 06:43:53] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-29 06:43:53] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-29 06:43:53] [enrich] --- Enriche [1/7]: Brand in Krankenhaus bei Rom: Mindestens drei Tote – 200 Men
+[2026-05-29 06:43:53] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/brand-in-krankenhaus-bei-rom-mindestens-drei-tote-20
+[2026-05-29 06:43:53] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/brand-in-krankenhaus-bei-rom-mindestens-drei-tote-20: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/brand-in-krankenhaus-bei-rom-mindestens-drei-tote-200-menschen-evakuiert-46MGHDJE4JIORLDRULD7GLF34M.html
+[2026-05-29 06:43:53] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (559 Z.)
+[2026-05-29 06:43:54] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in Rom, Italien - außerhalb Deutschlands. Die Datenbank ist für Brände in deutschen Krankenhäusern und Kliniken konzipiert.
+[2026-05-29 06:43:55] [enrich] --- Enriche [2/7]: Ratzeburg: Helium-Wolke lässt Feuer am DRK-Krankenhaus vermu
+[2026-05-29 06:43:56] [enrich] Google News URL aufgelöst (v1): https://www.ln-online.de/lokales/herzogtum-lauenburg/ratzeburg-helium-wolke-laes
+[2026-05-29 06:43:56] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ln-online.de/lokales/herzogtum-lauenburg/ratzeburg-helium-wolke-laes: 403 Client Error: Forbidden for url: https://www.ln-online.de/lokales/herzogtum-lauenburg/ratzeburg-helium-wolke-laesst-feuer-am-drk-krankenhaus-vermuten-ENZ74A2XOVEFJHIUL2MD2UJJLE.html
+[2026-05-29 06:43:56] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (587 Z.)
+[2026-05-29 06:43:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt nur eine Helium-Wolke, die den Verdacht auf ein Feuer erweckt. Es wird nicht von einem tatsächlichen Brand im DRK-Krankenhaus Ratzeburg berichtet, sondern nur von einem Feuer-Verdacht aufgrund einer Helium-Wolke.
+[2026-05-29 06:43:58] [enrich] --- Enriche [3/7]: Geesthacht: Feuer in der Notaufnahme - Lübecker Nachrichten
+[2026-05-29 06:43:59] [enrich] Google News URL aufgelöst (v1): https://www.ln-online.de/lokales/herzogtum-lauenburg/geesthacht-feuer-in-der-not
+[2026-05-29 06:43:59] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ln-online.de/lokales/herzogtum-lauenburg/geesthacht-feuer-in-der-not: 403 Client Error: Forbidden for url: https://www.ln-online.de/lokales/herzogtum-lauenburg/geesthacht-feuer-in-der-notaufnahme-CV4LSHU2K5HGHEOHLJIUBLALMY.html
+[2026-05-29 06:43:59] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (560 Z.)
+[2026-05-29 06:44:00] [enrich] FALSE POSITIVE erkannt: Der Artikel-Link ist unvollständig und nicht lesbar. Es kann nicht überprüft werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder nur um eine Erwähnung eines Krankenhauses im Zusammenhang mit einem Brand an anderer Stelle.
+[2026-05-29 06:44:01] [enrich] --- Enriche [4/7]: Bombensprengung in Moers: DRK-Ehrenamt unterstützt bei Evaku
+[2026-05-29 06:44:01] [enrich] Google News URL aufgelöst (v1): https://lokalklick.eu/2026/05/28/bombensprengung-in-moers-drk-ehrenamt-unterstue
+[2026-05-29 06:44:03] [enrich] Volltext extrahiert: 5000 Zeichen von https://lokalklick.eu/2026/05/28/bombensprengung-in-moers-dr
+[2026-05-29 06:44:04] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses Bethanien wegen Bombensprengung (Weltkriegsbomben), nicht wegen Brand
+[2026-05-29 06:44:05] [enrich] --- Enriche [5/7]: So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20
+[2026-05-29 06:44:05] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/so-l%C3%A4uft-die-evakuierung-run
+[2026-05-29 06:44:05] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/so-l%C3%A4uft-die-evakuierung-run
+[2026-05-29 06:44:05] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (528 Z.)
+[2026-05-29 06:44:07] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung rund ums Krankenhaus Bethanien, gibt aber keinen Hinweis auf einen Brand. Die Evakuierungsgründe sind nicht genannt und könnten andere Ursachen haben (Bombenentschärfung, Hochwasser, etc.). Es ist kein Brandfall dokumentiert.
+[2026-05-29 06:44:08] [enrich] --- Enriche [6/7]: Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Ma
+[2026-05-29 06:44:08] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-ruecktransporte-nach-
+[2026-05-29 06:44:08] [enrich] Volltext extrahiert: 1171 Zeichen von https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-r
+[2026-05-29 06:44:10] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung (Weltkriegsbomben), nicht wegen Brand
+[2026-05-29 06:44:11] [enrich] --- Enriche [7/7]: Jüdisches Krankenhaus in Berlin wird evakuiert - Jüdische Al
+[2026-05-29 06:44:11] [enrich] Google News URL aufgelöst (v1): https://www.juedische-allgemeine.de/unsere-woche/juedisches-krankenhaus-in-berli
+[2026-05-29 06:44:13] [enrich] Volltext extrahiert: 4320 Zeichen von https://www.juedische-allgemeine.de/unsere-woche/juedisches-
+[2026-05-29 06:44:14] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenfund (Fliegerbombe aus WWII), nicht wegen Brand
+[2026-05-29 06:44:14] [enrich] Ergebnis: 0 enriched, 0 partial, 7 false_positive, 0 failed
+[2026-05-29 06:44:14] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-29 06:44:14] [DEDUP] Starte Dedup für 629 Einträge
+[2026-05-29 06:44:14] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-29 06:44:15] [DEDUP] Paare verglichen: 12168
+[2026-05-29 06:44:15] [DEDUP] Auto-Merges: 0
+[2026-05-29 06:44:15] [DEDUP] Kandidaten (unsicher): 358
+[2026-05-29 06:44:15] [DEDUP] Ergebnis: 629 Einträge (war: 629, 0 zusammengeführt)
+[2026-05-29 06:44:15] [DEDUP] Kandidaten-Datei: 358 pending, 2 confirmed, 0 rejected
+[2026-05-29 06:44:15] [DEDUP] Gespeichert: 629 → 629 Einträge
