@@ -28755,3 +28755,40 @@
 [2026-05-29 06:44:15] [DEDUP] Ergebnis: 629 Einträge (war: 629, 0 zusammengeführt)
 [2026-05-29 06:44:15] [DEDUP] Kandidaten-Datei: 358 pending, 2 confirmed, 0 rejected
 [2026-05-29 06:44:15] [DEDUP] Gespeichert: 629 → 629 Einträge
+[2026-05-30 06:13:24] === Monitor-Lauf gestartet ===
+[2026-05-30 06:13:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-05-30 06:13:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-05-30 06:13:27] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-05-30 06:13:27] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-05-30 06:13:27] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-05-30 06:13:28] Feed 'gn_brand_klinik': 47 Einträge
+[2026-05-30 06:13:28] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-05-30 06:13:29] Feed 'gn_klinikbrand': 99 Einträge
+[2026-05-30 06:13:29] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-05-30 06:13:30] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-05-30 06:13:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-05-30 06:13:31] 228 relevante Treffer in Feeds
+[2026-05-30 06:13:31] ✅ 1 NEUE Einträge gefunden:
+[2026-05-30 06:13:31]    13.04.2025 | in Klinik angegriffen |  | 18 Minuten Zeit für Evakuierung: Israel: Hamas-Zentrale in K
+[2026-05-30 06:13:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-05-30 06:13:31] === Monitor-Lauf beendet ===
+
+[2026-05-30 06:13:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-05-30 06:13:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-05-30 06:13:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-05-30 06:13:31] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-05-30 06:13:31] [enrich] --- Enriche [1/1]: 18 Minuten Zeit für Evakuierung: Israel: Hamas-Zentrale in K
+[2026-05-30 06:13:31] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/politik/Israel-Hamas-Zentrale-in-Klinik-angegriffen-article2
+[2026-05-30 06:13:32] [enrich] Volltext extrahiert: 3109 Zeichen von https://www.n-tv.de/politik/Israel-Hamas-Zentrale-in-Klinik-
+[2026-05-30 06:13:34] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen militärischen Luftangriff auf ein Krankenhaus im Gazastreifen (Ausland, nicht Deutschland). Die Brände entstanden als Folge eines Bombenanschlags, nicht durch einen eigenständigen Brand in einer deutschen Klinik. Dies fällt nicht unter die Datenbank für Brände in deutschen Krankenhäusern.
+[2026-05-30 06:13:34] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-05-30 06:13:34] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-05-30 06:13:34] [DEDUP] Starte Dedup für 630 Einträge
+[2026-05-30 06:13:34] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-05-30 06:13:35] [DEDUP] Paare verglichen: 12179
+[2026-05-30 06:13:35] [DEDUP] Auto-Merges: 0
+[2026-05-30 06:13:35] [DEDUP] Kandidaten (unsicher): 358
+[2026-05-30 06:13:35] [DEDUP] Ergebnis: 630 Einträge (war: 630, 0 zusammengeführt)
+[2026-05-30 06:13:35] [DEDUP] Kandidaten-Datei: 358 pending, 2 confirmed, 0 rejected
+[2026-05-30 06:13:35] [DEDUP] Gespeichert: 630 → 630 Einträge
