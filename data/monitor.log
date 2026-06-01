@@ -28843,3 +28843,57 @@
 [2026-05-31 06:46:05] [DEDUP] Ergebnis: 631 Einträge (war: 633, 2 zusammengeführt)
 [2026-05-31 06:46:05] [DEDUP] Kandidaten-Datei: 364 pending, 2 confirmed, 0 rejected
 [2026-05-31 06:46:05] [DEDUP] Gespeichert: 633 → 631 Einträge
+[2026-06-01 08:21:30] === Monitor-Lauf gestartet ===
+[2026-06-01 08:21:31] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-01 08:21:32] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-01 08:21:33] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-06-01 08:21:33] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-06-01 08:21:34] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-06-01 08:21:34] Feed 'gn_brand_klinik': 47 Einträge
+[2026-06-01 08:21:34] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-06-01 08:21:35] Feed 'gn_klinikbrand': 97 Einträge
+[2026-06-01 08:21:35] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-06-01 08:21:36] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-06-01 08:21:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-01 08:21:37] 233 relevante Treffer in Feeds
+[2026-06-01 08:21:37] ✅ 4 NEUE Einträge gefunden:
+[2026-06-01 08:21:37]    11.11.2025 | im Krankenhaus |  | Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Ex
+[2026-06-01 08:21:37]    28.01.2026 | Jüdischem Krankenhaus |  | Brand in Jüdischem Krankenhaus - kein antisemitisches Motiv 
+[2026-06-01 08:21:37]    14.02.2024 | am Klinikum Aschaffenburg |  | Brand am Klinikum Aschaffenburg: Betrieb nicht eingeschränkt
+[2026-06-01 08:21:37]    06.08.2019 |  |  | „Brand“aktuell: Klinikum Bamberg probt für den Ernstfall - D
+[2026-06-01 08:21:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-01 08:21:37] === Monitor-Lauf beendet ===
+
+[2026-06-01 08:21:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-01 08:21:37] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-01 08:21:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-01 08:21:37] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-01 08:21:37] [enrich] --- Enriche [1/4]: Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Ex
+[2026-06-01 08:21:38] [enrich] Google News URL aufgelöst (v1): https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-tedi-60-jaehrige-ver
+[2026-06-01 08:21:38] [enrich] Volltext extrahiert: 2988 Zeichen von https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-
+[2026-06-01 08:21:40] [enrich] FALSE POSITIVE erkannt: Brand in einer Tedi-Filiale (Einzelhandelgeschäft), nicht in einem Krankenhaus. Eine verletzte Person wurde nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-06-01 08:21:41] [enrich] --- Enriche [2/4]: Brand in Jüdischem Krankenhaus - kein antisemitisches Motiv 
+[2026-06-01 08:21:42] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-01/28/matratzenbrand-in-berliner-krankenhaus-acht-
+[2026-06-01 08:21:42] [enrich] Volltext extrahiert: 2438 Zeichen von https://www.zeit.de/news/2026-01/28/matratzenbrand-in-berlin
+[2026-06-01 08:21:45] [enrich] Enrichment abgeschlossen: enriched — Jüdisches Krankenhaus in Berlin
+[2026-06-01 08:21:46] [enrich] --- Enriche [3/4]: Brand am Klinikum Aschaffenburg: Betrieb nicht eingeschränkt
+[2026-06-01 08:21:47] [enrich] Google News URL aufgelöst (v1): https://www.main-echo.de/ressorts/blaulicht/brand-am-klinikum-aschaffenburg-betr
+[2026-06-01 08:21:48] [enrich] Volltext extrahiert: 704 Zeichen von https://www.main-echo.de/ressorts/blaulicht/brand-am-kliniku
+[2026-06-01 08:21:49] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Informationen zu einem Brand. Es handelt sich um eine Datenschutz-/Benachrichtigungseinstellung einer Nachrichtenwebseite.
+[2026-06-01 08:21:50] [enrich] --- Enriche [4/4]: „Brand“aktuell: Klinikum Bamberg probt für den Ernstfall - D
+[2026-06-01 08:21:51] [enrich] Google News URL aufgelöst (v1): https://www.wiesentbote.de/2019/08/06/brandaktuell-klinikum-bamberg-probt-fuer-d
+[2026-06-01 08:21:53] [enrich] Volltext extrahiert: 3157 Zeichen von https://www.wiesentbote.de/2019/08/06/brandaktuell-klinikum-
+[2026-06-01 08:21:54] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Brandschutzübung/Evakuierungsübung, keine echten Brand
+[2026-06-01 08:21:54] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-06-01 08:21:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-01 08:21:54] [DEDUP] Starte Dedup für 635 Einträge
+[2026-06-01 08:21:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-01 08:21:55] [DEDUP] Auto-Merge (0.82): Jüdisches Krankenhaus Berlin / Berlin ↔ Jüdisches Krankenhaus / Berlin
+[2026-06-01 08:21:55] [DEDUP] Paare verglichen: 12227
+[2026-06-01 08:21:55] [DEDUP] Auto-Merges: 1
+[2026-06-01 08:21:55] [DEDUP] Kandidaten (unsicher): 358
+[2026-06-01 08:21:55] [DEDUP] Cluster 2x: Jüdisches Krankenhaus Berlin, Jüdisches Krankenhaus
+[2026-06-01 08:21:55] [DEDUP] Ergebnis: 634 Einträge (war: 635, 1 zusammengeführt)
+[2026-06-01 08:21:55] [DEDUP] Kandidaten-Datei: 358 pending, 2 confirmed, 0 rejected
+[2026-06-01 08:21:55] [DEDUP] Gespeichert: 635 → 634 Einträge
