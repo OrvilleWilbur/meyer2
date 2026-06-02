@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T08:21:55.571644",
+  "generated_at": "2026-06-02T07:15:49.828024",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -430,6 +430,39 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/station-evakuiert-feuerwehr-rueckt-zu-brand-in-krankenhaus-aus-dpa.urn-newsml-dpa-com-20090101-260313-930-810174",
         "titel": "Station evakuiert - Feuerwehr rückt zu Brand in Krankenhaus aus - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Städtisches Klinikum Dresden-Friedrichstadt",
+        "ort": "Dresden",
+        "datum": "19.03.2026",
+        "bundesland": "Sachsen",
+        "status": "enriched",
+        "link": "https://www.saechsische.de/lokales/dresden/dresden-krankenhaus-friedrichstadt-kann-nach-feuer-keine-patienten-aufnehmen-UF43Q2W3RFG7XBRY7WLEUW3PFE.html",
+        "titel": "Dresden: Krankenhaus Friedrichstadt kann nach Feuer keine Patienten aufnehmen - Sächsische Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Dresden",
+        "ort": "Dresden",
+        "datum": "19.03.2026",
+        "bundesland": "Sachsen",
+        "status": "partial",
+        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
+        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
       }
     },
     {
@@ -8697,6 +8730,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "11.11.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-tedi-60-jaehrige-verstarb-im-krankenhaus_aid-138799219",
+        "titel": "Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Extra-Tipp am Sonntag"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "11.11.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-tedi-60-jaehrige-verstarb-im-krankenhaus_aid-138799219",
+        "titel": "Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Extra-Tipp"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Krankenhaus",
         "ort": "",
         "datum": "07.01.2024",
@@ -9489,6 +9555,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/panorama/millionenschaden-bei-brand-in-verlassenem-krankenhaus/ar-AA21eB9d",
+        "titel": "Millionenschaden bei Brand in verlassenem Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/Millionenschaden-bei-Brand-in-verlassenem-Krankenhaus-id30730408.html",
+        "titel": "Rheinland-Pfalz & Saarland: Millionenschaden bei Brand in verlassenem Krankenhaus - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik gebracht",
         "ort": "",
         "datum": "21.04.2026",
@@ -9505,6 +9604,39 @@
         "status": "false_positive",
         "link": "https://www.noz.de/deutschland-welt/nordrhein-westfalen/artikel/brand-in-hochhaus-20-personen-in-klinik-gebracht-50541631",
         "titel": "Brand in Hochhaus - 20 Personen in Klinik gebracht - noz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/millionenschaden-bei-brand-in-verlassenem-krankenhaus_aid-147032293",
+        "titel": "Polizei sucht nach Ursache: Millionenschaden bei Brand in verlassenem Krankenhaus - Saarbrücker Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/Millionenschaden-bei-Brand-in-verlassenem-Krankenhaus-id30730408.html",
+        "titel": "Rheinland-Pfalz & Saarland: Millionenschaden bei Brand in verlassenem Krankenhaus - Ntv"
       }
     },
     {
@@ -11584,6 +11716,39 @@
         "status": "false_positive",
         "link": "https://www.saarbruecker-zeitung.de/saarland/blickzumnachbarn/millionenschaden-bei-brand-in-verlassenem-krankenhaus_aid-147032293",
         "titel": "Polizei sucht nach Ursache: Millionenschaden bei Brand in verlassenem Krankenhaus - Saarbrücker Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "20.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.tagesschau.de/inland/regional/rheinlandpfalz/swr-millionenschaden-bei-brand-in-verlassenem-krankenhaus-in-zweibruecken-100.html",
+        "titel": "Rheinland-Pfalz: Verdächtige nach Brand in verlassenem Krankenhaus in Zweibrücken festgenommen - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "verlassenem Krankenhaus",
+        "ort": "",
+        "datum": "19.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/Millionenschaden-bei-Brand-in-verlassenem-Krankenhaus-id30730408.html",
+        "titel": "Rheinland-Pfalz & Saarland: Millionenschaden bei Brand in verlassenem Krankenhaus - Ntv"
       }
     },
     {

@@ -28897,3 +28897,73 @@
 [2026-06-01 08:21:55] [DEDUP] Ergebnis: 634 Einträge (war: 635, 1 zusammengeführt)
 [2026-06-01 08:21:55] [DEDUP] Kandidaten-Datei: 358 pending, 2 confirmed, 0 rejected
 [2026-06-01 08:21:55] [DEDUP] Gespeichert: 635 → 634 Einträge
+[2026-06-02 07:15:09] === Monitor-Lauf gestartet ===
+[2026-06-02 07:15:12] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-02 07:15:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-02 07:15:14] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-06-02 07:15:14] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-06-02 07:15:15] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-06-02 07:15:15] Feed 'gn_brand_klinik': 42 Einträge
+[2026-06-02 07:15:16] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-06-02 07:15:16] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-02 07:15:17] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-06-02 07:15:17] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-06-02 07:15:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-02 07:15:18] 220 relevante Treffer in Feeds
+[2026-06-02 07:15:18] ✅ 7 NEUE Einträge gefunden:
+[2026-06-02 07:15:18]    11.11.2025 | im Krankenhaus |  | Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Ex
+[2026-06-02 07:15:18]    19.04.2026 | verlassenem Krankenhaus |  | Rheinland-Pfalz & Saarland: Millionenschaden bei Brand in ve
+[2026-06-02 07:15:18]    02.06.2026 | im Krankenhaus |  | Rockenhausen (Donnersbergkreis): Feuer im Krankenhaus - News
+[2026-06-02 07:15:18]    19.03.2026 | im Krankenhaus |  | Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-06-02 07:15:18]    10.06.2024 | Rems-Murr-Klinikum Winnenden |  | Brand am Rems-Murr-Klinikum Winnenden: Notaufnahme zwischenz
+[2026-06-02 07:15:18]    29.01.2024 |  |  | Verdächtiger Gegenstand im Boden: Klinik droht Evakuierung -
+[2026-06-02 07:15:18]    02.06.2026 |  |  | Feuerwehr bringt Patientin nach Fahrzeugbrand zur Klinik
+[2026-06-02 07:15:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-02 07:15:18] === Monitor-Lauf beendet ===
+
+[2026-06-02 07:15:19] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-02 07:15:19] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-02 07:15:19] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-02 07:15:19] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-02 07:15:19] [enrich] --- Enriche [1/7]: Nach Brand bei Tedi: 60-Jährige verstarb im Krankenhaus - Ex
+[2026-06-02 07:15:19] [enrich] Google News URL aufgelöst (v1): https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-tedi-60-jaehrige-ver
+[2026-06-02 07:15:20] [enrich] Volltext extrahiert: 2988 Zeichen von https://www.extra-tipp-am-sonntag.de/krefeld/nach-brand-bei-
+[2026-06-02 07:15:22] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einer Tedi-Verkaufsstätte (Ladenlokal) auf der Hochstraße in Krefeld, nicht in einem Krankenhaus. Die 60-Jährige wurde nach dem Brand als Verletzte ins Krankenhaus transportiert und ist dort verstorben, aber das Krankenhaus war nicht Ort des Brandes.
+[2026-06-02 07:15:23] [enrich] --- Enriche [2/7]: Rheinland-Pfalz & Saarland: Millionenschaden bei Brand in ve
+[2026-06-02 07:15:24] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/Millionenschaden-bei
+[2026-06-02 07:15:24] [enrich] Volltext extrahiert: 4931 Zeichen von https://www.n-tv.de/regionales/rheinland-pfalz-und-saarland/
+[2026-06-02 07:15:26] [enrich] FALSE POSITIVE erkannt: Das Krankenhaus in Zweibrücken war zum Zeitpunkt des Brandes nicht mehr in Betrieb und verlassen. Es handelt sich um ein ehemaliges, leerstehende Krankenhaus, nicht um ein aktives Krankenhaus mit Patienten oder laufendem Betrieb.
+[2026-06-02 07:15:27] [enrich] --- Enriche [3/7]: Rockenhausen (Donnersbergkreis): Feuer im Krankenhaus - News
+[2026-06-02 07:15:27] [enrich] Google News URL aufgelöst (v1): https://newsflash24.de/blaulicht/rheinland-pfalz/rockenhausen-donnersbergkreis-f
+[2026-06-02 07:15:28] [enrich] Volltext extrahiert: 1948 Zeichen von https://newsflash24.de/blaulicht/rheinland-pfalz/rockenhause
+[2026-06-02 07:15:31] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Rockenhausen in Rockenhausen
+[2026-06-02 07:15:32] [enrich] --- Enriche [4/7]: Nach Brand im Krankenhaus in Dresden: Operationen und Aufnah
+[2026-06-02 07:15:33] [enrich] Google News URL aufgelöst (v1): https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-d
+[2026-06-02 07:15:33] [enrich] Artikel-Fetch fehlgeschlagen für https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-d: 403 Client Error: Forbidden for url: https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html
+[2026-06-02 07:15:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (617 Z.)
+[2026-06-02 07:15:35] [enrich] Enrichment abgeschlossen: partial — Krankenhaus Dresden in Dresden
+[2026-06-02 07:15:36] [enrich] --- Enriche [5/7]: Brand am Rems-Murr-Klinikum Winnenden: Notaufnahme zwischenz
+[2026-06-02 07:15:37] [enrich] Google News URL aufgelöst (v1): https://www.zvw.de/lokales/winnenden/brand-am-rems-murr-klinikum-winnenden-notau
+[2026-06-02 07:15:38] [enrich] Volltext extrahiert: 729 Zeichen von https://www.zvw.de/lokales/winnenden/brand-am-rems-murr-klin
+[2026-06-02 07:15:41] [enrich] Enrichment abgeschlossen: enriched — Rems-Murr-Klinikum Winnenden in Winnenden
+[2026-06-02 07:15:42] [enrich] --- Enriche [6/7]: Verdächtiger Gegenstand im Boden: Klinik droht Evakuierung -
+[2026-06-02 07:15:42] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/thema/bombenfund/verdaechtiger-gegenstand-im-boden-klinik-d
+[2026-06-02 07:15:43] [enrich] Artikel-Fetch fehlgeschlagen für https://www.tag24.de/thema/bombenfund/verdaechtiger-gegenstand-im-boden-klinik-d: 410 Client Error: Gone for url: https://www.tag24.de/thema/bombenfund/verdaechtiger-gegenstand-im-boden-klinik-droht-evakuierung-3082333
+[2026-06-02 07:15:43] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (474 Z.)
+[2026-06-02 07:15:45] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen verdächtigem Gegenstand im Boden, nicht wegen Brand. Dies fällt unter Evakuierungen aus Nicht-Brand-Gründen (möglicherweise Bombenentschärfung oder ähnliches).
+[2026-06-02 07:15:46] [enrich] --- Enriche [7/7]: Feuerwehr bringt Patientin nach Fahrzeugbrand zur Klinik
+[2026-06-02 07:15:46] [enrich] Volltext extrahiert: 1854 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/einsatze/feuerwe
+[2026-06-02 07:15:48] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankentransportfahrzeug (Motorraumbrand), nicht in einem Krankenhaus/einer Klinik selbst. Die Patientin wird nach dem Brand zur Klinik gebracht, was kein Krankenhausbrand darstellt.
+[2026-06-02 07:15:48] [enrich] Ergebnis: 2 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-06-02 07:15:48] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-02 07:15:48] [DEDUP] Starte Dedup für 641 Einträge
+[2026-06-02 07:15:48] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-02 07:15:49] [DEDUP] Auto-Merge (0.91): Rems-Murr-Klinikum / Winnenden ↔ Rems-Murr-Klinikum Winnenden / Winnenden
+[2026-06-02 07:15:49] [DEDUP] Paare verglichen: 12396
+[2026-06-02 07:15:49] [DEDUP] Auto-Merges: 1
+[2026-06-02 07:15:49] [DEDUP] Kandidaten (unsicher): 363
+[2026-06-02 07:15:49] [DEDUP] Cluster 2x: Rems-Murr-Klinikum, Rems-Murr-Klinikum Winnenden
+[2026-06-02 07:15:49] [DEDUP] Ergebnis: 640 Einträge (war: 641, 1 zusammengeführt)
+[2026-06-02 07:15:49] [DEDUP] Kandidaten-Datei: 363 pending, 2 confirmed, 0 rejected
+[2026-06-02 07:15:49] [DEDUP] Gespeichert: 641 → 640 Einträge
