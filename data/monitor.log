@@ -28967,3 +28967,60 @@
 [2026-06-02 07:15:49] [DEDUP] Ergebnis: 640 Einträge (war: 641, 1 zusammengeführt)
 [2026-06-02 07:15:49] [DEDUP] Kandidaten-Datei: 363 pending, 2 confirmed, 0 rejected
 [2026-06-02 07:15:49] [DEDUP] Gespeichert: 641 → 640 Einträge
+[2026-06-03 07:29:13] === Monitor-Lauf gestartet ===
+[2026-06-03 07:29:14] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-03 07:29:15] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-03 07:29:16] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-06-03 07:29:16] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-06-03 07:29:16] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-06-03 07:29:17] Feed 'gn_brand_klinik': 45 Einträge
+[2026-06-03 07:29:17] Feed 'gn_brand_klinikum': 28 Einträge
+[2026-06-03 07:29:18] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-03 07:29:18] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-06-03 07:29:19] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-06-03 07:29:20] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-03 07:29:20] 207 relevante Treffer in Feeds
+[2026-06-03 07:29:20] ✅ 4 NEUE Einträge gefunden:
+[2026-06-03 07:29:20]    27.03.2026 | in Krankenhaus |  | Bayern: Mehr als 100.000 Euro Schaden bei Brand in Krankenha
+[2026-06-03 07:29:20]    30.05.2026 | Herner Krankenhaus |  | Brand im Herner Krankenhaus: Pflegekraft rettet zwei Patient
+[2026-06-03 07:29:20]    30.01.2021 |  |  | Krankenhaus in Chile brennt aus: 350 Patienten gerettet - RN
+[2026-06-03 07:29:20]    09.01.2021 | indischem Krankenhaus |  | “Herzzerreißende Tragödie”: Zehn Babys sterben bei Feuer in 
+[2026-06-03 07:29:20] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-03 07:29:20] === Monitor-Lauf beendet ===
+
+[2026-06-03 07:29:20] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-03 07:29:20] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-03 07:29:20] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-03 07:29:20] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-03 07:29:20] [enrich] --- Enriche [1/4]: Bayern: Mehr als 100.000 Euro Schaden bei Brand in Krankenha
+[2026-06-03 07:29:21] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/regionales/bayern/Mehr-als-100-000-Euro-Schaden-bei-Brand-in
+[2026-06-03 07:29:21] [enrich] Volltext extrahiert: 4367 Zeichen von https://www.n-tv.de/regionales/bayern/Mehr-als-100-000-Euro-
+[2026-06-03 07:29:25] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Grafenau in Grafenau
+[2026-06-03 07:29:26] [enrich] --- Enriche [2/4]: Brand im Herner Krankenhaus: Pflegekraft rettet zwei Patient
+[2026-06-03 07:29:26] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/brand-im-herner-krankenhaus-pfleg
+[2026-06-03 07:29:26] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/brand-im-herner-krankenhaus-pfleg
+[2026-06-03 07:29:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (506 Z.)
+[2026-06-03 07:29:27] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne weitere Details. Es ist unklar, ob tatsächlich ein Brand im Krankenhaus stattgefunden hat oder ob es sich um einen anderen Kontext handelt. Die RSS-Feed-Information ist unzureichend für eine zuverlässige Klassifizierung.
+[2026-06-03 07:29:28] [enrich] --- Enriche [3/4]: Krankenhaus in Chile brennt aus: 350 Patienten gerettet - RN
+[2026-06-03 07:29:29] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/krankenhaus-in-chile-brennt-aus-350-patienten-gerett
+[2026-06-03 07:29:29] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/krankenhaus-in-chile-brennt-aus-350-patienten-gerett: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/krankenhaus-in-chile-brennt-aus-350-patienten-gerettet-JE3OJTL52ZCNPO72FOLWRE2J7U.html
+[2026-06-03 07:29:29] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (487 Z.)
+[2026-06-03 07:29:30] [enrich] FALSE POSITIVE erkannt: Brand in einem ausländischen Krankenhaus (Chile), nicht in Deutschland
+[2026-06-03 07:29:31] [enrich] --- Enriche [4/4]: “Herzzerreißende Tragödie”: Zehn Babys sterben bei Feuer in 
+[2026-06-03 07:29:31] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/zehn-babys-bei-feuer-gestorben-tragodie-in-indien-au
+[2026-06-03 07:29:31] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/zehn-babys-bei-feuer-gestorben-tragodie-in-indien-au: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/zehn-babys-bei-feuer-gestorben-tragodie-in-indien-auf-intensivstation-im-krankenhaus-2HP5J2UIXJ5XCLUPPVXAG7H3ZU.html
+[2026-06-03 07:29:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (591 Z.)
+[2026-06-03 07:29:32] [enrich] FALSE POSITIVE erkannt: Brand in ausländischem Krankenhaus (Indien, nicht Deutschland)
+[2026-06-03 07:29:32] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-06-03 07:29:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-03 07:29:33] [DEDUP] Starte Dedup für 644 Einträge
+[2026-06-03 07:29:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-03 07:29:34] [DEDUP] Auto-Merge (1.00): Krankenhaus Grafenau / Grafenau ↔ Krankenhaus Grafenau / Grafenau
+[2026-06-03 07:29:34] [DEDUP] Paare verglichen: 12472
+[2026-06-03 07:29:34] [DEDUP] Auto-Merges: 1
+[2026-06-03 07:29:34] [DEDUP] Kandidaten (unsicher): 363
+[2026-06-03 07:29:34] [DEDUP] Cluster 2x: Krankenhaus Grafenau, Krankenhaus Grafenau
+[2026-06-03 07:29:34] [DEDUP] Ergebnis: 643 Einträge (war: 644, 1 zusammengeführt)
+[2026-06-03 07:29:34] [DEDUP] Kandidaten-Datei: 363 pending, 2 confirmed, 0 rejected
+[2026-06-03 07:29:34] [DEDUP] Gespeichert: 644 → 643 Einträge
