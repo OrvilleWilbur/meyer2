@@ -29075,3 +29075,47 @@
 [2026-06-04 07:13:15] [DEDUP] Ergebnis: 644 Einträge (war: 646, 2 zusammengeführt)
 [2026-06-04 07:13:15] [DEDUP] Kandidaten-Datei: 367 pending, 2 confirmed, 0 rejected
 [2026-06-04 07:13:15] [DEDUP] Gespeichert: 646 → 644 Einträge
+[2026-06-05 06:56:24] === Monitor-Lauf gestartet ===
+[2026-06-05 06:56:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-05 06:56:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-05 06:56:27] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-06-05 06:56:27] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-06-05 06:56:28] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-06-05 06:56:28] Feed 'gn_brand_klinik': 46 Einträge
+[2026-06-05 06:56:29] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-06-05 06:56:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-05 06:56:30] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-06-05 06:56:30] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-06-05 06:56:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-05 06:56:31] 214 relevante Treffer in Feeds
+[2026-06-05 06:56:31] ✅ 2 NEUE Einträge gefunden:
+[2026-06-05 06:56:31]    01.06.2025 | Hamburger Krankenhaus |  | Drei Tote bei Brand in Hamburger Krankenhaus - DW
+[2026-06-05 06:56:31]    01.06.2026 | in Klinik |  | Rauchgasvergiftungen: Mehrere Verletzte bei Feuer in Klinik 
+[2026-06-05 06:56:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-05 06:56:31] === Monitor-Lauf beendet ===
+
+[2026-06-05 06:56:32] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-05 06:56:32] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-05 06:56:32] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-05 06:56:32] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-05 06:56:32] [enrich] --- Enriche [1/2]: Drei Tote bei Brand in Hamburger Krankenhaus - DW
+[2026-06-05 06:56:33] [enrich] Google News URL aufgelöst (v1): https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krankenhaus/a-72747838
+[2026-06-05 06:56:34] [enrich] Volltext extrahiert: 2396 Zeichen von https://www.dw.com/de/drei-tote-bei-brand-in-hamburger-krank
+[2026-06-05 06:56:37] [enrich] Enrichment abgeschlossen: enriched — Marienkrankenhaus in Hamburg, Stadtteil Hohenfelde
+[2026-06-05 06:56:38] [enrich] --- Enriche [2/2]: Rauchgasvergiftungen: Mehrere Verletzte bei Feuer in Klinik 
+[2026-06-05 06:56:39] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/berlin-brandenburg/rauchgasvergiftung
+[2026-06-05 06:56:40] [enrich] Volltext extrahiert: 1187 Zeichen von https://www.stern.de/gesellschaft/regional/berlin-brandenbur
+[2026-06-05 06:56:43] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Eisenhüttenstadt in Eisenhüttenstadt
+[2026-06-05 06:56:43] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-06-05 06:56:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-05 06:56:43] [DEDUP] Starte Dedup für 646 Einträge
+[2026-06-05 06:56:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-05 06:56:43] [DEDUP] Auto-Merge (0.97): Marienkrankenhaus / Hamburg, Stadtteil H ↔ Marienkrankenhaus / Hamburg, Stadtteil H
+[2026-06-05 06:56:44] [DEDUP] Paare verglichen: 12515
+[2026-06-05 06:56:44] [DEDUP] Auto-Merges: 1
+[2026-06-05 06:56:44] [DEDUP] Kandidaten (unsicher): 371
+[2026-06-05 06:56:44] [DEDUP] Cluster 2x: Marienkrankenhaus, Marienkrankenhaus
+[2026-06-05 06:56:44] [DEDUP] Ergebnis: 645 Einträge (war: 646, 1 zusammengeführt)
+[2026-06-05 06:56:44] [DEDUP] Kandidaten-Datei: 371 pending, 2 confirmed, 0 rejected
+[2026-06-05 06:56:44] [DEDUP] Gespeichert: 646 → 645 Einträge
