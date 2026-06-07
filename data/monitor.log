@@ -29169,3 +29169,46 @@
 [2026-06-06 06:20:00] [DEDUP] Ergebnis: 647 Einträge (war: 648, 1 zusammengeführt)
 [2026-06-06 06:20:00] [DEDUP] Kandidaten-Datei: 367 pending, 2 confirmed, 0 rejected
 [2026-06-06 06:20:00] [DEDUP] Gespeichert: 648 → 647 Einträge
+[2026-06-07 06:56:05] === Monitor-Lauf gestartet ===
+[2026-06-07 06:56:06] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-07 06:56:07] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-07 06:56:08] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-06-07 06:56:08] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-06-07 06:56:09] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-06-07 06:56:09] Feed 'gn_brand_klinik': 43 Einträge
+[2026-06-07 06:56:10] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-06-07 06:56:10] Feed 'gn_klinikbrand': 92 Einträge
+[2026-06-07 06:56:11] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-06-07 06:56:11] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-06-07 06:56:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-07 06:56:12] 214 relevante Treffer in Feeds
+[2026-06-07 06:56:12] ✅ 2 NEUE Einträge gefunden:
+[2026-06-07 06:56:12]    06.06.2026 | im Krankenhaus |  | Feuer im Krankenhaus: Patientin setzt Mülleimer in Brand - M
+[2026-06-07 06:56:12]    11.05.2015 | am Krankenhaus Schmölln geprobt |  | Evakuierung Schwerkranker am Krankenhaus Schmölln geprobt - 
+[2026-06-07 06:56:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-07 06:56:12] === Monitor-Lauf beendet ===
+
+[2026-06-07 06:56:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-07 06:56:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-07 06:56:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-07 06:56:13] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-07 06:56:13] [enrich] --- Enriche [1/2]: Feuer im Krankenhaus: Patientin setzt Mülleimer in Brand - M
+[2026-06-07 06:56:13] [enrich] Google News URL aufgelöst (v1): http://www.msn.com/de-de/nachrichten/welt/feuer-im-krankenhaus-patientin-setzt-m
+[2026-06-07 06:56:13] [enrich] Kein Artikeltext extrahierbar für http://www.msn.com/de-de/nachrichten/welt/feuer-im-krankenhaus-patientin-setzt-m
+[2026-06-07 06:56:13] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (483 Z.)
+[2026-06-07 06:56:18] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne weitere Kontextinformationen. Es ist unklar, welches Krankenhaus betroffen ist, wo genau sich der Brand ereignet hat, welche Folgen es hatte und ob es sich um einen tatsächlichen Brand oder einen Brandversuch handelt. Ohne ausreichende Informationen kann nicht überprüft werden, ob es sich um einen relevanten Krankenhausbrand handelt.
+[2026-06-07 06:56:19] [enrich] --- Enriche [2/2]: Evakuierung Schwerkranker am Krankenhaus Schmölln geprobt - 
+[2026-06-07 06:56:20] [enrich] Google News URL aufgelöst (v1): https://www.otz.de/leben/blaulicht/article220895949/Evakuierung-Schwerkranker-am
+[2026-06-07 06:56:21] [enrich] Volltext extrahiert: 529 Zeichen von https://www.otz.de/leben/blaulicht/article220895949/Evakuier
+[2026-06-07 06:56:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/ein Evakuierungsmanöver ("geprobt"), nicht einen tatsächlichen Brand in einem Krankenhaus.
+[2026-06-07 06:56:22] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-06-07 06:56:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-07 06:56:22] [DEDUP] Starte Dedup für 649 Einträge
+[2026-06-07 06:56:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-07 06:56:23] [DEDUP] Paare verglichen: 12668
+[2026-06-07 06:56:23] [DEDUP] Auto-Merges: 0
+[2026-06-07 06:56:23] [DEDUP] Kandidaten (unsicher): 365
+[2026-06-07 06:56:23] [DEDUP] Ergebnis: 649 Einträge (war: 649, 0 zusammengeführt)
+[2026-06-07 06:56:23] [DEDUP] Kandidaten-Datei: 365 pending, 2 confirmed, 0 rejected
+[2026-06-07 06:56:23] [DEDUP] Gespeichert: 649 → 649 Einträge
