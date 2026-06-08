@@ -29212,3 +29212,57 @@
 [2026-06-07 06:56:23] [DEDUP] Ergebnis: 649 Einträge (war: 649, 0 zusammengeführt)
 [2026-06-07 06:56:23] [DEDUP] Kandidaten-Datei: 365 pending, 2 confirmed, 0 rejected
 [2026-06-07 06:56:23] [DEDUP] Gespeichert: 649 → 649 Einträge
+[2026-06-08 07:20:19] === Monitor-Lauf gestartet ===
+[2026-06-08 07:20:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-08 07:20:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-08 07:20:22] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-06-08 07:20:23] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-06-08 07:20:23] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-06-08 07:20:24] Feed 'gn_brand_klinik': 45 Einträge
+[2026-06-08 07:20:24] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-06-08 07:20:25] Feed 'gn_klinikbrand': 97 Einträge
+[2026-06-08 07:20:25] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-06-08 07:20:26] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-06-08 07:20:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-08 07:20:27] 217 relevante Treffer in Feeds
+[2026-06-08 07:20:27] ✅ 4 NEUE Einträge gefunden:
+[2026-06-08 07:20:27]    07.06.2026 | im Krankenhaus |  | Kind nach Hochhausbrand im Krankenhaus - MSN
+[2026-06-08 07:20:27]    03.06.2026 | in Klinik |  | Hausbrand in Dresden: Fünfköpfige Familie mit Kindern in Kli
+[2026-06-08 07:20:27]    06.06.2026 | Sana-Klinikum |  | Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand 
+[2026-06-08 07:20:27]    27.06.2025 | Mutter-Kind-Klinik |  | Dichter Rauch in Mutter-Kind-Klinik: Evakuierung! - Nordkuri
+[2026-06-08 07:20:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-08 07:20:27] === Monitor-Lauf beendet ===
+
+[2026-06-08 07:20:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-08 07:20:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-08 07:20:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-08 07:20:27] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-08 07:20:27] [enrich] --- Enriche [1/4]: Kind nach Hochhausbrand im Krankenhaus - MSN
+[2026-06-08 07:20:28] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-kranke
+[2026-06-08 07:20:28] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-kranke
+[2026-06-08 07:20:28] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (418 Z.)
+[2026-06-08 07:20:30] [enrich] FALSE POSITIVE erkannt: Kind wird nach einem Brand (Hochhausbrand) ins Krankenhaus gebracht - dies ist ein Brandopfer, das in einer Klinik behandelt wird, nicht ein Brand IN einem Krankenhaus
+[2026-06-08 07:20:31] [enrich] --- Enriche [2/4]: Hausbrand in Dresden: Fünfköpfige Familie mit Kindern in Kli
+[2026-06-08 07:20:31] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/haus-brand-feuer
+[2026-06-08 07:20:33] [enrich] Volltext extrahiert: 1582 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radeb
+[2026-06-08 07:20:34] [enrich] FALSE POSITIVE erkannt: Es handelt sich um einen Hausbrand (Wohnhaus) in Dresden, nicht um einen Brand in einem Krankenhaus oder einer Klinik. Die Familie wurde nach dem Brand zur Behandlung von Rauchgasvergiftung in eine Klinik gebracht, aber der Brand selbst ereignete sich im privaten Wohnhaus.
+[2026-06-08 07:20:35] [enrich] --- Enriche [3/4]: Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand 
+[2026-06-08 07:20:36] [enrich] Google News URL aufgelöst (v1): https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patienti
+[2026-06-08 07:20:36] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patienti: 403 Client Error: Forbidden for url: https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html
+[2026-06-08 07:20:36] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (597 Z.)
+[2026-06-08 07:20:38] [enrich] Enrichment abgeschlossen: partial — Sana-Klinikum in Wismar
+[2026-06-08 07:20:39] [enrich] --- Enriche [4/4]: Dichter Rauch in Mutter-Kind-Klinik: Evakuierung! - Nordkuri
+[2026-06-08 07:20:40] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ruegen/dichter-rauch-in-mutter-kind-klinik-ev
+[2026-06-08 07:20:41] [enrich] Volltext extrahiert: 1933 Zeichen von https://www.nordkurier.de/regional/ruegen/dichter-rauch-in-m
+[2026-06-08 07:20:43] [enrich] FALSE POSITIVE erkannt: Es handelt sich um eine Verpuffung in der Küchenbereich mit Rauchentwicklung, aber explizit KEIN offenes Feuer. Der Artikel stellt fest: 'ein offenes Feuer entstand nicht'. Eine Verpuffung ohne Feuerentstehung ist kein Brand.
+[2026-06-08 07:20:43] [enrich] Ergebnis: 0 enriched, 1 partial, 3 false_positive, 0 failed
+[2026-06-08 07:20:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-08 07:20:43] [DEDUP] Starte Dedup für 653 Einträge
+[2026-06-08 07:20:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-08 07:20:44] [DEDUP] Paare verglichen: 12768
+[2026-06-08 07:20:44] [DEDUP] Auto-Merges: 0
+[2026-06-08 07:20:44] [DEDUP] Kandidaten (unsicher): 367
+[2026-06-08 07:20:44] [DEDUP] Ergebnis: 653 Einträge (war: 653, 0 zusammengeführt)
+[2026-06-08 07:20:44] [DEDUP] Kandidaten-Datei: 367 pending, 2 confirmed, 0 rejected
+[2026-06-08 07:20:44] [DEDUP] Gespeichert: 653 → 653 Einträge

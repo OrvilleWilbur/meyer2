@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-07T06:56:23.561768",
+  "generated_at": "2026-06-08T07:20:44.486468",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -10733,6 +10733,39 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "03.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-klinik-zentrale-notaufnahme-wegen-defektem-ger%C3%A4t-evakuiert/ar-AA24IrGD",
+        "titel": "Brand in Klinik: Zentrale Notaufnahme wegen defektem Gerät evakuiert - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "03.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/haus-brand-feuerwehr-verletzte-soebrigen-100.html",
+        "titel": "Hausbrand in Dresden: Fünfköpfige Familie mit Kindern in Klinik - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -12046,6 +12079,39 @@
         "status": "false_positive",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mitarbeiter-leicht-verletzt/ar-AA22LsVt",
         "titel": "Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "06.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/welt/feuer-im-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Yjz0",
+        "titel": "Feuer im Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-krankenhaus/ar-AA2512kW",
+        "titel": "Kind nach Hochhausbrand im Krankenhaus - MSN"
       }
     }
   ],
