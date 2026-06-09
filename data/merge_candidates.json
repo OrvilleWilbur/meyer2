@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-08T07:20:44.486468",
+  "generated_at": "2026-06-09T06:38:24.751807",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -694,6 +694,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.735,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.735
+      },
+      "entry_a": {
+        "einrichtung": "Sana-Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
+        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Sana Hanse-Klinikum Wismar",
+        "ort": "Wismar",
+        "datum": "05.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.svz.de/regional/nordwestmecklenburg/feuer-im-klinikum-patientin-setzt-muelleimer-in-brand-4626751",
+        "titel": "Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Brand - Nordkurier"
       }
     },
     {
@@ -9225,6 +9258,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - swr.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Reha-Klinik",
         "ort": "",
         "datum": "21.08.2025",
@@ -9274,6 +9340,39 @@
         "status": "false_positive",
         "link": "https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24159207_Patientenzimmer-komplett-ausgebrannt-Feuer-in-Bad-Oeynhausener-Reha-Klinik.html",
         "titel": "Patientenzimmer komplett ausgebrannt: Feuer in Bad Oeynhausener Reha-Klinik - nw.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "GRN-Klinik",
+        "ort": "",
+        "datum": "07.08.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nahe-grn-klinik-102.html",
+        "titel": "Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - swr.de"
       }
     },
     {

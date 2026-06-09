@@ -29266,3 +29266,45 @@
 [2026-06-08 07:20:44] [DEDUP] Ergebnis: 653 Einträge (war: 653, 0 zusammengeführt)
 [2026-06-08 07:20:44] [DEDUP] Kandidaten-Datei: 367 pending, 2 confirmed, 0 rejected
 [2026-06-08 07:20:44] [DEDUP] Gespeichert: 653 → 653 Einträge
+[2026-06-09 06:38:08] === Monitor-Lauf gestartet ===
+[2026-06-09 06:38:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-09 06:38:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-09 06:38:10] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-06-09 06:38:11] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-06-09 06:38:11] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-06-09 06:38:12] Feed 'gn_brand_klinik': 44 Einträge
+[2026-06-09 06:38:12] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-06-09 06:38:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-09 06:38:13] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-06-09 06:38:13] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-06-09 06:38:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-09 06:38:14] 218 relevante Treffer in Feeds
+[2026-06-09 06:38:14] ✅ 2 NEUE Einträge gefunden:
+[2026-06-09 06:38:14]    07.08.2025 | GRN-Klinik |  | Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - sw
+[2026-06-09 06:38:14]    07.06.2026 | Hanse-Klinikum Wismar |  | Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Bra
+[2026-06-09 06:38:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-09 06:38:14] === Monitor-Lauf beendet ===
+
+[2026-06-09 06:38:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-09 06:38:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-09 06:38:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-09 06:38:14] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-09 06:38:14] [enrich] --- Enriche [1/2]: Brand nahe GRN-Klinik in Schwetzingen: Was passiert ist - sw
+[2026-06-09 06:38:15] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/brand-schwetzingen-nah
+[2026-06-09 06:38:16] [enrich] Volltext extrahiert: 2536 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/mannheim/br
+[2026-06-09 06:38:17] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus in Kliniknähe, nicht im Krankenhaus selbst. Die GRN-Klinik war nur indirekt betroffen (Rauchwolke zog in ihre Richtung), aber der Brand fand in einem separaten Wohngebäude statt.
+[2026-06-09 06:38:18] [enrich] --- Enriche [2/2]: Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Bra
+[2026-06-09 06:38:19] [enrich] Google News URL aufgelöst (v1): https://www.svz.de/regional/nordwestmecklenburg/feuer-im-klinikum-patientin-setz
+[2026-06-09 06:38:20] [enrich] Volltext extrahiert: 1880 Zeichen von https://www.svz.de/regional/nordwestmecklenburg/feuer-im-kli
+[2026-06-09 06:38:23] [enrich] Enrichment abgeschlossen: enriched — Sana Hanse-Klinikum Wismar in Wismar
+[2026-06-09 06:38:23] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-06-09 06:38:23] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-09 06:38:23] [DEDUP] Starte Dedup für 655 Einträge
+[2026-06-09 06:38:23] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-09 06:38:24] [DEDUP] Paare verglichen: 12799
+[2026-06-09 06:38:24] [DEDUP] Auto-Merges: 0
+[2026-06-09 06:38:24] [DEDUP] Kandidaten (unsicher): 370
+[2026-06-09 06:38:24] [DEDUP] Ergebnis: 655 Einträge (war: 655, 0 zusammengeführt)
+[2026-06-09 06:38:24] [DEDUP] Kandidaten-Datei: 370 pending, 2 confirmed, 0 rejected
+[2026-06-09 06:38:24] [DEDUP] Gespeichert: 655 → 655 Einträge
