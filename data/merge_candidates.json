@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T06:38:24.751807",
+  "generated_at": "2026-06-10T06:56:18.044433",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -10363,6 +10363,72 @@
         "status": "false_positive",
         "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
         "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenblatt"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - wochenblatt.cc"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenblatt - Aktuelle Nachrichten aus Paraguay"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenblatt"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus zwingt zur Evakuierung",
+        "ort": "",
+        "datum": "16.10.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/",
+        "titel": "Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenblatt - Aktuelle Nachrichten aus Paraguay"
       }
     },
     {

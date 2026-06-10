@@ -29308,3 +29308,53 @@
 [2026-06-09 06:38:24] [DEDUP] Ergebnis: 655 Einträge (war: 655, 0 zusammengeführt)
 [2026-06-09 06:38:24] [DEDUP] Kandidaten-Datei: 370 pending, 2 confirmed, 0 rejected
 [2026-06-09 06:38:24] [DEDUP] Gespeichert: 655 → 655 Einträge
+[2026-06-10 06:55:52] === Monitor-Lauf gestartet ===
+[2026-06-10 06:55:53] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-10 06:55:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-10 06:55:55] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-06-10 06:55:55] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-06-10 06:55:55] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-06-10 06:55:56] Feed 'gn_brand_klinik': 43 Einträge
+[2026-06-10 06:55:56] Feed 'gn_brand_klinikum': 43 Einträge
+[2026-06-10 06:55:57] Feed 'gn_klinikbrand': 89 Einträge
+[2026-06-10 06:55:57] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-06-10 06:55:58] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-06-10 06:55:59] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-10 06:55:59] 215 relevante Treffer in Feeds
+[2026-06-10 06:55:59] ✅ 3 NEUE Einträge gefunden:
+[2026-06-10 06:55:59]    14.11.2021 | bulgarischer Klinik |  | Drei Corona-Patienten sterben bei Brand in bulgarischer Klin
+[2026-06-10 06:55:59]    10.09.2021 | Uniklinik |  | Kleidertrockner in Freiburger Uniklinik-Wäscherei löst Brand
+[2026-06-10 06:55:59]    16.10.2023 | im Krankenhaus zwingt zur Evakuierung |  | Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenbl
+[2026-06-10 06:55:59] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-10 06:55:59] === Monitor-Lauf beendet ===
+
+[2026-06-10 06:55:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-10 06:55:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-10 06:55:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-10 06:55:59] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-10 06:55:59] [enrich] --- Enriche [1/3]: Drei Corona-Patienten sterben bei Brand in bulgarischer Klin
+[2026-06-10 06:55:59] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/brand-in-klinik-in-bulgarien-drei-corona-patienten-s
+[2026-06-10 06:55:59] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/brand-in-klinik-in-bulgarien-drei-corona-patienten-s: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/brand-in-klinik-in-bulgarien-drei-corona-patienten-sterben-D2U5MHTB2V36323ZN2X7EBFKO4.html
+[2026-06-10 06:55:59] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (509 Z.)
+[2026-06-10 06:56:00] [enrich] FALSE POSITIVE erkannt: Brand in ausländischer Klinik (Bulgarien), nicht in Deutschland
+[2026-06-10 06:56:01] [enrich] --- Enriche [2/3]: Kleidertrockner in Freiburger Uniklinik-Wäscherei löst Brand
+[2026-06-10 06:56:02] [enrich] Google News URL aufgelöst (v1): https://www.baden.fm/nachrichten/kleidertrockner-in-freiburger-uniklinik-waesche
+[2026-06-10 06:56:03] [enrich] Volltext zu kurz/leer (81 Z.), verwende RSS-Snippet (497 Z.)
+[2026-06-10 06:56:05] [enrich] Enrichment abgeschlossen: partial — Universitätsklinikum Freiburg in Freiburg
+[2026-06-10 06:56:06] [enrich] --- Enriche [3/3]: Kurzschluss im Krankenhaus zwingt zur Evakuierung - Wochenbl
+[2026-06-10 06:56:06] [enrich] Google News URL aufgelöst (v1): https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur-evakuierung/
+[2026-06-10 06:56:08] [enrich] Volltext extrahiert: 2439 Zeichen von https://wochenblatt.cc/kurzschluss-im-krankenhaus-zwingt-zur
+[2026-06-10 06:56:16] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung aufgrund eines Kurzschlusses im elektrischen System, nicht aufgrund eines Brandes. Zudem liegt das beschriebene Krankenhaus in Paraguay (Coronel Oviedo, Departement Caaguazú), nicht in Deutschland.
+[2026-06-10 06:56:16] [enrich] Ergebnis: 0 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-06-10 06:56:16] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-10 06:56:16] [DEDUP] Starte Dedup für 658 Einträge
+[2026-06-10 06:56:16] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-10 06:56:17] [DEDUP] Auto-Merge (1.00): Universitätsklinikum Freiburg / Freiburg ↔ Universitätsklinikum Freiburg / Freiburg
+[2026-06-10 06:56:18] [DEDUP] Paare verglichen: 12819
+[2026-06-10 06:56:18] [DEDUP] Auto-Merges: 1
+[2026-06-10 06:56:18] [DEDUP] Kandidaten (unsicher): 372
+[2026-06-10 06:56:18] [DEDUP] Cluster 2x: Universitätsklinikum Freiburg, Universitätsklinikum Freiburg
+[2026-06-10 06:56:18] [DEDUP] Ergebnis: 657 Einträge (war: 658, 1 zusammengeführt)
+[2026-06-10 06:56:18] [DEDUP] Kandidaten-Datei: 372 pending, 2 confirmed, 0 rejected
+[2026-06-10 06:56:18] [DEDUP] Gespeichert: 658 → 657 Einträge
