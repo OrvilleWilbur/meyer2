@@ -29358,3 +29358,46 @@
 [2026-06-10 06:56:18] [DEDUP] Ergebnis: 657 Einträge (war: 658, 1 zusammengeführt)
 [2026-06-10 06:56:18] [DEDUP] Kandidaten-Datei: 372 pending, 2 confirmed, 0 rejected
 [2026-06-10 06:56:18] [DEDUP] Gespeichert: 658 → 657 Einträge
+[2026-06-11 07:20:07] === Monitor-Lauf gestartet ===
+[2026-06-11 07:20:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-11 07:20:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-11 07:20:10] Feed 'gn_brand_krankenhaus': 59 Einträge
+[2026-06-11 07:20:11] Feed 'gn_feuer_krankenhaus': 57 Einträge
+[2026-06-11 07:20:11] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-06-11 07:20:11] Feed 'gn_brand_klinik': 42 Einträge
+[2026-06-11 07:20:12] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-06-11 07:20:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-11 07:20:12] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-06-11 07:20:13] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-06-11 07:20:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-11 07:20:14] 221 relevante Treffer in Feeds
+[2026-06-11 07:20:14] ✅ 2 NEUE Einträge gefunden:
+[2026-06-11 07:20:14]    07.06.2026 | Wismarer Krankenhaus |  | Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in 
+[2026-06-11 07:20:14]    08.01.2024 | in Klinik |  | Frédéric Prinz von Anhalt liegt nach Brand im Penthouse in K
+[2026-06-11 07:20:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-11 07:20:14] === Monitor-Lauf beendet ===
+
+[2026-06-11 07:20:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-11 07:20:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-11 07:20:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-11 07:20:16] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-11 07:20:16] [enrich] --- Enriche [1/2]: Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in 
+[2026-06-11 07:20:17] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-pat
+[2026-06-11 07:20:17] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-pat
+[2026-06-11 07:20:17] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (572 Z.)
+[2026-06-11 07:20:19] [enrich] Enrichment abgeschlossen: partial — Krankenhaus Wismar in Wismar
+[2026-06-11 07:20:20] [enrich] --- Enriche [2/2]: Frédéric Prinz von Anhalt liegt nach Brand im Penthouse in K
+[2026-06-11 07:20:20] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/kultur/vermischtes/frederic-prinz-von-anhalt-liegt-nach-bra
+[2026-06-11 07:20:21] [enrich] Volltext extrahiert: 3026 Zeichen von https://www.focus.de/kultur/vermischtes/frederic-prinz-von-a
+[2026-06-11 07:20:24] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem privaten Penthouse in Los Angeles (USA), nicht in einem deutschen Krankenhaus. Die Person wird nach dem Brand mit Rauchvergiftung ins Krankenhaus eingeliefert, aber der Brand selbst findet nicht im Krankenhaus statt, sondern in einer Privatwohnung im Ausland.
+[2026-06-11 07:20:24] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-06-11 07:20:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-11 07:20:24] [DEDUP] Starte Dedup für 659 Einträge
+[2026-06-11 07:20:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-11 07:20:25] [DEDUP] Paare verglichen: 12832
+[2026-06-11 07:20:25] [DEDUP] Auto-Merges: 0
+[2026-06-11 07:20:25] [DEDUP] Kandidaten (unsicher): 374
+[2026-06-11 07:20:25] [DEDUP] Ergebnis: 659 Einträge (war: 659, 0 zusammengeführt)
+[2026-06-11 07:20:25] [DEDUP] Kandidaten-Datei: 374 pending, 2 confirmed, 0 rejected
+[2026-06-11 07:20:25] [DEDUP] Gespeichert: 659 → 659 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T06:56:18.044433",
+  "generated_at": "2026-06-11T07:20:25.868200",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3928,6 +3928,39 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Sana-Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
+        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Wismar",
+        "ort": "Wismar",
+        "datum": "07.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Ywjq?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "titel": "Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
       }
     },
     {
@@ -10957,6 +10990,39 @@
         "status": "enriched",
         "link": "https://www.swr.de/swraktuell/rheinland-pfalz/kaiserslautern/polizei-nimmt-tatverdaechtige-nach-brand-in-verlassenem-krankenhaus-in-zweibruecken-fest-100.html",
         "titel": "Nach mutmaßlicher Brandstiftung in verlassenem Krankenhaus: Polizei nimmt drei Tatverdächtige fest - SWR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.54,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.54
+      },
+      "entry_a": {
+        "einrichtung": "Sana Hanse-Klinikum Wismar",
+        "ort": "Wismar",
+        "datum": "05.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.svz.de/regional/nordwestmecklenburg/feuer-im-klinikum-patientin-setzt-muelleimer-in-brand-4626751",
+        "titel": "Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Brand - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Wismar",
+        "ort": "Wismar",
+        "datum": "07.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Ywjq?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "titel": "Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
       }
     },
     {
