@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T07:20:25.868200",
+  "generated_at": "2026-06-12T07:11:05.442228",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2839,6 +2839,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.665,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.665
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "02.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/anklage-nach-feuer-in-helios-klinikum-pforzheim-100.html",
+        "titel": "Fixierter Patient starb bei Feuer in Krankenhaus: Anklage gegen Klinik-Ärzte - SWR"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik-Notaufnahme Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "04.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/pforzheim-am-bett-fixierter-mann-stirbt-bei-feuer-in-klinik-notaufnahme-K6HAOQRCRNO5HEJZWT7SJAD2OA.html",
+        "titel": "Pforzheim: Am Bett fixierter Mann stirbt bei Feuer in Klinik-Notaufnahme - RND.de"
       }
     },
     {
@@ -10964,6 +10997,39 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-krankenhaus/ar-AA2512kW",
+        "titel": "Kind nach Hochhausbrand im Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
+        "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -12343,6 +12409,39 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-krankenhaus/ar-AA2512kW",
         "titel": "Kind nach Hochhausbrand im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "06.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "http://www.msn.com/de-de/nachrichten/welt/feuer-im-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Yjz0",
+        "titel": "Feuer im Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
+        "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
       }
     }
   ],
