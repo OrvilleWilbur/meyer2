@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T07:11:05.442228",
+  "generated_at": "2026-06-13T06:44:45.371199",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -12442,6 +12442,72 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
         "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/kind-nach-hochhausbrand-im-krankenhaus/ar-AA2512kW",
+        "titel": "Kind nach Hochhausbrand im Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "08.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-stuttgarter-hochhaus-kind-im-krankenhaus/ar-AA252B19",
+        "titel": "Brand in Stuttgarter Hochhaus: Kind im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
+        "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "08.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-stuttgarter-hochhaus-kind-im-krankenhaus/ar-AA252B19",
+        "titel": "Brand in Stuttgarter Hochhaus: Kind im Krankenhaus - MSN"
       }
     }
   ],
