@@ -29522,3 +29522,45 @@
 [2026-06-13 06:44:45] [DEDUP] Ergebnis: 669 Einträge (war: 669, 0 zusammengeführt)
 [2026-06-13 06:44:45] [DEDUP] Kandidaten-Datei: 379 pending, 2 confirmed, 0 rejected
 [2026-06-13 06:44:45] [DEDUP] Gespeichert: 669 → 669 Einträge
+[2026-06-14 07:13:49] === Monitor-Lauf gestartet ===
+[2026-06-14 07:13:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-14 07:13:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-14 07:13:51] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-06-14 07:13:52] Feed 'gn_feuer_krankenhaus': 44 Einträge
+[2026-06-14 07:13:52] Feed 'gn_feuer_klinik': 14 Einträge
+[2026-06-14 07:13:52] Feed 'gn_brand_klinik': 43 Einträge
+[2026-06-14 07:13:53] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-06-14 07:13:53] Feed 'gn_klinikbrand': 96 Einträge
+[2026-06-14 07:13:54] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-06-14 07:13:54] Feed 'gn_evakuierung_klinik': 29 Einträge
+[2026-06-14 07:13:55] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-14 07:13:55] 184 relevante Treffer in Feeds
+[2026-06-14 07:13:55] ✅ 2 NEUE Einträge gefunden:
+[2026-06-14 07:13:55]    01.11.2016 |  |  | Tokio: Pups löst Brand in OP-Saal aus - Patientin erleidet s
+[2026-06-14 07:13:55]    08.05.2023 |  |  | Klinik-Evakuierung Pegnitz: Neue Erkenntnisse zur Ursache - 
+[2026-06-14 07:13:55] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-14 07:13:55] === Monitor-Lauf beendet ===
+
+[2026-06-14 07:13:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-14 07:13:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-14 07:13:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-14 07:13:56] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-14 07:13:56] [enrich] --- Enriche [1/2]: Tokio: Pups löst Brand in OP-Saal aus - Patientin erleidet s
+[2026-06-14 07:13:56] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/krankenhaus-in-tokio-furz-loest-brand-in-op-s
+[2026-06-14 07:13:56] [enrich] Volltext extrahiert: 1890 Zeichen von https://www.focus.de/panorama/welt/krankenhaus-in-tokio-furz
+[2026-06-14 07:13:58] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einem japanischen Krankenhaus (Tokio), nicht in Deutschland
+[2026-06-14 07:13:59] [enrich] --- Enriche [2/2]: Klinik-Evakuierung Pegnitz: Neue Erkenntnisse zur Ursache - 
+[2026-06-14 07:13:59] [enrich] Google News URL aufgelöst (v1): https://www.kurier.de/inhalt.sana-klinik-neue-erkenntnisse-zur-ursache.ecf08f7b-
+[2026-06-14 07:14:00] [enrich] Volltext extrahiert: 646 Zeichen von https://www.kurier.de/inhalt.sana-klinik-neue-erkenntnisse-z
+[2026-06-14 07:14:01] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand, sondern einen Chemieunfall (ausgetretener Stoff) mit Evakuierung. Patienten wurden nur zur Vorsicht in andere Krankenhäuser verlegt, ein Brand fand nicht statt.
+[2026-06-14 07:14:01] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-06-14 07:14:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-14 07:14:02] [DEDUP] Starte Dedup für 671 Einträge
+[2026-06-14 07:14:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-14 07:14:03] [DEDUP] Paare verglichen: 13112
+[2026-06-14 07:14:03] [DEDUP] Auto-Merges: 0
+[2026-06-14 07:14:03] [DEDUP] Kandidaten (unsicher): 379
+[2026-06-14 07:14:03] [DEDUP] Ergebnis: 671 Einträge (war: 671, 0 zusammengeführt)
+[2026-06-14 07:14:03] [DEDUP] Kandidaten-Datei: 379 pending, 2 confirmed, 0 rejected
+[2026-06-14 07:14:03] [DEDUP] Gespeichert: 671 → 671 Einträge
