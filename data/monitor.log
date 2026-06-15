@@ -29564,3 +29564,71 @@
 [2026-06-14 07:14:03] [DEDUP] Ergebnis: 671 Einträge (war: 671, 0 zusammengeführt)
 [2026-06-14 07:14:03] [DEDUP] Kandidaten-Datei: 379 pending, 2 confirmed, 0 rejected
 [2026-06-14 07:14:03] [DEDUP] Gespeichert: 671 → 671 Einträge
+[2026-06-15 08:46:08] === Monitor-Lauf gestartet ===
+[2026-06-15 08:46:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-15 08:46:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-15 08:46:11] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-06-15 08:46:11] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-06-15 08:46:11] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-06-15 08:46:12] Feed 'gn_brand_klinik': 41 Einträge
+[2026-06-15 08:46:12] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-06-15 08:46:13] Feed 'gn_klinikbrand': 96 Einträge
+[2026-06-15 08:46:13] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-06-15 08:46:13] Feed 'gn_evakuierung_klinik': 15 Einträge
+[2026-06-15 08:46:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-15 08:46:14] 186 relevante Treffer in Feeds
+[2026-06-15 08:46:14] ✅ 6 NEUE Einträge gefunden:
+[2026-06-15 08:46:14]    09.11.2025 | im Krankenhaus |  | Brand an der Playa de Palma: Zwei Personen im Krankenhaus - 
+[2026-06-15 08:46:14]    17.04.2026 | im Krankenhaus |  | Feuerwehr löscht Heckenbrand an der Osterstraße - eine Perso
+[2026-06-15 08:46:14]    30.09.2019 |  |  | Detmold: Feuer in Psychiatrie – Patient erleidet Verbrennung
+[2026-06-15 08:46:14]    16.03.2026 | in Klinik |  | Tödliches Feuer in Klinik – Mindestens 10 Menschen auf Inten
+[2026-06-15 08:46:14]    25.10.2024 | Uniklinik sorgt für starke Rauchentwicklung und vierstündigen Einsatz |  | Feuer auf dem Gelände der Uniklinik sorgt für starke Rauchen
+[2026-06-15 08:46:14]    30.09.2016 | Uni-Klinik |  | Tote bei Großbrand in Uni-Klinik - DW
+[2026-06-15 08:46:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-15 08:46:14] === Monitor-Lauf beendet ===
+
+[2026-06-15 08:46:15] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-15 08:46:15] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-15 08:46:15] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-15 08:46:15] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-15 08:46:15] [enrich] --- Enriche [1/6]: Brand an der Playa de Palma: Zwei Personen im Krankenhaus - 
+[2026-06-15 08:46:15] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2025/11/09/brand-an-der-playa-palma-1235
+[2026-06-15 08:46:16] [enrich] Volltext extrahiert: 3052 Zeichen von https://www.mallorcazeitung.es/panorama/2025/11/09/brand-an-
+[2026-06-15 08:46:17] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus auf Mallorca (Spanien), nicht in Deutschland. Zwei Personen wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt.
+[2026-06-15 08:46:18] [enrich] --- Enriche [2/6]: Feuerwehr löscht Heckenbrand an der Osterstraße - eine Perso
+[2026-06-15 08:46:19] [enrich] Google News URL aufgelöst (v1): https://madeinbocholt.de/feuerwehr-loescht-heckenbrand-an-der-osterstrasse-eine-
+[2026-06-15 08:46:19] [enrich] Kein Artikeltext extrahierbar für https://madeinbocholt.de/feuerwehr-loescht-heckenbrand-an-der-osterstrasse-eine-
+[2026-06-15 08:46:19] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (571 Z.)
+[2026-06-15 08:46:20] [enrich] FALSE POSITIVE erkannt: Person wird nach einem Brand (Heckenbrand) vorsorglich ins Krankenhaus gebracht - der Brand selbst findet nicht in einem Krankenhaus statt, sondern an der Osterstraße
+[2026-06-15 08:46:21] [enrich] --- Enriche [3/6]: Detmold: Feuer in Psychiatrie – Patient erleidet Verbrennung
+[2026-06-15 08:46:21] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/detmold-feuer-in-psychiatrie-patient-erleidet-
+[2026-06-15 08:46:22] [enrich] Volltext extrahiert: 1895 Zeichen von https://www.merkur.de/deutschland/detmold-feuer-in-psychiatr
+[2026-06-15 08:46:25] [enrich] Enrichment abgeschlossen: enriched — Gemeindepsychiatrisches Zentrum Detmold in Detmold
+[2026-06-15 08:46:26] [enrich] --- Enriche [4/6]: Tödliches Feuer in Klinik – Mindestens 10 Menschen auf Inten
+[2026-06-15 08:46:27] [enrich] Google News URL aufgelöst (v1): https://www.express.de/panorama/toedliches-feuer-in-klinik-mindestens-10-tote-au
+[2026-06-15 08:46:36] [enrich] Artikel-Fetch fehlgeschlagen für https://www.express.de/panorama/toedliches-feuer-in-klinik-mindestens-10-tote-au: 404 Client Error: Not Found for url: https://www.express.de/panorama/toedliches-feuer-in-klinik-mindestens-10-tote-auf-intensivstation-ursachenermittlung-laeuft-1244509
+[2026-06-15 08:46:36] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (570 Z.)
+[2026-06-15 08:46:37] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Es kann nicht überprüft werden, ob es sich um einen Brand in einem deutschen Krankenhaus handelt. Die Überschrift allein ist unzureichend zur Verifizierung.
+[2026-06-15 08:46:38] [enrich] --- Enriche [5/6]: Feuer auf dem Gelände der Uniklinik sorgt für starke Rauchen
+[2026-06-15 08:46:39] [enrich] Google News URL aufgelöst (v1): https://alzeyer-zeitung.de/feuer-auf-dem-gelaende-der-uniklinik-sorgt-fuer-stark
+[2026-06-15 08:46:41] [enrich] Volltext extrahiert: 3368 Zeichen von https://alzeyer-zeitung.de/feuer-auf-dem-gelaende-der-unikli
+[2026-06-15 08:46:45] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-06-15 08:46:46] [enrich] --- Enriche [6/6]: Tote bei Großbrand in Uni-Klinik - DW
+[2026-06-15 08:46:47] [enrich] Google News URL aufgelöst (v1): https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere
+[2026-06-15 08:46:47] [enrich] Volltext extrahiert: 3244 Zeichen von https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-z
+[2026-06-15 08:46:53] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil Bochum in Bochum
+[2026-06-15 08:46:53] [enrich] Ergebnis: 3 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-06-15 08:46:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-15 08:46:53] [DEDUP] Starte Dedup für 677 Einträge
+[2026-06-15 08:46:53] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-15 08:46:54] [DEDUP] Auto-Merge (0.81): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-06-15 08:46:54] [DEDUP] Auto-Merge (0.97): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil Bochu / Bochum
+[2026-06-15 08:46:54] [DEDUP] Paare verglichen: 13358
+[2026-06-15 08:46:54] [DEDUP] Auto-Merges: 2
+[2026-06-15 08:46:54] [DEDUP] Kandidaten (unsicher): 383
+[2026-06-15 08:46:54] [DEDUP] Cluster 2x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz
+[2026-06-15 08:46:54] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil Bochu
+[2026-06-15 08:46:54] [DEDUP] Ergebnis: 675 Einträge (war: 677, 2 zusammengeführt)
+[2026-06-15 08:46:54] [DEDUP] Kandidaten-Datei: 383 pending, 2 confirmed, 0 rejected
+[2026-06-15 08:46:54] [DEDUP] Gespeichert: 677 → 675 Einträge
