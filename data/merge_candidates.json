@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-15T08:46:54.787186",
+  "generated_at": "2026-06-16T08:37:09.631718",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -67,39 +67,6 @@
         "status": "enriched",
         "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
         "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.8,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.4,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.8
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.spiegel.de/video/bochum-brand-in-krankenhaus-video-1708803.html",
-        "titel": "Bochum: Brand in Krankenhaus - Spiegel"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere-sch%C3%A4den/a-35931243",
-        "titel": "Tote bei Großbrand in Uni-Klinik - DW"
       }
     },
     {
@@ -265,6 +232,39 @@
         "status": "enriched",
         "link": "https://www.braunschweiger-zeitung.de/niedersachsen/braunschweig/article411354762/brand-im-braunschweiger-klinikum-dutzende-rettungskraefte-sind-vor-ort.html",
         "titel": "Feuer im Klinikum Braunschweig: Polizei nennt die Brandursache - Braunschweiger Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Sana-Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
+        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Wismarer Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
+        "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
       }
     },
     {
@@ -2113,6 +2113,39 @@
         "status": "enriched",
         "link": "https://www.der-reporter.de/timeline/neustadt/artikel/feuer-in-ameos-klinik",
         "titel": "Feuer in Ameos Klinik - der reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.677,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.677
+      },
+      "entry_a": {
+        "einrichtung": "Sana Hanse-Klinikum Wismar",
+        "ort": "Wismar",
+        "datum": "05.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.svz.de/regional/nordwestmecklenburg/feuer-im-klinikum-patientin-setzt-muelleimer-in-brand-4626751",
+        "titel": "Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Brand - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Wismarer Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
+        "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
       }
     },
     {
@@ -4027,6 +4060,39 @@
         "status": "partial",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Ywjq?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
         "titel": "Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Wismar",
+        "ort": "Wismar",
+        "datum": "07.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Ywjq?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+        "titel": "Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "Wismarer Klinikum",
+        "ort": "Wismar",
+        "datum": "06.06.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
+        "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
       }
     },
     {
@@ -11261,39 +11327,6 @@
         "",
         ""
       ],
-      "score": 0.503,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.4,
-        "bundesland": 1.0,
-        "brandort": 0.06666666666666667,
-        "total": 0.503
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
-        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere-sch%C3%A4den/a-35931243",
-        "titel": "Tote bei Großbrand in Uni-Klinik - DW"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.5,
       "details": {
         "datum": 1.0,
@@ -11881,39 +11914,6 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.486,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.05,
-        "total": 0.486
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.dw.com/de/gro%C3%9Fbrand-in-bochumer-uniklinik-zwei-tote-und-schwere-sch%C3%A4den/a-35931243",
-        "titel": "Tote bei Großbrand in Uni-Klinik - DW"
       }
     },
     {
