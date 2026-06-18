@@ -29710,3 +29710,51 @@
 [2026-06-17 08:19:36] [DEDUP] Ergebnis: 678 Einträge (war: 678, 0 zusammengeführt)
 [2026-06-17 08:19:36] [DEDUP] Kandidaten-Datei: 383 pending, 2 confirmed, 0 rejected
 [2026-06-17 08:19:36] [DEDUP] Gespeichert: 678 → 678 Einträge
+[2026-06-18 07:23:38] === Monitor-Lauf gestartet ===
+[2026-06-18 07:23:39] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-18 07:23:40] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-18 07:23:40] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-06-18 07:23:40] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-06-18 07:23:41] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-06-18 07:23:41] Feed 'gn_brand_klinik': 18 Einträge
+[2026-06-18 07:23:41] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-06-18 07:23:42] Feed 'gn_klinikbrand': 94 Einträge
+[2026-06-18 07:23:43] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-06-18 07:23:43] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-06-18 07:23:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-18 07:23:44] 186 relevante Treffer in Feeds
+[2026-06-18 07:23:44] ✅ 3 NEUE Einträge gefunden:
+[2026-06-18 07:23:44]    26.01.2018 | in Krankenhaus |  | Mindestens 41 Tote bei Brand in Krankenhaus in Südkorea - FO
+[2026-06-18 07:23:44]    02.01.2026 | BG Klinik Ludwigshafen hilft bei Versorgung |  | Ludwigshafen - Nach schwerem Brand in Crans-Montana: BG Klin
+[2026-06-18 07:23:44]    16.06.2026 | Bethesda-Klinik wird vorbereitet |  | Bombensuche im Donaustadion: Evakuierung der Bethesda-Klinik
+[2026-06-18 07:23:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-18 07:23:44] === Monitor-Lauf beendet ===
+
+[2026-06-18 07:23:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-18 07:23:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-18 07:23:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-18 07:23:44] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-18 07:23:44] [enrich] --- Enriche [1/3]: Mindestens 41 Tote bei Brand in Krankenhaus in Südkorea - FO
+[2026-06-18 07:23:45] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/schlimme-brandkatastrophe-mindestens-41-tote-
+[2026-06-18 07:23:45] [enrich] Volltext extrahiert: 2864 Zeichen von https://www.focus.de/panorama/welt/schlimme-brandkatastrophe
+[2026-06-18 07:23:46] [enrich] FALSE POSITIVE erkannt: Brand in Krankenhaus in Südkorea (nicht in Deutschland)
+[2026-06-18 07:23:47] [enrich] --- Enriche [2/3]: Ludwigshafen - Nach schwerem Brand in Crans-Montana: BG Klin
+[2026-06-18 07:23:47] [enrich] Google News URL aufgelöst (v1): https://www.mrn-news.de/2026/01/02/ludwigshafen-nach-schwerem-brand-in-crans-mon
+[2026-06-18 07:24:03] [enrich] Artikel-Fetch fehlgeschlagen für https://www.mrn-news.de/2026/01/02/ludwigshafen-nach-schwerem-brand-in-crans-mon: HTTPSConnectionPool(host='www.mrn-news.de', port=443): Read timed out. (read timeout=15)
+[2026-06-18 07:24:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (618 Z.)
+[2026-06-18 07:24:04] [enrich] FALSE POSITIVE erkannt: Der Brand fand in Crans-Montana statt (Schweiz), nicht in Deutschland. Die BG Klinik Ludwigshafen behandelt lediglich die Brandopfer, ist aber nicht der Brandort.
+[2026-06-18 07:24:05] [enrich] --- Enriche [3/3]: Bombensuche im Donaustadion: Evakuierung der Bethesda-Klinik
+[2026-06-18 07:24:05] [enrich] Google News URL aufgelöst (v1): https://www.swp.de/lokales/ulm/bombensuche-im-donaustadion-evakuierung-der-bethe
+[2026-06-18 07:24:06] [enrich] Volltext extrahiert: 568 Zeichen von https://www.swp.de/lokales/ulm/bombensuche-im-donaustadion-e
+[2026-06-18 07:24:07] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen vermuteter Bombenentschärfung (Blindgänger), nicht wegen Brand
+[2026-06-18 07:24:07] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-06-18 07:24:07] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-18 07:24:07] [DEDUP] Starte Dedup für 681 Einträge
+[2026-06-18 07:24:07] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-18 07:24:08] [DEDUP] Paare verglichen: 13627
+[2026-06-18 07:24:08] [DEDUP] Auto-Merges: 0
+[2026-06-18 07:24:08] [DEDUP] Kandidaten (unsicher): 384
+[2026-06-18 07:24:08] [DEDUP] Ergebnis: 681 Einträge (war: 681, 0 zusammengeführt)
+[2026-06-18 07:24:08] [DEDUP] Kandidaten-Datei: 384 pending, 2 confirmed, 0 rejected
+[2026-06-18 07:24:08] [DEDUP] Gespeichert: 681 → 681 Einträge

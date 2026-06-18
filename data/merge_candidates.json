@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T08:19:36.713881",
+  "generated_at": "2026-06-18T07:24:08.947082",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -11683,6 +11683,39 @@
         "status": "false_positive",
         "link": "https://www.swp.de/lokales/tuebingen/feuer-im-schweizer-skiort-tuebinger-bg-klinik-behandelt-schwerverletzte-aus-crans-montana-78551981.html",
         "titel": "Feuer im Schweizer Skiort: Tübinger BG Klinik behandelt Schwerverletzte aus Crans-Montana - swp.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "- Klinik",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik-in-halle-nimmt-verletzte-person-aus-crans-montana-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491328",
+        "titel": "Brandkatastrophe - Klinik in Halle nimmt verletzte Person aus Crans-Montana auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "BG Klinik Ludwigshafen hilft bei Versorgung",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mrn-news.de/2026/01/02/ludwigshafen-nach-schwerem-brand-in-crans-montana-bg-klinik-ludwigshafen-hilft-bei-versorgung-der-opfer-617579/",
+        "titel": "Ludwigshafen - Nach schwerem Brand in Crans-Montana: BG Klinik Ludwigshafen hilft bei Versorgung der Opfer - MRN-NEWS"
       }
     },
     {
