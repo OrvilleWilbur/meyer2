@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T07:24:08.947082",
+  "generated_at": "2026-06-19T08:24:23.945951",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4133,6 +4133,39 @@
         "",
         ""
       ],
+      "score": 0.592,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.75,
+        "bundesland": 1.0,
+        "brandort": 0.08333333333333333,
+        "total": 0.592
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmannsheil",
+        "ort": "Bochum",
+        "datum": "04.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
+        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Bergmannsheil, Uni-Klinik Bochum",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/klinik-grossbrand-in-bochum-was-wir-ueber-das-feuer-wissen-und-was-nicht_id_6011231.html",
+        "titel": "Klinik-Großbrand in Bochum: Was wir über das Feuer wissen - und was nicht - FOCUS online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.588,
       "details": {
         "datum": 0.0,
@@ -4258,6 +4291,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.553,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.6,
+        "bundesland": 1.0,
+        "brandort": 0.058823529411764705,
+        "total": 0.553
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmansheil Bochum",
+        "ort": "Bochum",
+        "datum": "05.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
+        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Bergmannsheil, Uni-Klinik Bochum",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/klinik-grossbrand-in-bochum-was-wir-ueber-das-feuer-wissen-und-was-nicht_id_6011231.html",
+        "titel": "Klinik-Großbrand in Bochum: Was wir über das Feuer wissen - und was nicht - FOCUS online"
       }
     },
     {

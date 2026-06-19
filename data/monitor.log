@@ -29758,3 +29758,64 @@
 [2026-06-18 07:24:08] [DEDUP] Ergebnis: 681 Einträge (war: 681, 0 zusammengeführt)
 [2026-06-18 07:24:08] [DEDUP] Kandidaten-Datei: 384 pending, 2 confirmed, 0 rejected
 [2026-06-18 07:24:08] [DEDUP] Gespeichert: 681 → 681 Einträge
+[2026-06-19 08:23:48] === Monitor-Lauf gestartet ===
+[2026-06-19 08:23:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-19 08:23:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-19 08:23:51] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-06-19 08:23:52] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-06-19 08:23:52] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-06-19 08:23:52] Feed 'gn_brand_klinik': 46 Einträge
+[2026-06-19 08:23:53] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-06-19 08:23:53] Feed 'gn_klinikbrand': 96 Einträge
+[2026-06-19 08:23:54] Feed 'gn_feuer_uniklinik': 0 Einträge
+[2026-06-19 08:23:54] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-06-19 08:23:55] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-19 08:23:55] 172 relevante Treffer in Feeds
+[2026-06-19 08:23:55] ✅ 5 NEUE Einträge gefunden:
+[2026-06-19 08:23:55]    18.06.2026 | bei Klinikbrand |  | 17 Verletzte bei Klinikbrand: Dramatische Rettung aus Psychi
+[2026-06-19 08:23:55]    16.06.2026 | in Krankenhaus |  | Brand in Kleingartenanlage - zwei Menschen in Krankenhaus - 
+[2026-06-19 08:23:55]    30.09.2016 |  |  | Klinik-Großbrand in Bochum: Was wir über das Feuer wissen - 
+[2026-06-19 08:23:55]    26.04.2016 | in Klinik |  | Mellrichstadt: Brand in Wohnhaus - Eigentümer mit Hubschraub
+[2026-06-19 08:23:55]    18.06.2026 |  |  | Weltkriegsbomben unter Ulmer Donaustadion? Klinik und Gefäng
+[2026-06-19 08:23:55] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-19 08:23:55] === Monitor-Lauf beendet ===
+
+[2026-06-19 08:23:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-19 08:23:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-19 08:23:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-19 08:23:55] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-19 08:23:55] [enrich] --- Enriche [1/5]: 17 Verletzte bei Klinikbrand: Dramatische Rettung aus Psychi
+[2026-06-19 08:23:56] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz/news-rettungseinsat
+[2026-06-19 08:23:58] [enrich] Volltext extrahiert: 4475 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz
+[2026-06-19 08:24:02] [enrich] Enrichment abgeschlossen: enriched — Harzklinikum in Blankenburg
+[2026-06-19 08:24:03] [enrich] --- Enriche [2/5]: Brand in Kleingartenanlage - zwei Menschen in Krankenhaus - 
+[2026-06-19 08:24:03] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/brand-in-kleingartenanlage-zwei-m
+[2026-06-19 08:24:03] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/brand-in-kleingartenanlage-zwei-m
+[2026-06-19 08:24:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (485 Z.)
+[2026-06-19 08:24:05] [enrich] FALSE POSITIVE erkannt: Brand ereignet sich in einer Kleingartenanlage, nicht in einem Krankenhaus. Zwei Menschen werden nach dem Brand ins Krankenhaus gebracht, was keine Krankenhausbrand-Situation darstellt.
+[2026-06-19 08:24:06] [enrich] --- Enriche [3/5]: Klinik-Großbrand in Bochum: Was wir über das Feuer wissen - 
+[2026-06-19 08:24:06] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/klinik-grossbrand-in-bochum-was-wir-ueber-das
+[2026-06-19 08:24:07] [enrich] Volltext extrahiert: 4591 Zeichen von https://www.focus.de/panorama/welt/klinik-grossbrand-in-boch
+[2026-06-19 08:24:12] [enrich] Enrichment abgeschlossen: enriched — Klinik Bergmannsheil, Uni-Klinik Bochum in Bochum
+[2026-06-19 08:24:13] [enrich] --- Enriche [4/5]: Mellrichstadt: Brand in Wohnhaus - Eigentümer mit Hubschraub
+[2026-06-19 08:24:13] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/rhoen-grabfeld/mellrichstadt-brand-in-wohnhaus-eigen
+[2026-06-19 08:24:14] [enrich] Volltext extrahiert: 2915 Zeichen von https://www.infranken.de/lk/rhoen-grabfeld/mellrichstadt-bra
+[2026-06-19 08:24:17] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Einfamilienhaus in Mellrichstadt), nicht in einem Krankenhaus. Der Hauseigentümer wurde nach dem Brand mit dem Hubschrauber in eine Klinik eingeliefert, aber der Brand selbst ereignete sich nicht in der medizinischen Einrichtung.
+[2026-06-19 08:24:18] [enrich] --- Enriche [5/5]: Weltkriegsbomben unter Ulmer Donaustadion? Klinik und Gefäng
+[2026-06-19 08:24:19] [enrich] Google News URL aufgelöst (v1): https://www.donau3fm.de/weltkriegsbomben-unter-ulmer-donaustadion-klinik-und-gef
+[2026-06-19 08:24:20] [enrich] Volltext zu kurz/leer (152 Z.), verwende RSS-Snippet (586 Z.)
+[2026-06-19 08:24:22] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Verdacht auf Weltkriegsbomben (Bombenentschärfung), nicht wegen Brand
+[2026-06-19 08:24:22] [enrich] Ergebnis: 2 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-06-19 08:24:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-19 08:24:22] [DEDUP] Starte Dedup für 686 Einträge
+[2026-06-19 08:24:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-19 08:24:23] [DEDUP] Auto-Merge (0.86): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Klinik Bergmannsheil, Uni-Klinik Bochum / Bochum
+[2026-06-19 08:24:23] [DEDUP] Auto-Merge (0.90): Uniklinik Bochum / Bochum ↔ Klinik Bergmannsheil, Uni-Klinik Bochum / Bochum
+[2026-06-19 08:24:23] [DEDUP] Paare verglichen: 13712
+[2026-06-19 08:24:23] [DEDUP] Auto-Merges: 2
+[2026-06-19 08:24:23] [DEDUP] Kandidaten (unsicher): 386
+[2026-06-19 08:24:23] [DEDUP] Cluster 3x: Universitätsklinikum Bergmannsheil Bochu, Uniklinik Bochum, Klinik Bergmannsheil, Uni-Klinik Bochum
+[2026-06-19 08:24:23] [DEDUP] Ergebnis: 684 Einträge (war: 686, 2 zusammengeführt)
+[2026-06-19 08:24:23] [DEDUP] Kandidaten-Datei: 386 pending, 2 confirmed, 0 rejected
+[2026-06-19 08:24:23] [DEDUP] Gespeichert: 686 → 684 Einträge
