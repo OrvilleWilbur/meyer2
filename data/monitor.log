@@ -29819,3 +29819,62 @@
 [2026-06-19 08:24:23] [DEDUP] Ergebnis: 684 Einträge (war: 686, 2 zusammengeführt)
 [2026-06-19 08:24:23] [DEDUP] Kandidaten-Datei: 386 pending, 2 confirmed, 0 rejected
 [2026-06-19 08:24:23] [DEDUP] Gespeichert: 686 → 684 Einträge
+[2026-06-20 06:52:42] === Monitor-Lauf gestartet ===
+[2026-06-20 06:52:44] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-20 06:52:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-20 06:52:45] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-06-20 06:52:45] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-06-20 06:52:45] Feed 'gn_feuer_klinik': 40 Einträge
+[2026-06-20 06:52:46] Feed 'gn_brand_klinik': 48 Einträge
+[2026-06-20 06:52:46] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-06-20 06:52:47] Feed 'gn_klinikbrand': 90 Einträge
+[2026-06-20 06:52:47] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-06-20 06:52:48] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-06-20 06:52:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-20 06:52:48] 212 relevante Treffer in Feeds
+[2026-06-20 06:52:49] ✅ 5 NEUE Einträge gefunden:
+[2026-06-20 06:52:49]    16.06.2026 | im Krankenhaus |  | Löschversuch geht schief: Zwei Menschen nach Brand im Kranke
+[2026-06-20 06:52:49]    11.06.2026 | im Krankenhaus von Manacor |  | Feuer im Krankenhaus von Manacor: Mehrere Bereiche geräumt -
+[2026-06-20 06:52:49]    08.09.2025 |  |  | Feuer in Rostocker Psychiatrie: Patient (26) stirbt in bei B
+[2026-06-20 06:52:49]    02.01.2026 | - Klinik |  | Brandkatastrophe - Klinik in Halle nimmt verletzte Person au
+[2026-06-20 06:52:49]    28.05.2026 |  |  | Nach Evakuierung von Krankenhaus | Zwei Bomben in Moers gesp
+[2026-06-20 06:52:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-20 06:52:49] === Monitor-Lauf beendet ===
+
+[2026-06-20 06:52:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-20 06:52:49] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-20 06:52:49] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-20 06:52:49] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-20 06:52:49] [enrich] --- Enriche [1/5]: Löschversuch geht schief: Zwei Menschen nach Brand im Kranke
+[2026-06-20 06:52:49] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/l%C3%B6schversuch-geht-schief-zwe
+[2026-06-20 06:52:49] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/l%C3%B6schversuch-geht-schief-zwe
+[2026-06-20 06:52:49] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (526 Z.)
+[2026-06-20 06:52:51] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne konkrete Informationen über einen Brand in einem deutschen Krankenhaus. Es ist unklar, wo der Brand stattgefunden hat, in welchem Krankenhaus, und ob es sich überhaupt um einen Brand in Deutschland handelt. Die Überschrift allein reicht nicht aus, um einen Krankenhausbrand zu bestätigen.
+[2026-06-20 06:52:52] [enrich] --- Enriche [2/5]: Feuer im Krankenhaus von Manacor: Mehrere Bereiche geräumt -
+[2026-06-20 06:52:52] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2026/06/11/feuer-im-krankenhaus-von-mana
+[2026-06-20 06:52:53] [enrich] Volltext extrahiert: 3396 Zeichen von https://www.mallorcazeitung.es/panorama/2026/06/11/feuer-im-
+[2026-06-20 06:52:54] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich im Krankenhaus von Manacor auf Mallorca (Spanien), nicht in Deutschland. Der Artikel beschreibt einen Brand in einem ausländischen Krankenhaus außerhalb Deutschlands.
+[2026-06-20 06:52:55] [enrich] --- Enriche [3/5]: Feuer in Rostocker Psychiatrie: Patient (26) stirbt in bei B
+[2026-06-20 06:52:56] [enrich] Google News URL aufgelöst (v1): https://www.ostsee-zeitung.de/lokales/rostock/feuer-in-rostocker-psychiatrie-pat
+[2026-06-20 06:52:56] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ostsee-zeitung.de/lokales/rostock/feuer-in-rostocker-psychiatrie-pat: 403 Client Error: Forbidden for url: https://www.ostsee-zeitung.de/lokales/rostock/feuer-in-rostocker-psychiatrie-patient-26-stirbt-in-bei-brand-in-gehlsdorf-6V2ICA3GLVGNTFOI4RB2GC6SAE.html
+[2026-06-20 06:52:56] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (595 Z.)
+[2026-06-20 06:52:58] [enrich] Enrichment abgeschlossen: partial — Psychiatrie Rostock (Gehlsdorf) in Rostock
+[2026-06-20 06:52:59] [enrich] --- Enriche [4/5]: Brandkatastrophe - Klinik in Halle nimmt verletzte Person au
+[2026-06-20 06:52:59] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik-in-halle-nimmt-verl
+[2026-06-20 06:53:00] [enrich] Volltext extrahiert: 1858 Zeichen von https://www.sueddeutsche.de/panorama/brandkatastrophe-klinik
+[2026-06-20 06:53:01] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Schweizer Skiort (Crans-Montana), nicht in einem deutschen Krankenhaus. Die Klinik in Halle nimmt lediglich ein Brandopfer zur Behandlung auf, was nicht als Krankenhausbrand gilt.
+[2026-06-20 06:53:02] [enrich] --- Enriche [5/5]: Nach Evakuierung von Krankenhaus | Zwei Bomben in Moers gesp
+[2026-06-20 06:53:03] [enrich] Google News URL aufgelöst (v1): https://www1.wdr.de/nrw/niederrhein/kreis-wesel/bombe-moers-evakuierung-krankenh
+[2026-06-20 06:53:06] [enrich] Volltext extrahiert: 2655 Zeichen von https://www1.wdr.de/nrw/niederrhein/kreis-wesel/bombe-moers-
+[2026-06-20 06:53:08] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Nicht-Brand-Grund), nicht wegen eines Brandes im Krankenhaus
+[2026-06-20 06:53:08] [enrich] Ergebnis: 0 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-06-20 06:53:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-20 06:53:08] [DEDUP] Starte Dedup für 689 Einträge
+[2026-06-20 06:53:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-20 06:53:09] [DEDUP] Paare verglichen: 13994
+[2026-06-20 06:53:09] [DEDUP] Auto-Merges: 0
+[2026-06-20 06:53:09] [DEDUP] Kandidaten (unsicher): 397
+[2026-06-20 06:53:09] [DEDUP] Ergebnis: 689 Einträge (war: 689, 0 zusammengeführt)
+[2026-06-20 06:53:09] [DEDUP] Kandidaten-Datei: 397 pending, 2 confirmed, 0 rejected
+[2026-06-20 06:53:09] [DEDUP] Gespeichert: 689 → 689 Einträge
