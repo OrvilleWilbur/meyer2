@@ -29920,3 +29920,47 @@
 [2026-06-21 07:23:14] [DEDUP] Ergebnis: 691 Einträge (war: 691, 0 zusammengeführt)
 [2026-06-21 07:23:14] [DEDUP] Kandidaten-Datei: 397 pending, 2 confirmed, 0 rejected
 [2026-06-21 07:23:14] [DEDUP] Gespeichert: 691 → 691 Einträge
+[2026-06-22 08:46:28] === Monitor-Lauf gestartet ===
+[2026-06-22 08:46:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-22 08:46:29] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-22 08:46:30] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-06-22 08:46:30] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-06-22 08:46:31] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-06-22 08:46:31] Feed 'gn_brand_klinik': 47 Einträge
+[2026-06-22 08:46:32] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-06-22 08:46:32] Feed 'gn_klinikbrand': 94 Einträge
+[2026-06-22 08:46:33] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-06-22 08:46:33] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-06-22 08:46:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-22 08:46:34] 211 relevante Treffer in Feeds
+[2026-06-22 08:46:34] ✅ 2 NEUE Einträge gefunden:
+[2026-06-22 08:46:34]    19.03.2026 | im Klinikum Friedrichstadt |  | Feuerwehrsprecher: Keine Gefahr für Patienten nach Brand im 
+[2026-06-22 08:46:34]    22.06.2026 | im Krankenhaus |  | Feuer im Krankenhaus: Evakuierung und Ursachenforschung - Il
+[2026-06-22 08:46:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-22 08:46:34] === Monitor-Lauf beendet ===
+
+[2026-06-22 08:46:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-22 08:46:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-22 08:46:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-22 08:46:35] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-22 08:46:35] [enrich] --- Enriche [1/2]: Feuerwehrsprecher: Keine Gefahr für Patienten nach Brand im 
+[2026-06-22 08:46:36] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/audio-brand-klinikum-friedrichsta
+[2026-06-22 08:46:37] [enrich] Volltext zu kurz/leer (194 Z.), verwende RSS-Snippet (520 Z.)
+[2026-06-22 08:46:39] [enrich] Enrichment abgeschlossen: partial — Klinikum Friedrichstadt in Dresden
+[2026-06-22 08:46:40] [enrich] --- Enriche [2/2]: Feuer im Krankenhaus: Evakuierung und Ursachenforschung - Il
+[2026-06-22 08:46:40] [enrich] Google News URL aufgelöst (v1): https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung_und_ursachenforschu
+[2026-06-22 08:46:41] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung
+[2026-06-22 08:46:42] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem italienischen Krankenhaus (Ospedale del Mare in Neapel). Die Datenbank ist für Brände in deutschen Krankenhäusern und Kliniken konzipiert.
+[2026-06-22 08:46:42] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-06-22 08:46:42] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-22 08:46:42] [DEDUP] Starte Dedup für 693 Einträge
+[2026-06-22 08:46:42] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-22 08:46:43] [DEDUP] Auto-Merge (0.82): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Klinikum Friedrichstadt / Dresden
+[2026-06-22 08:46:44] [DEDUP] Paare verglichen: 14111
+[2026-06-22 08:46:44] [DEDUP] Auto-Merges: 1
+[2026-06-22 08:46:44] [DEDUP] Kandidaten (unsicher): 398
+[2026-06-22 08:46:44] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Klinikum Friedrichstadt
+[2026-06-22 08:46:44] [DEDUP] Ergebnis: 692 Einträge (war: 693, 1 zusammengeführt)
+[2026-06-22 08:46:44] [DEDUP] Kandidaten-Datei: 398 pending, 2 confirmed, 0 rejected
+[2026-06-22 08:46:44] [DEDUP] Gespeichert: 693 → 692 Einträge
