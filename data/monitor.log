@@ -29964,3 +29964,46 @@
 [2026-06-22 08:46:44] [DEDUP] Ergebnis: 692 Einträge (war: 693, 1 zusammengeführt)
 [2026-06-22 08:46:44] [DEDUP] Kandidaten-Datei: 398 pending, 2 confirmed, 0 rejected
 [2026-06-22 08:46:44] [DEDUP] Gespeichert: 693 → 692 Einträge
+[2026-06-23 06:37:43] === Monitor-Lauf gestartet ===
+[2026-06-23 06:37:44] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-23 06:37:45] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-23 06:37:45] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-06-23 06:37:45] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-06-23 06:37:46] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-06-23 06:37:46] Feed 'gn_brand_klinik': 46 Einträge
+[2026-06-23 06:37:47] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-06-23 06:37:47] Feed 'gn_klinikbrand': 96 Einträge
+[2026-06-23 06:37:47] Feed 'gn_feuer_uniklinik': 41 Einträge
+[2026-06-23 06:37:48] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-06-23 06:37:49] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-23 06:37:49] 193 relevante Treffer in Feeds
+[2026-06-23 06:37:49] ✅ 2 NEUE Einträge gefunden:
+[2026-06-23 06:37:49]    16.04.2026 | Bochumer Krankenhaus gelegt |  | Feuer im Bochumer Krankenhaus gelegt: So hat das Landgericht
+[2026-06-23 06:37:49]    15.06.2026 | ins Krankenhaus |  | Feuer-Drama in Kleingarten: Sie wollten Feuer selbst löschen
+[2026-06-23 06:37:49] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-23 06:37:49] === Monitor-Lauf beendet ===
+
+[2026-06-23 06:37:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-23 06:37:50] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-23 06:37:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-23 06:37:50] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-23 06:37:50] [enrich] --- Enriche [1/2]: Feuer im Bochumer Krankenhaus gelegt: So hat das Landgericht
+[2026-06-23 06:37:50] [enrich] Google News URL aufgelöst (v1): https://www.waz.de/lokales/bochum/article411730923/feuer-im-bochumer-krankenhaus
+[2026-06-23 06:37:50] [enrich] Volltext extrahiert: 554 Zeichen von https://www.waz.de/lokales/bochum/article411730923/feuer-im-
+[2026-06-23 06:37:52] [enrich] Enrichment abgeschlossen: enriched — Martin-Luther-Krankenhaus Bochum in Bochum
+[2026-06-23 06:37:53] [enrich] --- Enriche [2/2]: Feuer-Drama in Kleingarten: Sie wollten Feuer selbst löschen
+[2026-06-23 06:37:54] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-drama-in-kleingarten-sie-wo
+[2026-06-23 06:37:54] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-drama-in-kleingarten-sie-wo
+[2026-06-23 06:37:54] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (593 Z.)
+[2026-06-23 06:37:55] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brand in einem Kleingarten, nicht in einem Krankenhaus. Personen kamen nach dem Brand ins Krankenhaus zur Behandlung, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-06-23 06:37:55] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-06-23 06:37:55] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-23 06:37:55] [DEDUP] Starte Dedup für 694 Einträge
+[2026-06-23 06:37:55] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-23 06:37:56] [DEDUP] Paare verglichen: 14164
+[2026-06-23 06:37:56] [DEDUP] Auto-Merges: 0
+[2026-06-23 06:37:56] [DEDUP] Kandidaten (unsicher): 397
+[2026-06-23 06:37:56] [DEDUP] Ergebnis: 694 Einträge (war: 694, 0 zusammengeführt)
+[2026-06-23 06:37:56] [DEDUP] Kandidaten-Datei: 397 pending, 2 confirmed, 0 rejected
+[2026-06-23 06:37:56] [DEDUP] Gespeichert: 694 → 694 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-22T08:46:44.021466",
+  "generated_at": "2026-06-23T06:37:56.721284",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1915,39 +1915,6 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Dresden",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
-        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Friedrichstadt",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.mdr.de/nachrichten/sachsen/dresden/audio-brand-klinikum-friedrichstadt-feuerwehr-100.html",
-        "titel": "Feuerwehrsprecher: Keine Gefahr für Patienten nach Brand im Klinikum Friedrichstadt - MDR.de"
       }
     },
     {
