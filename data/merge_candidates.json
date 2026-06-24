@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T06:37:56.721284",
+  "generated_at": "2026-06-24T06:34:37.211896",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -166,6 +166,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/der_tag/Feuer-in-Rostocker-Uniklinik-26-Jaehriger-tot-article26017436.html",
         "titel": "Der Tag: Feuer in Rostocker Uniklinik - 26-Jähriger tot - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
+        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.reportnet24.de/news/deutschland/18026-uelzen-feuerdrama-im-helios-klinikum-uelzen-vier-tote-und-zwei-dutzend-teils-schwerverletzte",
+        "titel": "reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier Tote und zwei Dutzend teils schwerverletzte - reportnet24.de"
       }
     },
     {
@@ -3902,6 +3935,39 @@
         "",
         ""
       ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Helios-Klinik Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "05.08.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/brand-krankenhaus-hettstedt-ermittlungen-brandstiftung-100.html",
+        "titel": "Zweiter Brand in Hettstedter Psychiatrie: Polizei ermittelt wegen Brandstiftung - MDR"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinik Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "02.07.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/audio-brand-hettstedt-klinik-100.html",
+        "titel": "Brand in Helios Klinik Hettstedt: Polizei geht von Brandstiftung aus - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.645,
       "details": {
         "datum": 0.3,
@@ -4159,6 +4225,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
         "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.6,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.6
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.reportnet24.de/news/deutschland/18026-uelzen-feuerdrama-im-helios-klinikum-uelzen-vier-tote-und-zwei-dutzend-teils-schwerverletzte",
+        "titel": "reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier Tote und zwei Dutzend teils schwerverletzte - reportnet24.de"
       }
     },
     {
@@ -12475,6 +12574,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
         "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.463,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.463
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "06.08.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mz.de/lokal/hettstedt/brand-feuer-krankenhaus-psychiatrie-feuerwehr-4093671",
+        "titel": "Mit Video: Feueralarm im Krankenhaus Hettstedt - 63 Menschen in Sicherheit gebracht - Mitteldeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinik Hettstedt",
+        "ort": "Hettstedt",
+        "datum": "02.07.2025",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/audio-brand-hettstedt-klinik-100.html",
+        "titel": "Brand in Helios Klinik Hettstedt: Polizei geht von Brandstiftung aus - MDR.de"
       }
     },
     {

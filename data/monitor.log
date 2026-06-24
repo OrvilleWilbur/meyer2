@@ -30007,3 +30007,65 @@
 [2026-06-23 06:37:56] [DEDUP] Ergebnis: 694 Einträge (war: 694, 0 zusammengeführt)
 [2026-06-23 06:37:56] [DEDUP] Kandidaten-Datei: 397 pending, 2 confirmed, 0 rejected
 [2026-06-23 06:37:56] [DEDUP] Gespeichert: 694 → 694 Einträge
+[2026-06-24 06:34:03] === Monitor-Lauf gestartet ===
+[2026-06-24 06:34:05] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-24 06:34:06] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-24 06:34:06] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-06-24 06:34:06] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-06-24 06:34:07] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-06-24 06:34:07] Feed 'gn_brand_klinik': 48 Einträge
+[2026-06-24 06:34:08] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-06-24 06:34:09] Feed 'gn_klinikbrand': 99 Einträge
+[2026-06-24 06:34:09] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-06-24 06:34:09] Feed 'gn_evakuierung_klinik': 48 Einträge
+[2026-06-24 06:34:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-24 06:34:10] 201 relevante Treffer in Feeds
+[2026-06-24 06:34:10] ✅ 5 NEUE Einträge gefunden:
+[2026-06-24 06:34:10]    18.06.2026 | Harzklinikum |  | Dramatischer Brand im Harzklinikum: Personal kämpft mit den 
+[2026-06-24 06:34:10]    21.02.2024 | im Krankenhaus |  | Amazon in NRW: Feuer in Versandlager ausgebrochen – ein Mita
+[2026-06-24 06:34:10]    21.06.2026 | in Klinik |  | Feuer in Garage in Somplar: Rettungshubschrauber bringt Schw
+[2026-06-24 06:34:10]    02.07.2025 | Helios Klinik Hettstedt |  | Brand in Helios Klinik Hettstedt: Polizei geht von Brandstif
+[2026-06-24 06:34:10]    05.01.2024 | Helios Klinikum Uelzen |  | reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier
+[2026-06-24 06:34:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-24 06:34:10] === Monitor-Lauf beendet ===
+
+[2026-06-24 06:34:11] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-24 06:34:11] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-24 06:34:11] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-24 06:34:11] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-24 06:34:11] [enrich] --- Enriche [1/5]: Dramatischer Brand im Harzklinikum: Personal kämpft mit den 
+[2026-06-24 06:34:12] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz/news-psychiatrie-br
+[2026-06-24 06:34:13] [enrich] Volltext extrahiert: 4452 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/harz
+[2026-06-24 06:34:17] [enrich] Enrichment abgeschlossen: enriched — Harzklinikum Blankenburg in Blankenburg
+[2026-06-24 06:34:18] [enrich] --- Enriche [2/5]: Amazon in NRW: Feuer in Versandlager ausgebrochen – ein Mita
+[2026-06-24 06:34:18] [enrich] Google News URL aufgelöst (v1): https://www.derwesten.de/region/nrw-amazon-brand-witten-feuerwehr-verletzte-id30
+[2026-06-24 06:34:19] [enrich] Volltext extrahiert: 2390 Zeichen von https://www.derwesten.de/region/nrw-amazon-brand-witten-feue
+[2026-06-24 06:34:22] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich bei Amazon-Logistikzentrum in Witten, nicht in einem Krankenhaus. Ein Mitarbeiter wurde nach dem Brand zur Beobachtung ins Krankenhaus gebracht, aber das Feuer brannte nicht im Krankenhaus selbst.
+[2026-06-24 06:34:23] [enrich] --- Enriche [3/5]: Feuer in Garage in Somplar: Rettungshubschrauber bringt Schw
+[2026-06-24 06:34:23] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-garage-in-somplar-rettun
+[2026-06-24 06:34:23] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-garage-in-somplar-rettun
+[2026-06-24 06:34:23] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (582 Z.)
+[2026-06-24 06:34:25] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Garage (nicht in einem Krankenhaus). Ein Schwerverletzter wird anschließend mit einem Rettungshubschrauber in eine Klinik gebracht - dies ist eine Einlieferung nach einem externen Brand, kein Brand im Krankenhaus selbst.
+[2026-06-24 06:34:26] [enrich] --- Enriche [4/5]: Brand in Helios Klinik Hettstedt: Polizei geht von Brandstif
+[2026-06-24 06:34:27] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/audio-brand-hettste
+[2026-06-24 06:34:28] [enrich] Volltext extrahiert: 203 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld
+[2026-06-24 06:34:30] [enrich] Enrichment abgeschlossen: enriched — Helios Klinik Hettstedt in Hettstedt
+[2026-06-24 06:34:31] [enrich] --- Enriche [5/5]: reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier
+[2026-06-24 06:34:32] [enrich] Google News URL aufgelöst (v1): https://www.reportnet24.de/news/deutschland/18026-uelzen-feuerdrama-im-helios-kl
+[2026-06-24 06:34:33] [enrich] Volltext extrahiert: 1085 Zeichen von https://www.reportnet24.de/news/deutschland/18026-uelzen-feu
+[2026-06-24 06:34:35] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen in Uelzen
+[2026-06-24 06:34:35] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-06-24 06:34:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-24 06:34:36] [DEDUP] Starte Dedup für 699 Einträge
+[2026-06-24 06:34:36] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-24 06:34:36] [DEDUP] Auto-Merge (0.86): Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen / Uelzen
+[2026-06-24 06:34:37] [DEDUP] Auto-Merge (0.95): Harzklinikum / Blankenburg ↔ Harzklinikum Blankenburg / Blankenburg
+[2026-06-24 06:34:37] [DEDUP] Paare verglichen: 14233
+[2026-06-24 06:34:37] [DEDUP] Auto-Merges: 2
+[2026-06-24 06:34:37] [DEDUP] Kandidaten (unsicher): 401
+[2026-06-24 06:34:37] [DEDUP] Cluster 2x: Klinikum Uelzen, Klinikum Uelzen
+[2026-06-24 06:34:37] [DEDUP] Cluster 2x: Harzklinikum, Harzklinikum Blankenburg
+[2026-06-24 06:34:37] [DEDUP] Ergebnis: 697 Einträge (war: 699, 2 zusammengeführt)
+[2026-06-24 06:34:37] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
+[2026-06-24 06:34:37] [DEDUP] Gespeichert: 699 → 697 Einträge
