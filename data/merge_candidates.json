@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T06:34:37.211896",
+  "generated_at": "2026-06-25T06:38:32.480019",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -166,39 +166,6 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/der_tag/Feuer-in-Rostocker-Uniklinik-26-Jaehriger-tot-article26017436.html",
         "titel": "Der Tag: Feuer in Rostocker Uniklinik - 26-Jähriger tot - Ntv"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
-        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.reportnet24.de/news/deutschland/18026-uelzen-feuerdrama-im-helios-klinikum-uelzen-vier-tote-und-zwei-dutzend-teils-schwerverletzte",
-        "titel": "reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier Tote und zwei Dutzend teils schwerverletzte - reportnet24.de"
       }
     },
     {
@@ -4232,39 +4199,6 @@
         "",
         ""
       ],
-      "score": 0.6,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.8,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.6
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "12.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
-        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Uelzen",
-        "ort": "Uelzen",
-        "datum": "04.01.2024",
-        "bundesland": "Niedersachsen",
-        "status": "enriched",
-        "link": "https://www.reportnet24.de/news/deutschland/18026-uelzen-feuerdrama-im-helios-klinikum-uelzen-vier-tote-und-zwei-dutzend-teils-schwerverletzte",
-        "titel": "reportnet24.de - Feuerdrama im Helios Klinikum Uelzen – Vier Tote und zwei Dutzend teils schwerverletzte - reportnet24.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.595,
       "details": {
         "datum": 1.0,
@@ -4390,6 +4324,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.555,
+      "details": {
+        "datum": 0.0,
+        "ort": 0.85,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.555
+      },
+      "entry_a": {
+        "einrichtung": "Marienhospital Düsseldorf",
+        "ort": "Düsseldorf-Pempelfort",
+        "datum": "12.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/duesseldorf-brand-in-krankenhaus-ein-toter-und-viele-verletzte-bei-feuer-in-marienhospital_aid-45721127",
+        "titel": "Vier Menschen in Lebensgefahr Ein Toter und viele Verletzte bei Brand in Düsseldorfer Marienhospital - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Marien-Hospital",
+        "ort": "Düsseldorf",
+        "datum": "09.09.2019",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/ursache-noch-unklar-patient-stirbt-bei-brand-in-duesseldorfer-klinik-16376925.html",
+        "titel": "Ursache noch unklar: Patient stirbt bei Brand in Düsseldorfer Klinik - FAZ"
       }
     },
     {
@@ -11459,6 +11426,39 @@
         "",
         ""
       ],
+      "score": 0.508,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.508
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmannsheil",
+        "ort": "Bochum",
+        "datum": "04.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
+        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Bochum (Bergmannsheil)",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html",
+        "titel": "Brand in Bochumer Klinik: Mindestens zwei Tote und viele Verletzte | BR24 | BR.de - BR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.5,
       "details": {
         "datum": 1.0,
@@ -12475,6 +12475,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.488,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.488
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Bergmansheil Bochum",
+        "ort": "Bochum",
+        "datum": "05.10.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
+        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Bochum (Bergmannsheil)",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html",
+        "titel": "Brand in Bochumer Klinik: Mindestens zwei Tote und viele Verletzte | BR24 | BR.de - BR"
       }
     },
     {

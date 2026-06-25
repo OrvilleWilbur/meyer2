@@ -30069,3 +30069,69 @@
 [2026-06-24 06:34:37] [DEDUP] Ergebnis: 697 Einträge (war: 699, 2 zusammengeführt)
 [2026-06-24 06:34:37] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
 [2026-06-24 06:34:37] [DEDUP] Gespeichert: 699 → 697 Einträge
+[2026-06-25 06:37:54] === Monitor-Lauf gestartet ===
+[2026-06-25 06:37:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-25 06:37:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-25 06:37:57] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-06-25 06:37:57] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-06-25 06:37:58] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-06-25 06:37:58] Feed 'gn_brand_klinik': 49 Einträge
+[2026-06-25 06:37:58] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-06-25 06:37:59] Feed 'gn_klinikbrand': 99 Einträge
+[2026-06-25 06:37:59] Feed 'gn_feuer_uniklinik': 57 Einträge
+[2026-06-25 06:38:00] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-06-25 06:38:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-25 06:38:01] 212 relevante Treffer in Feeds
+[2026-06-25 06:38:01] ✅ 6 NEUE Einträge gefunden:
+[2026-06-25 06:38:01]    11.06.2026 | in Klinik gebracht |  | Nürnberg: Hausbrand in Südstadt - Säugling und weitere Perso
+[2026-06-25 06:38:01]    10.09.2019 | Düsseldorfer Klinik |  | Ursache noch unklar: Patient stirbt bei Brand in Düsseldorfe
+[2026-06-25 06:38:01]    17.07.2017 |  |  | Klinik Großhadern: Akku soll Brand ausgelöst haben - SZ.de
+[2026-06-25 06:38:01]    30.09.2016 | Bochumer Klinik |  | Brand in Bochumer Klinik: Mindestens zwei Tote und viele Ver
+[2026-06-25 06:38:01]    26.06.2019 |  |  | UKE-Feuer: Mutmaßlicher Brandstifter wieder in Psychiatrie -
+[2026-06-25 06:38:01]    11.02.2026 | Uniklinik Aachen |  | Crans-Montana: Brandopfer aus Uniklinik Aachen in die Schwei
+[2026-06-25 06:38:01] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-25 06:38:01] === Monitor-Lauf beendet ===
+
+[2026-06-25 06:38:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-25 06:38:02] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-25 06:38:02] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-25 06:38:02] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-25 06:38:02] [enrich] --- Enriche [1/6]: Nürnberg: Hausbrand in Südstadt - Säugling und weitere Perso
+[2026-06-25 06:38:03] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-hausbrand-in-suedstadt
+[2026-06-25 06:38:04] [enrich] Volltext extrahiert: 4006 Zeichen von https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-ha
+[2026-06-25 06:38:06] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (Wohngebäude), nicht in einem Krankenhaus. Zwei Bewohner wurden nach dem Brand zur Beobachtung ins Krankenhaus gebracht, aber das ist eine Einlieferung nach einem Wohnungsbrand, kein Brand im Krankenhaus selbst.
+[2026-06-25 06:38:07] [enrich] --- Enriche [2/6]: Ursache noch unklar: Patient stirbt bei Brand in Düsseldorfe
+[2026-06-25 06:38:07] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/ursache-noch-unklar-patient-s
+[2026-06-25 06:38:09] [enrich] Volltext extrahiert: 2465 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/ursache-n
+[2026-06-25 06:38:12] [enrich] Enrichment abgeschlossen: enriched — Marien-Hospital in Düsseldorf
+[2026-06-25 06:38:13] [enrich] --- Enriche [3/6]: Klinik Großhadern: Akku soll Brand ausgelöst haben - SZ.de
+[2026-06-25 06:38:13] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/muenchen/hadern-klinik-grosshadern-akku-soll-brand-a
+[2026-06-25 06:38:13] [enrich] Volltext extrahiert: 1948 Zeichen von https://www.sueddeutsche.de/muenchen/hadern-klinik-grosshade
+[2026-06-25 06:38:16] [enrich] Enrichment abgeschlossen: enriched — Klinikum Großhadern (Münchner Universitätsklinikum) in München
+[2026-06-25 06:38:17] [enrich] --- Enriche [4/6]: Brand in Bochumer Klinik: Mindestens zwei Tote und viele Ver
+[2026-06-25 06:38:18] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html
+[2026-06-25 06:38:19] [enrich] Volltext extrahiert: 1544 Zeichen von https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.htm
+[2026-06-25 06:38:22] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bochum (Bergmannsheil) in Bochum
+[2026-06-25 06:38:23] [enrich] --- Enriche [5/6]: UKE-Feuer: Mutmaßlicher Brandstifter wieder in Psychiatrie -
+[2026-06-25 06:38:23] [enrich] Google News URL aufgelöst (v1): https://www.abendblatt.de/hamburg/polizeimeldungen/article226301441/Feuer-in-UKE
+[2026-06-25 06:38:23] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.abendblatt.de/hamburg/polizeimeldungen/article22
+[2026-06-25 06:38:26] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Hamburg-Eppendorf (UKE) in Hamburg
+[2026-06-25 06:38:27] [enrich] --- Enriche [6/6]: Crans-Montana: Brandopfer aus Uniklinik Aachen in die Schwei
+[2026-06-25 06:38:27] [enrich] Google News URL aufgelöst (v1): https://www.watson.ch/schweiz/crans-montana/726527759-crans-montana-brandopfer-w
+[2026-06-25 06:38:29] [enrich] Volltext extrahiert: 2700 Zeichen von https://www.watson.ch/schweiz/crans-montana/726527759-crans-
+[2026-06-25 06:38:30] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die Uniklinik Aachen wird nur erwähnt, weil sie ein Brandopfer zur Behandlung aufnahm, nicht weil dort ein Brand stattfand.
+[2026-06-25 06:38:30] [enrich] Ergebnis: 4 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-06-25 06:38:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-25 06:38:31] [DEDUP] Starte Dedup für 703 Einträge
+[2026-06-25 06:38:31] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-25 06:38:31] [DEDUP] Auto-Merge (0.87): Marienhospital / Düsseldorf ↔ Marien-Hospital / Düsseldorf
+[2026-06-25 06:38:32] [DEDUP] Auto-Merge (0.95): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bochum (Bergmannshe / Bochum
+[2026-06-25 06:38:32] [DEDUP] Paare verglichen: 14409
+[2026-06-25 06:38:32] [DEDUP] Auto-Merges: 2
+[2026-06-25 06:38:32] [DEDUP] Kandidaten (unsicher): 402
+[2026-06-25 06:38:32] [DEDUP] Cluster 2x: Marienhospital, Marien-Hospital
+[2026-06-25 06:38:32] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bochum (Bergmannshe
+[2026-06-25 06:38:32] [DEDUP] Ergebnis: 701 Einträge (war: 703, 2 zusammengeführt)
+[2026-06-25 06:38:32] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
+[2026-06-25 06:38:32] [DEDUP] Gespeichert: 703 → 701 Einträge
