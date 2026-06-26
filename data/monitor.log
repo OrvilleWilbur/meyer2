@@ -30135,3 +30135,65 @@
 [2026-06-25 06:38:32] [DEDUP] Ergebnis: 701 Einträge (war: 703, 2 zusammengeführt)
 [2026-06-25 06:38:32] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
 [2026-06-25 06:38:32] [DEDUP] Gespeichert: 703 → 701 Einträge
+[2026-06-26 06:41:09] === Monitor-Lauf gestartet ===
+[2026-06-26 06:41:10] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-26 06:41:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-26 06:41:11] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-06-26 06:41:11] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-06-26 06:41:12] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-06-26 06:41:12] Feed 'gn_brand_klinik': 51 Einträge
+[2026-06-26 06:41:13] Feed 'gn_brand_klinikum': 47 Einträge
+[2026-06-26 06:41:13] Feed 'gn_klinikbrand': 100 Einträge
+[2026-06-26 06:41:13] Feed 'gn_feuer_uniklinik': 42 Einträge
+[2026-06-26 06:41:14] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-06-26 06:41:15] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-26 06:41:15] 224 relevante Treffer in Feeds
+[2026-06-26 06:41:15] ✅ 5 NEUE Einträge gefunden:
+[2026-06-26 06:41:15]    24.06.2026 | ins Krankenhaus gebracht |  | Garagenbrand in der Gellertstraße – zwei Personen ins Kranke
+[2026-06-26 06:41:15]    25.06.2026 | in Klinik |  | Feuerwehreinsatz: Feuer in Pflegeheim - Bewohner stirbt in K
+[2026-06-26 06:41:15]    19.03.2026 | in Klinikum Friedrichstadt sorgt für Stromschwankungen |  | Brand in Klinikum Friedrichstadt sorgt für Stromschwankungen
+[2026-06-26 06:41:15]    19.03.2026 | Dresdner Klinikum |  | Nach Brand in Dresdner Klinikum: Gleich mehrere Ampeln lahmg
+[2026-06-26 06:41:15]    31.10.2024 | im Krankenhaus |  | Feueralarm im Krankenhaus - Evakuierung läuft - 112-magazin
+[2026-06-26 06:41:15] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-26 06:41:15] === Monitor-Lauf beendet ===
+
+[2026-06-26 06:41:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-26 06:41:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-26 06:41:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-26 06:41:16] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-26 06:41:16] [enrich] --- Enriche [1/5]: Garagenbrand in der Gellertstraße – zwei Personen ins Kranke
+[2026-06-26 06:41:17] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/garagenbrand-in-der-gellertstra%C
+[2026-06-26 06:41:17] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/garagenbrand-in-der-gellertstra%C
+[2026-06-26 06:41:17] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (559 Z.)
+[2026-06-26 06:41:18] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Garagenbrand, bei dem zwei Personen zur Behandlung ins Krankenhaus gebracht wurden. Dies ist kein Brand IN einem Krankenhaus, sondern ein Wohnungsbrand/Garagenbrand, nach dem Verletzte in eine Klinik eingeliefert wurden.
+[2026-06-26 06:41:19] [enrich] --- Enriche [2/5]: Feuerwehreinsatz: Feuer in Pflegeheim - Bewohner stirbt in K
+[2026-06-26 06:41:19] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/sachsen-anhalt/feuerwehreinsatz--feue
+[2026-06-26 06:41:20] [enrich] Volltext extrahiert: 1660 Zeichen von https://www.stern.de/gesellschaft/regional/sachsen-anhalt/fe
+[2026-06-26 06:41:22] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einem Pflegeheim, nicht in einem Krankenhaus/einer Klinik. Der Bewohner wurde nach dem Brand ins Krankenhaus gebracht und verstarb dort, aber der Brand selbst war nicht im Krankenhaus.
+[2026-06-26 06:41:23] [enrich] --- Enriche [3/5]: Brand in Klinikum Friedrichstadt sorgt für Stromschwankungen
+[2026-06-26 06:41:23] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/audio-brand-klinikum-friedrichsta
+[2026-06-26 06:41:24] [enrich] Volltext extrahiert: 401 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/audio-brand-k
+[2026-06-26 06:41:26] [enrich] Enrichment abgeschlossen: enriched — Klinikum Friedrichstadt in Dresden
+[2026-06-26 06:41:27] [enrich] --- Enriche [4/5]: Nach Brand in Dresdner Klinikum: Gleich mehrere Ampeln lahmg
+[2026-06-26 06:41:27] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/lokales/nach-brand-in-dresdner-klinikum-gleich-mehr
+[2026-06-26 06:41:28] [enrich] Volltext extrahiert: 2315 Zeichen von https://www.tag24.de/dresden/lokales/nach-brand-in-dresdner-
+[2026-06-26 06:41:30] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-06-26 06:41:31] [enrich] --- Enriche [5/5]: Feueralarm im Krankenhaus - Evakuierung läuft - 112-magazin
+[2026-06-26 06:41:31] [enrich] Google News URL aufgelöst (v1): https://112-magazin.de/waldeck-frankenberg/kb-feuerwehr/item/37960-feueralarm-im
+[2026-06-26 06:41:33] [enrich] Volltext extrahiert: 1653 Zeichen von https://112-magazin.de/waldeck-frankenberg/kb-feuerwehr/item
+[2026-06-26 06:41:36] [enrich] Enrichment abgeschlossen: enriched — Kreiskrankenhaus Frankenberg in Frankenberg
+[2026-06-26 06:41:36] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-06-26 06:41:36] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-26 06:41:36] [DEDUP] Starte Dedup für 706 Einträge
+[2026-06-26 06:41:36] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-26 06:41:37] [DEDUP] Auto-Merge (0.82): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Klinikum Friedrichstadt / Dresden
+[2026-06-26 06:41:37] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-06-26 06:41:37] [DEDUP] Auto-Merge (0.90): Klinikum Friedrichstadt / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-06-26 06:41:37] [DEDUP] Paare verglichen: 14509
+[2026-06-26 06:41:37] [DEDUP] Auto-Merges: 3
+[2026-06-26 06:41:37] [DEDUP] Kandidaten (unsicher): 402
+[2026-06-26 06:41:37] [DEDUP] Cluster 3x: Städtisches Klinikum Dresden-Friedrichst, Klinikum Friedrichstadt, Städtisches Klinikum Friedrichstadt
+[2026-06-26 06:41:37] [DEDUP] Ergebnis: 704 Einträge (war: 706, 2 zusammengeführt)
+[2026-06-26 06:41:37] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
+[2026-06-26 06:41:37] [DEDUP] Gespeichert: 706 → 704 Einträge
