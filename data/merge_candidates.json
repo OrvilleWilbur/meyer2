@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T06:41:37.760340",
+  "generated_at": "2026-06-27T06:19:30.430050",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1948,72 +1948,6 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Dresden",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
-        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Friedrichstadt",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen/dresden/audio-brand-klinikum-friedrichstadt-stromausfall-100.html",
-        "titel": "Brand in Klinikum Friedrichstadt sorgt für Stromschwankungen - MDR.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Dresden",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
-        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
-      },
-      "entry_b": {
-        "einrichtung": "Städtisches Klinikum Friedrichstadt",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.tag24.de/dresden/lokales/nach-brand-in-dresdner-klinikum-gleich-mehrere-ampeln-lahmgelegt-3482033",
-        "titel": "Nach Brand in Dresdner Klinikum: Gleich mehrere Ampeln lahmgelegt - TAG24"
       }
     },
     {
@@ -11353,6 +11287,39 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
         "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "25.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/sachsen-anhalt/feuerwehreinsatz--feuer-in-pflegeheim---bewohner-stirbt-in-klinik-37599240.html",
+        "titel": "Feuerwehreinsatz: Feuer in Pflegeheim - Bewohner stirbt in Klinik - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "25.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-pflegeheim-bewohner-stirbt-in-klinik/ar-AA26uzQ6",
+        "titel": "Feuer in Pflegeheim - Bewohner stirbt in Klinik - MSN"
       }
     },
     {

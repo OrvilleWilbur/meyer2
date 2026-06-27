@@ -30197,3 +30197,68 @@
 [2026-06-26 06:41:37] [DEDUP] Ergebnis: 704 Einträge (war: 706, 2 zusammengeführt)
 [2026-06-26 06:41:37] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
 [2026-06-26 06:41:37] [DEDUP] Gespeichert: 706 → 704 Einträge
+[2026-06-27 06:19:00] === Monitor-Lauf gestartet ===
+[2026-06-27 06:19:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-27 06:19:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-27 06:19:03] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-06-27 06:19:03] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-06-27 06:19:03] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-06-27 06:19:04] Feed 'gn_brand_klinik': 49 Einträge
+[2026-06-27 06:19:04] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-06-27 06:19:05] Feed 'gn_klinikbrand': 98 Einträge
+[2026-06-27 06:19:05] Feed 'gn_feuer_uniklinik': 42 Einträge
+[2026-06-27 06:19:05] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-06-27 06:19:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-27 06:19:06] 221 relevante Treffer in Feeds
+[2026-06-27 06:19:06] ✅ 6 NEUE Einträge gefunden:
+[2026-06-27 06:19:06]    24.06.2026 | im Krankenhaus |  | Schwer verletzte Person nach Brand in Jevenstedt im Krankenh
+[2026-06-27 06:19:06]    26.06.2026 | im Krankenhaus |  | Brand in Mehrfamilienhaus in Neustadt in Sachsen: Drei Verle
+[2026-06-27 06:19:06]    25.06.2026 | in Klinik |  | Feuer in Pflegeheim - Bewohner stirbt in Klinik - MSN
+[2026-06-27 06:19:06]    19.12.2023 | pfälzischer Klinik |  | Verheerender Brand in pfälzischer Klinik - zwei Tote gefunde
+[2026-06-27 06:19:06]    09.10.2024 | der Kliniken nach Plan |  | Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-06-27 06:19:06]    11.11.2023 | Al-Schifa-Klinik |  | Israel: Helfen Sonntag bei Evakuierung von Babys aus Al-Schi
+[2026-06-27 06:19:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-27 06:19:06] === Monitor-Lauf beendet ===
+
+[2026-06-27 06:19:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-27 06:19:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-27 06:19:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-27 06:19:07] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-27 06:19:07] [enrich] --- Enriche [1/6]: Schwer verletzte Person nach Brand in Jevenstedt im Krankenh
+[2026-06-27 06:19:07] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/schwer-verletzte-person-nach-bran
+[2026-06-27 06:19:07] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/schwer-verletzte-person-nach-bran
+[2026-06-27 06:19:07] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (570 Z.)
+[2026-06-27 06:19:09] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt, dass eine Person nach einem Brand in Jevenstedt ins Krankenhaus gebracht wurde. Es handelt sich um einen Brand außerhalb eines Krankenhauses (Wohnungsbrand oder ähnliches in Jevenstedt), nicht um einen Brand im Krankenhaus selbst.
+[2026-06-27 06:19:10] [enrich] --- Enriche [2/6]: Brand in Mehrfamilienhaus in Neustadt in Sachsen: Drei Verle
+[2026-06-27 06:19:10] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-in-neus
+[2026-06-27 06:19:10] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/brand-in-mehrfamilienhaus-in-neus
+[2026-06-27 06:19:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (586 Z.)
+[2026-06-27 06:19:12] [enrich] FALSE POSITIVE erkannt: Brand in Mehrfamilienhaus, nicht in Krankenhaus/Klinik. Verletzte werden danach ins Krankenhaus gebracht, aber der Brand selbst findet nicht in der medizinischen Einrichtung statt.
+[2026-06-27 06:19:13] [enrich] --- Enriche [3/6]: Feuer in Pflegeheim - Bewohner stirbt in Klinik - MSN
+[2026-06-27 06:19:13] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-pflegeheim-bewohner-stir
+[2026-06-27 06:19:13] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-pflegeheim-bewohner-stir
+[2026-06-27 06:19:13] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (448 Z.)
+[2026-06-27 06:19:14] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einem Pflegeheim, nicht in einem Krankenhaus/einer Klinik. Die Erwähnung der Klinik bezieht sich nur auf die Behandlung/den Tod eines Bewohners nach dem Brand, nicht auf den Brand selbst.
+[2026-06-27 06:19:15] [enrich] --- Enriche [4/6]: Verheerender Brand in pfälzischer Klinik - zwei Tote gefunde
+[2026-06-27 06:19:16] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/drei-personen-schwer-verletzt-brand-in-stadtk
+[2026-06-27 06:19:17] [enrich] Volltext extrahiert: 2694 Zeichen von https://www.focus.de/panorama/welt/drei-personen-schwer-verl
+[2026-06-27 06:19:21] [enrich] Enrichment abgeschlossen: enriched — Stadtklinik Frankenthal in Frankenthal
+[2026-06-27 06:19:22] [enrich] --- Enriche [5/6]: Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-06-27 06:19:22] [enrich] Google News URL aufgelöst (v1): https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suche-nach-blindgaenger
+[2026-06-27 06:19:24] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suc
+[2026-06-27 06:19:25] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand. Der Artikel behandelt einen Bombenfund und die daraus resultierende Evakuierung von Krankenhäusern, nicht einen Brand in einer medizinischen Einrichtung.
+[2026-06-27 06:19:26] [enrich] --- Enriche [6/6]: Israel: Helfen Sonntag bei Evakuierung von Babys aus Al-Schi
+[2026-06-27 06:19:27] [enrich] Google News URL aufgelöst (v1): https://kurier.at/politik/ausland/israel-helfen-sonntag-bei-evakuierung-von-baby
+[2026-06-27 06:19:27] [enrich] Volltext extrahiert: 5000 Zeichen von https://kurier.at/politik/ausland/israel-helfen-sonntag-bei-
+[2026-06-27 06:19:28] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt Beschuss und militärische Konflikte um ein Krankenhaus im Gazastreifen (Ausland), nicht einen Brand in einem deutschen Krankenhaus. Zudem handelt es sich um ein ausländisches Krankenhaus außerhalb Deutschlands.
+[2026-06-27 06:19:29] [enrich] Ergebnis: 1 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-06-27 06:19:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-27 06:19:29] [DEDUP] Starte Dedup für 710 Einträge
+[2026-06-27 06:19:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-27 06:19:30] [DEDUP] Paare verglichen: 14687
+[2026-06-27 06:19:30] [DEDUP] Auto-Merges: 0
+[2026-06-27 06:19:30] [DEDUP] Kandidaten (unsicher): 401
+[2026-06-27 06:19:30] [DEDUP] Ergebnis: 710 Einträge (war: 710, 0 zusammengeführt)
+[2026-06-27 06:19:30] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
+[2026-06-27 06:19:30] [DEDUP] Gespeichert: 710 → 710 Einträge
