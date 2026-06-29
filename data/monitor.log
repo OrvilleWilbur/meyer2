@@ -30299,3 +30299,46 @@
 [2026-06-28 06:51:52] [DEDUP] Ergebnis: 711 Einträge (war: 711, 0 zusammengeführt)
 [2026-06-28 06:51:52] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
 [2026-06-28 06:51:52] [DEDUP] Gespeichert: 711 → 711 Einträge
+[2026-06-29 07:19:31] === Monitor-Lauf gestartet ===
+[2026-06-29 07:19:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-29 07:19:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-29 07:19:33] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-06-29 07:19:33] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-06-29 07:19:34] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-06-29 07:19:34] Feed 'gn_brand_klinik': 46 Einträge
+[2026-06-29 07:19:35] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-06-29 07:19:35] Feed 'gn_klinikbrand': 97 Einträge
+[2026-06-29 07:19:35] Feed 'gn_feuer_uniklinik': 12 Einträge
+[2026-06-29 07:19:36] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-06-29 07:19:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-29 07:19:37] 184 relevante Treffer in Feeds
+[2026-06-29 07:19:37] ✅ 2 NEUE Einträge gefunden:
+[2026-06-29 07:19:37]    27.06.2026 | ins Krankenhaus |  | Eberndorf: Platzwart musste nach Brand auf FKK-Gelände ins K
+[2026-06-29 07:19:37]    15.04.2026 | Wiesbadener Klinik |  | Feuer in Wiesbadener Klinik: Container brennt in Lagerraum -
+[2026-06-29 07:19:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-29 07:19:37] === Monitor-Lauf beendet ===
+
+[2026-06-29 07:19:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-29 07:19:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-29 07:19:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-29 07:19:38] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-29 07:19:38] [enrich] --- Enriche [1/2]: Eberndorf: Platzwart musste nach Brand auf FKK-Gelände ins K
+[2026-06-29 07:19:38] [enrich] Google News URL aufgelöst (v1): https://www.kleinezeitung.at/artikel/33395616/platzwart-musste-nach-brand-auf-fk
+[2026-06-29 07:19:40] [enrich] Volltext extrahiert: 1281 Zeichen von https://www.kleinezeitung.at/artikel/33395616/platzwart-muss
+[2026-06-29 07:19:41] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich auf einem FKK-Campingplatz (Mobile Home), nicht in einem Krankenhaus. Eine Person musste nach dem Brand ins Krankenhaus gebracht werden, aber das ist keine Krankenhausbrand-Situation.
+[2026-06-29 07:19:42] [enrich] --- Enriche [2/2]: Feuer in Wiesbadener Klinik: Container brennt in Lagerraum -
+[2026-06-29 07:19:42] [enrich] Google News URL aufgelöst (v1): https://merkurist.de/wiesbaden/feuerwehr-wiesbaden-feuer-in-wiesbadener-klinik-c
+[2026-06-29 07:19:44] [enrich] Kein Artikeltext extrahierbar für https://merkurist.de/wiesbaden/feuerwehr-wiesbaden-feuer-in-wiesbadener-klinik-c
+[2026-06-29 07:19:44] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (513 Z.)
+[2026-06-29 07:19:47] [enrich] Enrichment abgeschlossen: partial — Klinik Wiesbaden (genaue Bezeichnung nicht im Titel angegeben) in Wiesbaden
+[2026-06-29 07:19:47] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-06-29 07:19:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-29 07:19:47] [DEDUP] Starte Dedup für 713 Einträge
+[2026-06-29 07:19:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-29 07:19:48] [DEDUP] Paare verglichen: 14753
+[2026-06-29 07:19:48] [DEDUP] Auto-Merges: 0
+[2026-06-29 07:19:48] [DEDUP] Kandidaten (unsicher): 401
+[2026-06-29 07:19:48] [DEDUP] Ergebnis: 713 Einträge (war: 713, 0 zusammengeführt)
+[2026-06-29 07:19:48] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
+[2026-06-29 07:19:48] [DEDUP] Gespeichert: 713 → 713 Einträge
