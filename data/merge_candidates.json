@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T07:19:48.854919",
+  "generated_at": "2026-06-30T06:43:41.051138",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -9505,6 +9505,39 @@
         "status": "false_positive",
         "link": "https://www.ivz-aktuell.de/articles/375257/so-bereitet-sich-die-klinik-auf-die-evakuierung-vor",
         "titel": "So bereitet sich die Klinik auf die Evakuierung vor - ivz-aktuell.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "der Kliniken nach Plan",
+        "ort": "",
+        "datum": "09.10.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suche-nach-blindgaengern-in-merheim-gestartet-groesste-evakuierung-seit-dem-zweiten-weltkrieg-876595",
+        "titel": "Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anwohnende müssen Freitag raus - Rundschau Online"
+      },
+      "entry_b": {
+        "einrichtung": "der Kliniken nach Plan",
+        "ort": "",
+        "datum": "09.10.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suche-nach-blindgaengern-in-merheim-gestartet-groesste-evakuierung-seit-dem-zweiten-weltkrieg-876595",
+        "titel": "Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anwohnende müssen Freitag raus - Kölnische Rundschau"
       }
     },
     {

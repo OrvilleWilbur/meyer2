@@ -30342,3 +30342,45 @@
 [2026-06-29 07:19:48] [DEDUP] Ergebnis: 713 Einträge (war: 713, 0 zusammengeführt)
 [2026-06-29 07:19:48] [DEDUP] Kandidaten-Datei: 401 pending, 2 confirmed, 0 rejected
 [2026-06-29 07:19:48] [DEDUP] Gespeichert: 713 → 713 Einträge
+[2026-06-30 06:43:23] === Monitor-Lauf gestartet ===
+[2026-06-30 06:43:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-06-30 06:43:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-06-30 06:43:25] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-06-30 06:43:25] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-06-30 06:43:26] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-06-30 06:43:26] Feed 'gn_brand_klinik': 44 Einträge
+[2026-06-30 06:43:26] Feed 'gn_brand_klinikum': 13 Einträge
+[2026-06-30 06:43:27] Feed 'gn_klinikbrand': 95 Einträge
+[2026-06-30 06:43:27] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-06-30 06:43:28] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-06-30 06:43:28] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-06-30 06:43:28] 175 relevante Treffer in Feeds
+[2026-06-30 06:43:28] ✅ 2 NEUE Einträge gefunden:
+[2026-06-30 06:43:28]    29.03.2024 | Asklepios Klinik |  | Brand in Göttingen: Vier Verletzte bei Feuer in psychiatrisc
+[2026-06-30 06:43:28]    09.10.2024 | der Kliniken nach Plan |  | Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-06-30 06:43:28] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-06-30 06:43:28] === Monitor-Lauf beendet ===
+
+[2026-06-30 06:43:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-06-30 06:43:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-06-30 06:43:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-06-30 06:43:29] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-06-30 06:43:29] [enrich] --- Enriche [1/2]: Brand in Göttingen: Vier Verletzte bei Feuer in psychiatrisc
+[2026-06-30 06:43:30] [enrich] Google News URL aufgelöst (v1): https://www.nwzonline.de/panorama/brand-in-goettingen-vier-verletzte-bei-feuer-i
+[2026-06-30 06:43:31] [enrich] Volltext extrahiert: 2521 Zeichen von https://www.nwzonline.de/panorama/brand-in-goettingen-vier-v
+[2026-06-30 06:43:35] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik (psychiatrische Klinik) in Göttingen
+[2026-06-30 06:43:36] [enrich] --- Enriche [2/2]: Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-06-30 06:43:37] [enrich] Google News URL aufgelöst (v1): https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suche-nach-blindgaenger
+[2026-06-30 06:43:37] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suc
+[2026-06-30 06:43:39] [enrich] FALSE POSITIVE erkannt: Es handelt sich um eine Evakuierung von Krankenhäusern wegen eines Bombenfunds (Kampfmittel), nicht wegen eines Brandes. Die Evakuierung erfolgt aufgrund einer Bombenentschärfung, nicht aufgrund eines Brand-Ereignisses.
+[2026-06-30 06:43:39] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-06-30 06:43:39] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-06-30 06:43:39] [DEDUP] Starte Dedup für 715 Einträge
+[2026-06-30 06:43:39] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-06-30 06:43:41] [DEDUP] Paare verglichen: 14760
+[2026-06-30 06:43:41] [DEDUP] Auto-Merges: 0
+[2026-06-30 06:43:41] [DEDUP] Kandidaten (unsicher): 402
+[2026-06-30 06:43:41] [DEDUP] Ergebnis: 715 Einträge (war: 715, 0 zusammengeführt)
+[2026-06-30 06:43:41] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
+[2026-06-30 06:43:41] [DEDUP] Gespeichert: 715 → 715 Einträge
