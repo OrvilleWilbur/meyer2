@@ -30384,3 +30384,63 @@
 [2026-06-30 06:43:41] [DEDUP] Ergebnis: 715 Einträge (war: 715, 0 zusammengeführt)
 [2026-06-30 06:43:41] [DEDUP] Kandidaten-Datei: 402 pending, 2 confirmed, 0 rejected
 [2026-06-30 06:43:41] [DEDUP] Gespeichert: 715 → 715 Einträge
+[2026-07-01 07:01:28] === Monitor-Lauf gestartet ===
+[2026-07-01 07:01:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-01 07:01:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-01 07:01:31] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-07-01 07:01:31] Feed 'gn_feuer_krankenhaus': 44 Einträge
+[2026-07-01 07:01:32] Feed 'gn_feuer_klinik': 37 Einträge
+[2026-07-01 07:01:32] Feed 'gn_brand_klinik': 43 Einträge
+[2026-07-01 07:01:33] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-07-01 07:01:33] Feed 'gn_klinikbrand': 92 Einträge
+[2026-07-01 07:01:34] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-07-01 07:01:34] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-07-01 07:01:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-01 07:01:35] 198 relevante Treffer in Feeds
+[2026-07-01 07:01:35] ✅ 5 NEUE Einträge gefunden:
+[2026-07-01 07:01:35]    04.05.2026 | im Krankenhaus |  | Einsatz in Bad Godesberg: Eine Person nach Brand in Pennenfe
+[2026-07-01 07:01:35]    30.06.2026 | stillgelegter Klinik |  | Feuer in stillgelegter Klinik - Hoher Schaden - Mittelhessen
+[2026-07-01 07:01:35]    12.01.2025 | Asklepios-Klinikum Göttingen aus |  | Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-07-01 07:01:35]    06.06.2026 | Hanse-Klinikum Wismar |  | Brand im Sana Hanse-Klinikum Wismar - meinestadt.de
+[2026-07-01 07:01:35]    01.07.2026 |  |  | Dritte Drehleiter für Bergisch Gladbach
+[2026-07-01 07:01:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-01 07:01:35] === Monitor-Lauf beendet ===
+
+[2026-07-01 07:01:36] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-01 07:01:36] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-01 07:01:36] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-01 07:01:36] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-01 07:01:36] [enrich] --- Enriche [1/5]: Einsatz in Bad Godesberg: Eine Person nach Brand in Pennenfe
+[2026-07-01 07:01:37] [enrich] Google News URL aufgelöst (v1): https://ga.de/bonn/bad-godesberg/eine-person-nach-brand-in-pennenfeld-im-kranken
+[2026-07-01 07:01:38] [enrich] Volltext extrahiert: 2206 Zeichen von https://ga.de/bonn/bad-godesberg/eine-person-nach-brand-in-p
+[2026-07-01 07:01:40] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in Bad Godesberg. Eine verletzte Person wurde nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt, sondern in einem Wohngebäude.
+[2026-07-01 07:01:41] [enrich] --- Enriche [2/5]: Feuer in stillgelegter Klinik - Hoher Schaden - Mittelhessen
+[2026-07-01 07:01:41] [enrich] Google News URL aufgelöst (v1): https://www.mittelhessen.de/lokales/hessen/feuer-in-stillgelegter-klinik-hoher-s
+[2026-07-01 07:01:42] [enrich] Volltext extrahiert: 2039 Zeichen von https://www.mittelhessen.de/lokales/hessen/feuer-in-stillgel
+[2026-07-01 07:01:44] [enrich] FALSE POSITIVE erkannt: Die Klinik war zum Zeitpunkt des Brandes stillgelegt und leerstand - es war keine aktive Krankenversorgungseinrichtung. Der Brand ereignete sich in einem ehemaligen, nicht mehr betriebenen Krankenhaus.
+[2026-07-01 07:01:45] [enrich] --- Enriche [3/5]: Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-07-01 07:01:46] [enrich] Google News URL aufgelöst (v1): https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a
+[2026-07-01 07:01:46] [enrich] Artikel-Fetch fehlgeschlagen für https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a: 403 Client Error: Forbidden for url: https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-am-asklepios-klinikum-goettingen-brand-auf-station-BNSBKB7UXBBN3MAYTAL6VPELB4.html
+[2026-07-01 07:01:46] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (624 Z.)
+[2026-07-01 07:01:48] [enrich] Enrichment abgeschlossen: partial — Asklepios-Klinikum Göttingen in Göttingen
+[2026-07-01 07:01:49] [enrich] --- Enriche [4/5]: Brand im Sana Hanse-Klinikum Wismar - meinestadt.de
+[2026-07-01 07:01:50] [enrich] Google News URL aufgelöst (v1): https://aktuell.meinestadt.de/mecklenburg-vorpommern/polizeimeldungen/771323391
+[2026-07-01 07:01:50] [enrich] Artikel-Fetch fehlgeschlagen für https://aktuell.meinestadt.de/mecklenburg-vorpommern/polizeimeldungen/771323391: 403 Client Error: Forbidden for url: https://aktuell.meinestadt.de/mecklenburg-vorpommern/polizeimeldungen/771323391
+[2026-07-01 07:01:50] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (400 Z.)
+[2026-07-01 07:01:51] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhaltstext. Es können keine verifizierten Informationen über einen tatsächlichen Brand in einem Krankenhaus extrahiert werden.
+[2026-07-01 07:01:52] [enrich] --- Enriche [5/5]: Dritte Drehleiter für Bergisch Gladbach
+[2026-07-01 07:01:53] [enrich] Volltext extrahiert: 4878 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/news/dritte-dreh
+[2026-07-01 07:01:55] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Indienststellung einer neuen Drehleiter bei der Feuerwehr Bergisch Gladbach. Es handelt sich um einen Artikel über Feuerwehrfahrzeuge und Brandschutzausrüstung, nicht um einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-07-01 07:01:55] [enrich] Ergebnis: 0 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-07-01 07:01:55] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-01 07:01:55] [DEDUP] Starte Dedup für 720 Einträge
+[2026-07-01 07:01:55] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-01 07:01:56] [DEDUP] Auto-Merge (1.00): Asklepios-Klinikum Göttingen / Göttingen ↔ Asklepios-Klinikum Göttingen / Göttingen
+[2026-07-01 07:01:56] [DEDUP] Paare verglichen: 15006
+[2026-07-01 07:01:56] [DEDUP] Auto-Merges: 1
+[2026-07-01 07:01:56] [DEDUP] Kandidaten (unsicher): 403
+[2026-07-01 07:01:56] [DEDUP] Cluster 2x: Asklepios-Klinikum Göttingen, Asklepios-Klinikum Göttingen
+[2026-07-01 07:01:56] [DEDUP] Ergebnis: 719 Einträge (war: 720, 1 zusammengeführt)
+[2026-07-01 07:01:56] [DEDUP] Kandidaten-Datei: 403 pending, 2 confirmed, 0 rejected
+[2026-07-01 07:01:56] [DEDUP] Gespeichert: 720 → 719 Einträge

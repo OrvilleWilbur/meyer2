@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T06:43:41.051138",
+  "generated_at": "2026-07-01T07:01:56.809168",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -13135,6 +13135,39 @@
         "status": "false_positive",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/feuer-in-hamburger-krankenhaus-mitarbeiter-leicht-verletzt/ar-AA22LsVt",
         "titel": "Feuer in Hamburger Krankenhaus: Mitarbeiter leicht verletzt - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.shz.de/lokales/niebuell-leck/artikel/feuer-in-leck-bewohner-mit-rauchgasvergiftung-in-klinik-50601951",
+        "titel": "Gebäudebrand in Leck: Bewohner mit Rauchgasvergiftung im Krankenhaus - shz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://ga.de/bonn/bad-godesberg/eine-person-nach-brand-in-pennenfeld-im-krankenhaus_aid-147782413",
+        "titel": "Einsatz in Bad Godesberg: Eine Person nach Brand in Pennenfeld im Krankenhaus - General-Anzeiger Bonn"
       }
     },
     {
