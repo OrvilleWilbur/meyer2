@@ -30444,3 +30444,197 @@
 [2026-07-01 07:01:56] [DEDUP] Ergebnis: 719 Einträge (war: 720, 1 zusammengeführt)
 [2026-07-01 07:01:56] [DEDUP] Kandidaten-Datei: 403 pending, 2 confirmed, 0 rejected
 [2026-07-01 07:01:56] [DEDUP] Gespeichert: 720 → 719 Einträge
+[2026-07-02 06:27:50] === Monitor-Lauf gestartet ===
+[2026-07-02 06:27:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-02 06:27:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-02 06:27:52] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-07-02 06:27:53] Feed 'gn_feuer_krankenhaus': 42 Einträge
+[2026-07-02 06:27:53] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-07-02 06:27:53] Feed 'gn_brand_klinik': 43 Einträge
+[2026-07-02 06:27:54] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-07-02 06:27:54] Feed 'gn_klinikbrand': 97 Einträge
+[2026-07-02 06:27:55] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-07-02 06:27:55] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-07-02 06:27:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-02 06:27:56] 202 relevante Treffer in Feeds
+[2026-07-02 06:27:56] ✅ 18 NEUE Einträge gefunden:
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - 
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Rhein-Ze
+[2026-07-02 06:27:56]    02.07.2026 | bei Krankenhaus |  | Ludwigslust: Zwei Tote und über 30 Verletzt bei Krankenhaus-
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Saarbrüc
+[2026-07-02 06:27:56]    02.07.2026 | zum Krankenhaus |  | Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Br
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 34 V
+[2026-07-02 06:27:56]    02.07.2026 | in Klinik |  | Krankenhaus wird aktuell evakuiert: Brand in Klinik in Meckl
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus nahe Schwerin |  | Zwei Tote bei Dachstuhlbrand in Krankenhaus nahe Schwerin: V
+[2026-07-02 06:27:56]    14.08.2025 | im Krankenhaus |  | Feuer in Hoya: Wohnhaus evakuiert, Bewohner im Krankenhaus, 
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Eilmeldung: Zwei Tote bei Brand in Krankenhaus in Ludwigslus
+[2026-07-02 06:27:56]    02.07.2026 | in Klinik |  | Feuer in Klinik: Zwei Tote! - RTL.de
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Zei
+[2026-07-02 06:27:56]    02.07.2026 |  |  | Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – 
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 20 V
+[2026-07-02 06:27:56]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - New-Fact
+[2026-07-02 06:27:56]    02.01.2026 | Stuttgarter Klinik |  | Brandopfer von Crans-Montana: Schweizer in Stuttgarter Klini
+[2026-07-02 06:27:56]    19.03.2026 | in Klinikum Friedrichstadt |  | Brand in Elektroanlage: Feuerwehr löscht Brand in Klinikum F
+[2026-07-02 06:27:56]    09.05.2023 | Helios Klinikum Pforzheim |  | Brand am Helios Klinikum Pforzheim: Mitarbeiter wollten fixi
+[2026-07-02 06:27:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-02 06:27:56] === Monitor-Lauf beendet ===
+
+[2026-07-02 06:27:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-02 06:27:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-02 06:27:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-02 06:27:57] [enrich] 18 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-02 06:27:57] [enrich] --- Enriche [1/18]: Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - 
+[2026-07-02 06:27:57] [enrich] Google News URL aufgelöst (v1): https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-kra
+[2026-07-02 06:27:58] [enrich] Volltext extrahiert: 2450 Zeichen von https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-d
+[2026-07-02 06:28:02] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust (Radiologiegebäude) in Ludwigslust
+[2026-07-02 06:28:03] [enrich] --- Enriche [2/18]: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Rhein-Ze
+[2026-07-02 06:28:03] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-brand-in-krankenhaus
+[2026-07-02 06:28:04] [enrich] Volltext extrahiert: 860 Zeichen von https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-
+[2026-07-02 06:28:06] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:07] [enrich] --- Enriche [3/18]: Ludwigslust: Zwei Tote und über 30 Verletzt bei Krankenhaus-
+[2026-07-02 06:28:08] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzt
+[2026-07-02 06:28:08] [enrich] Volltext extrahiert: 4093 Zeichen von https://www.infranken.de/deutschland/ludwigslust-zwei-tote-u
+[2026-07-02 06:28:12] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:13] [enrich] --- Enriche [4/18]: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Saarbrüc
+[2026-07-02 06:28:13] [enrich] Google News URL aufgelöst (v1): https://www.saarbruecker-zeitung.de/nachrichten/politik/topthemen/zwei-tote-bei-
+[2026-07-02 06:28:13] [enrich] Volltext extrahiert: 2025 Zeichen von https://www.saarbruecker-zeitung.de/nachrichten/politik/topt
+[2026-07-02 06:28:16] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:17] [enrich] --- Enriche [5/18]: Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Br
+[2026-07-02 06:28:17] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpomm
+[2026-07-02 06:28:18] [enrich] Volltext extrahiert: 1948 Zeichen von https://rp-online.de/panorama/deutschland/brand-in-klinik-in
+[2026-07-02 06:28:21] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:22] [enrich] --- Enriche [6/18]: Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 34 V
+[2026-07-02 06:28:22] [enrich] Google News URL aufgelöst (v1): https://www.stol.it/artikel/chronik/deutschland-dachstuhlbrand-in-krankenhaus-mi
+[2026-07-02 06:28:22] [enrich] Volltext extrahiert: 338 Zeichen von https://www.stol.it/artikel/chronik/deutschland-dachstuhlbra
+[2026-07-02 06:28:25] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:26] [enrich] --- Enriche [7/18]: Krankenhaus wird aktuell evakuiert: Brand in Klinik in Meckl
+[2026-07-02 06:28:27] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-kranke
+[2026-07-02 06:28:27] [enrich] Volltext extrahiert: 2475 Zeichen von https://rp-online.de/panorama/deutschland/mecklenburg-vorpom
+[2026-07-02 06:28:31] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:32] [enrich] --- Enriche [8/18]: Zwei Tote bei Dachstuhlbrand in Krankenhaus nahe Schwerin: V
+[2026-07-02 06:28:32] [enrich] Google News URL aufgelöst (v1): https://www.badische-zeitung.de/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-nahe
+[2026-07-02 06:28:33] [enrich] Volltext extrahiert: 4026 Zeichen von https://www.badische-zeitung.de/zwei-tote-bei-dachstuhlbrand
+[2026-07-02 06:28:36] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:37] [enrich] --- Enriche [9/18]: Feuer in Hoya: Wohnhaus evakuiert, Bewohner im Krankenhaus, 
+[2026-07-02 06:28:38] [enrich] Google News URL aufgelöst (v1): https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnha
+[2026-07-02 06:28:38] [enrich] Artikel-Fetch fehlgeschlagen für https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnha: 403 Client Error: Forbidden for url: https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnhaus-evakuiert-bewohner-im-krankenhaus-strasse-gesperrt-QL6FP7A2JNAT5KEYMYZATXZIWI.html
+[2026-07-02 06:28:38] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (588 Z.)
+[2026-07-02 06:28:39] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Wohnhaus in Hoya. Bewohner werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst findet nicht IN einem Krankenhaus statt, sondern in einer privaten Wohnimmobilie.
+[2026-07-02 06:28:40] [enrich] --- Enriche [10/18]: Eilmeldung: Zwei Tote bei Brand in Krankenhaus in Ludwigslus
+[2026-07-02 06:28:41] [enrich] Google News URL aufgelöst (v1): https://www.news.de/panorama/859784026/zwei-tote-bei-brand-in-krankenhaus-in-lud
+[2026-07-02 06:28:42] [enrich] Volltext extrahiert: 2266 Zeichen von https://www.news.de/panorama/859784026/zwei-tote-bei-brand-i
+[2026-07-02 06:28:45] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:46] [enrich] --- Enriche [11/18]: Feuer in Klinik: Zwei Tote! - RTL.de
+[2026-07-02 06:28:46] [enrich] Google News URL aufgelöst (v1): https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-
+[2026-07-02 06:28:47] [enrich] Volltext extrahiert: 4909 Zeichen von https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei
+[2026-07-02 06:28:51] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Klinikum in Ludwigslust
+[2026-07-02 06:28:52] [enrich] --- Enriche [12/18]: Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Zei
+[2026-07-02 06:28:52] [enrich] Google News URL aufgelöst (v1): https://www.zvw.de/mehr-nachrichten/deutschland/dachstuhlbrand-in-krankenhaus-mi
+[2026-07-02 06:28:53] [enrich] Volltext extrahiert: 709 Zeichen von https://www.zvw.de/mehr-nachrichten/deutschland/dachstuhlbra
+[2026-07-02 06:28:56] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:28:57] [enrich] --- Enriche [13/18]: Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – 
+[2026-07-02 06:28:57] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-07-02 06:28:57] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-07-02 06:28:57] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (442 Z.)
+[2026-07-02 06:29:00] [enrich] Enrichment abgeschlossen: partial — Klinik Ludwigslust in Ludwigslust
+[2026-07-02 06:29:01] [enrich] --- Enriche [14/18]: Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 20 V
+[2026-07-02 06:29:01] [enrich] Google News URL aufgelöst (v1): https://www.insuedthueringen.de/inhalt.deutschland-dachstuhlbrand-in-krankenhaus
+[2026-07-02 06:29:02] [enrich] Volltext extrahiert: 427 Zeichen von https://www.insuedthueringen.de/inhalt.deutschland-dachstuhl
+[2026-07-02 06:29:04] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-02 06:29:05] [enrich] --- Enriche [15/18]: Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - New-Fact
+[2026-07-02 06:29:05] [enrich] Google News URL aufgelöst (v1): https://www.new-facts.eu/sortierung-top/deutschlandwelt-block/2026/07/02/zwei-to
+[2026-07-02 06:29:06] [enrich] Volltext extrahiert: 1066 Zeichen von https://www.new-facts.eu/sortierung-top/deutschlandwelt-bloc
+[2026-07-02 06:29:09] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus/Klinik Ludwigslust (Radiologiegebäude) in Ludwigslust
+[2026-07-02 06:29:10] [enrich] --- Enriche [16/18]: Brandopfer von Crans-Montana: Schweizer in Stuttgarter Klini
+[2026-07-02 06:29:10] [enrich] Google News URL aufgelöst (v1): https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans
+[2026-07-02 06:29:11] [enrich] Volltext extrahiert: 2970 Zeichen von https://stuttgart.t-online.de/region/stuttgart/id_101065126/
+[2026-07-02 06:29:13] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana). Ein Brandopfer wird danach zur Behandlung in eine deutsche Klinik (Marienhospital Stuttgart) gebracht, aber der Brand selbst fand nicht in einem deutschen Krankenhaus statt.
+[2026-07-02 06:29:14] [enrich] --- Enriche [17/18]: Brand in Elektroanlage: Feuerwehr löscht Brand in Klinikum F
+[2026-07-02 06:29:14] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-03/19/feuerwehr-loescht-brand-in-klinikum-friedric
+[2026-07-02 06:29:15] [enrich] Volltext extrahiert: 2135 Zeichen von https://www.zeit.de/news/2026-03/19/feuerwehr-loescht-brand-
+[2026-07-02 06:29:19] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-07-02 06:29:20] [enrich] --- Enriche [18/18]: Brand am Helios Klinikum Pforzheim: Mitarbeiter wollten fixi
+[2026-07-02 06:29:20] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-Mit
+[2026-07-02 06:29:23] [enrich] Volltext extrahiert: 1097 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Kl
+[2026-07-02 06:29:25] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-07-02 06:29:25] [enrich] Ergebnis: 15 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-07-02 06:29:25] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-02 06:29:25] [DEDUP] Starte Dedup für 737 Einträge
+[2026-07-02 06:29:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-02 06:29:26] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.94): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.98): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.98): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.98): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.99): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (1.00): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.84): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (1.00): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.83): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.84): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.90): Klinik Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Auto-Merge (0.84): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus/Klinik Ludwigslust (Radiolog / Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Paare verglichen: 15300
+[2026-07-02 06:29:27] [DEDUP] Auto-Merges: 68
+[2026-07-02 06:29:27] [DEDUP] Kandidaten (unsicher): 434
+[2026-07-02 06:29:27] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-07-02 06:29:27] [DEDUP] Cluster 13x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-02 06:29:27] [DEDUP] Ergebnis: 724 Einträge (war: 737, 13 zusammengeführt)
+[2026-07-02 06:29:27] [DEDUP] Kandidaten-Datei: 434 pending, 2 confirmed, 0 rejected
+[2026-07-02 06:29:27] [DEDUP] Gespeichert: 737 → 724 Einträge
