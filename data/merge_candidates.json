@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T06:29:27.059326",
+  "generated_at": "2026-07-03T06:21:18.076690",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -249,286 +249,22 @@
         "total": 0.783
       },
       "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
         "einrichtung": "Krankenhaus Ludwigslust",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust_arid-4137681.html",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Rhein-Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzt-bei-krankenhaus-brand-art-6374639",
-        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzt bei Krankenhaus-Brand - inFranken.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.saarbruecker-zeitung.de/nachrichten/politik/topthemen/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust_aid-150844327",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Saarbrücker Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
-        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.stol.it/artikel/chronik/deutschland-dachstuhlbrand-in-krankenhaus-mindestens-34-verletzte",
-        "titel": "Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 34 Verletzte - stol.it"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
-        "titel": "Krankenhaus wird aktuell evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote, mindestens 34 Verletzte - RP Online"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.badische-zeitung.de/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-nahe-schwerin-viele-verletzte",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus nahe Schwerin: Viele Verletzte - Badische Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.news.de/panorama/859784026/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-news-aktuell-mit-dpa-eilmeldung-vom-02-07-2026/1/",
-        "titel": "Eilmeldung: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - News.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/dachstuhlbrand-in-krankenhaus-mindestens-34-verletzte_arid-1089402",
-        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Zeitungsverlag Waiblingen"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
+        "link": "https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id31038023.html",
+        "titel": "Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - Ntv"
       }
     },
     {
@@ -550,9 +286,9 @@
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
       },
       "entry_b": {
         "einrichtung": "Krankenhaus Ludwigslust",
@@ -560,8 +296,371 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.insuedthueringen.de/inhalt.deutschland-dachstuhlbrand-in-krankenhaus-mindestens-20-verletzte.9c1358f9-c6b6-43b4-b0fe-db463c764a8e.html",
-        "titel": "Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 20 Verletzte - inSüdthüringen"
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und Verletzter bei Krankenhaus-Brand - inFranken.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.op-online.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - OP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/krankenhaus-brand-deutlich-weniger-verletzte_arid-1089402",
+        "titel": "Krankenhaus-Brand: Deutlich weniger Verletzte - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzten-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzten bei Krankenhaus-Brand - inFranken.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - ZDFheute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
+        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-zwei-Patienten-sterben-id31038148.html",
+        "titel": "Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigslust brennt - zwei Patienten sterben - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.berliner-sonntagsblatt.de/Deutschland/Zwei-Tote-bei-Feuer-in-Krankenhaus-in-Ludwigslust-363580.html",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - berliner-sonntagsblatt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
       }
     },
     {
@@ -602,6 +701,39 @@
         "",
         ""
       ],
+      "score": 0.781,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.781
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -628,6 +760,270 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.775,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.775
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/krankenhaus-brand-deutlich-weniger-verletzte_arid-1089402",
+        "titel": "Krankenhaus-Brand: Deutlich weniger Verletzte - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzten-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzten bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - ZDFheute"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
+        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Zeitungsverlag Waiblingen"
       }
     },
     {
@@ -691,9 +1087,240 @@
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.come-on.de/deutschland-welt/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - Come On"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id31038023.html",
+        "titel": "Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und Verletzter bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
         "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
+        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - ZDFheute"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
+        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-zwei-Patienten-sterben-id31038148.html",
+        "titel": "Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigslust brennt - zwei Patienten sterben - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.761,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.761
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.op-online.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - OP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
       }
     },
     {
@@ -734,6 +1361,105 @@
         "",
         ""
       ],
+      "score": 0.758,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.758
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/krankenhaus-brand-deutlich-weniger-verletzte_arid-1089402",
+        "titel": "Krankenhaus-Brand: Deutlich weniger Verletzte - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.758,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.758
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.758,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.758
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.berliner-sonntagsblatt.de/Deutschland/Zwei-Tote-bei-Feuer-in-Krankenhaus-in-Ludwigslust-363580.html",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - berliner-sonntagsblatt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.755,
       "details": {
         "datum": 0.3,
@@ -767,6 +1493,39 @@
         "",
         ""
       ],
+      "score": 0.754,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.754
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.berliner-sonntagsblatt.de/Deutschland/Zwei-Tote-bei-Feuer-in-Krankenhaus-in-Ludwigslust-363580.html",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - berliner-sonntagsblatt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.753,
       "details": {
         "datum": 0.7,
@@ -793,6 +1552,171 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzten-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzten bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.752,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.752
+      },
+      "entry_a": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Zeitungsverlag Waiblingen"
       }
     },
     {
@@ -955,9 +1879,42 @@
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote",
-        "titel": "Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z. – Die Stimme Berlins"
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/deutschland/panorama/video-akt-krankenhaus-ludwigslust-feuer-brand-klinikum,video-krankenhaus-ludwigslust-feuer-brand-klinikum-100.html",
+        "titel": "Video: Zwei Tote und 34 Verletzte bei Klinikbrand in Ludwigslust - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 1.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/krankenhaus-brand-deutlich-weniger-verletzte_arid-1089402",
+        "titel": "Krankenhaus-Brand: Deutlich weniger Verletzte - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
       }
     },
     {
@@ -991,6 +1948,171 @@
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/kriminalitaet-krankenhaus-explosion-und-charite-brand-wohl-nicht-verbunden-dpa.urn-newsml-dpa-com-20090101-251117-930-302334",
         "titel": "Kriminalität - Krankenhaus-Explosion und Charité-Brand wohl nicht verbunden - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.749,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.14285714285714285,
+        "total": 0.749
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id31038023.html",
+        "titel": "Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.749,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.14285714285714285,
+        "total": 0.749
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und Verletzter bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.749,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.15384615384615385,
+        "total": 0.749
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.come-on.de/deutschland-welt/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - Come On"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.748,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.748
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
+        "titel": "Krankenhaus wird evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.748,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.125,
+        "total": 0.748
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.op-online.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - OP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
       }
     },
     {
@@ -1035,28 +2157,61 @@
       "details": {
         "datum": 1.0,
         "ort": 1.0,
-        "einrichtung": 0.14285714285714285,
+        "einrichtung": 0.16666666666666666,
         "bundesland": 1.0,
-        "brandort": 0.125,
+        "brandort": 0.0,
         "total": 0.742
       },
       "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
       },
       "entry_b": {
-        "einrichtung": "Krankenhaus/Klinik Ludwigslust (Radiologiegebäude)",
+        "einrichtung": "Krankenhaus Ludwigslust",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.new-facts.eu/sortierung-top/deutschlandwelt-block/2026/07/02/zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust/717435/",
-        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - New-Facts.eu"
+        "link": "https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-zwei-Patienten-sterben-id31038148.html",
+        "titel": "Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigslust brennt - zwei Patienten sterben - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.741,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.741
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
       }
     },
     {
@@ -1090,6 +2245,39 @@
         "status": "enriched",
         "link": "https://www.augsburger-allgemeine.de/panorama/Konstanz-Brand-im-Klinikum-Toter-war-80-Jahre-alter-Patient-id52716636.html",
         "titel": "Konstanz: Brand im Klinikum: Toter war 80 Jahre alter Patient - Augsburger Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.74,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.08333333333333333,
+        "total": 0.74
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.come-on.de/deutschland-welt/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - Come On"
+      },
+      "entry_b": {
+        "einrichtung": "Helene von Bülow-Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-krankenhaus-loest-grosseinsatz-aus-zwei-tote-und-ueber-30-verletzte-4688819",
+        "titel": "Zwei Tote und mehr als 30 Verletzte bei Feuer im Krankenhaus: Brand ist gelöscht, so geht es jetzt weiter - Nordkurier"
       }
     },
     {
@@ -1295,6 +2483,237 @@
         "",
         ""
       ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzten-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzten bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - ZDFheute"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
+        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-zwei-Patienten-sterben-id31038148.html",
+        "titel": "Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigslust brennt - zwei Patienten sterben - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.725,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.725
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.718,
       "details": {
         "datum": 0.7,
@@ -1418,8 +2837,107 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/dachstuhlbrand-in-krankenhaus-mindestens-34-verletzte_arid-1089402",
-        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Zeitungsverlag Waiblingen"
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/krankenhaus-brand-deutlich-weniger-verletzte_arid-1089402",
+        "titel": "Krankenhaus-Brand: Deutlich weniger Verletzte - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id31038023.html",
+        "titel": "Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - Ntv"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.717,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.717
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und Verletzter bei Krankenhaus-Brand - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.714,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2857142857142857,
+        "total": 0.714
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.op-online.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - OP Online"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
       }
     },
     {
@@ -1470,15 +2988,39 @@
         "total": 0.712
       },
       "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust_arid-4137681.html",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Rhein-Zeitung"
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
       },
       "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
         "einrichtung": "Helene-von-Bülow-Klinikum",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
@@ -1486,6 +3028,114 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzten-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzten bei Krankenhaus-Brand - inFranken.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte_arid-1089402",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Zeitungsverlag Waiblingen"
       }
     },
     {
@@ -1508,116 +3158,17 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-34-verletzte_aid-150843575",
-        "titel": "Krankenhaus wird aktuell evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote, mindestens 34 Verletzte - RP Online"
+        "link": "https://www.berliner-sonntagsblatt.de/Deutschland/Zwei-Tote-bei-Feuer-in-Krankenhaus-in-Ludwigslust-363580.html",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - berliner-sonntagsblatt.de"
       },
       "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "einrichtung": "LUP-Klinikum",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.712,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.712
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.badische-zeitung.de/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-nahe-schwerin-viele-verletzte",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus nahe Schwerin: Viele Verletzte - Badische Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.saarbruecker-zeitung.de/nachrichten/politik/topthemen/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust_aid-150844327",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Saarbrücker Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.news.de/panorama/859784026/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-news-aktuell-mit-dpa-eilmeldung-vom-02-07-2026/1/",
-        "titel": "Eilmeldung: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - News.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
       }
     },
     {
@@ -1734,15 +3285,6 @@
         "total": 0.71
       },
       "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-ueber-30-verletzt-bei-krankenhaus-brand-art-6374639",
-        "titel": "Ludwigslust: Zwei Tote und über 30 Verletzt bei Krankenhaus-Brand - inFranken.de"
-      },
-      "entry_b": {
         "einrichtung": "Helene-von-Bülow-Klinikum",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
@@ -1750,6 +3292,15 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id31038023.html",
+        "titel": "Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - Ntv"
       }
     },
     {
@@ -1767,15 +3318,6 @@
         "total": 0.71
       },
       "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
-        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - RP Online"
-      },
-      "entry_b": {
         "einrichtung": "Helene-von-Bülow-Klinikum",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
@@ -1783,6 +3325,15 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-krankenhaus-brand-art-6374639",
+        "titel": "Ludwigslust: Zwei Tote und Verletzter bei Krankenhaus-Brand - inFranken.de"
       }
     },
     {
@@ -1816,6 +3367,72 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.709,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.709
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.op-online.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - OP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.709,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.709
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.come-on.de/deutschland-welt/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - Come On"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - RP Online"
       }
     },
     {
@@ -1899,15 +3516,6 @@
         "total": 0.708
       },
       "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.stol.it/artikel/chronik/deutschland-dachstuhlbrand-in-krankenhaus-mindestens-34-verletzte",
-        "titel": "Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 34 Verletzte - stol.it"
-      },
-      "entry_b": {
         "einrichtung": "Helene-von-Bülow-Klinikum",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
@@ -1915,6 +3523,48 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - ZDFheute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.708,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.708
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
+        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - WELT"
       }
     },
     {
@@ -1946,8 +3596,74 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.insuedthueringen.de/inhalt.deutschland-dachstuhlbrand-in-krankenhaus-mindestens-20-verletzte.9c1358f9-c6b6-43b4-b0fe-db463c764a8e.html",
-        "titel": "Deutschland: Dachstuhlbrand in Krankenhaus – Mindestens 20 Verletzte - inSüdthüringen"
+        "link": "https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-zwei-Patienten-sterben-id31038148.html",
+        "titel": "Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigslust brennt - zwei Patienten sterben - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.707,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.13333333333333333,
+        "total": 0.707
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.come-on.de/deutschland-welt/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus in Ludwigslust – Feuer in Patientenzimmer ausgebrochen - Come On"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.706,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.125,
+        "total": 0.706
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.berliner-sonntagsblatt.de/Deutschland/Zwei-Tote-bei-Feuer-in-Krankenhaus-in-Ludwigslust-363580.html",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - berliner-sonntagsblatt.de"
       }
     },
     {
@@ -2740,39 +4456,6 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Dresden",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
-        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
-      },
-      "entry_b": {
-        "einrichtung": "Städtisches Klinikum Friedrichstadt",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.zeit.de/news/2026-03/19/feuerwehr-loescht-brand-in-klinikum-friedrichstadt",
-        "titel": "Brand in Elektroanlage: Feuerwehr löscht Brand in Klinikum Friedrichstadt - DIE ZEIT"
       }
     },
     {
@@ -12317,6 +14000,105 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTc3NFRFQWxNTDVETy1hZkZlWnBHY2ZvOVR2WDdoOXZxWGhJX1dMWDM5SXFWN2EzMTl1OFZXRkRuajBwb1lPTnZ3cmVRUTVyZEVTN2hKQ1J0ZXM4TEdWS05jYy1XZWRieTZHTmFBZDBCREJyUmpwRHdOeHVpczBtOU1BWjhpSFhfMGxPNGtEeWlzb3U2UklGbWJ3UlZkQmFlNFZjTzJDSXB4UDRldFF4c3FPbDU?oc=5",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 20 Verletzte - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObk4wOUo0TXMyS2t0bmN5TFhoVEpPeDY5bGs5T2RhV1ZaUHEwQm5Kd09aeGVCTkk5ZmJmZXFSTmVwRGZEaC1nN0pjMTJ3TXlhay1fc2RnLWpaSEIzV1N5VWtKWWhDTVZXSWZJODBwUEYyRlJ4TXlyeTlQMlpna0h5NUd1aThDczBYT2I0OERfdHRHTjd1dkVPVVZDajk4X05zUGhrU3ZHUnE?oc=5",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Ad-hoc-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTc3NFRFQWxNTDVETy1hZkZlWnBHY2ZvOVR2WDdoOXZxWGhJX1dMWDM5SXFWN2EzMTl1OFZXRkRuajBwb1lPTnZ3cmVRUTVyZEVTN2hKQ1J0ZXM4TEdWS05jYy1XZWRieTZHTmFBZDBCREJyUmpwRHdOeHVpczBtOU1BWjhpSFhfMGxPNGtEeWlzb3U2UklGbWJ3UlZkQmFlNFZjTzJDSXB4UDRldFF4c3FPbDU?oc=5",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 20 Verletzte - Zeitungsverlag Waiblingen"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObk4wOUo0TXMyS2t0bmN5TFhoVEpPeDY5bGs5T2RhV1ZaUHEwQm5Kd09aeGVCTkk5ZmJmZXFSTmVwRGZEaC1nN0pjMTJ3TXlhay1fc2RnLWpaSEIzV1N5VWtKWWhDTVZXSWZJODBwUEYyRlJ4TXlyeTlQMlpna0h5NUd1aThDczBYT2I0OERfdHRHTjd1dkVPVVZDajk4X05zUGhrU3ZHUnE?oc=5",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Ad-hoc-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -14323,6 +16105,105 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/brand-in-stuttgarter-hochhaus-kind-im-krankenhaus/ar-AA252B19",
         "titel": "Brand in Stuttgarter Hochhaus: Kind im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "01.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
+        "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "01.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
+        "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTc3NFRFQWxNTDVETy1hZkZlWnBHY2ZvOVR2WDdoOXZxWGhJX1dMWDM5SXFWN2EzMTl1OFZXRkRuajBwb1lPTnZ3cmVRUTVyZEVTN2hKQ1J0ZXM4TEdWS05jYy1XZWRieTZHTmFBZDBCREJyUmpwRHdOeHVpczBtOU1BWjhpSFhfMGxPNGtEeWlzb3U2UklGbWJ3UlZkQmFlNFZjTzJDSXB4UDRldFF4c3FPbDU?oc=5",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 20 Verletzte - Zeitungsverlag Waiblingen"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "01.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
+        "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "pending",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObk4wOUo0TXMyS2t0bmN5TFhoVEpPeDY5bGs5T2RhV1ZaUHEwQm5Kd09aeGVCTkk5ZmJmZXFSTmVwRGZEaC1nN0pjMTJ3TXlhay1fc2RnLWpaSEIzV1N5VWtKWWhDTVZXSWZJODBwUEYyRlJ4TXlyeTlQMlpna0h5NUd1aThDczBYT2I0OERfdHRHTjd1dkVPVVZDajk4X05zUGhrU3ZHUnE?oc=5",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Ad-hoc-news.de"
       }
     }
   ],
