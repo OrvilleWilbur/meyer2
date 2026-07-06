@@ -31139,3 +31139,59 @@
 [2026-07-05 06:28:54] [DEDUP] Ergebnis: 733 Einträge (war: 742, 9 zusammengeführt)
 [2026-07-05 06:28:54] [DEDUP] Kandidaten-Datei: 432 pending, 2 confirmed, 0 rejected
 [2026-07-05 06:28:54] [DEDUP] Gespeichert: 742 → 733 Einträge
+[2026-07-06 06:58:31] === Monitor-Lauf gestartet ===
+[2026-07-06 06:58:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-06 06:58:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-06 06:58:33] Feed 'gn_brand_krankenhaus': 43 Einträge
+[2026-07-06 06:58:33] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-07-06 06:58:34] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-07-06 06:58:34] Feed 'gn_brand_klinik': 43 Einträge
+[2026-07-06 06:58:35] Feed 'gn_brand_klinikum': 42 Einträge
+[2026-07-06 06:58:35] Feed 'gn_klinikbrand': 95 Einträge
+[2026-07-06 06:58:35] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-07-06 06:58:36] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-07-06 06:58:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-06 06:58:37] 221 relevante Treffer in Feeds
+[2026-07-06 06:58:37] ✅ 4 NEUE Einträge gefunden:
+[2026-07-06 06:58:37]    02.07.2026 | in Krankenhaus |  | Notfälle: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Deut
+[2026-07-06 06:58:37]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte
+[2026-07-06 06:58:37]    02.07.2026 | in Krankenhaus |  | Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - AD 
+[2026-07-06 06:58:37]    04.01.2026 | NRW-Kliniken nehmen Brandopfer |  | Silvester-Inferno in Crans-Montana: NRW-Kliniken nehmen Bran
+[2026-07-06 06:58:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-06 06:58:37] === Monitor-Lauf beendet ===
+
+[2026-07-06 06:58:38] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-06 06:58:38] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-06 06:58:38] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-06 06:58:38] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-06 06:58:38] [enrich] --- Enriche [1/4]: Notfälle: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Deut
+[2026-07-06 06:58:38] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-dachstuhlbrand-in-kr
+[2026-07-06 06:58:39] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-
+[2026-07-06 06:58:44] [enrich] Enrichment abgeschlossen: enriched — Klinikum Ludwigslust (LUP-Kliniken) in Ludwigslust
+[2026-07-06 06:58:45] [enrich] --- Enriche [2/4]: Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte
+[2026-07-06 06:58:45] [enrich] Google News URL aufgelöst (v1): https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl
+[2026-07-06 06:58:46] [enrich] Volltext extrahiert: 2031 Zeichen von https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-
+[2026-07-06 06:58:49] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-06 06:58:50] [enrich] --- Enriche [3/4]: Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - AD 
+[2026-07-06 06:58:50] [enrich] Google News URL aufgelöst (v1): https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl
+[2026-07-06 06:58:51] [enrich] Volltext extrahiert: 1781 Zeichen von https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-
+[2026-07-06 06:58:54] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-06 06:58:55] [enrich] --- Enriche [4/4]: Silvester-Inferno in Crans-Montana: NRW-Kliniken nehmen Bran
+[2026-07-06 06:58:55] [enrich] Google News URL aufgelöst (v1): https://aachen.t-online.de/region/aachen/id_101066946/feuer-in-crans-montana-opf
+[2026-07-06 06:58:56] [enrich] Volltext extrahiert: 3440 Zeichen von https://aachen.t-online.de/region/aachen/id_101066946/feuer-
+[2026-07-06 06:58:58] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Crans-Montana). Deutsche Krankenhäuser nehmen nur Brandopfer zur Behandlung auf, aber der Brand selbst fand nicht in einem deutschen Krankenhaus statt.
+[2026-07-06 06:58:58] [enrich] Ergebnis: 3 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-06 06:58:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-06 06:58:58] [DEDUP] Starte Dedup für 737 Einträge
+[2026-07-06 06:58:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-06 06:58:59] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-06 06:58:59] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-06 06:58:59] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-06 06:58:59] [DEDUP] Paare verglichen: 15632
+[2026-07-06 06:58:59] [DEDUP] Auto-Merges: 3
+[2026-07-06 06:58:59] [DEDUP] Kandidaten (unsicher): 421
+[2026-07-06 06:58:59] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-06 06:58:59] [DEDUP] Ergebnis: 735 Einträge (war: 737, 2 zusammengeführt)
+[2026-07-06 06:58:59] [DEDUP] Kandidaten-Datei: 421 pending, 2 confirmed, 0 rejected
+[2026-07-06 06:58:59] [DEDUP] Gespeichert: 737 → 735 Einträge
