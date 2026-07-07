@@ -31195,3 +31195,53 @@
 [2026-07-06 06:58:59] [DEDUP] Ergebnis: 735 Einträge (war: 737, 2 zusammengeführt)
 [2026-07-06 06:58:59] [DEDUP] Kandidaten-Datei: 421 pending, 2 confirmed, 0 rejected
 [2026-07-06 06:58:59] [DEDUP] Gespeichert: 737 → 735 Einträge
+[2026-07-07 06:34:15] === Monitor-Lauf gestartet ===
+[2026-07-07 06:34:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-07 06:34:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-07 06:34:18] Feed 'gn_brand_krankenhaus': 45 Einträge
+[2026-07-07 06:34:19] Feed 'gn_feuer_krankenhaus': 34 Einträge
+[2026-07-07 06:34:19] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-07-07 06:34:19] Feed 'gn_brand_klinik': 42 Einträge
+[2026-07-07 06:34:20] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-07-07 06:34:20] Feed 'gn_klinikbrand': 67 Einträge
+[2026-07-07 06:34:21] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-07-07 06:34:21] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-07-07 06:34:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-07 06:34:22] 209 relevante Treffer in Feeds
+[2026-07-07 06:34:22] ✅ 3 NEUE Einträge gefunden:
+[2026-07-07 06:34:22]    04.07.2026 | im Krankenhaus mit 2 Toten |  | Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht
+[2026-07-07 06:34:22]    02.07.2026 |  |  | Nach Feuer: Klinik Ludwigslust soll Notdach bekommen - Nordk
+[2026-07-07 06:34:22]    21.04.2022 |  |  | Feuer im UKSH Lübeck: Krankenhaus-Station geräumt - Lübecker
+[2026-07-07 06:34:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-07 06:34:22] === Monitor-Lauf beendet ===
+
+[2026-07-07 06:34:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-07 06:34:22] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-07 06:34:22] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-07 06:34:22] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-07 06:34:22] [enrich] --- Enriche [1/3]: Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht
+[2026-07-07 06:34:23] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-
+[2026-07-07 06:34:23] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/brand-im-kran
+[2026-07-07 06:34:28] [enrich] Enrichment abgeschlossen: enriched — Ludwigsluster Krankenhaus (LUP-Kliniken) in Ludwigslust
+[2026-07-07 06:34:29] [enrich] --- Enriche [2/3]: Nach Feuer: Klinik Ludwigslust soll Notdach bekommen - Nordk
+[2026-07-07 06:34:30] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/mecklenburg-vorpommern/nach-feuer-klinik-ludw
+[2026-07-07 06:34:30] [enrich] Volltext extrahiert: 1166 Zeichen von https://www.nordkurier.de/regional/mecklenburg-vorpommern/na
+[2026-07-07 06:34:34] [enrich] Enrichment abgeschlossen: enriched — Klinik Ludwigslust / Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-07 06:34:35] [enrich] --- Enriche [3/3]: Feuer im UKSH Lübeck: Krankenhaus-Station geräumt - Lübecker
+[2026-07-07 06:34:35] [enrich] Google News URL aufgelöst (v1): https://www.ln-online.de/lokales/luebeck/patientenbett-brannte-station-im-luebec
+[2026-07-07 06:34:35] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ln-online.de/lokales/luebeck/patientenbett-brannte-station-im-luebec: 403 Client Error: Forbidden for url: https://www.ln-online.de/lokales/luebeck/patientenbett-brannte-station-im-luebecker-uksh-musste-geraeumt-werden-KFNHGPN5EWBVQF37DFEFEV67PU.html
+[2026-07-07 06:34:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (573 Z.)
+[2026-07-07 06:34:37] [enrich] Enrichment abgeschlossen: partial — UKSH Lübeck (Universitätsklinikum Schleswig-Holstein) in Lübeck
+[2026-07-07 06:34:37] [enrich] Ergebnis: 2 enriched, 1 partial, 0 false_positive, 0 failed
+[2026-07-07 06:34:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-07 06:34:37] [DEDUP] Starte Dedup für 738 Einträge
+[2026-07-07 06:34:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-07 06:34:39] [DEDUP] Auto-Merge (0.82): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Klinik Ludwigslust / Krankenhaus Ludwigs / Ludwigslust
+[2026-07-07 06:34:39] [DEDUP] Paare verglichen: 15632
+[2026-07-07 06:34:39] [DEDUP] Auto-Merges: 1
+[2026-07-07 06:34:39] [DEDUP] Kandidaten (unsicher): 423
+[2026-07-07 06:34:39] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Klinik Ludwigslust / Krankenhaus Ludwigs
+[2026-07-07 06:34:39] [DEDUP] Ergebnis: 737 Einträge (war: 738, 1 zusammengeführt)
+[2026-07-07 06:34:39] [DEDUP] Kandidaten-Datei: 423 pending, 2 confirmed, 0 rejected
+[2026-07-07 06:34:39] [DEDUP] Gespeichert: 738 → 737 Einträge
