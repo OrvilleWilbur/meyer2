@@ -31245,3 +31245,66 @@
 [2026-07-07 06:34:39] [DEDUP] Ergebnis: 737 Einträge (war: 738, 1 zusammengeführt)
 [2026-07-07 06:34:39] [DEDUP] Kandidaten-Datei: 423 pending, 2 confirmed, 0 rejected
 [2026-07-07 06:34:39] [DEDUP] Gespeichert: 738 → 737 Einträge
+[2026-07-08 05:39:48] === Monitor-Lauf gestartet ===
+[2026-07-08 05:39:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-08 05:39:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-08 05:39:49] Feed 'gn_brand_krankenhaus': 45 Einträge
+[2026-07-08 05:39:50] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-07-08 05:39:50] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-07-08 05:39:51] Feed 'gn_brand_klinik': 39 Einträge
+[2026-07-08 05:39:51] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-07-08 05:39:52] Feed 'gn_klinikbrand': 88 Einträge
+[2026-07-08 05:39:52] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-07-08 05:39:53] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-07-08 05:39:53] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-08 05:39:53] 218 relevante Treffer in Feeds
+[2026-07-08 05:39:53] ✅ 4 NEUE Einträge gefunden:
+[2026-07-08 05:39:53]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Kreiszei
+[2026-07-08 05:39:53]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Dachstuhlbrand in Krankenhaus, Deutschland - D
+[2026-07-08 05:39:53]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Dachstuhlbrand in Krankenhaus - AD HOC NEWS
+[2026-07-08 05:39:53]    02.07.2026 | Nach Klinik |  | Feuer in Ludwigslust: Nach Klinik-Brand: Landrat stellt Fals
+[2026-07-08 05:39:53] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-08 05:39:53] === Monitor-Lauf beendet ===
+
+[2026-07-08 05:39:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-08 05:39:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-08 05:39:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-08 05:39:54] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-08 05:39:54] [enrich] --- Enriche [1/4]: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Kreiszei
+[2026-07-08 05:39:54] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/zwei-tote-bei-brand
+[2026-07-08 05:39:55] [enrich] Volltext extrahiert: 517 Zeichen von https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt
+[2026-07-08 05:39:58] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-08 05:39:59] [enrich] --- Enriche [2/4]: Zwei Tote bei Dachstuhlbrand in Krankenhaus, Deutschland - D
+[2026-07-08 05:39:59] [enrich] Google News URL aufgelöst (v1): https://der-farang.com/de/pages/zwei-tote-bei-dachstuhlbrand-in-krankenhaus
+[2026-07-08 05:40:04] [enrich] Volltext extrahiert: 3458 Zeichen von https://der-farang.com/de/pages/zwei-tote-bei-dachstuhlbrand
+[2026-07-08 05:40:08] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-08 05:40:09] [enrich] --- Enriche [3/4]: Zwei Tote bei Dachstuhlbrand in Krankenhaus - AD HOC NEWS
+[2026-07-08 05:40:09] [enrich] Google News URL aufgelöst (v1): https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl
+[2026-07-08 05:40:11] [enrich] Volltext extrahiert: 3981 Zeichen von https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-
+[2026-07-08 05:40:15] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-08 05:40:16] [enrich] --- Enriche [4/4]: Feuer in Ludwigslust: Nach Klinik-Brand: Landrat stellt Fals
+[2026-07-08 05:40:17] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/mediathek/videos/panorama/Nach-Klinik-Brand-Landrat-stellt-F
+[2026-07-08 05:40:17] [enrich] Volltext extrahiert: 2687 Zeichen von https://www.n-tv.de/mediathek/videos/panorama/Nach-Klinik-Br
+[2026-07-08 05:40:20] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-08 05:40:20] [enrich] Ergebnis: 4 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-07-08 05:40:20] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-08 05:40:20] [DEDUP] Starte Dedup für 741 Einträge
+[2026-07-08 05:40:20] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.90): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.95): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.98): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.95): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Auto-Merge (0.95): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Paare verglichen: 15662
+[2026-07-08 05:40:21] [DEDUP] Auto-Merges: 10
+[2026-07-08 05:40:21] [DEDUP] Kandidaten (unsicher): 432
+[2026-07-08 05:40:21] [DEDUP] Cluster 5x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-08 05:40:21] [DEDUP] Ergebnis: 737 Einträge (war: 741, 4 zusammengeführt)
+[2026-07-08 05:40:21] [DEDUP] Kandidaten-Datei: 432 pending, 2 confirmed, 0 rejected
+[2026-07-08 05:40:21] [DEDUP] Gespeichert: 741 → 737 Einträge
