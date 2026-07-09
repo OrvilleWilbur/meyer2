@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:40:21.861202",
+  "generated_at": "2026-07-09T06:33:01.978527",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -395,8 +395,8 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-387782.html",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Kreiszeitung Wesermarsch"
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670839",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Ad-hoc-news.de"
       }
     },
     {
@@ -428,8 +428,8 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://der-farang.com/de/pages/zwei-tote-bei-dachstuhlbrand-in-krankenhaus",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus, Deutschland - DER FARANG"
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte/69670499",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Ad-hoc-news.de"
       }
     },
     {
@@ -437,23 +437,23 @@
         "",
         ""
       ],
-      "score": 0.762,
+      "score": 0.761,
       "details": {
         "datum": 1.0,
         "ort": 1.0,
         "einrichtung": 0.2,
         "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.762
+        "brandort": 0.2222222222222222,
+        "total": 0.761
       },
       "entry_a": {
-        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-4137675.html",
-        "titel": "Notfälle: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Deutschland & Welt - Rhein-Zeitung"
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
       },
       "entry_b": {
         "einrichtung": "Krankenhaus Ludwigslust",
@@ -462,7 +462,7 @@
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670839",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - AD HOC NEWS"
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Ad-hoc-news.de"
       }
     },
     {
@@ -513,13 +513,13 @@
         "total": 0.76
       },
       "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-4137675.html",
+        "titel": "Notfälle: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Deutschland & Welt - Rhein-Zeitung"
       },
       "entry_b": {
         "einrichtung": "Krankenhaus Ludwigslust",
@@ -527,41 +527,8 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://der-farang.com/de/pages/zwei-tote-bei-dachstuhlbrand-in-krankenhaus",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus, Deutschland - DER FARANG"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.76,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.76
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670839",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - AD HOC NEWS"
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670467",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Ad-hoc-news.de"
       }
     },
     {
@@ -608,7 +575,7 @@
         "ort": 1.0,
         "einrichtung": 0.2,
         "bundesland": 1.0,
-        "brandort": 0.1,
+        "brandort": 0.09090909090909091,
         "total": 0.755
       },
       "entry_a": {
@@ -626,8 +593,8 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-387782.html",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Kreiszeitung Wesermarsch"
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte/69670499",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Ad-hoc-news.de"
       }
     },
     {
@@ -890,8 +857,41 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.n-tv.de/mediathek/videos/panorama/Nach-Klinik-Brand-Landrat-stellt-Falschmeldungen-klar-id31039233.html",
-        "titel": "Feuer in Ludwigslust: Nach Klinik-Brand: Landrat stellt Falschmeldungen klar - n-tv.de"
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-klinik-ludwigslust-soll-notdach-bekommen-dpa.urn-newsml-dpa-com-20090101-260702-930-321796",
+        "titel": "Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekommen - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/zwei-tote-bei-dachstuhlbrand-in-krankenhaus_arid-4137675.html",
+        "titel": "Notfälle: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1608032.html",
+        "titel": "Krankenhausbrand in Ludwigslust fordert zwei Todesopfer - tagesschau.de"
       }
     },
     {
@@ -923,8 +923,74 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.n-tv.de/mediathek/videos/panorama/Nach-Klinik-Brand-Landrat-stellt-Falschmeldungen-klar-id31039233.html",
-        "titel": "Feuer in Ludwigslust: Nach Klinik-Brand: Landrat stellt Falschmeldungen klar - n-tv.de"
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670467",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Ad-hoc-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-klinik-ludwigslust-soll-notdach-bekommen-dpa.urn-newsml-dpa-com-20090101-260702-930-321796",
+        "titel": "Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekommen - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1608032.html",
+        "titel": "Krankenhausbrand in Ludwigslust fordert zwei Todesopfer - tagesschau.de"
       }
     },
     {
@@ -1451,74 +1517,41 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-387782.html",
-        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Kreiszeitung Wesermarsch"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://der-farang.com/de/pages/zwei-tote-bei-dachstuhlbrand-in-krankenhaus",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus, Deutschland - DER FARANG"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670839",
-        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - AD HOC NEWS"
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus - Ad-hoc-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.711,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.711
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/zwei-tote-bei-dachstuhlbrand-in-krankenhaus-viele-verletzte/69670499",
+        "titel": "Zwei Tote bei Dachstuhlbrand in Krankenhaus: Viele Verletzte - Ad-hoc-news.de"
       }
     },
     {
@@ -1717,6 +1750,39 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.708,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.708
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/fruehmorgens-faengt-der-dachstuhl-eines-krankenhauses-in-ludwigslust/69670467",
+        "titel": "Dachstuhlbrand in Krankenhaus: Mindestens 34 Verletzte - Ad-hoc-news.de"
       }
     },
     {
@@ -2540,8 +2606,41 @@
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.n-tv.de/mediathek/videos/panorama/Nach-Klinik-Brand-Landrat-stellt-Falschmeldungen-klar-id31039233.html",
-        "titel": "Feuer in Ludwigslust: Nach Klinik-Brand: Landrat stellt Falschmeldungen klar - n-tv.de"
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-klinik-ludwigslust-soll-notdach-bekommen-dpa.urn-newsml-dpa-com-20090101-260702-930-321796",
+        "titel": "Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekommen - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1608032.html",
+        "titel": "Krankenhausbrand in Ludwigslust fordert zwei Todesopfer - tagesschau.de"
       }
     },
     {
@@ -12119,6 +12218,39 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://madeinbocholt.de/zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust/",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - Made in Bocholt"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -14257,6 +14389,39 @@
         "status": "false_positive",
         "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
         "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "01.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
+        "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://madeinbocholt.de/zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust/",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - Made in Bocholt"
       }
     }
   ],
