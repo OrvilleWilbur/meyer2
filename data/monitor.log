@@ -31392,3 +31392,56 @@
 [2026-07-09 06:33:01] [DEDUP] Ergebnis: 739 Einträge (war: 744, 5 zusammengeführt)
 [2026-07-09 06:33:01] [DEDUP] Kandidaten-Datei: 437 pending, 2 confirmed, 0 rejected
 [2026-07-09 06:33:02] [DEDUP] Gespeichert: 744 → 739 Einträge
+[2026-07-10 06:30:58] === Monitor-Lauf gestartet ===
+[2026-07-10 06:30:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-10 06:31:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-10 06:31:00] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-07-10 06:31:01] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-07-10 06:31:01] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-07-10 06:31:02] Feed 'gn_brand_klinik': 41 Einträge
+[2026-07-10 06:31:02] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-07-10 06:31:02] Feed 'gn_klinikbrand': 95 Einträge
+[2026-07-10 06:31:03] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-07-10 06:31:03] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-07-10 06:31:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-10 06:31:04] 224 relevante Treffer in Feeds
+[2026-07-10 06:31:04] ✅ 3 NEUE Einträge gefunden:
+[2026-07-10 06:31:04]    02.07.2026 | in Krankenhaus |  | Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - 
+[2026-07-10 06:31:04]    03.07.2026 | in Krankenhaus |  | Feuer in Krankenhaus: Millionenschaden - MSN
+[2026-07-10 06:31:04]    02.07.2026 | in Klinik fordern zwei Menschenleben |  | Ludwigslust: Flammen in Klinik fordern zwei Menschenleben - 
+[2026-07-10 06:31:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-10 06:31:04] === Monitor-Lauf beendet ===
+
+[2026-07-10 06:31:04] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-10 06:31:04] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-10 06:31:04] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-10 06:31:04] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-10 06:31:04] [enrich] --- Enriche [1/3]: Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - 
+[2026-07-10 06:31:05] [enrich] Google News URL aufgelöst (v1): https://www.schwaebische-post.de/welt/mindestens-34-verletzte-bei-dachstuhlbrand
+[2026-07-10 06:31:06] [enrich] Volltext extrahiert: 2907 Zeichen von https://www.schwaebische-post.de/welt/mindestens-34-verletzt
+[2026-07-10 06:31:10] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust (Radiologiegebäude) in Ludwigslust
+[2026-07-10 06:31:11] [enrich] --- Enriche [2/3]: Feuer in Krankenhaus: Millionenschaden - MSN
+[2026-07-10 06:31:11] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-krankenhaus-millionensch
+[2026-07-10 06:31:11] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-krankenhaus-millionensch
+[2026-07-10 06:31:11] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (415 Z.)
+[2026-07-10 06:31:13] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift und einen Link ohne konkrete Informationen über einen Brand. Es können keine verlässlichen Daten über Ort, Zeit, Einrichtung oder Details des Vorfalls extrahiert werden.
+[2026-07-10 06:31:14] [enrich] --- Enriche [3/3]: Ludwigslust: Flammen in Klinik fordern zwei Menschenleben - 
+[2026-07-10 06:31:14] [enrich] Google News URL aufgelöst (v1): https://www.ad-hoc-news.de/unterhaltung/kultur/nach-dem-brand-in-der-ludwigslust
+[2026-07-10 06:31:17] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ad-hoc-news.de/unterhaltung/kultur/nach-dem-bran
+[2026-07-10 06:31:21] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-10 06:31:21] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-10 06:31:21] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-10 06:31:21] [DEDUP] Starte Dedup für 742 Einträge
+[2026-07-10 06:31:21] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-10 06:31:23] [DEDUP] Auto-Merge (0.98): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust
+[2026-07-10 06:31:23] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-10 06:31:23] [DEDUP] Auto-Merge (0.80): Klinikum Ludwigslust (LUP-Kliniken) / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-10 06:31:23] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-10 06:31:23] [DEDUP] Paare verglichen: 15752
+[2026-07-10 06:31:23] [DEDUP] Auto-Merges: 4
+[2026-07-10 06:31:23] [DEDUP] Kandidaten (unsicher): 429
+[2026-07-10 06:31:23] [DEDUP] Cluster 4x: Krankenhaus Ludwigslust (Radiologiegebäu, Klinikum Ludwigslust (LUP-Kliniken), Krankenhaus Ludwigslust (Radiologiegebäu
+[2026-07-10 06:31:23] [DEDUP] Ergebnis: 739 Einträge (war: 742, 3 zusammengeführt)
+[2026-07-10 06:31:23] [DEDUP] Kandidaten-Datei: 429 pending, 2 confirmed, 0 rejected
+[2026-07-10 06:31:23] [DEDUP] Gespeichert: 742 → 739 Einträge
