@@ -31445,3 +31445,54 @@
 [2026-07-10 06:31:23] [DEDUP] Ergebnis: 739 Einträge (war: 742, 3 zusammengeführt)
 [2026-07-10 06:31:23] [DEDUP] Kandidaten-Datei: 429 pending, 2 confirmed, 0 rejected
 [2026-07-10 06:31:23] [DEDUP] Gespeichert: 742 → 739 Einträge
+[2026-07-11 05:30:24] === Monitor-Lauf gestartet ===
+[2026-07-11 05:30:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-11 05:30:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-11 05:30:25] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-07-11 05:30:26] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-07-11 05:30:26] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-07-11 05:30:27] Feed 'gn_brand_klinik': 41 Einträge
+[2026-07-11 05:30:27] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-07-11 05:30:27] Feed 'gn_klinikbrand': 91 Einträge
+[2026-07-11 05:30:28] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-07-11 05:30:28] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-07-11 05:30:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-11 05:30:29] 218 relevante Treffer in Feeds
+[2026-07-11 05:30:29] ✅ 3 NEUE Einträge gefunden:
+[2026-07-11 05:30:29]    02.07.2026 | in Krankenhaus nahe Schwerin |  | Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus
+[2026-07-11 05:30:29]    02.07.2026 | in Krankenhaus |  | Feuer in Klinik: Dachstuhlbrand in Krankenhaus - Anteilnahme
+[2026-07-11 05:30:29]    02.07.2026 | Ludwigsluster Klinik |  | Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollt
+[2026-07-11 05:30:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-11 05:30:29] === Monitor-Lauf beendet ===
+
+[2026-07-11 05:30:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-11 05:30:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-11 05:30:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-11 05:30:29] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-11 05:30:29] [enrich] --- Enriche [1/3]: Feuer in Patientenzimmer: Zwei Tote bei Brand in Krankenhaus
+[2026-07-11 05:30:30] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenhaus-nahe-Schwerin-id
+[2026-07-11 05:30:30] [enrich] Volltext extrahiert: 3273 Zeichen von https://www.n-tv.de/panorama/Zwei-Tote-bei-Brand-in-Krankenh
+[2026-07-11 05:30:33] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-11 05:30:34] [enrich] --- Enriche [2/3]: Feuer in Klinik: Dachstuhlbrand in Krankenhaus - Anteilnahme
+[2026-07-11 05:30:35] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klini
+[2026-07-11 05:30:35] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klini: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klinik--dachstuhlbrand-in-krankenhaus---anteilnahme-im-landtag-37636772.html
+[2026-07-11 05:30:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (583 Z.)
+[2026-07-11 05:30:37] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne aussagekräftigen Textinhalt. Es können keine spezifischen Informationen zum Brand extrahiert werden, und es ist unklar, ob es sich um einen Brand IN einem deutschen Krankenhaus handelt oder um einen anderen Kontext.
+[2026-07-11 05:30:38] [enrich] --- Enriche [3/3]: Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollt
+[2026-07-11 05:30:38] [enrich] Google News URL aufgelöst (v1): https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludw
+[2026-07-11 05:30:39] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludw: 403 Client Error: Forbidden for url: https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html
+[2026-07-11 05:30:39] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (605 Z.)
+[2026-07-11 05:30:41] [enrich] Enrichment abgeschlossen: partial — Klinik Ludwigslust in Ludwigslust
+[2026-07-11 05:30:41] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-07-11 05:30:41] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-11 05:30:41] [DEDUP] Starte Dedup für 742 Einträge
+[2026-07-11 05:30:41] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-11 05:30:42] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-11 05:30:42] [DEDUP] Paare verglichen: 15782
+[2026-07-11 05:30:42] [DEDUP] Auto-Merges: 1
+[2026-07-11 05:30:42] [DEDUP] Kandidaten (unsicher): 431
+[2026-07-11 05:30:42] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-07-11 05:30:42] [DEDUP] Ergebnis: 741 Einträge (war: 742, 1 zusammengeführt)
+[2026-07-11 05:30:42] [DEDUP] Kandidaten-Datei: 431 pending, 2 confirmed, 0 rejected
+[2026-07-11 05:30:42] [DEDUP] Gespeichert: 742 → 741 Einträge
