@@ -31496,3 +31496,62 @@
 [2026-07-11 05:30:42] [DEDUP] Ergebnis: 741 Einträge (war: 742, 1 zusammengeführt)
 [2026-07-11 05:30:42] [DEDUP] Kandidaten-Datei: 431 pending, 2 confirmed, 0 rejected
 [2026-07-11 05:30:42] [DEDUP] Gespeichert: 742 → 741 Einträge
+[2026-07-12 05:45:44] === Monitor-Lauf gestartet ===
+[2026-07-12 05:45:45] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-12 05:45:46] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-12 05:45:47] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-07-12 05:45:47] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-07-12 05:45:47] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-07-12 05:45:48] Feed 'gn_brand_klinik': 44 Einträge
+[2026-07-12 05:45:48] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-07-12 05:45:49] Feed 'gn_klinikbrand': 94 Einträge
+[2026-07-12 05:45:49] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-07-12 05:45:49] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-07-12 05:45:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-12 05:45:50] 213 relevante Treffer in Feeds
+[2026-07-12 05:45:50] ✅ 4 NEUE Einträge gefunden:
+[2026-07-12 05:45:50]    16.03.2026 | im Krankenhaus |  | Feuer in Kiel-Gaarden: Vier Bewohner nach Kellerbrand im Kra
+[2026-07-12 05:45:50]    02.07.2026 | in Krankenhaus |  | News, Vermischtes: Zwei Tote bei Feuer in Krankenhaus in Lud
+[2026-07-12 05:45:50]    02.07.2026 | in Klinik |  | Ludwigslust: Flammen in Klinik - zwei Tote - ad-hoc-news.de
+[2026-07-12 05:45:50]    03.07.2026 | im Klinikum |  | Brand in Ludwigslust: Millionen-Schaden im Klinikum - Wochen
+[2026-07-12 05:45:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-12 05:45:50] === Monitor-Lauf beendet ===
+
+[2026-07-12 05:45:51] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-12 05:45:51] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-12 05:45:51] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-12 05:45:51] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-12 05:45:51] [enrich] --- Enriche [1/4]: Feuer in Kiel-Gaarden: Vier Bewohner nach Kellerbrand im Kra
+[2026-07-12 05:45:51] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/kiel/feuer-in-kiel-gaarden-vier-bewohner-nach-k
+[2026-07-12 05:45:52] [enrich] Artikel-Fetch fehlgeschlagen für https://www.kn-online.de/lokales/kiel/feuer-in-kiel-gaarden-vier-bewohner-nach-k: 403 Client Error: Forbidden for url: https://www.kn-online.de/lokales/kiel/feuer-in-kiel-gaarden-vier-bewohner-nach-kellerbrand-im-krankenhaus-FLIMH3UY5NBDDPO75QZ2J6D4SM.html
+[2026-07-12 05:45:52] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (590 Z.)
+[2026-07-12 05:45:53] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Kellerbrand in einem Wohngebäude in Kiel-Gaarden. Die Bewohner wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt.
+[2026-07-12 05:45:54] [enrich] --- Enriche [2/4]: News, Vermischtes: Zwei Tote bei Feuer in Krankenhaus in Lud
+[2026-07-12 05:45:54] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/1262851-zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust.h
+[2026-07-12 05:45:56] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/1262851-zwei-tote-bei-feuer-in-krankenh
+[2026-07-12 05:45:59] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-12 05:46:00] [enrich] --- Enriche [3/4]: Ludwigslust: Flammen in Klinik - zwei Tote - ad-hoc-news.de
+[2026-07-12 05:46:00] [enrich] Google News URL aufgelöst (v1): https://www.ad-hoc-news.de/unterhaltung/kultur/nach-dem-brand-in-der-ludwigslust
+[2026-07-12 05:46:02] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ad-hoc-news.de/unterhaltung/kultur/nach-dem-bran
+[2026-07-12 05:46:06] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-12 05:46:07] [enrich] --- Enriche [4/4]: Brand in Ludwigslust: Millionen-Schaden im Klinikum - Wochen
+[2026-07-12 05:46:07] [enrich] Google News URL aufgelöst (v1): https://www.wochenblatt-reporter.de/c-blaulicht/brand-in-ludwigslust-millionen-s
+[2026-07-12 05:46:08] [enrich] Volltext extrahiert: 3083 Zeichen von https://www.wochenblatt-reporter.de/c-blaulicht/brand-in-lud
+[2026-07-12 05:46:11] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Klinikum in Ludwigslust
+[2026-07-12 05:46:11] [enrich] Ergebnis: 3 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-12 05:46:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-12 05:46:11] [DEDUP] Starte Dedup für 745 Einträge
+[2026-07-12 05:46:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-12 05:46:13] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-12 05:46:13] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-12 05:46:13] [DEDUP] Auto-Merge (0.86): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene-von-Bülow-Klinikum / Ludwigslust
+[2026-07-12 05:46:13] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-12 05:46:13] [DEDUP] Paare verglichen: 15905
+[2026-07-12 05:46:13] [DEDUP] Auto-Merges: 4
+[2026-07-12 05:46:13] [DEDUP] Kandidaten (unsicher): 439
+[2026-07-12 05:46:13] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-12 05:46:13] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene-von-Bülow-Klinikum
+[2026-07-12 05:46:13] [DEDUP] Ergebnis: 742 Einträge (war: 745, 3 zusammengeführt)
+[2026-07-12 05:46:13] [DEDUP] Kandidaten-Datei: 439 pending, 2 confirmed, 0 rejected
+[2026-07-12 05:46:13] [DEDUP] Gespeichert: 745 → 742 Einträge
