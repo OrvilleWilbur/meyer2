@@ -31555,3 +31555,70 @@
 [2026-07-12 05:46:13] [DEDUP] Ergebnis: 742 Einträge (war: 745, 3 zusammengeführt)
 [2026-07-12 05:46:13] [DEDUP] Kandidaten-Datei: 439 pending, 2 confirmed, 0 rejected
 [2026-07-12 05:46:13] [DEDUP] Gespeichert: 745 → 742 Einträge
+[2026-07-13 05:56:32] === Monitor-Lauf gestartet ===
+[2026-07-13 05:56:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-13 05:56:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-13 05:56:34] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-07-13 05:56:34] Feed 'gn_feuer_krankenhaus': 44 Einträge
+[2026-07-13 05:56:34] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-07-13 05:56:35] Feed 'gn_brand_klinik': 45 Einträge
+[2026-07-13 05:56:35] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-07-13 05:56:35] Feed 'gn_klinikbrand': 88 Einträge
+[2026-07-13 05:56:36] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-07-13 05:56:36] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-07-13 05:56:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-13 05:56:37] 210 relevante Treffer in Feeds
+[2026-07-13 05:56:37] ✅ 5 NEUE Einträge gefunden:
+[2026-07-13 05:56:37]    03.07.2026 |  |  | Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumm
+[2026-07-13 05:56:37]    01.07.2026 | deutschem Krankenhaus |  | Zwei Tote bei Brand in deutschem Krankenhaus - Medinside
+[2026-07-13 05:56:37]    14.08.2025 | im Krankenhaus |  | Feuer in Hoya: Wohnhaus evakuiert, Bewohner im Krankenhaus, 
+[2026-07-13 05:56:37]    02.07.2026 | in Klinik |  | Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigsl
+[2026-07-13 05:56:37]    02.07.2026 | im Klinikum |  | Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - Woc
+[2026-07-13 05:56:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-13 05:56:37] === Monitor-Lauf beendet ===
+
+[2026-07-13 05:56:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-13 05:56:37] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-13 05:56:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-13 05:56:37] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-13 05:56:37] [enrich] --- Enriche [1/5]: Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumm
+[2026-07-13 05:56:37] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-
+[2026-07-13 05:56:38] [enrich] Volltext extrahiert: 3892 Zeichen von https://www.t-online.de/nachrichten/panorama/gesellschaft/id
+[2026-07-13 05:56:41] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-13 05:56:42] [enrich] --- Enriche [2/5]: Zwei Tote bei Brand in deutschem Krankenhaus - Medinside
+[2026-07-13 05:56:43] [enrich] Google News URL aufgelöst (v1): https://www.medinside.ch/de/zwei-tote-bei-brand-in-deutschem-krankenhaus-2026070
+[2026-07-13 05:56:43] [enrich] Volltext extrahiert: 3539 Zeichen von https://www.medinside.ch/de/zwei-tote-bei-brand-in-deutschem
+[2026-07-13 05:56:47] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-13 05:56:48] [enrich] --- Enriche [3/5]: Feuer in Hoya: Wohnhaus evakuiert, Bewohner im Krankenhaus, 
+[2026-07-13 05:56:48] [enrich] Google News URL aufgelöst (v1): https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnha
+[2026-07-13 05:56:48] [enrich] Artikel-Fetch fehlgeschlagen für https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnha: 403 Client Error: Forbidden for url: https://www.dieharke.de/lokales/nienburg-lk/grafschaft-hoya/feuer-in-hoya-wohnhaus-evakuiert-bewohner-im-krankenhaus-strasse-gesperrt-QL6FP7A2JNAT5KEYMYZATXZIWI.html
+[2026-07-13 05:56:48] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (590 Z.)
+[2026-07-13 05:56:49] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnhausbrand in Hoya. Bewohner wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt, sondern in einem Wohnhaus.
+[2026-07-13 05:56:50] [enrich] --- Enriche [4/5]: Feuer in Klinik-Zimmer ausgebrochen: Krankenhaus in Ludwigsl
+[2026-07-13 05:56:51] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in-Ludwigslust-brennt-
+[2026-07-13 05:56:51] [enrich] Volltext extrahiert: 2675 Zeichen von https://www.n-tv.de/mediathek/videos/panorama/Krankenhaus-in
+[2026-07-13 05:56:54] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-13 05:56:55] [enrich] --- Enriche [5/5]: Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - Woc
+[2026-07-13 05:56:55] [enrich] Google News URL aufgelöst (v1): https://www.wochenblatt-reporter.de/c-blaulicht/brand-in-ludwigslust-zwei-tote-n
+[2026-07-13 05:56:56] [enrich] Volltext extrahiert: 2876 Zeichen von https://www.wochenblatt-reporter.de/c-blaulicht/brand-in-lud
+[2026-07-13 05:56:58] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Klinikum in Ludwigslust
+[2026-07-13 05:56:58] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-13 05:56:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-13 05:56:58] [DEDUP] Starte Dedup für 747 Einträge
+[2026-07-13 05:56:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.81): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.95): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene-von-Bülow-Klinikum / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.87): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.87): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Paare verglichen: 15949
+[2026-07-13 05:56:59] [DEDUP] Auto-Merges: 7
+[2026-07-13 05:56:59] [DEDUP] Kandidaten (unsicher): 444
+[2026-07-13 05:56:59] [DEDUP] Cluster 4x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-13 05:56:59] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene-von-Bülow-Klinikum
+[2026-07-13 05:56:59] [DEDUP] Ergebnis: 743 Einträge (war: 747, 4 zusammengeführt)
+[2026-07-13 05:56:59] [DEDUP] Kandidaten-Datei: 444 pending, 2 confirmed, 0 rejected
+[2026-07-13 05:56:59] [DEDUP] Gespeichert: 747 → 743 Einträge
