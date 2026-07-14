@@ -31622,3 +31622,58 @@
 [2026-07-13 05:56:59] [DEDUP] Ergebnis: 743 Einträge (war: 747, 4 zusammengeführt)
 [2026-07-13 05:56:59] [DEDUP] Kandidaten-Datei: 444 pending, 2 confirmed, 0 rejected
 [2026-07-13 05:56:59] [DEDUP] Gespeichert: 747 → 743 Einträge
+[2026-07-14 05:19:02] === Monitor-Lauf gestartet ===
+[2026-07-14 05:19:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-14 05:19:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-14 05:19:05] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-07-14 05:19:05] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-07-14 05:19:06] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-07-14 05:19:06] Feed 'gn_brand_klinik': 40 Einträge
+[2026-07-14 05:19:07] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-07-14 05:19:07] Feed 'gn_klinikbrand': 93 Einträge
+[2026-07-14 05:19:08] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-07-14 05:19:08] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-07-14 05:19:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-14 05:19:09] 212 relevante Treffer in Feeds
+[2026-07-14 05:19:09] ✅ 4 NEUE Einträge gefunden:
+[2026-07-14 05:19:09]    03.07.2026 | in Krankenhaus |  | Feuer in Patientenzimmer ausgebrochen: Zwei Tote nach Brand 
+[2026-07-14 05:19:09]    31.05.2024 | im Krankenhaus |  | Feuer in Kiel: Drei Menschen nach Brand in Altenheim im Kran
+[2026-07-14 05:19:09]    13.07.2026 | im Krankenhaus gestorben |  | Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-14 05:19:09]    18.06.2019 | in Klinikum Ludwigshafen |  | Brand in Klinikum Ludwigshafen – Feuer-Alarm in Labor - Ludw
+[2026-07-14 05:19:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-14 05:19:09] === Monitor-Lauf beendet ===
+
+[2026-07-14 05:19:09] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-14 05:19:09] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-14 05:19:09] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-14 05:19:09] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-14 05:19:09] [enrich] --- Enriche [1/4]: Feuer in Patientenzimmer ausgebrochen: Zwei Tote nach Brand 
+[2026-07-14 05:19:09] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-im-krankenhaus-vorsa
+[2026-07-14 05:19:11] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-
+[2026-07-14 05:19:16] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinikum in Ludwigslust
+[2026-07-14 05:19:17] [enrich] --- Enriche [2/4]: Feuer in Kiel: Drei Menschen nach Brand in Altenheim im Kran
+[2026-07-14 05:19:17] [enrich] Google News URL aufgelöst (v1): https://www.kn-online.de/lokales/kiel/feuer-in-kiel-drei-menschen-nach-brand-in-
+[2026-07-14 05:19:18] [enrich] Artikel-Fetch fehlgeschlagen für https://www.kn-online.de/lokales/kiel/feuer-in-kiel-drei-menschen-nach-brand-in-: 403 Client Error: Forbidden for url: https://www.kn-online.de/lokales/kiel/feuer-in-kiel-drei-menschen-nach-brand-in-altenheim-im-krankenhaus-YQKFDMLJ4BDNPOAOZ7JRYECIOA.html
+[2026-07-14 05:19:18] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (589 Z.)
+[2026-07-14 05:19:19] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Altenheim, nicht in einem Krankenhaus. Die Personen wurden nach dem Brand ins Krankenhaus gebracht, was nicht die Definition eines Krankenhausbrands erfüllt.
+[2026-07-14 05:19:20] [enrich] --- Enriche [3/4]: Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-14 05:19:20] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/britin-waldbrand-spanien-krankenhaus-gesto
+[2026-07-14 05:19:21] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.onetz.de/deutschland-welt/britin-waldbrand-spani
+[2026-07-14 05:19:24] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Waldbrand in Spanien. Eine Britin wird nach dem Brand im Krankenhaus behandelt und stirbt dort an ihren Brandverletzungen, aber der Brand selbst fand nicht in einem Krankenhaus statt, sondern im Freien. Dies fällt unter die Ausnahmekategorie 'Person wird nach einem Brand ins Krankenhaus gebracht'. Zusätzlich liegt der Brand außerhalb Deutschlands (Spanien).
+[2026-07-14 05:19:25] [enrich] --- Enriche [4/4]: Brand in Klinikum Ludwigshafen – Feuer-Alarm in Labor - Ludw
+[2026-07-14 05:19:25] [enrich] Google News URL aufgelöst (v1): https://www.ludwigshafen24.de/ludwigshafen/ludwigshafen-brand-klinikum-feuerwehr
+[2026-07-14 05:19:26] [enrich] Volltext extrahiert: 2795 Zeichen von https://www.ludwigshafen24.de/ludwigshafen/ludwigshafen-bran
+[2026-07-14 05:19:30] [enrich] Enrichment abgeschlossen: enriched — Klinikum Ludwigshafen in Ludwigshafen
+[2026-07-14 05:19:30] [enrich] Ergebnis: 2 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-07-14 05:19:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-14 05:19:30] [DEDUP] Starte Dedup für 747 Einträge
+[2026-07-14 05:19:30] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-14 05:19:31] [DEDUP] Auto-Merge (0.82): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Klinikum / Ludwigslust
+[2026-07-14 05:19:31] [DEDUP] Paare verglichen: 15970
+[2026-07-14 05:19:31] [DEDUP] Auto-Merges: 1
+[2026-07-14 05:19:31] [DEDUP] Kandidaten (unsicher): 432
+[2026-07-14 05:19:31] [DEDUP] Cluster 2x: Ludwigsluster Krankenhaus (LUP-Kliniken), LUP-Klinikum
+[2026-07-14 05:19:31] [DEDUP] Ergebnis: 746 Einträge (war: 747, 1 zusammengeführt)
+[2026-07-14 05:19:31] [DEDUP] Kandidaten-Datei: 432 pending, 2 confirmed, 0 rejected
+[2026-07-14 05:19:31] [DEDUP] Gespeichert: 747 → 746 Einträge
