@@ -31677,3 +31677,45 @@
 [2026-07-14 05:19:31] [DEDUP] Ergebnis: 746 Einträge (war: 747, 1 zusammengeführt)
 [2026-07-14 05:19:31] [DEDUP] Kandidaten-Datei: 432 pending, 2 confirmed, 0 rejected
 [2026-07-14 05:19:31] [DEDUP] Gespeichert: 747 → 746 Einträge
+[2026-07-15 05:20:32] === Monitor-Lauf gestartet ===
+[2026-07-15 05:20:33] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-15 05:20:34] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-15 05:20:35] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-07-15 05:20:35] Feed 'gn_feuer_krankenhaus': 55 Einträge
+[2026-07-15 05:20:35] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-07-15 05:20:36] Feed 'gn_brand_klinik': 42 Einträge
+[2026-07-15 05:20:36] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-07-15 05:20:36] Feed 'gn_klinikbrand': 96 Einträge
+[2026-07-15 05:20:37] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-07-15 05:20:37] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-07-15 05:20:38] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-15 05:20:38] 220 relevante Treffer in Feeds
+[2026-07-15 05:20:38] ✅ 2 NEUE Einträge gefunden:
+[2026-07-15 05:20:38]    01.07.2026 | in Klinik |  | Hoher Schaden nach Brand in Klinik - hessenschau.de
+[2026-07-15 05:20:38]    03.07.2026 |  |  | Krankenhausbrand in Mecklenburg-Vorpommern: Technische Ursac
+[2026-07-15 05:20:38] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-15 05:20:38] === Monitor-Lauf beendet ===
+
+[2026-07-15 05:20:39] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-15 05:20:39] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-15 05:20:39] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-15 05:20:39] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-15 05:20:39] [enrich] --- Enriche [1/2]: Hoher Schaden nach Brand in Klinik - hessenschau.de
+[2026-07-15 05:20:39] [enrich] Google News URL aufgelöst (v1): https://www.hessenschau.de/videos/kurzvideos/hoher-schaden-nach-brand-in-klinik,
+[2026-07-15 05:20:41] [enrich] Volltext extrahiert: 471 Zeichen von https://www.hessenschau.de/videos/kurzvideos/hoher-schaden-n
+[2026-07-15 05:20:43] [enrich] FALSE POSITIVE erkannt: Die Klinik war leer stehend und nicht in Betrieb. Es handelt sich um einen Brand in einem verlassenen Gebäude, nicht um einen Brand in einer funktionierenden medizinischen Einrichtung mit Patienten oder laufendem Betrieb.
+[2026-07-15 05:20:44] [enrich] --- Enriche [2/2]: Krankenhausbrand in Mecklenburg-Vorpommern: Technische Ursac
+[2026-07-15 05:20:45] [enrich] Google News URL aufgelöst (v1): https://de.nachrichten.yahoo.com/krankenhausbrand-mecklenburg-vorpommern-technis
+[2026-07-15 05:20:45] [enrich] Volltext extrahiert: 941 Zeichen von https://de.nachrichten.yahoo.com/krankenhausbrand-mecklenbur
+[2026-07-15 05:20:47] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keine Informationen zu einem Brand. Es handelt sich ausschließlich um einen Cookie- und Datenschutz-Hinweis von Yahoo.
+[2026-07-15 05:20:47] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-07-15 05:20:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-15 05:20:47] [DEDUP] Starte Dedup für 748 Einträge
+[2026-07-15 05:20:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-15 05:20:48] [DEDUP] Paare verglichen: 16045
+[2026-07-15 05:20:48] [DEDUP] Auto-Merges: 0
+[2026-07-15 05:20:48] [DEDUP] Kandidaten (unsicher): 429
+[2026-07-15 05:20:48] [DEDUP] Ergebnis: 748 Einträge (war: 748, 0 zusammengeführt)
+[2026-07-15 05:20:48] [DEDUP] Kandidaten-Datei: 429 pending, 2 confirmed, 0 rejected
+[2026-07-15 05:20:48] [DEDUP] Gespeichert: 748 → 748 Einträge
