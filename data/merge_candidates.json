@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T05:20:48.925326",
+  "generated_at": "2026-07-16T05:29:55.759214",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -11855,6 +11855,72 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/britin-waldbrand-spanien-krankenhaus-gestorben-id5435478.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-krankenhaus-gestorben-391829.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - Nord24"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-einem-geb%C3%A4ude-der-uniklinik-ausgebrochen/ar-AA27XZ5R",
+        "titel": "Feuer in einem Gebäude der Uniklinik ausgebrochen - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-einem-gebaeude-ausgebrochen_aid-151547497",
+        "titel": "Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Uniklinik ausgebrochen - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -13102,6 +13168,105 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/meinung/israel-gaza-krieg-schifa-krankenhaus-kommentar-1.6305735",
         "titel": "Schifa-Krankenhaus in Gaza: Israel sollte eine Evakuierung garantieren - Meinung - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-einem-geb%C3%A4ude-der-uniklinik-ausgebrochen/ar-AA27XZ5R",
+        "titel": "Feuer in einem Gebäude der Uniklinik ausgebrochen - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-einem-gebaeude-ausgebrochen_aid-151547497",
+        "titel": "Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Uniklinik ausgebrochen - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Online"
       }
     },
     {

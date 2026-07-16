@@ -31719,3 +31719,66 @@
 [2026-07-15 05:20:48] [DEDUP] Ergebnis: 748 Einträge (war: 748, 0 zusammengeführt)
 [2026-07-15 05:20:48] [DEDUP] Kandidaten-Datei: 429 pending, 2 confirmed, 0 rejected
 [2026-07-15 05:20:48] [DEDUP] Gespeichert: 748 → 748 Einträge
+[2026-07-16 05:29:26] === Monitor-Lauf gestartet ===
+[2026-07-16 05:29:28] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-16 05:29:28] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-16 05:29:29] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-07-16 05:29:29] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-07-16 05:29:29] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-07-16 05:29:30] Feed 'gn_brand_klinik': 39 Einträge
+[2026-07-16 05:29:30] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-07-16 05:29:31] Feed 'gn_klinikbrand': 96 Einträge
+[2026-07-16 05:29:31] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-07-16 05:29:31] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-07-16 05:29:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-16 05:29:32] 212 relevante Treffer in Feeds
+[2026-07-16 05:29:32] ✅ 6 NEUE Einträge gefunden:
+[2026-07-16 05:29:32]    13.07.2026 | im Krankenhaus gestorben |  | Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-16 05:29:32]    15.07.2026 | ins Klinikum transportiert | DT | FW-DT: Brand in einem Industriebetrieb – mehrere Personen in
+[2026-07-16 05:29:32]    15.07.2026 | Uniklinik |  | Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-07-16 05:29:32]    15.07.2026 | Uniklinik ausgebrochen |  | Feuer in einem Gebäude der Uniklinik ausgebrochen - MSN
+[2026-07-16 05:29:32]    15.07.2026 | Uniklinik ausgebrochen |  | Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Unikl
+[2026-07-16 05:29:32]    15.07.2026 | Uniklinik Düsseldorf |  | Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Onl
+[2026-07-16 05:29:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-16 05:29:32] === Monitor-Lauf beendet ===
+
+[2026-07-16 05:29:33] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-16 05:29:33] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-16 05:29:33] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-16 05:29:33] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-16 05:29:33] [enrich] --- Enriche [1/6]: Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-16 05:29:33] [enrich] Google News URL aufgelöst (v1): https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-k
+[2026-07-16 05:29:34] [enrich] Volltext extrahiert: 3194 Zeichen von https://www.nord24.de/deutschland-die-welt/britin-nach-waldb
+[2026-07-16 05:29:37] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Waldbrand in Spanien. Eine britische Brandopferin wird nach dem Waldbrand im Krankenhaus behandelt und verstirbt dort an ihren Verletzungen. Dies ist keine Brand IN einem Krankenhaus, sondern die Behandlung eines Brandopfers nach einem externen Waldbrand. Zudem liegt der Waldbrand außerhalb Deutschlands (Spanien).
+[2026-07-16 05:29:38] [enrich] --- Enriche [2/6]: FW-DT: Brand in einem Industriebetrieb – mehrere Personen in
+[2026-07-16 05:29:38] [enrich] Google News URL aufgelöst (v1): https://www.nachrichten-heute.net/1707249-fw-dt-brand-in-einem-industriebetrieb-
+[2026-07-16 05:29:39] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nachrichten-heute.net/1707249-fw-dt-brand-in-ein
+[2026-07-16 05:29:41] [enrich] FALSE POSITIVE erkannt: Brand in einem Industriebetrieb, nicht in einem Krankenhaus. Personen wurden nach dem Brand zur medizinischen Untersuchung ins Klinikum transportiert, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-07-16 05:29:42] [enrich] --- Enriche [3/6]: Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-07-16 05:29:42] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feu
+[2026-07-16 05:29:42] [enrich] Volltext extrahiert: 2706 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/unikl
+[2026-07-16 05:29:44] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle (Neubau) des Universitätsklinikums, nicht in einem bestehenden Krankenhaus-Gebäude selbst. Es handelt sich um einen Brand während Bauarbeiten auf dem Klinik-Gelände, nicht um einen Brand in einer funktionierenden medizinischen Einrichtung.
+[2026-07-16 05:29:45] [enrich] --- Enriche [4/6]: Feuer in einem Gebäude der Uniklinik ausgebrochen - MSN
+[2026-07-16 05:29:45] [enrich] Google News URL aufgelöst (v1): https://www.msn.com/de-de/nachrichten/panorama/feuer-in-einem-geb%C3%A4ude-der-u
+[2026-07-16 05:29:45] [enrich] Kein Artikeltext extrahierbar für https://www.msn.com/de-de/nachrichten/panorama/feuer-in-einem-geb%C3%A4ude-der-u
+[2026-07-16 05:29:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (468 Z.)
+[2026-07-16 05:29:46] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne aussagekräftige Inhalte. Es ist nicht zu erkennen, ob ein tatsächlicher Brand in der Uniklinik stattgefunden hat oder ob es sich um einen anderen Kontext handelt. Die Quelle ist nicht vollständig verfügbar.
+[2026-07-16 05:29:47] [enrich] --- Enriche [5/6]: Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Unikl
+[2026-07-16 05:29:48] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feu
+[2026-07-16 05:29:49] [enrich] Volltext extrahiert: 2706 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/unikl
+[2026-07-16 05:29:50] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle des Universitätsklinikums, nicht in einem bereits betriebenen Krankenhaus/einer Klinik. Das Feuer brach während Bauarbeiten auf dem Gelände aus, nicht in einer bestehenden medizinischen Einrichtung.
+[2026-07-16 05:29:51] [enrich] --- Enriche [6/6]: Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Onl
+[2026-07-16 05:29:51] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-bau
+[2026-07-16 05:29:52] [enrich] Volltext extrahiert: 1260 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-07-16 05:29:54] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle an der Uniklinik, nicht in einem bestehenden Krankenhausgebäude. Das Feuer brach im Bau des Trube-Becker-Hauses aus, einem sich noch in Konstruktion befindenden Neubau, nicht in einer operativen Krankenhauseinrichtung.
+[2026-07-16 05:29:54] [enrich] Ergebnis: 0 enriched, 0 partial, 6 false_positive, 0 failed
+[2026-07-16 05:29:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-16 05:29:54] [DEDUP] Starte Dedup für 754 Einträge
+[2026-07-16 05:29:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-16 05:29:55] [DEDUP] Paare verglichen: 16318
+[2026-07-16 05:29:55] [DEDUP] Auto-Merges: 0
+[2026-07-16 05:29:55] [DEDUP] Kandidaten (unsicher): 434
+[2026-07-16 05:29:55] [DEDUP] Ergebnis: 754 Einträge (war: 754, 0 zusammengeführt)
+[2026-07-16 05:29:55] [DEDUP] Kandidaten-Datei: 434 pending, 2 confirmed, 0 rejected
+[2026-07-16 05:29:55] [DEDUP] Gespeichert: 754 → 754 Einträge
