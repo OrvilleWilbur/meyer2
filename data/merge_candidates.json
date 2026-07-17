@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T05:29:55.759214",
+  "generated_at": "2026-07-17T05:31:34.233611",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -11921,6 +11921,369 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://newstime.joyn.de/themen/panorama/finsterwalder-mann-legt-feuer-buero-brandenburg-landratsamt-156549",
+        "titel": "Mann legt Feuer im Finsterwalder Landratsamt – vier Menschen im Krankenhaus - Joyn"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.upday.com/de/news/brandanschlag-im-jugendamt-finsterwalde-vier-personen-im-krankenhaus/b81qwfd",
+        "titel": "Brandanschlag im Jugendamt Finsterwalde - Vier Personen im Krankenhaus - upday News"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -14323,6 +14686,39 @@
         "status": "false_positive",
         "link": "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klinik--dachstuhlbrand-in-krankenhaus---anteilnahme-im-landtag-37636772.html",
         "titel": "Feuer in Klinik: Dachstuhlbrand in Krankenhaus - Anteilnahme im Landtag - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.wz.de/nrw/feuer-in-kuenftigem-kinderschutzzentrum_aid-151588107",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum - Westdeutsche Zeitung"
       }
     }
   ],
