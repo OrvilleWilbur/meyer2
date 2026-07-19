@@ -31884,3 +31884,55 @@
 [2026-07-18 05:14:07] [DEDUP] Ergebnis: 762 Einträge (war: 762, 0 zusammengeführt)
 [2026-07-18 05:14:07] [DEDUP] Kandidaten-Datei: 446 pending, 2 confirmed, 0 rejected
 [2026-07-18 05:14:07] [DEDUP] Gespeichert: 762 → 762 Einträge
+[2026-07-19 05:40:09] === Monitor-Lauf gestartet ===
+[2026-07-19 05:40:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-19 05:40:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-19 05:40:10] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-07-19 05:40:11] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-07-19 05:40:11] Feed 'gn_feuer_klinik': 38 Einträge
+[2026-07-19 05:40:11] Feed 'gn_brand_klinik': 44 Einträge
+[2026-07-19 05:40:12] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-07-19 05:40:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-19 05:40:13] Feed 'gn_feuer_uniklinik': 41 Einträge
+[2026-07-19 05:40:13] Feed 'gn_evakuierung_klinik': 44 Einträge
+[2026-07-19 05:40:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-19 05:40:14] 217 relevante Treffer in Feeds
+[2026-07-19 05:40:14] ✅ 4 NEUE Einträge gefunden:
+[2026-07-19 05:40:14]    16.07.2026 | in Klinik |  | Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörd
+[2026-07-19 05:40:14]    16.07.2026 | in Klinik |  | Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.d
+[2026-07-19 05:40:14]    16.07.2026 | in Klinik |  | Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Ba
+[2026-07-19 05:40:14]    02.01.2026 | Deutsche Kliniken nehmen Schweizer Brandopfer |  | Hilfeersuchen für 40 Verletzte: Deutsche Kliniken nehmen Sch
+[2026-07-19 05:40:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-19 05:40:14] === Monitor-Lauf beendet ===
+
+[2026-07-19 05:40:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-19 05:40:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-19 05:40:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-19 05:40:14] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-19 05:40:14] [enrich] --- Enriche [1/4]: Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörd
+[2026-07-19 05:40:14] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerd
+[2026-07-19 05:40:15] [enrich] Volltext extrahiert: 762 Zeichen von https://rp-online.de/panorama/deutschland/brandenburg-mann-l
+[2026-07-19 05:40:16] [enrich] FALSE POSITIVE erkannt: Brand fand im Landratsamt Finsterwalde statt, nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, was kein Krankenhausbrand darstellt.
+[2026-07-19 05:40:17] [enrich] --- Enriche [2/4]: Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.d
+[2026-07-19 05:40:18] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde
+[2026-07-19 05:40:19] [enrich] Volltext extrahiert: 1921 Zeichen von https://www.noz.de/deutschland-welt/panorama/artikel/mann-le
+[2026-07-19 05:40:20] [enrich] FALSE POSITIVE erkannt: Der Brand fand in einem Behördenbüro (Amt für Jugend und Soziales) in Brandenburg statt, nicht in einem Krankenhaus oder einer Klinik.
+[2026-07-19 05:40:21] [enrich] --- Enriche [3/4]: Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Ba
+[2026-07-19 05:40:21] [enrich] Google News URL aufgelöst (v1): https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehr
+[2026-07-19 05:40:25] [enrich] Volltext extrahiert: 853 Zeichen von https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-fe
+[2026-07-19 05:40:27] [enrich] FALSE POSITIVE erkannt: Brand ereignet sich in einem Jugendamt, nicht in einem Krankenhaus/einer Klinik. Personen werden nach dem Vorfall ins Krankenhaus gebracht, aber das ist nicht der Ort des Brandes.
+[2026-07-19 05:40:28] [enrich] --- Enriche [4/4]: Hilfeersuchen für 40 Verletzte: Deutsche Kliniken nehmen Sch
+[2026-07-19 05:40:28] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/panorama/Deutsche-Kliniken-nehmen-Schweizer-Brandopfer-auf-i
+[2026-07-19 05:40:29] [enrich] Volltext extrahiert: 4329 Zeichen von https://www.n-tv.de/panorama/Deutsche-Kliniken-nehmen-Schwei
+[2026-07-19 05:40:30] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in deutschen Kliniken. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Aufnahme von Verletzten zur medizinischen Versorgung.
+[2026-07-19 05:40:30] [enrich] Ergebnis: 0 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-07-19 05:40:30] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-19 05:40:31] [DEDUP] Starte Dedup für 766 Einträge
+[2026-07-19 05:40:31] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-19 05:40:32] [DEDUP] Paare verglichen: 17027
+[2026-07-19 05:40:32] [DEDUP] Auto-Merges: 0
+[2026-07-19 05:40:32] [DEDUP] Kandidaten (unsicher): 468
+[2026-07-19 05:40:32] [DEDUP] Ergebnis: 766 Einträge (war: 766, 0 zusammengeführt)
+[2026-07-19 05:40:32] [DEDUP] Kandidaten-Datei: 468 pending, 2 confirmed, 0 rejected
+[2026-07-19 05:40:32] [DEDUP] Gespeichert: 766 → 766 Einträge
