@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T05:57:58.195478",
+  "generated_at": "2026-07-21T05:39:26.591560",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -4588,6 +4588,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.552,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.552
+      },
+      "entry_a": {
+        "einrichtung": "Psychiatrisches Krankenhaus Neunkirchen",
+        "ort": "Neunkirchen",
+        "datum": "12.03.2026",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/braende--pflegekraft-bei-feuer-in-klinik-leicht-verletzt-37216976.html",
+        "titel": "Brände: Pflegekraft bei Feuer in Klinik leicht verletzt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Neunkirchen",
+        "ort": "Neunkirchen",
+        "datum": "14.03.2026",
+        "bundesland": "Saarland",
+        "status": "partial",
+        "link": "https://www.sol.de/blaulicht-saarland/pflegekraft-bei-feuer-in-neunkircher-klinik-verletzt-re-2,687379.html",
+        "titel": "Pflegekraft bei Feuer in Neunkircher Klinik verletzt - SOL.DE"
       }
     },
     {

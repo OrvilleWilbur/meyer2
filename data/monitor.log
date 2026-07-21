@@ -31983,3 +31983,46 @@
 [2026-07-20 05:57:58] [DEDUP] Ergebnis: 769 Einträge (war: 769, 0 zusammengeführt)
 [2026-07-20 05:57:58] [DEDUP] Kandidaten-Datei: 478 pending, 2 confirmed, 0 rejected
 [2026-07-20 05:57:58] [DEDUP] Gespeichert: 769 → 769 Einträge
+[2026-07-21 05:39:11] === Monitor-Lauf gestartet ===
+[2026-07-21 05:39:13] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-21 05:39:13] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-21 05:39:14] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-07-21 05:39:14] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-07-21 05:39:15] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-07-21 05:39:15] Feed 'gn_brand_klinik': 43 Einträge
+[2026-07-21 05:39:15] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-07-21 05:39:16] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-21 05:39:16] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-07-21 05:39:17] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-07-21 05:39:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-21 05:39:18] 212 relevante Treffer in Feeds
+[2026-07-21 05:39:18] ✅ 2 NEUE Einträge gefunden:
+[2026-07-21 05:39:18]    14.03.2026 | Neunkircher Klinik verletzt |  | Pflegekraft bei Feuer in Neunkircher Klinik verletzt - SOL.D
+[2026-07-21 05:39:18]    20.07.2026 | im Krankenhaus |  | Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen
+[2026-07-21 05:39:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-21 05:39:18] === Monitor-Lauf beendet ===
+
+[2026-07-21 05:39:18] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-21 05:39:18] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-21 05:39:18] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-21 05:39:18] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-21 05:39:18] [enrich] --- Enriche [1/2]: Pflegekraft bei Feuer in Neunkircher Klinik verletzt - SOL.D
+[2026-07-21 05:39:18] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/blaulicht-saarland/pflegekraft-bei-feuer-in-neunkircher-klini
+[2026-07-21 05:39:18] [enrich] Artikel-Fetch fehlgeschlagen für https://www.sol.de/blaulicht-saarland/pflegekraft-bei-feuer-in-neunkircher-klini: 403 Client Error: Forbidden for url: https://www.sol.de/blaulicht-saarland/pflegekraft-bei-feuer-in-neunkircher-klinik-verletzt-re-2,687379.html
+[2026-07-21 05:39:18] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (469 Z.)
+[2026-07-21 05:39:21] [enrich] Enrichment abgeschlossen: partial — Klinik Neunkirchen in Neunkirchen
+[2026-07-21 05:39:22] [enrich] --- Enriche [2/2]: Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen
+[2026-07-21 05:39:22] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus-noerdlingen-technis
+[2026-07-21 05:39:23] [enrich] Volltext extrahiert: 285 Zeichen von https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus
+[2026-07-21 05:39:24] [enrich] FALSE POSITIVE erkannt: Evakuierung aufgrund eines technischen Defekts, nicht aufgrund eines Brandes. Der Artikel erwähnt keinen Brand oder Feuer im Krankenhaus.
+[2026-07-21 05:39:24] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-07-21 05:39:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-21 05:39:25] [DEDUP] Starte Dedup für 771 Einträge
+[2026-07-21 05:39:25] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-21 05:39:26] [DEDUP] Paare verglichen: 17275
+[2026-07-21 05:39:26] [DEDUP] Auto-Merges: 0
+[2026-07-21 05:39:26] [DEDUP] Kandidaten (unsicher): 479
+[2026-07-21 05:39:26] [DEDUP] Ergebnis: 771 Einträge (war: 771, 0 zusammengeführt)
+[2026-07-21 05:39:26] [DEDUP] Kandidaten-Datei: 479 pending, 2 confirmed, 0 rejected
+[2026-07-21 05:39:26] [DEDUP] Gespeichert: 771 → 771 Einträge
