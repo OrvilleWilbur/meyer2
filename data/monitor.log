@@ -32026,3 +32026,60 @@
 [2026-07-21 05:39:26] [DEDUP] Ergebnis: 771 Einträge (war: 771, 0 zusammengeführt)
 [2026-07-21 05:39:26] [DEDUP] Kandidaten-Datei: 479 pending, 2 confirmed, 0 rejected
 [2026-07-21 05:39:26] [DEDUP] Gespeichert: 771 → 771 Einträge
+[2026-07-22 05:38:03] === Monitor-Lauf gestartet ===
+[2026-07-22 05:38:04] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-22 05:38:05] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-22 05:38:05] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-07-22 05:38:06] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-07-22 05:38:06] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-07-22 05:38:06] Feed 'gn_brand_klinik': 51 Einträge
+[2026-07-22 05:38:07] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-07-22 05:38:07] Feed 'gn_klinikbrand': 99 Einträge
+[2026-07-22 05:38:08] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-07-22 05:38:08] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-07-22 05:38:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-22 05:38:09] 219 relevante Treffer in Feeds
+[2026-07-22 05:38:09] ✅ 4 NEUE Einträge gefunden:
+[2026-07-22 05:38:09]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-07-22 05:38:09]    31.01.2023 | ins Krankenhaus |  | Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - M
+[2026-07-22 05:38:09]    15.03.2026 | Neunkircher Klinik |  | Nach Brand in Neunkircher Klinik: Staatsanwaltschaft ermitte
+[2026-07-22 05:38:09]    06.10.2025 | Saarbrücker Klinik |  | Siebenstelliger Schaden nach Brand in Saarbrücker Klinik: Er
+[2026-07-22 05:38:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-22 05:38:09] === Monitor-Lauf beendet ===
+
+[2026-07-22 05:38:09] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-22 05:38:09] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-22 05:38:09] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-22 05:38:09] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-22 05:38:09] [enrich] --- Enriche [1/4]: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z
+[2026-07-22 05:38:10] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-07-22 05:38:10] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb
+[2026-07-22 05:38:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (414 Z.)
+[2026-07-22 05:38:11] [enrich] FALSE POSITIVE erkannt: Brandopfer aus einem Brand in der Schweiz werden in einem deutschen Krankenhaus behandelt. Es handelt sich nicht um einen Brand IN dem Krankenhaus selbst, sondern um die Aufnahme von Brandopfern zur Behandlung.
+[2026-07-22 05:38:12] [enrich] --- Enriche [2/4]: Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - M
+[2026-07-22 05:38:13] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/deutschland-und-welt/deutschland/einfamilienhaus-in-brand-bewo
+[2026-07-22 05:38:13] [enrich] Volltext extrahiert: 1193 Zeichen von https://www.mz.de/deutschland-und-welt/deutschland/einfamili
+[2026-07-22 05:38:15] [enrich] FALSE POSITIVE erkannt: Brand in Einfamilienhaus, nicht in einem Krankenhaus. Die Einlieferung eines Bewohners ins Krankenhaus zur Behandlung von Rauchgasvergiftung ist kein Krankenhausbrand.
+[2026-07-22 05:38:16] [enrich] --- Enriche [3/4]: Nach Brand in Neunkircher Klinik: Staatsanwaltschaft ermitte
+[2026-07-22 05:38:17] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/blaulicht-saarland/nach-brand-in-neunkircher-klinik-staatsanw
+[2026-07-22 05:38:17] [enrich] Artikel-Fetch fehlgeschlagen für https://www.sol.de/blaulicht-saarland/nach-brand-in-neunkircher-klinik-staatsanw: 403 Client Error: Forbidden for url: https://www.sol.de/blaulicht-saarland/nach-brand-in-neunkircher-klinik-staatsanwaltschaft-ermittelt-wegen-versuchten-mordes-re-2,687582.html
+[2026-07-22 05:38:17] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (596 Z.)
+[2026-07-22 05:38:19] [enrich] Enrichment abgeschlossen: partial — Klinik Neunkirchen in Neunkirchen
+[2026-07-22 05:38:20] [enrich] --- Enriche [4/4]: Siebenstelliger Schaden nach Brand in Saarbrücker Klinik: Er
+[2026-07-22 05:38:20] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/saarland/siebenstelliger-schaden-nach-brand-in-saarbruecker-k
+[2026-07-22 05:38:20] [enrich] Artikel-Fetch fehlgeschlagen für https://www.sol.de/saarland/siebenstelliger-schaden-nach-brand-in-saarbruecker-k: 403 Client Error: Forbidden for url: https://www.sol.de/saarland/siebenstelliger-schaden-nach-brand-in-saarbruecker-klinik-ermittlungen-wegen-besonders-schwerer-brandstiftung-re-2,647104.html
+[2026-07-22 05:38:20] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (619 Z.)
+[2026-07-22 05:38:22] [enrich] Enrichment abgeschlossen: partial — Klinik Saarbrücken (Name nicht präzisiert) in Saarbrücken
+[2026-07-22 05:38:22] [enrich] Ergebnis: 0 enriched, 2 partial, 2 false_positive, 0 failed
+[2026-07-22 05:38:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-22 05:38:22] [DEDUP] Starte Dedup für 775 Einträge
+[2026-07-22 05:38:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-22 05:38:23] [DEDUP] Auto-Merge (0.86): Klinik Neunkirchen / Neunkirchen ↔ Klinik Neunkirchen / Neunkirchen
+[2026-07-22 05:38:23] [DEDUP] Paare verglichen: 17410
+[2026-07-22 05:38:23] [DEDUP] Auto-Merges: 1
+[2026-07-22 05:38:23] [DEDUP] Kandidaten (unsicher): 488
+[2026-07-22 05:38:23] [DEDUP] Cluster 2x: Klinik Neunkirchen, Klinik Neunkirchen
+[2026-07-22 05:38:23] [DEDUP] Ergebnis: 774 Einträge (war: 775, 1 zusammengeführt)
+[2026-07-22 05:38:23] [DEDUP] Kandidaten-Datei: 488 pending, 2 confirmed, 0 rejected
+[2026-07-22 05:38:24] [DEDUP] Gespeichert: 775 → 774 Einträge

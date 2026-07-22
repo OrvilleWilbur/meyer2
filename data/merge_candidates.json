@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T05:39:26.591560",
+  "generated_at": "2026-07-22T05:38:23.973588",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3301,6 +3301,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.657,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 0.6666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.657
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht spezifiziert)",
+        "ort": "Saarbrücken",
+        "datum": "04.10.2025",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://kurier.at/chronik/welt/klinik-brand-feuer-saarbruecken-deutschland/403090121",
+        "titel": "Klinikbrand in Saarbrücken: Mindestens 20 Verletzte - Kurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Saarbrücken (Name nicht präzisiert)",
+        "ort": "Saarbrücken",
+        "datum": "06.10.2025",
+        "bundesland": "Saarland",
+        "status": "partial",
+        "link": "https://www.sol.de/saarland/siebenstelliger-schaden-nach-brand-in-saarbruecker-klinik-ermittlungen-wegen-besonders-schwerer-brandstiftung-re-2,647104.html",
+        "titel": "Siebenstelliger Schaden nach Brand in Saarbrücker Klinik: Ermittlungen wegen besonders schwerer Brandstiftung - SOL.DE"
       }
     },
     {
@@ -6816,6 +6849,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "NRW-Klinik verlegt",
         "ort": "",
         "datum": "03.01.2026",
@@ -7195,6 +7261,39 @@
         "status": "false_positive",
         "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
         "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
       }
     },
     {
@@ -7806,6 +7905,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik untergebracht",
         "ort": "",
         "datum": "14.01.2026",
@@ -7971,6 +8103,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Spezialklinik",
         "ort": "",
         "datum": "02.01.2026",
@@ -8070,6 +8235,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "- Klinik",
         "ort": "",
         "datum": "02.01.2026",
@@ -8152,6 +8350,39 @@
         "status": "false_positive",
         "link": "https://stuttgart.t-online.de/region/stuttgart/id_101065126/brandopfer-von-crans-montana-in-stuttgarter-klinik.html",
         "titel": "Brandopfer von Crans-Montana: Schweizer in Stuttgarter Klinik - t-online – Stuttgart"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
       }
     },
     {
@@ -10957,6 +11188,39 @@
         "status": "false_positive",
         "link": "https://www.volksstimme.de/deutschland-und-welt/deutschland/lagerraum-in-gotha-in-brand-schwerverletzter-in-klinik-3516575",
         "titel": "Lagerraum in Gotha in Brand: Schwerverletzter in Klinik - volksstimme.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "31.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksstimme.de/deutschland-und-welt/deutschland/einfamilienhaus-in-brand-bewohner-kommt-ins-krankenhaus-3535471",
+        "titel": "Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - Volksstimme"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "31.01.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mz.de/deutschland-und-welt/deutschland/einfamilienhaus-in-brand-bewohner-kommt-ins-krankenhaus-3535467",
+        "titel": "Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - Mitteldeutsche Zeitung"
       }
     },
     {
@@ -14818,6 +15082,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
         "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.463,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.463
+      },
+      "entry_a": {
+        "einrichtung": "Psychiatrisches Krankenhaus Neunkirchen",
+        "ort": "Neunkirchen",
+        "datum": "12.03.2026",
+        "bundesland": "Saarland",
+        "status": "enriched",
+        "link": "https://www.stern.de/gesellschaft/regional/rheinland-pfalz-saarland/braende--pflegekraft-bei-feuer-in-klinik-leicht-verletzt-37216976.html",
+        "titel": "Brände: Pflegekraft bei Feuer in Klinik leicht verletzt - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Neunkirchen",
+        "ort": "Neunkirchen",
+        "datum": "15.03.2026",
+        "bundesland": "Saarland",
+        "status": "partial",
+        "link": "https://www.sol.de/blaulicht-saarland/nach-brand-in-neunkircher-klinik-staatsanwaltschaft-ermittelt-wegen-versuchten-mordes-re-2,687582.html",
+        "titel": "Nach Brand in Neunkircher Klinik: Staatsanwaltschaft ermittelt wegen versuchten Mordes - SOL.DE"
       }
     },
     {
