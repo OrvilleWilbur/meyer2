@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T05:42:59.426668",
+  "generated_at": "2026-07-24T05:39:09.503118",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -265,39 +265,6 @@
         "status": "enriched",
         "link": "https://112-magazin.de/waldeck-frankenberg/kb-feuerwehr/item/37960-feueralarm-im-krankenhaus-evakuierung-laeuft",
         "titel": "Feueralarm im Krankenhaus - Evakuierung läuft - 112-magazin"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.78,
-      "details": {
-        "datum": 1.0,
-        "ort": 0.85,
-        "einrichtung": 0.5,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.78
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinikum Halle",
-        "ort": "Halle (Saale)",
-        "datum": "25.10.2023",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
-        "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Halle",
-        "ort": "Halle",
-        "datum": "25.10.2023",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.hallanzeiger.de/topmeldung/25-10-2023-brand-im-universitaetsklinikum-halle",
-        "titel": "Brand im Universitätsklinikum Halle - H@llAnzeiger"
       }
     },
     {
@@ -12574,6 +12541,39 @@
         "status": "false_positive",
         "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-stuttgart-kind-nach-hochhausbrand-im-krankenhaus/ar-AA250Fye",
         "titel": "Feuer in Stuttgart: Kind nach Hochhausbrand im Krankenhaus - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik gebracht",
+        "ort": "",
+        "datum": "11.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-hausbrand-in-suedstadt-saeugling-und-weitere-person-in-klinik-gebracht-art-6366160",
+        "titel": "Nürnberg: Hausbrand in Südstadt - Säugling und weitere Person in Klinik gebracht - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik gebracht",
+        "ort": "",
+        "datum": "11.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-hausbrand-in-suedstadt-saeugling-und-weitere-person-in-klinik-gebracht-art-6366160",
+        "titel": "Brand in Mehrfamilienhaus: Gebäude evakuiert - Säugling in Klinik gebracht - inFranken.de"
       }
     },
     {

@@ -32139,3 +32139,45 @@
 [2026-07-23 05:42:59] [DEDUP] Ergebnis: 777 Einträge (war: 778, 1 zusammengeführt)
 [2026-07-23 05:42:59] [DEDUP] Kandidaten-Datei: 511 pending, 2 confirmed, 0 rejected
 [2026-07-23 05:42:59] [DEDUP] Gespeichert: 778 → 777 Einträge
+[2026-07-24 05:38:53] === Monitor-Lauf gestartet ===
+[2026-07-24 05:38:54] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-24 05:38:54] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-24 05:38:55] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-07-24 05:38:55] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-07-24 05:38:56] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-07-24 05:38:56] Feed 'gn_brand_klinik': 56 Einträge
+[2026-07-24 05:38:56] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-07-24 05:38:57] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-24 05:38:57] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-07-24 05:38:58] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-07-24 05:38:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-24 05:38:58] 224 relevante Treffer in Feeds
+[2026-07-24 05:38:58] ✅ 2 NEUE Einträge gefunden:
+[2026-07-24 05:38:58]    19.05.2015 | Siekertal-Klinik |  | Feuer in leerstehender Siekertal-Klinik: Polizei geht von Br
+[2026-07-24 05:38:58]    11.06.2026 | in Klinik gebracht |  | Brand in Mehrfamilienhaus: Gebäude evakuiert - Säugling in K
+[2026-07-24 05:38:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-24 05:38:58] === Monitor-Lauf beendet ===
+
+[2026-07-24 05:38:59] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-24 05:38:59] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-24 05:38:59] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-24 05:38:59] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-24 05:38:59] [enrich] --- Enriche [1/2]: Feuer in leerstehender Siekertal-Klinik: Polizei geht von Br
+[2026-07-24 05:38:59] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/deutschland/feuer-leerstehender-siekertal-klinik-pol
+[2026-07-24 05:39:00] [enrich] Volltext extrahiert: 1381 Zeichen von https://www.kreiszeitung.de/deutschland/feuer-leerstehender-
+[2026-07-24 05:39:03] [enrich] Enrichment abgeschlossen: enriched — Siekertal-Klinik in Bad Oeynhausen
+[2026-07-24 05:39:04] [enrich] --- Enriche [2/2]: Brand in Mehrfamilienhaus: Gebäude evakuiert - Säugling in K
+[2026-07-24 05:39:04] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-hausbrand-in-suedstadt
+[2026-07-24 05:39:05] [enrich] Volltext extrahiert: 4003 Zeichen von https://www.infranken.de/lk/nuernberg/blaulicht/nuernberg-ha
+[2026-07-24 05:39:07] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (Wohngebäude), nicht in einem Krankenhaus. Zwei Bewohner wurden nach dem Brand vorsorglich zur Beobachtung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt.
+[2026-07-24 05:39:07] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-24 05:39:07] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-24 05:39:08] [DEDUP] Starte Dedup für 779 Einträge
+[2026-07-24 05:39:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-24 05:39:09] [DEDUP] Paare verglichen: 17723
+[2026-07-24 05:39:09] [DEDUP] Auto-Merges: 0
+[2026-07-24 05:39:09] [DEDUP] Kandidaten (unsicher): 511
+[2026-07-24 05:39:09] [DEDUP] Ergebnis: 779 Einträge (war: 779, 0 zusammengeführt)
+[2026-07-24 05:39:09] [DEDUP] Kandidaten-Datei: 511 pending, 2 confirmed, 0 rejected
+[2026-07-24 05:39:09] [DEDUP] Gespeichert: 779 → 779 Einträge
