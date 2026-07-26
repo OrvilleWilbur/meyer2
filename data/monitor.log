@@ -32232,3 +32232,54 @@
 [2026-07-25 05:33:14] [DEDUP] Ergebnis: 780 Einträge (war: 782, 2 zusammengeführt)
 [2026-07-25 05:33:14] [DEDUP] Kandidaten-Datei: 526 pending, 2 confirmed, 0 rejected
 [2026-07-25 05:33:14] [DEDUP] Gespeichert: 782 → 780 Einträge
+[2026-07-26 05:49:20] === Monitor-Lauf gestartet ===
+[2026-07-26 05:49:22] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-26 05:49:23] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-26 05:49:23] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-07-26 05:49:23] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-07-26 05:49:24] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-07-26 05:49:24] Feed 'gn_brand_klinik': 51 Einträge
+[2026-07-26 05:49:24] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-07-26 05:49:25] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-26 05:49:25] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-07-26 05:49:26] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-07-26 05:49:27] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-26 05:49:27] 223 relevante Treffer in Feeds
+[2026-07-26 05:49:27] ✅ 3 NEUE Einträge gefunden:
+[2026-07-26 05:49:27]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Brand in Krankenhaus in Ludwigslust - inFranke
+[2026-07-26 05:49:27]    02.07.2026 |  |  | Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekom
+[2026-07-26 05:49:27]    15.07.2026 |  |  | Feuer in einem Gebäude der Uniklinik ausgebroch­en - PressRe
+[2026-07-26 05:49:27] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-26 05:49:27] === Monitor-Lauf beendet ===
+
+[2026-07-26 05:49:27] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-26 05:49:27] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-26 05:49:27] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-26 05:49:27] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-26 05:49:27] [enrich] --- Enriche [1/3]: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - inFranke
+[2026-07-26 05:49:27] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/ueberregional/newsticker-national/eilmeldungen/zwei-tot
+[2026-07-26 05:49:29] [enrich] Volltext extrahiert: 1836 Zeichen von https://www.infranken.de/ueberregional/newsticker-national/e
+[2026-07-26 05:49:32] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-26 05:49:33] [enrich] --- Enriche [2/3]: Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekom
+[2026-07-26 05:49:33] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-klinik-ludwigslust-sol
+[2026-07-26 05:49:34] [enrich] Volltext extrahiert: 1488 Zeichen von https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-kl
+[2026-07-26 05:49:37] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-26 05:49:38] [enrich] --- Enriche [3/3]: Feuer in einem Gebäude der Uniklinik ausgebroch­en - PressRe
+[2026-07-26 05:49:39] [enrich] Google News URL aufgelöst (v1): https://www.pressreader.com/germany/rheinische-post-ratingen/20260716/2820591037
+[2026-07-26 05:49:39] [enrich] Volltext zu kurz/leer (151 Z.), verwende RSS-Snippet (436 Z.)
+[2026-07-26 05:49:41] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne detaillierte Informationen. Es ist unklar, ob es sich um einen Brand IN der Uniklinik handelt oder nur um einen Brand in einem nahegelegenen Gebäude. Ohne ausreichende Textinhalte kann nicht verifiziert werden, dass ein echter Krankenhausbrand vorliegt.
+[2026-07-26 05:49:41] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-26 05:49:41] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-26 05:49:41] [DEDUP] Starte Dedup für 783 Einträge
+[2026-07-26 05:49:41] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-26 05:49:42] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-26 05:49:42] [DEDUP] Auto-Merge (0.90): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-26 05:49:42] [DEDUP] Auto-Merge (0.95): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-26 05:49:42] [DEDUP] Paare verglichen: 17873
+[2026-07-26 05:49:42] [DEDUP] Auto-Merges: 3
+[2026-07-26 05:49:42] [DEDUP] Kandidaten (unsicher): 527
+[2026-07-26 05:49:42] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-26 05:49:42] [DEDUP] Ergebnis: 781 Einträge (war: 783, 2 zusammengeführt)
+[2026-07-26 05:49:42] [DEDUP] Kandidaten-Datei: 527 pending, 2 confirmed, 0 rejected
+[2026-07-26 05:49:42] [DEDUP] Gespeichert: 783 → 781 Einträge
