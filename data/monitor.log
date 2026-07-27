@@ -32283,3 +32283,49 @@
 [2026-07-26 05:49:42] [DEDUP] Ergebnis: 781 Einträge (war: 783, 2 zusammengeführt)
 [2026-07-26 05:49:42] [DEDUP] Kandidaten-Datei: 527 pending, 2 confirmed, 0 rejected
 [2026-07-26 05:49:42] [DEDUP] Gespeichert: 783 → 781 Einträge
+[2026-07-27 06:16:35] === Monitor-Lauf gestartet ===
+[2026-07-27 06:16:37] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-27 06:16:38] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-27 06:16:38] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-07-27 06:16:38] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-07-27 06:16:39] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-07-27 06:16:39] Feed 'gn_brand_klinik': 51 Einträge
+[2026-07-27 06:16:39] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-07-27 06:16:40] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-27 06:16:40] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-07-27 06:16:41] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-07-27 06:16:42] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-27 06:16:42] 218 relevante Treffer in Feeds
+[2026-07-27 06:16:42] ✅ 2 NEUE Einträge gefunden:
+[2026-07-27 06:16:42]    02.07.2026 | in Krankenhaus |  | Zwei Tote und Verletzter: Feuer in Krankenhaus - Gebäude eva
+[2026-07-27 06:16:42]    02.07.2026 | im Krankenhaus Ludwigslust |  | Feuer im Krankenhaus Ludwigslust: Dachstuhl brennt - NDR.de
+[2026-07-27 06:16:42] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-27 06:16:42] === Monitor-Lauf beendet ===
+
+[2026-07-27 06:16:42] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-27 06:16:42] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-27 06:16:42] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-27 06:16:42] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-27 06:16:42] [enrich] --- Enriche [1/2]: Zwei Tote und Verletzter: Feuer in Krankenhaus - Gebäude eva
+[2026-07-27 06:16:43] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/deutschland/ludwigslust-zwei-tote-und-verletzter-bei-kr
+[2026-07-27 06:16:44] [enrich] Volltext extrahiert: 4178 Zeichen von https://www.infranken.de/deutschland/ludwigslust-zwei-tote-u
+[2026-07-27 06:16:48] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-27 06:16:49] [enrich] --- Enriche [2/2]: Feuer im Krankenhaus Ludwigslust: Dachstuhl brennt - NDR.de
+[2026-07-27 06:16:49] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-im-krankenhaus-ludwi
+[2026-07-27 06:16:51] [enrich] Volltext extrahiert: 249 Zeichen von https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-
+[2026-07-27 06:16:53] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-27 06:16:53] [enrich] Ergebnis: 2 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-07-27 06:16:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-27 06:16:53] [DEDUP] Starte Dedup für 783 Einträge
+[2026-07-27 06:16:53] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-27 06:16:55] [DEDUP] Auto-Merge (0.94): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-27 06:16:55] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-27 06:16:55] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-27 06:16:55] [DEDUP] Paare verglichen: 17873
+[2026-07-27 06:16:55] [DEDUP] Auto-Merges: 3
+[2026-07-27 06:16:55] [DEDUP] Kandidaten (unsicher): 527
+[2026-07-27 06:16:55] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-07-27 06:16:55] [DEDUP] Ergebnis: 781 Einträge (war: 783, 2 zusammengeführt)
+[2026-07-27 06:16:55] [DEDUP] Kandidaten-Datei: 527 pending, 2 confirmed, 0 rejected
+[2026-07-27 06:16:55] [DEDUP] Gespeichert: 783 → 781 Einträge
