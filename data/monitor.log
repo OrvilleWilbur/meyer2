@@ -32329,3 +32329,52 @@
 [2026-07-27 06:16:55] [DEDUP] Ergebnis: 781 Einträge (war: 783, 2 zusammengeführt)
 [2026-07-27 06:16:55] [DEDUP] Kandidaten-Datei: 527 pending, 2 confirmed, 0 rejected
 [2026-07-27 06:16:55] [DEDUP] Gespeichert: 783 → 781 Einträge
+[2026-07-28 05:35:57] === Monitor-Lauf gestartet ===
+[2026-07-28 05:35:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-28 05:35:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-28 05:35:59] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-07-28 05:35:59] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-07-28 05:35:59] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-07-28 05:36:00] Feed 'gn_brand_klinik': 49 Einträge
+[2026-07-28 05:36:00] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-07-28 05:36:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-28 05:36:01] Feed 'gn_feuer_uniklinik': 39 Einträge
+[2026-07-28 05:36:01] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-07-28 05:36:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-28 05:36:03] 214 relevante Treffer in Feeds
+[2026-07-28 05:36:03] ✅ 3 NEUE Einträge gefunden:
+[2026-07-28 05:36:03]    06.07.2026 | deutschem Krankenhaus |  | Brand in deutschem Krankenhaus: zwei Tote und Alarm um Siche
+[2026-07-28 05:36:03]    02.07.2026 |  |  | Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - BZ Berl
+[2026-07-28 05:36:03]    17.07.2026 | Saalfelder Klinik |  | Hoher Sachschaden: Zimmerbrand in Saalfelder Klinik - Feuerw
+[2026-07-28 05:36:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-28 05:36:03] === Monitor-Lauf beendet ===
+
+[2026-07-28 05:36:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-28 05:36:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-28 05:36:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-28 05:36:03] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-28 05:36:03] [enrich] --- Enriche [1/3]: Brand in deutschem Krankenhaus: zwei Tote und Alarm um Siche
+[2026-07-28 05:36:03] [enrich] Google News URL aufgelöst (v1): https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarm
+[2026-07-28 05:36:04] [enrich] Volltext extrahiert: 1660 Zeichen von https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman
+[2026-07-28 05:36:07] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Krankenhaus in Ludwigslust
+[2026-07-28 05:36:08] [enrich] --- Enriche [2/3]: Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - BZ Berl
+[2026-07-28 05:36:08] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-07-28 05:36:08] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-07-28 05:36:08] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (410 Z.)
+[2026-07-28 05:36:11] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Inhalt. Es kann nicht überprüft werden, ob es sich um einen Brand IN einer deutschen Klinik handelt oder um einen anderen Kontext (z.B. Brandopfer in Klinik, Brand in der Nähe). Ohne Artikeltext ist eine verlässliche Einordnung nicht möglich.
+[2026-07-28 05:36:12] [enrich] --- Enriche [3/3]: Hoher Sachschaden: Zimmerbrand in Saalfelder Klinik - Feuerw
+[2026-07-28 05:36:12] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/thueringen/hoher-sachschaden--zimmerb
+[2026-07-28 05:36:12] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/thueringen/hoher-sachschaden--zimmerb: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/thueringen/hoher-sachschaden--zimmerbrand-in-saalfelder-klinik---feuerwehrmann-verletzt-37976974.html
+[2026-07-28 05:36:12] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (586 Z.)
+[2026-07-28 05:36:14] [enrich] Enrichment abgeschlossen: partial — Klinik Saalfeld in Saalfeld
+[2026-07-28 05:36:14] [enrich] Ergebnis: 1 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-07-28 05:36:14] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-28 05:36:14] [DEDUP] Starte Dedup für 784 Einträge
+[2026-07-28 05:36:15] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-28 05:36:16] [DEDUP] Paare verglichen: 17932
+[2026-07-28 05:36:16] [DEDUP] Auto-Merges: 0
+[2026-07-28 05:36:16] [DEDUP] Kandidaten (unsicher): 522
+[2026-07-28 05:36:16] [DEDUP] Ergebnis: 784 Einträge (war: 784, 0 zusammengeführt)
+[2026-07-28 05:36:16] [DEDUP] Kandidaten-Datei: 522 pending, 2 confirmed, 0 rejected
+[2026-07-28 05:36:16] [DEDUP] Gespeichert: 784 → 784 Einträge
