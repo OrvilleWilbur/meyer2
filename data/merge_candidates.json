@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T05:36:16.639141",
+  "generated_at": "2026-07-29T05:40:54.791660",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -239,6 +239,39 @@
         "",
         ""
       ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
+        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinik",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
+        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.782,
       "details": {
         "datum": 0.7,
@@ -331,6 +364,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.765,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.765
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinik",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
+        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
       }
     },
     {
@@ -1387,6 +1453,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.704,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.07142857142857142,
+        "total": 0.704
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinik",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
+        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
       }
     },
     {
@@ -6948,6 +7047,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "NRW-Klinik verlegt",
         "ort": "",
         "datum": "03.01.2026",
@@ -7393,6 +7525,39 @@
         "status": "false_positive",
         "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
         "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - BZ Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
       }
     },
     {
@@ -8070,6 +8235,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik untergebracht",
         "ort": "",
         "datum": "14.01.2026",
@@ -8301,6 +8499,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - bz-berlin.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Spezialklinik",
         "ort": "",
         "datum": "02.01.2026",
@@ -8449,6 +8680,39 @@
         "status": "false_positive",
         "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
         "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - BZ Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de - sueddeutsche.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
       }
     },
     {
@@ -8631,6 +8895,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.sueddeutsche.de/panorama/brand-auf-silvesterparty-unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf-dpa.urn-newsml-dpa-com-20090101-260102-930-491527",
+        "titel": "Brand auf Silvesterparty - Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - Panorama - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Deutsche Kliniken nehmen Schweizer Brandopfer",
         "ort": "",
         "datum": "02.01.2026",
@@ -8680,6 +8977,72 @@
         "status": "false_positive",
         "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
         "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - BZ Berlin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - B.Z. Berlin"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.bz-berlin.de/berlin/marzahn-hellersdorf/schweiz-brand-ukb",
+        "titel": "Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - BZ Berlin"
+      },
+      "entry_b": {
+        "einrichtung": "Unfallkrankenhaus nimmt Brandopfer aus",
+        "ort": "",
+        "datum": "02.01.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-schweiz-auf",
+        "titel": "Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer aus der Schweiz auf - DIE ZEIT"
       }
     },
     {

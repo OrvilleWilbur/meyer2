@@ -32378,3 +32378,47 @@
 [2026-07-28 05:36:16] [DEDUP] Ergebnis: 784 Einträge (war: 784, 0 zusammengeführt)
 [2026-07-28 05:36:16] [DEDUP] Kandidaten-Datei: 522 pending, 2 confirmed, 0 rejected
 [2026-07-28 05:36:16] [DEDUP] Gespeichert: 784 → 784 Einträge
+[2026-07-29 05:40:34] === Monitor-Lauf gestartet ===
+[2026-07-29 05:40:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-29 05:40:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-29 05:40:36] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-07-29 05:40:37] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-07-29 05:40:37] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-07-29 05:40:37] Feed 'gn_brand_klinik': 49 Einträge
+[2026-07-29 05:40:38] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-07-29 05:40:38] Feed 'gn_klinikbrand': 100 Einträge
+[2026-07-29 05:40:39] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-07-29 05:40:39] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-07-29 05:40:40] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-29 05:40:40] 211 relevante Treffer in Feeds
+[2026-07-29 05:40:40] ✅ 2 NEUE Einträge gefunden:
+[2026-07-29 05:40:40]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer
+[2026-07-29 05:40:40]    02.07.2026 | einem Krankenhaus |  | Brand in einem Krankenhaus in Deutschland, mehrere Tote und 
+[2026-07-29 05:40:40] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-29 05:40:40] === Monitor-Lauf beendet ===
+
+[2026-07-29 05:40:40] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-29 05:40:40] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-29 05:40:40] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-29 05:40:41] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-29 05:40:41] [enrich] --- Enriche [1/2]: Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer
+[2026-07-29 05:40:41] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-s
+[2026-07-29 05:40:41] [enrich] Volltext extrahiert: 3504 Zeichen von https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-
+[2026-07-29 05:40:44] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand auf einer Silvesterparty im Schweizer Skiort Crans-Montana. Das Berliner Unfallkrankenhaus nimmt lediglich Brandopfer zur Behandlung auf, ist aber nicht der Ort des Brandes. Der Brand fand in der Schweiz statt, nicht in Deutschland, und nicht in einem Krankenhaus.
+[2026-07-29 05:40:45] [enrich] --- Enriche [2/2]: Brand in einem Krankenhaus in Deutschland, mehrere Tote und 
+[2026-07-29 05:40:45] [enrich] Google News URL aufgelöst (v1): https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-p
+[2026-07-29 05:40:46] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germani
+[2026-07-29 05:40:53] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinik in Ludwigslust
+[2026-07-29 05:40:53] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-29 05:40:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-29 05:40:53] [DEDUP] Starte Dedup für 786 Einträge
+[2026-07-29 05:40:53] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-29 05:40:54] [DEDUP] Auto-Merge (0.91): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Klinik / Ludwigslust
+[2026-07-29 05:40:54] [DEDUP] Paare verglichen: 18059
+[2026-07-29 05:40:54] [DEDUP] Auto-Merges: 1
+[2026-07-29 05:40:54] [DEDUP] Kandidaten (unsicher): 533
+[2026-07-29 05:40:54] [DEDUP] Cluster 2x: Ludwigsluster Krankenhaus (LUP-Kliniken), LUP-Klinik
+[2026-07-29 05:40:54] [DEDUP] Ergebnis: 785 Einträge (war: 786, 1 zusammengeführt)
+[2026-07-29 05:40:54] [DEDUP] Kandidaten-Datei: 533 pending, 2 confirmed, 0 rejected
+[2026-07-29 05:40:54] [DEDUP] Gespeichert: 786 → 785 Einträge
