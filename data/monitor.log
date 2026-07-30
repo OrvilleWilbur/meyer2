@@ -32422,3 +32422,73 @@
 [2026-07-29 05:40:54] [DEDUP] Ergebnis: 785 Einträge (war: 786, 1 zusammengeführt)
 [2026-07-29 05:40:54] [DEDUP] Kandidaten-Datei: 533 pending, 2 confirmed, 0 rejected
 [2026-07-29 05:40:54] [DEDUP] Gespeichert: 786 → 785 Einträge
+[2026-07-30 05:29:19] === Monitor-Lauf gestartet ===
+[2026-07-30 05:29:20] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-30 05:29:21] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-30 05:29:22] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-07-30 05:29:22] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-07-30 05:29:22] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-07-30 05:29:23] Feed 'gn_brand_klinik': 47 Einträge
+[2026-07-30 05:29:23] Feed 'gn_brand_klinikum': 41 Einträge
+[2026-07-30 05:29:24] Feed 'gn_klinikbrand': 98 Einträge
+[2026-07-30 05:29:24] Feed 'gn_feuer_uniklinik': 46 Einträge
+[2026-07-30 05:29:24] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-07-30 05:29:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-30 05:29:26] 220 relevante Treffer in Feeds
+[2026-07-30 05:29:26] ✅ 7 NEUE Einträge gefunden:
+[2026-07-30 05:29:26]    02.07.2026 | in Klinik |  | Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de
+[2026-07-30 05:29:26]    02.06.2025 | Hamburger Krankenhaus |  | Nach Brand in Hamburger Krankenhaus – 72-jähriger Patient fe
+[2026-07-30 05:29:26]    06.07.2026 | deutschem Krankenhaus |  | Brand in deutschem Krankenhaus: zwei Tote und Alarm um Siche
+[2026-07-30 05:29:26]    13.07.2026 | im Krankenhaus gestorben |  | Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-30 05:29:26]    28.07.2026 | Uniklinik Düsseldorf |  | Brand an der Uniklinik Düsseldorf: Kinderschutzbau bei Feuer
+[2026-07-30 05:29:26]    20.07.2026 | im Krankenhaus |  | Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen
+[2026-07-30 05:29:26]    30.07.2026 |  |  | Zweiter Fire Fighter für Waldbrände in NRW einsatzbereit
+[2026-07-30 05:29:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-30 05:29:26] === Monitor-Lauf beendet ===
+
+[2026-07-30 05:29:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-30 05:29:26] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-30 05:29:26] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-30 05:29:26] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-30 05:29:26] [enrich] --- Enriche [1/7]: Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de
+[2026-07-30 05:29:26] [enrich] Google News URL aufgelöst (v1): https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-l
+[2026-07-30 05:29:28] [enrich] Volltext extrahiert: 889 Zeichen von https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-k
+[2026-07-30 05:29:31] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-07-30 05:29:32] [enrich] --- Enriche [2/7]: Nach Brand in Hamburger Krankenhaus – 72-jähriger Patient fe
+[2026-07-30 05:29:32] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video256198432/drei-tote-nach-brand-in-hamburger
+[2026-07-30 05:29:33] [enrich] Volltext zu kurz/leer (140 Z.), verwende RSS-Snippet (544 Z.)
+[2026-07-30 05:29:35] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne ausreichende Informationen über einen tatsächlichen Brand im Krankenhaus. Es wird lediglich erwähnt, dass ein 72-jähriger Patient nach einem Brand festgenommen wurde, aber es ist unklar, ob der Brand im Krankenhaus oder anderswo stattgefunden hat. Ohne den vollständigen Artikeltext kann nicht überprüft werden, ob es sich um einen Brand IN einem Krankenhaus handelt.
+[2026-07-30 05:29:36] [enrich] --- Enriche [3/7]: Brand in deutschem Krankenhaus: zwei Tote und Alarm um Siche
+[2026-07-30 05:29:36] [enrich] Google News URL aufgelöst (v1): https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarm
+[2026-07-30 05:29:36] [enrich] Volltext extrahiert: 1660 Zeichen von https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman
+[2026-07-30 05:29:43] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Krankenhaus in Ludwigslust
+[2026-07-30 05:29:44] [enrich] --- Enriche [4/7]: Britin nach Waldbrand in Spanien im Krankenhaus gestorben - 
+[2026-07-30 05:29:45] [enrich] Google News URL aufgelöst (v1): https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-k
+[2026-07-30 05:29:46] [enrich] Volltext extrahiert: 3194 Zeichen von https://www.nord24.de/deutschland-die-welt/britin-nach-waldb
+[2026-07-30 05:29:48] [enrich] FALSE POSITIVE erkannt: Dies ist ein Artikel über einen Waldbrand in Spanien. Eine 93-jährige Britin wird nach dem Waldbrand im Krankenhaus behandelt und verstirbt dort an ihren Brandverletzungen. Dies fällt unter die Kategorie 'Person wird nach einem Brand ins Krankenhaus gebracht und wird dort behandelt', nicht unter einen Brand IN einem Krankenhaus. Zudem liegt der Brand außerhalb Deutschlands (Spanien).
+[2026-07-30 05:29:49] [enrich] --- Enriche [5/7]: Brand an der Uniklinik Düsseldorf: Kinderschutzbau bei Feuer
+[2026-07-30 05:29:50] [enrich] Google News URL aufgelöst (v1): https://www.wz.de/nrw/duesseldorf/kinderschutzbau-bei-feuer-schwer-beschaedigt_a
+[2026-07-30 05:29:50] [enrich] Volltext extrahiert: 3967 Zeichen von https://www.wz.de/nrw/duesseldorf/kinderschutzbau-bei-feuer-
+[2026-07-30 05:29:52] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich auf einer Baustelle (Trube-Becker-Haus) an der Uniklinik, nicht in einem bestehenden Krankenhausgebäude mit Patienten oder medizinischen Betrieb
+[2026-07-30 05:29:53] [enrich] --- Enriche [6/7]: Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen
+[2026-07-30 05:29:53] [enrich] Google News URL aufgelöst (v1): https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus-noerdlingen-technis
+[2026-07-30 05:29:55] [enrich] Volltext extrahiert: 285 Zeichen von https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus
+[2026-07-30 05:29:56] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen technischem Defekt, nicht wegen Brand. Der Artikel erwähnt keinen Brand oder Feuer im Krankenhaus.
+[2026-07-30 05:29:57] [enrich] --- Enriche [7/7]: Zweiter Fire Fighter für Waldbrände in NRW einsatzbereit
+[2026-07-30 05:29:58] [enrich] Volltext extrahiert: 4639 Zeichen von https://www.feuerwehrmagazin.de/fahrzeuge-modelle/zweiter-fi
+[2026-07-30 05:30:00] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Stationierung eines Spezialfahrzeugs (Fire Fighter) zur Bekämpfung von Waldbränden in Nordrhein-Westfalen. Es geht um Waldbrände, nicht um einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-07-30 05:30:00] [enrich] Ergebnis: 2 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-07-30 05:30:00] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-30 05:30:00] [DEDUP] Starte Dedup für 792 Einträge
+[2026-07-30 05:30:00] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-30 05:30:01] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-07-30 05:30:01] [DEDUP] Auto-Merge (1.00): Helene-von-Bülow-Krankenhaus / Ludwigslust ↔ Helene-von-Bülow-Krankenhaus / Ludwigslust
+[2026-07-30 05:30:01] [DEDUP] Paare verglichen: 18391
+[2026-07-30 05:30:01] [DEDUP] Auto-Merges: 2
+[2026-07-30 05:30:01] [DEDUP] Kandidaten (unsicher): 537
+[2026-07-30 05:30:01] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-07-30 05:30:01] [DEDUP] Cluster 2x: Helene-von-Bülow-Krankenhaus, Helene-von-Bülow-Krankenhaus
+[2026-07-30 05:30:01] [DEDUP] Ergebnis: 790 Einträge (war: 792, 2 zusammengeführt)
+[2026-07-30 05:30:01] [DEDUP] Kandidaten-Datei: 537 pending, 2 confirmed, 0 rejected
+[2026-07-30 05:30:01] [DEDUP] Gespeichert: 792 → 790 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T05:40:54.791660",
+  "generated_at": "2026-07-30T05:30:01.890975",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -258,13 +258,13 @@
         "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
       },
       "entry_b": {
-        "einrichtung": "LUP-Klinik",
+        "einrichtung": "Krankenhaus Ludwigslust",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
       }
     },
     {
@@ -371,39 +371,6 @@
         "",
         ""
       ],
-      "score": 0.765,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.3,
-        "total": 0.765
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.762,
       "details": {
         "datum": 1.0,
@@ -430,6 +397,39 @@
         "status": "partial",
         "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
         "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.761,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.761
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
       }
     },
     {
@@ -1196,6 +1196,39 @@
         "",
         ""
       ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
+        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1453,39 +1486,6 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.704,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.07142857142857142,
-        "total": 0.704
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in einem Krankenhaus in Deutschland, mehrere Tote und Verletzte – Free Press - Слободен печат"
       }
     },
     {
@@ -4753,6 +4753,39 @@
         "status": "enriched",
         "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
         "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.555,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.6,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.555
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helene-von-Bülow-Krankenhaus",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
+        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - foro3d.com"
       }
     },
     {
@@ -13185,6 +13218,72 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/britin-waldbrand-spanien-krankenhaus-gestorben-id5435478.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-krankenhaus-gestorben-391829.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - nord24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-krankenhaus-gestorben-391829.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - Nord24"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus gestorben",
+        "ort": "",
+        "datum": "13.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/britin-nach-waldbrand-in-spanien-im-krankenhaus-gestorben-391829.html",
+        "titel": "Britin nach Waldbrand in Spanien im Krankenhaus gestorben - nord24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Uniklinik ausgebrochen",
         "ort": "",
         "datum": "15.07.2026",
@@ -15016,6 +15115,39 @@
         "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus-noerdlingen-technischer-defekt-fuehrt-zu-notaufnahme-evakuierung-114819321",
+        "titel": "Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen evakuiert - Augsburger Allgemeine"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "20.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.augsburger-allgemeine.de/noerdlingen/krankenhaus-noerdlingen-technischer-defekt-fuehrt-zu-notaufnahme-evakuierung-114819321",
+        "titel": "Technischer Defekt im Krankenhaus: Notaufnahme in Nördlingen evakuiert - augsburger-allgemeine.de"
       }
     },
     {
