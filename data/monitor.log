@@ -32492,3 +32492,62 @@
 [2026-07-30 05:30:01] [DEDUP] Ergebnis: 790 Einträge (war: 792, 2 zusammengeführt)
 [2026-07-30 05:30:01] [DEDUP] Kandidaten-Datei: 537 pending, 2 confirmed, 0 rejected
 [2026-07-30 05:30:01] [DEDUP] Gespeichert: 792 → 790 Einträge
+[2026-07-31 05:53:41] === Monitor-Lauf gestartet ===
+[2026-07-31 05:53:42] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-07-31 05:53:43] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-07-31 05:53:43] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-07-31 05:53:43] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-07-31 05:53:44] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-07-31 05:53:44] Feed 'gn_brand_klinik': 49 Einträge
+[2026-07-31 05:53:44] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-07-31 05:53:45] Feed 'gn_klinikbrand': 95 Einträge
+[2026-07-31 05:53:45] Feed 'gn_feuer_uniklinik': 50 Einträge
+[2026-07-31 05:53:46] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-07-31 05:53:47] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-07-31 05:53:47] 210 relevante Treffer in Feeds
+[2026-07-31 05:53:47] ✅ 5 NEUE Einträge gefunden:
+[2026-07-31 05:53:47]    07.06.2024 | Asklepios Klinik Altona |  | Feuer in der Asklepios Klinik Altona: Mutmaßliche Brandstift
+[2026-07-31 05:53:47]    19.08.2012 | Northeimer Klinik |  | Brand in Northeimer Klinik: Feuer flackerte auf - HNA
+[2026-07-31 05:53:47]    25.10.2024 | Uniklinik Mainz sorgt für Großeinsatz |  | Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr
+[2026-07-31 05:53:47]    26.02.2019 | Uniklinik |  | FW-F: Kleinbrand im Haus 15 der Uniklinik in Frankfurt - Pre
+[2026-07-31 05:53:47]    24.04.2025 | im Krankenhaus |  | Autobrand in Gleisdorf: 21-Jährige schwer verletzt im Kranke
+[2026-07-31 05:53:47] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-07-31 05:53:47] === Monitor-Lauf beendet ===
+
+[2026-07-31 05:53:47] [enrich] === Enrichment-Lauf gestartet ===
+[2026-07-31 05:53:47] [enrich] googlenewsdecoder v1: verfügbar
+[2026-07-31 05:53:47] [enrich] googlenewsdecoder v2: verfügbar
+[2026-07-31 05:53:47] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-07-31 05:53:47] [enrich] --- Enriche [1/5]: Feuer in der Asklepios Klinik Altona: Mutmaßliche Brandstift
+[2026-07-31 05:53:47] [enrich] Google News URL aufgelöst (v1): https://www.hamburg1.de/feuer-in-der-asklepios-klinik-altona-mutmassliche-brands
+[2026-07-31 05:53:48] [enrich] Volltext extrahiert: 1182 Zeichen von https://www.hamburg1.de/feuer-in-der-asklepios-klinik-altona
+[2026-07-31 05:53:51] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Altona in Hamburg
+[2026-07-31 05:53:52] [enrich] --- Enriche [2/5]: Brand in Northeimer Klinik: Feuer flackerte auf - HNA
+[2026-07-31 05:53:52] [enrich] Google News URL aufgelöst (v1): https://www.hna.de/lokales/northeim/northeim-ort47320/grossbrand-northeimer-kran
+[2026-07-31 05:53:53] [enrich] Volltext extrahiert: 3958 Zeichen von https://www.hna.de/lokales/northeim/northeim-ort47320/grossb
+[2026-07-31 05:53:58] [enrich] Enrichment abgeschlossen: enriched — Albert-Schweitzer-Krankenhaus / Helios-Klinik Northeim in Northeim
+[2026-07-31 05:53:59] [enrich] --- Enriche [3/5]: Brand an Uniklinik Mainz sorgt für Großeinsatz der Feuerwehr
+[2026-07-31 05:54:00] [enrich] Google News URL aufgelöst (v1): https://www.ffh.de/nachrichten/hessen/wiesbaden/415741-brand-an-uniklinik-mainz-
+[2026-07-31 05:54:01] [enrich] Volltext extrahiert: 3016 Zeichen von https://www.ffh.de/nachrichten/hessen/wiesbaden/415741-brand
+[2026-07-31 05:54:05] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Mainz in Mainz
+[2026-07-31 05:54:06] [enrich] --- Enriche [4/5]: FW-F: Kleinbrand im Haus 15 der Uniklinik in Frankfurt - Pre
+[2026-07-31 05:54:06] [enrich] Google News URL aufgelöst (v1): https://www.presseportal.de/blaulicht/pm/116052/4204059
+[2026-07-31 05:54:06] [enrich] Volltext extrahiert: 1098 Zeichen von https://www.presseportal.de/blaulicht/pm/116052/4204059
+[2026-07-31 05:54:09] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Frankfurt, Haus 15 in Frankfurt am Main
+[2026-07-31 05:54:10] [enrich] --- Enriche [5/5]: Autobrand in Gleisdorf: 21-Jährige schwer verletzt im Kranke
+[2026-07-31 05:54:10] [enrich] Google News URL aufgelöst (v1): https://www.kleinezeitung.at/artikel/19614481/autoinnenraum-fing-feuer-21-jaehri
+[2026-07-31 05:54:11] [enrich] Volltext extrahiert: 531 Zeichen von https://www.kleinezeitung.at/artikel/19614481/autoinnenraum-
+[2026-07-31 05:54:13] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einem Autoinnenraum auf einem Parkplatz eines Möbelhauses, nicht in einem Krankenhaus. Die Patientin wurde nach dem Brand ins Universitätsklinikum Graz gebracht, aber das Krankenhaus war nicht Brandort.
+[2026-07-31 05:54:13] [enrich] Ergebnis: 4 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-07-31 05:54:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-07-31 05:54:13] [DEDUP] Starte Dedup für 795 Einträge
+[2026-07-31 05:54:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-07-31 05:54:14] [DEDUP] Auto-Merge (0.81): Universitätsklinik Mainz (Unimedizin Mai / Mainz ↔ Universitätsklinik Mainz / Mainz
+[2026-07-31 05:54:15] [DEDUP] Paare verglichen: 18386
+[2026-07-31 05:54:15] [DEDUP] Auto-Merges: 1
+[2026-07-31 05:54:15] [DEDUP] Kandidaten (unsicher): 533
+[2026-07-31 05:54:15] [DEDUP] Cluster 2x: Universitätsklinik Mainz (Unimedizin Mai, Universitätsklinik Mainz
+[2026-07-31 05:54:15] [DEDUP] Ergebnis: 794 Einträge (war: 795, 1 zusammengeführt)
+[2026-07-31 05:54:15] [DEDUP] Kandidaten-Datei: 533 pending, 2 confirmed, 0 rejected
+[2026-07-31 05:54:15] [DEDUP] Gespeichert: 795 → 794 Einträge

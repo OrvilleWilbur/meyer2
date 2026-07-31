@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T05:30:01.890975",
+  "generated_at": "2026-07-31T05:54:15.136709",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -239,39 +239,6 @@
         "",
         ""
       ],
-      "score": 0.783,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.783
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
-        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
-        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.782,
       "details": {
         "datum": 0.7,
@@ -397,39 +364,6 @@
         "status": "partial",
         "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
         "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.761,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.761
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
-        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
       }
     },
     {
@@ -1189,39 +1123,6 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.712,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.712
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zvw.de/mehr-nachrichten/deutschland/flammen-in-klinik-zwei-tote-in-ludwigslust_arid-1089402",
-        "titel": "Flammen in Klinik - zwei Tote in Ludwigslust - zvw.de"
       }
     },
     {
@@ -4753,39 +4654,6 @@
         "status": "enriched",
         "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
         "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.555,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.6,
-        "bundesland": 1.0,
-        "brandort": 0.09090909090909091,
-        "total": 0.555
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Krankenhaus",
-        "ort": "Ludwigslust",
-        "datum": "06.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
-        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - foro3d.com"
       }
     },
     {
