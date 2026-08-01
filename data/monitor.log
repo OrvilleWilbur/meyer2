@@ -32551,3 +32551,52 @@
 [2026-07-31 05:54:15] [DEDUP] Ergebnis: 794 Einträge (war: 795, 1 zusammengeführt)
 [2026-07-31 05:54:15] [DEDUP] Kandidaten-Datei: 533 pending, 2 confirmed, 0 rejected
 [2026-07-31 05:54:15] [DEDUP] Gespeichert: 795 → 794 Einträge
+[2026-08-01 05:43:59] === Monitor-Lauf gestartet ===
+[2026-08-01 05:44:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-01 05:44:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-01 05:44:01] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-08-01 05:44:01] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-08-01 05:44:01] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-08-01 05:44:02] Feed 'gn_brand_klinik': 46 Einträge
+[2026-08-01 05:44:02] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-08-01 05:44:02] Feed 'gn_klinikbrand': 95 Einträge
+[2026-08-01 05:44:03] Feed 'gn_feuer_uniklinik': 46 Einträge
+[2026-08-01 05:44:03] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-08-01 05:44:04] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-01 05:44:04] 209 relevante Treffer in Feeds
+[2026-08-01 05:44:04] ✅ 3 NEUE Einträge gefunden:
+[2026-08-01 05:44:04]    03.07.2026 | im Krankenhaus |  | Feuer im Krankenhaus: Vorsätzliche Brandstiftung unwahrschei
+[2026-08-01 05:44:04]    16.07.2026 | in Klinik |  | Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klin
+[2026-08-01 05:44:04]    18.11.2018 | in Klinikum Konstanz |  | Ein Toter und 14 Verletzte nach Brand in Klinikum Konstanz -
+[2026-08-01 05:44:04] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-01 05:44:04] === Monitor-Lauf beendet ===
+
+[2026-08-01 05:44:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-01 05:44:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-01 05:44:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-01 05:44:05] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-01 05:44:05] [enrich] --- Enriche [1/3]: Feuer im Krankenhaus: Vorsätzliche Brandstiftung unwahrschei
+[2026-08-01 05:44:05] [enrich] Google News URL aufgelöst (v1): https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-im-krankenhaus-vorsa
+[2026-08-01 05:44:06] [enrich] Volltext extrahiert: 203 Zeichen von https://www.ndr.de/nachrichten/mecklenburg-vorpommern/feuer-
+[2026-08-01 05:44:10] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift und Sendungsinformationen ohne konkrete Details zum Brand. Es ist unklar, in welchem Krankenhaus der Brand stattgefunden hat, wo er sich ereignete und welche Auswirkungen er hatte. Der Inhalt des Beitrags ist nicht verfügbar.
+[2026-08-01 05:44:11] [enrich] --- Enriche [2/3]: Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klin
+[2026-08-01 05:44:11] [enrich] Google News URL aufgelöst (v1): https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-mensc
+[2026-08-01 05:44:12] [enrich] Volltext extrahiert: 3149 Zeichen von https://www.news.de/panorama/859827481/mann-legt-feuer-in-be
+[2026-08-01 05:44:15] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Behörde (Ortsstelle der Kreisverwaltung des Landkreises Elbe-Elster), nicht in einem Krankenhaus oder einer Klinik. Die Erwähnung von 'mehrere Menschen in Klinik' bezieht sich auf die Behandlung von Verletzten nach dem Brand in der Behörde, nicht auf einen Brand innerhalb einer medizinischen Einrichtung.
+[2026-08-01 05:44:16] [enrich] --- Enriche [3/3]: Ein Toter und 14 Verletzte nach Brand in Klinikum Konstanz -
+[2026-08-01 05:44:17] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/baden-wuerttemberg_artikel,-Ein-Toter-und-14-Verletzte-na
+[2026-08-01 05:44:18] [enrich] Volltext extrahiert: 1670 Zeichen von https://www.pz-news.de/baden-wuerttemberg_artikel,-Ein-Toter
+[2026-08-01 05:44:21] [enrich] Enrichment abgeschlossen: enriched — Klinikum Konstanz in Konstanz
+[2026-08-01 05:44:21] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-01 05:44:21] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-01 05:44:21] [DEDUP] Starte Dedup für 797 Einträge
+[2026-08-01 05:44:21] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-01 05:44:23] [DEDUP] Auto-Merge (0.97): Klinikum Konstanz / Konstanz ↔ Klinikum Konstanz / Konstanz
+[2026-08-01 05:44:23] [DEDUP] Paare verglichen: 18534
+[2026-08-01 05:44:23] [DEDUP] Auto-Merges: 1
+[2026-08-01 05:44:23] [DEDUP] Kandidaten (unsicher): 545
+[2026-08-01 05:44:23] [DEDUP] Cluster 2x: Klinikum Konstanz, Klinikum Konstanz
+[2026-08-01 05:44:23] [DEDUP] Ergebnis: 796 Einträge (war: 797, 1 zusammengeführt)
+[2026-08-01 05:44:23] [DEDUP] Kandidaten-Datei: 545 pending, 2 confirmed, 0 rejected
+[2026-08-01 05:44:23] [DEDUP] Gespeichert: 797 → 796 Einträge
