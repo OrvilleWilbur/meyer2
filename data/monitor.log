@@ -32600,3 +32600,58 @@
 [2026-08-01 05:44:23] [DEDUP] Ergebnis: 796 Einträge (war: 797, 1 zusammengeführt)
 [2026-08-01 05:44:23] [DEDUP] Kandidaten-Datei: 545 pending, 2 confirmed, 0 rejected
 [2026-08-01 05:44:23] [DEDUP] Gespeichert: 797 → 796 Einträge
+[2026-08-02 05:45:02] === Monitor-Lauf gestartet ===
+[2026-08-02 05:45:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-02 05:45:03] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-02 05:45:04] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-08-02 05:45:04] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-08-02 05:45:04] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-02 05:45:05] Feed 'gn_brand_klinik': 47 Einträge
+[2026-08-02 05:45:05] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-08-02 05:45:05] Feed 'gn_klinikbrand': 98 Einträge
+[2026-08-02 05:45:06] Feed 'gn_feuer_uniklinik': 51 Einträge
+[2026-08-02 05:45:06] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-08-02 05:45:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-02 05:45:07] 205 relevante Treffer in Feeds
+[2026-08-02 05:45:07] ✅ 4 NEUE Einträge gefunden:
+[2026-08-02 05:45:07]    02.08.2026 | in Krankenhaus |  | Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine
+[2026-08-02 05:45:07]    16.07.2026 | in Klinik |  | Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in 
+[2026-08-02 05:45:07]    16.07.2026 | im Krankenhaus |  | Brandanschlag im Jugendamt Finsterwalde - Vier Personen im K
+[2026-08-02 05:45:07]    19.03.2026 | in Klinikum Friedrichstadt |  | Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-08-02 05:45:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-02 05:45:07] === Monitor-Lauf beendet ===
+
+[2026-08-02 05:45:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-02 05:45:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-02 05:45:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-02 05:45:08] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-02 05:45:08] [enrich] --- Enriche [1/4]: Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine
+[2026-08-02 05:45:08] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-krank
+[2026-08-02 05:45:08] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-krank: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-krankenhaus--einen-monat-nach-klinikbrand-noch-eine-station-geschlossen-38046536.html
+[2026-08-02 05:45:08] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (592 Z.)
+[2026-08-02 05:45:10] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne aussagekräftige Details. Es ist unklar, ob ein Brand IN einem Krankenhaus oder nur die Behandlung von Brandopfern beschrieben wird. Zudem fehlen konkrete Informationen zur Einordnung.
+[2026-08-02 05:45:11] [enrich] --- Enriche [2/4]: Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in 
+[2026-08-02 05:45:11] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-m
+[2026-08-02 05:45:13] [enrich] Volltext extrahiert: 812 Zeichen von https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feue
+[2026-08-02 05:45:15] [enrich] FALSE POSITIVE erkannt: Brand fand in einem Büro des Landratsamts Finsterwalde statt, nicht in einem Krankenhaus/einer Klinik. Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, was kein Krankenhausbrand ist.
+[2026-08-02 05:45:16] [enrich] --- Enriche [3/4]: Brandanschlag im Jugendamt Finsterwalde - Vier Personen im K
+[2026-08-02 05:45:16] [enrich] Google News URL aufgelöst (v1): https://www.upday.com/de/news/brandanschlag-im-jugendamt-finsterwalde-vier-perso
+[2026-08-02 05:45:17] [enrich] Volltext extrahiert: 448 Zeichen von https://www.upday.com/de/news/brandanschlag-im-jugendamt-fin
+[2026-08-02 05:45:18] [enrich] FALSE POSITIVE erkannt: Der Text enthält nur Navigations- und Menü-Elemente einer Website, keinen Artikel über einen Krankenhausbrand
+[2026-08-02 05:45:19] [enrich] --- Enriche [4/4]: Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-08-02 05:45:19] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-feuerwehr-loescht-br
+[2026-08-02 05:45:20] [enrich] Volltext extrahiert: 1941 Zeichen von https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-
+[2026-08-02 05:45:23] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-08-02 05:45:23] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-08-02 05:45:23] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-02 05:45:23] [DEDUP] Starte Dedup für 800 Einträge
+[2026-08-02 05:45:23] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-02 05:45:24] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-08-02 05:45:25] [DEDUP] Paare verglichen: 18733
+[2026-08-02 05:45:25] [DEDUP] Auto-Merges: 1
+[2026-08-02 05:45:25] [DEDUP] Kandidaten (unsicher): 559
+[2026-08-02 05:45:25] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-08-02 05:45:25] [DEDUP] Ergebnis: 799 Einträge (war: 800, 1 zusammengeführt)
+[2026-08-02 05:45:25] [DEDUP] Kandidaten-Datei: 559 pending, 2 confirmed, 0 rejected
+[2026-08-02 05:45:25] [DEDUP] Gespeichert: 800 → 799 Einträge
