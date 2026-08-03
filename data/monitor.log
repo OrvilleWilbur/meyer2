@@ -32655,3 +32655,54 @@
 [2026-08-02 05:45:25] [DEDUP] Ergebnis: 799 Einträge (war: 800, 1 zusammengeführt)
 [2026-08-02 05:45:25] [DEDUP] Kandidaten-Datei: 559 pending, 2 confirmed, 0 rejected
 [2026-08-02 05:45:25] [DEDUP] Gespeichert: 800 → 799 Einträge
+[2026-08-03 06:07:38] === Monitor-Lauf gestartet ===
+[2026-08-03 06:07:39] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-03 06:07:40] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-03 06:07:40] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-08-03 06:07:41] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-08-03 06:07:41] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-03 06:07:41] Feed 'gn_brand_klinik': 47 Einträge
+[2026-08-03 06:07:42] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-08-03 06:07:42] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-03 06:07:43] Feed 'gn_feuer_uniklinik': 47 Einträge
+[2026-08-03 06:07:43] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-08-03 06:07:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-03 06:07:44] 201 relevante Treffer in Feeds
+[2026-08-03 06:07:44] ✅ 3 NEUE Einträge gefunden:
+[2026-08-03 06:07:44]    02.01.2026 | Unfallkrankenhaus nimmt Brandopfer aus |  | Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer
+[2026-08-03 06:07:44]    02.07.2026 | in Krankenhaus |  | News, Vermischtes: Zwei Tote bei Feuer in Krankenhaus in Lud
+[2026-08-03 06:07:44]    05.01.2024 | in Krankenhaus |  | Brand in Krankenhaus: Vier Tote nach Feuer in Klinik - MOZ.d
+[2026-08-03 06:07:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-03 06:07:44] === Monitor-Lauf beendet ===
+
+[2026-08-03 06:07:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-03 06:07:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-03 06:07:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-03 06:07:44] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-03 06:07:44] [enrich] --- Enriche [1/3]: Brand auf Silvesterparty: Unfallkrankenhaus nimmt Brandopfer
+[2026-08-03 06:07:44] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-brandopfer-aus-der-s
+[2026-08-03 06:07:45] [enrich] Volltext extrahiert: 3468 Zeichen von https://www.zeit.de/news/2026-01/02/unfallkrankenhaus-nimmt-
+[2026-08-03 06:07:47] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand bei einer Silvesterparty im Schweizer Skiort Crans-Montana. Das Berliner Unfallkrankenhaus nimmt lediglich Brandopfer zur Behandlung auf, ist aber nicht der Ort des Brandes. Dies fällt unter die Kategorie 'Brandopfer werden in einer Klinik behandelt' und nicht unter einen Brand IN einem Krankenhaus.
+[2026-08-03 06:07:48] [enrich] --- Enriche [2/3]: News, Vermischtes: Zwei Tote bei Feuer in Krankenhaus in Lud
+[2026-08-03 06:07:48] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/1262851-zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust.h
+[2026-08-03 06:07:50] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/1262851-zwei-tote-bei-feuer-in-krankenh
+[2026-08-03 06:07:53] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-03 06:07:54] [enrich] --- Enriche [3/3]: Brand in Krankenhaus: Vier Tote nach Feuer in Klinik - MOZ.d
+[2026-08-03 06:07:54] [enrich] Google News URL aufgelöst (v1): https://www.moz.de/nachrichten/panorama/brand-in-krankenhaus-vier-tote-nach-feue
+[2026-08-03 06:07:55] [enrich] Volltext extrahiert: 3122 Zeichen von https://www.moz.de/nachrichten/panorama/brand-in-krankenhaus
+[2026-08-03 06:08:00] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-08-03 06:08:00] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-08-03 06:08:00] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-03 06:08:00] [DEDUP] Starte Dedup für 802 Einträge
+[2026-08-03 06:08:00] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-03 06:08:01] [DEDUP] Auto-Merge (0.92): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-08-03 06:08:02] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-03 06:08:02] [DEDUP] Paare verglichen: 18862
+[2026-08-03 06:08:02] [DEDUP] Auto-Merges: 2
+[2026-08-03 06:08:02] [DEDUP] Kandidaten (unsicher): 572
+[2026-08-03 06:08:02] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-08-03 06:08:02] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-08-03 06:08:02] [DEDUP] Ergebnis: 800 Einträge (war: 802, 2 zusammengeführt)
+[2026-08-03 06:08:02] [DEDUP] Kandidaten-Datei: 572 pending, 2 confirmed, 0 rejected
+[2026-08-03 06:08:02] [DEDUP] Gespeichert: 802 → 800 Einträge
