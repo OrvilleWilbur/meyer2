@@ -32706,3 +32706,60 @@
 [2026-08-03 06:08:02] [DEDUP] Ergebnis: 800 Einträge (war: 802, 2 zusammengeführt)
 [2026-08-03 06:08:02] [DEDUP] Kandidaten-Datei: 572 pending, 2 confirmed, 0 rejected
 [2026-08-03 06:08:02] [DEDUP] Gespeichert: 802 → 800 Einträge
+[2026-08-04 05:36:06] === Monitor-Lauf gestartet ===
+[2026-08-04 05:36:07] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-04 05:36:08] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-04 05:36:08] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-08-04 05:36:09] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-08-04 05:36:09] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-04 05:36:09] Feed 'gn_brand_klinik': 44 Einträge
+[2026-08-04 05:36:10] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-08-04 05:36:10] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-04 05:36:11] Feed 'gn_feuer_uniklinik': 46 Einträge
+[2026-08-04 05:36:11] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-08-04 05:36:12] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-04 05:36:12] 200 relevante Treffer in Feeds
+[2026-08-04 05:36:12] ✅ 4 NEUE Einträge gefunden:
+[2026-08-04 05:36:12]    01.10.2016 | Bochumer Klinikbrand |  | Bochumer Klinikbrand: Patientin legte wohl Feuer - kurier.at
+[2026-08-04 05:36:12]    06.06.2026 | Sana-Klinikum |  | Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand 
+[2026-08-04 05:36:12]    09.10.2024 | der Kliniken nach Plan |  | Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-08-04 05:36:12]    11.11.2023 | Al-Schifa-Klinik |  | Israel: Helfen Sonntag bei Evakuierung von Babys aus Al-Schi
+[2026-08-04 05:36:12] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-04 05:36:12] === Monitor-Lauf beendet ===
+
+[2026-08-04 05:36:13] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-04 05:36:13] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-04 05:36:13] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-04 05:36:13] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-04 05:36:13] [enrich] --- Enriche [1/4]: Bochumer Klinikbrand: Patientin legte wohl Feuer - kurier.at
+[2026-08-04 05:36:13] [enrich] Google News URL aufgelöst (v1): https://kurier.at/chronik/weltchronik/bochumer-klinikbrand-patientin-legte-wohl-
+[2026-08-04 05:36:14] [enrich] Volltext extrahiert: 3943 Zeichen von https://kurier.at/chronik/weltchronik/bochumer-klinikbrand-p
+[2026-08-04 05:36:20] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-08-04 05:36:21] [enrich] --- Enriche [2/4]: Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand 
+[2026-08-04 05:36:21] [enrich] Google News URL aufgelöst (v1): https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patienti
+[2026-08-04 05:36:22] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patienti: 403 Client Error: Forbidden for url: https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html
+[2026-08-04 05:36:22] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (600 Z.)
+[2026-08-04 05:36:24] [enrich] Enrichment abgeschlossen: partial — Sana-Klinikum Wismar in Wismar
+[2026-08-04 05:36:25] [enrich] --- Enriche [3/4]: Bombenfund Merheim: Evakuierung der Kliniken nach Plan – Anw
+[2026-08-04 05:36:25] [enrich] Google News URL aufgelöst (v1): https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suche-nach-blindgaenger
+[2026-08-04 05:36:27] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rundschau-online.de/koeln/kalk/merheim/koeln-suc
+[2026-08-04 05:36:29] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Bombenentschärfung, nicht wegen Brand. Der Artikel beschreibt die Evakuierung von Krankenhäusern aufgrund eines Bombenfunds, nicht aufgrund eines Brandes.
+[2026-08-04 05:36:30] [enrich] --- Enriche [4/4]: Israel: Helfen Sonntag bei Evakuierung von Babys aus Al-Schi
+[2026-08-04 05:36:30] [enrich] Google News URL aufgelöst (v1): https://kurier.at/politik/ausland/israel-helfen-sonntag-bei-evakuierung-von-baby
+[2026-08-04 05:36:31] [enrich] Volltext extrahiert: 5000 Zeichen von https://kurier.at/politik/ausland/israel-helfen-sonntag-bei-
+[2026-08-04 05:36:33] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt keinen Brand in einem deutschen Krankenhaus. Es geht um ein Krankenhaus (Al-Shifa) im Gazastreifen (Ausland), wo es um Beschuss, Stromausfall und Evakuierung im Kontext eines Konflikts geht, nicht um einen Brand.
+[2026-08-04 05:36:33] [enrich] Ergebnis: 1 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-08-04 05:36:33] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-04 05:36:33] [DEDUP] Starte Dedup für 804 Einträge
+[2026-08-04 05:36:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-04 05:36:34] [DEDUP] Auto-Merge (0.91): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-08-04 05:36:35] [DEDUP] Auto-Merge (0.90): Sana-Klinikum / Wismar ↔ Sana-Klinikum Wismar / Wismar
+[2026-08-04 05:36:35] [DEDUP] Paare verglichen: 18889
+[2026-08-04 05:36:35] [DEDUP] Auto-Merges: 2
+[2026-08-04 05:36:35] [DEDUP] Kandidaten (unsicher): 574
+[2026-08-04 05:36:35] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-08-04 05:36:35] [DEDUP] Cluster 2x: Sana-Klinikum, Sana-Klinikum Wismar
+[2026-08-04 05:36:35] [DEDUP] Ergebnis: 802 Einträge (war: 804, 2 zusammengeführt)
+[2026-08-04 05:36:35] [DEDUP] Kandidaten-Datei: 574 pending, 2 confirmed, 0 rejected
+[2026-08-04 05:36:35] [DEDUP] Gespeichert: 804 → 802 Einträge
