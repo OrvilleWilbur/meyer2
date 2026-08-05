@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T05:36:35.108342",
+  "generated_at": "2026-08-05T05:35:58.038716",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -34,39 +34,6 @@
         "status": "enriched",
         "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
         "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.797,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.75,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.797
-      },
-      "entry_a": {
-        "einrichtung": "Sana Hanse-Klinikum Wismar",
-        "ort": "Wismar",
-        "datum": "05.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.svz.de/regional/nordwestmecklenburg/feuer-im-klinikum-patientin-setzt-muelleimer-in-brand-4626751",
-        "titel": "Sana Hanse-Klinikum Wismar: Patientin setzt Mülleimer in Brand - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Sana-Klinikum Wismar",
-        "ort": "Wismar",
-        "datum": "06.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
-        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - ostsee-zeitung.de"
       }
     },
     {
@@ -173,6 +140,39 @@
         "",
         ""
       ],
+      "score": 0.788,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.788
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-klinik-zwei-tote_aid-150843575",
+        "titel": "Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.785,
       "details": {
         "datum": 0.7,
@@ -272,6 +272,72 @@
         "",
         ""
       ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
+        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
+        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.782,
       "details": {
         "datum": 0.7,
@@ -338,6 +404,39 @@
         "",
         ""
       ],
+      "score": 0.77,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.4,
+        "total": 0.77
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-klinik-zwei-tote_aid-150843575",
+        "titel": "Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.766,
       "details": {
         "datum": 1.0,
@@ -381,39 +480,6 @@
         "total": 0.762
       },
       "entry_a": {
-        "einrichtung": "Wismarer Klinikum",
-        "ort": "Wismar",
-        "datum": "06.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
-        "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Sana-Klinikum Wismar",
-        "ort": "Wismar",
-        "datum": "06.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
-        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - ostsee-zeitung.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.762,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.762
-      },
-      "entry_a": {
         "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
@@ -430,6 +496,72 @@
         "status": "partial",
         "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
         "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.23076923076923078,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.761,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.761
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online.de"
       }
     },
     {
@@ -760,6 +892,72 @@
         "status": "enriched",
         "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
         "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.747,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.747
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-klinik-zwei-tote_aid-150843575",
+        "titel": "Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.746,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.08333333333333333,
+        "total": 0.746
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-klinik-zwei-tote_aid-150843575",
+        "titel": "Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-Vorpommern – zwei Tote - rp-online.de"
       }
     },
     {
@@ -1196,6 +1394,39 @@
         "",
         ""
       ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1328,6 +1559,39 @@
         "",
         ""
       ],
+      "score": 0.709,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.709
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.708,
       "details": {
         "datum": 1.0,
@@ -1387,6 +1651,39 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.708,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.16666666666666666,
+        "total": 0.708
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-krankenhaus-fotos_bid-150846297",
+        "titel": "Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online.de"
       }
     },
     {
@@ -2318,6 +2615,39 @@
         "",
         ""
       ],
+      "score": 0.693,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.693
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://www.ostsee-zeitung.de/mecklenburg-vorpommern/zwei-tote-bei-feuer-in-ludwigsluster-klinik-patienten-sollten-keine-angst-haben-muessen-YES4QAM65JD3PHJDKXHZAUEYCY.html",
+        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - Ostsee Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "LUP Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/klinikbrand-ludwigslust-brandschutz-auf-dem-pruefstand_aid-150935567",
+        "titel": "Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wieder voll in Betrieb - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.691,
       "details": {
         "datum": 1.0,
@@ -2780,39 +3110,6 @@
         "",
         ""
       ],
-      "score": 0.672,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.672
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Wismar",
-        "ort": "Wismar",
-        "datum": "07.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-wismarer-krankenhaus-patientin-setzt-m%C3%BClleimer-in-brand/ar-AA24Ywjq?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
-        "titel": "Feuer in Wismarer Krankenhaus: Patientin setzt Mülleimer in Brand - MSN"
-      },
-      "entry_b": {
-        "einrichtung": "Sana-Klinikum Wismar",
-        "ort": "Wismar",
-        "datum": "06.06.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.ostsee-zeitung.de/lokales/nordwestmecklenburg/wismar/wismar-patientin-setzt-muelleimer-in-sana-klinikum-in-brand-hoher-sachschaden-C4NEDF4SZVAPVGMDRHDDGUYIJE.html",
-        "titel": "Wismar: Patientin setzt Mülleimer in Sana-Klinikum in Brand – hoher Sachschaden - ostsee-zeitung.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.67,
       "details": {
         "datum": 0.7,
@@ -3268,6 +3565,39 @@
         "status": "enriched",
         "link": "https://bnn.de/pforzheim/pforzheim-stadt/anwalt-im-pforzheimer-helios-brand-fall-es-muessten-noch-mehr-vor-gericht-stehen",
         "titel": "Prozess nach tödlichem Brand im Pforzheimer Helios-Klinikum: „Es müssten noch mehr vor Gericht stehen“ - bnn.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.666,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.666
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/klinikbrand-ludwigslust-brandschutz-auf-dem-pruefstand_aid-150935567",
+        "titel": "Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wieder voll in Betrieb - rp-online.de"
       }
     },
     {
@@ -4463,6 +4793,39 @@
         "",
         ""
       ],
+      "score": 0.625,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.3,
+        "total": 0.625
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/klinikbrand-ludwigslust-brandschutz-auf-dem-pruefstand_aid-150935567",
+        "titel": "Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wieder voll in Betrieb - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -4588,6 +4951,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/mecklenburg-vorpommern/westmecklenburg/brand-in-wismarer-klinik-patientin-soll-feuer-gelegt-haben,audio-3283284.html",
         "titel": "Brand in Wismarer Klinik: Patientin soll Feuer gelegt haben - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.61,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.61
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/klinikbrand-ludwigslust-brandschutz-auf-dem-pruefstand_aid-150935567",
+        "titel": "Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wieder voll in Betrieb - rp-online.de"
       }
     },
     {
@@ -13251,6 +13647,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "nach Krankenhaus",
+        "ort": "",
+        "datum": "28.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-ruecktransporte-nach-krankenhaus-evakuierung-mit-martinshorn-und-blaulucht_aid-149016067",
+        "titel": "Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Martinshorn in Rheinberg – was dahinter steckt - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhaus",
+        "ort": "",
+        "datum": "28.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-ruecktransporte-nach-krankenhaus-evakuierung-mit-martinshorn-und-blaulucht_aid-149016067",
+        "titel": "Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Martinshorn in Rheinberg – was dahinter steckt - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Klinikum Wels sorgt für größeren Einsatz",
         "ort": "",
         "datum": "20.07.2018",
@@ -13647,6 +14076,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "Uniklinik ausgebrochen",
         "ort": "",
         "datum": "15.07.2026",
@@ -13663,6 +14125,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-einem-gebaeude-ausgebrochen_aid-151547497",
         "titel": "Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Uniklinik ausgebrochen - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-online.de"
       }
     },
     {
@@ -16442,39 +16937,6 @@
         "",
         ""
       ],
-      "score": 0.528,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.5,
-        "bundesland": 1.0,
-        "brandort": 0.058823529411764705,
-        "total": 0.528
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
-        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://kurier.at/chronik/weltchronik/bochumer-klinikbrand-patientin-legte-wohl-feuer/223.955.825",
-        "titel": "Bochumer Klinikbrand: Patientin legte wohl Feuer - kurier.at"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.525,
       "details": {
         "datum": 0.0,
@@ -17828,6 +18290,171 @@
         "",
         ""
       ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-einem-geb%C3%A4ude-der-uniklinik-ausgebrochen/ar-AA27XZ5R",
+        "titel": "Feuer in einem Gebäude der Uniklinik ausgebrochen - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik ausgebrochen",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-einem-gebaeude-ausgebrochen_aid-151547497",
+        "titel": "Einsatz in Düsseldorf-Bilk: Feuer in einem Gebäude der Uniklinik ausgebrochen - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.499,
       "details": {
         "datum": 1.0,
@@ -18531,6 +19158,72 @@
         "total": 0.46
       },
       "entry_a": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "27.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-in-moers-so-laeuft-die-evakuierung-20-fotos_bid-148964257",
+        "titel": "Bombenentschärfung in Moers: So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "28.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-in-moers-so-laeuft-die-evakuierung-20-fotos_bid-148964257",
+        "titel": "Bombenentschärfung in Moers: So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "27.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/so-l%C3%A4uft-die-evakuierung-rund-ums-krankenhaus-bethanien-20-fotos/ss-AA24cFDC",
+        "titel": "So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "ums Krankenhaus Bethanien",
+        "ort": "",
+        "datum": "28.05.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-in-moers-so-laeuft-die-evakuierung-20-fotos_bid-148964257",
+        "titel": "Bombenentschärfung in Moers: So läuft die Evakuierung rund ums Krankenhaus Bethanien – 20 Fotos - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "06.06.2026",
@@ -18943,6 +19636,72 @@
         "status": "false_positive",
         "link": "https://www.wz.de/nrw/feuer-in-kuenftigem-kinderschutzzentrum_aid-151588107",
         "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum - Westdeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.wz.de/nrw/feuer-in-kuenftigem-kinderschutzzentrum_aid-151588107",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum - Westdeutsche Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.458,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.15384615384615385,
+        "total": 0.458
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Krankenhaus",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
+        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpommern-was-wir-wissen-und-was-nicht_aid-150844781",
+        "titel": "Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Brand wissen - und was nicht - rp-online.de"
       }
     }
   ],

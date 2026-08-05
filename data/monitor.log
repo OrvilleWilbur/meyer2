@@ -32763,3 +32763,103 @@
 [2026-08-04 05:36:35] [DEDUP] Ergebnis: 802 Einträge (war: 804, 2 zusammengeführt)
 [2026-08-04 05:36:35] [DEDUP] Kandidaten-Datei: 574 pending, 2 confirmed, 0 rejected
 [2026-08-04 05:36:35] [DEDUP] Gespeichert: 804 → 802 Einträge
+[2026-08-05 05:34:59] === Monitor-Lauf gestartet ===
+[2026-08-05 05:35:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-05 05:35:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-05 05:35:01] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-08-05 05:35:02] Feed 'gn_feuer_krankenhaus': 43 Einträge
+[2026-08-05 05:35:02] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-08-05 05:35:02] Feed 'gn_brand_klinik': 42 Einträge
+[2026-08-05 05:35:03] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-08-05 05:35:03] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-05 05:35:04] Feed 'gn_feuer_uniklinik': 46 Einträge
+[2026-08-05 05:35:04] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-08-05 05:35:05] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-05 05:35:05] 192 relevante Treffer in Feeds
+[2026-08-05 05:35:05] ✅ 11 NEUE Einträge gefunden:
+[2026-08-05 05:35:05]    02.07.2026 | zum Krankenhaus |  | Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Br
+[2026-08-05 05:35:05]    02.07.2026 | in Klinik |  | Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online
+[2026-08-05 05:35:05]    05.03.2026 |  |  | Krankenhaus Bethanien Moers: Feuer in Patientenzimmer ausgeb
+[2026-08-05 05:35:05]    02.07.2026 | in Klinik |  | Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-
+[2026-08-05 05:35:05]    19.05.2015 | Siekertal-Klinik |  | Feuer in leerstehender Siekertal-Klinik: Polizei geht von Br
+[2026-08-05 05:35:05]    03.07.2026 |  |  | Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wie
+[2026-08-05 05:35:05]    15.07.2026 | Uniklinik |  | Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-08-05 05:35:05]    15.07.2026 | Uniklinik Düsseldorf |  | Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-onl
+[2026-08-05 05:35:05]    28.05.2026 |  |  | Krankenhaus in Moers evakuiert: Meldung um 0.27 Uhr – zwei W
+[2026-08-05 05:35:05]    28.05.2026 | nach Krankenhaus |  | Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Ma
+[2026-08-05 05:35:05]    28.05.2026 | ums Krankenhaus Bethanien |  | Bombenentschärfung in Moers: So läuft die Evakuierung rund u
+[2026-08-05 05:35:05] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-05 05:35:05] === Monitor-Lauf beendet ===
+
+[2026-08-05 05:35:06] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-05 05:35:06] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-05 05:35:06] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-05 05:35:06] [enrich] 11 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-05 05:35:06] [enrich] --- Enriche [1/11]: Klinik-Evakuierung nahe Schwerin: Was wir zum Krankenhaus-Br
+[2026-08-05 05:35:06] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/brand-in-klinik-in-mecklenburg-vorpomm
+[2026-08-05 05:35:07] [enrich] Volltext extrahiert: 2264 Zeichen von https://rp-online.de/panorama/deutschland/brand-in-klinik-in
+[2026-08-05 05:35:10] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-05 05:35:11] [enrich] --- Enriche [2/11]: Fotos: Brand in Klinik in Mecklenburg-Vorpommern - rp-online
+[2026-08-05 05:35:12] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-kranke
+[2026-08-05 05:35:12] [enrich] Volltext extrahiert: 2033 Zeichen von https://rp-online.de/panorama/deutschland/mecklenburg-vorpom
+[2026-08-05 05:35:15] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinikum in Ludwigslust
+[2026-08-05 05:35:16] [enrich] --- Enriche [3/11]: Krankenhaus Bethanien Moers: Feuer in Patientenzimmer ausgeb
+[2026-08-05 05:35:17] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moers/krankenhaus-bethanien-moers-feuer-in-pati
+[2026-08-05 05:35:17] [enrich] Volltext extrahiert: 1332 Zeichen von https://rp-online.de/nrw/staedte/moers/krankenhaus-bethanien
+[2026-08-05 05:35:21] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Bethanien in Moers
+[2026-08-05 05:35:22] [enrich] --- Enriche [4/11]: Krankenhaus wurde evakuiert: Brand in Klinik in Mecklenburg-
+[2026-08-05 05:35:22] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/mecklenburg-vorpommern-feuer-in-klinik
+[2026-08-05 05:35:23] [enrich] Volltext extrahiert: 5000 Zeichen von https://rp-online.de/panorama/deutschland/mecklenburg-vorpom
+[2026-08-05 05:35:27] [enrich] Enrichment abgeschlossen: enriched — Klinikum Ludwigslust (LUP-Kliniken) in Ludwigslust
+[2026-08-05 05:35:28] [enrich] --- Enriche [5/11]: Feuer in leerstehender Siekertal-Klinik: Polizei geht von Br
+[2026-08-05 05:35:29] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/deutschland/feuer-leerstehender-siekertal-klinik-pol
+[2026-08-05 05:35:30] [enrich] Volltext extrahiert: 1381 Zeichen von https://www.kreiszeitung.de/deutschland/feuer-leerstehender-
+[2026-08-05 05:35:33] [enrich] Enrichment abgeschlossen: enriched — Siekertal-Klinik in Bad Oeynhausen
+[2026-08-05 05:35:34] [enrich] --- Enriche [6/11]: Unglück in Ludwigslust: Klinik nach Brand mit zwei Toten wie
+[2026-08-05 05:35:34] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/klinikbrand-ludwigslust-brandschutz-au
+[2026-08-05 05:35:34] [enrich] Volltext extrahiert: 2965 Zeichen von https://rp-online.de/panorama/deutschland/klinikbrand-ludwig
+[2026-08-05 05:35:38] [enrich] Enrichment abgeschlossen: enriched — LUP Klinikum in Ludwigslust
+[2026-08-05 05:35:39] [enrich] --- Enriche [7/11]: Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-08-05 05:35:39] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feu
+[2026-08-05 05:35:40] [enrich] Volltext extrahiert: 2706 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/unikl
+[2026-08-05 05:35:42] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle/Bauplatz des Universitätsklinikums, nicht in einem bestehenden Krankenhaus- oder Klinikgebäude. Das Feuer brach während Bauarbeiten an einem zukünftigen Kinderschutzzentrum aus, das sich noch im Bau befand.
+[2026-08-05 05:35:43] [enrich] --- Enriche [8/11]: Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-onl
+[2026-08-05 05:35:43] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-bau
+[2026-08-05 05:35:44] [enrich] Volltext extrahiert: 1260 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-08-05 05:35:45] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle an der Uniklinik, nicht im Krankenhaus selbst. Das Trube-Becker-Haus war noch im Bau und nicht in Betrieb als Krankenhaus.
+[2026-08-05 05:35:46] [enrich] --- Enriche [9/11]: Krankenhaus in Moers evakuiert: Meldung um 0.27 Uhr – zwei W
+[2026-08-05 05:35:47] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moers/moers-krankenhaus-evakuiert-zwei-weltkrie
+[2026-08-05 05:35:48] [enrich] Volltext extrahiert: 5000 Zeichen von https://rp-online.de/nrw/staedte/moers/moers-krankenhaus-eva
+[2026-08-05 05:35:49] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Weltkriegsbomben), nicht wegen Brand
+[2026-08-05 05:35:50] [enrich] --- Enriche [10/11]: Rücktransport nach Krankenhaus-Evakuierung: Blaulicht und Ma
+[2026-08-05 05:35:51] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-ruecktransporte-nach-
+[2026-08-05 05:35:52] [enrich] Volltext extrahiert: 1171 Zeichen von https://rp-online.de/nrw/staedte/rheinberg/rheinberg-moers-r
+[2026-08-05 05:35:52] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses wegen Bombenentschärfung (Weltkriegsbomben), nicht wegen Brand
+[2026-08-05 05:35:53] [enrich] --- Enriche [11/11]: Bombenentschärfung in Moers: So läuft die Evakuierung rund u
+[2026-08-05 05:35:54] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-in-moers-so-laeuft-di
+[2026-08-05 05:35:54] [enrich] Volltext extrahiert: 3608 Zeichen von https://rp-online.de/nrw/staedte/moers/bombenentschaerfung-i
+[2026-08-05 05:35:56] [enrich] FALSE POSITIVE erkannt: Evakuierung des Krankenhauses Bethanien wegen Bombenentschärfung (Bombenblindgänger), nicht wegen Brand
+[2026-08-05 05:35:56] [enrich] Ergebnis: 6 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-08-05 05:35:56] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-05 05:35:56] [DEDUP] Starte Dedup für 813 Einträge
+[2026-08-05 05:35:56] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-05 05:35:57] [DEDUP] Auto-Merge (1.00): Krankenhaus Bethanien / Moers ↔ Krankenhaus Bethanien / Moers
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.90): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Klinikum / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.81): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.90): Klinik Ludwigslust / Ludwigslust ↔ Klinikum Ludwigslust (LUP-Kliniken) / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.91): LUP-Klinikum / Ludwigslust ↔ Klinikum Ludwigslust (LUP-Kliniken) / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.86): LUP-Klinikum / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (0.85): Klinikum Ludwigslust (LUP-Kliniken) / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Auto-Merge (1.00): Siekertal-Klinik / Bad Oeynhausen ↔ Siekertal-Klinik / Bad Oeynhausen
+[2026-08-05 05:35:58] [DEDUP] Paare verglichen: 19408
+[2026-08-05 05:35:58] [DEDUP] Auto-Merges: 9
+[2026-08-05 05:35:58] [DEDUP] Kandidaten (unsicher): 597
+[2026-08-05 05:35:58] [DEDUP] Cluster 2x: Krankenhaus Bethanien, Krankenhaus Bethanien
+[2026-08-05 05:35:58] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-08-05 05:35:58] [DEDUP] Cluster 5x: Ludwigsluster Krankenhaus (LUP-Kliniken), Klinik Ludwigslust, LUP-Klinikum
+[2026-08-05 05:35:58] [DEDUP] Cluster 2x: Siekertal-Klinik, Siekertal-Klinik
+[2026-08-05 05:35:58] [DEDUP] Ergebnis: 806 Einträge (war: 813, 7 zusammengeführt)
+[2026-08-05 05:35:58] [DEDUP] Kandidaten-Datei: 597 pending, 2 confirmed, 0 rejected
+[2026-08-05 05:35:58] [DEDUP] Gespeichert: 813 → 806 Einträge
