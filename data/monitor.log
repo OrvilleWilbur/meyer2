@@ -32863,3 +32863,74 @@
 [2026-08-05 05:35:58] [DEDUP] Ergebnis: 806 Einträge (war: 813, 7 zusammengeführt)
 [2026-08-05 05:35:58] [DEDUP] Kandidaten-Datei: 597 pending, 2 confirmed, 0 rejected
 [2026-08-05 05:35:58] [DEDUP] Gespeichert: 813 → 806 Einträge
+[2026-08-06 05:37:23] === Monitor-Lauf gestartet ===
+[2026-08-06 05:37:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-06 05:37:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-06 05:37:26] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-08-06 05:37:27] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-08-06 05:37:27] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-08-06 05:37:28] Feed 'gn_brand_klinik': 41 Einträge
+[2026-08-06 05:37:28] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-08-06 05:37:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-06 05:37:29] Feed 'gn_feuer_uniklinik': 44 Einträge
+[2026-08-06 05:37:29] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-08-06 05:37:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-06 05:37:31] 191 relevante Treffer in Feeds
+[2026-08-06 05:37:31] ✅ 6 NEUE Einträge gefunden:
+[2026-08-06 05:37:31]    04.04.2026 |  |  | Krankenhausbett steht lichterloh in Flammen – Patientin (†64
+[2026-08-06 05:37:31]    09.05.2026 | Hamburger Krankenhaus |  | Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-08-06 05:37:31]    02.07.2026 |  |  | Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekom
+[2026-08-06 05:37:31]    19.02.2021 | in Klinik |  | Ermittlungen nach Brand in Klinik: Patient soll Feuer gelegt
+[2026-08-06 05:37:31]    19.03.2026 | in Klinikum Friedrichstadt |  | Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-08-06 05:37:31]    10.05.2026 | von Krankenhaus |  | Weltkriegsbombe in Köln: Evakuierung von Krankenhaus in Lind
+[2026-08-06 05:37:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-06 05:37:31] === Monitor-Lauf beendet ===
+
+[2026-08-06 05:37:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-06 05:37:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-06 05:37:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-06 05:37:31] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-06 05:37:31] [enrich] --- Enriche [1/6]: Krankenhausbett steht lichterloh in Flammen – Patientin (†64
+[2026-08-06 05:37:32] [enrich] Google News URL aufgelöst (v1): https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-klinik-in-zehlendorf-
+[2026-08-06 05:37:33] [enrich] Volltext extrahiert: 2099 Zeichen von https://www.rosenheim24.de/deutschland/berlin-tragoedie-in-k
+[2026-08-06 05:37:37] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Emil von Behring in Berlin, Stadtteil Zehlendorf
+[2026-08-06 05:37:38] [enrich] --- Enriche [2/6]: Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-08-06 05:37:38] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-hamburger-krankenhaus-mita
+[2026-08-06 05:37:39] [enrich] Volltext extrahiert: 1569 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-hambur
+[2026-08-06 05:37:41] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg, Stadtteil Marienthal
+[2026-08-06 05:37:42] [enrich] --- Enriche [3/6]: Notfälle - Nach Feuer: Klinik Ludwigslust soll Notdach bekom
+[2026-08-06 05:37:43] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-klinik-ludwigslust-sol
+[2026-08-06 05:37:43] [enrich] Volltext extrahiert: 1488 Zeichen von https://www.sueddeutsche.de/panorama/notfaelle-nach-feuer-kl
+[2026-08-06 05:37:45] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-06 05:37:46] [enrich] --- Enriche [4/6]: Ermittlungen nach Brand in Klinik: Patient soll Feuer gelegt
+[2026-08-06 05:37:46] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/ermittlungen-nach-brand-in-klinik-patient-soll-feuer
+[2026-08-06 05:37:47] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/ermittlungen-nach-brand-in-klinik-patient-soll-feuer: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/ermittlungen-nach-brand-in-klinik-patient-soll-feuer-gelegt-haben-3QYLMYC34C5WZVUAFRSFMZ2Q4M.html
+[2026-08-06 05:37:47] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (529 Z.)
+[2026-08-06 05:37:49] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Angabe von Details. Es können keine verlässlichen Informationen zur Einrichtung, zum Ort, zum Datum oder zu anderen relevanten Details extrahiert werden. Die Headline allein ist unzureichend zur Bestätigung eines Krankenhausbrandes.
+[2026-08-06 05:37:50] [enrich] --- Enriche [5/6]: Brand in Elektroanlage - Feuerwehr löscht Brand in Klinikum 
+[2026-08-06 05:37:50] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-feuerwehr-loescht-br
+[2026-08-06 05:37:50] [enrich] Volltext extrahiert: 1941 Zeichen von https://www.sueddeutsche.de/panorama/brand-in-elektroanlage-
+[2026-08-06 05:37:53] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-08-06 05:37:54] [enrich] --- Enriche [6/6]: Weltkriegsbombe in Köln: Evakuierung von Krankenhaus in Lind
+[2026-08-06 05:37:55] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/weltkriegsbombe-in-koeln-evakuierung-vo
+[2026-08-06 05:37:56] [enrich] Volltext extrahiert: 1259 Zeichen von https://www.faz.net/aktuell/gesellschaft/weltkriegsbombe-in-
+[2026-08-06 05:37:57] [enrich] FALSE POSITIVE erkannt: Evakuierung eines Krankenhauses wegen Bombenentschärfung, nicht wegen eines Brandes
+[2026-08-06 05:37:57] [enrich] Ergebnis: 4 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-06 05:37:57] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-06 05:37:57] [DEDUP] Starte Dedup für 812 Einträge
+[2026-08-06 05:37:57] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-06 05:37:58] [DEDUP] Auto-Merge (0.90): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-08-06 05:37:58] [DEDUP] Auto-Merge (1.00): Helios Klinikum Emil von Behring / Berlin, Stadtteil Ze ↔ Helios Klinikum Emil von Behring / Berlin, Stadtteil Ze
+[2026-08-06 05:37:58] [DEDUP] Auto-Merge (0.92): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg, Stadtteil M
+[2026-08-06 05:37:58] [DEDUP] Auto-Merge (0.90): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-06 05:37:58] [DEDUP] Paare verglichen: 19474
+[2026-08-06 05:37:58] [DEDUP] Auto-Merges: 4
+[2026-08-06 05:37:58] [DEDUP] Kandidaten (unsicher): 586
+[2026-08-06 05:37:58] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-08-06 05:37:58] [DEDUP] Cluster 2x: Helios Klinikum Emil von Behring, Helios Klinikum Emil von Behring
+[2026-08-06 05:37:58] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-08-06 05:37:58] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-08-06 05:37:58] [DEDUP] Ergebnis: 808 Einträge (war: 812, 4 zusammengeführt)
+[2026-08-06 05:37:58] [DEDUP] Kandidaten-Datei: 586 pending, 2 confirmed, 0 rejected
+[2026-08-06 05:37:58] [DEDUP] Gespeichert: 812 → 808 Einträge
