@@ -32934,3 +32934,57 @@
 [2026-08-06 05:37:58] [DEDUP] Ergebnis: 808 Einträge (war: 812, 4 zusammengeführt)
 [2026-08-06 05:37:58] [DEDUP] Kandidaten-Datei: 586 pending, 2 confirmed, 0 rejected
 [2026-08-06 05:37:58] [DEDUP] Gespeichert: 812 → 808 Einträge
+[2026-08-07 04:45:09] === Monitor-Lauf gestartet ===
+[2026-08-07 04:45:11] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-07 04:45:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-07 04:45:12] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-08-07 04:45:13] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-08-07 04:45:13] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-08-07 04:45:13] Feed 'gn_brand_klinik': 42 Einträge
+[2026-08-07 04:45:14] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-08-07 04:45:14] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-07 04:45:15] Feed 'gn_feuer_uniklinik': 41 Einträge
+[2026-08-07 04:45:15] Feed 'gn_evakuierung_klinik': 43 Einträge
+[2026-08-07 04:45:17] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-07 04:45:17] 189 relevante Treffer in Feeds
+[2026-08-07 04:45:17] ✅ 4 NEUE Einträge gefunden:
+[2026-08-07 04:45:17]    11.04.2026 | im Krankenhaus |  | Brand in Wohnhaus in Kleinblittersdorf – Familie im Krankenh
+[2026-08-07 04:45:17]    02.07.2026 | deutschem Krankenhaus |  | Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – F
+[2026-08-07 04:45:17]    02.07.2026 | im Krankenhaus |  | Feuer im Krankenhaus: Wie Retter in Ludwigslust Dutzende Men
+[2026-08-07 04:45:17]    02.01.2026 |  |  | Brandkatastrophe: Klinikum in Leipzig behandelt Brandopfer a
+[2026-08-07 04:45:17] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-07 04:45:17] === Monitor-Lauf beendet ===
+
+[2026-08-07 04:45:17] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-07 04:45:17] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-07 04:45:17] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-07 04:45:17] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-07 04:45:17] [enrich] --- Enriche [1/4]: Brand in Wohnhaus in Kleinblittersdorf – Familie im Krankenh
+[2026-08-07 04:45:18] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/blaulicht-saarland/brand-in-wohnhaus-in-kleinblittersdorf-fam
+[2026-08-07 04:45:18] [enrich] Volltext extrahiert: 4419 Zeichen von https://www.sol.de/blaulicht-saarland/brand-in-wohnhaus-in-k
+[2026-08-07 04:45:20] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus (Einfamilienhaus), nicht in einem Krankenhaus. Vier Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-08-07 04:45:21] [enrich] --- Enriche [2/4]: Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – F
+[2026-08-07 04:45:21] [enrich] Google News URL aufgelöst (v1): https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-p
+[2026-08-07 04:45:23] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germani
+[2026-08-07 04:45:26] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinik Ludwigslust in Ludwigslust
+[2026-08-07 04:45:27] [enrich] --- Enriche [3/4]: Feuer im Krankenhaus: Wie Retter in Ludwigslust Dutzende Men
+[2026-08-07 04:45:27] [enrich] Google News URL aufgelöst (v1): https://www.merkur.de/deutschland/klinikbrand-ludwigslust-zwei-tote-video-zeigt-
+[2026-08-07 04:45:28] [enrich] Volltext extrahiert: 2243 Zeichen von https://www.merkur.de/deutschland/klinikbrand-ludwigslust-zw
+[2026-08-07 04:45:31] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Klinikum in Ludwigslust
+[2026-08-07 04:45:32] [enrich] --- Enriche [4/4]: Brandkatastrophe: Klinikum in Leipzig behandelt Brandopfer a
+[2026-08-07 04:45:33] [enrich] Google News URL aufgelöst (v1): https://www.zeit.de/news/2026-01/02/klinikum-in-leipzig-behandelt-brandopfer-aus
+[2026-08-07 04:45:34] [enrich] Volltext extrahiert: 2338 Zeichen von https://www.zeit.de/news/2026-01/02/klinikum-in-leipzig-beha
+[2026-08-07 04:45:35] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Behandlung von Brandopfern aus einem Brand in der Schweiz (Crans-Montana) in deutschen Kliniken. Es handelt sich nicht um einen Brand IN einem deutschen Krankenhaus, sondern um die Aufnahme von Verletzten zur Behandlung.
+[2026-08-07 04:45:35] [enrich] Ergebnis: 2 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-07 04:45:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-07 04:45:35] [DEDUP] Starte Dedup für 812 Einträge
+[2026-08-07 04:45:35] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-07 04:45:37] [DEDUP] Auto-Merge (0.97): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene-von-Bülow-Klinikum / Ludwigslust
+[2026-08-07 04:45:37] [DEDUP] Paare verglichen: 19709
+[2026-08-07 04:45:37] [DEDUP] Auto-Merges: 1
+[2026-08-07 04:45:37] [DEDUP] Kandidaten (unsicher): 587
+[2026-08-07 04:45:37] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene-von-Bülow-Klinikum
+[2026-08-07 04:45:37] [DEDUP] Ergebnis: 811 Einträge (war: 812, 1 zusammengeführt)
+[2026-08-07 04:45:37] [DEDUP] Kandidaten-Datei: 587 pending, 2 confirmed, 0 rejected
+[2026-08-07 04:45:37] [DEDUP] Gespeichert: 812 → 811 Einträge
