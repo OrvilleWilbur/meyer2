@@ -32988,3 +32988,60 @@
 [2026-08-07 04:45:37] [DEDUP] Ergebnis: 811 Einträge (war: 812, 1 zusammengeführt)
 [2026-08-07 04:45:37] [DEDUP] Kandidaten-Datei: 587 pending, 2 confirmed, 0 rejected
 [2026-08-07 04:45:37] [DEDUP] Gespeichert: 812 → 811 Einträge
+[2026-08-08 04:02:00] === Monitor-Lauf gestartet ===
+[2026-08-08 04:02:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-08 04:02:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-08 04:02:02] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-08-08 04:02:02] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-08-08 04:02:03] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-08-08 04:02:03] Feed 'gn_brand_klinik': 42 Einträge
+[2026-08-08 04:02:03] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-08-08 04:02:04] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-08 04:02:04] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-08-08 04:02:05] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-08-08 04:02:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-08 04:02:06] 184 relevante Treffer in Feeds
+[2026-08-08 04:02:06] ✅ 5 NEUE Einträge gefunden:
+[2026-08-08 04:02:06]    13.06.2026 | ins Krankenhaus gebracht |  | Brand in Pflegeeinrichtung in St. Ingbert - vier Personen vo
+[2026-08-08 04:02:06]    16.07.2026 | in Klinik |  | Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feu
+[2026-08-08 04:02:06]    01.09.2025 | Median-Klinik |  | Nach dem Feuer: Median-Klinik in Bad Oeynhausen prüft Ausmaß
+[2026-08-08 04:02:06]    20.06.2026 | in Klinik gebracht |  | Alarm in Ludwigshafen: Feuer in Wohn-Hochhaus, zwei Menschen
+[2026-08-08 04:02:06]    13.10.2023 | fordert Krankenhaus |  | Newsblog: Israel fordert Krankenhaus in Nord-Gaza zu Evakuie
+[2026-08-08 04:02:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-08 04:02:06] === Monitor-Lauf beendet ===
+
+[2026-08-08 04:02:06] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-08 04:02:06] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-08 04:02:06] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-08 04:02:06] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-08 04:02:06] [enrich] --- Enriche [1/5]: Brand in Pflegeeinrichtung in St. Ingbert - vier Personen vo
+[2026-08-08 04:02:06] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/blaulicht-saarland/brand-in-pflegeeinrichtung-in-st-ingbert-v
+[2026-08-08 04:02:07] [enrich] Volltext extrahiert: 4123 Zeichen von https://www.sol.de/blaulicht-saarland/brand-in-pflegeeinrich
+[2026-08-08 04:02:09] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einer Pflegeeinrichtung, nicht in einem Krankenhaus. Vier Personen wurden nach dem Brand vorsorglich ins Krankenhaus gebracht, aber das ist eine Behandlung nach dem Brand, nicht ein Brand im Krankenhaus selbst.
+[2026-08-08 04:02:10] [enrich] --- Enriche [2/5]: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feu
+[2026-08-08 04:02:10] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-br
+[2026-08-08 04:02:10] [enrich] Volltext zu kurz/leer (146 Z.), verwende RSS-Snippet (596 Z.)
+[2026-08-08 04:02:12] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Kreisverwaltung, nicht in einem Krankenhaus. Die Erwähnung einer Klinik bezieht sich auf die Behandlung von Verletzten nach dem Brand, nicht auf einen Brand innerhalb der Klinik selbst.
+[2026-08-08 04:02:13] [enrich] --- Enriche [3/5]: Nach dem Feuer: Median-Klinik in Bad Oeynhausen prüft Ausmaß
+[2026-08-08 04:02:13] [enrich] Google News URL aufgelöst (v1): https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhausen/24165017_Nach-dem-
+[2026-08-08 04:02:15] [enrich] Volltext extrahiert: 1424 Zeichen von https://www.nw.de/lokal/kreis_minden_luebbecke/bad_oeynhause
+[2026-08-08 04:02:16] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Inhalt über einen Brand. Es handelt sich um eine Paywall-/Abonnement-Seite einer Nachrichtenwebsite ohne relevante Informationen zum Thema Krankenhausbrand.
+[2026-08-08 04:02:17] [enrich] --- Enriche [4/5]: Alarm in Ludwigshafen: Feuer in Wohn-Hochhaus, zwei Menschen
+[2026-08-08 04:02:17] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/nachrichten/regionales/wetter/unwetter-deutschland/alarm-in
+[2026-08-08 04:02:17] [enrich] Volltext extrahiert: 2583 Zeichen von https://www.tag24.de/nachrichten/regionales/wetter/unwetter-
+[2026-08-08 04:02:19] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohn-Hochhaus (Müllraum), nicht in einem Krankenhaus. Zwei Personen wurden erst nach dem Brand zur Behandlung ins Krankenhaus gebracht - dies ist eine Einlieferung von Brandopfern, kein Brand IN einer medizinischen Einrichtung.
+[2026-08-08 04:02:20] [enrich] --- Enriche [5/5]: Newsblog: Israel fordert Krankenhaus in Nord-Gaza zu Evakuie
+[2026-08-08 04:02:21] [enrich] Google News URL aufgelöst (v1): https://www.berliner-zeitung.de/article/newsblog-israel-will-mehr-als-eine-milli
+[2026-08-08 04:02:21] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.berliner-zeitung.de/article/newsblog-israel-will
+[2026-08-08 04:02:23] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen Krieg im Nahost-Konflikt und erwähnt ein Krankenhaus (Al-Awda-Krankenhaus in Gaza) nur im Kontext von Evakuierungsaufforderungen durch israelische Streitkräfte. Dies ist kein Brand in einem deutschen Krankenhaus/einer Klinik, sondern ein Kriegsszenario im Ausland (Gaza). Der Artikel beschreibt keine Brandvorfälle.
+[2026-08-08 04:02:23] [enrich] Ergebnis: 0 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-08-08 04:02:23] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-08 04:02:23] [DEDUP] Starte Dedup für 816 Einträge
+[2026-08-08 04:02:23] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-08 04:02:25] [DEDUP] Paare verglichen: 20057
+[2026-08-08 04:02:25] [DEDUP] Auto-Merges: 0
+[2026-08-08 04:02:25] [DEDUP] Kandidaten (unsicher): 599
+[2026-08-08 04:02:25] [DEDUP] Ergebnis: 816 Einträge (war: 816, 0 zusammengeführt)
+[2026-08-08 04:02:25] [DEDUP] Kandidaten-Datei: 599 pending, 2 confirmed, 0 rejected
+[2026-08-08 04:02:25] [DEDUP] Gespeichert: 816 → 816 Einträge
