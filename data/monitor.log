@@ -33045,3 +33045,67 @@
 [2026-08-08 04:02:25] [DEDUP] Ergebnis: 816 Einträge (war: 816, 0 zusammengeführt)
 [2026-08-08 04:02:25] [DEDUP] Kandidaten-Datei: 599 pending, 2 confirmed, 0 rejected
 [2026-08-08 04:02:25] [DEDUP] Gespeichert: 816 → 816 Einträge
+[2026-08-09 04:08:03] === Monitor-Lauf gestartet ===
+[2026-08-09 04:08:05] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-09 04:08:06] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-09 04:08:06] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-08-09 04:08:07] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-08-09 04:08:07] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-09 04:08:07] Feed 'gn_brand_klinik': 40 Einträge
+[2026-08-09 04:08:08] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-08-09 04:08:08] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-09 04:08:09] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-08-09 04:08:09] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-08-09 04:08:10] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-09 04:08:10] 195 relevante Treffer in Feeds
+[2026-08-09 04:08:10] ✅ 5 NEUE Einträge gefunden:
+[2026-08-09 04:08:10]    02.07.2026 | deutschem Krankenhaus |  | Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – F
+[2026-08-09 04:08:10]    16.07.2026 | in Klinik |  | Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feu
+[2026-08-09 04:08:10]    02.07.2026 | in Klinik fordert zwei Menschenleben |  | Feuer in Klinik fordert zwei Menschenleben - VOL.AT
+[2026-08-09 04:08:10]    08.08.2026 | in Klinik |  | Großeinsatz: Fränkische Senioren-Wohnanlage in Brand - zwei 
+[2026-08-09 04:08:10]    19.03.2026 | im Klinikum |  | Brand im Klinikum: Folgen für ganz Dresden - mdr.de
+[2026-08-09 04:08:10] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-09 04:08:10] === Monitor-Lauf beendet ===
+
+[2026-08-09 04:08:10] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-09 04:08:10] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-09 04:08:10] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-09 04:08:10] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-09 04:08:10] [enrich] --- Enriche [1/5]: Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – F
+[2026-08-09 04:08:11] [enrich] Google News URL aufgelöst (v1): https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-p
+[2026-08-09 04:08:12] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germani
+[2026-08-09 04:08:15] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinik in Ludwigslust
+[2026-08-09 04:08:16] [enrich] --- Enriche [2/5]: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feu
+[2026-08-09 04:08:17] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-br
+[2026-08-09 04:08:17] [enrich] Volltext zu kurz/leer (146 Z.), verwende RSS-Snippet (599 Z.)
+[2026-08-09 04:08:19] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Kreisverwaltung, nicht in einem Krankenhaus. Die Erwähnung von vier Menschen in einer Klinik bezieht sich auf die Behandlung von Brandopfern/Verletzten nach dem Vorfall, nicht auf einen Brand, der in der Klinik selbst stattgefunden hat.
+[2026-08-09 04:08:20] [enrich] --- Enriche [3/5]: Feuer in Klinik fordert zwei Menschenleben - VOL.AT
+[2026-08-09 04:08:20] [enrich] Google News URL aufgelöst (v1): https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstuhlbrand-in-deutschem
+[2026-08-09 04:08:22] [enrich] Volltext extrahiert: 2020 Zeichen von https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstu
+[2026-08-09 04:08:25] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-09 04:08:26] [enrich] --- Enriche [4/5]: Großeinsatz: Fränkische Senioren-Wohnanlage in Brand - zwei 
+[2026-08-09 04:08:26] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/roth/blaulicht/rednitzhembach-senioren-wohnanlage-in
+[2026-08-09 04:08:27] [enrich] Volltext extrahiert: 2945 Zeichen von https://www.infranken.de/lk/roth/blaulicht/rednitzhembach-se
+[2026-08-09 04:08:29] [enrich] FALSE POSITIVE erkannt: Brand in einer Senioren-Wohnanlage, nicht in einem Krankenhaus/einer Klinik. Zwei Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-08-09 04:08:30] [enrich] --- Enriche [5/5]: Brand im Klinikum: Folgen für ganz Dresden - mdr.de
+[2026-08-09 04:08:30] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/video/mdr-videos/c/video-998360.html
+[2026-08-09 04:08:32] [enrich] Volltext extrahiert: 342 Zeichen von https://www.mdr.de/video/mdr-videos/c/video-998360.html
+[2026-08-09 04:08:33] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Friedrichstadt in Dresden
+[2026-08-09 04:08:33] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-09 04:08:33] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-09 04:08:33] [DEDUP] Starte Dedup für 821 Einträge
+[2026-08-09 04:08:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-09 04:08:35] [DEDUP] Auto-Merge (0.89): Städtisches Klinikum Dresden-Friedrichst / Dresden ↔ Städtisches Klinikum Friedrichstadt / Dresden
+[2026-08-09 04:08:35] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-09 04:08:35] [DEDUP] Auto-Merge (0.91): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Klinik / Ludwigslust
+[2026-08-09 04:08:35] [DEDUP] Auto-Merge (0.93): LUP-Klinik Ludwigslust / Ludwigslust ↔ LUP-Klinik / Ludwigslust
+[2026-08-09 04:08:35] [DEDUP] Paare verglichen: 20214
+[2026-08-09 04:08:35] [DEDUP] Auto-Merges: 4
+[2026-08-09 04:08:35] [DEDUP] Kandidaten (unsicher): 620
+[2026-08-09 04:08:35] [DEDUP] Cluster 2x: Städtisches Klinikum Dresden-Friedrichst, Städtisches Klinikum Friedrichstadt
+[2026-08-09 04:08:35] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-08-09 04:08:35] [DEDUP] Cluster 3x: Ludwigsluster Krankenhaus (LUP-Kliniken), LUP-Klinik Ludwigslust, LUP-Klinik
+[2026-08-09 04:08:35] [DEDUP] Ergebnis: 817 Einträge (war: 821, 4 zusammengeführt)
+[2026-08-09 04:08:35] [DEDUP] Kandidaten-Datei: 620 pending, 2 confirmed, 0 rejected
+[2026-08-09 04:08:35] [DEDUP] Gespeichert: 821 → 817 Einträge
