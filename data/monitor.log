@@ -33109,3 +33109,51 @@
 [2026-08-09 04:08:35] [DEDUP] Ergebnis: 817 Einträge (war: 821, 4 zusammengeführt)
 [2026-08-09 04:08:35] [DEDUP] Kandidaten-Datei: 620 pending, 2 confirmed, 0 rejected
 [2026-08-09 04:08:35] [DEDUP] Gespeichert: 821 → 817 Einträge
+[2026-08-10 04:20:09] === Monitor-Lauf gestartet ===
+[2026-08-10 04:20:10] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-10 04:20:11] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-10 04:20:11] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-08-10 04:20:12] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-08-10 04:20:12] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-10 04:20:12] Feed 'gn_brand_klinik': 39 Einträge
+[2026-08-10 04:20:13] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-08-10 04:20:14] Feed 'gn_klinikbrand': 99 Einträge
+[2026-08-10 04:20:15] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-08-10 04:20:15] Feed 'gn_evakuierung_klinik': 53 Einträge
+[2026-08-10 04:20:16] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-10 04:20:16] 197 relevante Treffer in Feeds
+[2026-08-10 04:20:16] ✅ 3 NEUE Einträge gefunden:
+[2026-08-10 04:20:16]    13.07.2021 | in Krankenhaus |  | Irak: Dutzende Tote bei Brand in Krankenhaus - BSAktuell
+[2026-08-10 04:20:16]    16.07.2026 | in Klinik |  | Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in 
+[2026-08-10 04:20:16]    02.07.2026 |  |  | Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - bz-berl
+[2026-08-10 04:20:16] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-10 04:20:16] === Monitor-Lauf beendet ===
+
+[2026-08-10 04:20:16] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-10 04:20:16] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-10 04:20:16] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-10 04:20:16] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-10 04:20:16] [enrich] --- Enriche [1/3]: Irak: Dutzende Tote bei Brand in Krankenhaus - BSAktuell
+[2026-08-10 04:20:17] [enrich] Google News URL aufgelöst (v1): https://bsaktuell.de/deutschland-und-welt/irak-dutzende-tote-bei-brand-in-kranke
+[2026-08-10 04:20:18] [enrich] Volltext extrahiert: 1006 Zeichen von https://bsaktuell.de/deutschland-und-welt/irak-dutzende-tote
+[2026-08-10 04:20:19] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus im Irak, nicht in Deutschland. Gemäß Vorgaben werden nur Brände in deutschen Krankenhäusern erfasst.
+[2026-08-10 04:20:20] [enrich] --- Enriche [2/3]: Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in 
+[2026-08-10 04:20:20] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-m
+[2026-08-10 04:20:22] [enrich] Volltext extrahiert: 812 Zeichen von https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feue
+[2026-08-10 04:20:23] [enrich] FALSE POSITIVE erkannt: Brand fand in einem Büro des Landratsamts Finsterwalde statt, nicht in einem Krankenhaus oder einer Klinik. Vier Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, was nicht der Definition eines Krankenhausbrandes entspricht.
+[2026-08-10 04:20:24] [enrich] --- Enriche [3/3]: Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - bz-berl
+[2026-08-10 04:20:25] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-08-10 04:20:25] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-08-10 04:20:25] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (416 Z.)
+[2026-08-10 04:20:27] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Informationen zum tatsächlichen Brandhergang. Die Quelle (bz-berlin.de) und der Titel deuten auf einen möglichen Krankenhausbrand hin, aber der vollständige Artikeltext ist nicht vorhanden, um eine verlässliche Einordnung vorzunehmen. Eine Einschätzung auf Basis einer bloßen Headline ohne Kontext ist nicht möglich.
+[2026-08-10 04:20:27] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-08-10 04:20:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-10 04:20:27] [DEDUP] Starte Dedup für 820 Einträge
+[2026-08-10 04:20:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-10 04:20:29] [DEDUP] Paare verglichen: 20361
+[2026-08-10 04:20:29] [DEDUP] Auto-Merges: 0
+[2026-08-10 04:20:29] [DEDUP] Kandidaten (unsicher): 625
+[2026-08-10 04:20:29] [DEDUP] Ergebnis: 820 Einträge (war: 820, 0 zusammengeführt)
+[2026-08-10 04:20:29] [DEDUP] Kandidaten-Datei: 625 pending, 2 confirmed, 0 rejected
+[2026-08-10 04:20:29] [DEDUP] Gespeichert: 820 → 820 Einträge

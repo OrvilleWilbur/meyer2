@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T04:08:35.791183",
+  "generated_at": "2026-08-10T04:20:29.305225",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -305,39 +305,6 @@
         "",
         ""
       ],
-      "score": 0.77,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.14285714285714285,
-        "total": 0.77
-      },
-      "entry_a": {
-        "einrichtung": "LUP-Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - Слободен печат"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstuhlbrand-in-deutschem-spital/10293458",
-        "titel": "Feuer in Klinik fordert zwei Menschenleben - VOL.AT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.766,
       "details": {
         "datum": 1.0,
@@ -364,72 +331,6 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.765,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.3,
-        "total": 0.765
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - slobodenpecat.mk"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.761,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.761
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstuhlbrand-in-deutschem-spital/10293458",
-        "titel": "Feuer in Klinik fordert zwei Menschenleben - VOL.AT"
       }
     },
     {
@@ -503,72 +404,6 @@
         "",
         ""
       ],
-      "score": 0.755,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.09090909090909091,
-        "total": 0.755
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - Слободен печат"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.754,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.754
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - Слободен печат"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.753,
       "details": {
         "datum": 0.7,
@@ -595,39 +430,6 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.753,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.16666666666666666,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.753
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - Слободен печат"
       }
     },
     {
@@ -1262,39 +1064,6 @@
         "",
         ""
       ],
-      "score": 0.712,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.712
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstuhlbrand-in-deutschem-spital/10293458",
-        "titel": "Feuer in Klinik fordert zwei Menschenleben - VOL.AT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1552,72 +1321,6 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.705,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.1,
-        "total": 0.705
-      },
-      "entry_a": {
-        "einrichtung": "LUP-Klinik",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - slobodenpecat.mk"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.vol.at/zwei-tote-und-viele-verletzte-bei-dachstuhlbrand-in-deutschem-spital/10293458",
-        "titel": "Feuer in Klinik fordert zwei Menschenleben - VOL.AT"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.704,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.07142857142857142,
-        "total": 0.704
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "LUP-Klinik",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.slobodenpecat.mk/de/pozhar-vo-bolnica-vo-germanija-nekolku-mrtvi-i-povredeni/",
-        "titel": "Brand in deutschem Krankenhaus – zwei Tote, 34 Verletzte – Free Press - slobodenpecat.mk"
       }
     },
     {
@@ -2344,39 +2047,6 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Dresden",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "partial",
-        "link": "https://www.dnn.de/lokales/dresden/nach-brand-im-krankenhaus-friedrichstadt-in-dresden-aufnahme-von-patienten-voruebergehend-gestoppt-46PC2MWUWBD47PPJBDCWF24EJQ.html",
-        "titel": "Nach Brand im Krankenhaus in Dresden: Operationen und Aufnahme von Patienten gestoppt - Dresdner Neueste Nachrichten"
-      },
-      "entry_b": {
-        "einrichtung": "Städtisches Klinikum Friedrichstadt",
-        "ort": "Dresden",
-        "datum": "19.03.2026",
-        "bundesland": "Sachsen",
-        "status": "enriched",
-        "link": "https://www.mdr.de/video/mdr-videos/c/video-998360.html",
-        "titel": "Brand im Klinikum: Folgen für ganz Dresden - mdr.de"
       }
     },
     {
@@ -14538,6 +14208,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "16.07.2026",
@@ -15071,6 +14774,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
       },
@@ -15467,6 +15203,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
       },
@@ -15830,6 +15599,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
         "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
       },
@@ -16160,6 +15962,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - RP Online"
       },
@@ -16457,6 +16292,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
       },
@@ -16721,6 +16589,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
       },
@@ -16952,6 +16853,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
       },
@@ -17128,6 +17062,39 @@
         "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
       }
     },
     {
@@ -17348,6 +17315,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.infranken.de/ueberregional/newsticker-national/eilmeldungen/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-art-6379828",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
       },
@@ -17480,6 +17480,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-kriminalitaet-news-der-dpa-aktuell-zu-feuer/1/",
         "titel": "Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klinik - News.de"
       },
@@ -17579,6 +17612,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-kriminalitaet-news-der-dpa-aktuell-zu-feuer/1/",
+        "titel": "Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
       },
@@ -17645,6 +17711,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       },
@@ -17656,6 +17755,72 @@
         "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
       }
     },
     {
