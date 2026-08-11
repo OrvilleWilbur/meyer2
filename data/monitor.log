@@ -33157,3 +33157,63 @@
 [2026-08-10 04:20:29] [DEDUP] Ergebnis: 820 Einträge (war: 820, 0 zusammengeführt)
 [2026-08-10 04:20:29] [DEDUP] Kandidaten-Datei: 625 pending, 2 confirmed, 0 rejected
 [2026-08-10 04:20:29] [DEDUP] Gespeichert: 820 → 820 Einträge
+[2026-08-11 04:09:23] === Monitor-Lauf gestartet ===
+[2026-08-11 04:09:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-11 04:09:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-11 04:09:26] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-08-11 04:09:27] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-08-11 04:09:27] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-11 04:09:27] Feed 'gn_brand_klinik': 42 Einträge
+[2026-08-11 04:09:28] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-08-11 04:09:28] Feed 'gn_klinikbrand': 97 Einträge
+[2026-08-11 04:09:29] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-08-11 04:09:29] Feed 'gn_evakuierung_klinik': 50 Einträge
+[2026-08-11 04:09:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-11 04:09:30] 210 relevante Treffer in Feeds
+[2026-08-11 04:09:30] ✅ 5 NEUE Einträge gefunden:
+[2026-08-11 04:09:30]    16.07.2026 | in Klinik |  | Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörd
+[2026-08-11 04:09:30]    30.09.2016 | Bochumer Klinik |  | News: Bochumer Klinik-Brand könnte von Patientin gelegt word
+[2026-08-11 04:09:30]    14.02.2019 | Uniklinik |  | Heidelberg: Feuer in der Uniklinik - Brand gelöscht (Update)
+[2026-08-11 04:09:30]    17.04.2023 | Uniklinik |  | Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsse
+[2026-08-11 04:09:30]    22.06.2026 | im Krankenhaus |  | Feuer im Krankenhaus: Evakuierung und Ursachenforschung - il
+[2026-08-11 04:09:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-11 04:09:30] === Monitor-Lauf beendet ===
+
+[2026-08-11 04:09:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-11 04:09:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-11 04:09:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-11 04:09:30] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-11 04:09:30] [enrich] --- Enriche [1/5]: Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörd
+[2026-08-11 04:09:31] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerd
+[2026-08-11 04:09:31] [enrich] Volltext extrahiert: 762 Zeichen von https://rp-online.de/panorama/deutschland/brandenburg-mann-l
+[2026-08-11 04:09:32] [enrich] FALSE POSITIVE erkannt: Brand fand im Landratsamt (Behörde) statt, nicht in einem Krankenhaus. Vier Menschen wurden nach dem Brand zur Behandlung ins Krankenhaus eingeliefert, aber das ist kein Krankenhausbrand.
+[2026-08-11 04:09:33] [enrich] --- Enriche [2/5]: News: Bochumer Klinik-Brand könnte von Patientin gelegt word
+[2026-08-11 04:09:34] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-
+[2026-08-11 04:09:34] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-: 403 Client Error: Forbidden for url: https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-von-patientin-gelegt-worden-sein-7081950.html
+[2026-08-11 04:09:34] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (535 Z.)
+[2026-08-11 04:09:36] [enrich] Enrichment abgeschlossen: partial — Klinik in Bochum (genaue Bezeichnung nicht im Titel angegeben) in Bochum
+[2026-08-11 04:09:37] [enrich] --- Enriche [3/5]: Heidelberg: Feuer in der Uniklinik - Brand gelöscht (Update)
+[2026-08-11 04:09:37] [enrich] Google News URL aufgelöst (v1): https://www.rnz.de/region/heidelberg_artikel,-Heidelberg-Feuer-in-der-Uniklinik-
+[2026-08-11 04:09:39] [enrich] Volltext extrahiert: 416 Zeichen von https://www.rnz.de/region/heidelberg_artikel,-Heidelberg-Feu
+[2026-08-11 04:09:41] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinik Heidelberg in Heidelberg
+[2026-08-11 04:09:42] [enrich] --- Enriche [4/5]: Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsse
+[2026-08-11 04:09:42] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuerwehr-loe
+[2026-08-11 04:09:43] [enrich] Volltext extrahiert: 4126 Zeichen von https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duess
+[2026-08-11 04:09:48] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Düsseldorf (UKD) in Düsseldorf
+[2026-08-11 04:09:49] [enrich] --- Enriche [5/5]: Feuer im Krankenhaus: Evakuierung und Ursachenforschung - il
+[2026-08-11 04:09:49] [enrich] Google News URL aufgelöst (v1): https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung_und_ursachenforschu
+[2026-08-11 04:09:50] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung
+[2026-08-11 04:09:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand im italienischen Krankenhaus 'Ospedale del Mare' in Neapel. Da sich dieses Krankenhaus in Italien befindet und nicht in Deutschland, fällt es nicht in den Erfassungsbereich dieser Datenbank für deutsche Krankenhausbrände.
+[2026-08-11 04:09:52] [enrich] Ergebnis: 2 enriched, 1 partial, 2 false_positive, 0 failed
+[2026-08-11 04:09:52] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-11 04:09:52] [DEDUP] Starte Dedup für 825 Einträge
+[2026-08-11 04:09:52] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-11 04:09:53] [DEDUP] Auto-Merge (0.91): Universitätsklinik Düsseldorf (UKD), Kli / Düsseldorf ↔ Universitätsklinikum Düsseldorf (UKD) / Düsseldorf
+[2026-08-11 04:09:54] [DEDUP] Paare verglichen: 20574
+[2026-08-11 04:09:54] [DEDUP] Auto-Merges: 1
+[2026-08-11 04:09:54] [DEDUP] Kandidaten (unsicher): 644
+[2026-08-11 04:09:54] [DEDUP] Cluster 2x: Universitätsklinik Düsseldorf (UKD), Kli, Universitätsklinikum Düsseldorf (UKD)
+[2026-08-11 04:09:54] [DEDUP] Ergebnis: 824 Einträge (war: 825, 1 zusammengeführt)
+[2026-08-11 04:09:54] [DEDUP] Kandidaten-Datei: 644 pending, 2 confirmed, 0 rejected
+[2026-08-11 04:09:54] [DEDUP] Gespeichert: 825 → 824 Einträge

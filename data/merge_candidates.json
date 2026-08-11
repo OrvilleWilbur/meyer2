@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:20:29.305225",
+  "generated_at": "2026-08-11T04:09:54.256930",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -635,6 +635,39 @@
         "",
         ""
       ],
+      "score": 0.745,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.18181818181818182,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.745
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinikum Bergmannsheil Bochum",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.spiegel.de/panorama/bochum-feuer-in-uniklinik-bergmannsheil-was-wir-ueber-den-brand-wissen-a-1114706.html",
+        "titel": "Bochum - Uniklinik Bergmannsheil: Das Feuer wütete acht Stunden - Spiegel"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Bochum (genaue Bezeichnung nicht im Titel angegeben)",
+        "ort": "Bochum",
+        "datum": "30.09.2016",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "partial",
+        "link": "https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-von-patientin-gelegt-worden-sein-7081950.html",
+        "titel": "News: Bochumer Klinik-Brand könnte von Patientin gelegt worden sein - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.742,
       "details": {
         "datum": 1.0,
@@ -661,6 +694,39 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.742,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.13333333333333333,
+        "total": 0.742
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsklinik Moorenstraße / Uniklinik Düsseldorf",
+        "ort": "Düsseldorf",
+        "datum": "16.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.lokalkompass.de/duesseldorf/c-blaulicht/brand-in-einem-gebaeude-der-uniklinik-erfordern-umfangreiche-lueftungsmassnahmen_a1853633",
+        "titel": "Erstmeldung der Feuerwehr: Brand in einem Gebäude der Uniklinik erfordern umfangreiche Lüftungsmaßnahmen - Lokalkompass"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Düsseldorf (UKD)",
+        "ort": "Düsseldorf",
+        "datum": "17.04.2023",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuerwehr-loescht-brand-in-der-uniklinik_aid-88674117",
+        "titel": "Großeinsatz am Sonntagabend: Feuerwehr löscht Brand in Düsseldorfer Uniklinik - rp-online.de"
       }
     },
     {
@@ -13350,6 +13416,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung_und_ursachenforschung-9606420.html",
+        "titel": "Feuer im Krankenhaus: Evakuierung und Ursachenforschung - Il Mattino"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "22.06.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ilmattino.it/de/feuer_im_krankenhaus_evakuierung_und_ursachenforschung-9606420.html",
+        "titel": "Feuer im Krankenhaus: Evakuierung und Ursachenforschung - ilmattino.it"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik gebracht",
         "ort": "",
         "datum": "11.06.2026",
@@ -14241,6 +14340,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "16.07.2026",
@@ -14807,6 +14939,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
       },
@@ -15236,6 +15401,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
       },
@@ -15632,6 +15830,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
         "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
       },
@@ -15995,6 +16226,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - RP Online"
       },
@@ -16325,6 +16589,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
       },
@@ -16622,6 +16919,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
       },
@@ -16886,6 +17216,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
       },
@@ -17095,6 +17458,39 @@
         "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
       }
     },
     {
@@ -17348,6 +17744,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.infranken.de/ueberregional/newsticker-national/eilmeldungen/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-art-6379828",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
       },
@@ -17513,6 +17942,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-kriminalitaet-news-der-dpa-aktuell-zu-feuer/1/",
         "titel": "Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klinik - News.de"
       },
@@ -17645,6 +18107,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-kriminalitaet-news-der-dpa-aktuell-zu-feuer/1/",
+        "titel": "Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
       },
@@ -17744,6 +18239,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       },
@@ -17811,6 +18339,39 @@
         "bundesland": "",
         "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
       },
       "entry_b": {
@@ -17821,6 +18382,72 @@
         "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
       }
     },
     {
