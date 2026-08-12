@@ -33217,3 +33217,78 @@
 [2026-08-11 04:09:54] [DEDUP] Ergebnis: 824 Einträge (war: 825, 1 zusammengeführt)
 [2026-08-11 04:09:54] [DEDUP] Kandidaten-Datei: 644 pending, 2 confirmed, 0 rejected
 [2026-08-11 04:09:54] [DEDUP] Gespeichert: 825 → 824 Einträge
+[2026-08-12 04:39:13] === Monitor-Lauf gestartet ===
+[2026-08-12 04:39:15] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-12 04:39:15] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-12 04:39:16] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-08-12 04:39:16] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-08-12 04:39:16] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-08-12 04:39:17] Feed 'gn_brand_klinik': 42 Einträge
+[2026-08-12 04:39:17] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-08-12 04:39:18] Feed 'gn_klinikbrand': 97 Einträge
+[2026-08-12 04:39:18] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-08-12 04:39:18] Feed 'gn_evakuierung_klinik': 51 Einträge
+[2026-08-12 04:39:20] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-12 04:39:20] 224 relevante Treffer in Feeds
+[2026-08-12 04:39:20] ✅ 7 NEUE Einträge gefunden:
+[2026-08-12 04:39:20]    03.07.2026 | in Klinik reißt zwei Menschen aus dem Leben und trifft die Region |  | Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft
+[2026-08-12 04:39:20]    02.07.2026 | bei Krankenhaus |  | Zwei Tote bei Krankenhaus-Brand: Feuerwehr nennt dramatische
+[2026-08-12 04:39:20]    02.07.2026 |  |  | Klinik-Brand: Zwei Tote – Experte erklärt die Gefahr - RTL.d
+[2026-08-12 04:39:20]    02.07.2026 | in Krankenhaus nahe Schwerin |  | Zwei Tote bei Brand in Krankenhaus nahe Schwerin - RND.de
+[2026-08-12 04:39:20]    06.06.2026 | Hanse-Klinikum Wismar |  | Brand im Sana Hanse-Klinikum Wismar: Feuer greift auf Mobili
+[2026-08-12 04:39:20]    10.02.2026 | Uniklinikum |  | Brand in Crans-Montana: Brandopfer verlässt das Aachener Uni
+[2026-08-12 04:39:20]    18.06.2026 |  |  | Weltkriegsbomben unter Ulmer Donaustadion? Klinik und Gefäng
+[2026-08-12 04:39:20] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-12 04:39:20] === Monitor-Lauf beendet ===
+
+[2026-08-12 04:39:20] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-12 04:39:20] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-12 04:39:20] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-12 04:39:20] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-12 04:39:20] [enrich] --- Enriche [1/7]: Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft
+[2026-08-12 04:39:20] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-mensc
+[2026-08-12 04:39:21] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/feuer-in-klin
+[2026-08-12 04:39:25] [enrich] Enrichment abgeschlossen: enriched — Stift Bethlehem (LUP-Kliniken) in Ludwigslust
+[2026-08-12 04:39:26] [enrich] --- Enriche [2/7]: Zwei Tote bei Krankenhaus-Brand: Feuerwehr nennt dramatische
+[2026-08-12 04:39:26] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei-krankenhaus-brand-f
+[2026-08-12 04:39:27] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei
+[2026-08-12 04:39:31] [enrich] Enrichment abgeschlossen: enriched — LUP-Krankenhaus in Ludwigslust
+[2026-08-12 04:39:32] [enrich] --- Enriche [3/7]: Klinik-Brand: Zwei Tote – Experte erklärt die Gefahr - RTL.d
+[2026-08-12 04:39:33] [enrich] Google News URL aufgelöst (v1): https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-tote-nach-feuer-erm
+[2026-08-12 04:39:34] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei
+[2026-08-12 04:39:39] [enrich] Enrichment abgeschlossen: enriched — Helene-von-Bülow-Klinikum in Ludwigslust
+[2026-08-12 04:39:40] [enrich] --- Enriche [4/7]: Zwei Tote bei Brand in Krankenhaus nahe Schwerin - RND.de
+[2026-08-12 04:39:40] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/panorama/dachstuhl-faengt-feuer-zwei-tote-bei-krankenhaus-bra
+[2026-08-12 04:39:41] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/panorama/dachstuhl-faengt-feuer-zwei-tote-bei-krankenhaus-bra: 403 Client Error: Forbidden for url: https://www.rnd.de/panorama/dachstuhl-faengt-feuer-zwei-tote-bei-krankenhaus-brand-in-ludwigslust-GCUFSWWIUZC4HEOLE55W34TAUI.html
+[2026-08-12 04:39:41] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (500 Z.)
+[2026-08-12 04:39:43] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne weitere Informationen. Es kann nicht verifiziert werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder ob das Krankenhaus nur als Kontext erwähnt wird (z.B. Brandopfer ins Krankenhaus gebracht). Die Überschrift allein ist nicht ausreichend für eine sichere Klassifizierung.
+[2026-08-12 04:39:44] [enrich] --- Enriche [5/7]: Brand im Sana Hanse-Klinikum Wismar: Feuer greift auf Mobili
+[2026-08-12 04:39:44] [enrich] Google News URL aufgelöst (v1): https://ms-aktuell.de/welt/brand-im-sana-hanse-klinikum/
+[2026-08-12 04:39:47] [enrich] Volltext extrahiert: 1832 Zeichen von https://ms-aktuell.de/welt/brand-im-sana-hanse-klinikum/
+[2026-08-12 04:39:49] [enrich] Enrichment abgeschlossen: enriched — Sana Hanse-Klinikum Wismar in Wismar
+[2026-08-12 04:39:50] [enrich] --- Enriche [6/7]: Brand in Crans-Montana: Brandopfer verlässt das Aachener Uni
+[2026-08-12 04:39:51] [enrich] Google News URL aufgelöst (v1): https://aachen.t-online.de/region/aachen/id_101122696/crans-montana-brandopfer-a
+[2026-08-12 04:39:52] [enrich] Volltext extrahiert: 3708 Zeichen von https://aachen.t-online.de/region/aachen/id_101122696/crans-
+[2026-08-12 04:39:54] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Die Uniklinik Aachen wird nur erwähnt, weil sie einen Brandopfer aus der Schweiz zur Behandlung aufgenommen und später wieder verlegt hat. Dies fällt unter die Kategorie 'Brandopfer werden in einer Klinik behandelt'.
+[2026-08-12 04:39:55] [enrich] --- Enriche [7/7]: Weltkriegsbomben unter Ulmer Donaustadion? Klinik und Gefäng
+[2026-08-12 04:39:55] [enrich] Google News URL aufgelöst (v1): https://www.donau3fm.de/weltkriegsbomben-unter-ulmer-donaustadion-klinik-und-gef
+[2026-08-12 04:39:57] [enrich] Volltext zu kurz/leer (152 Z.), verwende RSS-Snippet (588 Z.)
+[2026-08-12 04:39:58] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Verdacht auf Weltkriegsbomben (Bombenentschärfung), nicht wegen Brand
+[2026-08-12 04:39:58] [enrich] Ergebnis: 4 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-08-12 04:39:58] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-12 04:39:58] [DEDUP] Starte Dedup für 831 Einträge
+[2026-08-12 04:39:58] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-12 04:40:00] [DEDUP] Auto-Merge (0.82): Sana-Klinikum / Wismar ↔ Sana Hanse-Klinikum Wismar / Wismar
+[2026-08-12 04:40:00] [DEDUP] Auto-Merge (0.91): Sana Hanse-Klinikum Wismar / Wismar ↔ Sana Hanse-Klinikum Wismar / Wismar
+[2026-08-12 04:40:00] [DEDUP] Auto-Merge (0.97): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene-von-Bülow-Klinikum / Ludwigslust
+[2026-08-12 04:40:00] [DEDUP] Auto-Merge (0.83): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Krankenhaus / Ludwigslust
+[2026-08-12 04:40:00] [DEDUP] Paare verglichen: 20957
+[2026-08-12 04:40:00] [DEDUP] Auto-Merges: 4
+[2026-08-12 04:40:00] [DEDUP] Kandidaten (unsicher): 660
+[2026-08-12 04:40:00] [DEDUP] Cluster 3x: Sana-Klinikum, Sana Hanse-Klinikum Wismar, Sana Hanse-Klinikum Wismar
+[2026-08-12 04:40:00] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene-von-Bülow-Klinikum
+[2026-08-12 04:40:00] [DEDUP] Cluster 2x: Ludwigsluster Krankenhaus (LUP-Kliniken), LUP-Krankenhaus
+[2026-08-12 04:40:00] [DEDUP] Ergebnis: 827 Einträge (war: 831, 4 zusammengeführt)
+[2026-08-12 04:40:00] [DEDUP] Kandidaten-Datei: 660 pending, 2 confirmed, 0 rejected
+[2026-08-12 04:40:00] [DEDUP] Gespeichert: 831 → 827 Einträge
