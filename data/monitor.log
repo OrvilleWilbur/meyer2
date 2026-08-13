@@ -33292,3 +33292,72 @@
 [2026-08-12 04:40:00] [DEDUP] Ergebnis: 827 Einträge (war: 831, 4 zusammengeführt)
 [2026-08-12 04:40:00] [DEDUP] Kandidaten-Datei: 660 pending, 2 confirmed, 0 rejected
 [2026-08-12 04:40:00] [DEDUP] Gespeichert: 831 → 827 Einträge
+[2026-08-13 04:42:46] === Monitor-Lauf gestartet ===
+[2026-08-13 04:42:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-13 04:42:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-13 04:42:50] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-08-13 04:42:50] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-08-13 04:42:50] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-13 04:42:51] Feed 'gn_brand_klinik': 44 Einträge
+[2026-08-13 04:42:51] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-08-13 04:42:51] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-13 04:42:52] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-08-13 04:42:52] Feed 'gn_evakuierung_klinik': 46 Einträge
+[2026-08-13 04:42:53] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-13 04:42:53] 221 relevante Treffer in Feeds
+[2026-08-13 04:42:53] ✅ 6 NEUE Einträge gefunden:
+[2026-08-13 04:42:53]    02.07.2026 | im Krankenhaus |  | Zwei Tote bei Brand im Krankenhaus: Als die Feuerwehr eintri
+[2026-08-13 04:42:53]    04.07.2026 | im Krankenhaus mit 2 Toten |  | Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht
+[2026-08-13 04:42:53]    02.07.2026 | bei Krankenhaus |  | Zwei Tote bei Krankenhaus-Brand: Feuerwehr nennt dramatische
+[2026-08-13 04:42:53]    03.07.2026 | in Klinik reißt zwei Menschen aus dem Leben und trifft die Region |  | Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft
+[2026-08-13 04:42:53]    12.08.2026 | fränkischem Krankenhaus |  | Brand in fränkischem Krankenhaus - Polizei verdächtigt Patie
+[2026-08-13 04:42:53]    19.11.2023 | Schifa-Krankenhaus evakuiert |  | Krankenhaus ist „Todeszone“: 31 Frühchen aus Schifa-Krankenh
+[2026-08-13 04:42:53] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-13 04:42:53] === Monitor-Lauf beendet ===
+
+[2026-08-13 04:42:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-13 04:42:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-13 04:42:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-13 04:42:54] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-13 04:42:54] [enrich] --- Enriche [1/6]: Zwei Tote bei Brand im Krankenhaus: Als die Feuerwehr eintri
+[2026-08-13 04:42:54] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei-brand-in-krankenhau
+[2026-08-13 04:42:55] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei
+[2026-08-13 04:42:59] [enrich] Enrichment abgeschlossen: enriched — Helene von Bülow-Klinik in Ludwigslust
+[2026-08-13 04:43:00] [enrich] --- Enriche [2/6]: Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht
+[2026-08-13 04:43:01] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-
+[2026-08-13 04:43:01] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/brand-im-kran
+[2026-08-13 04:43:06] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust (LUP-Kliniken) in Ludwigslust
+[2026-08-13 04:43:07] [enrich] --- Enriche [3/6]: Zwei Tote bei Krankenhaus-Brand: Feuerwehr nennt dramatische
+[2026-08-13 04:43:07] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei-krankenhaus-brand-f
+[2026-08-13 04:43:08] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei
+[2026-08-13 04:43:12] [enrich] Enrichment abgeschlossen: enriched — LUP-Krankenhaus in Ludwigslust
+[2026-08-13 04:43:13] [enrich] --- Enriche [4/6]: Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft
+[2026-08-13 04:43:13] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-mensc
+[2026-08-13 04:43:15] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/feuer-in-klin
+[2026-08-13 04:43:18] [enrich] Enrichment abgeschlossen: enriched — Stift Bethlehem (LUP-Kliniken) in Ludwigslust
+[2026-08-13 04:43:19] [enrich] --- Enriche [5/6]: Brand in fränkischem Krankenhaus - Polizei verdächtigt Patie
+[2026-08-13 04:43:20] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/ansbach/blaulicht/brand-in-krankenhaus-ansbach-verda
+[2026-08-13 04:43:21] [enrich] Volltext extrahiert: 2906 Zeichen von https://www.infranken.de/lk/ansbach/blaulicht/brand-in-krank
+[2026-08-13 04:43:24] [enrich] Enrichment abgeschlossen: enriched — Bezirkskrankenhaus Ansbach in Ansbach
+[2026-08-13 04:43:25] [enrich] --- Enriche [6/6]: Krankenhaus ist „Todeszone“: 31 Frühchen aus Schifa-Krankenh
+[2026-08-13 04:43:26] [enrich] Google News URL aufgelöst (v1): https://www.rnd.de/politik/schifa-klinik-in-gaza-ist-todeszone-who-versucht-baby
+[2026-08-13 04:43:26] [enrich] Artikel-Fetch fehlgeschlagen für https://www.rnd.de/politik/schifa-klinik-in-gaza-ist-todeszone-who-versucht-baby: 403 Client Error: Forbidden for url: https://www.rnd.de/politik/schifa-klinik-in-gaza-ist-todeszone-who-versucht-babys-zu-retten-QJXP5NGZVZOKXLUX4IV3ZGR5DU.html
+[2026-08-13 04:43:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (539 Z.)
+[2026-08-13 04:43:28] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt die Evakuierung von Frühgeborenen aus dem Schifa-Krankenhaus, erwähnt aber keinen Brand. Die Evakuierung erfolgte aus anderen Gründen (vermutlich Konflikt/Sicherheitslage im Gaza-Streifen). Dies ist kein Krankenhausbrand in Deutschland.
+[2026-08-13 04:43:28] [enrich] Ergebnis: 5 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-08-13 04:43:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-13 04:43:28] [DEDUP] Starte Dedup für 833 Einträge
+[2026-08-13 04:43:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-13 04:43:29] [DEDUP] Auto-Merge (0.96): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene von Bülow-Klinik / Ludwigslust
+[2026-08-13 04:43:29] [DEDUP] Auto-Merge (0.83): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP-Krankenhaus / Ludwigslust
+[2026-08-13 04:43:29] [DEDUP] Auto-Merge (1.00): Stift Bethlehem (LUP-Kliniken) / Ludwigslust ↔ Stift Bethlehem (LUP-Kliniken) / Ludwigslust
+[2026-08-13 04:43:30] [DEDUP] Paare verglichen: 20978
+[2026-08-13 04:43:30] [DEDUP] Auto-Merges: 3
+[2026-08-13 04:43:30] [DEDUP] Kandidaten (unsicher): 669
+[2026-08-13 04:43:30] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene von Bülow-Klinik
+[2026-08-13 04:43:30] [DEDUP] Cluster 2x: Ludwigsluster Krankenhaus (LUP-Kliniken), LUP-Krankenhaus
+[2026-08-13 04:43:30] [DEDUP] Cluster 2x: Stift Bethlehem (LUP-Kliniken), Stift Bethlehem (LUP-Kliniken)
+[2026-08-13 04:43:30] [DEDUP] Ergebnis: 830 Einträge (war: 833, 3 zusammengeführt)
+[2026-08-13 04:43:30] [DEDUP] Kandidaten-Datei: 669 pending, 2 confirmed, 0 rejected
+[2026-08-13 04:43:30] [DEDUP] Gespeichert: 833 → 830 Einträge
