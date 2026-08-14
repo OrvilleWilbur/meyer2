@@ -33361,3 +33361,78 @@
 [2026-08-13 04:43:30] [DEDUP] Ergebnis: 830 Einträge (war: 833, 3 zusammengeführt)
 [2026-08-13 04:43:30] [DEDUP] Kandidaten-Datei: 669 pending, 2 confirmed, 0 rejected
 [2026-08-13 04:43:30] [DEDUP] Gespeichert: 833 → 830 Einträge
+[2026-08-14 04:40:26] === Monitor-Lauf gestartet ===
+[2026-08-14 04:40:27] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-14 04:40:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-14 04:40:28] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-08-14 04:40:28] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-08-14 04:40:29] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-14 04:40:29] Feed 'gn_brand_klinik': 45 Einträge
+[2026-08-14 04:40:29] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-08-14 04:40:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-14 04:40:30] Feed 'gn_feuer_uniklinik': 43 Einträge
+[2026-08-14 04:40:30] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-08-14 04:40:32] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-14 04:40:32] 225 relevante Treffer in Feeds
+[2026-08-14 04:40:32] ✅ 7 NEUE Einträge gefunden:
+[2026-08-14 04:40:32]    02.07.2026 | in Krankenhaus |  | Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus 
+[2026-08-14 04:40:32]    02.07.2026 | im Krankenhaus |  | Zwei Tote bei Brand im Krankenhaus: Als die Feuerwehr eintri
+[2026-08-14 04:40:32]    02.07.2026 | bei Krankenhausbrand |  | Zwei Tote bei Krankenhausbrand in Ludwigslust - de.euronews.
+[2026-08-14 04:40:32]    30.09.2016 | Uniklinik |  | Zwei Tote bei Feuer in Bochumer Uniklinik - t-online.de
+[2026-08-14 04:40:32]    26.03.2007 |  |  | Trier: Klinik-Evakuierung verlief reibungslos - Stumpf + Kos
+[2026-08-14 04:40:32]    12.10.2007 | im Krankenhaus |  | Die Katastrophe im Krankenhaus: Evakuierung - Stumpf + Kosse
+[2026-08-14 04:40:32]    13.08.2026 |  |  | Feuerwehr trainiert Fognails und Absturzsicherung am Abbruch
+[2026-08-14 04:40:32] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-14 04:40:32] === Monitor-Lauf beendet ===
+
+[2026-08-14 04:40:32] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-14 04:40:32] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-14 04:40:32] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-14 04:40:32] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-14 04:40:32] [enrich] --- Enriche [1/7]: Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus 
+[2026-08-14 04:40:32] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust
+[2026-08-14 04:40:33] [enrich] Volltext extrahiert: 319 Zeichen von https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-kranke
+[2026-08-14 04:40:34] [enrich] FALSE POSITIVE erkannt: Artikel behandelt Landtagswahl in Sachsen-Anhalt, kein Bezug zu Brand in Krankenhaus oder Klinik
+[2026-08-14 04:40:35] [enrich] --- Enriche [2/7]: Zwei Tote bei Brand im Krankenhaus: Als die Feuerwehr eintri
+[2026-08-14 04:40:35] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei-brand-in-krankenhau
+[2026-08-14 04:40:37] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/zwei-tote-bei
+[2026-08-14 04:40:41] [enrich] Enrichment abgeschlossen: enriched — Helene von Bülow-Klinik Ludwigslust in Ludwigslust
+[2026-08-14 04:40:42] [enrich] --- Enriche [3/7]: Zwei Tote bei Krankenhausbrand in Ludwigslust - de.euronews.
+[2026-08-14 04:40:42] [enrich] Google News URL aufgelöst (v1): https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-l
+[2026-08-14 04:40:42] [enrich] Volltext extrahiert: 3091 Zeichen von https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-k
+[2026-08-14 04:40:46] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-14 04:40:47] [enrich] --- Enriche [4/7]: Zwei Tote bei Feuer in Bochumer Uniklinik - t-online.de
+[2026-08-14 04:40:48] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/id_79142944/bochum-ursache-fuer-bra
+[2026-08-14 04:40:53] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.t-online.de/nachrichten/panorama/id_79142944/boc
+[2026-08-14 04:41:00] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bergmannsheil in Bochum
+[2026-08-14 04:41:01] [enrich] --- Enriche [5/7]: Trier: Klinik-Evakuierung verlief reibungslos - Stumpf + Kos
+[2026-08-14 04:41:02] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuier
+[2026-08-14 04:41:02] [enrich] Artikel-Fetch fehlgeschlagen für https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuier: 404 Client Error: Not Found for url: https://www.skverlag.de/rettungsdienst/meldung/newsartikel/trier-klinik-evakuierung-verlief-reibungslos.html
+[2026-08-14 04:41:02] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (528 Z.)
+[2026-08-14 04:41:04] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt nur eine Klinik-Evakuierung, nennt aber keine Brandursache oder keinen Brand als Grund für die Evakuierung. Es handelt sich möglicherweise um eine Evakuierungsübung oder eine Evakuierung aus anderen Gründen (Bombenentschärfung, Hochwasser etc.), nicht um einen tatsächlichen Brand in der Klinik.
+[2026-08-14 04:41:05] [enrich] --- Enriche [6/7]: Die Katastrophe im Krankenhaus: Evakuierung - Stumpf + Kosse
+[2026-08-14 04:41:05] [enrich] Google News URL aufgelöst (v1): https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-kr
+[2026-08-14 04:41:06] [enrich] Artikel-Fetch fehlgeschlagen für https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-kr: 404 Client Error: Not Found for url: https://www.skverlag.de/rettungsdienst/meldung/newsartikel/die-katastrophe-im-krankenhaus-evakuierung.html
+[2026-08-14 04:41:06] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (522 Z.)
+[2026-08-14 04:41:07] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur einen generischen Titel 'Die Katastrophe im Krankenhaus: Evakuierung' ohne konkrete Informationen über einen Brand. Es ist unklar, ob es sich um einen Brand handelt oder um eine Evakuierung aus anderen Gründen (Bombenentschärfung, Hochwasser, etc.). Der Artikeltext selbst ist nicht vorhanden.
+[2026-08-14 04:41:08] [enrich] --- Enriche [7/7]: Feuerwehr trainiert Fognails und Absturzsicherung am Abbruch
+[2026-08-14 04:41:09] [enrich] Volltext extrahiert: 3295 Zeichen von https://www.feuerwehrmagazin.de/wissen/feuerwehr-trainiert-f
+[2026-08-14 04:41:10] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt eine Feuerwehrübung an einem zum Abriss vorgesehenen Gebäude, nicht einen Brand in einem Krankenhaus oder einer Klinik
+[2026-08-14 04:41:10] [enrich] Ergebnis: 3 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-08-14 04:41:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-14 04:41:11] [DEDUP] Starte Dedup für 837 Einträge
+[2026-08-14 04:41:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-14 04:41:12] [DEDUP] Auto-Merge (0.90): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bergmannsheil / Bochum
+[2026-08-14 04:41:12] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-14 04:41:12] [DEDUP] Auto-Merge (0.91): Helene-von-Bülow-Klinikum / Ludwigslust ↔ Helene von Bülow-Klinik Ludwigslust / Ludwigslust
+[2026-08-14 04:41:12] [DEDUP] Auto-Merge (0.82): Krankenhaus Ludwigslust (LUP-Kliniken) / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-14 04:41:12] [DEDUP] Paare verglichen: 21127
+[2026-08-14 04:41:12] [DEDUP] Auto-Merges: 4
+[2026-08-14 04:41:12] [DEDUP] Kandidaten (unsicher): 674
+[2026-08-14 04:41:12] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bergmannsheil
+[2026-08-14 04:41:12] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust (LUP-Kliniken), Krankenhaus Ludwigslust
+[2026-08-14 04:41:12] [DEDUP] Cluster 2x: Helene-von-Bülow-Klinikum, Helene von Bülow-Klinik Ludwigslust
+[2026-08-14 04:41:12] [DEDUP] Ergebnis: 833 Einträge (war: 837, 4 zusammengeführt)
+[2026-08-14 04:41:12] [DEDUP] Kandidaten-Datei: 674 pending, 2 confirmed, 0 rejected
+[2026-08-14 04:41:12] [DEDUP] Gespeichert: 837 → 833 Einträge
