@@ -33555,3 +33555,46 @@
 [2026-08-17 03:38:40] [DEDUP] Ergebnis: 835 Einträge (war: 836, 1 zusammengeführt)
 [2026-08-17 03:38:40] [DEDUP] Kandidaten-Datei: 663 pending, 2 confirmed, 0 rejected
 [2026-08-17 03:38:40] [DEDUP] Gespeichert: 836 → 835 Einträge
+[2026-08-18 03:33:55] === Monitor-Lauf gestartet ===
+[2026-08-18 03:33:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-18 03:33:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-18 03:33:58] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-08-18 03:33:58] Feed 'gn_feuer_krankenhaus': 56 Einträge
+[2026-08-18 03:33:59] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-18 03:33:59] Feed 'gn_brand_klinik': 51 Einträge
+[2026-08-18 03:34:00] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-08-18 03:34:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-18 03:34:01] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-08-18 03:34:01] Feed 'gn_evakuierung_klinik': 52 Einträge
+[2026-08-18 03:34:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-18 03:34:03] 238 relevante Treffer in Feeds
+[2026-08-18 03:34:03] ✅ 2 NEUE Einträge gefunden:
+[2026-08-18 03:34:03]    02.07.2026 | bei Krankenhausbrand |  | Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews
+[2026-08-18 03:34:03]    17.08.2026 | in Klinik |  | Kampf gegen Brand in Belgien – eine Feuerwehrkraft in Klinik
+[2026-08-18 03:34:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-18 03:34:03] === Monitor-Lauf beendet ===
+
+[2026-08-18 03:34:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-18 03:34:03] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-18 03:34:03] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-18 03:34:03] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-18 03:34:03] [enrich] --- Enriche [1/2]: Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews
+[2026-08-18 03:34:04] [enrich] Google News URL aufgelöst (v1): https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-l
+[2026-08-18 03:34:04] [enrich] Artikel-Fetch fehlgeschlagen für https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-l: 406 Client Error: Not Acceptable for url: https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-ludwigslust
+[2026-08-18 03:34:04] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (428 Z.)
+[2026-08-18 03:34:06] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne aussagekräftigen Inhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN einem deutschen Krankenhaus stattgefunden hat oder ob es sich um einen anderen Kontext handelt. Die URL-Struktur deutet auf einen Google News-Link hin, der keinen vollständigen Artikeltext enthält.
+[2026-08-18 03:34:07] [enrich] --- Enriche [2/2]: Kampf gegen Brand in Belgien – eine Feuerwehrkraft in Klinik
+[2026-08-18 03:34:07] [enrich] Google News URL aufgelöst (v1): https://www.kulthitradio.de/kampf-gegen-brand-in-belgien-eine-feuerwehrkraft-in-
+[2026-08-18 03:34:09] [enrich] Volltext zu kurz/leer (159 Z.), verwende RSS-Snippet (476 Z.)
+[2026-08-18 03:34:11] [enrich] FALSE POSITIVE erkannt: Brand fand in Belgien statt, nicht in Deutschland. Zudem wird nur erwähnt, dass eine Feuerwehrkraft nach dem Brand in eine Klinik kam - der Brand selbst war nicht in der Klinik.
+[2026-08-18 03:34:11] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-18 03:34:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-18 03:34:11] [DEDUP] Starte Dedup für 837 Einträge
+[2026-08-18 03:34:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-18 03:34:13] [DEDUP] Paare verglichen: 21346
+[2026-08-18 03:34:13] [DEDUP] Auto-Merges: 0
+[2026-08-18 03:34:13] [DEDUP] Kandidaten (unsicher): 662
+[2026-08-18 03:34:13] [DEDUP] Ergebnis: 837 Einträge (war: 837, 0 zusammengeführt)
+[2026-08-18 03:34:13] [DEDUP] Kandidaten-Datei: 662 pending, 2 confirmed, 0 rejected
+[2026-08-18 03:34:13] [DEDUP] Gespeichert: 837 → 837 Einträge

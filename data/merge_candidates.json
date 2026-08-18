@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T03:38:40.637205",
+  "generated_at": "2026-08-18T03:34:13.254800",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3209,39 +3209,6 @@
         "",
         ""
       ],
-      "score": 0.66,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.66
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "01.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - welt.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.657,
       "details": {
         "datum": 0.3,
@@ -4357,39 +4324,6 @@
         "status": "enriched",
         "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
         "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.618,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.16666666666666666,
-        "total": 0.618
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "01.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - welt.de"
       }
     },
     {
@@ -13845,6 +13779,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "bei Krankenhausbrand",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.nachrichten.yahoo.com/zwei-tote-krankenhausbrand-ludwigslust-084034662.html",
+        "titel": "Zwei Tote bei Krankenhausbrand in Ludwigslust - Yahoo Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "bei Krankenhausbrand",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-ludwigslust",
+        "titel": "Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "stillgelegter Klinik",
         "ort": "",
         "datum": "01.07.2026",
@@ -18785,6 +18752,39 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "bei Krankenhausbrand",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-ludwigslust",
+        "titel": "Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews.com"
+      },
+      "entry_b": {
+        "einrichtung": "bei Krankenhausbrand",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-ludwigslust",
+        "titel": "Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -18910,39 +18910,6 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
         "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.515,
-      "details": {
-        "datum": 0.3,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.5,
-        "total": 0.515
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "01.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://www.welt.de/videos/video6a45f7d6c154597ea93e388a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - Video - welt.de"
       }
     },
     {
