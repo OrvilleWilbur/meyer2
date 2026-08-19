@@ -33598,3 +33598,54 @@
 [2026-08-18 03:34:13] [DEDUP] Ergebnis: 837 Einträge (war: 837, 0 zusammengeführt)
 [2026-08-18 03:34:13] [DEDUP] Kandidaten-Datei: 662 pending, 2 confirmed, 0 rejected
 [2026-08-18 03:34:13] [DEDUP] Gespeichert: 837 → 837 Einträge
+[2026-08-19 03:35:59] === Monitor-Lauf gestartet ===
+[2026-08-19 03:36:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-19 03:36:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-19 03:36:01] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-08-19 03:36:01] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-08-19 03:36:02] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-19 03:36:02] Feed 'gn_brand_klinik': 51 Einträge
+[2026-08-19 03:36:02] Feed 'gn_brand_klinikum': 32 Einträge
+[2026-08-19 03:36:03] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-19 03:36:04] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-08-19 03:36:04] Feed 'gn_evakuierung_klinik': 54 Einträge
+[2026-08-19 03:36:05] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-19 03:36:05] 233 relevante Treffer in Feeds
+[2026-08-19 03:36:05] ✅ 3 NEUE Einträge gefunden:
+[2026-08-19 03:36:05]    02.07.2026 | deutschem Krankenhaus |  | Zwei Tote bei Brand in deutschem Krankenhaus - medinside.ch
+[2026-08-19 03:36:05]    02.07.2026 | zum Krankenhaus |  | Was wir zum Krankenhaus-Brand wissen - und was nicht - welt.
+[2026-08-19 03:36:05]    27.06.2025 | Mutter-Kind-Klinik |  | Dichter Rauch in Mutter-Kind-Klinik: Evakuierung! - nordkuri
+[2026-08-19 03:36:05] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-19 03:36:05] === Monitor-Lauf beendet ===
+
+[2026-08-19 03:36:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-19 03:36:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-19 03:36:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-19 03:36:05] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-19 03:36:05] [enrich] --- Enriche [1/3]: Zwei Tote bei Brand in deutschem Krankenhaus - medinside.ch
+[2026-08-19 03:36:06] [enrich] Google News URL aufgelöst (v1): https://www.medinside.ch/de/zwei-tote-bei-brand-in-deutschem-krankenhaus-2026070
+[2026-08-19 03:36:06] [enrich] Volltext extrahiert: 3569 Zeichen von https://www.medinside.ch/de/zwei-tote-bei-brand-in-deutschem
+[2026-08-19 03:36:10] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-19 03:36:11] [enrich] --- Enriche [2/3]: Was wir zum Krankenhaus-Brand wissen - und was nicht - welt.
+[2026-08-19 03:36:11] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/mecklenburg-vorpommern/article6a45ef4e1f5535004df
+[2026-08-19 03:36:12] [enrich] Volltext extrahiert: 2341 Zeichen von https://www.welt.de/regionales/mecklenburg-vorpommern/articl
+[2026-08-19 03:36:15] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-08-19 03:36:16] [enrich] --- Enriche [3/3]: Dichter Rauch in Mutter-Kind-Klinik: Evakuierung! - nordkuri
+[2026-08-19 03:36:16] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ruegen/dichter-rauch-in-mutter-kind-klinik-ev
+[2026-08-19 03:36:17] [enrich] Volltext extrahiert: 1933 Zeichen von https://www.nordkurier.de/regional/ruegen/dichter-rauch-in-m
+[2026-08-19 03:36:19] [enrich] FALSE POSITIVE erkannt: Es handelt sich um eine Verpuffung im Küchenbereich mit Rauchentwicklung, nicht um einen Brand. Der Artikel explicitly erwähnt: 'ein offenes Feuer entstand nicht'. Eine Verpuffung ohne Feuerbildung fällt nicht unter die Definition eines Brandes.
+[2026-08-19 03:36:19] [enrich] Ergebnis: 2 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-08-19 03:36:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-19 03:36:19] [DEDUP] Starte Dedup für 840 Einträge
+[2026-08-19 03:36:19] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-19 03:36:20] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-19 03:36:20] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-19 03:36:20] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-08-19 03:36:20] [DEDUP] Paare verglichen: 21404
+[2026-08-19 03:36:20] [DEDUP] Auto-Merges: 3
+[2026-08-19 03:36:20] [DEDUP] Kandidaten (unsicher): 671
+[2026-08-19 03:36:20] [DEDUP] Cluster 3x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-08-19 03:36:20] [DEDUP] Ergebnis: 838 Einträge (war: 840, 2 zusammengeführt)
+[2026-08-19 03:36:20] [DEDUP] Kandidaten-Datei: 671 pending, 2 confirmed, 0 rejected
+[2026-08-19 03:36:20] [DEDUP] Gespeichert: 840 → 838 Einträge
