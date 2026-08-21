@@ -33700,3 +33700,42 @@
 [2026-08-20 03:36:24] [DEDUP] Ergebnis: 839 Einträge (war: 841, 2 zusammengeführt)
 [2026-08-20 03:36:24] [DEDUP] Kandidaten-Datei: 667 pending, 2 confirmed, 0 rejected
 [2026-08-20 03:36:24] [DEDUP] Gespeichert: 841 → 839 Einträge
+[2026-08-21 03:39:49] === Monitor-Lauf gestartet ===
+[2026-08-21 03:39:50] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-21 03:39:51] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-21 03:39:51] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-08-21 03:39:52] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-08-21 03:39:52] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-08-21 03:39:52] Feed 'gn_brand_klinik': 52 Einträge
+[2026-08-21 03:39:53] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-08-21 03:39:53] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-21 03:39:54] Feed 'gn_feuer_uniklinik': 38 Einträge
+[2026-08-21 03:39:54] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-08-21 03:39:55] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-21 03:39:55] 234 relevante Treffer in Feeds
+[2026-08-21 03:39:55] ✅ 1 NEUE Einträge gefunden:
+[2026-08-21 03:39:55]    30.11.2023 | LVR-Klinik |  | Bett stand in Flammen: Sieben Verletzte bei Brand in Bonner 
+[2026-08-21 03:39:55] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-21 03:39:55] === Monitor-Lauf beendet ===
+
+[2026-08-21 03:39:55] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-21 03:39:55] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-21 03:39:55] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-21 03:39:55] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-21 03:39:55] [enrich] --- Enriche [1/1]: Bett stand in Flammen: Sieben Verletzte bei Brand in Bonner 
+[2026-08-21 03:39:56] [enrich] Google News URL aufgelöst (v1): https://ga.de/bonn/stadt-bonn/bonn-sieben-verletzte-nach-brand-in-lvr-klinik_aid
+[2026-08-21 03:39:56] [enrich] Volltext extrahiert: 1715 Zeichen von https://ga.de/bonn/stadt-bonn/bonn-sieben-verletzte-nach-bra
+[2026-08-21 03:39:59] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Bonn in Bonn
+[2026-08-21 03:39:59] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-08-21 03:39:59] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-21 03:39:59] [DEDUP] Starte Dedup für 840 Einträge
+[2026-08-21 03:39:59] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-21 03:40:01] [DEDUP] Auto-Merge (0.91): LVR-Klinik Bonn am Kaiser-Karl-Ring / Bonn ↔ LVR-Klinik Bonn / Bonn
+[2026-08-21 03:40:01] [DEDUP] Paare verglichen: 21388
+[2026-08-21 03:40:01] [DEDUP] Auto-Merges: 1
+[2026-08-21 03:40:01] [DEDUP] Kandidaten (unsicher): 663
+[2026-08-21 03:40:01] [DEDUP] Cluster 2x: LVR-Klinik Bonn am Kaiser-Karl-Ring, LVR-Klinik Bonn
+[2026-08-21 03:40:01] [DEDUP] Ergebnis: 839 Einträge (war: 840, 1 zusammengeführt)
+[2026-08-21 03:40:01] [DEDUP] Kandidaten-Datei: 663 pending, 2 confirmed, 0 rejected
+[2026-08-21 03:40:01] [DEDUP] Gespeichert: 840 → 839 Einträge

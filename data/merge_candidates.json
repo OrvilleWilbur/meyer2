@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:36:24.169215",
+  "generated_at": "2026-08-21T03:40:01.816706",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -331,39 +331,6 @@
         "status": "enriched",
         "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
         "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.758,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.15384615384615385,
-        "total": 0.758
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/mecklenburg-vorpommern/article6a45ef4e1f5535004df26a7f/was-wir-zum-krankenhaus-brand-wissen-und-was-nicht.html",
-        "titel": "Was wir zum Krankenhaus-Brand wissen - und was nicht - WELT"
       }
     },
     {
@@ -1255,39 +1222,6 @@
         "status": "enriched",
         "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
         "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.708,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.16666666666666666,
-        "total": 0.708
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/mecklenburg-vorpommern/article6a45ef4e1f5535004df26a7f/was-wir-zum-krankenhaus-brand-wissen-und-was-nicht.html",
-        "titel": "Was wir zum Krankenhaus-Brand wissen - und was nicht - WELT"
       }
     },
     {
@@ -4390,39 +4324,6 @@
         "status": "enriched",
         "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
         "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.622,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.622
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/mecklenburg-vorpommern/article6a45ef4e1f5535004df26a7f/was-wir-zum-krankenhaus-brand-wissen-und-was-nicht.html",
-        "titel": "Was wir zum Krankenhaus-Brand wissen - und was nicht - WELT"
       }
     },
     {
@@ -21979,39 +21880,6 @@
         "status": "false_positive",
         "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
         "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.454,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.07692307692307693,
-        "total": 0.454
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Krankenhaus",
-        "ort": "Ludwigslust",
-        "datum": "06.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
-        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/mecklenburg-vorpommern/article6a45ef4e1f5535004df26a7f/was-wir-zum-krankenhaus-brand-wissen-und-was-nicht.html",
-        "titel": "Was wir zum Krankenhaus-Brand wissen - und was nicht - WELT"
       }
     }
   ],
