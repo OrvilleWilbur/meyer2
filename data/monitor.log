@@ -33739,3 +33739,50 @@
 [2026-08-21 03:40:01] [DEDUP] Ergebnis: 839 Einträge (war: 840, 1 zusammengeführt)
 [2026-08-21 03:40:01] [DEDUP] Kandidaten-Datei: 663 pending, 2 confirmed, 0 rejected
 [2026-08-21 03:40:01] [DEDUP] Gespeichert: 840 → 839 Einträge
+[2026-08-22 03:32:02] === Monitor-Lauf gestartet ===
+[2026-08-22 03:32:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-22 03:32:03] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-22 03:32:04] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-08-22 03:32:04] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-08-22 03:32:05] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-08-22 03:32:05] Feed 'gn_brand_klinik': 50 Einträge
+[2026-08-22 03:32:05] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-08-22 03:32:06] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-22 03:32:06] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-08-22 03:32:07] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-08-22 03:32:08] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-22 03:32:08] 233 relevante Treffer in Feeds
+[2026-08-22 03:32:08] ✅ 3 NEUE Einträge gefunden:
+[2026-08-22 03:32:08]    31.10.2019 | DRK-Krankenhaus |  | Feuerwehr-Großeinsatz im DRK-Krankenhaus in Saarlouis - SOL.
+[2026-08-22 03:32:08]    02.01.2026 | Stuttgarter Klinik behandelt |  | Brandopfer aus Schweizer Bar in Stuttgarter Klinik behandelt
+[2026-08-22 03:32:08]    20.08.2026 | in Klinikum löschen |  | Alarm in Dresdner Friedrichstadt: Feuerwehr muss Brand in Kl
+[2026-08-22 03:32:08] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-22 03:32:08] === Monitor-Lauf beendet ===
+
+[2026-08-22 03:32:08] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-22 03:32:08] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-22 03:32:08] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-22 03:32:08] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-22 03:32:08] [enrich] --- Enriche [1/3]: Feuerwehr-Großeinsatz im DRK-Krankenhaus in Saarlouis - SOL.
+[2026-08-22 03:32:09] [enrich] Google News URL aufgelöst (v1): https://www.sol.de/saarland/feuerwehr-grosseinsatz-im-drk-krankenhaus-in-saarlou
+[2026-08-22 03:32:09] [enrich] Volltext extrahiert: 2153 Zeichen von https://www.sol.de/saarland/feuerwehr-grosseinsatz-im-drk-kr
+[2026-08-22 03:32:11] [enrich] FALSE POSITIVE erkannt: Es gab laut Polizei kein Feuer, sondern nur eine Rauchentwicklung unbekannter Ursache. Ein Brand liegt nicht vor.
+[2026-08-22 03:32:12] [enrich] --- Enriche [2/3]: Brandopfer aus Schweizer Bar in Stuttgarter Klinik behandelt
+[2026-08-22 03:32:12] [enrich] Google News URL aufgelöst (v1): https://www.stimme.de/baden-wuerttemberg/brandopfer-stuttgart-marienhospital-kli
+[2026-08-22 03:32:13] [enrich] Volltext extrahiert: 2532 Zeichen von https://www.stimme.de/baden-wuerttemberg/brandopfer-stuttgar
+[2026-08-22 03:32:15] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Das Brandopfer wird lediglich zur Behandlung in einer deutschen Klinik aufgenommen, was kein Krankenhausbrand darstellt.
+[2026-08-22 03:32:16] [enrich] --- Enriche [3/3]: Alarm in Dresdner Friedrichstadt: Feuerwehr muss Brand in Kl
+[2026-08-22 03:32:16] [enrich] Google News URL aufgelöst (v1): https://www.tag24.de/dresden/feuerwehreinsatz-dresden/alarm-in-dresdner-friedric
+[2026-08-22 03:32:17] [enrich] Volltext extrahiert: 2343 Zeichen von https://www.tag24.de/dresden/feuerwehreinsatz-dresden/alarm-
+[2026-08-22 03:32:21] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden, Krankenhaus Friedrichstadt in Dresden
+[2026-08-22 03:32:21] [enrich] Ergebnis: 1 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-22 03:32:21] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-22 03:32:21] [DEDUP] Starte Dedup für 842 Einträge
+[2026-08-22 03:32:21] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-22 03:32:23] [DEDUP] Paare verglichen: 21509
+[2026-08-22 03:32:23] [DEDUP] Auto-Merges: 0
+[2026-08-22 03:32:23] [DEDUP] Kandidaten (unsicher): 668
+[2026-08-22 03:32:23] [DEDUP] Ergebnis: 842 Einträge (war: 842, 0 zusammengeführt)
+[2026-08-22 03:32:23] [DEDUP] Kandidaten-Datei: 668 pending, 2 confirmed, 0 rejected
+[2026-08-22 03:32:23] [DEDUP] Gespeichert: 842 → 842 Einträge
