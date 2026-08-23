@@ -33786,3 +33786,40 @@
 [2026-08-22 03:32:23] [DEDUP] Ergebnis: 842 Einträge (war: 842, 0 zusammengeführt)
 [2026-08-22 03:32:23] [DEDUP] Kandidaten-Datei: 668 pending, 2 confirmed, 0 rejected
 [2026-08-22 03:32:23] [DEDUP] Gespeichert: 842 → 842 Einträge
+[2026-08-23 03:39:30] === Monitor-Lauf gestartet ===
+[2026-08-23 03:39:30] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-23 03:39:31] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-23 03:39:32] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-08-23 03:39:32] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-08-23 03:39:32] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-23 03:39:33] Feed 'gn_brand_klinik': 49 Einträge
+[2026-08-23 03:39:33] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-08-23 03:39:34] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-23 03:39:34] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-08-23 03:39:34] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-08-23 03:39:35] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-23 03:39:35] 230 relevante Treffer in Feeds
+[2026-08-23 03:39:35] ✅ 1 NEUE Einträge gefunden:
+[2026-08-23 03:39:35]    28.07.2026 | ins Krankenhaus |  | Feuer in Industriehalle: Zwei Mitarbeiter müssen ins Kranken
+[2026-08-23 03:39:35] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-23 03:39:35] === Monitor-Lauf beendet ===
+
+[2026-08-23 03:39:35] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-23 03:39:35] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-23 03:39:35] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-23 03:39:36] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-23 03:39:36] [enrich] --- Enriche [1/1]: Feuer in Industriehalle: Zwei Mitarbeiter müssen ins Kranken
+[2026-08-23 03:39:36] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/neubrandenburg/feuer-in-industriehalle-zwei-p
+[2026-08-23 03:39:37] [enrich] Volltext extrahiert: 2436 Zeichen von https://www.nordkurier.de/regional/neubrandenburg/feuer-in-i
+[2026-08-23 03:39:38] [enrich] FALSE POSITIVE erkannt: Brand in einer Industriehalle (Lackierstrecke), nicht in einem Krankenhaus. Zwei Mitarbeiter wurden nach dem Brand vorsorglich ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-08-23 03:39:38] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-08-23 03:39:38] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-23 03:39:38] [DEDUP] Starte Dedup für 843 Einträge
+[2026-08-23 03:39:38] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-23 03:39:40] [DEDUP] Paare verglichen: 21605
+[2026-08-23 03:39:40] [DEDUP] Auto-Merges: 0
+[2026-08-23 03:39:40] [DEDUP] Kandidaten (unsicher): 668
+[2026-08-23 03:39:40] [DEDUP] Ergebnis: 843 Einträge (war: 843, 0 zusammengeführt)
+[2026-08-23 03:39:40] [DEDUP] Kandidaten-Datei: 668 pending, 2 confirmed, 0 rejected
+[2026-08-23 03:39:40] [DEDUP] Gespeichert: 843 → 843 Einträge
