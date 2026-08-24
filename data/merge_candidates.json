@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T03:39:40.419565",
+  "generated_at": "2026-08-24T03:42:46.390823",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -18943,6 +18943,39 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/toter-bei-brand-auf-station-in-rostocker-klinik--mann-legte-feuer-selbst-36039862.html",
         "titel": "Toter bei Brand auf Station in Rostocker Klinik: Mann legte Feuer selbst - STERN.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.express.de/panorama/toedliches-feuer-in-klinik-mindestens-10-tote-auf-intensivstation-ursachenermittlung-laeuft-1244509",
+        "titel": "Tödliches Feuer in Klinik – Mindestens 10 Menschen auf Intensivstation gestorben - Express"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik nach Atembeschwerden",
+        "ort": "",
+        "datum": "16.03.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stimme.de/baden-wuerttemberg/schule-boeblingen-evakuierung-mehrere-kinder-erwachsene-verletzt-atembeschwerden-husten-klinik-art-5152249",
+        "titel": "Schule in Böblingen evakuiert: Mehrere Kinder in Klinik nach Atembeschwerden - Stimme"
       }
     },
     {
