@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T03:42:46.390823",
+  "generated_at": "2026-08-25T03:37:59.621801",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -232,6 +232,39 @@
         "status": "enriched",
         "link": "https://112-magazin.de/waldeck-frankenberg/kb-feuerwehr/item/37960-feueralarm-im-krankenhaus-evakuierung-laeuft",
         "titel": "Feueralarm im Krankenhaus - Evakuierung läuft - 112-magazin"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.777,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.777
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Cracau, Universitätsmedizin Magdeburg",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.volksstimme.de/blaulicht/magdeburg/brand-im-klinikum-cracau-in-magdeburg-zwei-verletzte-4306680",
+        "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Zwei Verletzte - Volksstimme"
       }
     },
     {
@@ -4126,6 +4159,39 @@
         "status": "enriched",
         "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/audio-brand-hettstedt-klinik-100.html",
         "titel": "Brand in Helios Klinik Hettstedt: Polizei geht von Brandstiftung aus - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Bayreuth",
+        "ort": "Bayreuth",
+        "datum": "15.05.2026",
+        "bundesland": "Bayern",
+        "status": "enriched",
+        "link": "https://www.onetz.de/deutschland-welt/bayreuth/82-jaehriger-brand-klinik-gelegt-haben-id5372699.html",
+        "titel": "82-Jähriger soll Brand in Klinik gelegt haben - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Bayreuth",
+        "ort": "Bayreuth",
+        "datum": "13.06.2026",
+        "bundesland": "Bayern",
+        "status": "partial",
+        "link": "https://www.instagram.com/p/DZhkuzWDEe6/",
+        "titel": "🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden Feuerwehr, Rettungsdienst und Polizei wegen Brand- beziehungsweise Schmorgeruchs zum Klinikum Bayreuth alarmiert. Zeitweise waren rund 130 E"
       }
     },
     {
