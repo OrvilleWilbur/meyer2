@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:37:59.621801",
+  "generated_at": "2026-08-26T03:42:46.751842",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -265,6 +265,39 @@
         "status": "enriched",
         "link": "https://www.volksstimme.de/blaulicht/magdeburg/brand-im-klinikum-cracau-in-magdeburg-zwei-verletzte-4306680",
         "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Zwei Verletzte - Volksstimme"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.777,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.777
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Cracau (Universitätsmedizin Magdeburg)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-brand-im-klinikum-cracau-in-magdeburg-drei-verletzte-und-millionenschaden-4306680",
+        "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verletzte und Millionenschaden - Volksstimme"
       }
     },
     {
@@ -859,6 +892,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.726,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.8888888888888888,
+        "total": 0.726
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Cracau / Universitätsmedizin Magdeburg",
+        "ort": "Magdeburg",
+        "datum": "25.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-102,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum mit drei Verletzten – eine Station wieder in Betrieb - MDR.de"
       }
     },
     {
@@ -18877,6 +18943,39 @@
         "status": "false_positive",
         "link": "https://de.euronews.com/my-europe/2026/07/02/zwei-tote-bei-krankenhausbrand-in-ludwigslust",
         "titel": "Zwei Tote bei Krankenhausbrand in Ludwigslust - Euronews"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus bei Athen",
+        "ort": "",
+        "datum": "09.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzimmer",
+        "titel": "Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus - Euronews.com"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus bei Athen",
+        "ort": "",
+        "datum": "09.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzimmer",
+        "titel": "Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus - Euronews"
       }
     },
     {

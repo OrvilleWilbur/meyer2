@@ -33919,3 +33919,60 @@
 [2026-08-25 03:37:59] [DEDUP] Ergebnis: 849 Einträge (war: 849, 0 zusammengeführt)
 [2026-08-25 03:37:59] [DEDUP] Kandidaten-Datei: 671 pending, 2 confirmed, 0 rejected
 [2026-08-25 03:37:59] [DEDUP] Gespeichert: 849 → 849 Einträge
+[2026-08-26 03:42:23] === Monitor-Lauf gestartet ===
+[2026-08-26 03:42:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-26 03:42:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-26 03:42:25] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-08-26 03:42:26] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-08-26 03:42:26] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-26 03:42:26] Feed 'gn_brand_klinik': 43 Einträge
+[2026-08-26 03:42:27] Feed 'gn_brand_klinikum': 33 Einträge
+[2026-08-26 03:42:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-26 03:42:27] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-08-26 03:42:28] Feed 'gn_evakuierung_klinik': 47 Einträge
+[2026-08-26 03:42:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-26 03:42:29] 221 relevante Treffer in Feeds
+[2026-08-26 03:42:29] ✅ 4 NEUE Einträge gefunden:
+[2026-08-26 03:42:29]    25.08.2026 | im Krankenhaus |  | Brand in Bamberger Wunderburg: Eine Person im Krankenhaus - 
+[2026-08-26 03:42:29]    09.07.2026 | in Krankenhaus bei Athen |  | Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus -
+[2026-08-26 03:42:29]    24.08.2026 | im Klinikum Cracau |  | Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verle
+[2026-08-26 03:42:29]    25.08.2026 | Magdeburger Klinikum mit drei Verletzten |  | Brand im Magdeburger Klinikum mit drei Verletzten – eine Sta
+[2026-08-26 03:42:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-26 03:42:29] === Monitor-Lauf beendet ===
+
+[2026-08-26 03:42:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-26 03:42:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-26 03:42:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-26 03:42:29] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-26 03:42:29] [enrich] --- Enriche [1/4]: Brand in Bamberger Wunderburg: Eine Person im Krankenhaus - 
+[2026-08-26 03:42:29] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bamberg-eine-person-im-kr
+[2026-08-26 03:42:30] [enrich] Volltext extrahiert: 3096 Zeichen von https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bambe
+[2026-08-26 03:42:31] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnwohnung in einem Mehrfamilienhaus, nicht in einem Krankenhaus. Eine Person wurde nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-08-26 03:42:32] [enrich] --- Enriche [2/4]: Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus -
+[2026-08-26 03:42:33] [enrich] Google News URL aufgelöst (v1): https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzi
+[2026-08-26 03:42:33] [enrich] Artikel-Fetch fehlgeschlagen für https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzi: 406 Client Error: Not Acceptable for url: https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzimmer
+[2026-08-26 03:42:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (444 Z.)
+[2026-08-26 03:42:34] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus in Athen (Griechenland), nicht in Deutschland
+[2026-08-26 03:42:35] [enrich] --- Enriche [3/4]: Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verle
+[2026-08-26 03:42:35] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-brand-im-klinikum-craca
+[2026-08-26 03:42:35] [enrich] Volltext extrahiert: 1584 Zeichen von https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-bra
+[2026-08-26 03:42:37] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau (Universitätsmedizin Magdeburg) in Magdeburg
+[2026-08-26 03:42:38] [enrich] --- Enriche [4/4]: Brand im Magdeburger Klinikum mit drei Verletzten – eine Sta
+[2026-08-26 03:42:39] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-craca
+[2026-08-26 03:42:39] [enrich] Volltext extrahiert: 2630 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magd
+[2026-08-26 03:42:44] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau / Universitätsmedizin Magdeburg in Magdeburg
+[2026-08-26 03:42:44] [enrich] Ergebnis: 2 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-08-26 03:42:44] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-26 03:42:44] [DEDUP] Starte Dedup für 853 Einträge
+[2026-08-26 03:42:44] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-26 03:42:46] [DEDUP] Auto-Merge (1.00): Klinikum Cracau, Universitätsmedizin Mag / Magdeburg ↔ Klinikum Cracau (Universitätsmedizin Mag / Magdeburg
+[2026-08-26 03:42:46] [DEDUP] Auto-Merge (0.86): Klinikum Cracau, Universitätsmedizin Mag / Magdeburg ↔ Klinikum Cracau / Universitätsmedizin Ma / Magdeburg
+[2026-08-26 03:42:46] [DEDUP] Auto-Merge (0.86): Klinikum Cracau (Universitätsmedizin Mag / Magdeburg ↔ Klinikum Cracau / Universitätsmedizin Ma / Magdeburg
+[2026-08-26 03:42:46] [DEDUP] Paare verglichen: 22047
+[2026-08-26 03:42:46] [DEDUP] Auto-Merges: 3
+[2026-08-26 03:42:46] [DEDUP] Kandidaten (unsicher): 674
+[2026-08-26 03:42:46] [DEDUP] Cluster 3x: Klinikum Cracau, Universitätsmedizin Mag, Klinikum Cracau (Universitätsmedizin Mag, Klinikum Cracau / Universitätsmedizin Ma
+[2026-08-26 03:42:46] [DEDUP] Ergebnis: 851 Einträge (war: 853, 2 zusammengeführt)
+[2026-08-26 03:42:46] [DEDUP] Kandidaten-Datei: 674 pending, 2 confirmed, 0 rejected
+[2026-08-26 03:42:46] [DEDUP] Gespeichert: 853 → 851 Einträge
