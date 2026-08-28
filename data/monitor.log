@@ -34042,3 +34042,66 @@
 [2026-08-27 13:14:48] [DEDUP] Ergebnis: 855 Einträge (war: 857, 2 zusammengeführt)
 [2026-08-27 13:14:48] [DEDUP] Kandidaten-Datei: 682 pending, 2 confirmed, 0 rejected
 [2026-08-27 13:14:48] [DEDUP] Gespeichert: 857 → 855 Einträge
+[2026-08-28 14:39:23] === Monitor-Lauf gestartet ===
+[2026-08-28 14:39:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-28 14:39:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-28 14:39:26] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-08-28 14:39:26] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-08-28 14:39:26] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-08-28 14:39:27] Feed 'gn_brand_klinik': 48 Einträge
+[2026-08-28 14:39:27] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-08-28 14:39:28] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-28 14:39:28] Feed 'gn_feuer_uniklinik': 41 Einträge
+[2026-08-28 14:39:29] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-08-28 14:39:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-28 14:39:30] 231 relevante Treffer in Feeds
+[2026-08-28 14:39:30] ✅ 6 NEUE Einträge gefunden:
+[2026-08-28 14:39:30]    02.06.2025 | Hamburger Krankenhaus |  | News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-08-28 14:39:30]    14.08.2026 | in Klinik |  | Feuer auf Streuobstwiese: Kippe löst Brand aus - Frau mit Ve
+[2026-08-28 14:39:30]    25.08.2026 | im Klinikum Cracau |  | Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-08-28 14:39:30]    20.09.2021 | Uniklinik |  | Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-08-28 14:39:30]    28.08.2026 | Deutsches Krankenhaus muss Patienten verlegen |  | Evakuierung nach Stromausfall: Deutsches Krankenhaus muss Pa
+[2026-08-28 14:39:30]    28.08.2026 |  |  | Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-08-28 14:39:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-28 14:39:30] === Monitor-Lauf beendet ===
+
+[2026-08-28 14:39:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-28 14:39:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-28 14:39:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-28 14:39:30] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-28 14:39:30] [enrich] --- Enriche [1/6]: News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-08-28 14:39:31] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburge
+[2026-08-28 14:39:32] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-na
+[2026-08-28 14:39:33] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:34] [enrich] --- Enriche [2/6]: Feuer auf Streuobstwiese: Kippe löst Brand aus - Frau mit Ve
+[2026-08-28 14:39:34] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs
+[2026-08-28 14:39:34] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobstwiese--kippe-loest-brand-aus---frau-mit-verbrennungen-in-klinik-38105340.html
+[2026-08-28 14:39:34] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (593 Z.)
+[2026-08-28 14:39:35] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:36] [enrich] --- Enriche [3/6]: Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-08-28 14:39:36] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d6053c3692834ff6dbf93/br
+[2026-08-28 14:39:37] [enrich] Volltext extrahiert: 4453 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d605
+[2026-08-28 14:39:37] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:38] [enrich] --- Enriche [4/6]: Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-08-28 14:39:38] [enrich] Google News URL aufgelöst (v1): https://www.mainpost.de/regional/wuerzburg/brand-in-uniklinik-grossaufgebot-von-
+[2026-08-28 14:39:39] [enrich] Volltext zu kurz/leer (154 Z.), verwende RSS-Snippet (548 Z.)
+[2026-08-28 14:39:39] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:40] [enrich] --- Enriche [5/6]: Evakuierung nach Stromausfall: Deutsches Krankenhaus muss Pa
+[2026-08-28 14:39:41] [enrich] Google News URL aufgelöst (v1): https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/733164-evakuierung-
+[2026-08-28 14:39:41] [enrich] Volltext extrahiert: 2278 Zeichen von https://www.tips.at/nachrichten/oesterreich/oesterreich-welt
+[2026-08-28 14:39:41] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:42] [enrich] --- Enriche [6/6]: Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-08-28 14:39:43] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-ort49926/grosseinsatz
+[2026-08-28 14:39:44] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-o
+[2026-08-28 14:39:44] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-28 14:39:44] [enrich] Ergebnis: 0 enriched, 0 partial, 0 false_positive, 6 failed
+[2026-08-28 14:39:44] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-28 14:39:44] [DEDUP] Starte Dedup für 861 Einträge
+[2026-08-28 14:39:44] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-28 14:39:46] [DEDUP] Paare verglichen: 22692
+[2026-08-28 14:39:46] [DEDUP] Auto-Merges: 0
+[2026-08-28 14:39:46] [DEDUP] Kandidaten (unsicher): 678
+[2026-08-28 14:39:46] [DEDUP] Ergebnis: 861 Einträge (war: 861, 0 zusammengeführt)
+[2026-08-28 14:39:46] [DEDUP] Kandidaten-Datei: 678 pending, 2 confirmed, 0 rejected
+[2026-08-28 14:39:46] [DEDUP] Gespeichert: 861 → 861 Einträge

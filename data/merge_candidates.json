@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T13:14:48.380548",
+  "generated_at": "2026-08-28T14:39:46.428432",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1064,39 +1064,6 @@
         "",
         ""
       ],
-      "score": 0.713,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.4,
-        "total": 0.713
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
-        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Magdeburg-Cracau (Klinikum Cracau)",
-        "ort": "Magdeburg",
-        "datum": "25.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-im-klinikum-magdeburg-cracau-nach-brand-weiter-4307588",
-        "titel": "„Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg-Cracau nach Brand weiter - Volksstimme"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1189,39 +1156,6 @@
         "status": "partial",
         "link": "https://www.ln-online.de/lokales/ostholstein/eutin-zwei-feuer-im-sankt-elisabeth-krankenhaus-sek-kripo-ermittelt-UWRYGB5JVBEC3LGY4FWMI7YFM4.html",
         "titel": "Eutin: Zwei Feuer im Sankt Elisabeth Krankenhaus (SEK) - Kripo ermittelt - Lübecker Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.71,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.71
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article6a45ea2096e7e4d44853011a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - WELT"
       }
     },
     {
@@ -1387,39 +1321,6 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.705,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.1,
-        "total": 0.705
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article6a45ea2096e7e4d44853011a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - WELT"
       }
     },
     {
@@ -4390,39 +4291,6 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.635,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.5,
-        "total": 0.635
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article6a45ea2096e7e4d44853011a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - WELT"
       }
     },
     {
@@ -10924,6 +10792,39 @@
         "status": "false_positive",
         "link": "https://www.nordkurier.de/regional/ruegen/dichter-rauch-in-mutter-kind-klinik-evakuierung-3707738",
         "titel": "Dichter Rauch in Mutter-Kind-Klinik: Evakuierung! - nordkurier.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Krankenhaus",
+        "ort": "",
+        "datum": "02.06.2025",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video256198432/drei-tote-nach-brand-in-hamburger-krankenhaus-72-jaehriger-patient-festgenommen.html",
+        "titel": "Nach Brand in Hamburger Krankenhaus – 72-jähriger Patient festgenommen - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Hamburger Krankenhaus",
+        "ort": "",
+        "datum": "02.06.2025",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
+        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
       }
     },
     {
@@ -19108,39 +19009,6 @@
         "status": "false_positive",
         "link": "https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzimmer",
         "titel": "Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus - Euronews"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.55,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.6,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.55
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Krankenhaus",
-        "ort": "Ludwigslust",
-        "datum": "06.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
-        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
-      },
-      "entry_b": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.welt.de/vermischtes/article6a45ea2096e7e4d44853011a/ludwigslust-dachstuhl-von-krankenhaus-steht-in-flammen-mindestens-zwei-tote.html",
-        "titel": "Ludwigslust: Dachstuhl von Krankenhaus steht in Flammen – mindestens zwei Tote - WELT"
       }
     },
     {
