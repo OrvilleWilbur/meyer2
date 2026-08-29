@@ -34105,3 +34105,66 @@
 [2026-08-28 14:39:46] [DEDUP] Ergebnis: 861 Einträge (war: 861, 0 zusammengeführt)
 [2026-08-28 14:39:46] [DEDUP] Kandidaten-Datei: 678 pending, 2 confirmed, 0 rejected
 [2026-08-28 14:39:46] [DEDUP] Gespeichert: 861 → 861 Einträge
+[2026-08-29 09:28:58] === Monitor-Lauf gestartet ===
+[2026-08-29 09:28:59] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-29 09:29:00] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-29 09:29:00] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-08-29 09:29:01] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-08-29 09:29:01] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-08-29 09:29:02] Feed 'gn_brand_klinik': 49 Einträge
+[2026-08-29 09:29:02] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-08-29 09:29:02] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-29 09:29:03] Feed 'gn_feuer_uniklinik': 40 Einträge
+[2026-08-29 09:29:03] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-08-29 09:29:05] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-29 09:29:05] 234 relevante Treffer in Feeds
+[2026-08-29 09:29:05] ✅ 1 NEUE Einträge gefunden:
+[2026-08-29 09:29:05]    28.08.2026 |  |  | Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-08-29 09:29:05] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-29 09:29:05] === Monitor-Lauf beendet ===
+
+[2026-08-29 09:29:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-29 09:29:05] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-29 09:29:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-29 09:29:05] [enrich] 7 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-29 09:29:05] [enrich] --- Enriche [1/7]: News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-08-29 09:29:05] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburge
+[2026-08-29 09:29:07] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-na
+[2026-08-29 09:29:07] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:08] [enrich] --- Enriche [2/7]: Feuer auf Streuobstwiese: Kippe löst Brand aus - Frau mit Ve
+[2026-08-29 09:29:09] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs
+[2026-08-29 09:29:09] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobstwiese--kippe-loest-brand-aus---frau-mit-verbrennungen-in-klinik-38105340.html
+[2026-08-29 09:29:09] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (593 Z.)
+[2026-08-29 09:29:09] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:10] [enrich] --- Enriche [3/7]: Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-08-29 09:29:10] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d6053c3692834ff6dbf93/br
+[2026-08-29 09:29:11] [enrich] Volltext extrahiert: 4453 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d605
+[2026-08-29 09:29:11] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:12] [enrich] --- Enriche [4/7]: Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-08-29 09:29:12] [enrich] Google News URL aufgelöst (v1): https://www.mainpost.de/regional/wuerzburg/brand-in-uniklinik-grossaufgebot-von-
+[2026-08-29 09:29:13] [enrich] Volltext zu kurz/leer (154 Z.), verwende RSS-Snippet (548 Z.)
+[2026-08-29 09:29:13] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:14] [enrich] --- Enriche [5/7]: Evakuierung nach Stromausfall: Deutsches Krankenhaus muss Pa
+[2026-08-29 09:29:15] [enrich] Google News URL aufgelöst (v1): https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/733164-evakuierung-
+[2026-08-29 09:29:15] [enrich] Volltext extrahiert: 2278 Zeichen von https://www.tips.at/nachrichten/oesterreich/oesterreich-welt
+[2026-08-29 09:29:15] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:16] [enrich] --- Enriche [6/7]: Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-08-29 09:29:16] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-ort49926/grosseinsatz
+[2026-08-29 09:29:18] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-o
+[2026-08-29 09:29:18] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:19] [enrich] --- Enriche [7/7]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-08-29 09:29:19] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli
+[2026-08-29 09:29:19] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--klinik-ohne-strom--schwangere-und-intensivpatienten-verlegt-38173034.html
+[2026-08-29 09:29:19] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (584 Z.)
+[2026-08-29 09:29:19] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-29 09:29:19] [enrich] Ergebnis: 0 enriched, 0 partial, 0 false_positive, 7 failed
+[2026-08-29 09:29:19] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-29 09:29:20] [DEDUP] Starte Dedup für 862 Einträge
+[2026-08-29 09:29:20] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-29 09:29:22] [DEDUP] Paare verglichen: 22768
+[2026-08-29 09:29:22] [DEDUP] Auto-Merges: 0
+[2026-08-29 09:29:22] [DEDUP] Kandidaten (unsicher): 678
+[2026-08-29 09:29:22] [DEDUP] Ergebnis: 862 Einträge (war: 862, 0 zusammengeführt)
+[2026-08-29 09:29:22] [DEDUP] Kandidaten-Datei: 678 pending, 2 confirmed, 0 rejected
+[2026-08-29 09:29:22] [DEDUP] Gespeichert: 862 → 862 Einträge
