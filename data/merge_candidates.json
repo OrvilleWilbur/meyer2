@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T09:29:22.108224",
+  "generated_at": "2026-08-30T08:36:55.753243",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -13878,6 +13878,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - Deutschlandfunk"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "bei Krankenhausbrand",
         "ort": "",
         "datum": "02.07.2026",
@@ -14048,6 +14081,39 @@
         "datum": "02.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://madeinbocholt.de/zwei-tote-bei-feuer-in-krankenhaus-in-ludwigslust/",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - Made in Bocholt"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klinik--dachstuhlbrand-in-krankenhaus---anteilnahme-im-landtag-37636772.html",
         "titel": "Feuer in Klinik: Dachstuhlbrand in Krankenhaus - Anteilnahme im Landtag - STERN.de"
       },
@@ -14059,6 +14125,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
         "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - deutschlandfunk.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-klinik--dachstuhlbrand-in-krankenhaus---anteilnahme-im-landtag-37636772.html",
+        "titel": "Feuer in Klinik: Dachstuhlbrand in Krankenhaus - Anteilnahme im Landtag - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
       }
     },
     {
@@ -18960,6 +19059,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
+        "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - deutschlandfunk.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "bei Krankenhausbrand",
         "ort": "",
         "datum": "02.07.2026",
@@ -19009,6 +19141,39 @@
         "status": "false_positive",
         "link": "https://de.euronews.com/my-europe/2026/07/09/feuer-krankenhaus-athen-patientenzimmer",
         "titel": "Feuer in Krankenhaus bei Athen: Patientenzimmer brennt aus - Euronews"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "25.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bamberg-eine-person-im-krankenhaus-art-6390815",
+        "titel": "Brand in Bamberger Wunderburg: Eine Person im Krankenhaus - Kripo ermittelt - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "25.08.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bamberg-eine-person-im-krankenhaus-art-6390815",
+        "titel": "Brand in Bamberg: Eine Person im Krankenhaus - Kripo ermittelt - inFranken.de"
       }
     },
     {
@@ -21095,6 +21260,39 @@
         "",
         ""
       ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus nahe Schwerin",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rnd.de/panorama/dachstuhl-faengt-feuer-zwei-tote-bei-krankenhaus-brand-in-ludwigslust-GCUFSWWIUZC4HEOLE55W34TAUI.html",
+        "titel": "Zwei Tote bei Brand in Krankenhaus nahe Schwerin - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.499,
       "details": {
         "datum": 1.0,
@@ -22229,6 +22427,39 @@
       "entry_a": {
         "einrichtung": "in Krankenhaus",
         "ort": "",
+        "datum": "01.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://german.cri.cn/2026/07/02/ARTI1782994234443424",
+        "titel": "Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordost-Deutschland - 国际在线"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
         "datum": "02.07.2026",
         "bundesland": "",
         "status": "false_positive",
@@ -22309,6 +22540,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
         "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - deutschlandfunk.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "03.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.msn.com/de-de/nachrichten/panorama/feuer-in-krankenhaus-millionenschaden/ar-AA27939n",
+        "titel": "Feuer in Krankenhaus: Millionenschaden - MSN"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.07.2026",
+        "bundesland": "",
+        "status": "failed",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
       }
     },
     {

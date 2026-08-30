@@ -34168,3 +34168,80 @@
 [2026-08-29 09:29:22] [DEDUP] Ergebnis: 862 Einträge (war: 862, 0 zusammengeführt)
 [2026-08-29 09:29:22] [DEDUP] Kandidaten-Datei: 678 pending, 2 confirmed, 0 rejected
 [2026-08-29 09:29:22] [DEDUP] Gespeichert: 862 → 862 Einträge
+[2026-08-30 08:36:22] === Monitor-Lauf gestartet ===
+[2026-08-30 08:36:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-08-30 08:36:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-08-30 08:36:25] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-08-30 08:36:26] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-08-30 08:36:26] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-08-30 08:36:26] Feed 'gn_brand_klinik': 49 Einträge
+[2026-08-30 08:36:27] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-08-30 08:36:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-08-30 08:36:27] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-08-30 08:36:28] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-08-30 08:36:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-08-30 08:36:29] 233 relevante Treffer in Feeds
+[2026-08-30 08:36:29] ✅ 3 NEUE Einträge gefunden:
+[2026-08-30 08:36:29]    25.08.2026 | im Krankenhaus |  | Brand in Bamberg: Eine Person im Krankenhaus - Kripo ermitte
+[2026-08-30 08:36:29]    02.07.2026 | in Krankenhaus |  | Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - S
+[2026-08-30 08:36:29]    13.12.2024 | Schön-Klinik ausgebrochen |  | Feuer in der Schön-Klinik ausgebrochen - shz.de
+[2026-08-30 08:36:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-08-30 08:36:29] === Monitor-Lauf beendet ===
+
+[2026-08-30 08:36:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-08-30 08:36:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-08-30 08:36:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-08-30 08:36:29] [enrich] 10 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-08-30 08:36:29] [enrich] --- Enriche [1/10]: News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-08-30 08:36:30] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburge
+[2026-08-30 08:36:31] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-na
+[2026-08-30 08:36:32] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:33] [enrich] --- Enriche [2/10]: Feuer auf Streuobstwiese: Kippe löst Brand aus - Frau mit Ve
+[2026-08-30 08:36:33] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs
+[2026-08-30 08:36:33] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobstwiese--kippe-loest-brand-aus---frau-mit-verbrennungen-in-klinik-38105340.html
+[2026-08-30 08:36:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (593 Z.)
+[2026-08-30 08:36:33] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:34] [enrich] --- Enriche [3/10]: Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-08-30 08:36:34] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d6053c3692834ff6dbf93/br
+[2026-08-30 08:36:35] [enrich] Volltext extrahiert: 4453 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d605
+[2026-08-30 08:36:35] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:36] [enrich] --- Enriche [4/10]: Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-08-30 08:36:36] [enrich] Google News URL aufgelöst (v1): https://www.mainpost.de/regional/wuerzburg/brand-in-uniklinik-grossaufgebot-von-
+[2026-08-30 08:36:38] [enrich] Volltext zu kurz/leer (154 Z.), verwende RSS-Snippet (548 Z.)
+[2026-08-30 08:36:38] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:39] [enrich] --- Enriche [5/10]: Evakuierung nach Stromausfall: Deutsches Krankenhaus muss Pa
+[2026-08-30 08:36:39] [enrich] Google News URL aufgelöst (v1): https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/733164-evakuierung-
+[2026-08-30 08:36:40] [enrich] Volltext extrahiert: 2278 Zeichen von https://www.tips.at/nachrichten/oesterreich/oesterreich-welt
+[2026-08-30 08:36:40] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:41] [enrich] --- Enriche [6/10]: Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-08-30 08:36:41] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-ort49926/grosseinsatz
+[2026-08-30 08:36:43] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-o
+[2026-08-30 08:36:43] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:44] [enrich] --- Enriche [7/10]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-08-30 08:36:44] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli
+[2026-08-30 08:36:44] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--klinik-ohne-strom--schwangere-und-intensivpatienten-verlegt-38173034.html
+[2026-08-30 08:36:44] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (584 Z.)
+[2026-08-30 08:36:44] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:45] [enrich] --- Enriche [8/10]: Brand in Bamberg: Eine Person im Krankenhaus - Kripo ermitte
+[2026-08-30 08:36:46] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bamberg-eine-person-im-kr
+[2026-08-30 08:36:47] [enrich] Volltext extrahiert: 2947 Zeichen von https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bambe
+[2026-08-30 08:36:47] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:48] [enrich] --- Enriche [9/10]: Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - S
+[2026-08-30 08:36:48] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-kli
+[2026-08-30 08:36:49] [enrich] Volltext extrahiert: 2463 Zeichen von https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachs
+[2026-08-30 08:36:49] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:50] [enrich] --- Enriche [10/10]: Feuer in der Schön-Klinik ausgebrochen - shz.de
+[2026-08-30 08:36:51] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/schleswig-holstein/video/feuer-in-der-schoen
+[2026-08-30 08:36:53] [enrich] Volltext extrahiert: 1494 Zeichen von https://www.shz.de/deutschland-welt/schleswig-holstein/video
+[2026-08-30 08:36:53] [enrich] Claude API Fehler: 400 Client Error: Bad Request for url: https://api.anthropic.com/v1/messages
+[2026-08-30 08:36:53] [enrich] Ergebnis: 0 enriched, 0 partial, 0 false_positive, 10 failed
+[2026-08-30 08:36:53] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-08-30 08:36:53] [DEDUP] Starte Dedup für 865 Einträge
+[2026-08-30 08:36:53] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-08-30 08:36:55] [DEDUP] Paare verglichen: 22970
+[2026-08-30 08:36:55] [DEDUP] Auto-Merges: 0
+[2026-08-30 08:36:55] [DEDUP] Kandidaten (unsicher): 686
+[2026-08-30 08:36:55] [DEDUP] Ergebnis: 865 Einträge (war: 865, 0 zusammengeführt)
+[2026-08-30 08:36:55] [DEDUP] Kandidaten-Datei: 686 pending, 2 confirmed, 0 rejected
+[2026-08-30 08:36:55] [DEDUP] Gespeichert: 865 → 865 Einträge
