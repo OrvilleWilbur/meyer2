@@ -34329,3 +34329,134 @@
 [2026-08-31 08:59:56] [DEDUP] Ergebnis: 867 Einträge (war: 867, 0 zusammengeführt)
 [2026-08-31 08:59:56] [DEDUP] Kandidaten-Datei: 686 pending, 2 confirmed, 0 rejected
 [2026-08-31 08:59:56] [DEDUP] Gespeichert: 867 → 867 Einträge
+[2026-09-01 08:02:48] === Monitor-Lauf gestartet ===
+[2026-09-01 08:02:49] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-01 08:02:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-01 08:02:50] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-09-01 08:02:50] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-09-01 08:02:50] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-09-01 08:02:51] Feed 'gn_brand_klinik': 49 Einträge
+[2026-09-01 08:02:51] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-01 08:02:52] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-01 08:02:52] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-09-01 08:02:52] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-01 08:02:53] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-01 08:02:53] 229 relevante Treffer in Feeds
+[2026-09-01 08:02:53] ✅ 7 NEUE Einträge gefunden:
+[2026-09-01 08:02:53]    02.07.2026 | in Krankenhaus |  | Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - z
+[2026-09-01 08:02:53]    02.07.2026 | zum Krankenhaus |  | Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-01 08:02:53]    24.09.2016 | ins Krankenhaus |  | Feuer in Hochhaus in Kahl - drei Menschen ins Krankenhaus - 
+[2026-09-01 08:02:53]    26.08.2026 | nach Krankenhausbrand |  | Pakistan trauert um 14 tote Babys nach Krankenhausbrand - on
+[2026-09-01 08:02:53]    28.07.2026 | Uniklinik Düsseldorf |  | Brand an der Uniklinik Düsseldorf: Kinderschutzbau bei Feuer
+[2026-09-01 08:02:53]    16.07.2026 | Uniklinik |  | Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-09-01 08:02:53]    28.08.2026 |  |  | Stromausfall: Klinik in Wildeshausen evakuiert - zdfheute.de
+[2026-09-01 08:02:53] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-01 08:02:53] === Monitor-Lauf beendet ===
+
+[2026-09-01 08:02:54] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-01 08:02:54] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-01 08:02:54] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-01 08:02:54] [enrich] 19 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-01 08:02:54] [enrich] --- Enriche [1/19]: News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-09-01 08:02:54] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburge
+[2026-09-01 08:02:55] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-na
+[2026-09-01 08:02:59] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Hamburg-Hohenfelde in Hamburg
+[2026-09-01 08:03:00] [enrich] --- Enriche [2/19]: Feuer auf Streuobstwiese: Kippe löst Brand aus - Frau mit Ve
+[2026-09-01 08:03:00] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs
+[2026-09-01 08:03:00] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobs: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/feuer-auf-streuobstwiese--kippe-loest-brand-aus---frau-mit-verbrennungen-in-klinik-38105340.html
+[2026-09-01 08:03:00] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (593 Z.)
+[2026-09-01 08:03:01] [enrich] FALSE POSITIVE erkannt: Brand auf Streuobstwiese (nicht in Krankenhaus), Frau wird nach dem Brand zur Behandlung in Klinik gebracht
+[2026-09-01 08:03:02] [enrich] --- Enriche [3/19]: Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-09-01 08:03:03] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d6053c3692834ff6dbf93/br
+[2026-09-01 08:03:03] [enrich] Volltext extrahiert: 4453 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d605
+[2026-09-01 08:03:07] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau in Magdeburg
+[2026-09-01 08:03:08] [enrich] --- Enriche [4/19]: Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-09-01 08:03:08] [enrich] Google News URL aufgelöst (v1): https://www.mainpost.de/regional/wuerzburg/brand-in-uniklinik-grossaufgebot-von-
+[2026-09-01 08:03:09] [enrich] Volltext zu kurz/leer (154 Z.), verwende RSS-Snippet (548 Z.)
+[2026-09-01 08:03:10] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Informationen zum eigentlichen Brandverlauf. Es ist unklar, ob tatsächlich ein Brand IN der Uniklinik stattgefunden hat oder ob nur Rettungskräfte alarmiert wurden. Der Text reicht nicht aus, um einen echten Krankenhausbrand zu bestätigen.
+[2026-09-01 08:03:11] [enrich] --- Enriche [5/19]: Evakuierung nach Stromausfall: Deutsches Krankenhaus muss Pa
+[2026-09-01 08:03:11] [enrich] Google News URL aufgelöst (v1): https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/733164-evakuierung-
+[2026-09-01 08:03:12] [enrich] Volltext extrahiert: 2278 Zeichen von https://www.tips.at/nachrichten/oesterreich/oesterreich-welt
+[2026-09-01 08:03:13] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Stromausfall, nicht wegen Brand. Der Artikel beschreibt einen Stromausfall mit nachfolgender Evakuierung, nicht einen Brand in der Einrichtung.
+[2026-09-01 08:03:14] [enrich] --- Enriche [6/19]: Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-09-01 08:03:14] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-ort49926/grosseinsatz
+[2026-09-01 08:03:15] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-o
+[2026-09-01 08:03:16] [enrich] FALSE POSITIVE erkannt: Evakuierung aufgrund eines Stromausfalls, nicht aufgrund eines Brandes
+[2026-09-01 08:03:17] [enrich] --- Enriche [7/19]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-09-01 08:03:17] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli
+[2026-09-01 08:03:17] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--kli: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/niedersachsen-bremen/evakuierung--klinik-ohne-strom--schwangere-und-intensivpatienten-verlegt-38173034.html
+[2026-09-01 08:03:17] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (584 Z.)
+[2026-09-01 08:03:18] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung wegen Stromausfalls, nicht wegen eines Brandes in der Klinik.
+[2026-09-01 08:03:19] [enrich] --- Enriche [8/19]: Brand in Bamberg: Eine Person im Krankenhaus - Kripo ermitte
+[2026-09-01 08:03:19] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bamberg-eine-person-im-kr
+[2026-09-01 08:03:20] [enrich] Volltext extrahiert: 2871 Zeichen von https://www.infranken.de/lk/bamberg/blaulicht/brand-in-bambe
+[2026-09-01 08:03:22] [enrich] FALSE POSITIVE erkannt: Brand in einer Wohnung in einem Mehrfamilienhaus, nicht in einem Krankenhaus. Die Person wurde nach dem Brand ins Krankenhaus gebracht, was kein Krankenhausbrand darstellt.
+[2026-09-01 08:03:23] [enrich] --- Enriche [9/19]: Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - S
+[2026-09-01 08:03:23] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-kli
+[2026-09-01 08:03:24] [enrich] Volltext extrahiert: 2463 Zeichen von https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachs
+[2026-09-01 08:03:28] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-01 08:03:29] [enrich] --- Enriche [10/19]: Feuer in der Schön-Klinik ausgebrochen - shz.de
+[2026-09-01 08:03:29] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/schleswig-holstein/video/feuer-in-der-schoen
+[2026-09-01 08:03:30] [enrich] Volltext extrahiert: 1494 Zeichen von https://www.shz.de/deutschland-welt/schleswig-holstein/video
+[2026-09-01 08:03:33] [enrich] Enrichment abgeschlossen: enriched — Schön-Klinik in Rendsburg
+[2026-09-01 08:03:34] [enrich] --- Enriche [11/19]: Mann in Kampfkleidung eröffnet Feuer in Rotterdamer Wohnung 
+[2026-09-01 08:03:34] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/rotterdam-schuesse-in-wohnung-und-uni-klinik-
+[2026-09-01 08:03:35] [enrich] Volltext extrahiert: 3031 Zeichen von https://www.focus.de/panorama/welt/rotterdam-schuesse-in-woh
+[2026-09-01 08:03:37] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Schießereien und Brände in Rotterdam, Niederlande. Dies ist kein Brand in einem deutschen Krankenhaus, sondern ein Vorfall im Ausland (Niederlande).
+[2026-09-01 08:03:38] [enrich] --- Enriche [12/19]: Stromausfall: Klinik in Wildeshausen evakuiert - ZDFheute
+[2026-09-01 08:03:38] [enrich] Google News URL aufgelöst (v1): https://www.zdfheute.de/video/zdfheute-xpress/evakuierung-johanneum-wildeshausen
+[2026-09-01 08:03:39] [enrich] Volltext extrahiert: 1952 Zeichen von https://www.zdfheute.de/video/zdfheute-xpress/evakuierung-jo
+[2026-09-01 08:03:40] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Stromausfall in einer Klinik, nicht einen Brand. Es gibt keine Erwähnung eines Feuers oder Brandes.
+[2026-09-01 08:03:41] [enrich] --- Enriche [13/19]: Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - z
+[2026-09-01 08:03:42] [enrich] Google News URL aufgelöst (v1): https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbr
+[2026-09-01 08:03:42] [enrich] Volltext extrahiert: 3741 Zeichen von https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-lud
+[2026-09-01 08:03:46] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-01 08:03:47] [enrich] --- Enriche [14/19]: Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-01 08:03:48] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wis
+[2026-09-01 08:03:48] [enrich] Volltext extrahiert: 2658 Zeichen von https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-k
+[2026-09-01 08:03:52] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-01 08:03:53] [enrich] --- Enriche [15/19]: Feuer in Hochhaus in Kahl - drei Menschen ins Krankenhaus - 
+[2026-09-01 08:03:53] [enrich] Google News URL aufgelöst (v1): https://www.main-echo.de/ressorts/blaulicht/feuer-in-hochhaus-in-kahl-drei-mensc
+[2026-09-01 08:03:54] [enrich] Volltext extrahiert: 355 Zeichen von https://www.main-echo.de/ressorts/blaulicht/feuer-in-hochhau
+[2026-09-01 08:03:55] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik. Es handelt sich um einen technischen Text zu Push-Service-Einstellungen einer Nachrichtenseite.
+[2026-09-01 08:03:56] [enrich] --- Enriche [16/19]: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - on
+[2026-09-01 08:03:56] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-paki
+[2026-09-01 08:03:58] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-ent
+[2026-09-01 08:03:59] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einem Krankenhaus in Pakistan (Islamabad), nicht in Deutschland. Die Anweisung besagt, dass Brände in ausländischen Krankenhäusern außerhalb Deutschlands nicht erfasst werden.
+[2026-09-01 08:04:00] [enrich] --- Enriche [17/19]: Brand an der Uniklinik Düsseldorf: Kinderschutzbau bei Feuer
+[2026-09-01 08:04:01] [enrich] Google News URL aufgelöst (v1): https://www.wz.de/nrw/duesseldorf/kinderschutzbau-bei-feuer-schwer-beschaedigt_a
+[2026-09-01 08:04:01] [enrich] Volltext extrahiert: 3967 Zeichen von https://www.wz.de/nrw/duesseldorf/kinderschutzbau-bei-feuer-
+[2026-09-01 08:04:03] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle (Neubau) an der Uniklinik, nicht in einem bestehenden Krankenhausgebäude mit Patienten. Es handelt sich um einen Baustellen-Brand, nicht um einen Krankenhausbrand im klassischen Sinne.
+[2026-09-01 08:04:04] [enrich] --- Enriche [18/19]: Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem K
+[2026-09-01 08:04:04] [enrich] Google News URL aufgelöst (v1): https://www.wz.de/nrw/feuer-in-kuenftigem-kinderschutzzentrum_aid-151588107
+[2026-09-01 08:04:05] [enrich] Volltext extrahiert: 3557 Zeichen von https://www.wz.de/nrw/feuer-in-kuenftigem-kinderschutzzentru
+[2026-09-01 08:04:07] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle des Universitätsklinikums, nicht in einem bestehenden Krankenhaus/einer Klinik selbst. Das betroffene Gebäude war noch in Bau und nicht in Betrieb.
+[2026-09-01 08:04:08] [enrich] --- Enriche [19/19]: Stromausfall: Klinik in Wildeshausen evakuiert - zdfheute.de
+[2026-09-01 08:04:08] [enrich] Google News URL aufgelöst (v1): https://www.zdfheute.de/video/zdfheute-xpress/evakuierung-johanneum-wildeshausen
+[2026-09-01 08:04:09] [enrich] Volltext extrahiert: 1952 Zeichen von https://www.zdfheute.de/video/zdfheute-xpress/evakuierung-jo
+[2026-09-01 08:04:10] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Stromausfall in einer Klinik aufgrund eines technischen Fehlers bei Modernisierungsarbeiten. Es handelt sich nicht um einen Brand in einem Krankenhaus/einer Klinik.
+[2026-09-01 08:04:10] [enrich] Ergebnis: 6 enriched, 0 partial, 13 false_positive, 0 failed
+[2026-09-01 08:04:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-01 08:04:10] [DEDUP] Starte Dedup für 874 Einträge
+[2026-09-01 08:04:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-01 08:04:11] [DEDUP] Auto-Merge (0.81): Krankenhaus Hamburg-Hohenfelde (geriatri / Hamburg ↔ Krankenhaus Hamburg-Hohenfelde / Hamburg
+[2026-09-01 08:04:11] [DEDUP] Auto-Merge (0.90): Schön-Klinik Rendsburg / Rendsburg ↔ Schön-Klinik / Rendsburg
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.92): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.97): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.96): Krankenhaus Ludwigslust / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.83): Klinikum Cracau (ehemals Pfeiffersche St / Magdeburg ↔ Klinikum Cracau / Magdeburg
+[2026-09-01 08:04:13] [DEDUP] Auto-Merge (0.82): Klinikum Cracau, Universitätsmedizin Mag / Magdeburg ↔ Klinikum Cracau / Magdeburg
+[2026-09-01 08:04:13] [DEDUP] Paare verglichen: 23236
+[2026-09-01 08:04:13] [DEDUP] Auto-Merges: 10
+[2026-09-01 08:04:13] [DEDUP] Kandidaten (unsicher): 700
+[2026-09-01 08:04:13] [DEDUP] Cluster 2x: Schön-Klinik Rendsburg, Schön-Klinik
+[2026-09-01 08:04:13] [DEDUP] Cluster 2x: Krankenhaus Hamburg-Hohenfelde (geriatri, Krankenhaus Hamburg-Hohenfelde
+[2026-09-01 08:04:13] [DEDUP] Cluster 4x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust, Krankenhaus Ludwigslust
+[2026-09-01 08:04:13] [DEDUP] Cluster 3x: Klinikum Cracau (ehemals Pfeiffersche St, Klinikum Cracau, Universitätsmedizin Mag, Klinikum Cracau
+[2026-09-01 08:04:13] [DEDUP] Ergebnis: 867 Einträge (war: 874, 7 zusammengeführt)
+[2026-09-01 08:04:13] [DEDUP] Kandidaten-Datei: 700 pending, 2 confirmed, 0 rejected
+[2026-09-01 08:04:13] [DEDUP] Gespeichert: 874 → 867 Einträge
