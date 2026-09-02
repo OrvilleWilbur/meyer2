@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T08:04:13.132124",
+  "generated_at": "2026-09-02T07:23:20.265980",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -239,39 +239,6 @@
         "",
         ""
       ],
-      "score": 0.777,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2857142857142857,
-        "bundesland": 1.0,
-        "brandort": 0.1111111111111111,
-        "total": 0.777
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
-        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Cracau, Universitätsmedizin Magdeburg",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.volksstimme.de/blaulicht/magdeburg/brand-im-klinikum-cracau-in-magdeburg-zwei-verletzte-4306680",
-        "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Zwei Verletzte - Volksstimme"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -298,6 +265,72 @@
         "status": "enriched",
         "link": "https://www.tagesschau.de/video/video-1472328.html",
         "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.775,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.775
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - SZ.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.767,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.5,
+        "total": 0.767
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de"
       }
     },
     {
@@ -338,65 +371,32 @@
         "",
         ""
       ],
-      "score": 0.762,
+      "score": 0.761,
       "details": {
         "datum": 1.0,
         "ort": 1.0,
         "einrichtung": 0.2,
         "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.762
+        "brandort": 0.2222222222222222,
+        "total": 0.761
       },
       "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
       },
       "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
+        "einrichtung": "LUP-Klinikum Ludwigslust",
         "ort": "Ludwigslust",
         "datum": "02.07.2026",
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
-        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - zdfheute.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.762,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.23076923076923078,
-        "total": 0.762
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
-        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de"
+        "link": "https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de"
       }
     },
     {
@@ -437,39 +437,6 @@
         "",
         ""
       ],
-      "score": 0.76,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.76
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.755,
       "details": {
         "datum": 0.3,
@@ -496,6 +463,72 @@
         "status": "enriched",
         "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
         "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.754,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.07692307692307693,
+        "total": 0.754
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.754,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.754
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de"
       }
     },
     {
@@ -932,39 +965,6 @@
         "",
         ""
       ],
-      "score": 0.731,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.731
-      },
-      "entry_a": {
-        "einrichtung": "Klinik in Hamburg (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
-        "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.728,
       "details": {
         "datum": 1.0,
@@ -1024,39 +1024,6 @@
         "status": "enriched",
         "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
         "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.725,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.5,
-        "total": 0.725
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - zdfheute.de"
       }
     },
     {
@@ -1229,72 +1196,6 @@
         "",
         ""
       ],
-      "score": 0.712,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.25,
-        "total": 0.712
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
-        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1420,6 +1321,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.709,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.18181818181818182,
+        "total": 0.709
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -2476,6 +2410,39 @@
         "status": "enriched",
         "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/brand-krankenhaus-hettstedt-ermittlungen-brandstiftung-100.html",
         "titel": "Zweiter Brand in Hettstedter Psychiatrie: Polizei ermittelt wegen Brandstiftung - MDR"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.685,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.6666666666666666,
+        "total": 0.685
+      },
+      "entry_a": {
+        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
+        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "LUP-Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote",
+        "titel": "Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de"
       }
     },
     {
@@ -4463,72 +4430,6 @@
         "",
         ""
       ],
-      "score": 0.643,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.6666666666666666,
-        "total": 0.643
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.zdfheute.de/panorama/krankenhaus-klinikbrand-ludwigslust-dachstuhlbrand-100.html",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - zdfheute.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.641,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.125,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.641
-      },
-      "entry_a": {
-        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "partial",
-        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
-        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.638,
       "details": {
         "datum": 0.7,
@@ -4628,72 +4529,6 @@
         "",
         ""
       ],
-      "score": 0.63,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.4,
-        "total": 0.63
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.627,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.85,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.627
-      },
-      "entry_a": {
-        "einrichtung": "Marienkrankenhaus",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
-        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.627,
       "details": {
         "datum": 0.7,
@@ -4720,6 +4555,39 @@
         "status": "enriched",
         "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
         "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.624,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2857142857142857,
+        "total": 0.624
+      },
+      "entry_a": {
+        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
+        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -4760,72 +4628,6 @@
         "",
         ""
       ],
-      "score": 0.621,
-      "details": {
-        "datum": 0.7,
-        "ort": 0.85,
-        "einrichtung": 0.2222222222222222,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.621
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
-        "ort": "Hamburg, Stadtteil Hohenfelde",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
-        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.621,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.621
-      },
-      "entry_a": {
-        "einrichtung": "Stift Bethlehem (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "03.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/feuer-in-klinik-reisst-zwei-menschen-aus-dem-leben-und-trifft-die-region-ins-mark-4690942",
-        "titel": "Feuer in Klinik reißt zwei Menschen aus dem Leben und trifft die Region ins Mark - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
-        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.611,
       "details": {
         "datum": 0.0,
@@ -4852,72 +4654,6 @@
         "status": "enriched",
         "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
         "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.61,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.61
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.61,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.61
-      },
-      "entry_a": {
-        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
-        "ort": "Hamburg",
-        "datum": "01.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tagesschau.de/video/video-1472328.html",
-        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Hamburg-Hohenfelde",
-        "ort": "Hamburg",
-        "datum": "02.06.2025",
-        "bundesland": "Hamburg",
-        "status": "enriched",
-        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
-        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio - Nachrichten"
       }
     },
     {
@@ -14769,6 +14505,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesseldorf.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik",
         "ort": "",
         "datum": "16.07.2026",
@@ -19290,6 +19059,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/duesseldorf-feuer-auf-baustelle-der-uniklinik_bid-151551413",
+        "titel": "Fotos: Feuer auf Baustelle der Uniklinik Düsseldorf - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesseldorf.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik",
         "ort": "",
         "datum": "16.07.2026",
@@ -19554,6 +19356,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - Antenne Düsseldorf"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesseldorf.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "25.08.2026",
@@ -19658,6 +19493,39 @@
         "datum": "26.08.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/15-babys-tot-feuer-in-entbindungsstation-in-pakistan-406562.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Nord24"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
+        "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
         "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Onetz"
       },
@@ -19669,6 +19537,72 @@
         "status": "false_positive",
         "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
         "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - onetz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
+        "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
+        "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
       }
     },
     {
@@ -21534,6 +21468,39 @@
         "total": 0.5
       },
       "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesseldorf.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
         "einrichtung": "Uniklinik ausgebrochen",
         "ort": "",
         "datum": "15.07.2026",
@@ -21682,6 +21649,39 @@
         "status": "false_positive",
         "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
         "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - Antenne Düsseldorf"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/nrw/staedte/duesseldorf/blaulicht/uniklinik-duesseldorf-feuer-in-kuenftigem-kinderschutzzentrum-ausgebrochen_aid-151547497",
+        "titel": "Einsatz an der Uniklinik in Düsseldorf: Feuer in künftigem Kinderschutzzentrum – „Das Projekt ist spendenfinanziert“ - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik Düsseldorf",
+        "ort": "",
+        "datum": "15.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-duesseldorf-2704327",
+        "titel": "Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesseldorf.de"
       }
     },
     {
@@ -23075,14 +23075,47 @@
         "",
         ""
       ],
-      "score": 0.458,
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "08.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.infranken.de/lk/roth/blaulicht/rednitzhembach-senioren-wohnanlage-in-brand-zwei-personen-in-klinik-art-6386848",
+        "titel": "Großeinsatz: Fränkische Senioren-Wohnanlage in Brand - zwei Personen in Klinik - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "09.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.main-echo.de/ressorts/blaulicht/haus-nach-brand-in-glattbach-unbewohnbar-zweijaehriger-in-klinik-art-8767583",
+        "titel": "Haus nach Brand in Glattbach unbewohnbar - Zweijähriger in Klinik - main-echo.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.454,
       "details": {
         "datum": 0.0,
         "ort": 1.0,
         "einrichtung": 0.2,
         "bundesland": 1.0,
-        "brandort": 0.15384615384615385,
-        "total": 0.458
+        "brandort": 0.08333333333333333,
+        "total": 0.454
       },
       "entry_a": {
         "einrichtung": "Helene-von-Bülow-Krankenhaus",
@@ -23100,7 +23133,7 @@
         "bundesland": "Mecklenburg-Vorpommern",
         "status": "enriched",
         "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
-        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de"
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - SZ.de"
       }
     }
   ],

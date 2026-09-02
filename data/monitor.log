@@ -34460,3 +34460,77 @@
 [2026-09-01 08:04:13] [DEDUP] Ergebnis: 867 Einträge (war: 874, 7 zusammengeführt)
 [2026-09-01 08:04:13] [DEDUP] Kandidaten-Datei: 700 pending, 2 confirmed, 0 rejected
 [2026-09-01 08:04:13] [DEDUP] Gespeichert: 874 → 867 Einträge
+[2026-09-02 07:22:39] === Monitor-Lauf gestartet ===
+[2026-09-02 07:22:40] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-02 07:22:40] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-02 07:22:41] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-09-02 07:22:41] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-09-02 07:22:41] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-02 07:22:42] Feed 'gn_brand_klinik': 49 Einträge
+[2026-09-02 07:22:42] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-09-02 07:22:42] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-02 07:22:43] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-09-02 07:22:43] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-02 07:22:44] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-02 07:22:44] 218 relevante Treffer in Feeds
+[2026-09-02 07:22:44] ✅ 8 NEUE Einträge gefunden:
+[2026-09-02 07:22:44]    02.07.2026 | zum Krankenhaus |  | Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-02 07:22:44]    01.07.2026 | in Krankenhaus |  | Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de
+[2026-09-02 07:22:44]    09.12.2024 | Baden-Badener Klinik |  | Feuer endet tödlich: Mann stirbt bei Zimmerbrand in Baden-Ba
+[2026-09-02 07:22:44]    26.08.2026 | nach Krankenhausbrand |  | Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys n
+[2026-09-02 07:22:44]    09.08.2026 | in Klinik |  | Haus nach Brand in Glattbach unbewohnbar - Zweijähriger in K
+[2026-09-02 07:22:44]    02.07.2026 | bei Klinikbrand |  | Ludwigslust - Mindestens zwei Tote und mehr als 30 Verletzte
+[2026-09-02 07:22:44]    15.07.2026 | Uniklinik Düsseldorf |  | Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesse
+[2026-09-02 07:22:44]    28.08.2026 |  |  | Stromausfall: Krankenhaus in Wildeshausen musste evakuiert w
+[2026-09-02 07:22:44] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-02 07:22:44] === Monitor-Lauf beendet ===
+
+[2026-09-02 07:22:44] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-02 07:22:44] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-02 07:22:44] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-02 07:22:44] [enrich] 8 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-02 07:22:44] [enrich] --- Enriche [1/8]: Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-02 07:22:45] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wis
+[2026-09-02 07:22:45] [enrich] Volltext extrahiert: 2658 Zeichen von https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-k
+[2026-09-02 07:22:48] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-02 07:22:49] [enrich] --- Enriche [2/8]: Zwei Tote bei Brand in Krankenhaus in Ludwigslust - nius.de
+[2026-09-02 07:22:49] [enrich] Google News URL aufgelöst (v1): https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-tote
+[2026-09-02 07:22:50] [enrich] Volltext extrahiert: 2774 Zeichen von https://nius.de/nachrichten/ludwigslust-brand-krankenhaus-to
+[2026-09-02 07:22:54] [enrich] Enrichment abgeschlossen: enriched — LUP-Klinikum Ludwigslust in Ludwigslust
+[2026-09-02 07:22:55] [enrich] --- Enriche [3/8]: Feuer endet tödlich: Mann stirbt bei Zimmerbrand in Baden-Ba
+[2026-09-02 07:22:55] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/mann-stirbt-bei-brand
+[2026-09-02 07:22:57] [enrich] Volltext extrahiert: 2185 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/karlsruhe/m
+[2026-09-02 07:23:01] [enrich] Enrichment abgeschlossen: enriched — Klinik für Psychiatrie Baden-Baden in Baden-Baden
+[2026-09-02 07:23:02] [enrich] --- Enriche [4/8]: Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys n
+[2026-09-02 07:23:02] [enrich] Google News URL aufgelöst (v1): https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-to
+[2026-09-02 07:23:04] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.rhein-zeitung.de/deutschland-welt/panorama/pakis
+[2026-09-02 07:23:05] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus in Pakistan (Islamabad), nicht in Deutschland. Artikel beschreibt Krankenhausbrand außerhalb Deutschlands.
+[2026-09-02 07:23:06] [enrich] --- Enriche [5/8]: Haus nach Brand in Glattbach unbewohnbar - Zweijähriger in K
+[2026-09-02 07:23:07] [enrich] Google News URL aufgelöst (v1): https://www.main-echo.de/ressorts/blaulicht/haus-nach-brand-in-glattbach-unbewoh
+[2026-09-02 07:23:07] [enrich] Volltext extrahiert: 354 Zeichen von https://www.main-echo.de/ressorts/blaulicht/haus-nach-brand-
+[2026-09-02 07:23:08] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält keinen inhaltlichen Bezug zu einem Brand. Es handelt sich um einen technischen Text zu Push-Benachrichtigungseinstellungen und Datenschutz.
+[2026-09-02 07:23:09] [enrich] --- Enriche [6/8]: Ludwigslust - Mindestens zwei Tote und mehr als 30 Verletzte
+[2026-09-02 07:23:10] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/mindestens-zwei-tote-und-mehr-als-30-verletzte-be
+[2026-09-02 07:23:10] [enrich] Volltext extrahiert: 319 Zeichen von https://www.deutschlandfunk.de/mindestens-zwei-tote-und-mehr
+[2026-09-02 07:23:12] [enrich] FALSE POSITIVE erkannt: Artikel behandelt Landtagswahl in Sachsen-Anhalt, kein Bezug zu Krankenhausbränden
+[2026-09-02 07:23:13] [enrich] --- Enriche [7/8]: Brand auf Baustelle der Uniklinik Düsseldorf - antenneduesse
+[2026-09-02 07:23:13] [enrich] Google News URL aufgelöst (v1): https://www.antenneduesseldorf.de/artikel/brand-auf-baustelle-der-uniklinik-dues
+[2026-09-02 07:23:14] [enrich] Volltext extrahiert: 1301 Zeichen von https://www.antenneduesseldorf.de/artikel/brand-auf-baustell
+[2026-09-02 07:23:15] [enrich] FALSE POSITIVE erkannt: Brand auf einer Baustelle (Neubau) auf dem Gelände der Uniklinik, nicht in einem bestehenden Krankenhaus/einer Klinik selbst
+[2026-09-02 07:23:16] [enrich] --- Enriche [8/8]: Stromausfall: Krankenhaus in Wildeshausen musste evakuiert w
+[2026-09-02 07:23:16] [enrich] Google News URL aufgelöst (v1): https://www.butenunbinnen.de/nachrichten/stromausfall-krankenhaus-wildeshausen-1
+[2026-09-02 07:23:16] [enrich] Volltext extrahiert: 1177 Zeichen von https://www.butenunbinnen.de/nachrichten/stromausfall-kranke
+[2026-09-02 07:23:17] [enrich] FALSE POSITIVE erkannt: Es handelt sich um einen Stromausfall, nicht um einen Brand. Die Evakuierung war aufgrund eines technischen Defekts bei Bauarbeiten notwendig, nicht wegen eines Feuers.
+[2026-09-02 07:23:17] [enrich] Ergebnis: 3 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-09-02 07:23:17] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-02 07:23:18] [DEDUP] Starte Dedup für 875 Einträge
+[2026-09-02 07:23:18] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-02 07:23:20] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-02 07:23:20] [DEDUP] Paare verglichen: 23702
+[2026-09-02 07:23:20] [DEDUP] Auto-Merges: 1
+[2026-09-02 07:23:20] [DEDUP] Kandidaten (unsicher): 701
+[2026-09-02 07:23:20] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-02 07:23:20] [DEDUP] Ergebnis: 874 Einträge (war: 875, 1 zusammengeführt)
+[2026-09-02 07:23:20] [DEDUP] Kandidaten-Datei: 701 pending, 2 confirmed, 0 rejected
+[2026-09-02 07:23:20] [DEDUP] Gespeichert: 875 → 874 Einträge
