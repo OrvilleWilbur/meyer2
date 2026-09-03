@@ -34534,3 +34534,148 @@
 [2026-09-02 07:23:20] [DEDUP] Ergebnis: 874 Einträge (war: 875, 1 zusammengeführt)
 [2026-09-02 07:23:20] [DEDUP] Kandidaten-Datei: 701 pending, 2 confirmed, 0 rejected
 [2026-09-02 07:23:20] [DEDUP] Gespeichert: 875 → 874 Einträge
+[2026-09-03 07:26:11] === Monitor-Lauf gestartet ===
+[2026-09-03 07:26:13] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-03 07:26:14] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-03 07:26:14] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-09-03 07:26:14] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-09-03 07:26:15] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-03 07:26:15] Feed 'gn_brand_klinik': 43 Einträge
+[2026-09-03 07:26:15] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-09-03 07:26:16] Feed 'gn_klinikbrand': 83 Einträge
+[2026-09-03 07:26:16] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-09-03 07:26:17] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-09-03 07:26:18] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-03 07:26:18] 214 relevante Treffer in Feeds
+[2026-09-03 07:26:18] ✅ 20 NEUE Einträge gefunden:
+[2026-09-03 07:26:18]    02.07.2026 | deutschem Krankenhaus |  | Zwei Tote bei Dachstuhlbrand in deutschem Krankenhaus - Salz
+[2026-09-03 07:26:18]    02.07.2026 | bei Krankenhaus |  | Zwei Tote und 34 Verletzte bei Krankenhaus-Brand in Ludwigsl
+[2026-09-03 07:26:18]    10.07.2026 | tödlichem Krankenhausbrand |  | Nach tödlichem Krankenhausbrand: Deshalb wird sofort über ei
+[2026-09-03 07:26:18]    26.08.2026 |  |  | Mindestens 14 Babys sterben bei Brand auf Entbindungsstation
+[2026-09-03 07:26:18]    16.07.2026 | im Krankenhaus |  | Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier
+[2026-09-03 07:26:18]    02.07.2026 | Ludwigsluster Klinik |  | Zwei Tote bei Feuer in Ludwigsluster Klinik: Personal verhin
+[2026-09-03 07:26:18]    02.09.2026 | fränkischer Klinik |  | Patient steckt eigene Kleidung in Brand: Feuerwehreinsatz an
+[2026-09-03 07:26:18]    12.04.2026 | in Klinik |  | Feuer in Mehrfamilienhaus - Säugling muss nach Brand zur Beo
+[2026-09-03 07:26:18]    30.04.2025 | Psychiatrischen Klinik Uelzen |  | Feuer in der Psychiatrischen Klinik Uelzen - AZ-Online
+[2026-09-03 07:26:18]    25.06.2026 | in Klinik |  | Feuerwehreinsatz: Feuer in Pflegeheim - Bewohner stirbt in K
+[2026-09-03 07:26:18]    07.06.2024 | Asklepios-Klinik Hamburg |  | Asklepios-Klinik Hamburg-Altona: Feuerwehr rückt am Freitagm
+[2026-09-03 07:26:18]    14.07.2021 | LVR-Klinik Viersen |  | Feuer in LVR-Klinik Viersen: Sirenenalarm schreckt Viersen a
+[2026-09-03 07:26:18]    03.04.2023 | in Klinik |  | Feuer-Drama in Klinik am Urban: Frau sitzt in Fahrstuhl fest
+[2026-09-03 07:26:18]    16.07.2018 | verwüsteter Klinik zerstört Cafeteria und Kegelbahn |  | Video: Feuer in verwüsteter Klinik zerstört Cafeteria und Ke
+[2026-09-03 07:26:18]    02.03.2024 | im Klinikum |  | Hanau: Brand im Klinikum - Mehrere Verletzte, Psychiatrie ge
+[2026-09-03 07:26:18]    25.08.2026 |  |  | Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT
+[2026-09-03 07:26:18]    27.09.2023 | Helios Klinikum Pforzheim weitergeht |  | Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klin
+[2026-09-03 07:26:18]    02.07.2026 | bei Klinikbrand |  | Ludwigslust - Mindestens zwei Tote und mehr als 30 Verletzte
+[2026-09-03 07:26:18]    24.04.2025 | im Krankenhaus |  | Autobrand in Gleisdorf: 21-Jährige schwer verletzt im Kranke
+[2026-09-03 07:26:18]    22.07.2026 | einer Klinik |  | Zivilschutz spricht von "ernster Lage": Zahlreiche Waldbränd
+[2026-09-03 07:26:18] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-03 07:26:18] === Monitor-Lauf beendet ===
+
+[2026-09-03 07:26:18] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-03 07:26:18] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-03 07:26:18] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-03 07:26:18] [enrich] 20 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-03 07:26:18] [enrich] --- Enriche [1/20]: Zwei Tote bei Dachstuhlbrand in deutschem Krankenhaus - Salz
+[2026-09-03 07:26:18] [enrich] Google News URL aufgelöst (v1): https://www.sn.at/panorama/international/zwei-tote-bei-dachstuhlbrand-in-deutsch
+[2026-09-03 07:26:20] [enrich] Volltext extrahiert: 3003 Zeichen von https://www.sn.at/panorama/international/zwei-tote-bei-dachs
+[2026-09-03 07:26:24] [enrich] Enrichment abgeschlossen: enriched — LUP Klinikum in Ludwigslust
+[2026-09-03 07:26:25] [enrich] --- Enriche [2/20]: Zwei Tote und 34 Verletzte bei Krankenhaus-Brand in Ludwigsl
+[2026-09-03 07:26:25] [enrich] Google News URL aufgelöst (v1): https://www.faz.net/aktuell/gesellschaft/ungluecke/zwei-tote-und-34-verletzte-be
+[2026-09-03 07:26:27] [enrich] Volltext extrahiert: 1188 Zeichen von https://www.faz.net/aktuell/gesellschaft/ungluecke/zwei-tote
+[2026-09-03 07:26:30] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-03 07:26:31] [enrich] --- Enriche [3/20]: Nach tödlichem Krankenhausbrand: Deshalb wird sofort über ei
+[2026-09-03 07:26:31] [enrich] Google News URL aufgelöst (v1): https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-
+[2026-09-03 07:26:32] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.nordkurier.de/regional/ludwigslust/nach-toedlich
+[2026-09-03 07:26:36] [enrich] Enrichment abgeschlossen: enriched — Klinikum Ludwigslust in Ludwigslust
+[2026-09-03 07:26:37] [enrich] --- Enriche [4/20]: Mindestens 14 Babys sterben bei Brand auf Entbindungsstation
+[2026-09-03 07:26:37] [enrich] Google News URL aufgelöst (v1): https://de.marketscreener.com/boerse-nachrichten/tv-15-saeuglinge-sterben-bei-br
+[2026-09-03 07:26:38] [enrich] Artikel-Fetch fehlgeschlagen für https://de.marketscreener.com/boerse-nachrichten/tv-15-saeuglinge-sterben-bei-br: 403 Client Error: Forbidden for url: https://de.marketscreener.com/boerse-nachrichten/tv-15-saeuglinge-sterben-bei-brand-in-pakistanischem-krankenhaus-ce7858d9d98df627
+[2026-09-03 07:26:38] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (590 Z.)
+[2026-09-03 07:26:39] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus in Pakistan, nicht in Deutschland
+[2026-09-03 07:26:40] [enrich] --- Enriche [5/20]: Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier
+[2026-09-03 07:26:40] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/justiz/finsterwalde-mann-legt-feuer-in-behoerde-
+[2026-09-03 07:26:41] [enrich] Volltext extrahiert: 3423 Zeichen von https://www.spiegel.de/panorama/justiz/finsterwalde-mann-leg
+[2026-09-03 07:26:43] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Behörde (Außenstelle des Landratsamts Finsterwalde), nicht in einem Krankenhaus oder einer Klinik. Vier Menschen wurden nach dem Brand mit Verdacht auf Rauchgasvergiftung ins Krankenhaus gebracht, aber dies ist eine Folgebehandlung nach einem Behördenbrand, kein Krankenhausbrand.
+[2026-09-03 07:26:44] [enrich] --- Enriche [6/20]: Zwei Tote bei Feuer in Ludwigsluster Klinik: Personal verhin
+[2026-09-03 07:26:44] [enrich] Google News URL aufgelöst (v1): https://www.ostsee-zeitung.de/lokales/ludwigslust-parchim/ludwigslust/zwei-tote-
+[2026-09-03 07:26:45] [enrich] Artikel-Fetch fehlgeschlagen für https://www.ostsee-zeitung.de/lokales/ludwigslust-parchim/ludwigslust/zwei-tote-: 403 Client Error: Forbidden for url: https://www.ostsee-zeitung.de/lokales/ludwigslust-parchim/ludwigslust/zwei-tote-bei-feuer-in-ludwigsluster-klinik-personal-verhinderte-schlimmeres-TVI3HXIT2BFB3G6RXNCHPVLMSI.html
+[2026-09-03 07:26:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (595 Z.)
+[2026-09-03 07:26:47] [enrich] Enrichment abgeschlossen: partial — Klinik Ludwigslust in Ludwigslust
+[2026-09-03 07:26:48] [enrich] --- Enriche [7/20]: Patient steckt eigene Kleidung in Brand: Feuerwehreinsatz an
+[2026-09-03 07:26:48] [enrich] Google News URL aufgelöst (v1): https://www.infranken.de/lk/erlangenhoechstadt/blaulicht/uniklinikum-erlangen-pa
+[2026-09-03 07:26:49] [enrich] Volltext extrahiert: 3549 Zeichen von https://www.infranken.de/lk/erlangenhoechstadt/blaulicht/uni
+[2026-09-03 07:26:53] [enrich] Enrichment abgeschlossen: enriched — Uniklinikum Erlangen, Kopfkliniken, psychiatrische Station in Erlangen
+[2026-09-03 07:26:54] [enrich] --- Enriche [8/20]: Feuer in Mehrfamilienhaus - Säugling muss nach Brand zur Beo
+[2026-09-03 07:26:54] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/feuer-in-mehrfamilienhaus-saeugling-muss-na
+[2026-09-03 07:26:55] [enrich] Volltext extrahiert: 1726 Zeichen von https://www.sueddeutsche.de/panorama/feuer-in-mehrfamilienha
+[2026-09-03 07:26:56] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (nicht in einem Krankenhaus/einer Klinik). Ein Säugling wurde nach dem Brand zur Beobachtung in eine Klinik gebracht, dies ist jedoch nur die medizinische Behandlung eines Brandopfers und kein Brand IN einer Klinik.
+[2026-09-03 07:26:57] [enrich] --- Enriche [9/20]: Feuer in der Psychiatrischen Klinik Uelzen - AZ-Online
+[2026-09-03 07:26:58] [enrich] Google News URL aufgelöst (v1): https://www.az-online.de/uelzen/stadt-uelzen/feuer-in-der-psychiatrischen-klinik
+[2026-09-03 07:26:59] [enrich] Volltext extrahiert: 1942 Zeichen von https://www.az-online.de/uelzen/stadt-uelzen/feuer-in-der-ps
+[2026-09-03 07:27:03] [enrich] Enrichment abgeschlossen: enriched — Psychiatrische Klinik Uelzen in Uelzen
+[2026-09-03 07:27:04] [enrich] --- Enriche [10/20]: Feuerwehreinsatz: Feuer in Pflegeheim - Bewohner stirbt in K
+[2026-09-03 07:27:04] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/panorama/feuer-in-pflegeheim-bewohner-stirbt-in-klinik-4273778
+[2026-09-03 07:27:05] [enrich] Volltext extrahiert: 1606 Zeichen von https://www.mz.de/panorama/feuer-in-pflegeheim-bewohner-stir
+[2026-09-03 07:27:07] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einer Pflegeeinrichtung, nicht in einem Krankenhaus/einer Klinik. Das Opfer wurde nach dem Brand in eine Klinik gebracht und starb dort - dies fällt unter die Ausschlusskriterien (Person wird nach einem Brand ins Krankenhaus gebracht).
+[2026-09-03 07:27:08] [enrich] --- Enriche [11/20]: Asklepios-Klinik Hamburg-Altona: Feuerwehr rückt am Freitagm
+[2026-09-03 07:27:08] [enrich] Google News URL aufgelöst (v1): https://www.shz.de/deutschland-welt/hamburg/artikel/asklepios-klinik-hamburg-alt
+[2026-09-03 07:27:10] [enrich] Volltext extrahiert: 1838 Zeichen von https://www.shz.de/deutschland-welt/hamburg/artikel/asklepio
+[2026-09-03 07:27:13] [enrich] Enrichment abgeschlossen: enriched — Asklepios-Klinik Hamburg-Altona in Hamburg-Altona
+[2026-09-03 07:27:14] [enrich] --- Enriche [12/20]: Feuer in LVR-Klinik Viersen: Sirenenalarm schreckt Viersen a
+[2026-09-03 07:27:14] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/viersen/feuer-in-lvr-klinik-viersen-sirenenalar
+[2026-09-03 07:27:15] [enrich] Volltext extrahiert: 854 Zeichen von https://rp-online.de/nrw/staedte/viersen/feuer-in-lvr-klinik
+[2026-09-03 07:27:18] [enrich] Enrichment abgeschlossen: enriched — LVR-Klinik Viersen-Süchteln in Viersen
+[2026-09-03 07:27:19] [enrich] --- Enriche [13/20]: Feuer-Drama in Klinik am Urban: Frau sitzt in Fahrstuhl fest
+[2026-09-03 07:27:20] [enrich] Google News URL aufgelöst (v1): https://www.berliner-kurier.de/article/feuer-drama-in-klinik-am-urban-frau-sitzt
+[2026-09-03 07:27:21] [enrich] Volltext extrahiert: 4056 Zeichen von https://www.berliner-kurier.de/article/feuer-drama-in-klinik
+[2026-09-03 07:27:27] [enrich] Enrichment abgeschlossen: enriched — Vivantes-Klinikum am Urban in Berlin-Kreuzberg
+[2026-09-03 07:27:28] [enrich] --- Enriche [14/20]: Video: Feuer in verwüsteter Klinik zerstört Cafeteria und Ke
+[2026-09-03 07:27:28] [enrich] Google News URL aufgelöst (v1): https://nh24.de/video-feuer-in-verwuesteter-klinik-zerstoert-cafeteria-und-kegel
+[2026-09-03 07:27:30] [enrich] Volltext extrahiert: 3199 Zeichen von https://nh24.de/video-feuer-in-verwuesteter-klinik-zerstoert
+[2026-09-03 07:27:32] [enrich] FALSE POSITIVE erkannt: Das Feuer ereignete sich in einer EHEMALIGEN Klinik, die bereits 2001/2002 geschlossen wurde und zum Zeitpunkt des Brandes (2018) nicht mehr als Krankenhaus/Klinik in Betrieb war. Es handelt sich um ein Feuer in einer verwüsteten, aufgegebenen Liegenschaft, nicht in einer funktionierenden medizinischen Einrichtung.
+[2026-09-03 07:27:33] [enrich] --- Enriche [15/20]: Hanau: Brand im Klinikum - Mehrere Verletzte, Psychiatrie ge
+[2026-09-03 07:27:34] [enrich] Google News URL aufgelöst (v1): https://www.gnz.de/lokales/main-kinzig-kreis/stadt-hanau/hanau-brand-im-klinikum
+[2026-09-03 07:27:38] [enrich] Volltext extrahiert: 3767 Zeichen von https://www.gnz.de/lokales/main-kinzig-kreis/stadt-hanau/han
+[2026-09-03 07:27:42] [enrich] Enrichment abgeschlossen: enriched — Klinikum Hanau in Hanau
+[2026-09-03 07:27:43] [enrich] --- Enriche [16/20]: Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT
+[2026-09-03 07:27:44] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/kl
+[2026-09-03 07:27:44] [enrich] Volltext extrahiert: 1998 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0
+[2026-09-03 07:27:48] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau Pfeiffers (Universitätsmedizin Magdeburg) in Magdeburg
+[2026-09-03 07:27:49] [enrich] --- Enriche [17/20]: Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klin
+[2026-09-03 07:27:49] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate-nach-Brand-Tragoedi
+[2026-09-03 07:27:51] [enrich] Volltext extrahiert: 1381 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate
+[2026-09-03 07:27:55] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-09-03 07:27:56] [enrich] --- Enriche [18/20]: Ludwigslust - Mindestens zwei Tote und mehr als 30 Verletzte
+[2026-09-03 07:27:57] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/mindestens-zwei-tote-und-mehr-als-30-verletzte-be
+[2026-09-03 07:27:59] [enrich] Volltext extrahiert: 319 Zeichen von https://www.deutschlandfunk.de/mindestens-zwei-tote-und-mehr
+[2026-09-03 07:28:01] [enrich] FALSE POSITIVE erkannt: Artikel behandelt die Landtagswahl in Sachsen-Anhalt 2026 und hat keinen Bezug zu einem Brand in einem Krankenhaus oder einer Klinik
+[2026-09-03 07:28:02] [enrich] --- Enriche [19/20]: Autobrand in Gleisdorf: 21-Jährige schwer verletzt im Kranke
+[2026-09-03 07:28:02] [enrich] Google News URL aufgelöst (v1): https://www.kleinezeitung.at/artikel/19614481/autoinnenraum-fing-feuer-21-jaehri
+[2026-09-03 07:28:04] [enrich] Volltext extrahiert: 531 Zeichen von https://www.kleinezeitung.at/artikel/19614481/autoinnenraum-
+[2026-09-03 07:28:05] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einem Autoinnenraum auf einem Parkplatz eines Möbelhauses, nicht in einem Krankenhaus. Die Patientin wurde nach dem Brand ins Universitätsklinikum Graz gebracht, was eine Einlieferung zur Behandlung darstellt, keinen Brand im Krankenhaus.
+[2026-09-03 07:28:06] [enrich] --- Enriche [20/20]: Zivilschutz spricht von "ernster Lage": Zahlreiche Waldbränd
+[2026-09-03 07:28:07] [enrich] Google News URL aufgelöst (v1): https://www.n-tv.de/ticker/Zahlreiche-Waldbraende-in-Sizilien-Evakuierung-von-Pa
+[2026-09-03 07:28:08] [enrich] Volltext extrahiert: 3064 Zeichen von https://www.n-tv.de/ticker/Zahlreiche-Waldbraende-in-Sizilie
+[2026-09-03 07:28:10] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Waldbrände auf Sizilien (Italien), nicht in Deutschland. Die Evakuierung von Patienten einer Klinik erfolgte wegen eines nahegelegenen Waldbrandes, nicht wegen eines Brandes IN der Klinik selbst. Zudem handelt es sich um einen Vorfall außerhalb Deutschlands.
+[2026-09-03 07:28:10] [enrich] Ergebnis: 11 enriched, 1 partial, 8 false_positive, 0 failed
+[2026-09-03 07:28:10] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-03 07:28:10] [DEDUP] Starte Dedup für 894 Einträge
+[2026-09-03 07:28:10] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-03 07:28:11] [DEDUP] Auto-Merge (0.95): Vivantes Klinikum Am Urban / Berlin-Kreuzberg ↔ Vivantes-Klinikum am Urban / Berlin-Kreuzberg
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.91): Ludwigsluster Krankenhaus (LUP-Kliniken) / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.83): Stift Bethlehem (LUP-Kliniken) / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.91): LUP-Klinikum Ludwigslust / Ludwigslust ↔ LUP Klinikum / Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.90): LUP-Klinikum Ludwigslust / Ludwigslust ↔ Klinik Ludwigslust / Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Auto-Merge (0.84): Asklepios Klinik Altona / Hamburg ↔ Asklepios-Klinik Hamburg-Altona / Hamburg-Altona
+[2026-09-03 07:28:12] [DEDUP] Paare verglichen: 24474
+[2026-09-03 07:28:12] [DEDUP] Auto-Merges: 7
+[2026-09-03 07:28:12] [DEDUP] Kandidaten (unsicher): 737
+[2026-09-03 07:28:12] [DEDUP] Cluster 2x: Vivantes Klinikum Am Urban, Vivantes-Klinikum am Urban
+[2026-09-03 07:28:12] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Cluster 5x: Ludwigsluster Krankenhaus (LUP-Kliniken), Stift Bethlehem (LUP-Kliniken), LUP-Klinikum Ludwigslust
+[2026-09-03 07:28:12] [DEDUP] Cluster 2x: Asklepios Klinik Altona, Asklepios-Klinik Hamburg-Altona
+[2026-09-03 07:28:12] [DEDUP] Ergebnis: 887 Einträge (war: 894, 7 zusammengeführt)
+[2026-09-03 07:28:12] [DEDUP] Kandidaten-Datei: 737 pending, 2 confirmed, 0 rejected
+[2026-09-03 07:28:12] [DEDUP] Gespeichert: 894 → 887 Einträge
