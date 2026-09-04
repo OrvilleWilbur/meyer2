@@ -34679,3 +34679,82 @@
 [2026-09-03 07:28:12] [DEDUP] Ergebnis: 887 Einträge (war: 894, 7 zusammengeführt)
 [2026-09-03 07:28:12] [DEDUP] Kandidaten-Datei: 737 pending, 2 confirmed, 0 rejected
 [2026-09-03 07:28:12] [DEDUP] Gespeichert: 894 → 887 Einträge
+[2026-09-04 07:28:31] === Monitor-Lauf gestartet ===
+[2026-09-04 07:28:32] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-04 07:28:33] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-04 07:28:33] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-09-04 07:28:34] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-09-04 07:28:34] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-04 07:28:34] Feed 'gn_brand_klinik': 51 Einträge
+[2026-09-04 07:28:35] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-04 07:28:35] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-04 07:28:35] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-04 07:28:36] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-09-04 07:28:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-04 07:28:37] 207 relevante Treffer in Feeds
+[2026-09-04 07:28:37] ✅ 9 NEUE Einträge gefunden:
+[2026-09-04 07:28:37]    16.07.2026 | im Krankenhaus |  | Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier
+[2026-09-04 07:28:37]    03.09.2026 | auf Klinikdach |  | Feuer auf Klinikdach: Sechs Verletzte und hoher Schaden - On
+[2026-09-04 07:28:37]    14.08.2026 | in Klinik |  | Brand in 13. Etage in Dresden – Bewohner stirbt in Klinik - 
+[2026-09-04 07:28:37]    20.08.2026 | am Klinikum Dresden |  | Rauch aus dem 2. Stock: Großeinsatz am Klinikum Dresden-Frie
+[2026-09-04 07:28:37]    27.09.2023 | Helios Klinikum Pforzheim weitergeht |  | Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klin
+[2026-09-04 07:28:37]    28.09.2023 | Uni-Klinik |  | Mann in Kampfkleidung eröffnet Feuer in Rotterdamer Wohnung 
+[2026-09-04 07:28:37]    30.09.2016 | Bochumer Klinik |  | Brand in Bochumer Klinik: Mindestens zwei Tote und viele Ver
+[2026-09-04 07:28:37]    08.11.2020 | Uniklinik |  | Brand in Pirmasens mit totem Kleinkind: Auch Schwester stirb
+[2026-09-04 07:28:37]    28.08.2026 |  |  | Stromausfall: Krankenhaus in Wildeshausen musste evakuiert w
+[2026-09-04 07:28:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-04 07:28:37] === Monitor-Lauf beendet ===
+
+[2026-09-04 07:28:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-04 07:28:37] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-04 07:28:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-04 07:28:37] [enrich] 9 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-04 07:28:37] [enrich] --- Enriche [1/9]: Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier
+[2026-09-04 07:28:37] [enrich] Google News URL aufgelöst (v1): https://www.spiegel.de/panorama/justiz/finsterwalde-mann-legt-feuer-in-behoerde-
+[2026-09-04 07:28:38] [enrich] Volltext extrahiert: 3423 Zeichen von https://www.spiegel.de/panorama/justiz/finsterwalde-mann-leg
+[2026-09-04 07:28:41] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Behörde (Außenstelle des Landratsamts in Finsterwalde), nicht in einem Krankenhaus/einer Klinik. Die vier Personen, die ins Krankenhaus kamen, waren Opfer des Behördenbrands und wurden dort behandelt, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-09-04 07:28:42] [enrich] --- Enriche [2/9]: Feuer auf Klinikdach: Sechs Verletzte und hoher Schaden - On
+[2026-09-04 07:28:42] [enrich] Google News URL aufgelöst (v1): https://www.onetz.de/deutschland-welt/parsberg/feuer-klinikdach-sechs-verletzte-
+[2026-09-04 07:28:43] [enrich] Volltext extrahiert: 3716 Zeichen von https://www.onetz.de/deutschland-welt/parsberg/feuer-klinikd
+[2026-09-04 07:28:48] [enrich] Enrichment abgeschlossen: enriched — Klinik-Neubau Parsberg in Parsberg
+[2026-09-04 07:28:49] [enrich] --- Enriche [3/9]: Brand in 13. Etage in Dresden – Bewohner stirbt in Klinik - 
+[2026-09-04 07:28:50] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radebeul/news-hochhaus-et
+[2026-09-04 07:28:51] [enrich] Volltext extrahiert: 1565 Zeichen von https://www.mdr.de/nachrichten/sachsen/dresden/dresden-radeb
+[2026-09-04 07:28:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Wohnungsbrand in einem Hochhaus. Der Mann wurde nach dem Brand ins Krankenhaus gebracht und ist dort gestorben, aber der Brand selbst fand nicht im Krankenhaus statt.
+[2026-09-04 07:28:53] [enrich] --- Enriche [4/9]: Rauch aus dem 2. Stock: Großeinsatz am Klinikum Dresden-Frie
+[2026-09-04 07:28:53] [enrich] Google News URL aufgelöst (v1): https://www.diesachsen.de/dresden-news/rauch-aus-dem-2-stock-grosseinsatz-am-kli
+[2026-09-04 07:28:54] [enrich] Volltext extrahiert: 1714 Zeichen von https://www.diesachsen.de/dresden-news/rauch-aus-dem-2-stock
+[2026-09-04 07:28:58] [enrich] Enrichment abgeschlossen: enriched — Städtisches Klinikum Dresden-Friedrichstadt in Dresden
+[2026-09-04 07:28:59] [enrich] --- Enriche [5/9]: Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klin
+[2026-09-04 07:29:00] [enrich] Google News URL aufgelöst (v1): https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate-nach-Brand-Tragoedi
+[2026-09-04 07:29:02] [enrich] Volltext extrahiert: 1381 Zeichen von https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate
+[2026-09-04 07:29:05] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-09-04 07:29:06] [enrich] --- Enriche [6/9]: Mann in Kampfkleidung eröffnet Feuer in Rotterdamer Wohnung 
+[2026-09-04 07:29:06] [enrich] Google News URL aufgelöst (v1): https://www.focus.de/panorama/welt/rotterdam-schuesse-in-wohnung-und-uni-klinik-
+[2026-09-04 07:29:07] [enrich] Volltext extrahiert: 3031 Zeichen von https://www.focus.de/panorama/welt/rotterdam-schuesse-in-woh
+[2026-09-04 07:29:09] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt Schießereien und Brände in Rotterdam, Niederlande. Dies ist kein Brand in einem deutschen Krankenhaus, sondern ein Vorfall in einer niederländischen Uniklinik außerhalb Deutschlands.
+[2026-09-04 07:29:10] [enrich] --- Enriche [7/9]: Brand in Bochumer Klinik: Mindestens zwei Tote und viele Ver
+[2026-09-04 07:29:10] [enrich] Google News URL aufgelöst (v1): https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html
+[2026-09-04 07:29:11] [enrich] Volltext extrahiert: 1544 Zeichen von https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.htm
+[2026-09-04 07:29:15] [enrich] Enrichment abgeschlossen: enriched — Universitätsklinikum Bochum - Bergmannsheil in Bochum
+[2026-09-04 07:29:16] [enrich] --- Enriche [8/9]: Brand in Pirmasens mit totem Kleinkind: Auch Schwester stirb
+[2026-09-04 07:29:16] [enrich] Google News URL aufgelöst (v1): https://breaking-news-saarland.de/brand-in-pirmasens-mit-totem-kleinkind-auch-sc
+[2026-09-04 07:29:17] [enrich] Volltext extrahiert: 2222 Zeichen von https://breaking-news-saarland.de/brand-in-pirmasens-mit-tot
+[2026-09-04 07:29:19] [enrich] FALSE POSITIVE erkannt: Brand in einem Wohnhaus in Pirmasens, nicht in einem Krankenhaus. Die Uniklinik Homburg ist nur der Ort, wo ein verletztes Kind zur Behandlung eingeliefert wurde und später starb.
+[2026-09-04 07:29:20] [enrich] --- Enriche [9/9]: Stromausfall: Krankenhaus in Wildeshausen musste evakuiert w
+[2026-09-04 07:29:20] [enrich] Google News URL aufgelöst (v1): https://www.butenunbinnen.de/nachrichten/stromausfall-krankenhaus-wildeshausen-1
+[2026-09-04 07:29:21] [enrich] Volltext extrahiert: 1177 Zeichen von https://www.butenunbinnen.de/nachrichten/stromausfall-kranke
+[2026-09-04 07:29:22] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Stromausfall durch technischen Defekt bei Bauarbeiten, nicht wegen Brand
+[2026-09-04 07:29:22] [enrich] Ergebnis: 4 enriched, 0 partial, 5 false_positive, 0 failed
+[2026-09-04 07:29:22] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-04 07:29:22] [DEDUP] Starte Dedup für 896 Einträge
+[2026-09-04 07:29:22] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-04 07:29:23] [DEDUP] Auto-Merge (0.95): Universitätsklinikum Bergmannsheil Bochu / Bochum ↔ Universitätsklinikum Bochum - Bergmannsh / Bochum
+[2026-09-04 07:29:24] [DEDUP] Paare verglichen: 24754
+[2026-09-04 07:29:24] [DEDUP] Auto-Merges: 1
+[2026-09-04 07:29:24] [DEDUP] Kandidaten (unsicher): 724
+[2026-09-04 07:29:24] [DEDUP] Cluster 2x: Universitätsklinikum Bergmannsheil Bochu, Universitätsklinikum Bochum - Bergmannsh
+[2026-09-04 07:29:24] [DEDUP] Ergebnis: 895 Einträge (war: 896, 1 zusammengeführt)
+[2026-09-04 07:29:24] [DEDUP] Kandidaten-Datei: 724 pending, 2 confirmed, 0 rejected
+[2026-09-04 07:29:24] [DEDUP] Gespeichert: 896 → 895 Einträge
