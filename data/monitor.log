@@ -34758,3 +34758,70 @@
 [2026-09-04 07:29:24] [DEDUP] Ergebnis: 895 Einträge (war: 896, 1 zusammengeführt)
 [2026-09-04 07:29:24] [DEDUP] Kandidaten-Datei: 724 pending, 2 confirmed, 0 rejected
 [2026-09-04 07:29:24] [DEDUP] Gespeichert: 896 → 895 Einträge
+[2026-09-05 07:09:54] === Monitor-Lauf gestartet ===
+[2026-09-05 07:09:55] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-05 07:09:56] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-05 07:09:57] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-09-05 07:09:57] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-09-05 07:09:58] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-05 07:09:58] Feed 'gn_brand_klinik': 51 Einträge
+[2026-09-05 07:09:59] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-09-05 07:09:59] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-05 07:10:00] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-09-05 07:10:00] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-09-05 07:10:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-05 07:10:01] 224 relevante Treffer in Feeds
+[2026-09-05 07:10:01] ✅ 6 NEUE Einträge gefunden:
+[2026-09-05 07:10:01]    26.08.2026 | in Krankenhaus |  | Pakistan: Säuglinge sterben bei Brand in Krankenhaus - Panor
+[2026-09-05 07:10:01]    15.05.2026 | im Klinikum Bayreuth aus |  | Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum B
+[2026-09-05 07:10:01]    24.08.2026 | im Klinikum Cracau |  | Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verle
+[2026-09-05 07:10:01]    25.08.2026 | im Klinikum Magdeburg |  | „Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg
+[2026-09-05 07:10:01]    26.10.2024 | Uniklinik war einer |  | Brand in Mainzer Uniklinik war einer der größten Einsätze - 
+[2026-09-05 07:10:01]    29.01.2024 | Hamburger Klinik bereitet sich |  | Verdächtiger Gegenstand: Hamburger Klinik bereitet sich auf 
+[2026-09-05 07:10:01] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-05 07:10:01] === Monitor-Lauf beendet ===
+
+[2026-09-05 07:10:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-05 07:10:02] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-05 07:10:02] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-05 07:10:02] [enrich] 6 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-05 07:10:02] [enrich] --- Enriche [1/6]: Pakistan: Säuglinge sterben bei Brand in Krankenhaus - Panor
+[2026-09-05 07:10:02] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/pakistan-saeuglinge-sterben-bei-brand-in-kr
+[2026-09-05 07:10:03] [enrich] Volltext extrahiert: 507 Zeichen von https://www.sueddeutsche.de/panorama/pakistan-saeuglinge-ste
+[2026-09-05 07:10:04] [enrich] FALSE POSITIVE erkannt: Brand in ausländischem Krankenhaus (Pakistan), nicht in Deutschland
+[2026-09-05 07:10:05] [enrich] --- Enriche [2/6]: Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum B
+[2026-09-05 07:10:05] [enrich] Google News URL aufgelöst (v1): https://www.bayreuther-tagblatt.de/bayreuth-2/brand-in-patientenzimmer-loest-feu
+[2026-09-05 07:10:08] [enrich] Volltext extrahiert: 2034 Zeichen von https://www.bayreuther-tagblatt.de/bayreuth-2/brand-in-patie
+[2026-09-05 07:10:12] [enrich] Enrichment abgeschlossen: enriched — Klinikum Bayreuth in Bayreuth
+[2026-09-05 07:10:13] [enrich] --- Enriche [3/6]: Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verle
+[2026-09-05 07:10:14] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-brand-im-klinikum-craca
+[2026-09-05 07:10:14] [enrich] Volltext extrahiert: 1610 Zeichen von https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-bra
+[2026-09-05 07:10:17] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau, Universitätsmedizin Magdeburg in Magdeburg
+[2026-09-05 07:10:18] [enrich] --- Enriche [4/6]: „Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg
+[2026-09-05 07:10:18] [enrich] Google News URL aufgelöst (v1): https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-i
+[2026-09-05 07:10:19] [enrich] Volltext extrahiert: 1750 Zeichen von https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-kei
+[2026-09-05 07:10:22] [enrich] Enrichment abgeschlossen: enriched — Klinikum Magdeburg-Cracau in Magdeburg
+[2026-09-05 07:10:23] [enrich] --- Enriche [5/6]: Brand in Mainzer Uniklinik war einer der größten Einsätze - 
+[2026-09-05 07:10:24] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/rheinland-pfalz/mainz/175-jahre-feuerwehr-mainz-10
+[2026-09-05 07:10:27] [enrich] Volltext extrahiert: 4933 Zeichen von https://www.swr.de/swraktuell/rheinland-pfalz/mainz/175-jahr
+[2026-09-05 07:10:31] [enrich] Enrichment abgeschlossen: enriched — Mainzer Uniklinik (Universitätsmedizin Mainz) in Mainz
+[2026-09-05 07:10:32] [enrich] --- Enriche [6/6]: Verdächtiger Gegenstand: Hamburger Klinik bereitet sich auf 
+[2026-09-05 07:10:33] [enrich] Google News URL aufgelöst (v1): https://www.mopo.de/hamburg/polizei/verdaechtiger-gegenstand-hamburger-klinik-be
+[2026-09-05 07:10:34] [enrich] Volltext extrahiert: 1602 Zeichen von https://www.mopo.de/hamburg/polizei/verdaechtiger-gegenstand
+[2026-09-05 07:10:35] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen verdächtigem Gegenstand (möglicher Blindgänger), nicht wegen Brand
+[2026-09-05 07:10:35] [enrich] Ergebnis: 4 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-05 07:10:35] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-05 07:10:35] [DEDUP] Starte Dedup für 901 Einträge
+[2026-09-05 07:10:35] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-05 07:10:37] [DEDUP] Auto-Merge (0.91): Klinikum Bayreuth / Bayreuth ↔ Klinikum Bayreuth / Bayreuth
+[2026-09-05 07:10:37] [DEDUP] Auto-Merge (0.91): Klinikum Cracau Pfeiffers (Universitätsm / Magdeburg ↔ Klinikum Cracau, Universitätsmedizin Mag / Magdeburg
+[2026-09-05 07:10:37] [DEDUP] Auto-Merge (0.82): Klinikum Cracau, Universitätsmedizin Mag / Magdeburg ↔ Klinikum Magdeburg-Cracau / Magdeburg
+[2026-09-05 07:10:37] [DEDUP] Paare verglichen: 24867
+[2026-09-05 07:10:37] [DEDUP] Auto-Merges: 3
+[2026-09-05 07:10:37] [DEDUP] Kandidaten (unsicher): 725
+[2026-09-05 07:10:37] [DEDUP] Cluster 2x: Klinikum Bayreuth, Klinikum Bayreuth
+[2026-09-05 07:10:37] [DEDUP] Cluster 3x: Klinikum Cracau Pfeiffers (Universitätsm, Klinikum Cracau, Universitätsmedizin Mag, Klinikum Magdeburg-Cracau
+[2026-09-05 07:10:37] [DEDUP] Ergebnis: 898 Einträge (war: 901, 3 zusammengeführt)
+[2026-09-05 07:10:37] [DEDUP] Kandidaten-Datei: 725 pending, 2 confirmed, 0 rejected
+[2026-09-05 07:10:37] [DEDUP] Gespeichert: 901 → 898 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T07:29:24.237932",
+  "generated_at": "2026-09-05T07:10:37.693194",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -265,6 +265,72 @@
         "status": "enriched",
         "link": "https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/klinikum-cracau-magdeburg-brand-mit-millionenschaden.html",
         "titel": "Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.777,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.777
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Cracau, Universitätsmedizin Magdeburg",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-brand-im-klinikum-cracau-in-magdeburg-drei-verletzte-und-millionenschaden-4306680",
+        "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verletzte und Millionenschaden - volksstimme.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.777,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.6,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.777
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau Pfeiffers (Universitätsmedizin Magdeburg)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/klinikum-cracau-magdeburg-brand-mit-millionenschaden.html",
+        "titel": "Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Magdeburg-Cracau",
+        "ort": "Magdeburg",
+        "datum": "25.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-im-klinikum-magdeburg-cracau-nach-brand-weiter-4307588",
+        "titel": "„Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg-Cracau nach Brand weiter - volksstimme.de"
       }
     },
     {
@@ -694,39 +760,6 @@
         "status": "partial",
         "link": "https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-von-patientin-gelegt-worden-sein-7081950.html",
         "titel": "News: Bochumer Klinik-Brand könnte von Patientin gelegt worden sein - STERN.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.745,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.18181818181818182,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.745
-      },
-      "entry_a": {
-        "einrichtung": "Klinik in Bochum (genaue Bezeichnung nicht im Titel angegeben)",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "partial",
-        "link": "https://www.stern.de/panorama/weltgeschehen/news--bochumer-klinik-brand-koennte-von-patientin-gelegt-worden-sein-7081950.html",
-        "titel": "News: Bochumer Klinik-Brand könnte von Patientin gelegt worden sein - STERN.de"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bochum - Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html",
-        "titel": "Brand in Bochumer Klinik: Mindestens zwei Tote und viele Verletzte - BR"
       }
     },
     {
@@ -1387,6 +1420,39 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.703,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.703
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Magdeburg-Cracau",
+        "ort": "Magdeburg",
+        "datum": "25.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-im-klinikum-magdeburg-cracau-nach-brand-weiter-4307588",
+        "titel": "„Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg-Cracau nach Brand weiter - volksstimme.de"
       }
     },
     {
@@ -4654,6 +4720,39 @@
         "status": "partial",
         "link": "https://www.instagram.com/p/DZhkuzWDEe6/",
         "titel": "🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden Feuerwehr, Rettungsdienst und Polizei wegen Brand- beziehungsweise Schmorgeruchs zum Klinikum Bayreuth alarmiert. Zeitweise waren rund 130 E"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Bayreuth",
+        "ort": "Bayreuth",
+        "datum": "13.06.2026",
+        "bundesland": "Bayern",
+        "status": "partial",
+        "link": "https://www.instagram.com/p/DZhkuzWDEe6/",
+        "titel": "🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden Feuerwehr, Rettungsdienst und Polizei wegen Brand- beziehungsweise Schmorgeruchs zum Klinikum Bayreuth alarmiert. Zeitweise waren rund 130 E"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Bayreuth",
+        "ort": "Bayreuth",
+        "datum": "14.05.2026",
+        "bundesland": "Bayern",
+        "status": "enriched",
+        "link": "https://www.bayreuther-tagblatt.de/bayreuth-2/brand-in-patientenzimmer-loest-feuerwehreinsatz-im-klinikum-bayreuth-aus/",
+        "titel": "Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum Bayreuth aus - Bayreuther Tagblatt"
       }
     },
     {
@@ -20402,39 +20501,6 @@
         "",
         ""
       ],
-      "score": 0.508,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.4,
-        "bundesland": 1.0,
-        "brandort": 0.16666666666666666,
-        "total": 0.508
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "04.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.t-online.de/nachrichten/panorama/id_79175430/krankenhaus-brand-in-bochum-ursache-fuer-bergmannsheil-drama-bekannt.html",
-        "titel": "Selbstmörderin löste Bochumer Klinikbrand aus - T-Online"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bochum - Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html",
-        "titel": "Brand in Bochumer Klinik: Mindestens zwei Tote und viele Verletzte - BR"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.5,
       "details": {
         "datum": 1.0,
@@ -22441,39 +22507,6 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.488,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.09090909090909091,
-        "total": 0.488
-      },
-      "entry_a": {
-        "einrichtung": "Uniklinik Bergmansheil Bochum",
-        "ort": "Bochum",
-        "datum": "05.10.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.faz.net/aktuell/gesellschaft/ungluecke/patientin-legte-brand-in-bochumer-uniklinik-bergmannsheil-14466010.html",
-        "titel": "Patientin legte Brand in Bochumer Uniklinik Bergmannsheil - FAZ"
-      },
-      "entry_b": {
-        "einrichtung": "Universitätsklinikum Bochum - Bergmannsheil",
-        "ort": "Bochum",
-        "datum": "30.09.2016",
-        "bundesland": "Nordrhein-Westfalen",
-        "status": "enriched",
-        "link": "https://www.br.de/nachricht/feuer-bochum-krankenhaus-100.html",
-        "titel": "Brand in Bochumer Klinik: Mindestens zwei Tote und viele Verletzte - BR"
       }
     },
     {
