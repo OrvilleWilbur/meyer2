@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:10:37.693194",
+  "generated_at": "2026-09-06T07:22:24.577306",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -272,72 +272,6 @@
         "",
         ""
       ],
-      "score": 0.777,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2857142857142857,
-        "bundesland": 1.0,
-        "brandort": 0.1111111111111111,
-        "total": 0.777
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
-        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Cracau, Universitätsmedizin Magdeburg",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.volksstimme.de/blaulicht/magdeburg/feuerwehr-brand-im-klinikum-cracau-in-magdeburg-drei-verletzte-und-millionenschaden-4306680",
-        "titel": "Feuerwehr: Brand im Klinikum Cracau in Magdeburg: Drei Verletzte und Millionenschaden - volksstimme.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.777,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.6,
-        "bundesland": 1.0,
-        "brandort": 0.3333333333333333,
-        "total": 0.777
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau Pfeiffers (Universitätsmedizin Magdeburg)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/klinikum-cracau-magdeburg-brand-mit-millionenschaden.html",
-        "titel": "Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Magdeburg-Cracau",
-        "ort": "Magdeburg",
-        "datum": "25.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-im-klinikum-magdeburg-cracau-nach-brand-weiter-4307588",
-        "titel": "„Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg-Cracau nach Brand weiter - volksstimme.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.775,
       "details": {
         "datum": 1.0,
@@ -430,6 +364,39 @@
         "status": "enriched",
         "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
         "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.76,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.76
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -1163,6 +1130,39 @@
         "",
         ""
       ],
+      "score": 0.711,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.2222222222222222,
+        "total": 0.711
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.71,
       "details": {
         "datum": 1.0,
@@ -1420,39 +1420,6 @@
         "status": "enriched",
         "link": "https://www.heute.at/s/albtraum-in-klinik-frau-64-verbrennt-im-krankenbett-120178069",
         "titel": "Tragödie in Berlin – Albtraum in Klinik – Frau (64) verbrennt im Krankenbett - Heute"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.703,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.703
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
-        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Magdeburg-Cracau",
-        "ort": "Magdeburg",
-        "datum": "25.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.volksstimme.de/lokal/magdeburg/wir-verlieren-keine-zeit-so-geht-es-im-klinikum-magdeburg-cracau-nach-brand-weiter-4307588",
-        "titel": "„Wir verlieren keine Zeit“: So geht es im Klinikum Magdeburg-Cracau nach Brand weiter - volksstimme.de"
       }
     },
     {
@@ -4752,7 +4719,7 @@
         "bundesland": "Bayern",
         "status": "enriched",
         "link": "https://www.bayreuther-tagblatt.de/bayreuth-2/brand-in-patientenzimmer-loest-feuerwehreinsatz-im-klinikum-bayreuth-aus/",
-        "titel": "Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum Bayreuth aus - Bayreuther Tagblatt"
+        "titel": "Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum Bayreuth aus - bayreuther-tagblatt.de"
       }
     },
     {
@@ -22507,6 +22474,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.493,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.2,
+        "total": 0.493
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
+        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {
