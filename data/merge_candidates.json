@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T07:22:24.577306",
+  "generated_at": "2026-09-07T07:37:32.010563",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -364,39 +364,6 @@
         "status": "enriched",
         "link": "https://www.morgenpost.de/berlin/article411637721/nach-brand-im-bett-patientin-64-stirbt-in-berliner-klinik.html",
         "titel": "Nach Brand im Bett: Patientin (64) stirbt in Berliner Klinik - Berliner Morgenpost"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.76,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.76
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -777,6 +744,39 @@
         "total": 0.74
       },
       "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "05.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate-nach-Brand-Tragoedie-Wie-es-am-Helios-Klinikum-Pforzheim-weitergeht-_arid,1932840.html",
+        "titel": "Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klinikum Pforzheim weitergeht - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "03.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
+        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.74,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.74
+      },
+      "entry_a": {
         "einrichtung": "Klinikum Konstanz",
         "ort": "Konstanz",
         "datum": "18.11.2018",
@@ -859,6 +859,39 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.735,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.735
+      },
+      "entry_a": {
+        "einrichtung": "Klinik-Notaufnahme Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "04.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/pforzheim-am-bett-fixierter-mann-stirbt-bei-feuer-in-klinik-notaufnahme-K6HAOQRCRNO5HEJZWT7SJAD2OA.html",
+        "titel": "Pforzheim: Am Bett fixierter Mann stirbt bei Feuer in Klinik-Notaufnahme - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "03.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
+        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news.de"
       }
     },
     {
@@ -1123,39 +1156,6 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.711,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.2222222222222222,
-        "total": 0.711
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {
@@ -2212,6 +2212,39 @@
         "status": "enriched",
         "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
         "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.697,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.07142857142857142,
+        "total": 0.697
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Uelzen",
+        "ort": "Uelzen",
+        "datum": "04.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://www.ndr.de/nachrichten/niedersachsen/lueneburg_heide_unterelbe/Krankenhaus-Brand-in-Uelzen-jaehrt-sich-Gedenken-an-die-Opfer,klinikuelzen100.html",
+        "titel": "Ein Jahr nach Brand im Krankenhaus - Gedenken an die verstorbenen Patienten - NDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach-brand-in-krankenhaus-in-uelzen_aid-104547635",
+        "titel": "Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus in Uelzen - rp-online.de"
       }
     },
     {
@@ -3945,6 +3978,39 @@
         "total": 0.65
       },
       "entry_a": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "09.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-Mitarbeiter-wollten-fixierten-Patienten-retten-_arid,1855515.html",
+        "titel": "Brand am Helios Klinikum Pforzheim: Mitarbeiter wollten fixierten Patienten retten - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Helios Klinikum Pforzheim",
+        "ort": "Pforzheim",
+        "datum": "03.05.2023",
+        "bundesland": "Baden-Württemberg",
+        "status": "enriched",
+        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
+        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
         "einrichtung": "Helios-Klinikum Pforzheim",
         "ort": "Pforzheim",
         "datum": "05.2023",
@@ -4694,39 +4760,6 @@
         "",
         ""
       ],
-      "score": 0.65,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.65
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Bayreuth",
-        "ort": "Bayreuth",
-        "datum": "13.06.2026",
-        "bundesland": "Bayern",
-        "status": "partial",
-        "link": "https://www.instagram.com/p/DZhkuzWDEe6/",
-        "titel": "🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden Feuerwehr, Rettungsdienst und Polizei wegen Brand- beziehungsweise Schmorgeruchs zum Klinikum Bayreuth alarmiert. Zeitweise waren rund 130 E"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Bayreuth",
-        "ort": "Bayreuth",
-        "datum": "14.05.2026",
-        "bundesland": "Bayern",
-        "status": "enriched",
-        "link": "https://www.bayreuther-tagblatt.de/bayreuth-2/brand-in-patientenzimmer-loest-feuerwehreinsatz-im-klinikum-bayreuth-aus/",
-        "titel": "Brand in Patientenzimmer löst Feuerwehreinsatz im Klinikum Bayreuth aus - bayreuther-tagblatt.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.645,
       "details": {
         "datum": 0.3,
@@ -4852,6 +4885,39 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.612,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.8,
+        "bundesland": 1.0,
+        "brandort": 0.23076923076923078,
+        "total": 0.612
+      },
+      "entry_a": {
+        "einrichtung": "Helios Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "12.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-brand-in-krankenhaus-mehrere-patienten-tot_bid-104547815",
+        "titel": "Fotos: Brand in Krankenhaus in Uelzen – mehrere Patienten tot - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Uelzen",
+        "ort": "Uelzen",
+        "datum": "05.01.2024",
+        "bundesland": "Niedersachsen",
+        "status": "enriched",
+        "link": "https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach-brand-in-krankenhaus-in-uelzen_aid-104547635",
+        "titel": "Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus in Uelzen - rp-online.de"
       }
     },
     {
@@ -13779,6 +13845,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Ehranger Krankenhaus",
+        "ort": "",
+        "datum": "15.07.2021",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksfreund.de/region/trier-trierer-land/evakuierung-in-trier-ehranger-krankenhaus_aid-61387737",
+        "titel": "Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Minuten sind alle in Sicherheit - Volksfreund"
+      },
+      "entry_b": {
+        "einrichtung": "Ehranger Krankenhaus",
+        "ort": "",
+        "datum": "15.07.2021",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.volksfreund.de/region/trier-trierer-land/evakuierung-in-trier-ehranger-krankenhaus_aid-61387737",
+        "titel": "Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Minuten sind alle in Sicherheit - volksfreund.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "12.10.2007",
@@ -20336,6 +20435,39 @@
         "",
         ""
       ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-evakuierung-im-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - Oberhessen-Live"
+      },
+      "entry_b": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://cedarnews.net/german/967123/feuerwehr-rettungsdienst-proben-evakuierung-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - cedarnews.net"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.54,
       "details": {
         "datum": 0.3,
@@ -22474,39 +22606,6 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.493,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 0.3333333333333333,
-        "bundesland": 1.0,
-        "brandort": 0.2,
-        "total": 0.493
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "10.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
-        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Krankenhaus Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.sueddeutsche.de/panorama/ludwigslust-feuer-dachstuhl-krankenhaus-klinik-li.3509082",
-        "titel": "Ludwigslust: Zwei Tote bei Dachstuhlbrand in Krankenhaus - Panorama - SZ.de - SZ.de"
       }
     },
     {

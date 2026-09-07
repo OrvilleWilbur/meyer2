@@ -34876,3 +34876,64 @@
 [2026-09-06 07:22:24] [DEDUP] Ergebnis: 899 Einträge (war: 901, 2 zusammengeführt)
 [2026-09-06 07:22:24] [DEDUP] Kandidaten-Datei: 725 pending, 2 confirmed, 0 rejected
 [2026-09-06 07:22:24] [DEDUP] Gespeichert: 901 → 899 Einträge
+[2026-09-07 07:37:00] === Monitor-Lauf gestartet ===
+[2026-09-07 07:37:01] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-07 07:37:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-07 07:37:02] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-09-07 07:37:03] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-09-07 07:37:03] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-07 07:37:03] Feed 'gn_brand_klinik': 50 Einträge
+[2026-09-07 07:37:04] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-07 07:37:04] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-07 07:37:05] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-09-07 07:37:05] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-07 07:37:06] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-07 07:37:06] 225 relevante Treffer in Feeds
+[2026-09-07 07:37:06] ✅ 5 NEUE Einträge gefunden:
+[2026-09-07 07:37:06]    05.01.2024 | in Krankenhaus |  | Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus
+[2026-09-07 07:37:06]    04.05.2023 | Helios Klinikum Pforzheim |  | Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news.d
+[2026-09-07 07:37:06]    06.09.2026 | Eichhof-Krankenhaus |  | Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-07 07:37:06]    15.07.2021 | Ehranger Krankenhaus |  | Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Min
+[2026-09-07 07:37:06]    06.09.2026 | Eichhof-Krankenhaus |  | Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-07 07:37:06] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-07 07:37:06] === Monitor-Lauf beendet ===
+
+[2026-09-07 07:37:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-07 07:37:07] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-07 07:37:07] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-07 07:37:07] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-07 07:37:07] [enrich] --- Enriche [1/5]: Unglück in Niedersachen: Fünf Tote nach Brand in Krankenhaus
+[2026-09-07 07:37:07] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach-brand-in-krankenhau
+[2026-09-07 07:37:08] [enrich] Volltext extrahiert: 4219 Zeichen von https://rp-online.de/panorama/deutschland/uelzen-5-tote-nach
+[2026-09-07 07:37:13] [enrich] Enrichment abgeschlossen: enriched — Klinikum Uelzen in Uelzen
+[2026-09-07 07:37:14] [enrich] --- Enriche [2/5]: Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news.d
+[2026-09-07 07:37:14] [enrich] Google News URL aufgelöst (v1): https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-p
+[2026-09-07 07:37:15] [enrich] Volltext extrahiert: 270 Zeichen von https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-
+[2026-09-07 07:37:18] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-09-07 07:37:19] [enrich] --- Enriche [3/5]: Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-07 07:37:19] [enrich] Google News URL aufgelöst (v1): https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-ev
+[2026-09-07 07:37:21] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rett
+[2026-09-07 07:37:22] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/ein Trainingsszenario, keinen echten Brand in einem deutschen Krankenhaus. Es wird explizit von einer 'Feuerwehr- und Rettungsdienstübung' und einem 'angenommenen Brand' berichtet.
+[2026-09-07 07:37:23] [enrich] --- Enriche [4/5]: Hochwasser: Evakuierung in Ehranger Krankenhaus: Nach 45 Min
+[2026-09-07 07:37:24] [enrich] Google News URL aufgelöst (v1): https://www.volksfreund.de/region/trier-trierer-land/evakuierung-in-trier-ehrang
+[2026-09-07 07:37:25] [enrich] Volltext extrahiert: 2479 Zeichen von https://www.volksfreund.de/region/trier-trierer-land/evakuie
+[2026-09-07 07:37:26] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Hochwasser, nicht wegen Brand
+[2026-09-07 07:37:27] [enrich] --- Enriche [5/5]: Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-07 07:37:27] [enrich] Google News URL aufgelöst (v1): https://cedarnews.net/german/967123/feuerwehr-rettungsdienst-proben-evakuierung-
+[2026-09-07 07:37:28] [enrich] Volltext extrahiert: 1045 Zeichen von https://cedarnews.net/german/967123/feuerwehr-rettungsdienst
+[2026-09-07 07:37:29] [enrich] FALSE POSITIVE erkannt: Dies ist eine Brandschutzübung/Evakuierungsübung, kein tatsächlicher Brand in einem Krankenhaus
+[2026-09-07 07:37:29] [enrich] Ergebnis: 2 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-09-07 07:37:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-07 07:37:29] [DEDUP] Starte Dedup für 904 Einträge
+[2026-09-07 07:37:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-07 07:37:30] [DEDUP] Auto-Merge (1.00): Klinikum Uelzen / Uelzen ↔ Klinikum Uelzen / Uelzen
+[2026-09-07 07:37:31] [DEDUP] Auto-Merge (0.86): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-09-07 07:37:31] [DEDUP] Paare verglichen: 25051
+[2026-09-07 07:37:32] [DEDUP] Auto-Merges: 2
+[2026-09-07 07:37:32] [DEDUP] Kandidaten (unsicher): 728
+[2026-09-07 07:37:32] [DEDUP] Cluster 2x: Klinikum Uelzen, Klinikum Uelzen
+[2026-09-07 07:37:32] [DEDUP] Cluster 2x: Helios-Klinikum Pforzheim, Helios Klinikum Pforzheim
+[2026-09-07 07:37:32] [DEDUP] Ergebnis: 902 Einträge (war: 904, 2 zusammengeführt)
+[2026-09-07 07:37:32] [DEDUP] Kandidaten-Datei: 728 pending, 2 confirmed, 0 rejected
+[2026-09-07 07:37:32] [DEDUP] Gespeichert: 904 → 902 Einträge
