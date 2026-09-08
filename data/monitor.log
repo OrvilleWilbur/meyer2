@@ -34937,3 +34937,62 @@
 [2026-09-07 07:37:32] [DEDUP] Ergebnis: 902 Einträge (war: 904, 2 zusammengeführt)
 [2026-09-07 07:37:32] [DEDUP] Kandidaten-Datei: 728 pending, 2 confirmed, 0 rejected
 [2026-09-07 07:37:32] [DEDUP] Gespeichert: 904 → 902 Einträge
+[2026-09-08 07:29:28] === Monitor-Lauf gestartet ===
+[2026-09-08 07:29:29] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-08 07:29:30] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-08 07:29:30] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-09-08 07:29:31] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-09-08 07:29:31] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-08 07:29:31] Feed 'gn_brand_klinik': 52 Einträge
+[2026-09-08 07:29:32] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-09-08 07:29:32] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-08 07:29:33] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-09-08 07:29:33] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-09-08 07:29:34] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-08 07:29:34] 233 relevante Treffer in Feeds
+[2026-09-08 07:29:34] ✅ 5 NEUE Einträge gefunden:
+[2026-09-08 07:29:34]    02.06.2025 | Hamburger Krankenhaus |  | News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-09-08 07:29:34]    02.07.2026 |  |  | Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z Ber
+[2026-09-08 07:29:34]    10.01.2025 | im Klinikum Kulmbach |  | Patient legt kleinen Brand im Klinikum Kulmbach: Krankenschw
+[2026-09-08 07:29:34]    04.05.2023 | Helios Klinikum Pforzheim |  | Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news
+[2026-09-08 07:29:34]    08.09.2026 |  |  | Sandsäcke im Akkord: Wenn Feuerwehr und THW zusammenspielen
+[2026-09-08 07:29:34] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-08 07:29:34] === Monitor-Lauf beendet ===
+
+[2026-09-08 07:29:34] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-08 07:29:34] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-08 07:29:34] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-08 07:29:34] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-08 07:29:34] [enrich] --- Enriche [1/5]: News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand i
+[2026-09-08 07:29:35] [enrich] Google News URL aufgelöst (v1): https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburge
+[2026-09-08 07:29:36] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-na
+[2026-09-08 07:29:41] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Hamburg-Hohenfelde (Name nicht vollständig angegeben) in Hamburg
+[2026-09-08 07:29:42] [enrich] --- Enriche [2/5]: Ludwigslust: Feuer in Klinik! Mindestens zwei Tote - B.Z Ber
+[2026-09-08 07:29:42] [enrich] Google News URL aufgelöst (v1): https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-09-08 07:29:43] [enrich] Artikel-Fetch fehlgeschlagen für https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote: 403 Client Error: Forbidden for url: https://www.bz-berlin.de/deutschland/feuer-in-klinik-mindestens-zwei-tote
+[2026-09-08 07:29:43] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (420 Z.)
+[2026-09-08 07:29:45] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile/Überschrift ohne Textinhalt. Die tatsächliche Berichterstattung ist nicht verfügbar - es kann sich um einen Brand in einer Klinik handeln, aber ohne den eigentlichen Artikeltext kann nicht überprüft werden, ob es sich um einen Brand IN der Klinik (in Deutschland) handelt oder um einen anderen Kontext (z.B. Brandopfer in Klinik, Brand in der Nähe, ausländischer Brand).
+[2026-09-08 07:29:46] [enrich] --- Enriche [3/5]: Patient legt kleinen Brand im Klinikum Kulmbach: Krankenschw
+[2026-09-08 07:29:46] [enrich] Google News URL aufgelöst (v1): https://oberfranken.radiogalaxy.de/amp/patient-legt-kleinen-brand-im-klinikum-ku
+[2026-09-08 07:29:48] [enrich] Volltext extrahiert: 588 Zeichen von https://oberfranken.radiogalaxy.de/amp/patient-legt-kleinen-
+[2026-09-08 07:29:51] [enrich] Enrichment abgeschlossen: enriched — Klinikum Kulmbach in Kulmbach
+[2026-09-08 07:29:52] [enrich] --- Enriche [4/5]: Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news
+[2026-09-08 07:29:53] [enrich] Google News URL aufgelöst (v1): https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-p
+[2026-09-08 07:29:54] [enrich] Volltext extrahiert: 270 Zeichen von https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-
+[2026-09-08 07:29:56] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Pforzheim in Pforzheim
+[2026-09-08 07:29:57] [enrich] --- Enriche [5/5]: Sandsäcke im Akkord: Wenn Feuerwehr und THW zusammenspielen
+[2026-09-08 07:29:58] [enrich] Volltext extrahiert: 3836 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/sandsaecke-im-ak
+[2026-09-08 07:30:00] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Hochwasser-Vorsorgeübung von Feuerwehr und THW zum Betrieb einer Sandsackfüllmaschine. Es geht um Katastrophenschutz bei Hochwasserlagen, nicht um einen Brand in einem Krankenhaus oder einer Klinik.
+[2026-09-08 07:30:00] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-08 07:30:00] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-08 07:30:00] [DEDUP] Starte Dedup für 907 Einträge
+[2026-09-08 07:30:00] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-08 07:30:01] [DEDUP] Auto-Merge (0.86): Helios-Klinikum Pforzheim / Pforzheim ↔ Helios Klinikum Pforzheim / Pforzheim
+[2026-09-08 07:30:02] [DEDUP] Paare verglichen: 25212
+[2026-09-08 07:30:02] [DEDUP] Auto-Merges: 1
+[2026-09-08 07:30:02] [DEDUP] Kandidaten (unsicher): 733
+[2026-09-08 07:30:02] [DEDUP] Cluster 2x: Helios-Klinikum Pforzheim, Helios Klinikum Pforzheim
+[2026-09-08 07:30:02] [DEDUP] Ergebnis: 906 Einträge (war: 907, 1 zusammengeführt)
+[2026-09-08 07:30:02] [DEDUP] Kandidaten-Datei: 733 pending, 2 confirmed, 0 rejected
+[2026-09-08 07:30:02] [DEDUP] Gespeichert: 907 → 906 Einträge
