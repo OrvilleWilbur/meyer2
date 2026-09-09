@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T07:30:02.363413",
+  "generated_at": "2026-09-09T07:37:34.775487",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -810,39 +810,6 @@
         "total": 0.74
       },
       "entry_a": {
-        "einrichtung": "Helios Klinikum Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "05.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "enriched",
-        "link": "https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate-nach-Brand-Tragoedie-Wie-es-am-Helios-Klinikum-Pforzheim-weitergeht-_arid,1932840.html",
-        "titel": "Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klinikum Pforzheim weitergeht - PZ-news"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "03.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "enriched",
-        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
-        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.74,
-      "details": {
-        "datum": 0.3,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.74
-      },
-      "entry_a": {
         "einrichtung": "Klinikum Konstanz",
         "ort": "Konstanz",
         "datum": "18.11.2018",
@@ -925,39 +892,6 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.735,
-      "details": {
-        "datum": 0.7,
-        "ort": 1.0,
-        "einrichtung": 0.5,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.735
-      },
-      "entry_a": {
-        "einrichtung": "Klinik-Notaufnahme Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "04.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "partial",
-        "link": "https://www.rnd.de/panorama/pforzheim-am-bett-fixierter-mann-stirbt-bei-feuer-in-klinik-notaufnahme-K6HAOQRCRNO5HEJZWT7SJAD2OA.html",
-        "titel": "Pforzheim: Am Bett fixierter Mann stirbt bei Feuer in Klinik-Notaufnahme - RND.de"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "03.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "enriched",
-        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
-        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news"
       }
     },
     {
@@ -4093,39 +4027,6 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.65,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.65
-      },
-      "entry_a": {
-        "einrichtung": "Helios Klinikum Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "09.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "enriched",
-        "link": "https://www.pz-news.de/pforzheim_artikel,-Brand-am-Helios-Klinikum-Pforzheim-Mitarbeiter-wollten-fixierten-Patienten-retten-_arid,1855515.html",
-        "titel": "Brand am Helios Klinikum Pforzheim: Mitarbeiter wollten fixierten Patienten retten - PZ-news"
-      },
-      "entry_b": {
-        "einrichtung": "Helios Klinikum Pforzheim",
-        "ort": "Pforzheim",
-        "datum": "03.05.2023",
-        "bundesland": "Baden-Württemberg",
-        "status": "enriched",
-        "link": "https://www.ka-news.de/region/pforzheim/ein-toter-bei-brand-in-helios-klinikum-pforzheim-art-2949691",
-        "titel": "Ein Toter bei Brand in Helios Klinikum Pforzheim - ka-news"
       }
     },
     {

@@ -34996,3 +34996,43 @@
 [2026-09-08 07:30:02] [DEDUP] Ergebnis: 906 Einträge (war: 907, 1 zusammengeführt)
 [2026-09-08 07:30:02] [DEDUP] Kandidaten-Datei: 733 pending, 2 confirmed, 0 rejected
 [2026-09-08 07:30:02] [DEDUP] Gespeichert: 907 → 906 Einträge
+[2026-09-09 07:37:24] === Monitor-Lauf gestartet ===
+[2026-09-09 07:37:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-09 07:37:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-09 07:37:25] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-09-09 07:37:26] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-09 07:37:26] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-09 07:37:26] Feed 'gn_brand_klinik': 52 Einträge
+[2026-09-09 07:37:27] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-09-09 07:37:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-09 07:37:27] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-09-09 07:37:28] Feed 'gn_evakuierung_klinik': 37 Einträge
+[2026-09-09 07:37:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-09 07:37:29] 229 relevante Treffer in Feeds
+[2026-09-09 07:37:29] ✅ 1 NEUE Einträge gefunden:
+[2026-09-09 07:37:29]    12.01.2025 | Asklepios-Klinikum Göttingen aus |  | Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-09-09 07:37:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-09 07:37:29] === Monitor-Lauf beendet ===
+
+[2026-09-09 07:37:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-09 07:37:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-09 07:37:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-09 07:37:29] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-09 07:37:29] [enrich] --- Enriche [1/1]: Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-09-09 07:37:29] [enrich] Google News URL aufgelöst (v1): https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a
+[2026-09-09 07:37:30] [enrich] Artikel-Fetch fehlgeschlagen für https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a: 403 Client Error: Forbidden for url: https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-am-asklepios-klinikum-goettingen-brand-auf-station-BNSBKB7UXBBN3MAYTAL6VPELB4.html
+[2026-09-09 07:37:30] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (598 Z.)
+[2026-09-09 07:37:32] [enrich] Enrichment abgeschlossen: partial — Asklepios-Klinikum Göttingen in Göttingen
+[2026-09-09 07:37:32] [enrich] Ergebnis: 0 enriched, 1 partial, 0 false_positive, 0 failed
+[2026-09-09 07:37:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-09 07:37:33] [DEDUP] Starte Dedup für 907 Einträge
+[2026-09-09 07:37:33] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-09 07:37:34] [DEDUP] Auto-Merge (1.00): Asklepios-Klinikum Göttingen / Göttingen ↔ Asklepios-Klinikum Göttingen / Göttingen
+[2026-09-09 07:37:34] [DEDUP] Paare verglichen: 25209
+[2026-09-09 07:37:34] [DEDUP] Auto-Merges: 1
+[2026-09-09 07:37:34] [DEDUP] Kandidaten (unsicher): 730
+[2026-09-09 07:37:34] [DEDUP] Cluster 2x: Asklepios-Klinikum Göttingen, Asklepios-Klinikum Göttingen
+[2026-09-09 07:37:34] [DEDUP] Ergebnis: 906 Einträge (war: 907, 1 zusammengeführt)
+[2026-09-09 07:37:34] [DEDUP] Kandidaten-Datei: 730 pending, 2 confirmed, 0 rejected
+[2026-09-09 07:37:34] [DEDUP] Gespeichert: 907 → 906 Einträge
