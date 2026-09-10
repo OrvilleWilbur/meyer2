@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:37:34.775487",
+  "generated_at": "2026-09-10T07:34:38.095583",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -20527,6 +20527,72 @@
         "status": "false_positive",
         "link": "https://cedarnews.net/german/967123/feuerwehr-rettungsdienst-proben-evakuierung-eichhof-krankenhaus/",
         "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - cedarnews.net"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-evakuierung-im-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - Oberhessen-Live"
+      },
+      "entry_b": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-evakuierung-im-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - oberhessen-live.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://cedarnews.net/german/967123/feuerwehr-rettungsdienst-proben-evakuierung-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - cedarnews.net"
+      },
+      "entry_b": {
+        "einrichtung": "Eichhof-Krankenhaus",
+        "ort": "",
+        "datum": "06.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-evakuierung-im-eichhof-krankenhaus/",
+        "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - oberhessen-live.de"
       }
     },
     {

@@ -35036,3 +35036,62 @@
 [2026-09-09 07:37:34] [DEDUP] Ergebnis: 906 Einträge (war: 907, 1 zusammengeführt)
 [2026-09-09 07:37:34] [DEDUP] Kandidaten-Datei: 730 pending, 2 confirmed, 0 rejected
 [2026-09-09 07:37:34] [DEDUP] Gespeichert: 907 → 906 Einträge
+[2026-09-10 07:34:07] === Monitor-Lauf gestartet ===
+[2026-09-10 07:34:08] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-10 07:34:09] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-10 07:34:09] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-09-10 07:34:10] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-09-10 07:34:10] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-10 07:34:11] Feed 'gn_brand_klinik': 50 Einträge
+[2026-09-10 07:34:11] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-09-10 07:34:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-10 07:34:12] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-09-10 07:34:12] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-10 07:34:13] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-10 07:34:13] 227 relevante Treffer in Feeds
+[2026-09-10 07:34:14] ✅ 5 NEUE Einträge gefunden:
+[2026-09-10 07:34:14]    06.08.2026 | im Klinikum Solingen |  | Schwelbrand in Reinigungsraum: Feuer im Klinikum Solingen - 
+[2026-09-10 07:34:14]    26.04.2022 | Uniklinik Essen und an Tankstelle |  | Feuer in Uniklinik Essen und an Tankstelle - radioessen.de
+[2026-09-10 07:34:14]    20.03.2024 | Al-Schifa-Krankenhaus |  | Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Kranke
+[2026-09-10 07:34:14]    28.08.2026 |  |  | Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-09-10 07:34:14]    06.09.2026 | Eichhof-Krankenhaus |  | Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-10 07:34:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-10 07:34:14] === Monitor-Lauf beendet ===
+
+[2026-09-10 07:34:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-10 07:34:14] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-10 07:34:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-10 07:34:14] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-10 07:34:14] [enrich] --- Enriche [1/5]: Schwelbrand in Reinigungsraum: Feuer im Klinikum Solingen - 
+[2026-09-10 07:34:14] [enrich] Google News URL aufgelöst (v1): https://rp-online.de/nrw/staedte/solingen/feuerwehr-einsatz-in-solingen-schwelbr
+[2026-09-10 07:34:15] [enrich] Volltext extrahiert: 1168 Zeichen von https://rp-online.de/nrw/staedte/solingen/feuerwehr-einsatz-
+[2026-09-10 07:34:19] [enrich] Enrichment abgeschlossen: enriched — Klinikum Solingen in Solingen
+[2026-09-10 07:34:20] [enrich] --- Enriche [2/5]: Feuer in Uniklinik Essen und an Tankstelle - radioessen.de
+[2026-09-10 07:34:20] [enrich] Google News URL aufgelöst (v1): https://www.radioessen.de/artikel/feuer-in-uniklinik-essen-und-an-tankstelle-129
+[2026-09-10 07:34:21] [enrich] Volltext extrahiert: 793 Zeichen von https://www.radioessen.de/artikel/feuer-in-uniklinik-essen-u
+[2026-09-10 07:34:25] [enrich] Enrichment abgeschlossen: enriched — Uniklinik Essen in Essen
+[2026-09-10 07:34:26] [enrich] --- Enriche [3/5]: Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Kranke
+[2026-09-10 07:34:26] [enrich] Google News URL aufgelöst (v1): https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenh
+[2026-09-10 07:34:27] [enrich] Volltext extrahiert: 247 Zeichen von https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-vo
+[2026-09-10 07:34:28] [enrich] FALSE POSITIVE erkannt: Artikel behandelt Landtagswahl in Sachsen-Anhalt, kein Bezug zu Brand in Krankenhaus oder Klinik
+[2026-09-10 07:34:29] [enrich] --- Enriche [4/5]: Großeinsatz: Krankenhaus Johanneum wird evakuiert – die Bild
+[2026-09-10 07:34:29] [enrich] Google News URL aufgelöst (v1): https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-ort49926/grosseinsatz
+[2026-09-10 07:34:31] [enrich] Volltext extrahiert: 1065 Zeichen von https://www.kreiszeitung.de/lokales/oldenburg/wildeshausen-o
+[2026-09-10 07:34:32] [enrich] FALSE POSITIVE erkannt: Evakuierung aufgrund eines Stromausfalls, nicht aufgrund eines Brandes
+[2026-09-10 07:34:33] [enrich] --- Enriche [5/5]: Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-K
+[2026-09-10 07:34:33] [enrich] Google News URL aufgelöst (v1): https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-ev
+[2026-09-10 07:34:34] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rett
+[2026-09-10 07:34:36] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Brandschutzübung/Evakuierungsübung im Krankenhaus, keinen echten Brand. Es handelt sich um ein trainiertes Szenario mit angenommenen Brandverletzungen und Patientendarstellern, nicht um einen realen Brandfall.
+[2026-09-10 07:34:36] [enrich] Ergebnis: 2 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-09-10 07:34:36] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-10 07:34:36] [DEDUP] Starte Dedup für 911 Einträge
+[2026-09-10 07:34:36] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-10 07:34:37] [DEDUP] Auto-Merge (0.90): Essener Universitätsklinikum (Uniklinik  / Essen ↔ Uniklinik Essen / Essen
+[2026-09-10 07:34:38] [DEDUP] Paare verglichen: 25349
+[2026-09-10 07:34:38] [DEDUP] Auto-Merges: 1
+[2026-09-10 07:34:38] [DEDUP] Kandidaten (unsicher): 732
+[2026-09-10 07:34:38] [DEDUP] Cluster 2x: Essener Universitätsklinikum (Uniklinik , Uniklinik Essen
+[2026-09-10 07:34:38] [DEDUP] Ergebnis: 910 Einträge (war: 911, 1 zusammengeführt)
+[2026-09-10 07:34:38] [DEDUP] Kandidaten-Datei: 732 pending, 2 confirmed, 0 rejected
+[2026-09-10 07:34:38] [DEDUP] Gespeichert: 911 → 910 Einträge
