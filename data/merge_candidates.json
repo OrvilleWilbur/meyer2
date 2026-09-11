@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T07:34:38.095583",
+  "generated_at": "2026-09-11T07:32:42.425353",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -12970,6 +12970,39 @@
         "status": "false_positive",
         "link": "https://www.br.de/nachrichten/deutschland-welt/israels-militaer-stuermt-al-schifa-klinik-berichte-ueber-tote,U7MFH0l",
         "titel": "Israels Militär evakuiert erneut Al-Schifa-Krankenhaus - br.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "20.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-auf-100.html",
+        "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus auf - deutschlandfunk.de"
+      },
+      "entry_b": {
+        "einrichtung": "Al-Schifa-Krankenhaus",
+        "ort": "",
+        "datum": "20.03.2024",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.deutschlandfunk.de/israel-ruft-zu-evakuierung-von-al-schifa-krankenhaus-auf-100.html",
+        "titel": "Gaza-Stadt - Israel ruft zu Evakuierung von Al-Schifa-Krankenhaus auf - Deutschlandfunk"
       }
     },
     {
