@@ -35132,3 +35132,67 @@
 [2026-09-11 07:32:42] [DEDUP] Ergebnis: 911 Einträge (war: 911, 0 zusammengeführt)
 [2026-09-11 07:32:42] [DEDUP] Kandidaten-Datei: 733 pending, 2 confirmed, 0 rejected
 [2026-09-11 07:32:42] [DEDUP] Gespeichert: 911 → 911 Einträge
+[2026-09-12 07:23:56] === Monitor-Lauf gestartet ===
+[2026-09-12 07:23:57] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-12 07:23:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-12 07:23:58] Feed 'gn_brand_krankenhaus': 59 Einträge
+[2026-09-12 07:23:58] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-09-12 07:23:58] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-12 07:23:59] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-12 07:23:59] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-12 07:24:00] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-12 07:24:00] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-09-12 07:24:00] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-12 07:24:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-12 07:24:01] 233 relevante Treffer in Feeds
+[2026-09-12 07:24:01] ✅ 5 NEUE Einträge gefunden:
+[2026-09-12 07:24:01]    05.01.2024 | Uelzener Krankenhaus |  | Fünf Tote bei Brand in Uelzener Krankenhaus: „Tragisches und
+[2026-09-12 07:24:01]    09.05.2026 | Hamburger Krankenhaus |  | Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-09-12 07:24:01]    10.05.2021 | Hirslanden-Klinik |  | Brand auf dem Dach der Hirslanden-Klinik in Zürich - Watson
+[2026-09-12 07:24:01]    12.01.2025 | Asklepios-Klinikum Göttingen aus |  | Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-09-12 07:24:01]    05.07.2019 | am Klinikum |  | Großeinsatz am Klinikum: Pforte bemerkte Brand, Feuerwehr rü
+[2026-09-12 07:24:01] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-12 07:24:01] === Monitor-Lauf beendet ===
+
+[2026-09-12 07:24:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-12 07:24:02] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-12 07:24:02] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-12 07:24:02] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-12 07:24:02] [enrich] --- Enriche [1/5]: Fünf Tote bei Brand in Uelzener Krankenhaus: „Tragisches und
+[2026-09-12 07:24:02] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/uelzen-brand-in-kranke
+[2026-09-12 07:24:04] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.noz.de/deutschland-welt/niedersachsen/artikel/ue
+[2026-09-12 07:24:08] [enrich] Enrichment abgeschlossen: enriched — Helios Klinikum Uelzen in Uelzen
+[2026-09-12 07:24:09] [enrich] --- Enriche [2/5]: Brände - Feuer in Hamburger Krankenhaus: Mitarbeiter leicht 
+[2026-09-12 07:24:09] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/braende-feuer-in-hamburger-krankenhaus-mita
+[2026-09-12 07:24:10] [enrich] Volltext extrahiert: 1569 Zeichen von https://www.sueddeutsche.de/panorama/braende-feuer-in-hambur
+[2026-09-12 07:24:13] [enrich] Enrichment abgeschlossen: enriched — Asklepios Klinik Wandsbek in Hamburg
+[2026-09-12 07:24:14] [enrich] --- Enriche [3/5]: Brand auf dem Dach der Hirslanden-Klinik in Zürich - Watson
+[2026-09-12 07:24:14] [enrich] Google News URL aufgelöst (v1): https://www.watson.ch/schweiz/polizeirapport/917725326-brand-auf-dem-dach-der-hi
+[2026-09-12 07:24:15] [enrich] Volltext extrahiert: 2648 Zeichen von https://www.watson.ch/schweiz/polizeirapport/917725326-brand
+[2026-09-12 07:24:17] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in der Schweiz (Zürich), nicht in Deutschland. Die Vorgaben beziehen sich explizit auf Brände in deutschen Krankenhäusern und Kliniken.
+[2026-09-12 07:24:18] [enrich] --- Enriche [4/5]: Brand auf Station: Feuerwehr rückt zum Asklepios-Klinikum Gö
+[2026-09-12 07:24:18] [enrich] Google News URL aufgelöst (v1): https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a
+[2026-09-12 07:24:19] [enrich] Artikel-Fetch fehlgeschlagen für https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-a: 403 Client Error: Forbidden for url: https://www.goettinger-tageblatt.de/lokales/goettingen-lk/goettingen/feuerwehr-am-asklepios-klinikum-goettingen-brand-auf-station-BNSBKB7UXBBN3MAYTAL6VPELB4.html
+[2026-09-12 07:24:19] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (596 Z.)
+[2026-09-12 07:24:21] [enrich] Enrichment abgeschlossen: partial — Asklepios-Klinikum Göttingen in Göttingen
+[2026-09-12 07:24:22] [enrich] --- Enriche [5/5]: Großeinsatz am Klinikum: Pforte bemerkte Brand, Feuerwehr rü
+[2026-09-12 07:24:22] [enrich] Google News URL aufgelöst (v1): https://www.come-on.de/luedenscheid/brand-klinikum-feuerwehr-grossaufgebot-12767
+[2026-09-12 07:24:23] [enrich] Volltext extrahiert: 4516 Zeichen von https://www.come-on.de/luedenscheid/brand-klinikum-feuerwehr
+[2026-09-12 07:24:27] [enrich] Enrichment abgeschlossen: enriched — Märkische Kliniken / Klinikum Hellersen in Lüdenscheid
+[2026-09-12 07:24:27] [enrich] Ergebnis: 3 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-09-12 07:24:27] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-12 07:24:27] [DEDUP] Starte Dedup für 916 Einträge
+[2026-09-12 07:24:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-12 07:24:28] [DEDUP] Auto-Merge (0.83): Klinikum Uelzen / Uelzen ↔ Helios Klinikum Uelzen / Uelzen
+[2026-09-12 07:24:28] [DEDUP] Auto-Merge (1.00): Asklepios-Klinikum Göttingen / Göttingen ↔ Asklepios-Klinikum Göttingen / Göttingen
+[2026-09-12 07:24:29] [DEDUP] Auto-Merge (0.97): Asklepios Klinik Wandsbek / Hamburg ↔ Asklepios Klinik Wandsbek / Hamburg
+[2026-09-12 07:24:29] [DEDUP] Paare verglichen: 25368
+[2026-09-12 07:24:29] [DEDUP] Auto-Merges: 3
+[2026-09-12 07:24:29] [DEDUP] Kandidaten (unsicher): 735
+[2026-09-12 07:24:29] [DEDUP] Cluster 2x: Klinikum Uelzen, Helios Klinikum Uelzen
+[2026-09-12 07:24:29] [DEDUP] Cluster 2x: Asklepios-Klinikum Göttingen, Asklepios-Klinikum Göttingen
+[2026-09-12 07:24:29] [DEDUP] Cluster 2x: Asklepios Klinik Wandsbek, Asklepios Klinik Wandsbek
+[2026-09-12 07:24:29] [DEDUP] Ergebnis: 913 Einträge (war: 916, 3 zusammengeführt)
+[2026-09-12 07:24:29] [DEDUP] Kandidaten-Datei: 735 pending, 2 confirmed, 0 rejected
+[2026-09-12 07:24:29] [DEDUP] Gespeichert: 916 → 913 Einträge
