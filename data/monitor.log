@@ -35196,3 +35196,57 @@
 [2026-09-12 07:24:29] [DEDUP] Ergebnis: 913 Einträge (war: 916, 3 zusammengeführt)
 [2026-09-12 07:24:29] [DEDUP] Kandidaten-Datei: 735 pending, 2 confirmed, 0 rejected
 [2026-09-12 07:24:29] [DEDUP] Gespeichert: 916 → 913 Einträge
+[2026-09-13 07:42:50] === Monitor-Lauf gestartet ===
+[2026-09-13 07:42:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-13 07:42:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-13 07:42:52] Feed 'gn_brand_krankenhaus': 58 Einträge
+[2026-09-13 07:42:53] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-09-13 07:42:53] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-13 07:42:53] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-13 07:42:54] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-13 07:42:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-13 07:42:55] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-09-13 07:42:55] Feed 'gn_evakuierung_klinik': 36 Einträge
+[2026-09-13 07:42:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-13 07:42:56] 224 relevante Treffer in Feeds
+[2026-09-13 07:42:56] ✅ 4 NEUE Einträge gefunden:
+[2026-09-13 07:42:56]    12.09.2026 | in Krankenhaus gebracht |  | 18 Menschen nach Brand in Krankenhaus gebracht – auch Kinder
+[2026-09-13 07:42:56]    12.09.2026 | ins Krankenhaus gebracht |  | D: 18 Personen nach Feuer im Mehrfamilienhaus in Bremerhaven
+[2026-09-13 07:42:56]    05.07.2019 | am Klinikum |  | Großeinsatz am Klinikum: Pforte bemerkte Brand, Feuerwehr rü
+[2026-09-13 07:42:56]    20.09.2021 | Uniklinik |  | Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-09-13 07:42:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-13 07:42:56] === Monitor-Lauf beendet ===
+
+[2026-09-13 07:42:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-13 07:42:56] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-13 07:42:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-13 07:42:56] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-13 07:42:56] [enrich] --- Enriche [1/4]: 18 Menschen nach Brand in Krankenhaus gebracht – auch Kinder
+[2026-09-13 07:42:57] [enrich] Google News URL aufgelöst (v1): https://www.noz.de/deutschland-welt/niedersachsen/artikel/18-menschen-nach-brand
+[2026-09-13 07:42:57] [enrich] Volltext extrahiert: 1823 Zeichen von https://www.noz.de/deutschland-welt/niedersachsen/artikel/18
+[2026-09-13 07:42:59] [enrich] FALSE POSITIVE erkannt: Brand ereignete sich in einem Mehrfamilienhaus, nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber das ist kein Krankenhausbrand.
+[2026-09-13 07:43:00] [enrich] --- Enriche [2/4]: D: 18 Personen nach Feuer im Mehrfamilienhaus in Bremerhaven
+[2026-09-13 07:43:00] [enrich] Google News URL aufgelöst (v1): https://www.fireworld.at/2026/09/12/d-18-personen-nach-feuer-im-mehrfamilienhaus
+[2026-09-13 07:43:01] [enrich] Volltext extrahiert: 1915 Zeichen von https://www.fireworld.at/2026/09/12/d-18-personen-nach-feuer
+[2026-09-13 07:43:03] [enrich] FALSE POSITIVE erkannt: Brand in einem Mehrfamilienhaus (Wohnungsbrand), nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Behandlung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer medizinischen Einrichtung statt.
+[2026-09-13 07:43:04] [enrich] --- Enriche [3/4]: Großeinsatz am Klinikum: Pforte bemerkte Brand, Feuerwehr rü
+[2026-09-13 07:43:04] [enrich] Google News URL aufgelöst (v1): https://www.come-on.de/luedenscheid/brand-klinikum-feuerwehr-grossaufgebot-12767
+[2026-09-13 07:43:05] [enrich] Volltext extrahiert: 4450 Zeichen von https://www.come-on.de/luedenscheid/brand-klinikum-feuerwehr
+[2026-09-13 07:43:09] [enrich] Enrichment abgeschlossen: enriched — Märkische Kliniken (Klinikum Hellersen) in Lüdenscheid
+[2026-09-13 07:43:10] [enrich] --- Enriche [4/4]: Würzburg: Brand in Uniklinik: Großaufgebot von Rettungskräft
+[2026-09-13 07:43:11] [enrich] Google News URL aufgelöst (v1): https://www.mainpost.de/regional/wuerzburg/brand-in-uniklinik-grossaufgebot-von-
+[2026-09-13 07:43:12] [enrich] Volltext zu kurz/leer (154 Z.), verwende RSS-Snippet (552 Z.)
+[2026-09-13 07:43:13] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Textinhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN der Uniklinik stattgefunden hat oder ob es sich um einen anderen Vorfall handelt. Zur verlässlichen Klassifizierung ist der vollständige Artikeltext erforderlich.
+[2026-09-13 07:43:13] [enrich] Ergebnis: 1 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-09-13 07:43:13] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-13 07:43:13] [DEDUP] Starte Dedup für 917 Einträge
+[2026-09-13 07:43:13] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-13 07:43:15] [DEDUP] Auto-Merge (0.99): Märkische Kliniken / Klinikum Hellersen / Lüdenscheid ↔ Märkische Kliniken (Klinikum Hellersen) / Lüdenscheid
+[2026-09-13 07:43:16] [DEDUP] Paare verglichen: 25428
+[2026-09-13 07:43:16] [DEDUP] Auto-Merges: 1
+[2026-09-13 07:43:16] [DEDUP] Kandidaten (unsicher): 734
+[2026-09-13 07:43:16] [DEDUP] Cluster 2x: Märkische Kliniken / Klinikum Hellersen, Märkische Kliniken (Klinikum Hellersen)
+[2026-09-13 07:43:16] [DEDUP] Ergebnis: 916 Einträge (war: 917, 1 zusammengeführt)
+[2026-09-13 07:43:16] [DEDUP] Kandidaten-Datei: 734 pending, 2 confirmed, 0 rejected
+[2026-09-13 07:43:16] [DEDUP] Gespeichert: 917 → 916 Einträge
