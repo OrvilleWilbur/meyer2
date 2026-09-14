@@ -35250,3 +35250,42 @@
 [2026-09-13 07:43:16] [DEDUP] Ergebnis: 916 Einträge (war: 917, 1 zusammengeführt)
 [2026-09-13 07:43:16] [DEDUP] Kandidaten-Datei: 734 pending, 2 confirmed, 0 rejected
 [2026-09-13 07:43:16] [DEDUP] Gespeichert: 917 → 916 Einträge
+[2026-09-14 08:11:16] === Monitor-Lauf gestartet ===
+[2026-09-14 08:11:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-14 08:11:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-14 08:11:19] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-09-14 08:11:19] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-14 08:11:19] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-09-14 08:11:20] Feed 'gn_brand_klinik': 49 Einträge
+[2026-09-14 08:11:20] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-14 08:11:20] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-14 08:11:21] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-09-14 08:11:21] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-09-14 08:11:23] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-14 08:11:23] 220 relevante Treffer in Feeds
+[2026-09-14 08:11:23] ✅ 1 NEUE Einträge gefunden:
+[2026-09-14 08:11:23]    02.07.2026 | zum Krankenhaus |  | Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-14 08:11:23] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-14 08:11:23] === Monitor-Lauf beendet ===
+
+[2026-09-14 08:11:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-14 08:11:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-14 08:11:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-14 08:11:23] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-14 08:11:23] [enrich] --- Enriche [1/1]: Notfälle - Was wir zum Krankenhaus-Brand wissen - und was ni
+[2026-09-14 08:11:23] [enrich] Google News URL aufgelöst (v1): https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wis
+[2026-09-14 08:11:24] [enrich] Volltext extrahiert: 2658 Zeichen von https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-k
+[2026-09-14 08:11:28] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-14 08:11:28] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-09-14 08:11:28] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-14 08:11:28] [DEDUP] Starte Dedup für 917 Einträge
+[2026-09-14 08:11:28] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-14 08:11:30] [DEDUP] Auto-Merge (0.91): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-14 08:11:30] [DEDUP] Paare verglichen: 25434
+[2026-09-14 08:11:30] [DEDUP] Auto-Merges: 1
+[2026-09-14 08:11:30] [DEDUP] Kandidaten (unsicher): 738
+[2026-09-14 08:11:30] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-14 08:11:31] [DEDUP] Ergebnis: 916 Einträge (war: 917, 1 zusammengeführt)
+[2026-09-14 08:11:31] [DEDUP] Kandidaten-Datei: 738 pending, 2 confirmed, 0 rejected
+[2026-09-14 08:11:31] [DEDUP] Gespeichert: 917 → 916 Einträge

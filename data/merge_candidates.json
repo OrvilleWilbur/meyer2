@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:43:16.262842",
+  "generated_at": "2026-09-14T08:11:31.009582",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -397,6 +397,39 @@
         "status": "enriched",
         "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
         "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.23076923076923078,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -1156,6 +1189,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.712,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.25,
+        "total": 0.712
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - sueddeutsche.de"
       }
     },
     {
@@ -22811,6 +22877,39 @@
         "",
         ""
       ],
+      "score": 0.489,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.1111111111111111,
+        "total": 0.489
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - sueddeutsche.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.483,
       "details": {
         "datum": 0.0,
@@ -24223,6 +24322,39 @@
         "status": "enriched",
         "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
         "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.458,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.15384615384615385,
+        "total": 0.458
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Krankenhaus",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
+        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.sueddeutsche.de/panorama/notfaelle-was-wir-zum-krankenhaus-brand-wissen-und-was-nicht-dpa.urn-newsml-dpa-com-20090101-260702-930-319837",
+        "titel": "Notfälle - Was wir zum Krankenhaus-Brand wissen - und was nicht - Panorama - SZ.de - sueddeutsche.de"
       }
     }
   ],
