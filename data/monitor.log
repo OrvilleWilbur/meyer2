@@ -35289,3 +35289,45 @@
 [2026-09-14 08:11:31] [DEDUP] Ergebnis: 916 Einträge (war: 917, 1 zusammengeführt)
 [2026-09-14 08:11:31] [DEDUP] Kandidaten-Datei: 738 pending, 2 confirmed, 0 rejected
 [2026-09-14 08:11:31] [DEDUP] Gespeichert: 917 → 916 Einträge
+[2026-09-15 08:04:51] === Monitor-Lauf gestartet ===
+[2026-09-15 08:04:52] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-15 08:04:53] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-15 08:04:53] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-09-15 08:04:53] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-15 08:04:54] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-15 08:04:54] Feed 'gn_brand_klinik': 43 Einträge
+[2026-09-15 08:04:54] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-15 08:04:55] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-15 08:04:55] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-15 08:04:56] Feed 'gn_evakuierung_klinik': 35 Einträge
+[2026-09-15 08:04:57] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-15 08:04:57] 228 relevante Treffer in Feeds
+[2026-09-15 08:04:57] ✅ 2 NEUE Einträge gefunden:
+[2026-09-15 08:04:57]    07.06.2026 | ins Krankenhaus gebracht |  | Brand in Stuttgart-Süd - Kind ins Krankenhaus gebracht - SWR
+[2026-09-15 08:04:57]    29.08.2025 | ins Krankenhaus gebracht |  | Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-09-15 08:04:57] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-15 08:04:57] === Monitor-Lauf beendet ===
+
+[2026-09-15 08:04:57] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-15 08:04:57] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-15 08:04:57] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-15 08:04:57] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-15 08:04:57] [enrich] --- Enriche [1/2]: Brand in Stuttgart-Süd - Kind ins Krankenhaus gebracht - SWR
+[2026-09-15 08:04:58] [enrich] Google News URL aufgelöst (v1): https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/brand-in-stuttgart-su
+[2026-09-15 08:05:00] [enrich] Volltext extrahiert: 411 Zeichen von https://www.swr.de/swraktuell/baden-wuerttemberg/stuttgart/b
+[2026-09-15 08:05:01] [enrich] FALSE POSITIVE erkannt: Brand in Wohngebäude (Stuttgart-Süd), Kind wird nach dem Brand ins Krankenhaus gebracht - dies ist kein Brand IN einem Krankenhaus
+[2026-09-15 08:05:02] [enrich] --- Enriche [2/2]: Hotel-Brand in Alcúdia: zwei Kinder ins Krankenhaus gebracht
+[2026-09-15 08:05:02] [enrich] Google News URL aufgelöst (v1): https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hotel-in-alcudia-121055
+[2026-09-15 08:05:04] [enrich] Volltext extrahiert: 3453 Zeichen von https://www.mallorcazeitung.es/panorama/2025/08/29/brand-hot
+[2026-09-15 08:05:05] [enrich] FALSE POSITIVE erkannt: Brand in einem Hotel auf Mallorca (Spanien), nicht in Deutschland. Zwei Kinder wurden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einem Krankenhaus statt, sondern in einem Hotel im Ausland.
+[2026-09-15 08:05:05] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-15 08:05:05] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-15 08:05:05] [DEDUP] Starte Dedup für 918 Einträge
+[2026-09-15 08:05:05] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-15 08:05:08] [DEDUP] Paare verglichen: 25603
+[2026-09-15 08:05:08] [DEDUP] Auto-Merges: 0
+[2026-09-15 08:05:08] [DEDUP] Kandidaten (unsicher): 736
+[2026-09-15 08:05:08] [DEDUP] Ergebnis: 918 Einträge (war: 918, 0 zusammengeführt)
+[2026-09-15 08:05:08] [DEDUP] Kandidaten-Datei: 736 pending, 2 confirmed, 0 rejected
+[2026-09-15 08:05:08] [DEDUP] Gespeichert: 918 → 918 Einträge
