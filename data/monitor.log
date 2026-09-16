@@ -35331,3 +35331,64 @@
 [2026-09-15 08:05:08] [DEDUP] Ergebnis: 918 Einträge (war: 918, 0 zusammengeführt)
 [2026-09-15 08:05:08] [DEDUP] Kandidaten-Datei: 736 pending, 2 confirmed, 0 rejected
 [2026-09-15 08:05:08] [DEDUP] Gespeichert: 918 → 918 Einträge
+[2026-09-16 07:58:24] === Monitor-Lauf gestartet ===
+[2026-09-16 07:58:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-16 07:58:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-16 07:58:25] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-09-16 07:58:26] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-09-16 07:58:26] Feed 'gn_feuer_klinik': 39 Einträge
+[2026-09-16 07:58:26] Feed 'gn_brand_klinik': 40 Einträge
+[2026-09-16 07:58:27] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-16 07:58:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-16 07:58:28] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-09-16 07:58:28] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-09-16 07:58:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-16 07:58:29] 220 relevante Treffer in Feeds
+[2026-09-16 07:58:29] ✅ 5 NEUE Einträge gefunden:
+[2026-09-16 07:58:29]    02.07.2026 | in Krankenhaus |  | Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordo
+[2026-09-16 07:58:29]    10.09.2026 | in Krankenhaus |  | Notfälle: Brand in Lörracher Haus - fünf Menschen in Kranken
+[2026-09-16 07:58:29]    24.08.2026 | im Klinikum Cracau |  | Brand im Klinikum Cracau - kompakt media
+[2026-09-16 07:58:29]    04.01.2026 | NRW-Kliniken nehmen Brandopfer |  | Silvester-Inferno in Crans-Montana: NRW-Kliniken nehmen Bran
+[2026-09-16 07:58:29]    28.08.2026 |  |  | Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-09-16 07:58:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-16 07:58:29] === Monitor-Lauf beendet ===
+
+[2026-09-16 07:58:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-16 07:58:29] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-16 07:58:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-16 07:58:29] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-16 07:58:29] [enrich] --- Enriche [1/5]: Zwei Tote und 34 Verletzte bei Brand in Krankenhaus in Nordo
+[2026-09-16 07:58:29] [enrich] Google News URL aufgelöst (v1): https://www.oushinet.com/static/content/germany/CRI%20Spezial/2026-07-02/1522334
+[2026-09-16 07:58:31] [enrich] Volltext extrahiert: 641 Zeichen von https://www.oushinet.com/static/content/germany/CRI%20Spezia
+[2026-09-16 07:58:33] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-16 07:58:34] [enrich] --- Enriche [2/5]: Notfälle: Brand in Lörracher Haus - fünf Menschen in Kranken
+[2026-09-16 07:58:35] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/notfaelle--brand-i
+[2026-09-16 07:58:35] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/notfaelle--brand-i: 403 Client Error: Forbidden for url: https://www.stern.de/gesellschaft/regional/baden-wuerttemberg/notfaelle--brand-in-loerracher-haus---fuenf-menschen-in-krankenhaus-38236078.html
+[2026-09-16 07:58:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (561 Z.)
+[2026-09-16 07:58:36] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einem Haus in Lörrach, bei dem fünf Menschen ins Krankenhaus gebracht wurden. Dies ist ein Wohnungsbrand mit Krankenhauseinlieferung, kein Brand IN einem Krankenhaus.
+[2026-09-16 07:58:37] [enrich] --- Enriche [3/5]: Brand im Klinikum Cracau - kompakt media
+[2026-09-16 07:58:37] [enrich] Google News URL aufgelöst (v1): https://www.kompakt.media/2026/08/24/brand-im-klinikum-cracau/
+[2026-09-16 07:58:53] [enrich] Artikel-Fetch fehlgeschlagen für https://www.kompakt.media/2026/08/24/brand-im-klinikum-cracau/: HTTPSConnectionPool(host='www.kompakt.media', port=443): Read timed out. (read timeout=15)
+[2026-09-16 07:58:53] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (346 Z.)
+[2026-09-16 07:58:54] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur einen Link-Titel ohne substantielle Informationen über den Brand. Es kann nicht überprüft werden, ob ein tatsächlicher Brand in einem deutschen Krankenhaus stattgefunden hat oder ob es sich um einen echten Krankenhausbrand handelt.
+[2026-09-16 07:58:55] [enrich] --- Enriche [4/5]: Silvester-Inferno in Crans-Montana: NRW-Kliniken nehmen Bran
+[2026-09-16 07:58:56] [enrich] Google News URL aufgelöst (v1): https://aachen.t-online.de/region/aachen/id_101066946/feuer-in-crans-montana-opf
+[2026-09-16 07:58:56] [enrich] Volltext extrahiert: 3401 Zeichen von https://aachen.t-online.de/region/aachen/id_101066946/feuer-
+[2026-09-16 07:58:57] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Bar in Crans-Montana (Schweiz), nicht in einem deutschen Krankenhaus. Deutsche Kliniken nehmen lediglich Brandopfer zur Behandlung auf, was kein Krankenhausbrand ist.
+[2026-09-16 07:58:58] [enrich] --- Enriche [5/5]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-09-16 07:58:59] [enrich] Google News URL aufgelöst (v1): https://www.mz.de/panorama/klinik-ohne-strom-schwangere-und-intensivpatienten-ve
+[2026-09-16 07:59:00] [enrich] Volltext extrahiert: 2120 Zeichen von https://www.mz.de/panorama/klinik-ohne-strom-schwangere-und-
+[2026-09-16 07:59:01] [enrich] FALSE POSITIVE erkannt: Stromausfall ohne Brand - kein Feuer im Krankenhaus beschrieben. Es handelt sich um eine Evakuierung wegen technischem Versagen (Notstromaggregat), nicht wegen eines Brandes.
+[2026-09-16 07:59:01] [enrich] Ergebnis: 1 enriched, 0 partial, 4 false_positive, 0 failed
+[2026-09-16 07:59:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-16 07:59:01] [DEDUP] Starte Dedup für 923 Einträge
+[2026-09-16 07:59:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-16 07:59:03] [DEDUP] Auto-Merge (0.90): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-16 07:59:04] [DEDUP] Paare verglichen: 25976
+[2026-09-16 07:59:04] [DEDUP] Auto-Merges: 1
+[2026-09-16 07:59:04] [DEDUP] Kandidaten (unsicher): 741
+[2026-09-16 07:59:04] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-16 07:59:04] [DEDUP] Ergebnis: 922 Einträge (war: 923, 1 zusammengeführt)
+[2026-09-16 07:59:04] [DEDUP] Kandidaten-Datei: 741 pending, 2 confirmed, 0 rejected
+[2026-09-16 07:59:04] [DEDUP] Gespeichert: 923 → 922 Einträge
