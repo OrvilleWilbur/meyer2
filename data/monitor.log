@@ -35392,3 +35392,49 @@
 [2026-09-16 07:59:04] [DEDUP] Ergebnis: 922 Einträge (war: 923, 1 zusammengeführt)
 [2026-09-16 07:59:04] [DEDUP] Kandidaten-Datei: 741 pending, 2 confirmed, 0 rejected
 [2026-09-16 07:59:04] [DEDUP] Gespeichert: 923 → 922 Einträge
+[2026-09-17 08:03:25] === Monitor-Lauf gestartet ===
+[2026-09-17 08:03:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-17 08:03:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-17 08:03:27] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-09-17 08:03:27] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-09-17 08:03:27] Feed 'gn_feuer_klinik': 41 Einträge
+[2026-09-17 08:03:28] Feed 'gn_brand_klinik': 41 Einträge
+[2026-09-17 08:03:28] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-17 08:03:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-17 08:03:29] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-09-17 08:03:29] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-09-17 08:03:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-17 08:03:30] 218 relevante Treffer in Feeds
+[2026-09-17 08:03:30] ✅ 2 NEUE Einträge gefunden:
+[2026-09-17 08:03:30]    26.08.2026 |  |  | Pakistan: 14 Babys sterben bei Brand auf Entbindungsstation 
+[2026-09-17 08:03:30]    24.08.2026 | im Klinikum Cracau |  | Feuerwehr löscht Brand im Klinikum Cracau - MDR.de
+[2026-09-17 08:03:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-17 08:03:30] === Monitor-Lauf beendet ===
+
+[2026-09-17 08:03:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-17 08:03:31] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-17 08:03:31] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-17 08:03:31] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-17 08:03:31] [enrich] --- Enriche [1/2]: Pakistan: 14 Babys sterben bei Brand auf Entbindungsstation 
+[2026-09-17 08:03:31] [enrich] Google News URL aufgelöst (v1): https://www.stern.de/panorama/weltgeschehen/pakistan--14-babys-sterben-bei-brand
+[2026-09-17 08:03:31] [enrich] Artikel-Fetch fehlgeschlagen für https://www.stern.de/panorama/weltgeschehen/pakistan--14-babys-sterben-bei-brand: 403 Client Error: Forbidden for url: https://www.stern.de/panorama/weltgeschehen/pakistan--14-babys-sterben-bei-brand-auf-entbindungsstation-38159968.html
+[2026-09-17 08:03:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (504 Z.)
+[2026-09-17 08:03:32] [enrich] FALSE POSITIVE erkannt: Brand in Pakistan, nicht in Deutschland
+[2026-09-17 08:03:33] [enrich] --- Enriche [2/2]: Feuerwehr löscht Brand im Klinikum Cracau - MDR.de
+[2026-09-17 08:03:33] [enrich] Google News URL aufgelöst (v1): https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/brand-klinikum
+[2026-09-17 08:03:34] [enrich] Volltext extrahiert: 294 Zeichen von https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magd
+[2026-09-17 08:03:37] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau in Magdeburg
+[2026-09-17 08:03:37] [enrich] Ergebnis: 1 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-09-17 08:03:37] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-17 08:03:37] [DEDUP] Starte Dedup für 924 Einträge
+[2026-09-17 08:03:37] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-17 08:03:39] [DEDUP] Auto-Merge (0.91): Klinikum Cracau (ehemals Pfeiffersche St / Magdeburg ↔ Klinikum Cracau / Magdeburg
+[2026-09-17 08:03:39] [DEDUP] Auto-Merge (0.91): Klinikum Cracau Pfeiffers (Universitätsm / Magdeburg ↔ Klinikum Cracau / Magdeburg
+[2026-09-17 08:03:39] [DEDUP] Paare verglichen: 26077
+[2026-09-17 08:03:39] [DEDUP] Auto-Merges: 2
+[2026-09-17 08:03:39] [DEDUP] Kandidaten (unsicher): 737
+[2026-09-17 08:03:39] [DEDUP] Cluster 3x: Klinikum Cracau (ehemals Pfeiffersche St, Klinikum Cracau Pfeiffers (Universitätsm, Klinikum Cracau
+[2026-09-17 08:03:39] [DEDUP] Ergebnis: 922 Einträge (war: 924, 2 zusammengeführt)
+[2026-09-17 08:03:39] [DEDUP] Kandidaten-Datei: 737 pending, 2 confirmed, 0 rejected
+[2026-09-17 08:03:40] [DEDUP] Gespeichert: 924 → 922 Einträge
