@@ -35438,3 +35438,66 @@
 [2026-09-17 08:03:39] [DEDUP] Ergebnis: 922 Einträge (war: 924, 2 zusammengeführt)
 [2026-09-17 08:03:39] [DEDUP] Kandidaten-Datei: 737 pending, 2 confirmed, 0 rejected
 [2026-09-17 08:03:40] [DEDUP] Gespeichert: 924 → 922 Einträge
+[2026-09-18 07:40:24] === Monitor-Lauf gestartet ===
+[2026-09-18 07:40:25] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-18 07:40:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-18 07:40:26] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-09-18 07:40:27] Feed 'gn_feuer_krankenhaus': 45 Einträge
+[2026-09-18 07:40:27] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-09-18 07:40:27] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-18 07:40:28] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-09-18 07:40:28] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-18 07:40:29] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-09-18 07:40:29] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-09-18 07:40:30] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-18 07:40:30] 229 relevante Treffer in Feeds
+[2026-09-18 07:40:30] ✅ 5 NEUE Einträge gefunden:
+[2026-09-18 07:40:30]    20.08.2012 | Northeimer Klinik |  | Feuer in Northeimer Klinik - haz.de
+[2026-09-18 07:40:30]    25.08.2026 | im Klinikum Cracau |  | Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-09-18 07:40:30]    25.08.2026 |  |  | Klinikum Cracau Magdeburg: Brand mit Millionenschaden - welt
+[2026-09-18 07:40:30]    08.05.2023 |  |  | Klinik-Evakuierung Pegnitz: Neue Erkenntnisse zur Ursache - 
+[2026-09-18 07:40:30]    20.10.2020 | im Krankenhaus Seesen |  | Feuer im Krankenhaus Seesen – keine Evakuierung - harzkurier
+[2026-09-18 07:40:30] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-18 07:40:30] === Monitor-Lauf beendet ===
+
+[2026-09-18 07:40:30] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-18 07:40:30] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-18 07:40:30] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-18 07:40:30] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-18 07:40:30] [enrich] --- Enriche [1/5]: Feuer in Northeimer Klinik - haz.de
+[2026-09-18 07:40:30] [enrich] Google News URL aufgelöst (v1): https://www.haz.de/der-norden/feuer-in-northeimer-klinik-MHYCRZSRC547STEREHW57I7
+[2026-09-18 07:40:31] [enrich] Artikel-Fetch fehlgeschlagen für https://www.haz.de/der-norden/feuer-in-northeimer-klinik-MHYCRZSRC547STEREHW57I7: 403 Client Error: Forbidden for url: https://www.haz.de/der-norden/feuer-in-northeimer-klinik-MHYCRZSRC547STEREHW57I776I.html
+[2026-09-18 07:40:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (384 Z.)
+[2026-09-18 07:40:32] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift und einen Link, aber keinen tatsächlichen Textinhalt. Ohne den Artikeltext kann nicht überprüft werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder um einen anderen Kontext.
+[2026-09-18 07:40:33] [enrich] --- Enriche [2/5]: Brand im Klinikum Cracau: 70 Patienten evakuiert | Magdeburg
+[2026-09-18 07:40:33] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d6053c3692834ff6dbf93/br
+[2026-09-18 07:40:34] [enrich] Volltext extrahiert: 4464 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d605
+[2026-09-18 07:40:38] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau in Magdeburg
+[2026-09-18 07:40:39] [enrich] --- Enriche [3/5]: Klinikum Cracau Magdeburg: Brand mit Millionenschaden - welt
+[2026-09-18 07:40:39] [enrich] Google News URL aufgelöst (v1): https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/kl
+[2026-09-18 07:40:39] [enrich] Volltext extrahiert: 1998 Zeichen von https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0
+[2026-09-18 07:40:42] [enrich] Enrichment abgeschlossen: enriched — Klinikum Cracau (Universitätsmedizin Magdeburg) in Magdeburg
+[2026-09-18 07:40:43] [enrich] --- Enriche [4/5]: Klinik-Evakuierung Pegnitz: Neue Erkenntnisse zur Ursache - 
+[2026-09-18 07:40:43] [enrich] Google News URL aufgelöst (v1): https://www.kurier.de/inhalt.sana-klinik-neue-erkenntnisse-zur-ursache.ecf08f7b-
+[2026-09-18 07:40:46] [enrich] Volltext extrahiert: 646 Zeichen von https://www.kurier.de/inhalt.sana-klinik-neue-erkenntnisse-z
+[2026-09-18 07:40:47] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Chemikalien-/Stoffaustritt in der Sana-Klinik, nicht einen Brand. Die Evakuierung erfolgte wegen eines unbekannten ausgetretenen Stoffes, nicht wegen eines Brandes.
+[2026-09-18 07:40:48] [enrich] --- Enriche [5/5]: Feuer im Krankenhaus Seesen – keine Evakuierung - harzkurier
+[2026-09-18 07:40:48] [enrich] Google News URL aufgelöst (v1): https://www.harzkurier.de/region/article230719612/Feuer-im-Krankenhaus-Seesen-ke
+[2026-09-18 07:40:49] [enrich] Volltext extrahiert: 377 Zeichen von https://www.harzkurier.de/region/article230719612/Feuer-im-K
+[2026-09-18 07:40:50] [enrich] Enrichment abgeschlossen: enriched — Asklepios Kliniken Schildautal in Seesen
+[2026-09-18 07:40:50] [enrich] Ergebnis: 3 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-18 07:40:50] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-18 07:40:51] [DEDUP] Starte Dedup für 927 Einträge
+[2026-09-18 07:40:51] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-18 07:40:52] [DEDUP] Auto-Merge (0.97): Asklepios Kliniken Schildautal / Seesen ↔ Asklepios Kliniken Schildautal / Seesen
+[2026-09-18 07:40:53] [DEDUP] Auto-Merge (0.83): Klinikum Cracau (ehemals Pfeiffersche St / Magdeburg ↔ Klinikum Cracau / Magdeburg
+[2026-09-18 07:40:53] [DEDUP] Auto-Merge (0.83): Klinikum Cracau / Magdeburg ↔ Klinikum Cracau (Universitätsmedizin Mag / Magdeburg
+[2026-09-18 07:40:53] [DEDUP] Paare verglichen: 26082
+[2026-09-18 07:40:53] [DEDUP] Auto-Merges: 3
+[2026-09-18 07:40:53] [DEDUP] Kandidaten (unsicher): 737
+[2026-09-18 07:40:53] [DEDUP] Cluster 2x: Asklepios Kliniken Schildautal, Asklepios Kliniken Schildautal
+[2026-09-18 07:40:53] [DEDUP] Cluster 3x: Klinikum Cracau (ehemals Pfeiffersche St, Klinikum Cracau, Klinikum Cracau (Universitätsmedizin Mag
+[2026-09-18 07:40:53] [DEDUP] Ergebnis: 924 Einträge (war: 927, 3 zusammengeführt)
+[2026-09-18 07:40:53] [DEDUP] Kandidaten-Datei: 737 pending, 2 confirmed, 0 rejected
+[2026-09-18 07:40:53] [DEDUP] Gespeichert: 927 → 924 Einträge

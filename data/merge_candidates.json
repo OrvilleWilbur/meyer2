@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:03:39.951331",
+  "generated_at": "2026-09-18T07:40:53.420419",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -140,6 +140,39 @@
         "",
         ""
       ],
+      "score": 0.788,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.3333333333333333,
+        "total": 0.788
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
+        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Cracau (Universitätsmedizin Magdeburg)",
+        "ort": "Magdeburg",
+        "datum": "24.08.2026",
+        "bundesland": "Sachsen-Anhalt",
+        "status": "enriched",
+        "link": "https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/klinikum-cracau-magdeburg-brand-mit-millionenschaden.html",
+        "titel": "Klinikum Cracau Magdeburg: Brand mit Millionenschaden - welt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.785,
       "details": {
         "datum": 0.7,
@@ -232,39 +265,6 @@
         "status": "enriched",
         "link": "https://112-magazin.de/waldeck-frankenberg/kb-feuerwehr/item/37960-feueralarm-im-krankenhaus-evakuierung-laeuft",
         "titel": "Feueralarm im Krankenhaus - Evakuierung läuft - 112-magazin"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.779,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.3333333333333333,
-        "total": 0.779
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Cracau (ehemals Pfeiffersche Stiftungen)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/magdeburg/magdeburg/klinikum-cracau-100,brand-pfeiffers-100.html",
-        "titel": "Brand im Magdeburger Klinikum: Zwei Verletzte, Patientenzimmer gesperrt – Ursache weiter unklar - MDR.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Cracau Pfeiffers (Universitätsmedizin Magdeburg)",
-        "ort": "Magdeburg",
-        "datum": "24.08.2026",
-        "bundesland": "Sachsen-Anhalt",
-        "status": "enriched",
-        "link": "https://www.welt.de/regionales/sachsen-anhalt/article6a8d2a0ae998204a5d80afde/klinikum-cracau-magdeburg-brand-mit-millionenschaden.html",
-        "titel": "Klinikum Cracau Magdeburg: Brand mit Millionenschaden - WELT"
       }
     },
     {
