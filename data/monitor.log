@@ -35552,3 +35552,42 @@
 [2026-09-19 07:36:09] [DEDUP] Ergebnis: 925 Einträge (war: 927, 2 zusammengeführt)
 [2026-09-19 07:36:09] [DEDUP] Kandidaten-Datei: 736 pending, 2 confirmed, 0 rejected
 [2026-09-19 07:36:09] [DEDUP] Gespeichert: 927 → 925 Einträge
+[2026-09-20 07:58:16] === Monitor-Lauf gestartet ===
+[2026-09-20 07:58:17] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-20 07:58:18] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-20 07:58:19] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-09-20 07:58:19] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-20 07:58:19] Feed 'gn_feuer_klinik': 49 Einträge
+[2026-09-20 07:58:20] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-20 07:58:20] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-09-20 07:58:21] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-20 07:58:21] Feed 'gn_feuer_uniklinik': 35 Einträge
+[2026-09-20 07:58:22] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-09-20 07:58:23] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-20 07:58:23] 234 relevante Treffer in Feeds
+[2026-09-20 07:58:23] ✅ 1 NEUE Einträge gefunden:
+[2026-09-20 07:58:23]    03.07.2026 |  |  | Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumm
+[2026-09-20 07:58:23] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-20 07:58:23] === Monitor-Lauf beendet ===
+
+[2026-09-20 07:58:23] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-20 07:58:23] [enrich] googlenewsdecoder v1: verfügbar
+[2026-09-20 07:58:23] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-20 07:58:23] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-20 07:58:23] [enrich] --- Enriche [1/1]: Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumm
+[2026-09-20 07:58:24] [enrich] Google News URL aufgelöst (v1): https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-
+[2026-09-20 07:58:24] [enrich] Volltext extrahiert: 3932 Zeichen von https://www.t-online.de/nachrichten/panorama/gesellschaft/id
+[2026-09-20 07:58:29] [enrich] Enrichment abgeschlossen: enriched — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-20 07:58:29] [enrich] Ergebnis: 1 enriched, 0 partial, 0 false_positive, 0 failed
+[2026-09-20 07:58:29] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-20 07:58:29] [DEDUP] Starte Dedup für 926 Einträge
+[2026-09-20 07:58:29] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-20 07:58:31] [DEDUP] Auto-Merge (0.81): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-20 07:58:31] [DEDUP] Paare verglichen: 26100
+[2026-09-20 07:58:31] [DEDUP] Auto-Merges: 1
+[2026-09-20 07:58:31] [DEDUP] Kandidaten (unsicher): 740
+[2026-09-20 07:58:31] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-20 07:58:31] [DEDUP] Ergebnis: 925 Einträge (war: 926, 1 zusammengeführt)
+[2026-09-20 07:58:31] [DEDUP] Kandidaten-Datei: 740 pending, 2 confirmed, 0 rejected
+[2026-09-20 07:58:31] [DEDUP] Gespeichert: 926 → 925 Einträge

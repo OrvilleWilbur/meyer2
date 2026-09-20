@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T07:36:09.682697",
+  "generated_at": "2026-09-20T07:58:31.299222",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -3506,6 +3506,39 @@
         "",
         ""
       ],
+      "score": 0.665,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.09090909090909091,
+        "total": 0.665
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-krankenhaus-ludwigslust-schaden-liegt-im-millionenbereich.html",
+        "titel": "Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumme - t-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.662,
       "details": {
         "datum": 0.0,
@@ -4918,6 +4951,39 @@
         "status": "enriched",
         "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
         "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.615,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.1,
+        "total": 0.615
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-krankenhaus-ludwigslust-schaden-liegt-im-millionenbereich.html",
+        "titel": "Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumme - t-online.de"
       }
     },
     {
@@ -22936,6 +23002,72 @@
         "status": "partial",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/klorollen-angez%C3%BCndet-brand-in-hanauer-klinikum/ar-AA1NE8LW?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
         "titel": "Klorollen angezündet? - Brand in Hanauer Klinikum - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.483,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.483
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-krankenhaus-ludwigslust-schaden-liegt-im-millionenbereich.html",
+        "titel": "Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumme - t-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.479,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.5714285714285714,
+        "total": 0.479
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Krankenhaus",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
+        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "03.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.t-online.de/nachrichten/panorama/gesellschaft/id_101326826/brand-im-krankenhaus-ludwigslust-schaden-liegt-im-millionenbereich.html",
+        "titel": "Krankenhaus-Brand in Ludwigslust: Polizei nennt Schadenssumme - t-online.de"
       }
     },
     {
