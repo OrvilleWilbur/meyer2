@@ -35591,3 +35591,56 @@
 [2026-09-20 07:58:31] [DEDUP] Ergebnis: 925 Einträge (war: 926, 1 zusammengeführt)
 [2026-09-20 07:58:31] [DEDUP] Kandidaten-Datei: 740 pending, 2 confirmed, 0 rejected
 [2026-09-20 07:58:31] [DEDUP] Gespeichert: 926 → 925 Einträge
+[2026-09-21 08:16:59] === Monitor-Lauf gestartet ===
+[2026-09-21 08:17:00] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-21 08:17:01] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-21 08:17:01] Feed 'gn_brand_krankenhaus': 54 Einträge
+[2026-09-21 08:17:02] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-21 08:17:02] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-09-21 08:17:02] Feed 'gn_brand_klinik': 50 Einträge
+[2026-09-21 08:17:03] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-09-21 08:17:03] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-21 08:17:04] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-21 08:17:04] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-09-21 08:17:05] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-21 08:17:05] 235 relevante Treffer in Feeds
+[2026-09-21 08:17:05] ✅ 3 NEUE Einträge gefunden:
+[2026-09-21 08:17:05]    02.06.2025 | im Krankenhaus |  | Feuer im Krankenhaus in Hamburg: Ich habe gesagt: „Alle raus
+[2026-09-21 08:17:05]    02.07.2026 | in Klinik |  | Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neu
+[2026-09-21 08:17:05]    25.08.2026 | Nach Klinikbrand |  | Nach Klinikbrand in Magdeburg: Millionen-Schaden, Rätsel um 
+[2026-09-21 08:17:05] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-21 08:17:05] === Monitor-Lauf beendet ===
+
+[2026-09-21 08:17:05] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-21 08:17:05] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-21 08:17:05] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-21 08:17:05] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-21 08:17:05] [enrich] --- Enriche [1/3]: Feuer im Krankenhaus in Hamburg: Ich habe gesagt: „Alle raus
+[2026-09-21 08:17:05] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-21 08:17:06] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirwFBVV95cUxNSldycEEzRUFNdEQydjRIWE5hWGw
+[2026-09-21 08:17:06] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-21 08:17:06] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (526 Z.)
+[2026-09-21 08:17:07] [enrich] FALSE POSITIVE erkannt: Der Artikel ist nur eine Schlagzeile/Überschrift ohne Textinhalt. Es kann nicht überprüft werden, ob es sich um einen tatsächlichen Brand IN einem Krankenhaus handelt oder nur um einen Bericht über einen Brand mit Krankenhaus-Bezug. Zur Extraktion wird der vollständige Artikeltext benötigt.
+[2026-09-21 08:17:08] [enrich] --- Enriche [2/3]: Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neu
+[2026-09-21 08:17:08] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-21 08:17:08] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmt
+[2026-09-21 08:17:08] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-21 08:17:08] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (554 Z.)
+[2026-09-21 08:17:10] [enrich] Enrichment abgeschlossen: partial — Klinik Ludwigslust in Ludwigslust
+[2026-09-21 08:17:11] [enrich] --- Enriche [3/3]: Nach Klinikbrand in Magdeburg: Millionen-Schaden, Rätsel um 
+[2026-09-21 08:17:11] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-21 08:17:11] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirwFBVV95cUxObUMxcnNCdU5YRWZDM3BUeDA4WVh
+[2026-09-21 08:17:11] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-21 08:17:11] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (568 Z.)
+[2026-09-21 08:17:14] [enrich] Enrichment abgeschlossen: partial — Klinik Magdeburg (genaue Bezeichnung nicht angegeben) in Magdeburg
+[2026-09-21 08:17:14] [enrich] Ergebnis: 0 enriched, 2 partial, 1 false_positive, 0 failed
+[2026-09-21 08:17:14] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-21 08:17:14] [DEDUP] Starte Dedup für 928 Einträge
+[2026-09-21 08:17:14] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-21 08:17:16] [DEDUP] Paare verglichen: 26143
+[2026-09-21 08:17:16] [DEDUP] Auto-Merges: 0
+[2026-09-21 08:17:16] [DEDUP] Kandidaten (unsicher): 741
+[2026-09-21 08:17:16] [DEDUP] Ergebnis: 928 Einträge (war: 928, 0 zusammengeführt)
+[2026-09-21 08:17:16] [DEDUP] Kandidaten-Datei: 741 pending, 2 confirmed, 0 rejected
+[2026-09-21 08:17:16] [DEDUP] Gespeichert: 928 → 928 Einträge
