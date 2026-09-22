@@ -35644,3 +35644,49 @@
 [2026-09-21 08:17:16] [DEDUP] Ergebnis: 928 Einträge (war: 928, 0 zusammengeführt)
 [2026-09-21 08:17:16] [DEDUP] Kandidaten-Datei: 741 pending, 2 confirmed, 0 rejected
 [2026-09-21 08:17:16] [DEDUP] Gespeichert: 928 → 928 Einträge
+[2026-09-22 07:59:50] === Monitor-Lauf gestartet ===
+[2026-09-22 07:59:51] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-22 07:59:52] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-22 07:59:52] Feed 'gn_brand_krankenhaus': 53 Einträge
+[2026-09-22 07:59:52] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-22 07:59:53] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-22 07:59:53] Feed 'gn_brand_klinik': 53 Einträge
+[2026-09-22 07:59:54] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-09-22 07:59:54] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-22 07:59:55] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-22 07:59:55] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-09-22 07:59:56] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-22 07:59:56] 230 relevante Treffer in Feeds
+[2026-09-22 07:59:56] ✅ 2 NEUE Einträge gefunden:
+[2026-09-22 07:59:56]    02.06.2025 | im Krankenhaus |  | Feuer im Krankenhaus in Hamburg: Ich habe gesagt: „Alle raus
+[2026-09-22 07:59:56]    17.09.2026 | einem Krankenhaus für traditionelle Medizin |  | In einem Krankenhaus für traditionelle Medizin in der Provin
+[2026-09-22 07:59:56] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-22 07:59:56] === Monitor-Lauf beendet ===
+
+[2026-09-22 07:59:56] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-22 07:59:56] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-22 07:59:56] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-22 07:59:56] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-22 07:59:56] [enrich] --- Enriche [1/2]: Feuer im Krankenhaus in Hamburg: Ich habe gesagt: „Alle raus
+[2026-09-22 07:59:56] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-22 07:59:57] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirwFBVV95cUxNSldycEEzRUFNdEQydjRIWE5hWGw
+[2026-09-22 07:59:57] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-22 07:59:57] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (520 Z.)
+[2026-09-22 07:59:58] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile und einen Link ohne Informationen über den tatsächlichen Brandverlauf, Ort, Zeitpunkt oder Details. Die minimalen Informationen erlauben keine zuverlässige Verifizierung, ob es sich um einen Brand IN einem Krankenhaus handelt oder um eine andere Situation.
+[2026-09-22 07:59:59] [enrich] --- Enriche [2/2]: In einem Krankenhaus für traditionelle Medizin in der Provin
+[2026-09-22 07:59:59] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-22 08:00:00] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMifkFVX3lxTE5UdjNSQk5MLXRsS0tZS3VKTElvaWp
+[2026-09-22 08:00:00] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-22 08:00:00] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (492 Z.)
+[2026-09-22 08:00:01] [enrich] FALSE POSITIVE erkannt: Brand in ausländischem Krankenhaus (Vietnam, Provinz Lao Cai), nicht in Deutschland
+[2026-09-22 08:00:01] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-22 08:00:01] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-22 08:00:01] [DEDUP] Starte Dedup für 930 Einträge
+[2026-09-22 08:00:01] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-22 08:00:03] [DEDUP] Paare verglichen: 26221
+[2026-09-22 08:00:03] [DEDUP] Auto-Merges: 0
+[2026-09-22 08:00:03] [DEDUP] Kandidaten (unsicher): 742
+[2026-09-22 08:00:03] [DEDUP] Ergebnis: 930 Einträge (war: 930, 0 zusammengeführt)
+[2026-09-22 08:00:03] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
+[2026-09-22 08:00:03] [DEDUP] Gespeichert: 930 → 930 Einträge
