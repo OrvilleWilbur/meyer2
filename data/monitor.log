@@ -35729,3 +35729,49 @@
 [2026-09-23 08:02:27] [DEDUP] Ergebnis: 931 Einträge (war: 931, 0 zusammengeführt)
 [2026-09-23 08:02:27] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
 [2026-09-23 08:02:27] [DEDUP] Gespeichert: 931 → 931 Einträge
+[2026-09-24 07:52:44] === Monitor-Lauf gestartet ===
+[2026-09-24 07:52:45] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-24 07:52:46] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-24 07:52:46] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-09-24 07:52:47] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-09-24 07:52:47] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-09-24 07:52:47] Feed 'gn_brand_klinik': 50 Einträge
+[2026-09-24 07:52:48] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-24 07:52:48] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-24 07:52:48] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-24 07:52:49] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-09-24 07:52:50] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-24 07:52:50] 233 relevante Treffer in Feeds
+[2026-09-24 07:52:50] ✅ 2 NEUE Einträge gefunden:
+[2026-09-24 07:52:50]    28.08.2026 |  |  | Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-09-24 07:52:50]    28.08.2026 | im Krankenhaus |  | Stromausfall bei Wartung im Krankenhaus in Wildeshausen: Ent
+[2026-09-24 07:52:50] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-24 07:52:50] === Monitor-Lauf beendet ===
+
+[2026-09-24 07:52:50] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-24 07:52:50] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-24 07:52:50] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-24 07:52:50] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-24 07:52:50] [enrich] --- Enriche [1/2]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-09-24 07:52:50] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-24 07:52:51] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimAFBVV95cUxQTFdmRlRIRC1POVBicVpVa2RWX2d
+[2026-09-24 07:52:51] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-24 07:52:51] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (482 Z.)
+[2026-09-24 07:52:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung wegen Stromausfall, nicht wegen eines Brandes in der Klinik
+[2026-09-24 07:52:53] [enrich] --- Enriche [2/2]: Stromausfall bei Wartung im Krankenhaus in Wildeshausen: Ent
+[2026-09-24 07:52:53] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-24 07:52:53] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbTNLVGZ3NHd2NVpLdFBFcndxQXh
+[2026-09-24 07:52:53] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-24 07:52:53] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (594 Z.)
+[2026-09-24 07:52:54] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung aufgrund eines Stromausfalls bei Wartungsarbeiten, nicht aufgrund eines Brandes im Krankenhaus.
+[2026-09-24 07:52:54] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-09-24 07:52:54] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-24 07:52:54] [DEDUP] Starte Dedup für 933 Einträge
+[2026-09-24 07:52:54] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-24 07:52:56] [DEDUP] Paare verglichen: 26440
+[2026-09-24 07:52:56] [DEDUP] Auto-Merges: 0
+[2026-09-24 07:52:56] [DEDUP] Kandidaten (unsicher): 742
+[2026-09-24 07:52:56] [DEDUP] Ergebnis: 933 Einträge (war: 933, 0 zusammengeführt)
+[2026-09-24 07:52:56] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
+[2026-09-24 07:52:56] [DEDUP] Gespeichert: 933 → 933 Einträge
