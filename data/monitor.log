@@ -35775,3 +35775,42 @@
 [2026-09-24 07:52:56] [DEDUP] Ergebnis: 933 Einträge (war: 933, 0 zusammengeführt)
 [2026-09-24 07:52:56] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
 [2026-09-24 07:52:56] [DEDUP] Gespeichert: 933 → 933 Einträge
+[2026-09-25 08:15:34] === Monitor-Lauf gestartet ===
+[2026-09-25 08:15:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-25 08:15:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-25 08:15:37] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-09-25 08:15:37] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-09-25 08:15:38] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-09-25 08:15:38] Feed 'gn_brand_klinik': 50 Einträge
+[2026-09-25 08:15:38] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-25 08:15:39] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-25 08:15:39] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-09-25 08:15:39] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-09-25 08:15:41] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-25 08:15:41] 229 relevante Treffer in Feeds
+[2026-09-25 08:15:41] ✅ 1 NEUE Einträge gefunden:
+[2026-09-25 08:15:41]    24.09.2026 | Gefängnis-Krankenhaus schwer verletzt |  | Brand in Fröndenberg: Zwei Menschen bei Zellenbrand in Gefän
+[2026-09-25 08:15:41] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-25 08:15:41] === Monitor-Lauf beendet ===
+
+[2026-09-25 08:15:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-25 08:15:41] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-25 08:15:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-25 08:15:41] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-25 08:15:41] [enrich] --- Enriche [1/1]: Brand in Fröndenberg: Zwei Menschen bei Zellenbrand in Gefän
+[2026-09-25 08:15:41] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-25 08:15:42] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFpNQlNfc1NqbG1kdzFFLU1uaFd
+[2026-09-25 08:15:42] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-25 08:15:42] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-09-25 08:15:43] [enrich] FALSE POSITIVE erkannt: Der Brand ereignet sich in einem Gefängnis-Krankenhaus (Gefängnisanstalt mit integrierter medizinischer Einrichtung), nicht in einem öffentlichen Krankenhaus oder einer Klinik. Dies ist eine Justizeinrichtung, keine Gesundheitseinrichtung im klassischen Sinne.
+[2026-09-25 08:15:43] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-09-25 08:15:43] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-25 08:15:43] [DEDUP] Starte Dedup für 934 Einträge
+[2026-09-25 08:15:43] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-25 08:15:46] [DEDUP] Paare verglichen: 26478
+[2026-09-25 08:15:46] [DEDUP] Auto-Merges: 0
+[2026-09-25 08:15:46] [DEDUP] Kandidaten (unsicher): 742
+[2026-09-25 08:15:46] [DEDUP] Ergebnis: 934 Einträge (war: 934, 0 zusammengeführt)
+[2026-09-25 08:15:46] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
+[2026-09-25 08:15:46] [DEDUP] Gespeichert: 934 → 934 Einträge
