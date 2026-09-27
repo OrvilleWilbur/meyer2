@@ -35844,3 +35844,72 @@
 [2026-09-26 08:03:34] [DEDUP] Ergebnis: 934 Einträge (war: 934, 0 zusammengeführt)
 [2026-09-26 08:03:34] [DEDUP] Kandidaten-Datei: 742 pending, 2 confirmed, 0 rejected
 [2026-09-26 08:03:34] [DEDUP] Gespeichert: 934 → 934 Einträge
+[2026-09-27 08:39:02] === Monitor-Lauf gestartet ===
+[2026-09-27 08:39:03] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-27 08:39:04] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-27 08:39:05] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-09-27 08:39:05] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-27 08:39:06] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-27 08:39:06] Feed 'gn_brand_klinik': 46 Einträge
+[2026-09-27 08:39:06] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-09-27 08:39:07] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-27 08:39:07] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-27 08:39:08] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-09-27 08:39:09] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-27 08:39:09] 227 relevante Treffer in Feeds
+[2026-09-27 08:39:09] ✅ 5 NEUE Einträge gefunden:
+[2026-09-27 08:39:09]    24.12.2015 | in Klinik |  | Mindestens 25 Tote nach Feuer in Klinik in Saudi-Arabien - g
+[2026-09-27 08:39:09]    26.09.2026 | Uniklinik |  | Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-09-27 08:39:09]    26.09.2026 | Uniklinik |  | Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - A
+[2026-09-27 08:39:09]    26.09.2026 | Uniklinik |  | Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-09-27 08:39:09]    26.09.2026 | Uniklinik |  | Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - c
+[2026-09-27 08:39:09] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-27 08:39:09] === Monitor-Lauf beendet ===
+
+[2026-09-27 08:39:09] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-27 08:39:09] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-27 08:39:09] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-27 08:39:09] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-27 08:39:09] [enrich] --- Enriche [1/5]: Mindestens 25 Tote nach Feuer in Klinik in Saudi-Arabien - g
+[2026-09-27 08:39:09] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-27 08:39:10] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMitAFBVV95cUxPSDlEWmJuRUR0VldhTGY5bWszWDk
+[2026-09-27 08:39:10] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-27 08:39:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (501 Z.)
+[2026-09-27 08:39:11] [enrich] FALSE POSITIVE erkannt: Brand in ausländischer Klinik (Saudi-Arabien), nicht in Deutschland
+[2026-09-27 08:39:12] [enrich] --- Enriche [2/5]: Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-09-27 08:39:12] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-27 08:39:12] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUlhEbnhJN0s1by13UE1TbGZJU1E
+[2026-09-27 08:39:12] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-27 08:39:12] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-09-27 08:39:14] [enrich] Enrichment abgeschlossen: partial — Universitätsmedizin Mainz (Uniklinik) in Mainz
+[2026-09-27 08:39:15] [enrich] --- Enriche [3/5]: Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - A
+[2026-09-27 08:39:15] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-27 08:39:16] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiygFBVV95cUxOODE0dXAyaEhtZEJOSjlkQW5veFJ
+[2026-09-27 08:39:16] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-27 08:39:16] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (542 Z.)
+[2026-09-27 08:39:17] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Es kann nicht überprüft werden, ob tatsächlich ein Brand IN der Uniklinik stattgefunden hat oder ob es sich um einen anderen Vorfall handelt. Ohne Artikeltext keine ausreichende Informationsbasis zur Validierung.
+[2026-09-27 08:39:18] [enrich] --- Enriche [4/5]: Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-09-27 08:39:18] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-27 08:39:19] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimwFBVV95cUxOT3NFaHdSUEdFZ2NINnQ1TXlEME1
+[2026-09-27 08:39:19] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-27 08:39:19] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (480 Z.)
+[2026-09-27 08:39:21] [enrich] Enrichment abgeschlossen: partial — Universitätsmedizin Mainz (Mainzer Uniklinik) in Mainz
+[2026-09-27 08:39:22] [enrich] --- Enriche [5/5]: Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - c
+[2026-09-27 08:39:22] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-27 08:39:23] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXpqMk5nR21YVGV3VU1mRElwOTl
+[2026-09-27 08:39:23] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-27 08:39:23] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (448 Z.)
+[2026-09-27 08:39:24] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Es können keine verlässlichen Informationen über einen tatsächlichen Brand in der Mainzer Uniklinik extrahiert werden. Die URL führt zu einer Google News-Seite ohne sichtbaren Artikeltext.
+[2026-09-27 08:39:24] [enrich] Ergebnis: 0 enriched, 2 partial, 3 false_positive, 0 failed
+[2026-09-27 08:39:24] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-27 08:39:24] [DEDUP] Starte Dedup für 939 Einträge
+[2026-09-27 08:39:24] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-27 08:39:27] [DEDUP] Auto-Merge (0.90): Universitätsmedizin Mainz (Uniklinik) / Mainz ↔ Universitätsmedizin Mainz (Mainzer Unikl / Mainz
+[2026-09-27 08:39:27] [DEDUP] Paare verglichen: 26559
+[2026-09-27 08:39:27] [DEDUP] Auto-Merges: 1
+[2026-09-27 08:39:27] [DEDUP] Kandidaten (unsicher): 744
+[2026-09-27 08:39:27] [DEDUP] Cluster 2x: Universitätsmedizin Mainz (Uniklinik), Universitätsmedizin Mainz (Mainzer Unikl
+[2026-09-27 08:39:27] [DEDUP] Ergebnis: 938 Einträge (war: 939, 1 zusammengeführt)
+[2026-09-27 08:39:27] [DEDUP] Kandidaten-Datei: 744 pending, 2 confirmed, 0 rejected
+[2026-09-27 08:39:27] [DEDUP] Gespeichert: 939 → 938 Einträge

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T08:03:34.569684",
+  "generated_at": "2026-09-27T08:39:27.016711",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -20923,6 +20923,72 @@
         "status": "false_positive",
         "link": "https://www.oberhessen-live.de/2026/09/06/feuerwehr-und-rettungsdienst-proben-evakuierung-im-eichhof-krankenhaus/",
         "titel": "Feuerwehr und Rettungsdienst proben Evakuierung im Eichhof-Krankenhaus - oberhessen-live.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "26.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOODE0dXAyaEhtZEJOSjlkQW5veFJNeUp2WlZncGh2MEhhRkQydVFaV3A4U1M2c01TRk5fN0RYOG93Q3VIMnprS0dYMHpYczNzQXJzQWZLQ1M2WmNtdTlMbkpXY25jWlhmdXNWUHQ3V3o4ZktQb2JTeUoxUDJjNXhhYnpVSURzbjNHVWt5R3JDWFA5NDVINENFNzZMb1pZcE5ldmI0R0JDamVsRWZCZElOa3MwQ09jSTU4NWtEaldJOG03Y2lsakpMTTZR?oc=5",
+        "titel": "Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - Allgemeine Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Uniklinik",
+        "ort": "",
+        "datum": "26.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXpqMk5nR21YVGV3VU1mRElwOTltbjRzV1pHTVNaWHVpUXQxWXhINHpXRUFZa2dIa2U0VWtOb2NwQVpWVjZ2bmJpaEtvVk40QXdVSHpsZjd2SEQtWC1vNWZ4Mk9IaUVmZkx0WEdCZW1GdzlaVnZiVkVVRUpUZ0FTeTVJbk05VXo4Y2Ew?oc=5",
+        "titel": "Brand in der Mainzer Uniklinik: Feuerwehr im Großeinsatz - cedarnews.net"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "24.12.2015",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSDlEWmJuRUR0VldhTGY5bWszWDk2bDRZekxCOUprWDliOGYyc2YxR0JqbVlkTG5URzdWV1NYblFXVzR6WU5CejQyUEN0SVpibS00TU43dU9tX0JlZ1NmYi1Td0ZvYlI3OUFnUXZ1dVAtSEpXcEVQN3hVOUVZdGxrdThXSjJwQWx1bWFYcW1jMW1HVlFrdk9LUjhOS3dqNy1PWlZwdkliMk9KcC1FS1A3UDZxV0g?oc=5",
+        "titel": "Mindestens 25 Tote nach Feuer in Klinik in Saudi-Arabien - GN-Online"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "24.12.2015",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSDlEWmJuRUR0VldhTGY5bWszWDk2bDRZekxCOUprWDliOGYyc2YxR0JqbVlkTG5URzdWV1NYblFXVzR6WU5CejQyUEN0SVpibS00TU43dU9tX0JlZ1NmYi1Td0ZvYlI3OUFnUXZ1dVAtSEpXcEVQN3hVOUVZdGxrdThXSjJwQWx1bWFYcW1jMW1HVlFrdk9LUjhOS3dqNy1PWlZwdkliMk9KcC1FS1A3UDZxV0g?oc=5",
+        "titel": "Mindestens 25 Tote nach Feuer in Klinik in Saudi-Arabien - gn-online.de"
       }
     },
     {
