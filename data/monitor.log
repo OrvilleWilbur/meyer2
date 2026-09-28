@@ -35913,3 +35913,72 @@
 [2026-09-27 08:39:27] [DEDUP] Ergebnis: 938 Einträge (war: 939, 1 zusammengeführt)
 [2026-09-27 08:39:27] [DEDUP] Kandidaten-Datei: 744 pending, 2 confirmed, 0 rejected
 [2026-09-27 08:39:27] [DEDUP] Gespeichert: 939 → 938 Einträge
+[2026-09-28 09:02:30] === Monitor-Lauf gestartet ===
+[2026-09-28 09:02:31] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-28 09:02:32] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-28 09:02:33] Feed 'gn_brand_krankenhaus': 55 Einträge
+[2026-09-28 09:02:33] Feed 'gn_feuer_krankenhaus': 50 Einträge
+[2026-09-28 09:02:33] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-09-28 09:02:34] Feed 'gn_brand_klinik': 45 Einträge
+[2026-09-28 09:02:34] Feed 'gn_brand_klinikum': 40 Einträge
+[2026-09-28 09:02:35] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-28 09:02:35] Feed 'gn_feuer_uniklinik': 37 Einträge
+[2026-09-28 09:02:35] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-09-28 09:02:37] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-28 09:02:37] 234 relevante Treffer in Feeds
+[2026-09-28 09:02:37] ✅ 5 NEUE Einträge gefunden:
+[2026-09-28 09:02:37]    02.07.2026 | in Krankenhaus |  | Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbo
+[2026-09-28 09:02:37]    11.03.2026 |  |  | Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pf
+[2026-09-28 09:02:37]    26.03.2026 | über Klinikgelände |  | Rauchsäule über Klinikgelände: Feuerwehr Dortmund im Einsatz
+[2026-09-28 09:02:37]    13.11.2013 | im Klinikum Minden |  | Feuer im Klinikum Minden: Brandherd in Toilettenraum - kreis
+[2026-09-28 09:02:37]    09.02.2023 | Dortmunder Klinik Evakuierung könnte schon bald nötig werden |  | Blindgänger-Verdacht nahe Dortmunder Klinik Evakuierung könn
+[2026-09-28 09:02:37] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-28 09:02:37] === Monitor-Lauf beendet ===
+
+[2026-09-28 09:02:37] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-28 09:02:37] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-28 09:02:37] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-28 09:02:37] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-28 09:02:37] [enrich] --- Enriche [1/5]: Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbo
+[2026-09-28 09:02:37] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-28 09:02:38] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXYzeFNBNEdNZlppbmhjWGI1Ump
+[2026-09-28 09:02:38] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-28 09:02:38] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (426 Z.)
+[2026-09-28 09:02:40] [enrich] Enrichment abgeschlossen: partial — Krankenhaus Ludwigslust in Ludwigslust
+[2026-09-28 09:02:41] [enrich] --- Enriche [2/5]: Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pf
+[2026-09-28 09:02:41] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-28 09:02:42] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzJkNzJIcE1fUUFCNEJCMTgtSzI
+[2026-09-28 09:02:42] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-28 09:02:42] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (560 Z.)
+[2026-09-28 09:02:44] [enrich] Enrichment abgeschlossen: partial — Klinikum Idar-Oberstein in Idar-Oberstein
+[2026-09-28 09:02:45] [enrich] --- Enriche [3/5]: Rauchsäule über Klinikgelände: Feuerwehr Dortmund im Einsatz
+[2026-09-28 09:02:45] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-28 09:02:45] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMizgFBVV95cUxOak94c1hiZjlLUVV1d3ZuaFdCdkN
+[2026-09-28 09:02:45] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-28 09:02:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-09-28 09:02:47] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne detaillierte Informationen. Es ist unklar, ob ein Brand IN der Klinik oder nur in der Nähe des Klinikgeländes stattfand. Ohne konkrete Details zum Brandort kann nicht verifiziert werden, dass es sich um einen echten Krankenhausbrand handelt.
+[2026-09-28 09:02:48] [enrich] --- Enriche [4/5]: Feuer im Klinikum Minden: Brandherd in Toilettenraum - kreis
+[2026-09-28 09:02:48] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-28 09:02:48] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiogFBVV95cUxPUk5vbFp6dzRYMHZKT2czN3d3T3l
+[2026-09-28 09:02:48] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-28 09:02:48] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (475 Z.)
+[2026-09-28 09:02:50] [enrich] Enrichment abgeschlossen: partial — Klinikum Minden in Minden
+[2026-09-28 09:02:51] [enrich] --- Enriche [5/5]: Blindgänger-Verdacht nahe Dortmunder Klinik Evakuierung könn
+[2026-09-28 09:02:51] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-28 09:02:51] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmZQUF8xVGVBeDl1SDR2VFg2eEN
+[2026-09-28 09:02:51] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-28 09:02:51] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (556 Z.)
+[2026-09-28 09:02:52] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen Blindgänger-Verdacht (Bombenentschärfung), nicht wegen Brand
+[2026-09-28 09:02:52] [enrich] Ergebnis: 0 enriched, 3 partial, 2 false_positive, 0 failed
+[2026-09-28 09:02:52] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-28 09:02:52] [DEDUP] Starte Dedup für 943 Einträge
+[2026-09-28 09:02:52] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-28 09:02:55] [DEDUP] Auto-Merge (0.90): Krankenhaus Ludwigslust (Radiologiegebäu / Ludwigslust ↔ Krankenhaus Ludwigslust / Ludwigslust
+[2026-09-28 09:02:55] [DEDUP] Paare verglichen: 26696
+[2026-09-28 09:02:55] [DEDUP] Auto-Merges: 1
+[2026-09-28 09:02:55] [DEDUP] Kandidaten (unsicher): 751
+[2026-09-28 09:02:55] [DEDUP] Cluster 2x: Krankenhaus Ludwigslust (Radiologiegebäu, Krankenhaus Ludwigslust
+[2026-09-28 09:02:55] [DEDUP] Ergebnis: 942 Einträge (war: 943, 1 zusammengeführt)
+[2026-09-28 09:02:55] [DEDUP] Kandidaten-Datei: 751 pending, 2 confirmed, 0 rejected
+[2026-09-28 09:02:55] [DEDUP] Gespeichert: 943 → 942 Einträge

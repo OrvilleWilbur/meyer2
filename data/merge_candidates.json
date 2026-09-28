@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T08:39:27.016711",
+  "generated_at": "2026-09-28T09:02:55.315550",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -199,6 +199,39 @@
         "status": "enriched",
         "link": "https://www.braunschweiger-zeitung.de/niedersachsen/braunschweig/article411354762/brand-im-braunschweiger-klinikum-dutzende-rettungskraefte-sind-vor-ort.html",
         "titel": "Feuer im Klinikum Braunschweig: Polizei nennt die Brandursache - Braunschweiger Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.783,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.783
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
+        "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXYzeFNBNEdNZlppbmhjWGI1UmpuOEk3RFBNVTFoRWUxYlBxNVRnel9ia3hXZVlIODBCZzdpeDFMc3R4Y0RiaGZUa2R0Vk1YZkJzTF95aFIwMXY0NGFLeThIRlAtNGpmNF9QVXVFdFFOSUUyMDNFMXJDZ2hkcWJ2NA?oc=5",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbocholt.de"
       }
     },
     {
@@ -701,6 +734,39 @@
         "",
         ""
       ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXYzeFNBNEdNZlppbmhjWGI1UmpuOEk3RFBNVTFoRWUxYlBxNVRnel9ia3hXZVlIODBCZzdpeDFMc3R4Y0RiaGZUa2R0Vk1YZkJzTF95aFIwMXY0NGFLeThIRlAtNGpmNF9QVXVFdFFOSUUyMDNFMXJDZ2hkcWJ2NA?oc=5",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbocholt.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.749,
       "details": {
         "datum": 1.0,
@@ -859,6 +925,39 @@
         "status": "enriched",
         "link": "https://www.augsburger-allgemeine.de/panorama/Konstanz-Brand-im-Klinikum-Toter-war-80-Jahre-alter-Patient-id52716636.html",
         "titel": "Konstanz: Brand im Klinikum: Toter war 80 Jahre alter Patient - Augsburger Allgemeine"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.74,
+      "details": {
+        "datum": 0.3,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.74
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "09.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/brand-im-klinikum-idar-oberstein-jede-minute-zaehlt_arid-4109698.html",
+        "titel": "Besonnen reagiert: Brand im Klinikum Idar-Oberstein: Jede Minute zählt - Nahe-Zeitung - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "11.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzJkNzJIcE1fUUFCNEJCMTgtSzI0d3Q1U29Qek9oV3dXa2JFcTRaZmU5OGtobVdrWE9FQkFjUTdPRXVQb1ZvcHBfMlotWWlIU2dUT1d0Y3pHTk9vVVU5a0hoTF9yVjBMazF0THZyRHg3RmRXS2xCOWRTMGRLc3FhVC0ySklYaE9qWEpjckJPNVhIbXlPdlB4T29KNm01NjZudmhTRUM3RC1XMVlVR3RJNEROOXA4aWNuNGpyUDRR?oc=5",
+        "titel": "Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pfleger blitzschnell - Rhein-Zeitung"
       }
     },
     {
@@ -2212,6 +2311,39 @@
         "status": "enriched",
         "link": "https://www.radioberg.de/artikel/kein-prozess-nach-krankenhaus-brand-426913",
         "titel": "Kein Prozess nach Krankenhaus-Brand - radioberg.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXYzeFNBNEdNZlppbmhjWGI1UmpuOEk3RFBNVTFoRWUxYlBxNVRnel9ia3hXZVlIODBCZzdpeDFMc3R4Y0RiaGZUa2R0Vk1YZkJzTF95aFIwMXY0NGFLeThIRlAtNGpmNF9QVXVFdFFOSUUyMDNFMXJDZ2hkcWJ2NA?oc=5",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbocholt.de"
       }
     },
     {
@@ -4786,6 +4918,39 @@
         "status": "enriched",
         "link": "https://www.pz-news.de/pforzheim_artikel,-Knapp-fuenf-Monate-nach-Brand-Tragoedie-Wie-es-am-Helios-Klinikum-Pforzheim-weitergeht-_arid,1932840.html",
         "titel": "Knapp fünf Monate nach Brand-Tragödie: Wie es am Helios Klinikum Pforzheim weitergeht - pz-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "07.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.rhein-zeitung.de/lokales/nahe-zeitung/im-klinikum-idar-oberstein-hat-daemmmaterial-gebrannt_arid-4109249.html",
+        "titel": "Feuerwehr ist zur Stelle: Im Klinikum Idar-Oberstein hat Dämmmaterial gebrannt - Nahe-Zeitung - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Idar-Oberstein",
+        "ort": "Idar-Oberstein",
+        "datum": "11.03.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVzJkNzJIcE1fUUFCNEJCMTgtSzI0d3Q1U29Qek9oV3dXa2JFcTRaZmU5OGtobVdrWE9FQkFjUTdPRXVQb1ZvcHBfMlotWWlIU2dUT1d0Y3pHTk9vVVU5a0hoTF9yVjBMazF0THZyRHg3RmRXS2xCOWRTMGRLc3FhVC0ySklYaE9qWEpjckJPNVhIbXlPdlB4T29KNm01NjZudmhTRUM3RC1XMVlVR3RJNEROOXA4aWNuNGpyUDRR?oc=5",
+        "titel": "Klinikum Idar-Oberstein: Beim Brand reagierten drei junge Pfleger blitzschnell - Rhein-Zeitung"
       }
     },
     {
@@ -13498,6 +13663,39 @@
         "status": "false_positive",
         "link": "https://www.mz.de/deutschland-und-welt/deutschland/einfamilienhaus-in-brand-bewohner-kommt-ins-krankenhaus-3535467",
         "titel": "Einfamilienhaus in Brand: Bewohner kommt ins Krankenhaus - Mitteldeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Dortmunder Klinik Evakuierung könnte schon bald nötig werden",
+        "ort": "",
+        "datum": "09.02.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ruhrnachrichten.de/dortmund/blindgaenger-verdacht-nahe-dortmunder-klinik-w692489-2000737691/",
+        "titel": "Blindgänger-Verdacht nahe Dortmunder Klinik Evakuierung könnte schon bald nötig werden - Ruhr Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "Dortmunder Klinik Evakuierung könnte schon bald nötig werden",
+        "ort": "",
+        "datum": "09.02.2023",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbmZQUF8xVGVBeDl1SDR2VFg2eENtbjV5NVdDdnc4aWZGeTR5VmNBS0N4NkZLWHl3UE5yQWJxcXVCLWhNMDVkRElSZTdXMTYtaXNOMm1ZWGFudVpLQUJHYzNjbFh3bDVwazExWXNPYk5MQmNLNDNCUk5iV1VQMFJaSld3TlZPcU5jTWM5NC1UNENUMjE4dC1Rd1BFeGNFQkVOdkRCRExRTQ?oc=5",
+        "titel": "Blindgänger-Verdacht nahe Dortmunder Klinik Evakuierung könnte schon bald nötig werden - ruhrnachrichten.de"
       }
     },
     {
@@ -23200,6 +23398,39 @@
         "status": "partial",
         "link": "http://www.msn.com/de-de/nachrichten/panorama/klorollen-angez%C3%BCndet-brand-in-hanauer-klinikum/ar-AA1NE8LW?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
         "titel": "Klorollen angezündet? - Brand in Hanauer Klinikum - MSN"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.483,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.3333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.483
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTXYzeFNBNEdNZlppbmhjWGI1UmpuOEk3RFBNVTFoRWUxYlBxNVRnel9ia3hXZVlIODBCZzdpeDFMc3R4Y0RiaGZUa2R0Vk1YZkJzTF95aFIwMXY0NGFLeThIRlAtNGpmNF9QVXVFdFFOSUUyMDNFMXJDZ2hkcWJ2NA?oc=5",
+        "titel": "Zwei Tote bei Feuer in Krankenhaus in Ludwigslust - madeinbocholt.de"
       }
     },
     {
