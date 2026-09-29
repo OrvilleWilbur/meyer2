@@ -35982,3 +35982,51 @@
 [2026-09-28 09:02:55] [DEDUP] Ergebnis: 942 Einträge (war: 943, 1 zusammengeführt)
 [2026-09-28 09:02:55] [DEDUP] Kandidaten-Datei: 751 pending, 2 confirmed, 0 rejected
 [2026-09-28 09:02:55] [DEDUP] Gespeichert: 943 → 942 Einträge
+[2026-09-29 09:11:34] === Monitor-Lauf gestartet ===
+[2026-09-29 09:11:35] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-29 09:11:36] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-29 09:11:37] Feed 'gn_brand_krankenhaus': 56 Einträge
+[2026-09-29 09:11:37] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-09-29 09:11:37] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-09-29 09:11:38] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-29 09:11:38] Feed 'gn_brand_klinikum': 39 Einträge
+[2026-09-29 09:11:39] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-29 09:11:39] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-09-29 09:11:39] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-09-29 09:11:41] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-29 09:11:41] 239 relevante Treffer in Feeds
+[2026-09-29 09:11:41] ✅ 2 NEUE Einträge gefunden:
+[2026-09-29 09:11:41]    02.07.2026 |  |  | Krankenhausbrand Ludwigslust: zwei Todesopfer - kma Online
+[2026-09-29 09:11:41]    13.11.2013 | im Klinikum Minden |  | Feuer im Klinikum Minden: Brandherd in Toilettenraum - Kreis
+[2026-09-29 09:11:41] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-29 09:11:41] === Monitor-Lauf beendet ===
+
+[2026-09-29 09:11:41] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-29 09:11:41] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-29 09:11:41] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-29 09:11:41] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-29 09:11:41] [enrich] --- Enriche [1/2]: Krankenhausbrand Ludwigslust: zwei Todesopfer - kma Online
+[2026-09-29 09:11:41] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-29 09:11:41] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRkdGWmpfamRrdXlpUHRNUWxMaVN
+[2026-09-29 09:11:41] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-29 09:11:41] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (459 Z.)
+[2026-09-29 09:11:43] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur einen Titel/Link ohne ausreichende Informationen. Der tatsächliche Artikel-Text ist nicht vorhanden, nur eine Google News-URL. Eine valide Datenextraktion ist nicht möglich.
+[2026-09-29 09:11:44] [enrich] --- Enriche [2/2]: Feuer im Klinikum Minden: Brandherd in Toilettenraum - Kreis
+[2026-09-29 09:11:44] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-29 09:11:45] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiogFBVV95cUxPUk5vbFp6dzRYMHZKT2czN3d3T3l
+[2026-09-29 09:11:45] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-29 09:11:45] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (469 Z.)
+[2026-09-29 09:11:47] [enrich] Enrichment abgeschlossen: partial — Klinikum Minden in Minden
+[2026-09-29 09:11:47] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-09-29 09:11:47] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-29 09:11:47] [DEDUP] Starte Dedup für 944 Einträge
+[2026-09-29 09:11:47] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-29 09:11:49] [DEDUP] Auto-Merge (1.00): Klinikum Minden / Minden ↔ Klinikum Minden / Minden
+[2026-09-29 09:11:49] [DEDUP] Paare verglichen: 26826
+[2026-09-29 09:11:49] [DEDUP] Auto-Merges: 1
+[2026-09-29 09:11:49] [DEDUP] Kandidaten (unsicher): 747
+[2026-09-29 09:11:49] [DEDUP] Cluster 2x: Klinikum Minden, Klinikum Minden
+[2026-09-29 09:11:49] [DEDUP] Ergebnis: 943 Einträge (war: 944, 1 zusammengeführt)
+[2026-09-29 09:11:49] [DEDUP] Kandidaten-Datei: 747 pending, 2 confirmed, 0 rejected
+[2026-09-29 09:11:49] [DEDUP] Gespeichert: 944 → 943 Einträge
