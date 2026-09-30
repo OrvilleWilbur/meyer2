@@ -36030,3 +36030,72 @@
 [2026-09-29 09:11:49] [DEDUP] Ergebnis: 943 Einträge (war: 944, 1 zusammengeführt)
 [2026-09-29 09:11:49] [DEDUP] Kandidaten-Datei: 747 pending, 2 confirmed, 0 rejected
 [2026-09-29 09:11:49] [DEDUP] Gespeichert: 944 → 943 Einträge
+[2026-09-30 09:05:09] === Monitor-Lauf gestartet ===
+[2026-09-30 09:05:09] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-09-30 09:05:10] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-09-30 09:05:10] Feed 'gn_brand_krankenhaus': 47 Einträge
+[2026-09-30 09:05:10] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-09-30 09:05:11] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-09-30 09:05:11] Feed 'gn_brand_klinik': 48 Einträge
+[2026-09-30 09:05:12] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-09-30 09:05:12] Feed 'gn_klinikbrand': 100 Einträge
+[2026-09-30 09:05:12] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-09-30 09:05:13] Feed 'gn_evakuierung_klinik': 38 Einträge
+[2026-09-30 09:05:14] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-09-30 09:05:14] 228 relevante Treffer in Feeds
+[2026-09-30 09:05:14] ✅ 5 NEUE Einträge gefunden:
+[2026-09-30 09:05:14]    02.07.2026 | deutschem Krankenhaus |  | Zwei Tote bei Dachstuhlbrand in deutschem Krankenhaus - sn.a
+[2026-09-30 09:05:14]    17.01.2025 | in Krankenhaus |  | Brand in Mülheim: Vier Verletzte bei Feuer in Krankenhaus - 
+[2026-09-30 09:05:14]    31.07.2023 | im Krankenhaus |  | Feuer auf Garagenhof: Obdachloser mit Rauchgasvergiftung im 
+[2026-09-30 09:05:14]    02.07.2026 | Ludwigsluster Klinik |  | Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollt
+[2026-09-30 09:05:14]    03.09.2026 | auf Klinikdach |  | Feuer auf Klinikdach: Sechs Verletzte und hoher Schaden - on
+[2026-09-30 09:05:14] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-09-30 09:05:14] === Monitor-Lauf beendet ===
+
+[2026-09-30 09:05:14] [enrich] === Enrichment-Lauf gestartet ===
+[2026-09-30 09:05:14] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-09-30 09:05:14] [enrich] googlenewsdecoder v2: verfügbar
+[2026-09-30 09:05:14] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-09-30 09:05:14] [enrich] --- Enriche [1/5]: Zwei Tote bei Dachstuhlbrand in deutschem Krankenhaus - sn.a
+[2026-09-30 09:05:15] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-30 09:05:15] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYmJYZTlzWkNlT3BzRGx6SFdDWFF
+[2026-09-30 09:05:15] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-30 09:05:15] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (465 Z.)
+[2026-09-30 09:05:16] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Inhalt. Basierend auf der URL und dem Titel allein kann nicht verifiziert werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder um einen anderen Kontext. Eine vollständige Überprüfung ist nicht möglich.
+[2026-09-30 09:05:17] [enrich] --- Enriche [2/5]: Brand in Mülheim: Vier Verletzte bei Feuer in Krankenhaus - 
+[2026-09-30 09:05:17] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-30 09:05:18] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEFCOTlOOVZ4bjFnQlJHLUlBcmU
+[2026-09-30 09:05:18] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-30 09:05:18] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (481 Z.)
+[2026-09-30 09:05:19] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne konkrete Informationen zum Brand. Es kann nicht verifiziert werden, ob tatsächlich ein Brand IN einem Krankenhaus stattgefunden hat oder ob es sich um einen anderen Kontext handelt (z.B. Brand in der Nähe, Brandopfer im Krankenhaus behandelt). Die Textinhalte sind nicht verfügbar.
+[2026-09-30 09:05:20] [enrich] --- Enriche [3/5]: Feuer auf Garagenhof: Obdachloser mit Rauchgasvergiftung im 
+[2026-09-30 09:05:20] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-30 09:05:20] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRHZROE1Qd2xxREZJUXl0c2lxcEN
+[2026-09-30 09:05:20] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-30 09:05:20] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (543 Z.)
+[2026-09-30 09:05:22] [enrich] FALSE POSITIVE erkannt: Obdachloser wird nach einem Brand auf einem Garagenhof (nicht im Krankenhaus) ins Krankenhaus gebracht. Der Brand findet nicht in einem Krankenhaus statt.
+[2026-09-30 09:05:23] [enrich] --- Enriche [4/5]: Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollt
+[2026-09-30 09:05:23] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-30 09:05:23] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiggJBVV95cUxQTGExZlkyMjB5d3E0Y3c4XzdwbkZ
+[2026-09-30 09:05:23] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-30 09:05:23] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (608 Z.)
+[2026-09-30 09:05:25] [enrich] Enrichment abgeschlossen: partial — Klinik Ludwigslust in Ludwigslust
+[2026-09-30 09:05:26] [enrich] --- Enriche [5/5]: Feuer auf Klinikdach: Sechs Verletzte und hoher Schaden - on
+[2026-09-30 09:05:26] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-09-30 09:05:26] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirAFBVV95cUxNMHpFU2M3V1gxVEdIZld5NW1xSlN
+[2026-09-30 09:05:26] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-09-30 09:05:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (480 Z.)
+[2026-09-30 09:05:32] [enrich] FALSE POSITIVE erkannt: Der Artikel erwähnt zwar einen Brand auf einem Klinikdach, es werden aber keine konkreten Informationen zum Ort, zur Einrichtung oder zum Datum bereitgestellt. Aus der URL-Vorschau allein können keine zuverlässigen Daten extrahiert werden. Ein vollständiger Artikel wäre erforderlich, um zu verifizieren, dass es sich um einen Brand IN einer deutschen Klinik handelt.
+[2026-09-30 09:05:32] [enrich] Ergebnis: 0 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-09-30 09:05:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-09-30 09:05:32] [DEDUP] Starte Dedup für 948 Einträge
+[2026-09-30 09:05:32] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-09-30 09:05:34] [DEDUP] Auto-Merge (0.95): Klinik Ludwigslust / Ludwigslust ↔ Klinik Ludwigslust / Ludwigslust
+[2026-09-30 09:05:34] [DEDUP] Paare verglichen: 27033
+[2026-09-30 09:05:34] [DEDUP] Auto-Merges: 1
+[2026-09-30 09:05:34] [DEDUP] Kandidaten (unsicher): 751
+[2026-09-30 09:05:34] [DEDUP] Cluster 2x: Klinik Ludwigslust, Klinik Ludwigslust
+[2026-09-30 09:05:34] [DEDUP] Ergebnis: 947 Einträge (war: 948, 1 zusammengeführt)
+[2026-09-30 09:05:34] [DEDUP] Kandidaten-Datei: 751 pending, 2 confirmed, 0 rejected
+[2026-09-30 09:05:34] [DEDUP] Gespeichert: 948 → 947 Einträge
