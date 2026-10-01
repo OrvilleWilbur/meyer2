@@ -36099,3 +36099,49 @@
 [2026-09-30 09:05:34] [DEDUP] Ergebnis: 947 Einträge (war: 948, 1 zusammengeführt)
 [2026-09-30 09:05:34] [DEDUP] Kandidaten-Datei: 751 pending, 2 confirmed, 0 rejected
 [2026-09-30 09:05:34] [DEDUP] Gespeichert: 948 → 947 Einträge
+[2026-10-01 09:31:38] === Monitor-Lauf gestartet ===
+[2026-10-01 09:31:40] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-01 09:31:41] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-01 09:31:41] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-10-01 09:31:42] Feed 'gn_feuer_krankenhaus': 48 Einträge
+[2026-10-01 09:31:42] Feed 'gn_feuer_klinik': 42 Einträge
+[2026-10-01 09:31:43] Feed 'gn_brand_klinik': 45 Einträge
+[2026-10-01 09:31:43] Feed 'gn_brand_klinikum': 38 Einträge
+[2026-10-01 09:31:44] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-01 09:31:44] Feed 'gn_feuer_uniklinik': 33 Einträge
+[2026-10-01 09:31:45] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-10-01 09:31:46] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-01 09:31:46] 231 relevante Treffer in Feeds
+[2026-10-01 09:31:46] ✅ 2 NEUE Einträge gefunden:
+[2026-10-01 09:31:46]    07.04.2026 | im Krankenhaus |  | Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden -
+[2026-10-01 09:31:46]    28.08.2026 |  |  | Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-10-01 09:31:46] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-01 09:31:46] === Monitor-Lauf beendet ===
+
+[2026-10-01 09:31:46] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-01 09:31:46] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-01 09:31:46] [enrich] googlenewsdecoder v2: verfügbar
+[2026-10-01 09:31:46] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-01 09:31:46] [enrich] --- Enriche [1/2]: Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden -
+[2026-10-01 09:31:47] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-01 09:31:47] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHlITTJvdnFLNE5NUHBrM3plUEl
+[2026-10-01 09:31:47] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-01 09:31:47] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (516 Z.)
+[2026-10-01 09:31:49] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Artikeltext. Basierend auf der Überschrift allein lässt sich nicht verifizieren, ob tatsächlich ein Brand im Krankenhaus stattgefunden hat oder ob es sich um einen anderen Kontext handelt. Die Mention von 'zwei Patienten verschwunden' könnte auf einen Brand hindeuten, aber ohne Artikelinhalt kann keine verlässliche Einordnung erfolgen.
+[2026-10-01 09:31:50] [enrich] --- Enriche [2/2]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-10-01 09:31:50] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-01 09:31:50] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3pMUUcwc1lNWTdNSlptNV9OQWJ
+[2026-10-01 09:31:50] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-01 09:31:50] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (488 Z.)
+[2026-10-01 09:31:52] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung wegen Stromausfalls, nicht wegen eines Brandes in der Klinik.
+[2026-10-01 09:31:52] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-10-01 09:31:52] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-01 09:31:52] [DEDUP] Starte Dedup für 949 Einträge
+[2026-10-01 09:31:52] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-01 09:31:54] [DEDUP] Paare verglichen: 27258
+[2026-10-01 09:31:54] [DEDUP] Auto-Merges: 0
+[2026-10-01 09:31:54] [DEDUP] Kandidaten (unsicher): 747
+[2026-10-01 09:31:54] [DEDUP] Ergebnis: 949 Einträge (war: 949, 0 zusammengeführt)
+[2026-10-01 09:31:54] [DEDUP] Kandidaten-Datei: 747 pending, 2 confirmed, 0 rejected
+[2026-10-01 09:31:54] [DEDUP] Gespeichert: 949 → 949 Einträge

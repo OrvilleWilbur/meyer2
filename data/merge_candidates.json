@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T09:05:34.689868",
+  "generated_at": "2026-10-01T09:31:54.605595",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -404,39 +404,6 @@
         "",
         ""
       ],
-      "score": 0.762,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.762
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTGExZlkyMjB5d3E0Y3c4XzdwbkZnZE5jY3pFWHFld3VDT2ZOMG9reHBpVTBsZXlPUmJRc1ZubHZNWTVKWUJsOW1NeXRCVFhJOTVzX3B3VER0Q25LLXJXRmNNbWlYdVNyaHhJd2l3UjdNMHZ2X0tRTHhqb0M5OXVGOHdXd0VxdTRyQ1VVOFZQTHBsakhxX25QZE5UNWdaQm9UckxHSy1md3dHUDRzeDJ5SC1vVEZmLXk1SVBlOG15dk14UmFncFJnZVA3YVhQZFFDcFlWYVZkc1NvbDdBbkxNbEFKc2h1dlIxUG0tYTlkeXZwRkQxaFRjSHhTaHcxLU4zblHSAZ4CQVVfeXFMT1RvbkVvLWREWC1XMWdybldkWE5oSVJ2dzJQajJRT0hzUGJIX1MtbTZQck1STmpicXRVX1pZbzAweGpoZk9wX1V2N2ptQ19pWTVKeWtOcFBfaGkydk12b0lEMHNhOGRJZl9UQnlsV3BvVG1DeUIyTjc5QVZfbW54T1ZHUlk4MTdNS0pCTEVYMmV6YXFFbHJqVUNqLXZsc2xJcExsQUVZRVRheDNBYVM4Y0xRQ1lSQ1hiZkhJUy1aSFdVeEcxb3dmbWtuLXl6ZG81TVdob2Rfb2pvUlJrMFFCQ2JVbG50MGVfTXI1VlVoRWVMR0RxNy1NelMyN181WUZZczFHb3BrYVhQNm9MZ2FyMUJ3THVrMEtlRFJvdVV3QQ?oc=5",
-        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - ostsee-zeitung.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.76,
       "details": {
         "datum": 0.7,
@@ -727,39 +694,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTGExZlkyMjB5d3E0Y3c4XzdwbkZnZE5jY3pFWHFld3VDT2ZOMG9reHBpVTBsZXlPUmJRc1ZubHZNWTVKWUJsOW1NeXRCVFhJOTVzX3B3VER0Q25LLXJXRmNNbWlYdVNyaHhJd2l3UjdNMHZ2X0tRTHhqb0M5OXVGOHdXd0VxdTRyQ1VVOFZQTHBsakhxX25QZE5UNWdaQm9UckxHSy1md3dHUDRzeDJ5SC1vVEZmLXk1SVBlOG15dk14UmFncFJnZVA3YVhQZFFDcFlWYVZkc1NvbDdBbkxNbEFKc2h1dlIxUG0tYTlkeXZwRkQxaFRjSHhTaHcxLU4zblHSAZ4CQVVfeXFMT1RvbkVvLWREWC1XMWdybldkWE5oSVJ2dzJQajJRT0hzUGJIX1MtbTZQck1STmpicXRVX1pZbzAweGpoZk9wX1V2N2ptQ19pWTVKeWtOcFBfaGkydk12b0lEMHNhOGRJZl9UQnlsV3BvVG1DeUIyTjc5QVZfbW54T1ZHUlk4MTdNS0pCTEVYMmV6YXFFbHJqVUNqLXZsc2xJcExsQUVZRVRheDNBYVM4Y0xRQ1lSQ1hiZkhJUy1aSFdVeEcxb3dmbWtuLXl6ZG81TVdob2Rfb2pvUlJrMFFCQ2JVbG50MGVfTXI1VlVoRWVMR0RxNy1NelMyN181WUZZczFHb3BrYVhQNm9MZ2FyMUJ3THVrMEtlRFJvdVV3QQ?oc=5",
-        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - ostsee-zeitung.de"
       }
     },
     {
@@ -2344,39 +2278,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTGExZlkyMjB5d3E0Y3c4XzdwbkZnZE5jY3pFWHFld3VDT2ZOMG9reHBpVTBsZXlPUmJRc1ZubHZNWTVKWUJsOW1NeXRCVFhJOTVzX3B3VER0Q25LLXJXRmNNbWlYdVNyaHhJd2l3UjdNMHZ2X0tRTHhqb0M5OXVGOHdXd0VxdTRyQ1VVOFZQTHBsakhxX25QZE5UNWdaQm9UckxHSy1md3dHUDRzeDJ5SC1vVEZmLXk1SVBlOG15dk14UmFncFJnZVA3YVhQZFFDcFlWYVZkc1NvbDdBbkxNbEFKc2h1dlIxUG0tYTlkeXZwRkQxaFRjSHhTaHcxLU4zblHSAZ4CQVVfeXFMT1RvbkVvLWREWC1XMWdybldkWE5oSVJ2dzJQajJRT0hzUGJIX1MtbTZQck1STmpicXRVX1pZbzAweGpoZk9wX1V2N2ptQ19pWTVKeWtOcFBfaGkydk12b0lEMHNhOGRJZl9UQnlsV3BvVG1DeUIyTjc5QVZfbW54T1ZHUlk4MTdNS0pCTEVYMmV6YXFFbHJqVUNqLXZsc2xJcExsQUVZRVRheDNBYVM4Y0xRQ1lSQ1hiZkhJUy1aSFdVeEcxb3dmbWtuLXl6ZG81TVdob2Rfb2pvUlJrMFFCQ2JVbG50MGVfTXI1VlVoRWVMR0RxNy1NelMyN181WUZZczFHb3BrYVhQNm9MZ2FyMUJ3THVrMEtlRFJvdVV3QQ?oc=5",
-        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - ostsee-zeitung.de"
       }
     },
     {
@@ -5050,39 +4951,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.65,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.65
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "10.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
-        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Klinik Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQTGExZlkyMjB5d3E0Y3c4XzdwbkZnZE5jY3pFWHFld3VDT2ZOMG9reHBpVTBsZXlPUmJRc1ZubHZNWTVKWUJsOW1NeXRCVFhJOTVzX3B3VER0Q25LLXJXRmNNbWlYdVNyaHhJd2l3UjdNMHZ2X0tRTHhqb0M5OXVGOHdXd0VxdTRyQ1VVOFZQTHBsakhxX25QZE5UNWdaQm9UckxHSy1md3dHUDRzeDJ5SC1vVEZmLXk1SVBlOG15dk14UmFncFJnZVA3YVhQZFFDcFlWYVZkc1NvbDdBbkxNbEFKc2h1dlIxUG0tYTlkeXZwRkQxaFRjSHhTaHcxLU4zblHSAZ4CQVVfeXFMT1RvbkVvLWREWC1XMWdybldkWE5oSVJ2dzJQajJRT0hzUGJIX1MtbTZQck1STmpicXRVX1pZbzAweGpoZk9wX1V2N2ptQ19pWTVKeWtOcFBfaGkydk12b0lEMHNhOGRJZl9UQnlsV3BvVG1DeUIyTjc5QVZfbW54T1ZHUlk4MTdNS0pCTEVYMmV6YXFFbHJqVUNqLXZsc2xJcExsQUVZRVRheDNBYVM4Y0xRQ1lSQ1hiZkhJUy1aSFdVeEcxb3dmbWtuLXl6ZG81TVdob2Rfb2pvUlJrMFFCQ2JVbG50MGVfTXI1VlVoRWVMR0RxNy1NelMyN181WUZZczFHb3BrYVhQNm9MZ2FyMUJ3THVrMEtlRFJvdVV3QQ?oc=5",
-        "titel": "Zwei Tote bei Feuer in Ludwigsluster Klinik: Patienten sollten keine Angst haben müssen - ostsee-zeitung.de"
       }
     },
     {
