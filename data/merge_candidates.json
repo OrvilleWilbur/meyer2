@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:31:54.605595",
+  "generated_at": "2026-10-02T09:06:36.912662",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -1024,6 +1024,39 @@
         "status": "enriched",
         "link": "https://www.n-tv.de/regionales/berlin-und-brandenburg/Detonation-und-Feuer-an-Krebszentren-von-Berliner-Kliniken-id30006146.html",
         "titel": "Berlin & Brandenburg: Detonation und Feuer an Krebszentren von Berliner Kliniken - Ntv"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.726,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.85,
+        "einrichtung": 0.2857142857142857,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.726
+      },
+      "entry_a": {
+        "einrichtung": "Evangelisches Krankenhaus Mülheim an der Ruhr",
+        "ort": "Mülheim an der Ruhr",
+        "datum": "17.01.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "enriched",
+        "link": "https://www.derwesten.de/staedte/muelheim/muelheim-feuer-krankenhaus-brand-verletzte-opfer-id301325654.html",
+        "titel": "Mülheim: Feuer in Krankenhaus ausgebrochen! Sechs Verletzte - DerWesten"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus in Mülheim",
+        "ort": "Mülheim",
+        "datum": "17.01.2025",
+        "bundesland": "Nordrhein-Westfalen",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEFCOTlOOVZ4bjFnQlJHLUlBcmU1WTBGX1U2NGV5a0Q4Rl9QWVEtTVMyeHpCQmJNSVlZdmdvaWVBSzZvclNINmNId3pTdXdkRV9qVzV6YmFiZm1SQk8tczVtamNhdU1OSi0wYTFOWldVeGZEcTNZRkU3TGZMVEt4X2FtZmtKeERSWlhia0VQeUlfMlpBZldneEdabTYwdEcxZm5PTEh1QWI?oc=5",
+        "titel": "Brand in Mülheim: Vier Verletzte bei Feuer in Krankenhaus - rp-online.de"
       }
     },
     {

@@ -36145,3 +36145,49 @@
 [2026-10-01 09:31:54] [DEDUP] Ergebnis: 949 Einträge (war: 949, 0 zusammengeführt)
 [2026-10-01 09:31:54] [DEDUP] Kandidaten-Datei: 747 pending, 2 confirmed, 0 rejected
 [2026-10-01 09:31:54] [DEDUP] Gespeichert: 949 → 949 Einträge
+[2026-10-02 09:06:23] === Monitor-Lauf gestartet ===
+[2026-10-02 09:06:24] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-02 09:06:25] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-02 09:06:25] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-10-02 09:06:25] Feed 'gn_feuer_krankenhaus': 46 Einträge
+[2026-10-02 09:06:26] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-10-02 09:06:26] Feed 'gn_brand_klinik': 44 Einträge
+[2026-10-02 09:06:26] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-10-02 09:06:27] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-02 09:06:27] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-02 09:06:28] Feed 'gn_evakuierung_klinik': 39 Einträge
+[2026-10-02 09:06:29] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-02 09:06:29] 225 relevante Treffer in Feeds
+[2026-10-02 09:06:29] ✅ 2 NEUE Einträge gefunden:
+[2026-10-02 09:06:29]    01.10.2026 | im Krankenhaus |  | Oberfränkisches Wohnhaus geht in Flammen auf - Person im Kra
+[2026-10-02 09:06:29]    17.01.2025 | in Krankenhaus |  | Brand in Mülheim: Vier Verletzte bei Feuer in Krankenhaus - 
+[2026-10-02 09:06:29] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-02 09:06:29] === Monitor-Lauf beendet ===
+
+[2026-10-02 09:06:29] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-02 09:06:29] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-02 09:06:29] [enrich] googlenewsdecoder v2: verfügbar
+[2026-10-02 09:06:29] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-02 09:06:29] [enrich] --- Enriche [1/2]: Oberfränkisches Wohnhaus geht in Flammen auf - Person im Kra
+[2026-10-02 09:06:29] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-02 09:06:29] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiowFBVV95cUxQM1dOd0E3amlnQmNIQ3ZjNXJIZjF
+[2026-10-02 09:06:29] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-02 09:06:29] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (502 Z.)
+[2026-10-02 09:06:31] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brand in einem Wohnhaus (kein Krankenhaus). Eine Person wird nach dem Brand ins Krankenhaus gebracht - dies ist keine Brandfall IN einer medizinischen Einrichtung.
+[2026-10-02 09:06:32] [enrich] --- Enriche [2/2]: Brand in Mülheim: Vier Verletzte bei Feuer in Krankenhaus - 
+[2026-10-02 09:06:32] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-02 09:06:32] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNEFCOTlOOVZ4bjFnQlJHLUlBcmU
+[2026-10-02 09:06:32] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-02 09:06:32] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (487 Z.)
+[2026-10-02 09:06:34] [enrich] Enrichment abgeschlossen: partial — Krankenhaus in Mülheim in Mülheim
+[2026-10-02 09:06:34] [enrich] Ergebnis: 0 enriched, 1 partial, 1 false_positive, 0 failed
+[2026-10-02 09:06:34] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-02 09:06:34] [DEDUP] Starte Dedup für 951 Einträge
+[2026-10-02 09:06:34] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-02 09:06:36] [DEDUP] Paare verglichen: 27272
+[2026-10-02 09:06:36] [DEDUP] Auto-Merges: 0
+[2026-10-02 09:06:36] [DEDUP] Kandidaten (unsicher): 748
+[2026-10-02 09:06:36] [DEDUP] Ergebnis: 951 Einträge (war: 951, 0 zusammengeführt)
+[2026-10-02 09:06:36] [DEDUP] Kandidaten-Datei: 748 pending, 2 confirmed, 0 rejected
+[2026-10-02 09:06:36] [DEDUP] Gespeichert: 951 → 951 Einträge
