@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T09:06:36.912662",
+  "generated_at": "2026-10-03T08:39:48.325223",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -404,6 +404,39 @@
         "",
         ""
       ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
+        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.76,
       "details": {
         "datum": 0.7,
@@ -694,6 +727,39 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.75,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.2,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.75
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Klinikum",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
+        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
+        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
@@ -2311,6 +2377,39 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
+        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
+        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
@@ -4984,6 +5083,39 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
+        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
@@ -13177,6 +13309,39 @@
       ],
       "score": 0.55,
       "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHlITTJvdnFLNE5NUHBrM3plUElMWU12QzB2ZnlHOWkwSlY0cE5PamhOSjY4TjU3SzczdHJ4S25MYkF3ZXVVLUd4WmVhV0lNOG5NMzEyOFF5emx3Tk1WTHZsUEI2YmdoY3RsbDlPTmg3NDJNTVJ0UUhWY3JkdGVPbDY2Q3gtYWRodTVMYWIzbnF2VEVONXlJTHI0c2tzRVFyOGI5blJRR3ZEckpKcU84bA?oc=5",
+        "titel": "Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden - Wochenblatt Reporter"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "07.04.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHlITTJvdnFLNE5NUHBrM3plUElMWU12QzB2ZnlHOWkwSlY0cE5PamhOSjY4TjU3SzczdHJ4S25MYkF3ZXVVLUd4WmVhV0lNOG5NMzEyOFF5emx3Tk1WTHZsUEI2YmdoY3RsbDlPTmg3NDJNTVJ0UUhWY3JkdGVPbDY2Q3gtYWRodTVMYWIzbnF2VEVONXlJTHI0c2tzRVFyOGI5blJRR3ZEckpKcU84bA?oc=5",
+        "titel": "Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden - wochenblatt-reporter.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
         "datum": 0.0,
         "ort": 1.0,
         "einrichtung": 0.5,
@@ -14257,6 +14422,39 @@
         "status": "false_positive",
         "link": "https://www.kma-online.de/aktuelles/klinik-news/detail/evakuierung-des-krankenhauses-porz-am-rhein-a-42438",
         "titel": "Bombenentschärfung: Evakuierung des Krankenhauses Porz am Rhein - kma Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "Palmas Klinik Son Espases geht glimpflich aus",
+        "ort": "",
+        "datum": "24.07.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.mallorcazeitung.es/aktuelles/2019/07/24/feuer-in-der-psychiatrie-in-54122594.html",
+        "titel": "Feuer in der Psychiatrie in Palmas Klinik Son Espases geht glimpflich aus - Mallorca Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "Palmas Klinik Son Espases geht glimpflich aus",
+        "ort": "",
+        "datum": "24.07.2019",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPR05QOUF2MXF2WnR5WnJxU29SMUlOM1pIeFNPb2lYMlV6T1lMXzdWUFdCSklzYkxfOFRsczNOa1RRb2Z4aTFGZDhqMC05RU5kVXc2Y2xIMmpJdW5QbktqTTdxRkYwdU1fb1lZRGxxYkIwNU13NmhEajlDSVJ3MVRDcUpyUDJtNFBNSzMtMzRYUS0ybFZNblowZdIBngFBVV95cUxQVkxWMG1sUXJmM1dscFg2NE1KVlZUYnh0OGFUWkFLZnN0cmttb0FCSVRvQWc4ZHYxbS1vTU5rOElOc2RKUXJBN1R2UTB5RlUyVHZjdnJ2Zm9NSUZVQ2dHVENHRllmVjZkMjhuaVpsRTdxZHBUa0lvMmFpajJ2TzJVLXlZbXdlQ01sal9feFRVNWFWS2dTX1pWMGREMXdPZw?oc=5",
+        "titel": "Feuer in der Psychiatrie in Palmas Klinik Son Espases geht glimpflich aus - mallorcazeitung.es"
       }
     },
     {

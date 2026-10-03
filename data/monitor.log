@@ -36191,3 +36191,69 @@
 [2026-10-02 09:06:36] [DEDUP] Ergebnis: 951 Einträge (war: 951, 0 zusammengeführt)
 [2026-10-02 09:06:36] [DEDUP] Kandidaten-Datei: 748 pending, 2 confirmed, 0 rejected
 [2026-10-02 09:06:36] [DEDUP] Gespeichert: 951 → 951 Einträge
+[2026-10-03 08:39:25] === Monitor-Lauf gestartet ===
+[2026-10-03 08:39:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-03 08:39:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-03 08:39:28] Feed 'gn_brand_krankenhaus': 51 Einträge
+[2026-10-03 08:39:28] Feed 'gn_feuer_krankenhaus': 47 Einträge
+[2026-10-03 08:39:28] Feed 'gn_feuer_klinik': 45 Einträge
+[2026-10-03 08:39:29] Feed 'gn_brand_klinik': 46 Einträge
+[2026-10-03 08:39:29] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-10-03 08:39:30] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-03 08:39:30] Feed 'gn_feuer_uniklinik': 32 Einträge
+[2026-10-03 08:39:30] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-10-03 08:39:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-03 08:39:31] 229 relevante Treffer in Feeds
+[2026-10-03 08:39:31] ✅ 5 NEUE Einträge gefunden:
+[2026-10-03 08:39:31]    07.04.2026 | im Krankenhaus |  | Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden -
+[2026-10-03 08:39:31]    24.07.2019 | Palmas Klinik Son Espases geht glimpflich aus |  | Feuer in der Psychiatrie in Palmas Klinik Son Espases geht g
+[2026-10-03 08:39:31]    03.07.2026 | im Klinikum |  | Brand in Ludwigslust: Millionen-Schaden im Klinikum - wochen
+[2026-10-03 08:39:31]    02.07.2026 | im Klinikum |  | Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - woc
+[2026-10-03 08:39:31]    02.10.2026 | ein Krankenhaus gebracht |  | Großbrand auf Hof: 30 Kälbchen sterben, vier Personen verlet
+[2026-10-03 08:39:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-03 08:39:31] === Monitor-Lauf beendet ===
+
+[2026-10-03 08:39:32] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-03 08:39:32] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-03 08:39:32] [enrich] googlenewsdecoder v2: verfügbar
+[2026-10-03 08:39:32] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-03 08:39:32] [enrich] --- Enriche [1/5]: Aachen: Brand im Krankenhaus - Zwei Patienten verschwunden -
+[2026-10-03 08:39:32] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-03 08:39:32] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMisAFBVV95cUxNaHlITTJvdnFLNE5NUHBrM3plUEl
+[2026-10-03 08:39:32] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-03 08:39:32] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (522 Z.)
+[2026-10-03 08:39:34] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne Textinhalt. Basierend auf der Überschrift allein kann nicht verifiziert werden, ob es sich um einen Brand IN einem Krankenhaus handelt oder ob dies möglicherweise ein sensationalistischer Titel ist. Der tatsächliche Artikeltext ist nicht vorhanden, daher kann keine zuverlässige Einordnung vorgenommen werden.
+[2026-10-03 08:39:35] [enrich] --- Enriche [2/5]: Feuer in der Psychiatrie in Palmas Klinik Son Espases geht g
+[2026-10-03 08:39:35] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-03 08:39:35] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimAFBVV95cUxPR05QOUF2MXF2WnR5WnJxU29SMUl
+[2026-10-03 08:39:35] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-03 08:39:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (595 Z.)
+[2026-10-03 08:39:36] [enrich] FALSE POSITIVE erkannt: Brand befindet sich in einer Klinik auf Mallorca (Spanien), nicht in Deutschland
+[2026-10-03 08:39:37] [enrich] --- Enriche [3/5]: Brand in Ludwigslust: Millionen-Schaden im Klinikum - wochen
+[2026-10-03 08:39:37] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-03 08:39:37] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUGxkbkl6OXcyYlpCOWIxTGUtWlJ
+[2026-10-03 08:39:37] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-03 08:39:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (500 Z.)
+[2026-10-03 08:39:38] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Headline ohne Textinhalt. Eine Verifikation, ob tatsächlich ein Brand IN dem Klinikum stattgefunden hat oder ob es sich um einen Brand in der Nähe handelt, ist nicht möglich.
+[2026-10-03 08:39:39] [enrich] --- Enriche [4/5]: Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - woc
+[2026-10-03 08:39:40] [enrich] googlenewsdecoder v2 fehlgeschlagen: unbekannt
+[2026-10-03 08:39:40] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlV
+[2026-10-03 08:39:40] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-03 08:39:40] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (511 Z.)
+[2026-10-03 08:39:42] [enrich] Enrichment abgeschlossen: partial — Klinikum Ludwigslust in Ludwigslust
+[2026-10-03 08:39:43] [enrich] --- Enriche [5/5]: Großbrand auf Hof: 30 Kälbchen sterben, vier Personen verlet
+[2026-10-03 08:39:44] [enrich] Volltext extrahiert: 5000 Zeichen von https://www.feuerwehrmagazin.de/nachrichten/grossbrand-auf-h
+[2026-10-03 08:39:45] [enrich] FALSE POSITIVE erkannt: Brand auf einem landwirtschaftlichen Anwesen (Stallungen und Reetdachhaus), nicht in einem Krankenhaus. Personen wurden nach dem Brand zur Abklärung ins Krankenhaus gebracht, aber der Brand selbst fand nicht in einer Klinik/einem Krankenhaus statt.
+[2026-10-03 08:39:45] [enrich] Ergebnis: 0 enriched, 1 partial, 4 false_positive, 0 failed
+[2026-10-03 08:39:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-03 08:39:45] [DEDUP] Starte Dedup für 956 Einträge
+[2026-10-03 08:39:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-03 08:39:48] [DEDUP] Auto-Merge (0.95): Klinik Ludwigslust / Ludwigslust ↔ Klinikum Ludwigslust / Ludwigslust
+[2026-10-03 08:39:48] [DEDUP] Paare verglichen: 27556
+[2026-10-03 08:39:48] [DEDUP] Auto-Merges: 1
+[2026-10-03 08:39:48] [DEDUP] Kandidaten (unsicher): 754
+[2026-10-03 08:39:48] [DEDUP] Cluster 2x: Klinik Ludwigslust, Klinikum Ludwigslust
+[2026-10-03 08:39:48] [DEDUP] Ergebnis: 955 Einträge (war: 956, 1 zusammengeführt)
+[2026-10-03 08:39:48] [DEDUP] Kandidaten-Datei: 754 pending, 2 confirmed, 0 rejected
+[2026-10-03 08:39:48] [DEDUP] Gespeichert: 956 → 955 Einträge
