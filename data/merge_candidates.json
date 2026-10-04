@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:39:48.325223",
+  "generated_at": "2026-10-04T08:54:56.174003",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -404,39 +404,6 @@
         "",
         ""
       ],
-      "score": 0.762,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.25,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.762
-      },
-      "entry_a": {
-        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
-        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
-        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
       "score": 0.76,
       "details": {
         "datum": 0.7,
@@ -727,39 +694,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.75,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.2,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.75
-      },
-      "entry_a": {
-        "einrichtung": "Helene-von-Bülow-Klinikum",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.rtl.de/news/krankenhausbrand-in-ludwigslust-zwei-patienten-tot-mehr-als-30-verletzte-nach-feuer-im-helene-von-buelow-klinikum-id31038024.html",
-        "titel": "Feuer in Klinik: Zwei Tote! - RTL.de"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
-        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
@@ -2377,39 +2311,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.7,
-      "details": {
-        "datum": 1.0,
-        "ort": 1.0,
-        "einrichtung": 0.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.7
-      },
-      "entry_a": {
-        "einrichtung": "Ludwigsluster Krankenhaus (LUP-Kliniken)",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/brand-im-krankenhaus-mit-2-toten-geruecht-ueber-die-ursache-macht-runde-4693276",
-        "titel": "Brand im Krankenhaus mit 2 Toten: Gerücht über Ursache macht die Runde - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
-        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
@@ -5083,39 +4984,6 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
-      }
-    },
-    {
-      "hashes": [
-        "",
-        ""
-      ],
-      "score": 0.65,
-      "details": {
-        "datum": 0.0,
-        "ort": 1.0,
-        "einrichtung": 1.0,
-        "bundesland": 1.0,
-        "brandort": 0.0,
-        "total": 0.65
-      },
-      "entry_a": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "10.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "enriched",
-        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
-        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
-      },
-      "entry_b": {
-        "einrichtung": "Klinikum Ludwigslust",
-        "ort": "Ludwigslust",
-        "datum": "02.07.2026",
-        "bundesland": "Mecklenburg-Vorpommern",
-        "status": "partial",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOclNNbWE3UDN1NVpBUXhPWm9zRlVFR3pZZ1E0a003VWx5akJVZ2FTdDNFc3BPdTFiRkJmZldmUWdiT0oyMFFNODNtOVlDNDVnVmRsZUUtNGk2UnlkalREV2xqTG9QUTBrNTJRUWptQkZrMjFja2JJdjFDWjBXODh1UHpwclF1QWRqWWhuZDk0LWUtY1ZMVUxUOEJQcXo5ZWFqdFgxUkdUZEtLWUM4WGc?oc=5",
-        "titel": "Brand in Ludwigslust: Zwei Tote nach Feuer im Klinikum - wochenblatt-reporter.de"
       }
     },
     {
