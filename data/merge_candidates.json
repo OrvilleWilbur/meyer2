@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T08:54:56.174003",
+  "generated_at": "2026-10-05T09:43:14.627730",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -20912,6 +20912,39 @@
         "datum": "26.08.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.nord24.de/deutschland-die-welt/15-babys-tot-feuer-in-entbindungsstation-in-pakistan-406562.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Nord24"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVY1V1NGMU5MMVFxVXhGZjhoMUFmVGptV0M5Z25wcTJoR2ZtVVJaWUE0UlJfZW1ZRDhQc19pSGlpZWtGRnVETFRkbFY1QmN1TFdfRWtNVHhyaWFUa0hDeWtFUlpLQmlYNUtGU0tFTTNNWE9EOHdXM2xLNFQxMUpBWDQ4cWlsV0RjN3BsRkh1M3dsQlF0aTdWckF6aEhObVdMSHZaUktWM0F0S1k?oc=5",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - nord24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
         "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Onetz"
       },
@@ -20956,6 +20989,39 @@
         "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
         "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Onetz"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVY1V1NGMU5MMVFxVXhGZjhoMUFmVGptV0M5Z25wcTJoR2ZtVVJaWUE0UlJfZW1ZRDhQc19pSGlpZWtGRnVETFRkbFY1QmN1TFdfRWtNVHhyaWFUa0hDeWtFUlpLQmlYNUtGU0tFTTNNWE9EOHdXM2xLNFQxMUpBWDQ4cWlsV0RjN3BsRkh1M3dsQlF0aTdWckF6aEhObVdMSHZaUktWM0F0S1k?oc=5",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - nord24.de"
       }
     },
     {
@@ -21022,6 +21088,72 @@
         "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
         "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.onetz.de/deutschland-welt/15-babys-tot-feuer-entbindungsstation-pakistan-id5480706.html",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - onetz.de"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVY1V1NGMU5MMVFxVXhGZjhoMUFmVGptV0M5Z25wcTJoR2ZtVVJaWUE0UlJfZW1ZRDhQc19pSGlpZWtGRnVETFRkbFY1QmN1TFdfRWtNVHhyaWFUa0hDeWtFUlpLQmlYNUtGU0tFTTNNWE9EOHdXM2xLNFQxMUpBWDQ4cWlsV0RjN3BsRkh1M3dsQlF0aTdWckF6aEhObVdMSHZaUktWM0F0S1k?oc=5",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - nord24.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/panorama/pakistan-trauert-um-14-tote-babys-nach-krankenhausbrand_arid-4150254.html",
+        "titel": "Brand am Mittwochmorgen: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - Panorama - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "nach Krankenhausbrand",
+        "ort": "",
+        "datum": "26.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVY1V1NGMU5MMVFxVXhGZjhoMUFmVGptV0M5Z25wcTJoR2ZtVVJaWUE0UlJfZW1ZRDhQc19pSGlpZWtGRnVETFRkbFY1QmN1TFdfRWtNVHhyaWFUa0hDeWtFUlpLQmlYNUtGU0tFTTNNWE9EOHdXM2xLNFQxMUpBWDQ4cWlsV0RjN3BsRkh1M3dsQlF0aTdWckF6aEhObVdMSHZaUktWM0F0S1k?oc=5",
+        "titel": "Pakistan trauert um 14 tote Babys nach Krankenhausbrand - nord24.de"
       }
     },
     {

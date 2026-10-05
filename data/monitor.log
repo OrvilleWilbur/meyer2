@@ -36287,3 +36287,59 @@
 [2026-10-04 08:54:56] [DEDUP] Ergebnis: 955 Einträge (war: 955, 0 zusammengeführt)
 [2026-10-04 08:54:56] [DEDUP] Kandidaten-Datei: 750 pending, 2 confirmed, 0 rejected
 [2026-10-04 08:54:56] [DEDUP] Gespeichert: 955 → 955 Einträge
+[2026-10-05 09:42:57] === Monitor-Lauf gestartet ===
+[2026-10-05 09:42:58] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-05 09:42:58] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-05 09:42:59] Feed 'gn_brand_krankenhaus': 57 Einträge
+[2026-10-05 09:42:59] Feed 'gn_feuer_krankenhaus': 54 Einträge
+[2026-10-05 09:42:59] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-10-05 09:43:00] Feed 'gn_brand_klinik': 48 Einträge
+[2026-10-05 09:43:00] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-10-05 09:43:01] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-05 09:43:01] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-05 09:43:01] Feed 'gn_evakuierung_klinik': 40 Einträge
+[2026-10-05 09:43:03] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-05 09:43:03] 238 relevante Treffer in Feeds
+[2026-10-05 09:43:03] ✅ 4 NEUE Einträge gefunden:
+[2026-10-05 09:43:03]    04.10.2026 | ins Krankenhaus |  | Brand auf Campingplatz am Gardasee: 24 Urlauber müssen ins K
+[2026-10-05 09:43:03]    04.10.2026 | im Krankenhaus |  | Flammen-Inferno auf beliebtem Gardasee-Campingplatz: Mehr al
+[2026-10-05 09:43:03]    26.08.2026 | nach Krankenhausbrand |  | Pakistan trauert um 14 tote Babys nach Krankenhausbrand - no
+[2026-10-05 09:43:03]    22.07.2025 | Mittelrhein-Klinik berichtet |  | Mittelrhein-Klinik berichtet: Nach Brand: Klinikhochhaus in 
+[2026-10-05 09:43:03] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-05 09:43:03] === Monitor-Lauf beendet ===
+
+[2026-10-05 09:43:03] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-05 09:43:03] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-05 09:43:03] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-05 09:43:03] [enrich] 4 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-05 09:43:03] [enrich] --- Enriche [1/4]: Brand auf Campingplatz am Gardasee: 24 Urlauber müssen ins K
+[2026-10-05 09:43:03] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEMxZ1g0c2RpQkJfLUV2MW5RUnh
+[2026-10-05 09:43:03] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-05 09:43:03] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (502 Z.)
+[2026-10-05 09:43:04] [enrich] FALSE POSITIVE erkannt: Brand auf Campingplatz am Gardasee - Brandopfer werden ins Krankenhaus gebracht, aber der Brand selbst findet nicht in einem Krankenhaus statt. Zudem liegt der Gardasee in Italien, nicht in Deutschland.
+[2026-10-05 09:43:05] [enrich] --- Enriche [2/4]: Flammen-Inferno auf beliebtem Gardasee-Campingplatz: Mehr al
+[2026-10-05 09:43:05] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NUNHJ1QUZnUzZXR1VaRTdqcVU
+[2026-10-05 09:43:05] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-05 09:43:05] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (524 Z.)
+[2026-10-05 09:43:07] [enrich] FALSE POSITIVE erkannt: Brand auf Campingplatz am Gardasee (Italien), nicht in einem deutschen Krankenhaus. Urlauber werden nach dem Brand ins Krankenhaus gebracht, aber der Brand selbst findet nicht in einer Klinik statt.
+[2026-10-05 09:43:08] [enrich] --- Enriche [3/4]: Pakistan trauert um 14 tote Babys nach Krankenhausbrand - no
+[2026-10-05 09:43:08] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVVY1V1NGMU5MMVFxVXhGZjhoMUF
+[2026-10-05 09:43:08] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-05 09:43:08] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (481 Z.)
+[2026-10-05 09:43:09] [enrich] FALSE POSITIVE erkannt: Brand in ausländischem Krankenhaus (Pakistan), nicht in Deutschland
+[2026-10-05 09:43:10] [enrich] --- Enriche [4/4]: Mittelrhein-Klinik berichtet: Nach Brand: Klinikhochhaus in 
+[2026-10-05 09:43:10] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiywFBVV95cUxPZFFLZVIwN2Q2SDhKVkUtc283V2Z
+[2026-10-05 09:43:10] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-05 09:43:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (588 Z.)
+[2026-10-05 09:43:12] [enrich] Enrichment abgeschlossen: partial — Mittelrhein-Klinik in Bad Salzig
+[2026-10-05 09:43:12] [enrich] Ergebnis: 0 enriched, 1 partial, 3 false_positive, 0 failed
+[2026-10-05 09:43:12] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-05 09:43:12] [DEDUP] Starte Dedup für 959 Einträge
+[2026-10-05 09:43:12] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-05 09:43:14] [DEDUP] Paare verglichen: 27696
+[2026-10-05 09:43:14] [DEDUP] Auto-Merges: 0
+[2026-10-05 09:43:14] [DEDUP] Kandidaten (unsicher): 754
+[2026-10-05 09:43:14] [DEDUP] Ergebnis: 959 Einträge (war: 959, 0 zusammengeführt)
+[2026-10-05 09:43:14] [DEDUP] Kandidaten-Datei: 754 pending, 2 confirmed, 0 rejected
+[2026-10-05 09:43:14] [DEDUP] Gespeichert: 959 → 959 Einträge
