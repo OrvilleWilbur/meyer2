@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:43:14.627730",
+  "generated_at": "2026-10-06T09:31:44.813886",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -21303,6 +21303,72 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "04.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaEMxZ1g0c2RpQkJfLUV2MW5RUnhVQnJhU0w0empuUkpaU3Q3UG44NkJvYlBnbVBTNDVWdGVVaGhyZHVUMHNPNW41SGg3TzZ2YUkwSTFENEVUTUdCaHM2WjlDVzY1Qzk2QW52TnE4V1h0N3c0NzZwcHdWMF9BWWZDdTBOOC13WEQwNTlhNk9jVEVaMGRzX3FxYVJMdWFSSXpONXl5eGhROA?oc=5",
+        "titel": "Brand auf Campingplatz am Gardasee: 24 Urlauber müssen ins Krankenhaus - gmx.net"
+      },
+      "entry_b": {
+        "einrichtung": "ins Krankenhaus",
+        "ort": "",
+        "datum": "04.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdU1tUS1td0NQcUFIZ25KYzJnbnlhRERZdm84RHQ1SVMxajR4RXpGOTl0WGVaZEtqYWtYR2RUdWktY2ptNmd6enF5emw1RjEzU1NfdjRvbGtCeGRXWUVQLTFpWTJ0RGd2VzhlMFZET0NLMDFobkdFZzJ6SktfTW9SbEtvV2pILXBiMnMtYUtPOWFHUWlHWWlUMXlfNHpUWUUt?oc=5",
+        "titel": "Brand am Gardasee: 24 Urlauber müssen ins Krankenhaus - WEB.DE"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORlJyTjQzWmJZNzdubGNuUUotckQ3eWE1SUdfSUt0R2JMaVRKbl9iNXlRZ1NHU0FndEl1ZnFJMDlsakQ2UlJkRmNJV2JLVGticDdEOTZ2c1FmYzVEY3RVS0dWT3BGTjdOVmRqakxFR29iRGRkdkR6LVdsWjJ1aGlWY1F4OTdtczhldENwQVM2ZGQtakdCYUVWRVdrX0NLNDc3anVHbGZ2OWJjWTk1bkdMdXRwOXRrUVkz?oc=5",
+        "titel": "Brand am Gardasee: Deutscher Tourist noch im Krankenhaus - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRVNvOGx1eHpjT1lDNFdKanNhQ2lpWHh3T1o2Q2VyQXExNElsai1rZGdKbVVPYjNsaDdsNGZfeXhjR2JDVTVTRENRRXNCMkZqWUlhdHEyNmdKYk5JSWdZajNZVmNwX3hRMmZ3bXZ6OGZpWVR3X2xObVhfdGVqZDNuNnpqX0dIRFlWVFdwLXJDUnptTkpLVnlsRnhYTlJ0V295bE5PSg?oc=5",
+        "titel": "Brand am Gardasee: Deutscher Tourist noch im Krankenhaus - Onetz"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik",
         "ort": "",
         "datum": "24.12.2015",
@@ -24850,6 +24916,72 @@
         "status": "false_positive",
         "link": "https://www.main-echo.de/ressorts/blaulicht/haus-nach-brand-in-glattbach-unbewohnbar-zweijaehriger-in-klinik-art-8767583",
         "titel": "Haus nach Brand in Glattbach unbewohnbar - Zweijähriger in Klinik - main-echo.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NUNHJ1QUZnUzZXR1VaRTdqcVUxRU01cEVHSUEtcWRQbHlwXzdERXVFc05rd1Z2Y1NZMFgzZnFWN2ItUFBwWkdPcWlHcjJCRmkxNHB3UGpnaGVhQVowZkZ5T1pFUE5xSnFnWFhuazdZUmQzR01mUTBuU1RZQWgySHg5R2REMlhmcFZCa3Q0eU04eE1rWEVjWHNETVNrQQ?oc=5",
+        "titel": "Flammen-Inferno auf beliebtem Gardasee-Campingplatz: Mehr als 20 Urlauber im Krankenhaus - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORlJyTjQzWmJZNzdubGNuUUotckQ3eWE1SUdfSUt0R2JMaVRKbl9iNXlRZ1NHU0FndEl1ZnFJMDlsakQ2UlJkRmNJV2JLVGticDdEOTZ2c1FmYzVEY3RVS0dWT3BGTjdOVmRqakxFR29iRGRkdkR6LVdsWjJ1aGlWY1F4OTdtczhldENwQVM2ZGQtakdCYUVWRVdrX0NLNDc3anVHbGZ2OWJjWTk1bkdMdXRwOXRrUVkz?oc=5",
+        "titel": "Brand am Gardasee: Deutscher Tourist noch im Krankenhaus - noz.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.46,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.46
+      },
+      "entry_a": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "04.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NUNHJ1QUZnUzZXR1VaRTdqcVUxRU01cEVHSUEtcWRQbHlwXzdERXVFc05rd1Z2Y1NZMFgzZnFWN2ItUFBwWkdPcWlHcjJCRmkxNHB3UGpnaGVhQVowZkZ5T1pFUE5xSnFnWFhuazdZUmQzR01mUTBuU1RZQWgySHg5R2REMlhmcFZCa3Q0eU04eE1rWEVjWHNETVNrQQ?oc=5",
+        "titel": "Flammen-Inferno auf beliebtem Gardasee-Campingplatz: Mehr als 20 Urlauber im Krankenhaus - Merkur"
+      },
+      "entry_b": {
+        "einrichtung": "im Krankenhaus",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRVNvOGx1eHpjT1lDNFdKanNhQ2lpWHh3T1o2Q2VyQXExNElsai1rZGdKbVVPYjNsaDdsNGZfeXhjR2JDVTVTRENRRXNCMkZqWUlhdHEyNmdKYk5JSWdZajNZVmNwX3hRMmZ3bXZ6OGZpWVR3X2xObVhfdGVqZDNuNnpqX0dIRFlWVFdwLXJDUnptTkpLVnlsRnhYTlJ0V295bE5PSg?oc=5",
+        "titel": "Brand am Gardasee: Deutscher Tourist noch im Krankenhaus - Onetz"
       }
     },
     {
