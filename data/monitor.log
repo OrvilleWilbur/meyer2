@@ -36399,3 +36399,65 @@
 [2026-10-06 09:31:44] [DEDUP] Ergebnis: 963 Einträge (war: 963, 0 zusammengeführt)
 [2026-10-06 09:31:44] [DEDUP] Kandidaten-Datei: 758 pending, 2 confirmed, 0 rejected
 [2026-10-06 09:31:44] [DEDUP] Gespeichert: 963 → 963 Einträge
+[2026-10-07 09:27:25] === Monitor-Lauf gestartet ===
+[2026-10-07 09:27:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-07 09:27:27] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-07 09:27:27] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-10-07 09:27:27] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-10-07 09:27:28] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-10-07 09:27:28] Feed 'gn_brand_klinik': 49 Einträge
+[2026-10-07 09:27:29] Feed 'gn_brand_klinikum': 35 Einträge
+[2026-10-07 09:27:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-07 09:27:29] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-10-07 09:27:30] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-10-07 09:27:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-07 09:27:31] 236 relevante Treffer in Feeds
+[2026-10-07 09:27:31] ✅ 5 NEUE Einträge gefunden:
+[2026-10-07 09:27:31]    30.06.2017 | Yorker Krankenhaus |  | Mann eröffnet Feuer in New Yorker Krankenhaus - mehrere Verl
+[2026-10-07 09:27:31]    02.06.2025 | Hamburger Klinik |  | Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Bra
+[2026-10-07 09:27:31]    06.10.2026 | in Klinik |  | Bewohner in Klinik: Brand in Tannenberg - Polizei vermutet t
+[2026-10-07 09:27:31]    05.08.2026 | im Klinikum Solingen löst Großeinsatz aus |  | Schwelbrand im Klinikum Solingen löst Großeinsatz aus - Müns
+[2026-10-07 09:27:31]    26.09.2026 | Uniklinik |  | Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-10-07 09:27:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-07 09:27:31] === Monitor-Lauf beendet ===
+
+[2026-10-07 09:27:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-07 09:27:31] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-07 09:27:31] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-07 09:27:31] [enrich] 5 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-07 09:27:31] [enrich] --- Enriche [1/5]: Mann eröffnet Feuer in New Yorker Krankenhaus - mehrere Verl
+[2026-10-07 09:27:31] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRzZLOUxodE9Ib1dJM0dBMnREXzJ
+[2026-10-07 09:27:31] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-07 09:27:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (516 Z.)
+[2026-10-07 09:27:33] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Schusswaffeneinsatz (Schießerei) in einem Krankenhaus in New York (USA), nicht einen Brand in einem deutschen Krankenhaus
+[2026-10-07 09:27:34] [enrich] --- Enriche [2/5]: Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Bra
+[2026-10-07 09:27:34] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFl
+[2026-10-07 09:27:34] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-07 09:27:34] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (540 Z.)
+[2026-10-07 09:27:36] [enrich] Enrichment abgeschlossen: partial — Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt) in Hamburg
+[2026-10-07 09:27:37] [enrich] --- Enriche [3/5]: Bewohner in Klinik: Brand in Tannenberg - Polizei vermutet t
+[2026-10-07 09:27:37] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi5AFBVV95cUxQN0xHYUFiYmVJU0hqR3BSS2FsWUN
+[2026-10-07 09:27:37] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-07 09:27:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (592 Z.)
+[2026-10-07 09:27:39] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in Tannenberg (vermutlich Wohngebäude), nicht einen Brand IN einem Krankenhaus. Die Erwähnung 'Bewohner in Klinik' deutet darauf hin, dass Brandopfer zur Behandlung in eine Klinik gebracht wurden, nicht dass der Brand selbst in der Klinik stattfand.
+[2026-10-07 09:27:40] [enrich] --- Enriche [4/5]: Schwelbrand im Klinikum Solingen löst Großeinsatz aus - Müns
+[2026-10-07 09:27:40] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMidEFVX3lxTE56NllPbHJEUDZocllFS3p0Y3FFZ3l
+[2026-10-07 09:27:40] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-07 09:27:40] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (414 Z.)
+[2026-10-07 09:27:42] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne detaillierte Informationen. Der Titel erwähnt zwar einen Schwelbrand im Klinikum Solingen, aber es fehlen jegliche Angaben zum tatsächlichen Brandverlauf, zur Evakuierung, zu Verletzten oder anderen Details, die eine echte Brandmeldung belegen würden. Es ist möglich, dass es sich um eine Brandschutzübung oder ein missverstandenes Angebot handelt.
+[2026-10-07 09:27:43] [enrich] --- Enriche [5/5]: Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklini
+[2026-10-07 09:27:43] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMilgFBVV95cUxQMkx4eFF3dUhpWFpDQ0E3Q1VpeFV
+[2026-10-07 09:27:43] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-07 09:27:43] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (463 Z.)
+[2026-10-07 09:27:45] [enrich] Enrichment abgeschlossen: partial — Universitätsklinikum Mainz in Mainz
+[2026-10-07 09:27:45] [enrich] Ergebnis: 0 enriched, 2 partial, 3 false_positive, 0 failed
+[2026-10-07 09:27:45] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-07 09:27:45] [DEDUP] Starte Dedup für 968 Einträge
+[2026-10-07 09:27:45] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-07 09:27:47] [DEDUP] Paare verglichen: 27916
+[2026-10-07 09:27:47] [DEDUP] Auto-Merges: 0
+[2026-10-07 09:27:47] [DEDUP] Kandidaten (unsicher): 767
+[2026-10-07 09:27:47] [DEDUP] Ergebnis: 968 Einträge (war: 968, 0 zusammengeführt)
+[2026-10-07 09:27:47] [DEDUP] Kandidaten-Datei: 767 pending, 2 confirmed, 0 rejected
+[2026-10-07 09:27:47] [DEDUP] Gespeichert: 968 → 968 Einträge

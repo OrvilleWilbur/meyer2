@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06T09:31:44.813886",
+  "generated_at": "2026-10-07T09:27:47.131425",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -34,6 +34,39 @@
         "status": "enriched",
         "link": "https://www.mz.de/lokal/halle-saale/feuer-im-uniklinikum-halle-op-betrieb-sichergestellt-aufwachraum-geraumt-3717337",
         "titel": "Feuer im Uniklinikum Halle: OP-Betrieb sichergestellt - Aufwachraum geräumt - Mitteldeutsche Zeitung"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.8,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.4,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.8
+      },
+      "entry_a": {
+        "einrichtung": "Universitätsmedizin Mainz (Uniklinik)",
+        "ort": "Mainz",
+        "datum": "26.09.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUlhEbnhJN0s1by13UE1TbGZJU1ExdGFwUE1TWDlwZW1paGlaOXNqSW11WFRqdXZtZmJqRm1Ub3NUWHNZOUVhR1pIRV95YW03OWxQQm1mMUYzSWVnYi1NNC0yUHg4Z0Rsc24xZXd4YVRrRllEN3puMnBYQ2l2RGhyQnV3ZzlRVHRMdnZiSmpSajN4ZTZjTVBrRENoTWcwLVk3UXd0WXdfVjNRa19wM3g1RkRwUjU2c2xSVG94U3RnRDNKZXliWVNzSE1mdmhZbjhXS3RHWjVJWFpQNmVS?oc=5",
+        "titel": "Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklinik - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Universitätsklinikum Mainz",
+        "ort": "Mainz",
+        "datum": "26.09.2026",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMkx4eFF3dUhpWFpDQ0E3Q1VpeFVkOG53YnczWWVlaHR6VHB5R1lTa1NoUlVlbXhra3E1MWdXUzRaWWZlZ21wSEtOcUJTNFpqRlBpZFhkZXhmdHhabGpkZmR1emQ5WVhaVFdTTDhHaWVWd0p0NnhKVTFRN3M4bVhaV0VqRnNZakYzZTlyQXNpMFhOd2JXbEE?oc=5",
+        "titel": "Feuer: Kabelbrand sorgt für Stromausfall in Mainzer Uniklinik - DIE ZEIT"
       }
     },
     {
@@ -133,6 +166,39 @@
         "status": "enriched",
         "link": "https://www.wochenblatt-reporter.de/saarland/c-blaulicht/grosseinsatz-nach-brand-in-saarbruecker-klinik-feuer-verursacht-millionenschaden_a676206",
         "titel": "Großeinsatz nach Brand in Saarbrücker Klinik: Feuer verursacht Millionenschaden - Saarland - Wochenblatt Reporter"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.791,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.36363636363636365,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.791
+      },
+      "entry_a": {
+        "einrichtung": "Klinik in Hamburg (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
+        "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
       }
     },
     {
@@ -767,6 +833,39 @@
         "",
         ""
       ],
+      "score": 0.746,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.5454545454545454,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.746
+      },
+      "entry_a": {
+        "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.745,
       "details": {
         "datum": 1.0,
@@ -925,6 +1024,39 @@
         "status": "enriched",
         "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
         "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.736,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.14285714285714285,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.736
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tixio.de/855998-haftbefehl-gegen-72-jaehrigen-nach-brand-in-hamburger-krankenhaus.html",
+        "titel": "News, Vermischtes: Haftbefehl gegen 72-Jährigen nach Brand in Hamburger Krankenhaus - tixio.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
       }
     },
     {
@@ -3110,6 +3242,39 @@
         "",
         ""
       ],
+      "score": 0.672,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.672
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Hamburg (Name nicht vollständig angegeben)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://www.bz-berlin.de/deutschland/brand-hamburg-marienkrankenhaus",
+        "titel": "Brand in Hamburger Klinik – drei Patienten tot - B.Z. – Die Stimme Berlins"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.67,
       "details": {
         "datum": 0.7,
@@ -4143,6 +4308,39 @@
         "total": 0.652
       },
       "entry_a": {
+        "einrichtung": "Hamburger Klinik (Name nicht spezifiziert)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/video/video-1472328.html",
+        "titel": "Festnahme wegen Verdachts der Brandstiftung nach Feuer in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.652,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.16666666666666666,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.652
+      },
+      "entry_a": {
         "einrichtung": "Hamburger Klinik (genaue Bezeichnung im Text nicht genannt)",
         "ort": "Hamburg",
         "datum": "01.06.2025",
@@ -5156,6 +5354,39 @@
         "",
         ""
       ],
+      "score": 0.629,
+      "details": {
+        "datum": 0.7,
+        "ort": 1.0,
+        "einrichtung": 0.07692307692307693,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.629
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Hamburg-Hohenfelde (geriatrische Station)",
+        "ort": "Hamburg",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.stern.de/news/drei-tote-bei-feuer-in-krankenhaus--psychiatrie-fuer-brandstifter-in-hamburg-36971754.html",
+        "titel": "Drei Tote bei Feuer in Krankenhaus: Psychiatrie für Brandstifter in Hamburg - STERN.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.628,
       "details": {
         "datum": 0.7,
@@ -5321,6 +5552,39 @@
         "",
         ""
       ],
+      "score": 0.598,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.13333333333333333,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.598
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus im Hamburger Stadtteil Hohenfelde (Name nicht spezifiziert)",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://fundscene.com/drei-tote-nach-brand-in-hamburger-krankenhaus/",
+        "titel": "Drei Tote nach Brand in Hamburger Krankenhaus - fundscene.com"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
       "score": 0.596,
       "details": {
         "datum": 0.7,
@@ -5446,6 +5710,39 @@
         "status": "partial",
         "link": "https://www.rnd.de/panorama/klinikbrand-in-hamburg-jetzt-wohl-vier-todesopfer-verdaechtiger-in-psychiatrie-PENPWNDZMVLTHPNS7OVWYAWUKM.html",
         "titel": "Brand in Hamburger Klinik: Jetzt wohl vier Todesopfer – Verdächtiger in Psychiatrie - RND.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.565,
+      "details": {
+        "datum": 0.7,
+        "ort": 0.85,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.565
+      },
+      "entry_a": {
+        "einrichtung": "Marienkrankenhaus",
+        "ort": "Hamburg, Stadtteil Hohenfelde",
+        "datum": "01.06.2025",
+        "bundesland": "Hamburg",
+        "status": "enriched",
+        "link": "https://www.tagesschau.de/inland/gesellschaft/hamburg-krankenhaus-brand-100.html",
+        "titel": "Tote und Verletzte bei Brand in Hamburger Klinik - tagesschau.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik in Hamburg (genaue Bezeichnung nicht im Titel genannt)",
+        "ort": "Hamburg",
+        "datum": "02.06.2025",
+        "bundesland": "Hamburg",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdl9GYnpnR1kyckFCTUhBNVZmWFlJOWNuYUVXb3BYcWZpTjFMbFdyMnRzREJ3UHlfVXlMTnAwZ2pFSDVYZWVKa0hYeFhXWlJtSm5yYVItU2J5SVRHcTRWT1BLVjRyMjB5RWJUTXpwbHdQaXgyaGIyTjhqV2xEeDRKWXpTcm9wS3F3VWczWDMwdlZXUkxIYWppVEo3cHozREJZbGZzQ2hjOFRHZlVhWW5j?oc=5",
+        "titel": "Verdacht auf Brandstiftung: Wohl viertes Todesopfer nach Brand in Hamburger Klinik - RP Online"
       }
     },
     {
