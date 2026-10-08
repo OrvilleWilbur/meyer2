@@ -36461,3 +36461,41 @@
 [2026-10-07 09:27:47] [DEDUP] Ergebnis: 968 Einträge (war: 968, 0 zusammengeführt)
 [2026-10-07 09:27:47] [DEDUP] Kandidaten-Datei: 767 pending, 2 confirmed, 0 rejected
 [2026-10-07 09:27:47] [DEDUP] Gespeichert: 968 → 968 Einträge
+[2026-10-08 09:37:41] === Monitor-Lauf gestartet ===
+[2026-10-08 09:37:43] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-08 09:37:44] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-08 09:37:44] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-10-08 09:37:45] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-10-08 09:37:45] Feed 'gn_feuer_klinik': 50 Einträge
+[2026-10-08 09:37:45] Feed 'gn_brand_klinik': 50 Einträge
+[2026-10-08 09:37:46] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-10-08 09:37:46] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-08 09:37:47] Feed 'gn_feuer_uniklinik': 34 Einträge
+[2026-10-08 09:37:47] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-10-08 09:37:48] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-08 09:37:48] 241 relevante Treffer in Feeds
+[2026-10-08 09:37:48] ✅ 1 NEUE Einträge gefunden:
+[2026-10-08 09:37:48]    13.06.2026 | zum Klinikum Bayreuth alarmiert |  | 🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden 
+[2026-10-08 09:37:48] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-08 09:37:48] === Monitor-Lauf beendet ===
+
+[2026-10-08 09:37:49] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-08 09:37:49] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-08 09:37:49] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-08 09:37:49] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-08 09:37:49] [enrich] --- Enriche [1/1]: 🚒 Großeinsatz am Klinikum Bayreuth! Am Samstagmorgen wurden 
+[2026-10-08 09:37:49] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiUkFVX3lxTE5RN0g1RFRTZjZET3hVOUVpS3d1VVh
+[2026-10-08 09:37:49] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-08 09:37:49] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (679 Z.)
+[2026-10-08 09:37:51] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Einsatz wegen Brand- oder Schmorgeruchs, nicht einen tatsächlichen Brand. Der Text bricht ab und liefert keine Informationen über einen bestätigten Brand im Klinikum selbst.
+[2026-10-08 09:37:51] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-10-08 09:37:51] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-08 09:37:51] [DEDUP] Starte Dedup für 969 Einträge
+[2026-10-08 09:37:51] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-08 09:37:53] [DEDUP] Paare verglichen: 28062
+[2026-10-08 09:37:53] [DEDUP] Auto-Merges: 0
+[2026-10-08 09:37:53] [DEDUP] Kandidaten (unsicher): 767
+[2026-10-08 09:37:53] [DEDUP] Ergebnis: 969 Einträge (war: 969, 0 zusammengeführt)
+[2026-10-08 09:37:53] [DEDUP] Kandidaten-Datei: 767 pending, 2 confirmed, 0 rejected
+[2026-10-08 09:37:53] [DEDUP] Gespeichert: 969 → 969 Einträge
