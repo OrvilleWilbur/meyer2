@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T09:37:53.789308",
+  "generated_at": "2026-10-09T09:44:28.514331",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -2443,6 +2443,39 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.7,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.7
+      },
+      "entry_a": {
+        "einrichtung": "Helene-von-Bülow-Krankenhaus",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://foro3d.com/de/2026/julio/incendio-en-hospital-aleman-dos-muertos-y-alarma-sobre-seguridad.html",
+        "titel": "Brand in deutschem Krankenhaus: zwei Tote und Alarm um Sicherheit - Foro3D"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFR2QXNNenV2UTVreUdPZ3RrTERncDRiZ3dIdHlPenJyX1FKS3hwal9ULTNIdS1CXzFWWkh3cFVWWE9CQXpHUnBmdVFJLUw2VHRvOUU3dzJlSWRlX2MtM3M5d3pnd1hfNTBIT05zNHVFc2k0MEMyUzRZU1ViQnN1ZENJX0htRDY0SjZ5VEhPUW1tNU9lR0N0V09icnNKX3VLYUNSMkFqbi1WMlBDb0dtb3JtUzRTTzJaM3dPMUlRWjQ5VDAzUFFRZHFtM3BYRmVmM2tWN0JQT3l6a2Jw?oc=5",
+        "titel": "Nach Klinikbrand in Ludwigslust: Ursache weiter unklar - WELT"
       }
     },
     {
@@ -5182,6 +5215,72 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinikum Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "10.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.nordkurier.de/regional/ludwigslust/nach-toedlichem-krankenhausbrand-deshalb-wird-sofort-ueber-einen-schuldigen-spekuliert-4700806",
+        "titel": "Nach tödlichem Krankenhausbrand: Deshalb wird sofort über einen Schuldigen spekuliert - Nordkurier"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFR2QXNNenV2UTVreUdPZ3RrTERncDRiZ3dIdHlPenJyX1FKS3hwal9ULTNIdS1CXzFWWkh3cFVWWE9CQXpHUnBmdVFJLUw2VHRvOUU3dzJlSWRlX2MtM3M5d3pnd1hfNTBIT05zNHVFc2k0MEMyUzRZU1ViQnN1ZENJX0htRDY0SjZ5VEhPUW1tNU9lR0N0V09icnNKX3VLYUNSMkFqbi1WMlBDb0dtb3JtUzRTTzJaM3dPMUlRWjQ5VDAzUFFRZHFtM3BYRmVmM2tWN0JQT3l6a2Jw?oc=5",
+        "titel": "Nach Klinikbrand in Ludwigslust: Ursache weiter unklar - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.65,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 1.0,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.65
+      },
+      "entry_a": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
+        "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFR2QXNNenV2UTVreUdPZ3RrTERncDRiZ3dIdHlPenJyX1FKS3hwal9ULTNIdS1CXzFWWkh3cFVWWE9CQXpHUnBmdVFJLUw2VHRvOUU3dzJlSWRlX2MtM3M5d3pnd1hfNTBIT05zNHVFc2k0MEMyUzRZU1ViQnN1ZENJX0htRDY0SjZ5VEhPUW1tNU9lR0N0V09icnNKX3VLYUNSMkFqbi1WMlBDb0dtb3JtUzRTTzJaM3dPMUlRWjQ5VDAzUFFRZHFtM3BYRmVmM2tWN0JQT3l6a2Jw?oc=5",
+        "titel": "Nach Klinikbrand in Ludwigslust: Ursache weiter unklar - WELT"
       }
     },
     {
@@ -21666,6 +21765,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "Dobler Klinik",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZHkxa0otclpGMG1pUUFOcUE0U09OcVUtNXl5dDlrZ19VRHlXWkQtdml6Z2tZbVFkeFFBcFFjRDZVOGlHM1R4NGx3OURmSFdGR0s0VGhiNk5fNklrdHRSSVAtTEt2N3IzMElSZzVqbkhOTXU1VlVwS2pKeFZtY2IwcUM4WlUzT0ZacU5xR0hkMmkxRTM2REVwc240a3JhNHVJYWR2UVBMSUFXXzdyWHd1MQ?oc=5",
+        "titel": "Großeinsatz in Dobler Klinik: So lief die Evakuierung - Region - Pforzheimer-Zeitung - PZ-news"
+      },
+      "entry_b": {
+        "einrichtung": "Dobler Klinik",
+        "ort": "",
+        "datum": "05.10.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZHkxa0otclpGMG1pUUFOcUE0U09OcVUtNXl5dDlrZ19VRHlXWkQtdml6Z2tZbVFkeFFBcFFjRDZVOGlHM1R4NGx3OURmSFdGR0s0VGhiNk5fNklrdHRSSVAtTEt2N3IzMElSZzVqbkhOTXU1VlVwS2pKeFZtY2IwcUM4WlUzT0ZacU5xR0hkMmkxRTM2REVwc240a3JhNHVJYWR2UVBMSUFXXzdyWHd1MQ?oc=5",
+        "titel": "Großeinsatz in Dobler Klinik: So lief die Evakuierung - Region - Pforzheimer-Zeitung - PZ-news.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "in Klinik",
         "ort": "",
         "datum": "24.12.2015",
@@ -23992,6 +24124,39 @@
         "status": "enriched",
         "link": "https://www.mdr.de/nachrichten/sachsen-anhalt/halle/mansfeld/audio-brand-hettstedt-klinik-100.html",
         "titel": "Brand in Helios Klinik Hettstedt: Polizei geht von Brandstiftung aus - MDR.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.463,
+      "details": {
+        "datum": 0.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.463
+      },
+      "entry_a": {
+        "einrichtung": "Krankenhaus Ludwigslust (Radiologiegebäude)",
+        "ort": "Ludwigslust",
+        "datum": "02.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "enriched",
+        "link": "https://www.fnp.de/deutschland/mindestens-34-verletzte-bei-dachstuhlbrand-in-krankenhaus-ludwigslust-schwerin-zr-94378782.html",
+        "titel": "Tote bei Brand in Krankenhaus: Großeinsatz in Ludwigslust - fnp.de"
+      },
+      "entry_b": {
+        "einrichtung": "Klinik Ludwigslust",
+        "ort": "Ludwigslust",
+        "datum": "06.07.2026",
+        "bundesland": "Mecklenburg-Vorpommern",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZFR2QXNNenV2UTVreUdPZ3RrTERncDRiZ3dIdHlPenJyX1FKS3hwal9ULTNIdS1CXzFWWkh3cFVWWE9CQXpHUnBmdVFJLUw2VHRvOUU3dzJlSWRlX2MtM3M5d3pnd1hfNTBIT05zNHVFc2k0MEMyUzRZU1ViQnN1ZENJX0htRDY0SjZ5VEhPUW1tNU9lR0N0V09icnNKX3VLYUNSMkFqbi1WMlBDb0dtb3JtUzRTTzJaM3dPMUlRWjQ5VDAzUFFRZHFtM3BYRmVmM2tWN0JQT3l6a2Jw?oc=5",
+        "titel": "Nach Klinikbrand in Ludwigslust: Ursache weiter unklar - WELT"
       }
     },
     {
