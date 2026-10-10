@@ -36549,3 +36549,47 @@
 [2026-10-09 09:44:28] [DEDUP] Ergebnis: 972 Einträge (war: 972, 0 zusammengeführt)
 [2026-10-09 09:44:28] [DEDUP] Kandidaten-Datei: 772 pending, 2 confirmed, 0 rejected
 [2026-10-09 09:44:28] [DEDUP] Gespeichert: 972 → 972 Einträge
+[2026-10-10 09:10:01] === Monitor-Lauf gestartet ===
+[2026-10-10 09:10:02] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-10 09:10:02] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-10 09:10:03] Feed 'gn_brand_krankenhaus': 48 Einträge
+[2026-10-10 09:10:03] Feed 'gn_feuer_krankenhaus': 51 Einträge
+[2026-10-10 09:10:04] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-10-10 09:10:04] Feed 'gn_brand_klinik': 51 Einträge
+[2026-10-10 09:10:05] Feed 'gn_brand_klinikum': 36 Einträge
+[2026-10-10 09:10:05] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-10 09:10:05] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-10 09:10:06] Feed 'gn_evakuierung_klinik': 45 Einträge
+[2026-10-10 09:10:07] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-10 09:10:07] 231 relevante Treffer in Feeds
+[2026-10-10 09:10:07] ✅ 2 NEUE Einträge gefunden:
+[2026-10-10 09:10:07]    16.07.2026 | in Klinik |  | Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an
+[2026-10-10 09:10:07]    17.08.2026 | in Klinik |  | Kampf gegen Brand in Belgien - eine Feuerwehrkraft in Klinik
+[2026-10-10 09:10:07] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-10 09:10:07] === Monitor-Lauf beendet ===
+
+[2026-10-10 09:10:07] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-10 09:10:07] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-10 09:10:07] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-10 09:10:07] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-10 09:10:07] [enrich] --- Enriche [1/2]: Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an
+[2026-10-10 09:10:07] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHF
+[2026-10-10 09:10:07] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-10 09:10:07] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (609 Z.)
+[2026-10-10 09:10:09] [enrich] FALSE POSITIVE erkannt: Der Brand ereignete sich in einer Kreisverwaltung, nicht in einem Krankenhaus oder einer Klinik. Vier Menschen wurden nach dem Brandvorfall zur medizinischen Versorgung in eine Klinik gebracht, aber dies ist eine Folgehandlung nach einem Brand außerhalb einer Gesundheitseinrichtung.
+[2026-10-10 09:10:10] [enrich] --- Enriche [2/2]: Kampf gegen Brand in Belgien - eine Feuerwehrkraft in Klinik
+[2026-10-10 09:10:10] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiygFBVV95cUxNWVIwbmpkRGVMTGRFUnloWmdRWG1
+[2026-10-10 09:10:10] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-10 09:10:10] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (522 Z.)
+[2026-10-10 09:10:11] [enrich] FALSE POSITIVE erkannt: Brand in Belgien, nicht in Deutschland. Artikel behandelt einen Brand außerhalb Deutschlands.
+[2026-10-10 09:10:11] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-10-10 09:10:11] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-10 09:10:11] [DEDUP] Starte Dedup für 974 Einträge
+[2026-10-10 09:10:11] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-10 09:10:13] [DEDUP] Paare verglichen: 28359
+[2026-10-10 09:10:13] [DEDUP] Auto-Merges: 0
+[2026-10-10 09:10:13] [DEDUP] Kandidaten (unsicher): 790
+[2026-10-10 09:10:13] [DEDUP] Ergebnis: 974 Einträge (war: 974, 0 zusammengeführt)
+[2026-10-10 09:10:13] [DEDUP] Kandidaten-Datei: 790 pending, 2 confirmed, 0 rejected
+[2026-10-10 09:10:13] [DEDUP] Gespeichert: 974 → 974 Einträge

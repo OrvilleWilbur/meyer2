@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:44:28.514331",
+  "generated_at": "2026-10-10T09:10:13.271214",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -16584,6 +16584,39 @@
         "total": 0.55
       },
       "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde – Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
         "einrichtung": "im Krankenhaus",
         "ort": "",
         "datum": "16.07.2026",
@@ -17315,6 +17348,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.soester-anzeiger.de/deutschland-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-zr-94400195.html",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - Soester Anzeiger"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
       },
@@ -17777,6 +17843,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.kreiszeitung-wesermarsch.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-393086.html",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Kreiszeitung Wesermarsch"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
       },
@@ -18206,6 +18305,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.hz.de/deutschland-und-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - Heidenheimer Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
         "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
       },
@@ -18580,6 +18712,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827361/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-aktuelle-nachrichten-mit-dpa-eilmeldung-vom-16-07-2026/1/",
+        "titel": "Eilmeldung: Mann legt Feuer in Behörde - Vier Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       }
     },
     {
@@ -18998,6 +19163,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
         "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
       },
@@ -19328,6 +19526,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.noz.de/deutschland-welt/panorama/artikel/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-50931016",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - noz.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
         "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
       },
@@ -19625,6 +19856,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://bnn.de/nachrichten/deutschland-und-welt/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik",
+        "titel": "Mann legt Feuer in Behörde – mehrere Menschen in Klinik - Badische Neueste Nachrichten"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
       },
@@ -19867,6 +20131,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - ad-hoc-news.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       }
     },
     {
@@ -20153,6 +20450,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.infranken.de/ueberregional/newsticker-national/eilmeldungen/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-art-6379828",
+        "titel": "Mann legt Feuer in Behörde - Vier Menschen in Klinik - inFranken.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
         "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
       },
@@ -20329,6 +20659,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.ad-hoc-news.de/unterhaltung/kultur/ein-mann-legt-laut-polizei-ein-feuer-in-einem-behoerdenbuero/69779336",
+        "titel": "Mann legt Feuer in Behörde - mehrere Menschen in Klinik - AD HOC NEWS"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       }
     },
     {
@@ -20549,6 +20912,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.news.de/panorama/859827481/mann-legt-feuer-in-behoerde-mehrere-menschen-in-klinik-kriminalitaet-news-der-dpa-aktuell-zu-feuer/1/",
+        "titel": "Feuer: Mann legt Feuer in Behörde - mehrere Menschen in Klinik - News.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
       },
@@ -20659,6 +21055,39 @@
         "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - Rhein-Zeitung"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       }
     },
     {
@@ -20913,6 +21342,39 @@
         "bundesland": "",
         "status": "false_positive",
         "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
         "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
       },
       "entry_b": {
@@ -20978,6 +21440,39 @@
         "datum": "16.07.2026",
         "bundesland": "",
         "status": "false_positive",
+        "link": "https://www.welt.de/vermischtes/video6a58c4da8e06d6769140ee14/finsterwalde-in-brandenburg-mann-greift-mitarbeiterin-in-kreisverwaltung-an-und-legt-feuer-vier-menschen-in-klinik.html",
+        "titel": "Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - welt.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
         "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
         "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
       },
@@ -20989,6 +21484,72 @@
         "status": "false_positive",
         "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
         "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.rhein-zeitung.de/deutschland-welt/mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_arid-4141080.html",
+        "titel": "Kriminalität: Mann legt Feuer in Behörde - Vier Menschen in Klinik - Deutschland & Welt - rhein-zeitung.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://rp-online.de/panorama/deutschland/brandenburg-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik_aid-151601391",
+        "titel": "Im brandenburgischen Finsterwalde: Mann legt Feuer in Behörde - Vier Menschen in Klinik - rp-online.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "16.07.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbHMtVm5zUmwtTldkdndiX0ExRHFSMmJ6S0R0T3RiUHcyLU5mQWdNZk4zTXBpak5PeWdveWVGRENyZmg4Rm1xbXJQZFEycElYdVV0dkdnZ3A5TUdQWXBFVE1uMFA0VktTUUx1bWxqN0Ric0RLXy1Xa2kxcjgzbE12TV9LTDBBcTJzbTRmSWEtTDBIMjdtZXZzbU9sSnVZaDFWMWo0ZmtaZGt6ekZ3bkJqNGphNTJ2a2FZQ3Vzd2RyeXVxbmlYY3NEdjlONERlZHBwcjd6RFpUWGllR1JONF81RndKazI2ZE9VMXdQNXFFNXFNTWE0SHZjQ0FNdw?oc=5",
+        "titel": "Brandenburg: Mann greift Mitarbeiterin in Kreisverwaltung an und legt Feuer – vier Menschen in Klinik - WELT"
       }
     },
     {
@@ -21154,6 +21715,39 @@
         "status": "false_positive",
         "link": "https://www.spiegel.de/panorama/justiz/finsterwalde-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-a-012a1482-f06a-4041-b18d-62932e2f0a9e",
         "titel": "Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier Menschen im Krankenhaus - spiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "17.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.kulthitradio.de/kampf-gegen-brand-in-belgien-eine-feuerwehrkraft-in-klinik-3417444/",
+        "titel": "Kampf gegen Brand in Belgien – eine Feuerwehrkraft in Klinik - Kölsch Radio"
+      },
+      "entry_b": {
+        "einrichtung": "in Klinik",
+        "ort": "",
+        "datum": "17.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWVIwbmpkRGVMTGRFUnloWmdRWG1lZnZuQmRiM2F5dWJPV3diWWNpekJjTGVyS1hZUjR0QkVCYWJMZHA5c1JfNThyVEdkQ3hsbU1yZ0dxRTVpaWswTEVFZTBkR1EyYXVwdUJFUEpxLVRKbDJhU1NZZGpnZkFSMHlfN1NfdF9rMG8yU2ptdmNyZzNpTWhNUGd2MGNEank1RnppSjRGNW9LZlJMUUU3bXBHZlN3TlBMb2NSREMyLUZmRWVQNzBTZVJMWVF3?oc=5",
+        "titel": "Kampf gegen Brand in Belgien - eine Feuerwehrkraft in Klinik - WELT"
       }
     },
     {
