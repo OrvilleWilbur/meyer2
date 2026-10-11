@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:10:13.271214",
+  "generated_at": "2026-10-11T09:23:57.770950",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -463,6 +463,39 @@
         "status": "partial",
         "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNkFHa24tbVdSOWhHLXk0QlV3cmtwUDB3NldGc3ZSZzYyX2luNG55VUdRUXBIMnl3aVdicGJjb0ZyTlM1VHNTV2w5MnBvTmJxTWFCclZmLXFyWHhPOFZNMU5kalJaQmJJMnh0SDhRazQ3ZzJMaTA1NFhfT1VWT2JyeEpOYkswV2YzTmh5d21WR3RUOW1COEYwWVZnVXQ5blJ0TDN6dTQzNU1fS01SN0Z3SjVlOFZLc0I3YjdPTGUxMkxyZVd4Q0pyQU9QR2cyQ3NWR1pkQXF3?oc=5",
         "titel": "Notfälle: Flammen in Klinik - zwei Tote in Ludwigslust - Neue Presse Coburg"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.762,
+      "details": {
+        "datum": 1.0,
+        "ort": 1.0,
+        "einrichtung": 0.25,
+        "bundesland": 1.0,
+        "brandort": 0.0,
+        "total": 0.762
+      },
+      "entry_a": {
+        "einrichtung": "Stadtklinik Frankenthal",
+        "ort": "Frankenthal",
+        "datum": "19.12.2023",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "enriched",
+        "link": "https://www.focus.de/panorama/welt/drei-personen-schwer-verletzt-brand-in-stadtklinik-frankenthal-zwei-tote-gefunden_id_259510257.html",
+        "titel": "Verheerender Brand in pfälzischer Klinik - zwei Tote gefunden - FOCUS online"
+      },
+      "entry_b": {
+        "einrichtung": "Krankenhaus Frankenthal",
+        "ort": "Frankenthal",
+        "datum": "19.12.2023",
+        "bundesland": "Rheinland-Pfalz",
+        "status": "partial",
+        "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPN1JtSUczX3gwRmk4d19jZzdUbmJ0V2ZqVFJQcGw1aVV1VEVoeFJtcHlrQzhRbktQVlA5Tms5UmQxcXpmc1o5Y0NXOHl4LTRNVW1oeFFWTHIybDBrcDJWenVRTGM2ZXlyNDVxQkt6QnExLW9acTMyUUhBck9mY3JSdjZITFdac1NJaW96SUUzT3hDeExqckNKdmFmdS1MYzdoeDRIa3BnR21CVHJEeW9MVlJjYmR2XzA?oc=5",
+        "titel": "Feuer in Frankenthal: Zwei Patientinnen sterben bei Brand in Krankenhaus in der Pfalz - RP Online"
       }
     },
     {
