@@ -36631,3 +36631,47 @@
 [2026-10-11 09:23:57] [DEDUP] Ergebnis: 975 Einträge (war: 975, 0 zusammengeführt)
 [2026-10-11 09:23:57] [DEDUP] Kandidaten-Datei: 791 pending, 2 confirmed, 0 rejected
 [2026-10-11 09:23:57] [DEDUP] Gespeichert: 975 → 975 Einträge
+[2026-10-12 09:54:47] === Monitor-Lauf gestartet ===
+[2026-10-12 09:54:48] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-12 09:54:49] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-12 09:54:53] Feed 'gn_brand_krankenhaus': 0 Einträge
+[2026-10-12 09:54:53] Feed 'gn_feuer_krankenhaus': 49 Einträge
+[2026-10-12 09:54:54] Feed 'gn_feuer_klinik': 47 Einträge
+[2026-10-12 09:54:54] Feed 'gn_brand_klinik': 45 Einträge
+[2026-10-12 09:54:56] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-10-12 09:54:56] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-12 09:54:56] Feed 'gn_feuer_uniklinik': 30 Einträge
+[2026-10-12 09:54:57] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-10-12 09:54:58] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-12 09:54:58] 193 relevante Treffer in Feeds
+[2026-10-12 09:54:58] ✅ 2 NEUE Einträge gefunden:
+[2026-10-12 09:54:58]    28.05.2017 | im Klinikum Stadt Soest |  | Brand im Klinikum Stadt Soest - Soester Anzeiger
+[2026-10-12 09:54:58]    28.08.2026 |  |  | Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-10-12 09:54:58] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-12 09:54:58] === Monitor-Lauf beendet ===
+
+[2026-10-12 09:54:58] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-12 09:54:58] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-12 09:54:58] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-12 09:54:58] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-12 09:54:58] [enrich] --- Enriche [1/2]: Brand im Klinikum Stadt Soest - Soester Anzeiger
+[2026-10-12 09:54:58] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMihgFBVV95cUxPOVc0Rjg3U0NIYW01dlJNUlhxMkQ
+[2026-10-12 09:54:58] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-12 09:54:58] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (394 Z.)
+[2026-10-12 09:55:00] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift und einen Link ohne inhaltliche Informationen zum Brand. Es kann nicht überprüft werden, ob tatsächlich ein Brand im Krankenhaus stattgefunden hat oder um welche Art von Vorfall es sich handelt.
+[2026-10-12 09:55:01] [enrich] --- Enriche [2/2]: Evakuierung: Klinik ohne Strom: Schwangere und Intensivpatie
+[2026-10-12 09:55:01] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimgFBVV95cUxPR3pMUUcwc1lNWTdNSlptNV9OQWJ
+[2026-10-12 09:55:01] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-12 09:55:01] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (490 Z.)
+[2026-10-12 09:55:02] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt eine Evakuierung aufgrund eines Stromausfalls, nicht aufgrund eines Brandes in der Klinik
+[2026-10-12 09:55:02] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-10-12 09:55:02] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-12 09:55:02] [DEDUP] Starte Dedup für 977 Einträge
+[2026-10-12 09:55:02] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-12 09:55:05] [DEDUP] Paare verglichen: 28487
+[2026-10-12 09:55:05] [DEDUP] Auto-Merges: 0
+[2026-10-12 09:55:05] [DEDUP] Kandidaten (unsicher): 791
+[2026-10-12 09:55:05] [DEDUP] Ergebnis: 977 Einträge (war: 977, 0 zusammengeführt)
+[2026-10-12 09:55:05] [DEDUP] Kandidaten-Datei: 791 pending, 2 confirmed, 0 rejected
+[2026-10-12 09:55:05] [DEDUP] Gespeichert: 977 → 977 Einträge
