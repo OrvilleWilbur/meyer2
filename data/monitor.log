@@ -36675,3 +36675,83 @@
 [2026-10-12 09:55:05] [DEDUP] Ergebnis: 977 Einträge (war: 977, 0 zusammengeführt)
 [2026-10-12 09:55:05] [DEDUP] Kandidaten-Datei: 791 pending, 2 confirmed, 0 rejected
 [2026-10-12 09:55:05] [DEDUP] Gespeichert: 977 → 977 Einträge
+[2026-10-13 09:49:20] === Monitor-Lauf gestartet ===
+[2026-10-13 09:49:21] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-13 09:49:22] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-13 09:49:22] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-10-13 09:49:22] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-10-13 09:49:23] Feed 'gn_feuer_klinik': 48 Einträge
+[2026-10-13 09:49:23] Feed 'gn_brand_klinik': 42 Einträge
+[2026-10-13 09:49:23] Feed 'gn_brand_klinikum': 34 Einträge
+[2026-10-13 09:49:24] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-13 09:49:24] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-13 09:49:25] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-10-13 09:49:26] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-13 09:49:26] 241 relevante Treffer in Feeds
+[2026-10-13 09:49:26] ✅ 8 NEUE Einträge gefunden:
+[2026-10-13 09:49:26]    03.05.2023 | in Krankenhaus |  | Mann wird an Bett fixiert und stirbt bei Feuer in Krankenhau
+[2026-10-13 09:49:26]    13.10.2026 |  |  | Brand in Starlink-Station in Polen: Tusk gibt zwei Festnahme
+[2026-10-13 09:49:26]    12.10.2026 |  |  | Polen vermutet Russland hinter Brand an Starlink-Station – F
+[2026-10-13 09:49:26]    12.10.2026 |  |  | Brand an Starlink-Bodenstation: Polen meldet nach Brand in S
+[2026-10-13 09:49:26]    12.10.2026 |  |  | Brand an Starlink-Station – Festnahmen in Deutschland - T-On
+[2026-10-13 09:49:26]    12.10.2026 |  |  | "Akt hybrider Kriegsführung": Brand in polnischer Starlink-S
+[2026-10-13 09:49:26]    13.10.2026 |  |  | Brandanschlag auf polnische Starlink-Station: Festnahmen in 
+[2026-10-13 09:49:26]    13.10.2026 |  |  | Brandanschlag auf Starlink-Station in Polen: Zwei Verdächtig
+[2026-10-13 09:49:26] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-13 09:49:26] === Monitor-Lauf beendet ===
+
+[2026-10-13 09:49:26] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-13 09:49:26] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-13 09:49:26] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-13 09:49:26] [enrich] 8 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-13 09:49:26] [enrich] --- Enriche [1/8]: Mann wird an Bett fixiert und stirbt bei Feuer in Krankenhau
+[2026-10-13 09:49:26] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMitgFBVV95cUxPcWZ3aG5ZczhXT3lBRDNrVHVKMng
+[2026-10-13 09:49:26] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:26] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (498 Z.)
+[2026-10-13 09:49:28] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Schlagzeile ohne Kontextinformation. Es ist unklar, in welchem Krankenhaus der Brand stattfand, wo er sich ereignete, wann er passierte und weitere wesentliche Details. Die Schlagzeile allein reicht nicht aus, um einen validierten Krankenhausbrand zu dokumentieren.
+[2026-10-13 09:49:29] [enrich] --- Enriche [2/8]: Brand in Starlink-Station in Polen: Tusk gibt zwei Festnahme
+[2026-10-13 09:49:29] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi6AFBVV95cUxORzVLVkM3X2RhVEdWYldEMFpCb0J
+[2026-10-13 09:49:29] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:29] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (600 Z.)
+[2026-10-13 09:49:30] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen Brand in einer Starlink-Station in Polen, nicht in einem deutschen Krankenhaus oder einer Klinik.
+[2026-10-13 09:49:31] [enrich] --- Enriche [3/8]: Polen vermutet Russland hinter Brand an Starlink-Station – F
+[2026-10-13 09:49:31] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMi7AFBVV95cUxQemZsNE9rQmNZRzY5Mk1SbFBzUGZ
+[2026-10-13 09:49:31] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (595 Z.)
+[2026-10-13 09:49:32] [enrich] FALSE POSITIVE erkannt: Der Artikel behandelt einen Brand an einer Starlink-Station in Polen, nicht einen Brand in einem deutschen Krankenhaus oder einer Klinik. Die Erwähnung von 'Festnahmen in Deutschland' bezieht sich nicht auf einen Krankenhausbrand.
+[2026-10-13 09:49:33] [enrich] --- Enriche [4/8]: Brand an Starlink-Bodenstation: Polen meldet nach Brand in S
+[2026-10-13 09:49:33] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimwFBVV95cUxNVWpfVzBCaGZlcWhOb2pubVFIV2U
+[2026-10-13 09:49:33] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:33] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (550 Z.)
+[2026-10-13 09:49:34] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand an einer Starlink-Bodenstation, nicht in einem Krankenhaus oder einer Klinik
+[2026-10-13 09:49:35] [enrich] --- Enriche [5/8]: Brand an Starlink-Station – Festnahmen in Deutschland - T-On
+[2026-10-13 09:49:35] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWUVSYkhkcF9aMm90X083eGdiSDF
+[2026-10-13 09:49:35] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:35] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (506 Z.)
+[2026-10-13 09:49:36] [enrich] FALSE POSITIVE erkannt: Artikel behandelt einen Brand an einer Starlink-Station, nicht in einem Krankenhaus oder einer Klinik
+[2026-10-13 09:49:37] [enrich] --- Enriche [6/8]: "Akt hybrider Kriegsführung": Brand in polnischer Starlink-S
+[2026-10-13 09:49:37] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQWtkR2FwRlVocjVmdFJYRk5lLUE
+[2026-10-13 09:49:37] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:37] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (554 Z.)
+[2026-10-13 09:49:38] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer polnischen Starlink-Station, nicht in einem deutschen Krankenhaus oder einer Klinik.
+[2026-10-13 09:49:39] [enrich] --- Enriche [7/8]: Brandanschlag auf polnische Starlink-Station: Festnahmen in 
+[2026-10-13 09:49:39] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaWFtZV80SFhTNm1qYXpTV1ctd3Y
+[2026-10-13 09:49:39] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:39] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (502 Z.)
+[2026-10-13 09:49:40] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brandanschlag auf eine Starlink-Station in Polen, nicht einen Brand in einem deutschen Krankenhaus oder einer Klinik
+[2026-10-13 09:49:41] [enrich] --- Enriche [8/8]: Brandanschlag auf Starlink-Station in Polen: Zwei Verdächtig
+[2026-10-13 09:49:41] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMioAFBVV95cUxQdk4tand4MGdSNGtMaTZSdm4wd2l
+[2026-10-13 09:49:41] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-13 09:49:41] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (536 Z.)
+[2026-10-13 09:49:42] [enrich] FALSE POSITIVE erkannt: Der Artikel handelt von einem Brandanschlag auf eine Starlink-Station in Polen, nicht von einem Brand in einem deutschen Krankenhaus oder einer Klinik.
+[2026-10-13 09:49:42] [enrich] Ergebnis: 0 enriched, 0 partial, 8 false_positive, 0 failed
+[2026-10-13 09:49:42] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-13 09:49:42] [DEDUP] Starte Dedup für 985 Einträge
+[2026-10-13 09:49:42] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-13 09:49:44] [DEDUP] Paare verglichen: 28667
+[2026-10-13 09:49:44] [DEDUP] Auto-Merges: 0
+[2026-10-13 09:49:44] [DEDUP] Kandidaten (unsicher): 791
+[2026-10-13 09:49:44] [DEDUP] Ergebnis: 985 Einträge (war: 985, 0 zusammengeführt)
+[2026-10-13 09:49:44] [DEDUP] Kandidaten-Datei: 791 pending, 2 confirmed, 0 rejected
+[2026-10-13 09:49:45] [DEDUP] Gespeichert: 985 → 985 Einträge
