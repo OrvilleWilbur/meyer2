@@ -36817,3 +36817,47 @@
 [2026-10-14 08:06:08] [DEDUP] Ergebnis: 990 Einträge (war: 990, 0 zusammengeführt)
 [2026-10-14 08:06:08] [DEDUP] Kandidaten-Datei: 791 pending, 2 confirmed, 0 rejected
 [2026-10-14 08:06:08] [DEDUP] Gespeichert: 990 → 990 Einträge
+[2026-10-15 07:47:15] === Monitor-Lauf gestartet ===
+[2026-10-15 07:47:16] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-15 07:47:17] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-15 07:47:17] Feed 'gn_brand_krankenhaus': 52 Einträge
+[2026-10-15 07:47:18] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-10-15 07:47:18] Feed 'gn_feuer_klinik': 46 Einträge
+[2026-10-15 07:47:19] Feed 'gn_brand_klinik': 46 Einträge
+[2026-10-15 07:47:19] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-10-15 07:47:20] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-15 07:47:20] Feed 'gn_feuer_uniklinik': 36 Einträge
+[2026-10-15 07:47:20] Feed 'gn_evakuierung_klinik': 42 Einträge
+[2026-10-15 07:47:22] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-15 07:47:22] 247 relevante Treffer in Feeds
+[2026-10-15 07:47:22] ✅ 2 NEUE Einträge gefunden:
+[2026-10-15 07:47:22]    24.09.2026 | Gefängniskrankenhaus |  | Zwei Menschen schwer verletzt: Feuer im Gefängniskrankenhaus
+[2026-10-15 07:47:22]    14.10.2026 | bei Krankenhaus und Bahnlinien |  | Evakuierung? Gießen untersucht mögliche Bombe bei Krankenhau
+[2026-10-15 07:47:22] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-15 07:47:22] === Monitor-Lauf beendet ===
+
+[2026-10-15 07:47:22] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-15 07:47:22] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-15 07:47:22] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-15 07:47:22] [enrich] 2 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-15 07:47:22] [enrich] --- Enriche [1/2]: Zwei Menschen schwer verletzt: Feuer im Gefängniskrankenhaus
+[2026-10-15 07:47:22] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGtVMWdUaUE3NTIzMERlTjl2TGp
+[2026-10-15 07:47:22] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-15 07:47:22] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (489 Z.)
+[2026-10-15 07:47:24] [enrich] FALSE POSITIVE erkannt: Bei dem Gefängniskrankenhaus handelt es sich um eine Einrichtung des Strafvollzugs, keine öffentliche Klinik oder Krankenhaus im herkömmlichen Sinne. Die Datenbank ist für Brände in Krankenhäusern und Kliniken in Deutschland konzipiert, nicht für Brände in Gefängniseinrichtungen.
+[2026-10-15 07:47:25] [enrich] --- Enriche [2/2]: Evakuierung? Gießen untersucht mögliche Bombe bei Krankenhau
+[2026-10-15 07:47:25] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMiugJBVV95cUxNTTV4U0kzRGF6eG9YWFBhY04yTzJ
+[2026-10-15 07:47:25] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-15 07:47:25] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (594 Z.)
+[2026-10-15 07:47:26] [enrich] FALSE POSITIVE erkannt: Evakuierung wegen möglicher Bombenentschärfung, nicht wegen Brand
+[2026-10-15 07:47:26] [enrich] Ergebnis: 0 enriched, 0 partial, 2 false_positive, 0 failed
+[2026-10-15 07:47:26] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-15 07:47:27] [DEDUP] Starte Dedup für 992 Einträge
+[2026-10-15 07:47:27] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-15 07:47:29] [DEDUP] Paare verglichen: 28961
+[2026-10-15 07:47:29] [DEDUP] Auto-Merges: 0
+[2026-10-15 07:47:29] [DEDUP] Kandidaten (unsicher): 792
+[2026-10-15 07:47:29] [DEDUP] Ergebnis: 992 Einträge (war: 992, 0 zusammengeführt)
+[2026-10-15 07:47:29] [DEDUP] Kandidaten-Datei: 792 pending, 2 confirmed, 0 rejected
+[2026-10-15 07:47:29] [DEDUP] Gespeichert: 992 → 992 Einträge

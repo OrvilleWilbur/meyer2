@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:06:08.585936",
+  "generated_at": "2026-10-15T07:47:29.348549",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -24553,6 +24553,39 @@
         "status": "false_positive",
         "link": "https://www.deutschlandfunk.de/zwei-tote-bei-brand-in-krankenhaus-in-ludwigslust-100.html",
         "titel": "Mecklenburg-Vorpommern - Zwei Tote bei Brand in Krankenhaus in Ludwigslust - deutschlandfunk.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.5,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 0.8,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.5
+      },
+      "entry_a": {
+        "einrichtung": "Gefängnis-Krankenhaus schwer verletzt",
+        "ort": "",
+        "datum": "24.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSFpNQlNfc1NqbG1kdzFFLU1uaFdxVC0weUVyUll6d3VPNEUzdmR2czdXQ0s3cU9rRDVzSFh5Ull2UHB3MTJobDZoRWNvZUN5YTA4b3FkR2tQTi1Vc0dnY3hRVUpnLUJjc280OGo1YVRFTUwtV0JpRDIza2RVR3o5OTJFRWRsY2xnOTh1VXRhZWFWTE9WQ1F2eXBjSF96YzhaOXB2M2lmeUVrMUpu?oc=5",
+        "titel": "Brand in Fröndenberg: Zwei Menschen bei Zellenbrand in Gefängnis-Krankenhaus schwer verletzt - RP Online"
+      },
+      "entry_b": {
+        "einrichtung": "Gefängniskrankenhaus",
+        "ort": "",
+        "datum": "24.09.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGtVMWdUaUE3NTIzMERlTjl2TGplYkpKU3VEN2hIYW9DbDJPbTBNbFh3ZDJoMHZtMzg1OURBbmpYeEx6TWxiUF9KOXRzOWFuQlg3UjZxZm0wSE9VUzRac1dZRkRpLU9OV0JvNDRDWU1kM01acGtzMG5RY21wWS1KZDNhUDJ3ZkRYRmdTNnRGek1lTG9CQ1plZmhFQXk?oc=5",
+        "titel": "Zwei Menschen schwer verletzt: Feuer im Gefängniskrankenhaus in Fröndenberg - WDR"
       }
     },
     {
