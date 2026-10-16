@@ -36861,3 +36861,41 @@
 [2026-10-15 07:47:29] [DEDUP] Ergebnis: 992 Einträge (war: 992, 0 zusammengeführt)
 [2026-10-15 07:47:29] [DEDUP] Kandidaten-Datei: 792 pending, 2 confirmed, 0 rejected
 [2026-10-15 07:47:29] [DEDUP] Gespeichert: 992 → 992 Einträge
+[2026-10-16 07:35:25] === Monitor-Lauf gestartet ===
+[2026-10-16 07:35:26] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-16 07:35:26] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-16 07:35:27] Feed 'gn_brand_krankenhaus': 50 Einträge
+[2026-10-16 07:35:27] Feed 'gn_feuer_krankenhaus': 53 Einträge
+[2026-10-16 07:35:28] Feed 'gn_feuer_klinik': 44 Einträge
+[2026-10-16 07:35:28] Feed 'gn_brand_klinik': 47 Einträge
+[2026-10-16 07:35:28] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-10-16 07:35:29] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-16 07:35:29] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-16 07:35:29] Feed 'gn_evakuierung_klinik': 41 Einträge
+[2026-10-16 07:35:31] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-16 07:35:31] 242 relevante Treffer in Feeds
+[2026-10-16 07:35:31] ✅ 1 NEUE Einträge gefunden:
+[2026-10-16 07:35:31]    25.04.2021 | in Krankenhaus |  | Irak: Mindestens 82 Tote bei Brand in Krankenhaus - BSAktuel
+[2026-10-16 07:35:31] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-16 07:35:31] === Monitor-Lauf beendet ===
+
+[2026-10-16 07:35:31] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-16 07:35:31] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-16 07:35:31] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-16 07:35:31] [enrich] 1 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-16 07:35:31] [enrich] --- Enriche [1/1]: Irak: Mindestens 82 Tote bei Brand in Krankenhaus - BSAktuel
+[2026-10-16 07:35:31] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMilAFBVV95cUxPZl9zeEs1SFBMSFU0cjgyTVAzQ0Z
+[2026-10-16 07:35:31] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-16 07:35:31] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (438 Z.)
+[2026-10-16 07:35:32] [enrich] FALSE POSITIVE erkannt: Brand in einem Krankenhaus im Irak, nicht in Deutschland
+[2026-10-16 07:35:32] [enrich] Ergebnis: 0 enriched, 0 partial, 1 false_positive, 0 failed
+[2026-10-16 07:35:32] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-16 07:35:32] [DEDUP] Starte Dedup für 993 Einträge
+[2026-10-16 07:35:32] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-16 07:35:34] [DEDUP] Paare verglichen: 28964
+[2026-10-16 07:35:34] [DEDUP] Auto-Merges: 0
+[2026-10-16 07:35:34] [DEDUP] Kandidaten (unsicher): 792
+[2026-10-16 07:35:34] [DEDUP] Ergebnis: 993 Einträge (war: 993, 0 zusammengeführt)
+[2026-10-16 07:35:34] [DEDUP] Kandidaten-Datei: 792 pending, 2 confirmed, 0 rejected
+[2026-10-16 07:35:34] [DEDUP] Gespeichert: 993 → 993 Einträge
