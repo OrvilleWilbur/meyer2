@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:35:34.115525",
+  "generated_at": "2026-10-17T07:15:11.177602",
   "auto_merge_threshold": 0.8,
   "candidate_min_threshold": 0.45,
   "pending": [
@@ -21748,6 +21748,39 @@
         "status": "false_positive",
         "link": "https://www.spiegel.de/panorama/justiz/finsterwalde-mann-legt-feuer-in-behoerde-vier-menschen-in-klinik-a-012a1482-f06a-4041-b18d-62932e2f0a9e",
         "titel": "Finsterwalde: Mann soll Feuer in Behörde gelegt haben – vier Menschen im Krankenhaus - spiegel.de"
+      }
+    },
+    {
+      "hashes": [
+        "",
+        ""
+      ],
+      "score": 0.55,
+      "details": {
+        "datum": 1.0,
+        "ort": 0.0,
+        "einrichtung": 1.0,
+        "bundesland": 0.0,
+        "brandort": 0.0,
+        "total": 0.55
+      },
+      "entry_a": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://www.stern.de/gesellschaft/regional/mecklenburg-vorpommern/feuer-in-krankenhaus--einen-monat-nach-klinikbrand-noch-eine-station-geschlossen-38046536.html",
+        "titel": "Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine Station geschlossen - stern.de"
+      },
+      "entry_b": {
+        "einrichtung": "in Krankenhaus",
+        "ort": "",
+        "datum": "02.08.2026",
+        "bundesland": "",
+        "status": "false_positive",
+        "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPazNZRWgxVW1KdEkxNkdpQTJKRmRwMmVUZGdLMlIyN3hiam9QckJSZHRHMDQwTE50TEw4MzZCYTNrR2FMZUxnYmY3UWJ5cDRDQjZjMzM4d3FGa05oNVFITUx3ZUJwNy1reUF5d2xjb1o2QlhHN3lxX1llNFZjay00UWxtSDAtUklPb1o5MGhOSTlpdGRDTEE0MURB?oc=5",
+        "titel": "Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine Station geschlossen - DIE ZEIT"
       }
     },
     {

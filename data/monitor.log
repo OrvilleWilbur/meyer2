@@ -36899,3 +36899,53 @@
 [2026-10-16 07:35:34] [DEDUP] Ergebnis: 993 Einträge (war: 993, 0 zusammengeführt)
 [2026-10-16 07:35:34] [DEDUP] Kandidaten-Datei: 792 pending, 2 confirmed, 0 rejected
 [2026-10-16 07:35:34] [DEDUP] Gespeichert: 993 → 993 Einträge
+[2026-10-17 07:14:55] === Monitor-Lauf gestartet ===
+[2026-10-17 07:14:56] Feed 'presseportal_feuerwehr': 0 Einträge
+[2026-10-17 07:14:57] Feed 'presseportal_blaulicht': 0 Einträge
+[2026-10-17 07:14:57] Feed 'gn_brand_krankenhaus': 49 Einträge
+[2026-10-17 07:14:58] Feed 'gn_feuer_krankenhaus': 52 Einträge
+[2026-10-17 07:14:58] Feed 'gn_feuer_klinik': 43 Einträge
+[2026-10-17 07:14:59] Feed 'gn_brand_klinik': 47 Einträge
+[2026-10-17 07:14:59] Feed 'gn_brand_klinikum': 37 Einträge
+[2026-10-17 07:14:59] Feed 'gn_klinikbrand': 100 Einträge
+[2026-10-17 07:15:00] Feed 'gn_feuer_uniklinik': 31 Einträge
+[2026-10-17 07:15:00] Feed 'gn_evakuierung_klinik': 49 Einträge
+[2026-10-17 07:15:01] Feed 'feuerwehrmagazin': 10 Einträge
+[2026-10-17 07:15:01] 240 relevante Treffer in Feeds
+[2026-10-17 07:15:02] ✅ 3 NEUE Einträge gefunden:
+[2026-10-17 07:15:02]    02.08.2026 | in Krankenhaus |  | Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine
+[2026-10-17 07:15:02]    13.10.2026 |  |  | Brandanschlag auf Starlink-Station in Polen: Verdächtige gef
+[2026-10-17 07:15:02]    12.10.2026 |  |  | Brand in Starlink-Station: Tusk gibt Festnahmen in Deutschla
+[2026-10-17 07:15:02] E-Mail nicht konfiguriert, überspringe Benachrichtigung
+[2026-10-17 07:15:02] === Monitor-Lauf beendet ===
+
+[2026-10-17 07:15:02] [enrich] === Enrichment-Lauf gestartet ===
+[2026-10-17 07:15:02] [enrich] googlenewsdecoder v1: NICHT verfügbar
+[2026-10-17 07:15:02] [enrich] googlenewsdecoder v2: NICHT verfügbar
+[2026-10-17 07:15:02] [enrich] 3 Einträge warten auf Enrichment (max 20 pro Lauf)
+[2026-10-17 07:15:02] [enrich] --- Enriche [1/3]: Feuer in Krankenhaus: Einen Monat nach Klinikbrand noch eine
+[2026-10-17 07:15:02] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMimgFBVV95cUxPazNZRWgxVW1KdEkxNkdpQTJKRmR
+[2026-10-17 07:15:02] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-17 07:15:02] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (506 Z.)
+[2026-10-17 07:15:04] [enrich] FALSE POSITIVE erkannt: Der Artikel enthält nur eine Überschrift ohne Inhalt. Es kann nicht überprüft werden, ob es sich um einen Brand IN einem deutschen Krankenhaus handelt oder um einen anderen Kontext (z.B. Brand in der Nähe, Behandlung von Brandopfern). Für eine sachgerechte Klassifizierung ist der vollständige Artikeltext erforderlich.
+[2026-10-17 07:15:05] [enrich] --- Enriche [2/3]: Brandanschlag auf Starlink-Station in Polen: Verdächtige gef
+[2026-10-17 07:15:05] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMitAFBVV95cUxNVHVXcmFHNGxYcTBWZEZpVGhOT0t
+[2026-10-17 07:15:05] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-17 07:15:05] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (519 Z.)
+[2026-10-17 07:15:06] [enrich] FALSE POSITIVE erkannt: Artikel beschreibt einen Brandanschlag auf eine Starlink-Station in Polen, nicht einen Brand in einem deutschen Krankenhaus oder einer Klinik
+[2026-10-17 07:15:07] [enrich] --- Enriche [3/3]: Brand in Starlink-Station: Tusk gibt Festnahmen in Deutschla
+[2026-10-17 07:15:07] [enrich] Google News URL konnte NICHT aufgelöst werden: https://news.google.com/rss/articles/CBMitwFBVV95cUxPVTFlWjdiVnpzVU9zNUFpR2NyVVB
+[2026-10-17 07:15:07] [enrich] Überspringe Fetch — Google News URL nicht aufgelöst
+[2026-10-17 07:15:07] [enrich] Volltext zu kurz/leer (0 Z.), verwende RSS-Snippet (525 Z.)
+[2026-10-17 07:15:08] [enrich] FALSE POSITIVE erkannt: Der Artikel beschreibt einen Brand in einer Starlink-Station, nicht in einem Krankenhaus oder einer Klinik in Deutschland.
+[2026-10-17 07:15:08] [enrich] Ergebnis: 0 enriched, 0 partial, 3 false_positive, 0 failed
+[2026-10-17 07:15:08] [enrich] === Enrichment-Lauf beendet ===
+
+[2026-10-17 07:15:08] [DEDUP] Starte Dedup für 996 Einträge
+[2026-10-17 07:15:08] [DEDUP] Bestätigte Merges: 1, Abgelehnte: 0
+[2026-10-17 07:15:11] [DEDUP] Paare verglichen: 29163
+[2026-10-17 07:15:11] [DEDUP] Auto-Merges: 0
+[2026-10-17 07:15:11] [DEDUP] Kandidaten (unsicher): 793
+[2026-10-17 07:15:11] [DEDUP] Ergebnis: 996 Einträge (war: 996, 0 zusammengeführt)
+[2026-10-17 07:15:11] [DEDUP] Kandidaten-Datei: 793 pending, 2 confirmed, 0 rejected
+[2026-10-17 07:15:11] [DEDUP] Gespeichert: 996 → 996 Einträge
